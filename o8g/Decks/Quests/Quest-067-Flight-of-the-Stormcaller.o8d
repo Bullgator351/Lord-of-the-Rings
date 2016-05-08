@@ -35,8 +35,6 @@
     <card qty="2" id="ec2f100d-22c8-4cc6-82d9-fb4f07446b0f">Rolling Seas</card>
     <card qty="1" id="5484e07e-b5a2-470a-84ba-be78062a61f2">Flight of the Stormcaller</card>
     <card qty="1" id="39df5c92-f79e-4d39-b8a3-f93631e183db">Full Sail Ahead!</card>
-    <card qty="1" id="c7bcb6fc-dde8-4df0-bd0e-3791b0fef4d0">The Weather Turns Foul</card>
-    <card qty="1" id="076e69c7-156b-46ef-8d11-d6a659da68b2">The Cape of Andrast</card>
     <card qty="1" id="3065a397-5346-4148-8e0a-47009fe9b87d">The Stormcaller</card>
     <card qty="1" id="07a8f60f-926c-4342-bf04-e3af9a24df10">Dream-chaser</card>
     <card qty="1" id="81632d10-625e-42f0-9e6b-09574a9ffbc3">Dawn Star</card>
@@ -50,5 +48,9 @@
   <section name="Event" shared="False" />
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True">
+    <card qty="1" id="c7bcb6fc-dde8-4df0-bd0e-3791b0fef4d0">The Weather Turns Foul</card>
+    <card qty="1" id="076e69c7-156b-46ef-8d11-d6a659da68b2">The Cape of Andrast</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>
