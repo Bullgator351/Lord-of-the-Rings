@@ -154,6 +154,7 @@
 			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
 			<groupactions menu="Quest Specific Actions">
 				<groupaction menu="Escape from Mt Gram - Capture Deck" default="False" execute="captureDeck" />
+				<groupaction menu="Murder at Prancing Pony - Draw Suspect + Hideout" default="False" execute="investigationDeck" />
 			</groupactions>
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
 		</group>
@@ -197,6 +198,9 @@
 			<groupaction menu="Move All to Encounter Deck Bottom" default="False" execute="moveAllToEncounterBottom" />
 			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounterSpecial" />
+			<groupactions menu="Quest Specific Actions">
+				<groupaction menu="Murder at Prancing Pony - Draw Suspect + Hideout" default="False" execute="investigationDeck" />
+			</groupactions>
 		</group>
 		<group name="Special Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/dead2.png" collapsed="True">
 			<groupaction menu="Shuffle into Special Deck" default="True" execute="moveAllToSpecial" />

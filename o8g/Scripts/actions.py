@@ -1754,3 +1754,8 @@ def captureDeck(group):
 	notify("{} creates their Capture Deck".format(me))
 	if pile.collapsed:
 		pile.collapsed = False
+
+def investigationDeck(group):
+	if len(group) == 0: return
+	mute()
+	
