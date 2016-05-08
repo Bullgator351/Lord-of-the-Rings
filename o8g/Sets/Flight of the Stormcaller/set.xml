@@ -109,7 +109,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="stt"/>
+    <property name="Setup" value="sstttttttttt"/>
     <alternate name="Swift Departure" type="B">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>

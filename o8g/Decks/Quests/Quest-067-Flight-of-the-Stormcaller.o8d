@@ -1,11 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Side Quest" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="4489214b-775c-4e63-b8ec-c504526e478f">Swift Departure</card>
     <card qty="1" id="315ddd38-e50f-4db0-8e5c-8030998e4f7f">Full Sail Ahead!</card>
@@ -39,15 +33,22 @@
   </section>
   <section name="Setup" shared="True">
     <card qty="2" id="ec2f100d-22c8-4cc6-82d9-fb4f07446b0f">Rolling Seas</card>
+    <card qty="1" id="5484e07e-b5a2-470a-84ba-be78062a61f2">Flight of the Stormcaller</card>
     <card qty="1" id="39df5c92-f79e-4d39-b8a3-f93631e183db">Full Sail Ahead!</card>
     <card qty="1" id="c7bcb6fc-dde8-4df0-bd0e-3791b0fef4d0">The Weather Turns Foul</card>
     <card qty="1" id="076e69c7-156b-46ef-8d11-d6a659da68b2">The Cape of Andrast</card>
-    <card qty="1" id="5484e07e-b5a2-470a-84ba-be78062a61f2">Flight of the Stormcaller</card>
     <card qty="1" id="3065a397-5346-4148-8e0a-47009fe9b87d">The Stormcaller</card>
     <card qty="1" id="07a8f60f-926c-4342-bf04-e3af9a24df10">Dream-chaser</card>
     <card qty="1" id="81632d10-625e-42f0-9e6b-09574a9ffbc3">Dawn Star</card>
     <card qty="1" id="32db1af6-e214-4958-9ca4-bdf3a73758b5">Nárelenya</card>
     <card qty="1" id="c9139d8c-0d9d-4d34-bfb5-8d40ca455bfc">Silver Wing</card>
+    <card qty="1" id="ce1cf93c-68d9-4613-af3a-a08671152358">Heading</card>
   </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
   <notes><![CDATA[]]></notes>
 </deck>
