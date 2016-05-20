@@ -1,4 +1,5 @@
 import time
+import re
 
 Resource = ("Resource", "62a2ba76-9872-481b-b8fc-ec35447ca640")
 Damage = ("Damage", "38d55f36-04d7-4cf9-a496-06cb84de567d")
@@ -7,6 +8,7 @@ WillpowerToken = ("WillpowerToken", "f24eb0c4-8405-4599-ba80-95bc009ae9fb")
 AttackToken = ("AttackToken", "53f20b83-6292-4017-abd0-511efdaf710d")
 DefenseToken = ("DefenseToken", "6987d1a6-55ab-4ced-bbec-4e5b3490a40e")
 ThreatToken = ("ThreatToken", "39df75f2-141d-425f-b651-d572b4885004")
+TimeToken = ("TimeToken", "31627422-f546-4a69-86df-ca0a028f3138")
 Lock = ("Lock", "04d7b7bb-13ee-499c-97c0-c1b96a897560")
 Turn = ("Turn", "e0a54bea-6e30-409d-82cd-44a944e591dc")
 phases = [  "5b015ce5-9282-402f-8fae-2ee819bd1545",
@@ -390,6 +392,7 @@ def startOfGame():
 	# NEW
 	#---------------------------------------------------------------------------
 	setGlobalVariable("currentPlayers",str([]))
+	setGlobalReminders()
 
 
 #Triggered event OnLoadDeck
@@ -689,6 +692,7 @@ def updatePhase(who=me):
 					highlightPlayer(me, None)
 				if isEncounterPlayer:
 					nextPhase()
+					refreshReminders()
 				
 				#We need to check if we are ready to complete phase 7
 				ready = (numDone(7, 1) >= activePlayers())
@@ -922,6 +926,8 @@ def addHiddenSpecial(group, x=0, y=0):
 	
 def addEncounter(group=None, x=0, y=0):
 	nextEncounter(encounterDeck(), x, y, False)
+	if me == encounterDeck().controller:
+		questReminders()
 	
 def addEncounterSpecial(group=None, x=0, y=0):
 	nextEncounter(specialDeck(), x, y, False)
@@ -959,6 +965,7 @@ def nextEncounter(group, x, y, facedown, who=me):
 		card.moveToTable(x-card.width()/2, y-card.height()/2, facedown)
 		notify("{} places '{}' on the table.".format(who, card))
 	card.setController(who)
+	setReminders(card)
 	if len(group) == 0:
 		resetEncounterDeck(group)
 	
@@ -988,6 +995,7 @@ def nextQuestStage(group=None, x=0, y=0):
 			
 	card = group.top()
 	card.moveToTable(x, y)
+	setReminders(card)
 	if card.Type in ("Nightmare", "Campaign"):
 		card.moveToTable(x, y+1)
 		notify("{} begins a {} quest '{}'".format(me, card.Type, card))
@@ -1020,8 +1028,10 @@ def questSetup(card):
 				addToTable(c)
 			elif card.Setup[i] == 's':
 				addToStagingArea(c)
+				setReminders(c)
 			elif card.Setup[i] == 'l':
 				makeActive(c)
+				setReminders(c)
 			i += 1
 			
 def readyForNextRound(group=table, x=0, y=0):
@@ -1064,6 +1074,9 @@ def doNextRound():
 			
 	if not phaseManagement():
 		clearHighlights()
+	
+	if me == encounterDeck().controller:
+		resourceReminders()
 					
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 	mute()
@@ -1314,7 +1327,6 @@ def makeActive(card, x=0, y=0):
 	mute()
 	if card.Type != "Location": return
 	card.moveToTable(252, -229)
-	notify("{} becomes the Active Location.".format(card))
 		
 def addResource(card, x = 0, y = 0):
     addToken(card, Resource)
@@ -1335,7 +1347,10 @@ def addDefense(card, x = 0, y = 0):
     addToken(card, DefenseToken)  
 
 def addThreat(card, x = 0, y = 0):
-    addToken(card, ThreatToken)  
+    addToken(card, ThreatToken)
+	
+def addTime(card, x=0, y=0):
+    addToken(card, TimeToken)
 
 def addTurn(card, x=0, y=0):
 	if isFirstPlayerToken([card]):
@@ -1366,6 +1381,9 @@ def subDefense(card, x = 0, y = 0):
 
 def subThreat(card, x = 0, y = 0):
     subToken(card, ThreatToken)
+	
+def subTime(card, x=0, y=0):
+    subToken(card, TimeToken)
 
 def subTurn(card, x=0, y=0):
 	if isFirstPlayerToken([card]) and shared.counters['Round'].value > 0:
@@ -1433,7 +1451,8 @@ def addShadow(card, x=0, y=0):
 	
 	notify("{} adds a shadow card to '{}'".format(me, card))
 	dealShadow(card.controller, x, y)
-
+	if me == encounterDeck().controller:
+		combatReminders()
 def dealShadow(who, x, y):
 	if encounterDeck().controller != me:
 		remoteCall(encounterDeck().controller, "dealShadow", [who, x, y])
@@ -1596,12 +1615,9 @@ def mulligan(group, x = 0, y = 0):
 	for card in group:
 		card.moveToBottom(me.deck)
 	shuffle(me.deck)
-	notify("{} takes a Mulligan!".format(me))
-	drawMany(me.deck, shared.HandSize)
-	#for card in me.deck.top(shared.HandSize):
-	#	card.moveTo(me.hand)
-	#notify("{} draws {} new cards.".format(me, shared.HandSize))
-
+	for card in me.deck.top(shared.HandSize):
+		card.moveTo(me.hand)
+	notify("{} draws {} new cards.".format(me, shared.HandSize))
  
 #------------------------------------------------------------------------------
 # Pile Actions
@@ -1755,7 +1771,114 @@ def captureDeck(group):
 	if pile.collapsed:
 		pile.collapsed = False
 
-def investigationDeck(group):
-	if len(group) == 0: return
-	mute()
+		
+# Reminders
+
+def enableReminders(group, x=0, y=0):
+	setGlobalVariable("Reminders", "On")
+	whisper("Reminders enabled.")
+def disableReminders(group, x=0, y=0):
+	setGlobalVariable("Reminders", "Off")
+	whisper("Reminders disabled.")
 	
+def isTextInCard(text,card):
+	match = re.search(text,card.Text)
+	if match: return True
+	match = re.search(text,card.alternateProperty("B","Text"))
+	if match: return True
+	
+def setReminders(card):
+	match = re.search('Time ([0-9]+)',card.Text)
+	if match:
+		for i in range(num(match.group(1))):
+			addTime(card)
+	match = re.search('Time ([0-9]+)',card.alternateProperty("B","Text"))
+	if match:
+		for i in range(num(match.group(1))):
+			addTime(card)
+	
+	if isTextInCard('resource phase',card): setReminderResource(card)
+	if isTextInCard('quest phase',card): setReminderQuest(card)
+	if isTextInCard('staging step',card): setReminderQuest(card)
+	if isTextInCard('combat phase',card): setReminderCombat(card)
+	if isTextInCard('refresh phase',card): setReminderRefresh(card)
+	if isTextInCard('t the end of the round',card): setReminderRefresh(card)
+
+def resourceReminders():
+	if getGlobalVariable("Reminders") == "Off": return;
+	clearTargets()
+	reminder = getGlobalVariable("reminderResource")
+	for c in table:
+		if str(c._id) in reminder:
+			c.target(True)	
+
+def questReminders():
+	if getGlobalVariable("Reminders") == "Off": return;
+	reminder = getGlobalVariable("reminderQuest")
+	for c in table:
+		if str(c._id) in reminder:
+			c.target(True)
+			
+def combatReminders():
+	if getGlobalVariable("Reminders") == "Off": return;
+	reminder = getGlobalVariable("reminderCombat")
+	for c in table:
+		if str(c._id) in reminder:
+			c.target(True)
+			
+def refreshReminders():
+	if getGlobalVariable("Reminders") == "Off": return;
+	clearTargets()
+	reminder = getGlobalVariable("reminderRefresh")
+	for c in table:
+		if c.markers[TimeToken] >= 1:
+			c.target(True)
+		if str(c._id) in reminder:
+			c.target(True)
+
+def setReminderResource(card,x=0,y=0):
+	reminder = getGlobalVariable("reminderResource")
+	if not str(card._id) in reminder:
+		reminder += str(card._id) + ","
+	setGlobalVariable("reminderResource",reminder)
+def removeReminderResource(card,x=0,y=0):
+	reminder = getGlobalVariable("reminderResource")
+	reminder = reminder.replace(str(card._id) + ",","")
+	setGlobalVariable("reminderResource",reminder)
+
+def setReminderQuest(card,x=0,y=0):
+	reminder = getGlobalVariable("reminderQuest")
+	if not str(card._id) in reminder:
+		reminder += str(card._id) + ","
+	setGlobalVariable("reminderQuest",reminder)
+def removeReminderQuest(card,x=0,y=0):
+	reminder = getGlobalVariable("reminderQuest")
+	reminder = reminder.replace(str(card._id) + ",","")
+	setGlobalVariable("reminderQuest",reminder)	
+
+def setReminderCombat(card,x=0,y=0):
+	reminder = getGlobalVariable("reminderCombat")
+	if not str(card._id) in reminder:
+		reminder += str(card._id) + ","
+	setGlobalVariable("reminderCombat",reminder)
+def removeReminderCombat(card,x=0,y=0):
+	reminder = getGlobalVariable("reminderCombat")
+	reminder = reminder.replace(str(card._id) + ",","")
+	setGlobalVariable("reminderCombat",reminder)	
+	
+def setReminderRefresh(card,x=0,y=0):
+	reminder = getGlobalVariable("reminderRefresh")
+	if not str(card._id) in reminder:
+		reminder += str(card._id) + ","
+	setGlobalVariable("reminderRefresh",reminder)
+def removeReminderRefresh(card,x=0,y=0):
+	reminder = getGlobalVariable("reminderRefresh")
+	reminder = reminder.replace(str(card._id) + ",","")
+	setGlobalVariable("reminderRefresh",reminder)	
+	
+def setGlobalReminders():
+	setGlobalVariable("Reminders", "On")
+	setGlobalVariable("reminderResource","")
+	setGlobalVariable("reminderQuest","")
+	setGlobalVariable("reminderCombat","")
+	setGlobalVariable("reminderRefresh","")

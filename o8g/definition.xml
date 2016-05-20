@@ -5,7 +5,7 @@
 	id="a21af4e8-be4b-4cda-a6b6-534f9717391f" 
 	octgnVersion="3.1.162.360"
 	scriptVersion ="3.1.0.1"
-	version="2.5.1.30"
+	version="2.5.1.107"
 	markersize="16"
 	tags="LotR LCG cooperative"
 	description="The Lord of the Rings: The Card Game is a cooperative card game that puts 1-4 players in control of the most powerful characters and artifacts of Middle-earth.&#10;&#10;Players will select heroes, gather allies, acquire artifacts, and coordinate their efforts to face Middle-earth’s most dangerous fiends. By cooperating to overcome the obstacles drawn from the encounter deck, you will complete the quest before you and claim victory!"
@@ -101,6 +101,7 @@
 			<cardaction menu="Add Attack Token" default="False" shortcut="ctrl+2" execute="addAttack" />
 			<cardaction menu="Add Defense Token" default="False" shortcut="ctrl+3" execute="addDefense" />
 			<cardaction menu="Add Threat Token" default="False" shortcut="ctrl+4" execute="addThreat" />
+			<cardaction menu="Add Time Token" default="False" shortcut="ctrl+5" execute="addTime" />
 			<cardaction menu="Add Turn" showIf="isFirstPlayerToken" default="False" execute="addTurn" />
 		</cardactions>
 		<cardactions menu="Remove Token">
@@ -111,7 +112,22 @@
 			<cardaction menu="Remove Attack Token" default="False" shortcut="ctrl+shift+2" execute="subAttack" />
 			<cardaction menu="Remove Defense Token" default="False" shortcut="ctrl+shift+3" execute="subDefense" />
 			<cardaction menu="Remove Threat Token" default="False" shortcut="ctrl+shift+4" execute="subThreat" />
+			<cardaction menu="Remove Time Token" default="False" shortcut="ctrl+shift+5" execute="subTime" />
 			<cardaction menu="Remove Turn" showIf="isFirstPlayerToken" default="False" execute="subTurn" />
+		</cardactions>
+		<cardactions menu="Set Reminder">
+			<cardaction menu="Enable Reminders" default="False" execute="enableReminders" />
+			<cardaction menu="Resource Phase" default="False" execute="setReminderResource" />
+			<cardaction menu="Quest Phase" default="False" execute="setReminderQuest" />
+			<cardaction menu="Combat Phase" default="False" execute="setReminderCombat" />
+			<cardaction menu="Refresh/End of Round" default="False" execute="setReminderRefresh" />
+		</cardactions>
+		<cardactions menu="Remove Reminder">
+			<cardaction menu="Disable Reminders" default="False" execute="disableReminders" />
+			<cardaction menu="Resource Phase" default="False" execute="removeReminderResource" />
+			<cardaction menu="Quest Phase" default="False" execute="removeReminderQuest" />
+			<cardaction menu="Combat Phase" default="False" execute="removeReminderCombat" />
+			<cardaction menu="Refresh/End of Round" default="False" execute="removeReminderRefresh" />
 		</cardactions>
 		<cardaction menu="Exhaust/Ready" default="False" shortcut="F7" execute="kneel" />
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
