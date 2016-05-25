@@ -1877,7 +1877,7 @@ def removeReminderRefresh(card,x=0,y=0):
 	setGlobalVariable("reminderRefresh",reminder)	
 	
 def setGlobalReminders():
-	setGlobalVariable("Reminders", "On")
+	setGlobalVariable("Reminders", "Off")
 	setGlobalVariable("reminderResource","")
 	setGlobalVariable("reminderQuest","")
 	setGlobalVariable("reminderCombat","")
