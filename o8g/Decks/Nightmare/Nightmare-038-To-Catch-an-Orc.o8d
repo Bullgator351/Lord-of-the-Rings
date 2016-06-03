@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
   <section name="Quest" shared="True">
+    <card qty="1" id="aae56769-69c1-4693-bcbe-dcd282c29568">To Catch an Orc</card>
     <card qty="1" id="0e0b125c-ffed-4473-9a64-7d709b16cca5">Orders from Orthanc</card>
     <card qty="1" id="8472068c-fdd7-4197-8046-b9da12c29135">Searching for Mugash</card>
     <card qty="1" id="c71fa40c-524e-43ec-b058-7ea239fdfd1d">The Wizard's Prize</card>
@@ -24,7 +25,6 @@
     <card qty="2" id="69a5def2-08da-498c-83d6-406ecbd6bc04">Patrolling Orcs</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="aae56769-69c1-4693-bcbe-dcd282c29568">To Catch an Orc</card>
     <card qty="1" id="6b8ca34a-1f6f-4eed-841c-a5d0db80619a">Mugash</card>
     <card qty="3" id="7d55e738-cc23-4e78-9a88-2a25fa4f3ca4">Mugash's Guard</card>
     <card qty="2" id="fcf26273-b39d-413c-aece-0c007888e527">Mugash's Rage</card>
