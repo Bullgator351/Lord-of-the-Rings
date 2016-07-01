@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Temple of the Deceived" id="dd67a743-7bff-47cd-aee9-122b8c445b0d" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="14820d35-cb36-499b-80ec-da6442548f7b" name="Elfhelm">
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Rohan. Warrior. Scout."/>
+    <property name="Cost" value="10"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="7e1db97c-f6dc-43e1-a6f3-7ab600845e93" name="Ceorl">
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Rohan. Scout."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="a55bc730-259b-4d52-8c98-648d43840738" name="Armored Destrier">
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Mount."/>
+    <property name="Keywords" value="Attach to a Ì or sentinel hero. Restricted."/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="1987caf1-aedd-4fe0-bbe9-41539c2a7910" name="Déorwine">
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Rohan. Warrior."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="94727856-c487-4cf8-b8d5-8c18a3bca3d8" name="Revealed in Wrath">
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Keywords" value="Play only if you control a Noldor hero."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="2c1b7d82-e14e-4e2d-9270-86b59f95e0a9" name="Rhovanion Outrider">
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Dale. Scout."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="21c68054-6070-49cd-be5f-7d432842a879" name="Scouting Party">
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Keywords" value="Play only after the staging step."/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="44b36766-fbb5-464d-bf9c-6a9cb9f48fad" name="Entangling Nets">
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Trap."/>
+    <property name="Keywords" value="Play Entangling Nets into the staging area unattached."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="f07ea741-4991-46c9-9c6a-439dc186cec6" name="Arrows from the Trees">
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Keywords" value="Play only after making engagement checks."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="c2c8d69a-6639-49af-89ed-86f2ffc8c096" name="Ered Luin Miner">
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Dwarf."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="fb7d55c5-7198-45c5-97d7-be4c6a26fa68" name="Searching the Island" size="QuestCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Setup" value="tssss"/>
+    <alternate name="Searching the Island" type="B">
+      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+    </alternate>
+  </card>
+  <card id="f3bc3759-1f94-4983-bebb-66c7d9e3e0b3" name="Temple of the Deceived" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted. Immune to player card effects."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="The Grotto’s Entrance" type="B">
+      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins."/>
+      <property name="Keywords" value="Immune to player card effects."/>
+      <property name="Threat" value="2"/>
+      <property name="Quest Points" value="8"/>
+    </alternate>
+  </card>
+  <card id="3371c102-4aab-4b15-a738-a4b3483a6004" name="Temple of the Deceived" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted. Immune to player card effects."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Temple Halls" type="B">
+      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins."/>
+      <property name="Threat" value="5"/>
+      <property name="Quest Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="e4f6c61b-afb1-4f12-81d5-4edd14a90d32" name="Temple Guardian" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Keywords" value="X is the number of players in the game.&#10;Immune to player card effects. Cannot be optionally engaged."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="0"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="10"/>
+    <property name="Victory Points" value="4"/>
+  </card>
+  <card id="447dd08d-693c-407f-8155-87164f212351" name="Gate Key">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective."/>
+    <property name="Traits" value="Item. Artifact."/>
+  </card>
+  <card id="1877b069-7015-4172-b5df-bbfd235b976f" name="Lost Island" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted. Cannot have player card attachments."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Jagged Cliffs" type="B">
+      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Mountain."/>
+      <property name="Threat" value="4"/>
+      <property name="Quest Points" value="4"/>
+    </alternate>
+  </card>
+  <card id="4c7d7a31-250d-4e48-a97a-2aebb3b2b47d" name="Lost Island" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted. Cannot have player card attachments."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Winding Caverns" type="B">
+      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground."/>
+      <property name="Threat" value="2"/>
+      <property name="Quest Points" value="6"/>
+    </alternate>
+  </card>
+  <card id="dc8f31b6-73af-4aec-be26-8d297909d14d" name="Lost Island" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted. Cannot have player card attachments."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Jungle Path" type="B">
+      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Type" value="Treachery"/>
+      <property name="Traits" value="Forest."/>
+      <property name="Threat" value="3"/>
+      <property name="Quest Points" value="3"/>
+    </alternate>
+  </card>
+  <card id="617ce2f8-f33e-4898-9fa4-38787ee9c2b6" name="Faithless Desecrator" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Engagement Cost" value="25"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="90b5e33a-3708-40ab-8d20-5a997237e536" name="Island Watcher" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Keywords" value="Island Watcher cannot be optionally engaged."/>
+    <property name="Engagement Cost" value="46"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="00e25526-9804-4b05-89d6-557d9ef7ad77" name="Profane Dead" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="c8decb35-cb3e-4dc9-ad15-d0cc80c157cb" name="Deeper into the Ruins" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="4fc6111a-93c3-4407-b067-1b82396b802f" name="Furious Rainstorm" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="3e8eaee9-6fdb-4207-864f-151f0f98807b" name="Dwindling Supplies" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="441a78e5-078f-433d-b092-5d94d1101aa1" name="Sunken Ruins" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+  </card>
+  <card id="4fcbffac-5e31-4c8f-bf94-d8ad96927e2e" name="Temple of the Deceived">
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 1"/>
+  </card>
+ </cards>
+</set>

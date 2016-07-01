@@ -431,6 +431,13 @@ def deckLoaded(player, groups):
 				card.moveTo(encounterDeck())
 			elif p == me.piles['Discard Pile']:
 				card.moveTo(me.deck)
+	
+	#Temple of the Decieved
+	for p in groups:
+		for card in p:			
+			if card.model == 'f3bc3759-1f94-4983-bebb-66c7d9e3e0b3':
+				whisper('Setting up map.')
+				setupTotDMap(p)
 	update()
 	playerSetup(table, 0, 0, isPlayer, isShared)
 	#if automate():			<-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
@@ -1268,14 +1275,13 @@ def flipcard(card, x = 0, y = 0):
 		table.create('768bab66-1707-41a4-adf3-3baad2e7daad', cardx, cardy, quantity = 1, persist = True)
 		return
 	#END Treachery of Rhudaur WORKAROUND
-
 	#Quest cards have a different back - defined by the alternate (B) property
 	if card.alternates is not None and "B" in card.alternates:
 		if card.alternate == "B":
 			card.switchTo("")
 		else:
 			card.switchTo("B")
-		questSetup(card)
+		if card.Type != "Location": questSetup(card) #Don't do setup for double-sided locations
 		notify("{} turns '{}' face up.".format(me, card))
 	elif card.isFaceUp:
 		card.isFaceUp = False
@@ -1771,6 +1777,25 @@ def captureDeck(group):
 	if pile.collapsed:
 		pile.collapsed = False
 
+def setupTotDMap(group):
+	group.shuffle()
+	MapStartX = 350
+	MapStartY = -90
+	i = 0
+	j = 0 
+	for c in group:
+		c.moveToTable(MapStartX,MapStartX)
+		if c.name == "Lost Island":
+			x = MapStartX + 64*(i // 3)
+			y = MapStartY + 89*(i % 3)
+			c.moveToTable(x,y)
+			if i==0 or i==2:
+				flipcard(c)
+			i=i+1
+		if c.name == "Temple of the Deceived":
+			c.moveToTable(MapStartX+64*4,MapStartY+89*j)
+			j=j+1
+
 		
 # Reminders
 
@@ -1837,6 +1862,9 @@ def refreshReminders():
 			c.target(True)
 
 def setReminderResource(card,x=0,y=0):
+	if getGlobalVariable("Reminders") == "Off":
+		setGlobalVariable("Reminders", "On")
+		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderResource")
 	if not str(card._id) in reminder:
 		reminder += str(card._id) + ","
@@ -1847,16 +1875,25 @@ def removeReminderResource(card,x=0,y=0):
 	setGlobalVariable("reminderResource",reminder)
 
 def setReminderQuest(card,x=0,y=0):
+	if getGlobalVariable("Reminders") == "Off":
+		setGlobalVariable("Reminders", "On")
+		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderQuest")
 	if not str(card._id) in reminder:
 		reminder += str(card._id) + ","
 	setGlobalVariable("reminderQuest",reminder)
 def removeReminderQuest(card,x=0,y=0):
+	if getGlobalVariable("Reminders") == "Off":
+		setGlobalVariable("Reminders", "On")
+		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderQuest")
 	reminder = reminder.replace(str(card._id) + ",","")
 	setGlobalVariable("reminderQuest",reminder)	
 
 def setReminderCombat(card,x=0,y=0):
+	if getGlobalVariable("Reminders") == "Off":
+		setGlobalVariable("Reminders", "On")
+		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderCombat")
 	if not str(card._id) in reminder:
 		reminder += str(card._id) + ","
@@ -1867,6 +1904,9 @@ def removeReminderCombat(card,x=0,y=0):
 	setGlobalVariable("reminderCombat",reminder)	
 	
 def setReminderRefresh(card,x=0,y=0):
+	if getGlobalVariable("Reminders") == "Off":
+		setGlobalVariable("Reminders", "On")
+		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderRefresh")
 	if not str(card._id) in reminder:
 		reminder += str(card._id) + ","
