@@ -1862,9 +1862,6 @@ def refreshReminders():
 			c.target(True)
 
 def setReminderResource(card,x=0,y=0):
-	if getGlobalVariable("Reminders") == "Off":
-		setGlobalVariable("Reminders", "On")
-		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderResource")
 	if not str(card._id) in reminder:
 		reminder += str(card._id) + ","
@@ -1875,25 +1872,16 @@ def removeReminderResource(card,x=0,y=0):
 	setGlobalVariable("reminderResource",reminder)
 
 def setReminderQuest(card,x=0,y=0):
-	if getGlobalVariable("Reminders") == "Off":
-		setGlobalVariable("Reminders", "On")
-		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderQuest")
 	if not str(card._id) in reminder:
 		reminder += str(card._id) + ","
 	setGlobalVariable("reminderQuest",reminder)
 def removeReminderQuest(card,x=0,y=0):
-	if getGlobalVariable("Reminders") == "Off":
-		setGlobalVariable("Reminders", "On")
-		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderQuest")
 	reminder = reminder.replace(str(card._id) + ",","")
 	setGlobalVariable("reminderQuest",reminder)	
 
 def setReminderCombat(card,x=0,y=0):
-	if getGlobalVariable("Reminders") == "Off":
-		setGlobalVariable("Reminders", "On")
-		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderCombat")
 	if not str(card._id) in reminder:
 		reminder += str(card._id) + ","
@@ -1904,9 +1892,6 @@ def removeReminderCombat(card,x=0,y=0):
 	setGlobalVariable("reminderCombat",reminder)	
 	
 def setReminderRefresh(card,x=0,y=0):
-	if getGlobalVariable("Reminders") == "Off":
-		setGlobalVariable("Reminders", "On")
-		whisper("Reminders enabled.")
 	reminder = getGlobalVariable("reminderRefresh")
 	if not str(card._id) in reminder:
 		reminder += str(card._id) + ","

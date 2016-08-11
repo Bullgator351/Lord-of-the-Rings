@@ -204,6 +204,7 @@
     <property name="Attack" value="5"/>
     <property name="Defense" value="-"/>
     <property name="Health" value="8"/>
+    <property name="Victory Points" value="10"/>
   </card>
   <card id="07067901-5306-47f0-8863-3c9cb194e1c6" name="Eye of the Beast" size="EncounterCard">
     <property name="Quantity" value="2"/>
