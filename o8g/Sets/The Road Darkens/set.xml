@@ -996,7 +996,7 @@
     <property name="Text" value="When Revealed: Treat the printed text box of each character in play as blank (except for Traits) until the end of the round."/>
     <property name="Shadow" value="Shadow: Defending character does not count its Ú."/>
   </card>
-  <card id="3b05acf1-2c72-4e6c-9f59-a2bacde4820b" name="Pursued by the Enemy" size="EncounterCard">
+  <card id="3b05acf1-2c72-4e6c-9f59-a2bacde4820b" name="Pursued by the Enemy">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Journey in the Dark"/>
     <property name="Type" value="Treachery"/>

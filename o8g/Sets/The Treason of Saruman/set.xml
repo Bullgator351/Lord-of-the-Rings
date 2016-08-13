@@ -222,7 +222,7 @@
     <property name="Victory Points" value="5"/>
     <property name="Text" value="Quest Action: Exhaust Aragorn and Palantír of Orthanc to discard the top card of the encounter deck. If Aragorn’s Ò is greater than the discarded card’s $, you may add Palantír of Orthanc to the victory display and remove it from the campaign pool to choose a player. That player reveals 1 fewer encounter card this phase (to a minimum of 0)."/>
   </card>
-  <card id="c7ada690-5aa3-4855-b2c1-35e30336edac" name="Poisoned Counsels">
+  <card id="c7ada690-5aa3-4855-b2c1-35e30336edac" name="Poisoned Counsels" size="EncounterCard">
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Helm's Deep"/>
     <property name="Type" value="Treachery"/>

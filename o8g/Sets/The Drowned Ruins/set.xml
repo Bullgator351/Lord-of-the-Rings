@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Drowned Ruins" id="d2f8fe46-8e53-4138-906d-189f08da6903" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="8aea2aaf-8320-4694-bc64-fc264b409bab" name="Argalad">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Silvan. Scout."/>
+    <property name="Keywords" value="Ranged"/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="836d10fb-8bca-4dee-bea7-0164667b7a61" name="Dwarven Sellsword">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Dwarf. Warrior."/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="a83a5cb2-b557-4e10-baea-957318cbea95" name="Dúnedain Remedy">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Signal."/>
+    <property name="Keywords" value="Attach to a hero."/>
+    <property name="Cost" value="0"/>
+  </card>
+  <card id="d5500d57-03af-4152-9ad0-620aeb4fd50b" name="Marksman of Lórien">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Silvan. Warrior."/>
+    <property name="Keywords" value="Ranged."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="8c7077ad-6b73-4ffc-86a4-891f9e4b839e" name="Battle-Fury">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Keywords" value="Play only before the staging step."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="905dbe88-7974-4b0c-9a82-f96ba4dd866f" name="Woodland Courier">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Silvan. Scout."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+  </card>
+  <card id="12ce640e-dd4e-4c02-be87-f273252cc9be" name="Hithlain">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Item."/>
+    <property name="Keywords" value="Attach to a location. Limit 1 per location."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="697e1c80-a218-4dc7-b0c3-06921e879b81" name="Robin Smallburrow">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Hobbit. Shirriff."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="1c824f05-d8be-40e4-be13-5cea37128bf8" name="Interrogation">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="789fbae0-a33e-4ea0-a34f-adfe3b62dba7" name="Strider">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Title."/>
+    <property name="Keywords" value="Attach to a hero."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="31bd075d-e116-4a0f-81dd-942b52a6267c" name="The Grotto" size="QuestCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Setup" value="ttt"/>
+    <alternate name="The Grotto" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="15"/>
+    </alternate>
+  </card>
+  <card id="e48c7313-d1cb-4291-9dc1-9fff6fb23e83" name="Sahír's Betrayal" size="QuestCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Sahír's Betrayal" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+    </alternate>
+  </card>
+  <card id="011a4573-f21a-4897-9b23-8b64391f5136" name="Shrine to Morgoth" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Ruins. Underground. Grotto."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="18"/>
+    <property name="Victory Points" value="5"/>
+    <alternate name="Shrine to Morgoth" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins. Underground. Underwater."/>
+      <property name="Threat" value="5"/>
+      <property name="Quest Points" value="18"/>
+      <property name="Victory Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="c49ec585-e306-4fda-a55b-497cb0fd1174" name="Sea-Scorpion" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="34bfcbad-5557-48bc-8abd-3ac472ee4d3b" name="Cave Eel" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="20"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="58f1cb80-d8de-4f96-98d0-0fdf61988da3" name="Undersea Grotto" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Grotto."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <alternate name="Dark Abyss" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground. Underwater."/>
+      <property name="Threat" value="5"/>
+      <property name="Quest Points" value="12"/>
+      <property name="Victory Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="6a3ae84d-6c74-4fbf-9254-b8c1d17c8384" name="Cursed Caverns" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Grotto."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <alternate name="Twisting Hollow" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground. Underwater."/>
+      <property name="Threat" value="4"/>
+      <property name="Quest Points" value="14"/>
+      <property name="Victory Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="4be4e706-1bd2-455a-a712-833c1bbcea55" name="Cursed Caverns" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Grotto."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <alternate name="Sunken Temple" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins. Underground. Underwater."/>
+      <property name="Threat" value="3"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Victory Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="9c6798e3-9c5a-4609-b499-e6b1d6ae567b" name="Water-Logged Halls" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Ruins. Underground. Grotto."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <alternate name="Dark Abyss" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground. Underwater."/>
+      <property name="Threat" value="5"/>
+      <property name="Quest Points" value="12"/>
+      <property name="Victory Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="c95b4c6a-3dd0-4f11-8620-df7af65c11bc" name="Undersea Grotto" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Grotto."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <alternate name="Twisting Hollow" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground. Underwater."/>
+      <property name="Threat" value="4"/>
+      <property name="Quest Points" value="14"/>
+      <property name="Victory Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="cb3ca114-400e-4abf-87e6-124b75e92cb4" name="Water-Logged Halls" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Ruins. Underground. Grotto."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <alternate name="Sunken Temple" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins. Underground. Underwater."/>
+      <property name="Threat" value="3"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Victory Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="b59afed1-a224-4793-b149-0a6aadc9ba7e" name="Drowned Cave" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Underwater."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="befbd3c9-45b3-4e68-b19e-5981a6571835" name="Powerful Undertow" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+  </card>
+  <card id="54014fda-7adc-49b0-96ac-656e849eaf7b" name="Into the Abyss" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="c0d85826-dc42-4ac8-851c-4ed671917e9d" name="Tangling and Grasping" size="EncounterCard">
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+  </card>
+  <card id="a9321cbd-897f-4a77-a548-85ad00112273" name="Ancient Depths" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="d41a03fa-e124-4e40-99b2-2ea4f71930f1" name="The Drowned Ruins">
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="The Drowned Ruins"/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 1"/>
+  </card>
+ </cards>
+</set>

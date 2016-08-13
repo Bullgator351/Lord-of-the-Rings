@@ -564,6 +564,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Setup" value="ttttttt"/>
   </card>
   <card id="820e2015-fc9c-4547-8e93-d4eb7cd79691" name="The Paths of the Dead" size="QuestCard">
     <property name="Quantity" value="1"/>
@@ -571,6 +572,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Setup" value="--------"/>
   </card>
   <card id="90203b8d-a359-4f18-8314-12815090a9d0" name="The Dead are Following" size="QuestCard">
     <property name="Quantity" value="1"/>
@@ -616,12 +618,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Setup" value="sss"/>
   </card>
   <card id="949e2607-cbb5-4ae3-af26-f9d7e00e09d2" name="The Siege of Gondor">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Gondor"/>
     <property name="Type" value="Campaign"/>
     <property name="Traits" value="The Lord of the Rings Part 14"/>
+    <property name="Setup" value="----"/>
   </card>
   <card id="0140d146-771e-4f19-9de8-d7cf0b4d8268" name="The Corsair Fleet" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -642,8 +646,10 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Setup" value="ttttttttltt"/>
     <alternate name="The Garrison of Gondor" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
+      <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="2"/>
@@ -657,6 +663,7 @@
     <property name="Engagement Cost" value="A"/>
     <alternate name="Retreat from Osgiliath" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
+      <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="0"/>
@@ -670,6 +677,7 @@
     <property name="Engagement Cost" value="A"/>
     <alternate name="The White City Besieged" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
+      <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="4"/>
@@ -683,6 +691,7 @@
     <property name="Engagement Cost" value="A"/>
     <alternate name="Horns, Horns, Horns" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
+      <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="0"/>
@@ -695,6 +704,7 @@
     <property name="Cost" value="5"/>
     <alternate name="Fighting in the Fields" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
+      <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="20"/>
@@ -705,6 +715,7 @@
     <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
     <property name="Type" value="Campaign"/>
     <property name="Traits" value="The Lord of the Rings Part 15"/>
+    <property name="Setup" value="-----------ttttttttttttttttts"/>
     <alternate name="The Battle of the Pelennor Fields" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Campaign"/>
