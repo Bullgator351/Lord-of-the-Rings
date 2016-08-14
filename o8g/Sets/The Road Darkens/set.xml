@@ -636,7 +636,7 @@
     <property name="Text" value="Many-pillard Hall gets +1 $ for each Many-pillared Hall in play."/>
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+2 Û instead if the defending player's threat is 35 or higher)."/>
   </card>
-  <card id="bd30f509-04f8-4135-a5e9-20d3cbbe7cd8" name="Darkened Stairway" size="EncounterCard">
+  <card id="bd30f509-04f8-4135-a5e9-20d3cbbe7cd8" name="Darkened Stairway">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey in the Dark"/>
     <property name="Type" value="Location"/>
@@ -996,7 +996,7 @@
     <property name="Text" value="When Revealed: Treat the printed text box of each character in play as blank (except for Traits) until the end of the round."/>
     <property name="Shadow" value="Shadow: Defending character does not count its Ú."/>
   </card>
-  <card id="3b05acf1-2c72-4e6c-9f59-a2bacde4820b" name="Pursued by the Enemy">
+  <card id="3b05acf1-2c72-4e6c-9f59-a2bacde4820b" name="Pursued by the Enemy" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Journey in the Dark"/>
     <property name="Type" value="Treachery"/>

@@ -1,16 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Side Quest" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="31bd075d-e116-4a0f-81dd-942b52a6267c">The Grotto</card>
     <card qty="1" id="e48c7313-d1cb-4291-9dc1-9fff6fb23e83">Sahír's Betrayal</card>
   </section>
-  <section name="Second Quest Deck" shared="True" />
   <section name="Encounter" shared="True">
     <card qty="2" id="b59afed1-a224-4793-b149-0a6aadc9ba7e">Drowned Cave</card>
     <card qty="3" id="befbd3c9-45b3-4e68-b19e-5981a6571835">Powerful Undertow</card>
@@ -21,6 +14,8 @@
     <card qty="2" id="69a3ace6-7588-4ec4-91de-780b56502d8a">Soulless Cadaver</card>
     <card qty="2" id="159f5a8f-1e1f-4282-9936-94b10e348176">Throngs of Unfaithful</card>
     <card qty="2" id="ab5fec4c-b353-47e5-ae47-db7daf7f9088">Curse of the Downfallen</card>
+    <card qty="3" id="c49ec585-e306-4fda-a55b-497cb0fd1174">Sea-Scorpion</card>
+    <card qty="3" id="34bfcbad-5557-48bc-8abd-3ac472ee4d3b">Cave Eel</card>
   </section>
   <section name="Special" shared="True">
     <card qty="2" id="58f1cb80-d8de-4f96-98d0-0fdf61988da3">Undersea Grotto</card>
@@ -35,5 +30,12 @@
     <card qty="1" id="97bf780d-cd76-492f-a970-37f78273c5bb">Captain Sahír</card>
     <card qty="1" id="f0d30258-7122-4004-a689-9ff50a00b3af">Na'asiyah</card>
   </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

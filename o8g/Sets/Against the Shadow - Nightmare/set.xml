@@ -345,7 +345,7 @@
     <property name="Quest Points" value="2"/>
     <property name="Text" value="Forced: When you take control of Crumbled Battlements, shuffle the encounter discard pile into the encounter deck and discard cards from the encounter deck until an enemy is discarded. Put the discarded enemy into play engaged with you."/>
   </card>
-  <card id="2e502d3d-5cf5-47eb-9577-3c14d74995fa" name="Eastern Quarter" size="EncounterCard">
+  <card id="2e502d3d-5cf5-47eb-9577-3c14d74995fa" name="Eastern Quarter">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Location"/>

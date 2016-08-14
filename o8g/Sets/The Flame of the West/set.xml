@@ -565,6 +565,13 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="ttttttt"/>
+    <alternate name="The Forbidden Door" type="B">
+      <property name="Encounter Set" value="The Passing of the Grey Company"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+    </alternate>
   </card>
   <card id="820e2015-fc9c-4547-8e93-d4eb7cd79691" name="The Paths of the Dead" size="QuestCard">
     <property name="Quantity" value="1"/>
@@ -573,6 +580,13 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="--------"/>
+    <alternate name="The Paths of the Dead" type="B">
+      <property name="Encounter Set" value="The Passing of the Grey Company"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+    </alternate>
   </card>
   <card id="90203b8d-a359-4f18-8314-12815090a9d0" name="The Dead are Following" size="QuestCard">
     <property name="Quantity" value="1"/>
@@ -580,12 +594,23 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
+    <alternate name="The Dead are Following" type="B">
+      <property name="Encounter Set" value="The Passing of the Grey Company"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="5"/>
+    </alternate>
   </card>
   <card id="c444788b-73ea-4729-a07a-593220479639" name="The Passing of the Grey Company">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Passing of the Grey Company"/>
     <property name="Type" value="Campaign"/>
     <property name="Traits" value="The Lord of the Rings Part 13"/>
+    <alternate name="The Passing of the Grey Company" type="B">
+      <property name="Encounter Set" value="The Passing of the Grey Company"/>
+      <property name="Type" value="Campaign"/>
+    </alternate>
   </card>
   <card id="a25b4139-f1d0-4466-83f2-f06fa3e0c30b" name="Army of the Dead" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -619,6 +644,13 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="sss"/>
+    <alternate name="Attack on Pelargir" type="B">
+      <property name="Encounter Set" value="The Siege of Gondor"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+    </alternate>
   </card>
   <card id="949e2607-cbb5-4ae3-af26-f9d7e00e09d2" name="The Siege of Gondor">
     <property name="Quantity" value="1"/>
@@ -626,6 +658,10 @@
     <property name="Type" value="Campaign"/>
     <property name="Traits" value="The Lord of the Rings Part 14"/>
     <property name="Setup" value="----"/>
+    <alternate name="The Siege of Gondor" type="B">
+      <property name="Encounter Set" value="The Siege of Gondor"/>
+      <property name="Type" value="Campaign"/>
+    </alternate>
   </card>
   <card id="0140d146-771e-4f19-9de8-d7cf0b4d8268" name="The Corsair Fleet" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -702,6 +738,7 @@
     <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="5"/>
+    <property name="Engagement Cost" value="A"/>
     <alternate name="Fighting in the Fields" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>
@@ -726,13 +763,24 @@
     <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Enemy"/>
-    <property name="Traits" value="Nazgul. Captain. "/>
+    <property name="Traits" value="Nazgûl. Captain. "/>
     <property name="Engagement Cost" value="50"/>
     <property name="Threat" value="6"/>
     <property name="Attack" value="6"/>
     <property name="Defense" value="6"/>
     <property name="Health" value="14"/>
     <property name="Victory Points" value="6"/>
+    <alternate name="The Witch-king" type="B">
+      <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Traits" value="Nazgûl. Sorcerer."/>
+      <property name="Engagement Cost" value="50"/>
+      <property name="Threat" value="6"/>
+      <property name="Attack" value="6"/>
+      <property name="Defense" value="6"/>
+      <property name="Health" value="14"/>
+    </alternate>
   </card>
   <card id="c7ef7b6e-4346-4b4c-a9fa-2b42e3c2ab5c" name="The Passing of the Grey Company">
     <property name="Quantity" value="0"/>
