@@ -719,13 +719,13 @@
       <property name="Quest Points" value="4"/>
     </alternate>
   </card>
-  <card id="0507932f-0030-4763-8478-29bb407103d4" name="Horns, Horns, Horns" size="QuestCard">
+  <card id="0507932f-0030-4763-8478-29bb407103d4" name="Rohan has Come!" size="QuestCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Horns, Horns, Horns" type="B">
+    <alternate name="Rohan has Come!" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

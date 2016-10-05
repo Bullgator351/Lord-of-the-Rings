@@ -299,7 +299,7 @@
     <property name="Health" value="12"/>
     <property name="Text" value="Cannot leave the staging area but is considered to be engaged with each player.&#10;Forced: After placing the 6th damage here, the first player takes control of the Ring-bearer, exhausted with 1 damage on it."/>
   </card>
-  <card id="232256cb-40ee-4cec-84ac-995b3ba43eb2" name="Great Warg Chief" size="EncounterCard">
+  <card id="232256cb-40ee-4cec-84ac-995b3ba43eb2" name="Great Warg Chief">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Ring Goes South"/>
     <property name="Unique" value="‰"/>
@@ -636,7 +636,7 @@
     <property name="Text" value="Many-pillard Hall gets +1 $ for each Many-pillared Hall in play."/>
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+2 Û instead if the defending player's threat is 35 or higher)."/>
   </card>
-  <card id="bd30f509-04f8-4135-a5e9-20d3cbbe7cd8" name="Darkened Stairway">
+  <card id="bd30f509-04f8-4135-a5e9-20d3cbbe7cd8" name="Darkened Stairway" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey in the Dark"/>
     <property name="Type" value="Location"/>

@@ -6,12 +6,20 @@
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Campaign"/>
     <property name="Setup" value="stttttttt"/>
+    <alternate name="Standard Game Mode" type="B">
+      <property name="Encounter Set" value="The Siege of Annúminas"/>
+      <property name="Type" value="Campaign"/>
+    </alternate>
   </card>
   <card id="1b93017d-9590-4515-80da-970f396e0a45" name="Epic Multiplayer Mode">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Campaign"/>
     <property name="Setup" value="ssstttttttttttttttttttttttttttttt"/>
+    <alternate name="Epic Multiplayer Mode" type="B">
+      <property name="Encounter Set" value="The Siege of Annúminas"/>
+      <property name="Type" value="Campaign"/>
+    </alternate>
   </card>
   <card id="48893e0f-bc7c-46f4-a5f7-18bd0d758d49" name="Rebuild the Defenses" size="QuestCard">
     <property name="Quantity" value="1"/>

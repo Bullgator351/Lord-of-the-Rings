@@ -41,7 +41,7 @@
     <property name="Health" value="4"/>
     <property name="Text" value="When Revealed: Murderous Turncoat makes an immediate attack against the first player.&#10;Forced: At the end of the combat phase, place Murderous Turncoat facedown underneath the active location if you are not at stage 3."/>
   </card>
-  <card id="1c446c6e-5665-446a-80f1-68cceaed05eb" name="Faithless Conspirator" size="EncounterCard">
+  <card id="1c446c6e-5665-446a-80f1-68cceaed05eb" name="Faithless Conspirator">
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -345,7 +345,7 @@
     <property name="Quest Points" value="2"/>
     <property name="Text" value="Forced: When you take control of Crumbled Battlements, shuffle the encounter discard pile into the encounter deck and discard cards from the encounter deck until an enemy is discarded. Put the discarded enemy into play engaged with you."/>
   </card>
-  <card id="2e502d3d-5cf5-47eb-9577-3c14d74995fa" name="Eastern Quarter">
+  <card id="2e502d3d-5cf5-47eb-9577-3c14d74995fa" name="Eastern Quarter" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Location"/>

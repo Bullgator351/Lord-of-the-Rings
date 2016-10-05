@@ -13,6 +13,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Response: After an encounter card with surge is revealed, either ready Lanwyn or give her +2 Ò until the end of the phase. (Limit twice per phase.)"/>
   </card>
   <card id="66a0dc1a-4913-425d-9d94-15b3e505bb40" name="Eldahir">
     <property name="Quantity" value="3"/>
@@ -26,12 +27,14 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Action: Spend 1 Î resource to look at a facedown shadow card dealt to an engaged enemy. If that card has a shadow effect, Eldahir gets +2 Ú until the end of the phase. Any player may trigger this action. (Limit once per phase.)"/>
   </card>
   <card id="f774ffb1-1c80-40a1-a474-eb021e225b19" name="Captain's Wisdom.">
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Resource Action: Exhaust a Noble hero you control to add 2 resources to that hero’s resource pool."/>
   </card>
   <card id="ec1ed9c8-349b-4782-8d81-820f14ba51c6" name="Master Ironsmith">
     <property name="Quantity" value="3"/>
@@ -43,6 +46,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After you play Master Ironsmith from your hand, if you paid all of its resource cost from a single hero’s resource pool, attach a Weapon or Armor attachment from your hand or discard pile to that hero without paying its resource cost."/>
   </card>
   <card id="2f9c24db-2ee4-4368-99fa-db49a0add8f5" name="Raiment of War">
     <property name="Quantity" value="3"/>
@@ -55,6 +59,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="0"/>
+    <property name="Text" value="Attached character gets +1 Û, +1 Ú, and +2 hit points."/>
   </card>
   <card id="785367f7-6475-4935-979f-abec23c596f2" name="Sam Gamgee">
     <property name="Quantity" value="3"/>
@@ -67,6 +72,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Reduce the cost to play Sam Gamgee by 2 if you control Frodo Baggins.&#10;Response: After a player raises his threat, that player may spend 1 Ê resource to ready Sam Gamgee. He gets +1 Ò, +1 Û and +1 Ú until the end of the round. (Limit once per round.)"/>
   </card>
   <card id="27cc1cc1-17a9-4dcf-990a-fd3c44c7b163" name="Elevenses">
     <property name="Quantity" value="3"/>
@@ -74,6 +80,7 @@
     <property name="Sphere" value="Spirit"/>
     <property name="Keywords" value="Play only after the staging step."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Quest Action: Choose X questing Hobbit characters you control. Ready each chosen character and remove them from the quest. Then, reduce your threat by X."/>
   </card>
   <card id="364e43b7-1ae3-4d3e-a73b-55d8f1f94f7c" name="Mirkwood Explorer">
     <property name="Quantity" value="3"/>
@@ -85,6 +92,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Mirkwood Explorer quests successfully, place 1 progress on it.&#10;&#10;Action: Exhaust Mirkwood Explorer to move all progress from it to a location in play."/>
   </card>
   <card id="0950c29d-a9f3-4cb4-a61a-0122be9d26f6" name="Guarded Ceaselessly">
     <property name="Quantity" value="3"/>
@@ -93,6 +101,7 @@
     <property name="Traits" value="Condition."/>
     <property name="Keywords" value="Attach to a location."/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Exhaust a Ranger or Scout character to give attached location -2 $ until the end of the phase. "/>
   </card>
   <card id="cfa94470-c25c-4af3-ba71-941d1fa48a9c" name="Take the Ship!" size="QuestCard">
     <property name="Quantity" value="1"/>
@@ -100,6 +109,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Build the encounter deck using only The Stormcaller and Corsair Raiders encounter sets, setting The Thing in the Depths and The Stormcaller Elite encounter sets aside, out of play (enemy side faceup). Search the encounter deck for Helm of the Stormcaller and 1 copy of Umbar Raider, and add them to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="ssttt"/>
     <alternate name="Take the Ship! " type="B">
       <property name="Encounter Set" value="The Thing in the Depths "/>
@@ -107,6 +117,7 @@
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="4"/>
+      <property name="Text" value="Captain Sahír and Na’asiyah gain indestructible.&#10;Forced: At the end of the round, if Captain Sahír and Na’asiyah are not in play, add 1 resource to each of them.&#10;Progress cannot be placed on this stage unless Helm of the Stormcaller is in the victory display. "/>
     </alternate>
   </card>
   <card id="de744bed-1461-4442-b9a1-193d00fd39a3" name="Change of Plans" size="QuestCard">
@@ -121,6 +132,7 @@
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="0"/>
+      <property name="Text" value="When Revealed: Flip Captain Sahír and Na’asiyah to their objective sides, removing all tokens from them. Search the encounter deck, discard pile and all play areas for each encounter card from the Corsair Raiders encounter set and remove each of those cards from the game. Add The Thing in the Depths to the staging area. Shuffle the encounter discard pile and the set aside The Thing in the Depths encounter set into the encounter deck. Advance to stage 3."/>
     </alternate>
   </card>
   <card id="81779961-8776-4c1d-953d-ed7bf1324fbf" name="Defend the Ship!" size="QuestCard">
@@ -129,11 +141,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Discard cards from the top of the encounter deck until X Tentacle enemies are discarded, where X is 1 more than the number of players in the game. Resolve the Grapple keyword on each of those enemies."/>
     <alternate name="Defend the Ship!" type="B">
       <property name="Encounter Set" value="The Thing in the Depths "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Text" value="During the travel phase, the players may travel to a location in the staging area even if another location is currently active. If they do, return the currently active location to the staging area.&#10;At the end of the round, if the total $ of any one Ship location is 9 or higher, the Stormcaller is destroyed, and the players lose the game.&#10;When Thing in the Depths is destroyed, the players win the game."/>
     </alternate>
   </card>
   <card id="5585680f-0609-4cc4-96b5-37e53992af56" name="Helm of the Stormcaller" size="EncounterCard">
@@ -146,6 +160,7 @@
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="1"/>
     <property name="Victory Points" value="5"/>
+    <property name="Text" value="Helm of the Stormcaller gets +1 quest point for each resource token on a Raider enemy in play.&#10;Forced: When Helm of the Stormcaller becomes the active location, add Captain Sahír and Na’asiyah to the staging area from out of play (enemy side faceup)."/>
   </card>
   <card id="5571b159-9889-4fcd-bc0e-13bea7443348" name="Forecastle Deck" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -154,6 +169,7 @@
     <property name="Traits" value="Ship. Deck."/>
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="5"/>
+    <property name="Text" value="Forced: After you travel to Forecastle Deck, search the encounter deck and discard pile for an enemy and reveal it. Shuffle the encounter deck."/>
   </card>
   <card id="ec9d7726-89fa-41ee-a6ad-30761a6b79d3" name="Weather Deck" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -162,6 +178,8 @@
     <property name="Traits" value="Ship. Deck."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Weather Deck is in the staging area, each other Deck location in play gains &quot;Travel: Each player must exhaust a character he controls to travel here.&quot;"/>
+    <property name="Shadow" value="Shadow: Exhaust a character you control."/>
   </card>
   <card id="de903b76-e5e1-478b-a782-1e91f5a7261e" name="Cargo Hold" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -170,6 +188,8 @@
     <property name="Traits" value="Ship."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="2"/>
+    <property name="Text" value="While Cargo Hold is the active location, each enemy gets +1 Ú."/>
+    <property name="Shadow" value="Shadow: Until the end of the phase, attacking enemy gets +2 Ú."/>
   </card>
   <card id="2dbe66bc-a6bf-42d7-92a5-d186dfe954c6" name="Crew Quarters" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -178,6 +198,8 @@
     <property name="Traits" value="Ship."/>
     <property name="Threat" value="1"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Travel: Add 1 resource to each Raider card in play to travel here."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +2 Û."/>
   </card>
   <card id="d7fd973b-6b4e-4f4b-9fc5-4886dcf80996" name="Quarter Deck" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -186,11 +208,15 @@
     <property name="Traits" value="Ship. Deck."/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Quarter Deck is the active location, deal each enemy an additional shadow card at the beginning of the combat phase."/>
+    <property name="Shadow" value="Shadow: Discard an attachment you control."/>
   </card>
   <card id="5a4545c3-8b25-4fad-9798-b67921c9e7d3" name="Hold Steady!" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Stormcaller"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Exhaust each character with 1 or less Ú."/>
+    <property name="Shadow" value="Shadow: If the defending character has 0 Ú, discard it. Otherwise, the defending character gets -2 Ú for this attack."/>
   </card>
   <card id="b53fd0fc-5734-4bdc-b26f-c2133da31c3d" name="The Thing in the Depths" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -205,6 +231,7 @@
     <property name="Defense" value="-"/>
     <property name="Health" value="8"/>
     <property name="Victory Points" value="10"/>
+    <property name="Text" value="The Thing in the Depths gets +3 hit points per player.&#10;Forced: When a Creature enemy is destroyed, deal damage to The Thing in the Depths equal to that enemy’s $."/>
   </card>
   <card id="07067901-5306-47f0-8863-3c9cb194e1c6" name="Eye of the Beast" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -217,6 +244,7 @@
     <property name="Attack" value="-"/>
     <property name="Defense" value="5"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="While Eye of the Beast is engaged with a player, The Thing in the Depths attacks that player during the combat phase (deal and resolve a shadow card for this attack)."/>
   </card>
   <card id="9c3c6e43-7548-4eaf-8225-2f51ecafbc4a" name="Thrashing Arm" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -229,6 +257,7 @@
     <property name="Attack" value="5"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="7"/>
+    <property name="Text" value="Forced: At the end of the combat phase, if Thrashing Arm is engaged with you, deal 3 damage to a character you control."/>
   </card>
   <card id="db512bcc-1bc7-4008-ba2b-18d56abc3b67" name="Crushing Arm" size="EncounterCard">
     <property name="Quantity" value="3"/>
@@ -241,6 +270,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="Forced: After Crushing Arm is detached from a location, it makes an immediate attack against the first player."/>
   </card>
   <card id="5073c7a3-a3f6-4aca-b2a2-e0b830af3985" name="Grasping Arm" size="EncounterCard">
     <property name="Quantity" value="3"/>
@@ -253,6 +283,8 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="Forced: When Grasping Arm attacks, the engaged player must exhaust a character he controls."/>
+    <property name="Shadow" value="Shadow: If this attack is undefended, resolve Grasping Arm’s Grapple keyword."/>
   </card>
   <card id="0daf1963-a45f-4fe1-bd0b-ad901a1213fa" name="Giant Arm" size="EncounterCard">
     <property name="Quantity" value="3"/>
@@ -265,16 +297,22 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="6"/>
+    <property name="Text" value="Giant Arm gets +2 Û when attacking allies."/>
+    <property name="Shadow" value="Shadow: After this attack, either put Giant Arm into play engaged with you and deal it a shadow card, or resolve its Grapple ability."/>
   </card>
   <card id="5d811a82-3729-4b54-8748-e0abffd96e90" name="From the Depths" size="EncounterCard">
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Thing in the Depths "/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Discard the top 3 cards of the encounter deck. Resolve the Grapple keyword on each enemy discarded by this effect."/>
+    <property name="Shadow" value="Shadow: Assign damage among characters you control equal to the number of enemies grappled with locations in the staging area."/>
   </card>
   <card id="b1898a55-730c-493e-9fcd-24a51d817b64" name="Lashing Tentacles" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Thing in the Depths "/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The Thing in the Depths attacks each player in turn order from the staging area (deal and resolve a shadow card for each attack)."/>
+    <property name="Shadow" value="Shadow: After this attack, The Thing in the Depths makes an attack against the defending player (deal a shadow card for this attack)."/>
   </card>
   <card id="92b2ea69-3f7f-4bbd-b3e0-c6c98cbbde9d" name="The Thing in the Depths ">
     <property name="Quantity" value="0"/>

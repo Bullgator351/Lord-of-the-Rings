@@ -54,7 +54,7 @@
     <property name="Unique" value="‰"/>
     <property name="Type" value="Enemy"/>
     <property name="Traits" value="Dragon."/>
-    <property name="Keywords" value="Immune to plater card effects."/>
+    <property name="Keywords" value="Immune to player card effects."/>
     <property name="Engagement Cost" value="40"/>
     <property name="Threat" value="7"/>
     <property name="Attack" value="5"/>

@@ -276,7 +276,7 @@
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Stone of Erech"/>
     <property name="Type" value="Treachery"/>
-    <property name="Keywords" value="Surge"/>
+    <property name="Keywords" value="Surge."/>
     <property name="Text" value="When Revealed: Add 1 progress to the current Night objective."/>
   </card>
  </cards>
