@@ -45,6 +45,7 @@
     <card qty="1" id="d198aa74-21ec-462a-ac1a-f9c2fcf526cb">Tower of the Gull</card>
     <card qty="1" id="f410480c-ac41-431a-8db1-693746a7570e">The Beacon</card>
     <card qty="1" id="52b5e077-36f2-4c13-89fb-4f7b3d73463b">Tower of the Heron</card>
+    <card qty="1" id="8ed3dcd6-b234-4ab2-b6c4-1eae855d5835">A Storm on Cobas Haven</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />

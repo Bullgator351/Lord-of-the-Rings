@@ -101,7 +101,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="ttsstttttssss"/>
+    <property name="Setup" value="ttsstttttsssst"/>
     <alternate name="Outmaneuver the Enemy" type="B">
       <property name="Encounter Set" value="A Storm on Cobas Haven"/>
       <property name="Type" value="Quest"/>

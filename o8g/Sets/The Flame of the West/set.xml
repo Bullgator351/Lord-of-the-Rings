@@ -564,7 +564,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="ttttttt"/>
+    <property name="Setup" value="tttttttt"/>
     <alternate name="The Forbidden Door" type="B">
       <property name="Encounter Set" value="The Passing of the Grey Company"/>
       <property name="Type" value="Quest"/>
@@ -643,7 +643,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="sss"/>
+    <property name="Setup" value="ssst"/>
     <alternate name="Attack on Pelargir" type="B">
       <property name="Encounter Set" value="The Siege of Gondor"/>
       <property name="Type" value="Quest"/>
@@ -682,7 +682,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="ttttttttltt"/>
+    <property name="Setup" value="ttttttttlttt"/>
     <alternate name="The Garrison of Gondor" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>

@@ -22,6 +22,7 @@
     <card qty="1" id="2e778689-9e3f-4da8-a473-781c777f6473">Aragorn</card>
     <card qty="1" id="0140d146-771e-4f19-9de8-d7cf0b4d8268">The Corsair Fleet</card>
     <card qty="1" id="83dd1a59-118c-468d-a47e-e472b066ff3e">Great Corsair Ship</card>
+    <card qty="1" id="6f9211cc-a523-4a0f-9d44-c757e2f9947b">The Siege of Gondor</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -31,5 +32,6 @@
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

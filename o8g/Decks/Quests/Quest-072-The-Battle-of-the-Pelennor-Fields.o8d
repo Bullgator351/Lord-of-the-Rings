@@ -4,7 +4,7 @@
     <card qty="1" id="77a7f095-bd59-45a1-a866-d58e17e3bd6d">The Garrison of Gondor</card>
     <card qty="1" id="58616050-8a7f-4a9b-a8dc-e0d09e383741">Retreat from Osgiliath</card>
     <card qty="1" id="98a48eec-841f-48da-83e7-fa148a03de8b">The White City Besieged</card>
-    <card qty="1" id="0507932f-0030-4763-8478-29bb407103d4">Horns, Horns, Horns</card>
+    <card qty="1" id="0507932f-0030-4763-8478-29bb407103d4">Rohan has Come!</card>
     <card qty="1" id="7367d16a-2b23-4a95-9050-266e93d8ab50">Fighting in the Fields</card>
   </section>
   <section name="Encounter" shared="True">
@@ -35,6 +35,7 @@
     <card qty="1" id="3612e715-a474-4911-a247-58c76f2ef277">Pelennor Field</card>
     <card qty="1" id="9eb45361-6325-4e39-9029-9a8401d0d294">Esquire of Rohan</card>
     <card qty="1" id="b2df0294-f962-4e05-998a-d824d88cc13c">Esquire of Gondor</card>
+    <card qty="1" id="3820df8d-531b-4c37-815d-536f645bb289">The Battle of the Pelennor Fields</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -44,5 +45,6 @@
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

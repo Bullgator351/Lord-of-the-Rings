@@ -104,7 +104,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="ttt"/>
+    <property name="Setup" value="tttt"/>
     <alternate name="The Grotto" type="B">
       <property name="Encounter Set" value="The Drowned Ruins"/>
       <property name="Type" value="Quest"/>

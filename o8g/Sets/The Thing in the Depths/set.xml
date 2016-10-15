@@ -110,7 +110,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Build the encounter deck using only The Stormcaller and Corsair Raiders encounter sets, setting The Thing in the Depths and The Stormcaller Elite encounter sets aside, out of play (enemy side faceup). Search the encounter deck for Helm of the Stormcaller and 1 copy of Umbar Raider, and add them to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="ssttt"/>
+    <property name="Setup" value="sstttt"/>
     <alternate name="Take the Ship! " type="B">
       <property name="Encounter Set" value="The Thing in the Depths "/>
       <property name="Type" value="Quest"/>

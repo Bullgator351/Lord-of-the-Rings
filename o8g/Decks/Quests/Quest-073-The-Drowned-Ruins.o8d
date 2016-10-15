@@ -29,6 +29,7 @@
     <card qty="1" id="011a4573-f21a-4897-9b23-8b64391f5136">Shrine to Morgoth</card>
     <card qty="1" id="97bf780d-cd76-492f-a970-37f78273c5bb">Captain Sahír</card>
     <card qty="1" id="f0d30258-7122-4004-a689-9ff50a00b3af">Na'asiyah</card>
+    <card qty="1" id="d41a03fa-e124-4e40-99b2-2ea4f71930f1">The Drowned Ruins</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -37,5 +38,6 @@
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

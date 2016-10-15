@@ -9,18 +9,11 @@
     <card qty="3" id="5d811a82-3729-4b54-8748-e0abffd96e90">From the Depths</card>
     <card qty="2" id="b1898a55-730c-493e-9fcd-24a51d817b64">Lashing Tentacles</card>
   </section>
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Side Quest" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="cfa94470-c25c-4af3-ba71-941d1fa48a9c">Take the Ship!</card>
     <card qty="1" id="de744bed-1461-4442-b9a1-193d00fd39a3">Change of Plans</card>
     <card qty="1" id="81779961-8776-4c1d-953d-ed7bf1324fbf">Defend the Ship!</card>
   </section>
-  <section name="Second Quest Deck" shared="True" />
   <section name="Encounter" shared="True">
     <card qty="2" id="5571b159-9889-4fcd-bc0e-13bea7443348">Forecastle Deck</card>
     <card qty="2" id="ec9d7726-89fa-41ee-a6ad-30761a6b79d3">Weather Deck</card>
@@ -39,6 +32,15 @@
     <card qty="1" id="b53fd0fc-5734-4bdc-b26f-c2133da31c3d">The Thing in the Depths</card>
     <card qty="1" id="97bf780d-cd76-492f-a970-37f78273c5bb">Captain Sahír</card>
     <card qty="1" id="f0d30258-7122-4004-a689-9ff50a00b3af">Na'asiyah</card>
+    <card qty="1" id="92b2ea69-3f7f-4bbd-b3e0-c6c98cbbde9d">The Thing in the Depths </card>
   </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
