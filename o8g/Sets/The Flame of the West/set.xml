@@ -787,18 +787,33 @@
     <property name="Encounter Set" value="The Passing of the Grey Company"/>
     <property name="Type" value="Rules"/>
     <property name="Keywords" value="Rulesheet Card 1"/>
+    <alternate name="The Passing of the Grey Company" type="B">
+      <property name="Encounter Set" value="The Passing of the Grey Company"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 2"/>
+    </alternate>
   </card>
   <card id="6f9211cc-a523-4a0f-9d44-c757e2f9947b" name="The Siege of Gondor">
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Siege of Gondor"/>
     <property name="Type" value="Rules"/>
     <property name="Keywords" value="Rulesheet Card 1"/>
+    <alternate name="The Siege of Gondor" type="B">
+      <property name="Encounter Set" value="The Siege of Gondor"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 2"/>
+    </alternate>
   </card>
   <card id="3820df8d-531b-4c37-815d-536f645bb289" name="The Battle of the Pelennor Fields">
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
     <property name="Type" value="Rules"/>
     <property name="Keywords" value="Rulesheet Card 1"/>
+    <alternate name="The Battle of the Pelennor Fields" type="B">
+      <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 2"/>
+    </alternate>
   </card>
  </cards>
 </set>

@@ -28,6 +28,7 @@
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="4fcbffac-5e31-4c8f-bf94-d8ad96927e2e">Temple of the Deceived</card>
+    <card qty="1" id="7217415c-c4c1-4e03-8a62-90611f5d6ecf">Temple of the Deceived</card>
     <card qty="1" id="e4f6c61b-afb1-4f12-81d5-4edd14a90d32">Temple Guardian</card>
     <card qty="1" id="447dd08d-693c-407f-8155-87164f212351">Gate Key</card>
     <card qty="1" id="f0d30258-7122-4004-a689-9ff50a00b3af">Na'asiyah</card>
@@ -40,5 +41,6 @@
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

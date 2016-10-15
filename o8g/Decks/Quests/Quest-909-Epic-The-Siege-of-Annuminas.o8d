@@ -36,6 +36,9 @@
     <card qty="3" id="ca56ccc2-279f-4610-94c9-1c0897adf1c8">Siege Tunnel</card>
     <card qty="9" id="fab3e5a6-f889-41f6-9877-169127ac4cb9">Host of Angmar</card>
     <card qty="9" id="c6ed1453-51ad-4daf-a1da-d59c78758c3a">Dúnedain of Annúminas</card>
+    <card qty="1" id="6c89f835-68f8-4882-90ea-83f84953fabf">The Siege of Annúminas</card>
+    <card qty="1" id="8bc0199c-09ff-463f-a6b5-886d14d843cc">The Siege of Annúminas</card>
+    <card qty="1" id="9a89ea1f-1835-4ed8-918e-28d248771378">The Siege of Annúminas</card>
   </section>
   <section name="Special" shared="True">
     <card qty="2" id="cdeea6e4-3167-4b43-bbf9-47d33e61fd6d">Gate of Annúminas</card>

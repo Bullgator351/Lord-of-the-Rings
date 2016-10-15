@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Side Quest" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="b66a9091-9fa2-48a8-8353-1c1716b9bf4d">Standard Game Mode</card>
     <card qty="1" id="48893e0f-bc7c-46f4-a5f7-18bd0d758d49">Rebuild the Defenses</card>
     <card qty="1" id="178fd61d-ebb3-40b1-b854-4c7bc43c121e">Defend the City</card>
     <card qty="1" id="2f2e6076-2636-485b-874c-fd3bc4bcf5f0">Lead a Sortie</card>
   </section>
-  <section name="Second Quest Deck" shared="True" />
   <section name="Encounter" shared="True">
     <card qty="2" id="cdeea6e4-3167-4b43-bbf9-47d33e61fd6d">Gate of Annúminas</card>
     <card qty="3" id="7ab75169-a42a-49a2-821f-a383a90ad7c0">City Wall</card>
@@ -29,7 +22,6 @@
     <card qty="3" id="1733be6c-2101-4f83-816b-f730b4afc183">Caught in the Press</card>
     <card qty="3" id="48ce5ac0-3705-44a7-886a-24151a7de826">Weary Warriors</card>
   </section>
-  <section name="Special" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="d057a6d6-8eda-4aa2-8d2d-8f2af6b6eeb8">Annúminas</card>
     <card qty="1" id="75ed364b-fa2c-469e-8af2-289643bef9e7">Lieutenant of Angmar</card>
@@ -38,6 +30,18 @@
     <card qty="1" id="ca56ccc2-279f-4610-94c9-1c0897adf1c8">Siege Tunnel</card>
     <card qty="3" id="fab3e5a6-f889-41f6-9877-169127ac4cb9">Host of Angmar</card>
     <card qty="3" id="c6ed1453-51ad-4daf-a1da-d59c78758c3a">Dúnedain of Annúminas</card>
+    <card qty="1" id="6c89f835-68f8-4882-90ea-83f84953fabf">The Siege of Annúminas</card>
+    <card qty="1" id="8bc0199c-09ff-463f-a6b5-886d14d843cc">The Siege of Annúminas</card>
+    <card qty="1" id="9a89ea1f-1835-4ed8-918e-28d248771378">The Siege of Annúminas</card>
   </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

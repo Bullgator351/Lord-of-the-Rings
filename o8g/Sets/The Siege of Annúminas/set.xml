@@ -5,7 +5,7 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Campaign"/>
-    <property name="Setup" value="stttttttt"/>
+    <property name="Setup" value="sttttttttttt"/>
     <alternate name="Standard Game Mode" type="B">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Campaign"/>
@@ -15,7 +15,7 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Campaign"/>
-    <property name="Setup" value="ssstttttttttttttttttttttttttttttt"/>
+    <property name="Setup" value="sssttttttttttttttttttttttttttttttttt"/>
     <alternate name="Epic Multiplayer Mode" type="B">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Campaign"/>
@@ -345,6 +345,39 @@
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Treachery"/>
+  </card>
+  <card id="6c89f835-68f8-4882-90ea-83f84953fabf" name="The Siege of Annúminas">
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="The Siege of Annúminas"/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 1"/>
+    <alternate name="The Siege of Annúminas" type="B">
+      <property name="Encounter Set" value="The Siege of Annúminas"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 2"/>
+    </alternate>
+  </card>
+  <card id="8bc0199c-09ff-463f-a6b5-886d14d843cc" name="The Siege of Annúminas">
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="The Siege of Annúminas"/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 3"/>
+    <alternate name="The Siege of Annúminas" type="B">
+      <property name="Encounter Set" value="The Siege of Annúminas"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 4"/>
+    </alternate>
+  </card>
+  <card id="9a89ea1f-1835-4ed8-918e-28d248771378" name="The Siege of Annúminas">
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="The Siege of Annúminas"/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 5"/>
+    <alternate name="The Siege of Annúminas" type="B">
+      <property name="Encounter Set" value="The Siege of Annúminas"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 6"/>
+    </alternate>
   </card>
  </cards>
 </set>

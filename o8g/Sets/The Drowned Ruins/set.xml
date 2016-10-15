@@ -3,7 +3,6 @@
  <cards>
   <card id="8aea2aaf-8320-4694-bc64-fc264b409bab" name="Argalad">
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
     <property name="Sphere" value="Lore"/>
@@ -17,7 +16,6 @@
   </card>
   <card id="836d10fb-8bca-4dee-bea7-0164667b7a61" name="Dwarven Sellsword">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Traits" value="Dwarf. Warrior."/>
@@ -29,7 +27,6 @@
   </card>
   <card id="a83a5cb2-b557-4e10-baea-957318cbea95" name="Dúnedain Remedy">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Traits" value="Signal."/>
@@ -38,7 +35,6 @@
   </card>
   <card id="d5500d57-03af-4152-9ad0-620aeb4fd50b" name="Marksman of Lórien">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Traits" value="Silvan. Warrior."/>
@@ -51,7 +47,6 @@
   </card>
   <card id="8c7077ad-6b73-4ffc-86a4-891f9e4b839e" name="Battle-Fury">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Keywords" value="Play only before the staging step."/>
@@ -59,7 +54,6 @@
   </card>
   <card id="905dbe88-7974-4b0c-9a82-f96ba4dd866f" name="Woodland Courier">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Spirit"/>
     <property name="Traits" value="Silvan. Scout."/>
@@ -71,7 +65,6 @@
   </card>
   <card id="12ce640e-dd4e-4c02-be87-f273252cc9be" name="Hithlain">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Spirit"/>
     <property name="Traits" value="Item."/>
@@ -80,7 +73,6 @@
   </card>
   <card id="697e1c80-a218-4dc7-b0c3-06921e879b81" name="Robin Smallburrow">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Lore"/>
@@ -93,14 +85,12 @@
   </card>
   <card id="1c824f05-d8be-40e4-be13-5cea37128bf8" name="Interrogation">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
     <property name="Cost" value="1"/>
   </card>
   <card id="789fbae0-a33e-4ea0-a34f-adfe3b62dba7" name="Strider">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Neutral"/>
@@ -309,6 +299,11 @@
     <property name="Encounter Set" value="The Drowned Ruins"/>
     <property name="Type" value="Rules"/>
     <property name="Keywords" value="Rulesheet Card 1"/>
+    <alternate name="The Drowned Ruins" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 2"/>
+    </alternate>
   </card>
  </cards>
 </set>

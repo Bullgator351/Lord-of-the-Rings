@@ -109,14 +109,14 @@
   </card>
   <card id="fb7d55c5-7198-45c5-97d7-be4c6a26fa68" name="Searching the Island" size="QuestCard">
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Island Map (see insert). Flip over the top-left and bottom-left locations of the Island Map (without resolving their Forced effects, if any), and choose one as the players’ starting active location, using a resource token to represent which location is active. The first player takes control of Captain Sahír, and the last player takes control of Na’asiyah (objective-ally sides faceup). Add Temple Guardian to the staging area and attach Gate Key to it, guarded. Shuffle the encounter deck."/>
-    <property name="Setup" value="tssss"/>
+    <property name="Setup" value="ttssss"/>
     <alternate name="Searching the Island" type="B">
-      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Encounter Set" value="Temple of the Deceived"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
@@ -126,14 +126,14 @@
   </card>
   <card id="f3bc3759-1f94-4983-bebb-66c7d9e3e0b3" name="Temple of the Deceived" size="EncounterCard">
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Location"/>
     <property name="Keywords" value="Uncharted. Immune to player card effects."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="-"/>
     <property name="Text" value="Travel: Exhaust the Gate Key to travel here.&#10;Forced: After Temple of the Deceived becomes the active location, flip it over."/>
     <alternate name="The Grotto’s Entrance" type="B">
-      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Encounter Set" value="Temple of the Deceived"/>
       <property name="Unique" value="‰"/>
       <property name="Type" value="Location"/>
       <property name="Traits" value="Ruins."/>
@@ -145,14 +145,14 @@
   </card>
   <card id="3371c102-4aab-4b15-a738-a4b3483a6004" name="Temple of the Deceived" size="EncounterCard">
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Location"/>
     <property name="Keywords" value="Uncharted. Immune to player card effects."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="-"/>
     <property name="Text" value="Travel: Exhaust the Gate Key to travel here.&#10;Forced: After Temple of the Deceived becomes the active location, flip it over."/>
     <alternate name="Temple Halls" type="B">
-      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Encounter Set" value="Temple of the Deceived"/>
       <property name="Type" value="Location"/>
       <property name="Traits" value="Ruins."/>
       <property name="Threat" value="5"/>
@@ -162,7 +162,7 @@
   </card>
   <card id="e4f6c61b-afb1-4f12-81d5-4edd14a90d32" name="Temple Guardian" size="EncounterCard">
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Enemy"/>
     <property name="Traits" value="Undead."/>
@@ -175,24 +175,24 @@
     <property name="Victory Points" value="4"/>
     <property name="Text" value="Temple Guardian gets –50 engagement cost while Cursed Temple is the active location."/>
   </card>
-  <card id="447dd08d-693c-407f-8155-87164f212351" name="Gate Key">
+  <card id="447dd08d-693c-407f-8155-87164f212351" name="Gate Key" size="EncounterCard">
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Unique" value="‰"/>
-    <property name="Type" value="Objective."/>
+    <property name="Type" value="Objective"/>
     <property name="Traits" value="Item. Artifact."/>
     <property name="Text" value="If unattached, return Gate Key to the staging area and it gains: “Action: Exhaust a hero to claim Gate Key and attach it to that hero.”&#10;Action: Exhaust Gate Key and attached hero and spend 3 resources from attached hero’s resource pool to look at the facedown side of a Temple of the Deceived."/>
   </card>
   <card id="1877b069-7015-4172-b5df-bbfd235b976f" name="Lost Island" size="EncounterCard">
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Location"/>
     <property name="Keywords" value="Uncharted. Cannot have player card attachments."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="-"/>
     <property name="Text" value="Forced: After Lost Island becomes the active location, flip it over. Action: Remove 4 progress from Lost Island to look at its facedown side."/>
     <alternate name="Jagged Cliffs" type="B">
-      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Encounter Set" value="Temple of the Deceived"/>
       <property name="Type" value="Location"/>
       <property name="Traits" value="Mountain."/>
       <property name="Threat" value="4"/>
@@ -202,14 +202,14 @@
   </card>
   <card id="4c7d7a31-250d-4e48-a97a-2aebb3b2b47d" name="Lost Island" size="EncounterCard">
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Location"/>
     <property name="Keywords" value="Uncharted. Cannot have player card attachments."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="-"/>
     <property name="Text" value="Forced: After Lost Island becomes the active location, flip it over. Action: Remove 4 progress from Lost Island to look at its facedown side."/>
     <alternate name="Winding Caverns" type="B">
-      <property name="Encounter Set" value="An Unlikely Accord"/>
+      <property name="Encounter Set" value="Temple of the Deceived"/>
       <property name="Type" value="Location"/>
       <property name="Traits" value="Underground."/>
       <property name="Threat" value="2"/>
@@ -219,15 +219,15 @@
   </card>
   <card id="dc8f31b6-73af-4aec-be26-8d297909d14d" name="Lost Island" size="EncounterCard">
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Location"/>
     <property name="Keywords" value="Uncharted. Cannot have player card attachments."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="-"/>
     <property name="Text" value="Forced: After Lost Island becomes the active location, flip it over. Action: Remove 4 progress from Lost Island to look at its facedown side."/>
     <alternate name="Jungle Path" type="B">
-      <property name="Encounter Set" value="An Unlikely Accord"/>
-      <property name="Type" value="Treachery"/>
+      <property name="Encounter Set" value="Temple of the Deceived"/>
+      <property name="Type" value="Location"/>
       <property name="Traits" value="Forest."/>
       <property name="Threat" value="3"/>
       <property name="Quest Points" value="3"/>
@@ -236,7 +236,7 @@
   </card>
   <card id="617ce2f8-f33e-4898-9fa4-38787ee9c2b6" name="Faithless Desecrator" size="EncounterCard">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Enemy"/>
     <property name="Traits" value="Undead."/>
     <property name="Engagement Cost" value="25"/>
@@ -249,7 +249,7 @@
   </card>
   <card id="90b5e33a-3708-40ab-8d20-5a997237e536" name="Island Watcher" size="EncounterCard">
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Enemy"/>
     <property name="Traits" value="Undead."/>
     <property name="Keywords" value="Island Watcher cannot be optionally engaged."/>
@@ -262,7 +262,7 @@
   </card>
   <card id="00e25526-9804-4b05-89d6-557d9ef7ad77" name="Profane Dead" size="EncounterCard">
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Enemy"/>
     <property name="Traits" value="Undead."/>
     <property name="Engagement Cost" value="35"/>
@@ -274,27 +274,27 @@
   </card>
   <card id="c8decb35-cb3e-4dc9-ad15-d0cc80c157cb" name="Deeper into the Ruins" size="EncounterCard">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: Until the end of the phase, add X $ to the total $ in the staging area. X is the total $ of all locations to the left of the active location (in its row). If X is 0, Deeper into the Ruins gains Doomed 1."/>
   </card>
   <card id="4fc6111a-93c3-4407-b067-1b82396b802f" name="Furious Rainstorm" size="EncounterCard">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: Each player must choose: raise his threat by the number of his characters committed to the quest, or deal 1 damage to each of his characters committed to the quest."/>
     <property name="Shadow" value="Shadow: If this attack destroys a character, raise your threat by the attacking enemy’s $."/>
   </card>
   <card id="3e8eaee9-6fdb-4207-864f-151f0f98807b" name="Dwindling Supplies" size="EncounterCard">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: Each player must randomly discard cards from his hand until he has no more than 3 cards in his hand. If no cards were discarded by this effect, Dwindling Supplies gains doomed 2."/>
     <property name="Shadow" value="Shadow: Defending character gets -2 Ú for this attack."/>
   </card>
   <card id="441a78e5-078f-433d-b092-5d94d1101aa1" name="Sunken Ruins" size="EncounterCard">
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="An Unlikely Accord"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Treachery"/>
     <property name="Keywords" value="Doomed 1."/>
     <property name="Text" value="When Revealed: Each Uncharted location in the staging area gets +1 $ until the end of the phase. If the active location has the Ruins trait, discard 1 resource from each hero and objective ally in play."/>
@@ -304,6 +304,22 @@
     <property name="Encounter Set" value="Temple of the Deceived"/>
     <property name="Type" value="Rules"/>
     <property name="Keywords" value="Rulesheet Card 1"/>
+    <alternate name="Temple of the Deceived" type="B">
+      <property name="Encounter Set" value="Temple of the Deceived"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 2"/>
+    </alternate>
+  </card>
+  <card id="7217415c-c4c1-4e03-8a62-90611f5d6ecf" name="Temple of the Deceived">
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="Temple of the Deceived"/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 3"/>
+    <alternate name="Temple of the Deceived" type="B">
+      <property name="Encounter Set" value="Temple of the Deceived"/>
+      <property name="Type" value="Rules"/>
+      <property name="Keywords" value="Rulesheet Card 4"/>
+    </alternate>
   </card>
  </cards>
 </set>
