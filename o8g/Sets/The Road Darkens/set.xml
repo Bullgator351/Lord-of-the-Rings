@@ -299,7 +299,7 @@
     <property name="Health" value="12"/>
     <property name="Text" value="Cannot leave the staging area but is considered to be engaged with each player.&#10;Forced: After placing the 6th damage here, the first player takes control of the Ring-bearer, exhausted with 1 damage on it."/>
   </card>
-  <card id="232256cb-40ee-4cec-84ac-995b3ba43eb2" name="Great Warg Chief">
+  <card id="232256cb-40ee-4cec-84ac-995b3ba43eb2" name="Great Warg Chief" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Ring Goes South"/>
     <property name="Unique" value="‰"/>

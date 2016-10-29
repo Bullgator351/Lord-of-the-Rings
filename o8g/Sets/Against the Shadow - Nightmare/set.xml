@@ -41,7 +41,7 @@
     <property name="Health" value="4"/>
     <property name="Text" value="When Revealed: Murderous Turncoat makes an immediate attack against the first player.&#10;Forced: At the end of the combat phase, place Murderous Turncoat facedown underneath the active location if you are not at stage 3."/>
   </card>
-  <card id="1c446c6e-5665-446a-80f1-68cceaed05eb" name="Faithless Conspirator">
+  <card id="1c446c6e-5665-446a-80f1-68cceaed05eb" name="Faithless Conspirator" size="EncounterCard">
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Enemy"/>
