@@ -1,21 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Side Quest" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="c79ff551-f816-4106-9c55-e22d175e544c">The Coast of Umbar</card>
     <card qty="1" id="19675b16-16ee-4477-a753-bd1cf7b51b7a">Fate of The Dream-chaser</card>
     <card qty="1" id="58d90f80-eb1a-46d9-a5c1-2e7b8c5b8451">The Haven of Umbar</card>
     <card qty="1" id="7b8369b4-cca1-4076-8985-1c7be238ccb0">Final Confrontation</card>
   </section>
-  <section name="Second Quest Deck" shared="True" />
   <section name="Encounter" shared="True">
     <card qty="2" id="0f7ce386-9510-4fd5-93aa-145190f8d1de">Slave Ship</card>
-    <card qty="3" id="2fd16de8-3286-4003-9978-574738b2a337">Umbar Slaver</card>
     <card qty="2" id="a3173fc4-1ddb-470d-ae12-a35e24ea63a3">Corsair Waters</card>
     <card qty="2" id="04f24d17-9764-4385-b22c-0e45f6fa5654">Watch Tower</card>
     <card qty="2" id="86e8724b-32cb-4d63-b918-5754d39d2249">Serpent’s Tail</card>
@@ -24,6 +16,7 @@
     <card qty="3" id="7691fb33-603e-4460-9f09-5f96bc05c2bb">Sudden Storms</card>
     <card qty="2" id="71d7dd78-a967-43dd-ab73-e46a5d4d4519">Winds of Wrath</card>
     <card qty="2" id="c1273c2f-a616-45ee-804d-a16c28b6e63d">Light Cruiser</card>
+    <card qty="2" id="c057b0ef-eb85-4afc-9ca8-60a0cca92bcc">Battle-Hardened</card>
     <card qty="2" id="a312e181-9209-4460-b6ba-c90c99e011fe">Corsair Warship</card>
     <card qty="2" id="28ba7c20-b660-40cb-9e2c-bf6ebaec723e">Boarding Party</card>
     <card qty="3" id="16361c0e-f422-44d4-8f25-bc32b7a9aadd">Scouting Ship</card>
@@ -32,9 +25,9 @@
   </section>
   <section name="Special" shared="True">
     <card qty="3" id="d03bdefa-cc39-43b6-9af9-feeb33858958">Umbar Raider</card>
+    <card qty="3" id="2fd16de8-3286-4003-9978-574738b2a337">Umbar Slaver</card>
     <card qty="2" id="d7885efa-3af6-48e6-8eb1-5750892fdb34">Corsair Infiltrator</card>
     <card qty="2" id="4b3a4229-eb85-49b0-9f34-78cb17301b34">Raid Leader</card>
-    <card qty="2" id="c057b0ef-eb85-4afc-9ca8-60a0cca92bcc">Battle-Hardened</card>
   </section>
   <section name="Second Special" shared="True">
     <card qty="3" id="b4769083-91fb-4e9c-9736-17e8c28ff971">Fury and Malice</card>
@@ -55,5 +48,12 @@
     <card qty="1" id="c9139d8c-0d9d-4d34-bfb5-8d40ca455bfc">Silver Wing</card>
     <card qty="1" id="ce1cf93c-68d9-4613-af3a-a08671152358">Heading</card>
   </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

@@ -27,7 +27,7 @@
     <property name="Health" value="3"/>
     <property name="Text" value="While Alcaron's Scroll is attached to a hero, Cunning Informat gets +3 Û.&#10;During the encounter phase, if Alcaron's Scroll is attached to a hero, that hero's controller is considered to have +10 threat for the purpose of engagement checks."/>
   </card>
-  <card id="92576b76-6b3a-4bee-84dc-82f927e1caa1" name="Harbor Brute">
+  <card id="92576b76-6b3a-4bee-84dc-82f927e1caa1" name="Harbor Brute" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Peril in Pelargir - Nightmare"/>
     <property name="Type" value="Enemy"/>

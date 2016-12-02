@@ -1661,6 +1661,25 @@ def drawMany(group, count = None):
 		c.moveTo(me.hand)
 		notify("{} draws '{}'".format(me, c))
  
+def lookAtAllEncounterDeck(group, count = None):
+	mute()
+	notify("{} looks at Global's Encounter.".format(me, count))
+	encounterDeck().lookAt(-1,True)
+ 
+def lookAtAllEncounterDiscard(group, count = None):
+	mute()
+	encounterDiscard().lookAt(-1,True)
+
+def lookAtTop5Deck(group, count = None):
+	mute()
+	notify("{} looks at {}'s Deck.".format(me, me))
+	me.deck.lookAt(5,True)
+
+def lookAtTop10Deck(group, count = None):
+	mute()
+	notify("{} looks at {}'s Deck.".format(me, me))
+	me.deck.lookAt(10,True)
+	
 def search(group, count = None):
 	mute()
 	if len(group) == 0: return

@@ -882,7 +882,7 @@
     <property name="Text" value="When Revealed: The first player must either exhaust the Ring-bearer or an additional encounter card."/>
     <property name="Shadow" value="Shadow: Defending player raises his threat by 3."/>
   </card>
-  <card id="e8f413bf-3593-47fc-8813-4553d55dbb2a" name="Eaten Alive!">
+  <card id="e8f413bf-3593-47fc-8813-4553d55dbb2a" name="Eaten Alive!" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Flight to the Ford"/>
     <property name="Type" value="Treachery"/>

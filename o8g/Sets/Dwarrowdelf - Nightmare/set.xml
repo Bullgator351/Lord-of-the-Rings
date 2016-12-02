@@ -259,7 +259,7 @@
     <property name="Text" value="While Banks of Sirannon is in the staging area, each Tentacle enemy gets +2 Ú. "/>
     <property name="Shadow" value="Shadow: For each point of damage dealt by this attack, the defending player must discard a random card from his hand."/>
   </card>
-  <card id="da69a930-1102-4f2d-80ff-257354f3f701" name="Hideous Depths" size="EncounterCard">
+  <card id="da69a930-1102-4f2d-80ff-257354f3f701" name="Hideous Depths">
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Watcher in the Water - Nightmare"/>
     <property name="Type" value="Location"/>
