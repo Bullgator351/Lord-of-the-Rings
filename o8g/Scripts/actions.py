@@ -734,19 +734,19 @@ def updatePhase(who=me):
 #---------------------------------------------------------------------------
 # Table menu options
 #---------------------------------------------------------------------------
-def isLocation(cards):
+def isLocation(cards,x,y):
 	for c in cards:
 		if c.Type != 'Location':
 			return False
 	return True
 	
-def isEnemy(cards):
+def isEnemy(cards,x,y):
 	for c in cards:
 		if c.isFaceUp and (c.type != "Enemy" or c.orientation == Rot90):
 			return False
 	return True
 	
-def isFirstPlayerToken(cards):
+def isFirstPlayerToken(cards,x,y):
 	for c in cards:
 		if c.model != "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
 			return False

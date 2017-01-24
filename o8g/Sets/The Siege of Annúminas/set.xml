@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Siege of Annúminas" id="f43b0578-a255-40f7-9682-ca1936fae809" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
   <card id="b66a9091-9fa2-48a8-8353-1c1716b9bf4d" name="Standard Game Mode">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Campaign"/>
@@ -14,6 +15,7 @@
     </alternate>
   </card>
   <card id="1b93017d-9590-4515-80da-970f396e0a45" name="Epic Multiplayer Mode">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Campaign"/>
@@ -26,6 +28,7 @@
     </alternate>
   </card>
   <card id="48893e0f-bc7c-46f4-a5f7-18bd0d758d49" name="Rebuild the Defenses" size="QuestCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -42,6 +45,7 @@
     </alternate>
   </card>
   <card id="178fd61d-ebb3-40b1-b854-4c7bc43c121e" name="Defend the City" size="QuestCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -58,6 +62,7 @@
     </alternate>
   </card>
   <card id="2f2e6076-2636-485b-874c-fd3bc4bcf5f0" name="Lead a Sortie" size="QuestCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -74,6 +79,7 @@
     </alternate>
   </card>
   <card id="c9f0d8a8-fd7d-40d9-b040-deb48b6325b9" name="Raise the Levee" size="QuestCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -90,6 +96,7 @@
     </alternate>
   </card>
   <card id="23522905-189e-4f08-a19f-5f9cf0dae9c4" name="Guard the Gate" size="QuestCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -106,6 +113,7 @@
     </alternate>
   </card>
   <card id="d16a5c80-ba9e-482f-81ce-effaad09f893" name="Rescue the Captives" size="QuestCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -122,6 +130,7 @@
     </alternate>
   </card>
   <card id="f186de1a-4463-482a-bdee-a3cd058823b6" name="Delay the Enemy" size="QuestCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -138,6 +147,7 @@
     </alternate>
   </card>
   <card id="09046590-21d9-4e12-ae30-767b759b7ba4" name="Man the Walls" size="QuestCard">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -154,6 +164,7 @@
     </alternate>
   </card>
   <card id="fe815306-f89c-4ed1-b2aa-c3f8fa7dfc42" name="Stop the Attack" size="QuestCard">
+    <property name="Card Number" value="11"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Quest"/>
@@ -170,6 +181,7 @@
     </alternate>
   </card>
   <card id="d057a6d6-8eda-4aa2-8d2d-8f2af6b6eeb8" name="Annúminas" size="EncounterCard">
+    <property name="Card Number" value="12"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Unique" value="‰"/>
@@ -178,6 +190,7 @@
     <property name="Text" value="Forced: At the end of the round, deal 1 damage to Annúminas for each enemy at each stage.&#10;&#10;If the city strength of Annúminas reaches 0, the city is overrun by the forces of Angmar and all teams lose the game."/>
   </card>
   <card id="75ed364b-fa2c-469e-8af2-289643bef9e7" name="Lieutenant of Angmar" size="EncounterCard">
+    <property name="Card Number" value="13"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Unique" value="‰"/>
@@ -193,6 +206,7 @@
     <property name="Text" value="Lieutenant of Angmar cannot take damage unless there is at least 10 progress on the main quest.&#10;&#10;Forced: At the end of the round, Lieutenant of Angmar moves to the staging area with the lowest total $ and makes an immediate attack against the first player."/>
   </card>
   <card id="02d8e441-0c70-4ecb-886f-9ba6f673ac9d" name="Battering Ram" size="EncounterCard">
+    <property name="Card Number" value="14"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Unique" value="‰"/>
@@ -205,6 +219,7 @@
     <property name="Text" value="Forced: At the end of the round, place 1 resource on Battering Ram. Then, deal X damage to Annúminas.&#10;&#10;Travel: Reveal 1 encounter card per player to travel here."/>
   </card>
   <card id="8e8c68df-88b4-43b3-a4ea-d93713193ee3" name="Enemy Camp" size="EncounterCard">
+    <property name="Card Number" value="15"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Unique" value="‰"/>
@@ -217,6 +232,7 @@
     <property name="Text" value="Forced: At the end of the round, if Enemy Camp is in play, discard 1 random facedown hero from under each stage 3. If Enemy Camp is in the victory display, return each hero under each stage 3 to its owner's control instead.&#10;&#10;Travel: Reveal 1 encounter card per player to travel here."/>
   </card>
   <card id="ca56ccc2-279f-4610-94c9-1c0897adf1c8" name="Siege Tunnel" size="EncounterCard">
+    <property name="Card Number" value="16"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Unique" value="‰"/>
@@ -229,6 +245,7 @@
     <property name="Text" value="Forced: At the end or the round, each team discards cards from the top of their encounter deck until an enemy is discarded and adds that enemy to their staging area.&#10;&#10;Travel: Reveal 1 encounter card per player to travel here."/>
   </card>
   <card id="fab3e5a6-f889-41f6-9877-169127ac4cb9" name="Host of Angmar" size="EncounterCard">
+    <property name="Card Number" value="17"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Enemy"/>
@@ -243,6 +260,7 @@
     <property name="Text" value="Forced: After Host of Angmar attacks and destroys a character, either remove 2 progress from the main quest, or return Host of Angmar to the staging area."/>
   </card>
   <card id="c6ed1453-51ad-4daf-a1da-d59c78758c3a" name="Dúnedain of Annúminas" size="EncounterCard">
+    <property name="Card Number" value="18"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Objective"/>
@@ -256,6 +274,7 @@
     <property name="Shadow" value="Shadow: Ready the defending character and give it +2 Ú for this attack."/>
   </card>
   <card id="cdeea6e4-3167-4b43-bbf9-47d33e61fd6d" name="Gate of Annúminas" size="EncounterCard">
+    <property name="Card Number" value="19"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Location"/>
@@ -265,6 +284,7 @@
     <property name="Text" value="X is 1 more than the number of enemies in play.&#10;&#10;Travel: Each player engages an enemy in the staging area to travel here."/>
   </card>
   <card id="7ab75169-a42a-49a2-821f-a383a90ad7c0" name="City Wall" size="EncounterCard">
+    <property name="Card Number" value="20"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Location"/>
@@ -275,6 +295,7 @@
     <property name="Text" value="Forced: At the end of the round, place 1 resource on City Wall. Then, if there are 3 resources here, discard City Wall to deal 4 damage to Annúminas and reveal an encounter card.&#10;&#10;Travel: Reveal the top card of the encounter deck to travel here."/>
   </card>
   <card id="1acf6790-b3bd-4768-b1fd-36d527b64037" name="Arnor Battlefield" size="EncounterCard">
+    <property name="Card Number" value="21"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Location"/>
@@ -284,6 +305,7 @@
     <property name="Text" value="While Arnor Battlefield is in the staging area, each non-unique enemy gets -5 engagement cost.&#10;&#10;Travel: Each player deals 1 damage to a hero he controls to travel here."/>
   </card>
   <card id="faf4a518-7e63-4675-9337-8cc5095c5a91" name="Hills of Evendim" size="EncounterCard">
+    <property name="Card Number" value="22"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Location"/>
@@ -293,6 +315,7 @@
     <property name="Text" value="While Hills of Evendim is in the staging area, 'when revealed' effects cannot be canceled.&#10;&#10;Travel: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until an enemy is discarded. Add the discarded enemy to the staging area to travel here."/>
   </card>
   <card id="9eac32f5-dd08-4d1e-99bd-0722984cd32f" name="Shores of Lake Nenuial" size="EncounterCard">
+    <property name="Card Number" value="23"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Location"/>
@@ -302,6 +325,7 @@
     <property name="Text" value="While Shores of Lake Nenuial is in the staging area, progress cannot be placed on other locations in the staging area.&#10;&#10;Travel: Raise each player's threat by 2 to travel here."/>
   </card>
   <card id="7fb1c173-03d7-4136-af14-58eedb58fcab" name="Warg of Carn Dûm" size="EncounterCard">
+    <property name="Card Number" value="24"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Enemy"/>
@@ -315,6 +339,7 @@
     <property name="Text" value="Forced: After Warg of Carn Dûm engages you, either remove 1 progress from the main quest, or exhaust a charater you control."/>
   </card>
   <card id="4ee364f1-9e44-4dfb-a133-59d8d69fc9f6" name="Orc of Angmar" size="EncounterCard">
+    <property name="Card Number" value="25"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Enemy"/>
@@ -329,6 +354,7 @@
     <property name="Shadow" value="Shadow: Defender gets -2 Ú until the end of the round."/>
   </card>
   <card id="761f5564-29b7-413e-9e7f-5d3c63c173d7" name="Angmar Warg-rider" size="EncounterCard">
+    <property name="Card Number" value="26"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Enemy"/>
@@ -343,6 +369,7 @@
     <property name="Shadow" value="Shadow: Exhaust a character you control."/>
   </card>
   <card id="3ddece75-2906-4456-8a5a-b20dce9b95dd" name="Savage Werewolf" size="EncounterCard">
+    <property name="Card Number" value="27"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Enemy"/>
@@ -356,6 +383,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one"/>
   </card>
   <card id="366f0662-7776-4b1a-bb09-334e06e0e174" name="Vanguard of Carn Dûm" size="EncounterCard">
+    <property name="Card Number" value="28"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Enemy"/>
@@ -370,6 +398,7 @@
     <property name="Shadow" value="Shadow: Defender cannot ready this round."/>
   </card>
   <card id="734fd50d-e708-4cc7-82e1-53809f6e7867" name="The Hordes of Angmar" size="EncounterCard">
+    <property name="Card Number" value="29"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Treachery"/>
@@ -377,6 +406,7 @@
     <property name="Shadow" value="Shadow: If this attack destroys a character, reveal the top card of the encounter deck."/>
   </card>
   <card id="28baceac-b941-4921-96ad-5df8dfb96544" name="Sorcery of Carn Dûm" size="EncounterCard">
+    <property name="Card Number" value="30"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Treachery"/>
@@ -385,6 +415,7 @@
     <property name="Shadow" value="Shadow: Discard an attachment you control."/>
   </card>
   <card id="1733be6c-2101-4f83-816b-f730b4afc183" name="Caught in the Press" size="EncounterCard">
+    <property name="Card Number" value="31"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Treachery"/>
@@ -392,6 +423,7 @@
     <property name="Shadow" value="Shadow: Either remove 2 progress from the main quest, or return attacking enemy to the staging area after this attack."/>
   </card>
   <card id="48ce5ac0-3705-44a7-886a-24151a7de826" name="Weary Warriors" size="EncounterCard">
+    <property name="Card Number" value="32"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Treachery"/>
@@ -399,6 +431,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets + 1 Û (+2 Û instead if the defender is damaged)."/>
   </card>
   <card id="6c89f835-68f8-4882-90ea-83f84953fabf" name="The Siege of Annúminas">
+    <property name="Card Number" value="997"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Rules"/>
@@ -410,6 +443,7 @@
     </alternate>
   </card>
   <card id="8bc0199c-09ff-463f-a6b5-886d14d843cc" name="The Siege of Annúminas">
+    <property name="Card Number" value="998"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Rules"/>
@@ -421,6 +455,7 @@
     </alternate>
   </card>
   <card id="9a89ea1f-1835-4ed8-918e-28d248771378" name="The Siege of Annúminas">
+    <property name="Card Number" value="999"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Rules"/>

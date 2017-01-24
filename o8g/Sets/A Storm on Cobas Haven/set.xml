@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="A Storm on Cobas Haven" id="b438c6f4-a0ad-4879-a473-71d3f34c92cb" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
   <card id="5205f00e-c538-4b5e-976c-5db99d33bc4e" name="Na’asiyah">
+    <property name="Card Number" value="109"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
@@ -14,6 +15,7 @@
     <property name="Health" value="4"/>
   </card>
   <card id="5c6b9d23-79fe-482c-8122-66b185cd476e" name="Rune-master">
+    <property name="Card Number" value="110"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Attachment"/>
@@ -22,12 +24,14 @@
     <property name="Cost" value="1"/>
   </card>
   <card id="b09288fe-e0a4-4395-8345-4505530fbe4c" name="Terrible to Behold">
+    <property name="Card Number" value="111"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="1"/>
   </card>
   <card id="3b736ea1-aaeb-4ad9-815c-d91488a82896" name="Veteran Sword-elf">
+    <property name="Card Number" value="112"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Tactics"/>
@@ -39,6 +43,7 @@
     <property name="Health" value="3"/>
   </card>
   <card id="9128a94e-546a-4b89-8bec-6c2739af0c6e" name="Vigilant Guard">
+    <property name="Card Number" value="113"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Tactics"/>
@@ -46,12 +51,14 @@
     <property name="Cost" value="3"/>
   </card>
   <card id="28fcf3a8-febd-46bb-9a80-89dfe762f03f" name="Knife-work">
+    <property name="Card Number" value="114"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Cost" value="1"/>
   </card>
   <card id="9cafb8f6-1718-4f7f-a37f-9209ed68a92a" name="Linhir Sea-captain">
+    <property name="Card Number" value="115"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Spirit"/>
@@ -63,6 +70,7 @@
     <property name="Health" value="2"/>
   </card>
   <card id="778cf45f-cc72-424d-a7b3-09373328dd1b" name="Windfola">
+    <property name="Card Number" value="116"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Attachment"/>
@@ -71,6 +79,7 @@
     <property name="Cost" value="1"/>
   </card>
   <card id="fc6e412d-eeca-432e-bd91-378c1ae72c9f" name="Ioreth">
+    <property name="Card Number" value="117"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
@@ -83,12 +92,14 @@
     <property name="Health" value="1"/>
   </card>
   <card id="16381c8d-c437-4bde-b7da-284c5216bcb6" name="The Houses of Healing">
+    <property name="Card Number" value="118"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
     <property name="Cost" value="5"/>
   </card>
   <card id="2843c312-f8c7-4b07-ba60-2372a3c658c4" name="Justice Shall Be Done">
+    <property name="Card Number" value="119"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Neutral"/>
@@ -96,6 +107,7 @@
     <property name="Victory Points" value="1"/>
   </card>
   <card id="d0bf9c82-d626-4602-a383-4a5660a08c5f" name="Outmaneuver the Enemy" size="QuestCard">
+    <property name="Card Number" value="120"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Quest"/>
@@ -109,6 +121,7 @@
     </alternate>
   </card>
   <card id="e3adad02-fa99-4905-bb20-d414ba76f75f" name="Battle in the Bay" size="QuestCard">
+    <property name="Card Number" value="121"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Quest"/>
@@ -121,6 +134,7 @@
     </alternate>
   </card>
   <card id="233a2687-04a8-4c18-90cc-e90b9574b282" name="Break Through the Fleet!" size="QuestCard">
+    <property name="Card Number" value="122"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Quest"/>
@@ -133,12 +147,14 @@
     </alternate>
   </card>
   <card id="b585f28e-7612-4f07-83f7-0fed8d391e3d" name="Dol Amroth Warship" size="EncounterCard">
+    <property name="Card Number" value="123"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Gondor. Ship."/>
   </card>
   <card id="276e1411-be34-44fa-af2b-ebe9b36541f0" name="Raider Flagship" size="EncounterCard">
+    <property name="Card Number" value="124"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Unique" value="‰"/>
@@ -153,6 +169,7 @@
     <property name="Victory Points" value="20"/>
   </card>
   <card id="026a36ed-0979-4422-a581-a4decdc3c102" name="Corsair Skirmisher" size="EncounterCard">
+    <property name="Card Number" value="125"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Enemy"/>
@@ -165,6 +182,7 @@
     <property name="Health" value="6"/>
   </card>
   <card id="96f8534a-2683-4c8f-981d-daa470b792b7" name="Siege Ship" size="EncounterCard">
+    <property name="Card Number" value="126"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Enemy"/>
@@ -177,6 +195,7 @@
     <property name="Health" value="7"/>
   </card>
   <card id="0d74f863-83c9-4342-ac98-5bbaae0a573f" name="Heavy Cruiser" size="EncounterCard">
+    <property name="Card Number" value="127"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Enemy"/>
@@ -189,6 +208,7 @@
     <property name="Health" value="8"/>
   </card>
   <card id="a2b6cb8b-dacf-4c82-9097-2206610192ac" name="Coast of Anfalas" size="EncounterCard">
+    <property name="Card Number" value="128"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Location"/>
@@ -197,6 +217,7 @@
     <property name="Quest Points" value="3"/>
   </card>
   <card id="d9bde488-6391-492f-b3df-6dd6dbe4f9e9" name="Belfalas Islet" size="EncounterCard">
+    <property name="Card Number" value="129"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Location"/>
@@ -206,6 +227,7 @@
     <property name="Victory Points" value="1"/>
   </card>
   <card id="c46688bb-24ac-4ee9-a23e-2bd481e8e56c" name="Cobas Haven" size="EncounterCard">
+    <property name="Card Number" value="130"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Location"/>
@@ -214,21 +236,25 @@
     <property name="Quest Points" value="4"/>
   </card>
   <card id="aba39503-0700-40c9-9c06-729e82bf67fe" name="Ramming Speed!" size="EncounterCard">
+    <property name="Card Number" value="131"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Treachery"/>
   </card>
   <card id="783ecb94-e005-4ff7-8bc3-76196bba9249" name="Taking on Water" size="EncounterCard">
+    <property name="Card Number" value="132"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Treachery"/>
   </card>
   <card id="4d31f077-9f08-435b-ad3c-95d5b7967fa4" name="The Raiders’ Assault" size="EncounterCard">
+    <property name="Card Number" value="133"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Treachery"/>
   </card>
   <card id="434cf78e-2e8e-4d79-9662-eb50e33bc3f9" name="Sea-ward Tower" size="EncounterCard">
+    <property name="Card Number" value="134"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Unique" value="‰"/>
@@ -237,6 +263,7 @@
     <property name="Keywords" value="Guarded."/>
   </card>
   <card id="d198aa74-21ec-462a-ac1a-f9c2fcf526cb" name="Tower of the Gull" size="EncounterCard">
+    <property name="Card Number" value="135"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Unique" value="‰"/>
@@ -245,6 +272,7 @@
     <property name="Keywords" value="Guarded."/>
   </card>
   <card id="f410480c-ac41-431a-8db1-693746a7570e" name="The Beacon" size="EncounterCard">
+    <property name="Card Number" value="136"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Unique" value="‰"/>
@@ -253,6 +281,7 @@
     <property name="Keywords" value="Guarded."/>
   </card>
   <card id="52b5e077-36f2-4c13-89fb-4f7b3d73463b" name="Tower of the Heron" size="EncounterCard">
+    <property name="Card Number" value="137"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Unique" value="‰"/>
@@ -261,6 +290,7 @@
     <property name="Keywords" value="Guarded."/>
   </card>
   <card id="8ed3dcd6-b234-4ab2-b6c4-1eae855d5835" name="A Storm on Cobas Haven">
+    <property name="Card Number" value="999"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="A Storm on Cobas Haven"/>
     <property name="Type" value="Rules"/>

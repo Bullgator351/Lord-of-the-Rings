@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Nîn-in-Eilph" id="b51f1056-c806-41b0-b89c-d9e37123ece0" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
   <card id="9e3a4b3b-7bb7-4403-984c-411af5ec8467" name="Mablung">
+    <property name="Card Number" value="84"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
@@ -15,6 +16,7 @@
     <property name="Text" value="Response: After you engage an enemy, add 1 resource to Mablung's resource pool. (Limit once per phase.)"/>
   </card>
   <card id="b86c3959-86af-4ce4-927f-769b873e4774" name="Follow Me!">
+    <property name="Card Number" value="85"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
@@ -22,6 +24,7 @@
     <property name="Text" value="Action: Take control of the first player token and draw 1 card. "/>
   </card>
   <card id="e1ff74ae-0c48-4f6c-86c8-9ac7339eb554" name="Tighten Our Belts">
+    <property name="Card Number" value="86"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
@@ -29,6 +32,7 @@
     <property name="Text" value="Refresh Action: Choose a player. Each hero that player controls that did not spend any resources this round gains 1 resource. Only 1 copy of Tighten Our Belts can be played by the players each round."/>
   </card>
   <card id="39775f69-5cf4-4133-9cf4-45a1522aa9ea" name="Galadhon Archer">
+    <property name="Card Number" value="87"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Tactics"/>
@@ -42,6 +46,7 @@
     <property name="Text" value="Response: After Galadhon Archer enters play, deal 1 damage to an enemy not engaged with you."/>
   </card>
   <card id="12d436ac-15e6-47c5-8288-357c918071a7" name="Bow of the Galadhrim">
+    <property name="Card Number" value="88"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Tactics"/>
@@ -51,6 +56,7 @@
     <property name="Text" value="Attached character gets +1 Û. (+2 Û instead if attacking an enemy not engaged with you.)"/>
   </card>
   <card id="c541b65a-d6d4-4b2c-8925-96c31d52aa1c" name="Celduin Traveler">
+    <property name="Card Number" value="89"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Spirit"/>
@@ -64,6 +70,7 @@
     <property name="Text" value="Response: After Celduin Traveler enters play, look at the top card of the encounter deck. If it is a location, you may discard it."/>
   </card>
   <card id="26a52bdc-f8e4-40a3-8047-8d696b842cdf" name="Island Amid Perils">
+    <property name="Card Number" value="90"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Spirit"/>
@@ -71,6 +78,7 @@
     <property name="Text" value="Action: Return a Silvan ally you control to your hand to reduce your threat by X where X is the printed cost of the ally returned to your hand."/>
   </card>
   <card id="c75056aa-907b-40b8-a54a-18ea07b33dc3" name="Mirkwood Pioneer">
+    <property name="Card Number" value="91"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Lore"/>
@@ -83,6 +91,7 @@
     <property name="Text" value="You may give Mirkwood Pioneer doomed 1 when you play it from your hand. If you do, it gains: &quot;Response: After you play Mirkwood Pioneer, choose a card in the staging area. Until the end of the round, the chosen card does not contribute its $."/>
   </card>
   <card id="17cb8a9a-6369-4ea9-a614-02908bd7b77f" name="Wingfoot">
+    <property name="Card Number" value="92"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Attachment"/>
@@ -93,6 +102,7 @@
     <property name="Text" value="Response: After attached hero commits to a quest, name enemy, location, or treachery. If a card of the named type is revealed during this quest phase, ready attached hero."/>
   </card>
   <card id="a1f5a577-30bf-44ed-b60b-e733b5f26d55" name="Defender of the West">
+    <property name="Card Number" value="93"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Attachment"/>
@@ -103,6 +113,7 @@
     <property name="Text" value="The first player gains control of attached ally&#10;&#10;Damage from undefended attacks against you may be assigned to attached ally."/>
   </card>
   <card id="874a98ba-9b90-49b3-9cd4-c06464696b5b" name="Fleeing from Tharbad" size="QuestCard">
+    <property name="Card Number" value="94"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Quest"/>
@@ -120,6 +131,7 @@
     </alternate>
   </card>
   <card id="51124d05-205c-49e6-ad19-aa67185c8bdc" name="Through the Marsh" size="QuestCard">
+    <property name="Card Number" value="95"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Quest"/>
@@ -136,6 +148,7 @@
     </alternate>
   </card>
   <card id="9945fdee-b56e-488d-a5bf-33d5a82afdad" name="Through the Marsh" size="QuestCard">
+    <property name="Card Number" value="96"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Quest"/>
@@ -152,6 +165,7 @@
     </alternate>
   </card>
   <card id="3dfaab4d-04b1-49a6-bd17-63c184784985" name="Through the Marsh" size="QuestCard">
+    <property name="Card Number" value="97"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Quest"/>
@@ -168,6 +182,7 @@
     </alternate>
   </card>
   <card id="f9e9bc93-8044-474c-8f80-d3787edbca5f" name="Lost in the Swanfleet" size="QuestCard">
+    <property name="Card Number" value="98"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Quest"/>
@@ -184,6 +199,7 @@
     </alternate>
   </card>
   <card id="bb58f446-da73-47e3-98e8-70f69ee77d34" name="Lost in the Swanfleet" size="QuestCard">
+    <property name="Card Number" value="99"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Quest"/>
@@ -200,6 +216,7 @@
     </alternate>
   </card>
   <card id="c760eeaf-d923-4d98-af5c-eb7cb2d2f4d9" name="Lost in the Swanfleet" size="QuestCard">
+    <property name="Card Number" value="100"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Quest"/>
@@ -216,6 +233,7 @@
     </alternate>
   </card>
   <card id="b49b5be7-5bfc-4e65-bced-862a409e097d" name="Out of the Swamp" size="QuestCard">
+    <property name="Card Number" value="101"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Quest"/>
@@ -232,6 +250,7 @@
     </alternate>
   </card>
   <card id="d5134ddf-8c78-4e68-a603-7df5d48f5016" name="Nalir" size="EncounterCard">
+    <property name="Card Number" value="102"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Unique" value="‰"/>
@@ -245,6 +264,7 @@
     <property name="Text" value="Forced: At the beginning of the refresh phase, raise your threat by 1 for each player in the game.&#10;&#10;If Nalir leaves play, the players lose the game."/>
   </card>
   <card id="b34e79d4-7806-4fd9-b12d-bb291e44f354" name="Ancient Marsh-dweller" size="EncounterCard">
+    <property name="Card Number" value="103"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Unique" value="‰"/>
@@ -260,6 +280,7 @@
     <property name="Text" value="Ancient Marsh-dweller gets +1 $ and +1 Û for each resource token on it.&#10;&#10;Forced: After any number of time counters are removed from the current quest, place a resource token here."/>
   </card>
   <card id="356f37d9-34c9-4fae-864d-c34dff7eaaa4" name="Giant Swamp Adder" size="EncounterCard">
+    <property name="Card Number" value="104"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Enemy"/>
@@ -273,6 +294,7 @@
     <property name="Text" value="Forced: After any number of time counters are removed from the current quest, Giant Swamp Adder attacks the engaged player."/>
   </card>
   <card id="8ef56cb3-b483-4b38-b208-6c16e16bdb6d" name="Neekerbreekers" size="EncounterCard">
+    <property name="Card Number" value="105"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Enemy"/>
@@ -286,6 +308,7 @@
     <property name="Shadow" value="Shadow: Deal 1 damage to the defending character."/>
   </card>
   <card id="3d19de02-b3a9-4612-a90a-30b37bd1e9b1" name="Fen of Reeds" size="EncounterCard">
+    <property name="Card Number" value="106"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Location"/>
@@ -296,6 +319,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û for each time counter on the quest."/>
   </card>
   <card id="f542bca1-68d1-4975-aea9-3ff3e7801be5" name="Finger of Glanduin" size="EncounterCard">
+    <property name="Card Number" value="107"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Location"/>
@@ -306,6 +330,7 @@
     <property name="Shadow" value="Shadow: If this attack destroys a character, remove all progress from the current quest."/>
   </card>
   <card id="1156ac5f-09cf-418b-9486-030b397a5514" name="Hidden Eyot" size="EncounterCard">
+    <property name="Card Number" value="108"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Location"/>
@@ -315,6 +340,7 @@
     <property name="Text" value="Response: After Hidden Eyot leaves play as an explored location, place 2 time counters on the current quest.&#10;&#10;Travel: Each player must exhaust a character he controls to travel here."/>
   </card>
   <card id="1e96a8e3-ad11-48d5-8554-7cb1a90937a7" name="Sinking Bog" size="EncounterCard">
+    <property name="Card Number" value="109"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Location"/>
@@ -325,6 +351,7 @@
     <property name="Shadow" value="Shadow: Defending character gets –1 Ú for each attachment attached to it."/>
   </card>
   <card id="a0f5082c-acc7-4884-a3d4-a7eed0f053e6" name="Shifting Marshland" size="EncounterCard">
+    <property name="Card Number" value="110"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Treachery"/>
@@ -333,6 +360,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack after this one."/>
   </card>
   <card id="944aaafa-17e2-4352-9a04-384673089ee6" name="Remnants of Elder Days" size="EncounterCard">
+    <property name="Card Number" value="111"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph"/>
     <property name="Type" value="Treachery"/>

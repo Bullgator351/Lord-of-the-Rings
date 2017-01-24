@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Custom Set - NinjaDorg" id="b0d63521-04f7-49fa-a028-84b7efa7b000" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="481eb8da-3657-486a-89d3-f27333d9d042" name="Dark Road" size="QuestCard">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Branching Paths"/>
     <property name="Type" value="Quest"/>
@@ -19,6 +20,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d043" name="Sacred Shrine" size="QuestCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Branching Paths"/>
     <property name="Type" value="Quest"/>
@@ -34,6 +36,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d044" name="Besieged" size="QuestCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Branching Paths"/>
     <property name="Type" value="Quest"/>
@@ -49,6 +52,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d045" name="Take Flight" size="QuestCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Branching Paths"/>
     <property name="Type" value="Quest"/>
@@ -64,6 +68,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d046" name="Liberation" size="QuestCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Branching Paths"/>
     <property name="Type" value="Quest"/>
@@ -79,6 +84,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d047" name="Abandoned" size="QuestCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Branching Paths"/>
     <property name="Type" value="Quest"/>
@@ -94,6 +100,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d048" name="Showdown" size="QuestCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Branching Paths"/>
     <property name="Type" value="Quest"/>
@@ -109,6 +116,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d018" name="Ancient Path" size="QuestCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Forgotten Ruins"/>
     <property name="Type" value="Quest"/>
@@ -126,6 +134,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d020" name="Deep Catacombs" size="QuestCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Forgotten Ruins"/>
     <property name="Type" value="Quest"/>
@@ -142,6 +151,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d022" name="Risen Nightmare" size="QuestCard">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Forgotten Ruins"/>
     <property name="Type" value="Quest"/>
@@ -158,6 +168,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d026" name="Goblin Gate" size="QuestCard">
+    <property name="Card Number" value="11"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Elven Assembly"/>
     <property name="Type" value="Quest"/>
@@ -174,6 +185,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d028" name="Elf Path" size="QuestCard">
+    <property name="Card Number" value="12"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Elven Assembly"/>
     <property name="Type" value="Quest"/>
@@ -189,6 +201,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d030" name="The Veil of the Lonely Mountain" size="QuestCard">
+    <property name="Card Number" value="13"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Elven Assembly"/>
     <property name="Type" value="Quest"/>
@@ -205,6 +218,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d010" name="Forgotten Path" size="QuestCard">
+    <property name="Card Number" value="14"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Lost Road"/>
     <property name="Type" value="Quest"/>
@@ -222,6 +236,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d012" name="Tranquil Glade" size="QuestCard">
+    <property name="Card Number" value="15"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Lost Road"/>
     <property name="Type" value="Quest"/>
@@ -237,6 +252,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d014" name="Goblin Mines" size="QuestCard">
+    <property name="Card Number" value="16"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Lost Road"/>
     <property name="Type" value="Quest"/>
@@ -252,6 +268,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d002" name="Orc War Party" size="QuestCard">
+    <property name="Card Number" value="17"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Old Forest"/>
     <property name="Type" value="Quest"/>
@@ -269,6 +286,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d004" name="Dark Woods" size="QuestCard">
+    <property name="Card Number" value="18"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Old Forest"/>
     <property name="Type" value="Quest"/>
@@ -285,6 +303,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d006" name="Daring Rescue" size="QuestCard">
+    <property name="Card Number" value="19"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - The Old Forest"/>
     <property name="Type" value="Quest"/>
@@ -300,6 +319,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d034" name="Foul Tower" size="QuestCard">
+    <property name="Card Number" value="20"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Ungoliant's Lair"/>
     <property name="Type" value="Quest"/>
@@ -317,6 +337,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d036" name="Twisted Caverns" size="QuestCard">
+    <property name="Card Number" value="21"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Ungoliant's Lair"/>
     <property name="Type" value="Quest"/>
@@ -333,6 +354,7 @@
     </alternate>
   </card>
   <card id="481eb8da-3657-486a-89d3-f27333d9d038" name="Final Stand" size="QuestCard">
+    <property name="Card Number" value="22"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Ungoliant's Lair"/>
     <property name="Type" value="Quest"/>

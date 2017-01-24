@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Road to Rivendell" id="51223bd0-ffd1-11df-a976-0801209c9000" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="51223bd0-ffd1-11df-a976-0801209c9010" name="Elladan">
+    <property name="Card Number" value="28"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
@@ -15,6 +16,7 @@
     <property name="Text" value="While Elrohir is in play, Elladan gets +2 Û.&#10;&#10;Response: After Elladan is declared as an attacker, pay 1 resource from his resource pool to ready him."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9009" name="Dúnedain Wanderer">
+    <property name="Card Number" value="29"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Leadership"/>
@@ -27,6 +29,7 @@
     <property name="Health" value="2"/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9015" name="Lure of Moria">
+    <property name="Card Number" value="30"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
@@ -34,6 +37,7 @@
     <property name="Text" value="Action: Ready all Dwarf characters."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9023" name="Rivendell Blade">
+    <property name="Card Number" value="31"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Tactics"/>
@@ -43,6 +47,7 @@
     <property name="Text" value="When attached character attacks an enemy, that enemy gets -2 Ú until the end of the phase."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9014" name="Hail of Stones">
+    <property name="Card Number" value="32"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
@@ -50,6 +55,7 @@
     <property name="Text" value="Action: Exhaust X characters to deal X damage to an enemy in the staging area."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9022" name="Rider of the Mark">
+    <property name="Card Number" value="33"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Spirit"/>
@@ -62,6 +68,7 @@
     <property name="Text" value="Action: Spend 1 Ê resource to give control of Rider of the Mark to another player. (Limit once per round.)&#10;&#10;Response: After Rider of the Mark changes control, discard a shadow card dealt to an enemy you are engaged with."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9026" name="Song of Eärendil">
+    <property name="Card Number" value="34"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Spirit"/>
@@ -71,6 +78,7 @@
     <property name="Text" value="Response: After Song of Earendil enters play, draw 1 card.&#10;&#10;Response: After another player raises his threat, raise your threat by 1 to reduce that player's threat by 1."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9007" name="Bombur">
+    <property name="Card Number" value="35"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
@@ -84,6 +92,7 @@
     <property name="Text" value="Action: Exhaust Bombur to choose a location. That location gets -1 $ until the end of the phase. (That location does not contribute its $ instead if it is an Underground location.)"/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9020" name="Out of the Wild">
+    <property name="Card Number" value="36"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
@@ -92,6 +101,7 @@
     <property name="Text" value="Action: Search the top 5 cards of the encounter deck for any 1 non-objective card worth no victory points and add it to your victory display. Shuffle the encounter deck."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9027" name="The End Comes">
+    <property name="Card Number" value="37"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Neutral"/>
@@ -99,6 +109,7 @@
     <property name="Text" value="Response: After a Dwarf character leaves play, shuffle the encounter discard pile back into the encounter deck."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9001" name="Along the Misty Mountains" size="QuestCard">
+    <property name="Card Number" value="38"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Quest"/>
@@ -115,6 +126,7 @@
     </alternate>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9017" name="Orc Outpost" size="QuestCard">
+    <property name="Card Number" value="39"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Quest"/>
@@ -130,6 +142,7 @@
     </alternate>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9003" name="Approaching Rivendell" size="QuestCard">
+    <property name="Card Number" value="40"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Quest"/>
@@ -145,6 +158,7 @@
     </alternate>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9005" name="Arwen Undómiel" size="EncounterCard">
+    <property name="Card Number" value="41"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Unique" value="‰"/>
@@ -157,6 +171,7 @@
     <property name="Text" value="The first player gains control of Arwen Undómiel, as an ally.&#10;&#10;Response: After Arwen Undómiel exhausts, choose a hero. Add 1 resource to that hero's resource pool.&#10;&#10;If Arwen Undómiel leaves play, the players are defeated."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9024" name="Ruined Road" size="EncounterCard">
+    <property name="Card Number" value="42"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Location"/>
@@ -167,6 +182,7 @@
     <property name="Shadow" value="Shadow: Return attacking enemy to the staging area after it attacks."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9012" name="Goblin Gate" size="EncounterCard">
+    <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Location"/>
@@ -176,6 +192,7 @@
     <property name="Text" value="While Goblin Gate is the active location, the first enemy revealed from the encounter deck each round gains ambush. If that enemy engages a player, it makes an immediate attack (deal and resolve a shadow card)."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9021" name="Pathless Country" size="EncounterCard">
+    <property name="Card Number" value="44"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Location"/>
@@ -186,6 +203,7 @@
     <property name="Shadow" value="Shadow: Deal 1 damage to each ally in play."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9006" name="Barren Hills" size="EncounterCard">
+    <property name="Card Number" value="45"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Location"/>
@@ -196,6 +214,7 @@
     <property name="Shadow" value="Shadow: Return attacking enemy to the staging area after it attacks."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9025" name="Sleeping Sentry" size="EncounterCard">
+    <property name="Card Number" value="46"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Treachery"/>
@@ -203,6 +222,7 @@
     <property name="Shadow" value="Shadow: Defending player must discard all exhausted characters he controls."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9011" name="Followed by Night" size="EncounterCard">
+    <property name="Card Number" value="47"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Treachery"/>
@@ -210,6 +230,7 @@
     <property name="Shadow" value="Shadow: Return attacking enemy to the staging area after it attacks."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9016" name="Orc Ambush" size="EncounterCard">
+    <property name="Card Number" value="48"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Treachery"/>
@@ -217,6 +238,7 @@
     <property name="Text" value="When Revealed: All Orc enemies in the staging area engage the first player. If there are no Orc enemies in the staging area, return all Orc enemies in the encounter discard pile to the staging area, if able."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9013" name="Goblin Taskmaster" size="EncounterCard">
+    <property name="Card Number" value="49"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Enemy"/>
@@ -230,6 +252,7 @@
     <property name="Text" value="Forced: After Goblin Taskmaster engages a player, that player deals 2 damage to 1 character he controls."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9019" name="Orc Raiders" size="EncounterCard">
+    <property name="Card Number" value="50"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Enemy"/>
@@ -243,6 +266,7 @@
     <property name="Text" value="Forced: After Orc Raiders engages a player, that player discards 2 attachments he controls, if able."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9008" name="Crebain" size="EncounterCard">
+    <property name="Card Number" value="51"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Enemy"/>
@@ -257,6 +281,7 @@
     <property name="Shadow" value="Shadow: Return attacking enemy to the staging area after it attacks."/>
   </card>
   <card id="51223bd0-ffd1-11df-a976-0801209c9028" name="Wild Bear" size="EncounterCard">
+    <property name="Card Number" value="52"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Road to Rivendell"/>
     <property name="Type" value="Enemy"/>

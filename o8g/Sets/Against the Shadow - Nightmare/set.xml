@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Against the Shadow - Nightmare" id="ad480f8c-3505-4f59-b19a-aa474bba25dc" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
   <card id="3342238a-2680-4044-822e-39a7d3d767b3" name="The Steward's Fear">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -16,6 +17,7 @@
     </alternate>
   </card>
   <card id="bb102bb7-e667-444c-b036-a65015452060" name="Rise To Power" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Objective"/>
@@ -23,6 +25,7 @@
     <property name="Text" value="Rise to Power contributes X $ to the staging area during the quest phase, where X is the number of resources on it.&#10;Forced: At the end of the round, place 2 resources on Rise to Power."/>
   </card>
   <card id="1fe22408-2fbc-40f8-a88c-980ab90137d8" name="Assassination" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Objective"/>
@@ -30,6 +33,7 @@
     <property name="Text" value="When Revealed:  Attached Assassination to the hero with the highest threat cost. (Counts as a Plot attachement with the text: &quot;Each enemy gets +1 Û.  Attached hero cannot be healed. Damage from undefended attacks and A Knife in the Back must be assigned to attached hero.  If attached hero leaves play, the players lose the game.&quot;)"/>
   </card>
   <card id="bbbad333-b966-4826-b98d-1a9e8b6a1c45" name="Murderous Turncoat" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -42,6 +46,7 @@
     <property name="Text" value="When Revealed: Murderous Turncoat makes an immediate attack against the first player.&#10;Forced: At the end of the combat phase, place Murderous Turncoat facedown underneath the active location if you are not at stage 3."/>
   </card>
   <card id="1c446c6e-5665-446a-80f1-68cceaed05eb" name="Faithless Conspirator" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -55,6 +60,7 @@
     <property name="Shadow" value="Shadow: Return attacking enemy to the staging area after this attack."/>
   </card>
   <card id="eb4d41de-acaf-4cca-813b-3f1465cb5d4f" name="Traitors' Den" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -65,6 +71,7 @@
     <property name="Text" value="Forced: At the end of the round, place 1 resource token on Traitors' Den. Then, if it has 4 or more resource tokens on it, remove all token from it and reveal at random one of the Plot cards removed from the game during setup.  Add that card to the staging area."/>
   </card>
   <card id="045cf035-2ebf-4ebf-a7a3-7d44d3f9b2dc" name="Rath Celerdain" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -74,6 +81,7 @@
     <property name="Text" value="While Rath Celerdain is in the staging area is gains: &quot;Forced: At the beginning of the encounter phase, reveal the top card of the underworld deck.  If it is an objective, discard it.&quot;"/>
   </card>
   <card id="fc351158-b618-41f2-8ba0-a3ab18eb7dd3" name="Arched Tunnel" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -84,6 +92,7 @@
     <property name="Text" value="Travel: Reveal all facedown cards underneath Arched Tunnel, one at a time.  Then, place the top cards of the underworld deck facedown underneath Arched Tunnel, if able."/>
   </card>
   <card id="f0eb44aa-e060-4d5d-b66b-39bd1f0801d7" name="False Accusations" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -92,6 +101,7 @@
     <property name="Shadow" value="Shadow: After this attack, return attacking enemy to the staging area.  Then, it makes engagement checks against each player."/>
   </card>
   <card id="58aa1ac7-961f-4a44-ad11-7613d87d4eab" name="The Cabals's Champion" size="EncounterCard">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Steward's Fear - Nightmare"/>
     <property name="Type" value="Objective"/>
@@ -99,6 +109,7 @@
     <property name="Text" value="If The Cabal's Champion is unattached and in the staging area, attach it to a Villian enemy, if able. (Counts as a Title attachment with the text: &quot;Attached enemy gets +1 $, +1 Û, +1 Ú and +2 hit points.&quot;)"/>
   </card>
   <card id="2387ac72-763b-47e0-b9f3-29a08dbeb200" name="The Drúadan Forest">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -113,6 +124,7 @@
     </alternate>
   </card>
   <card id="c2a753b8-dfb3-4bdf-a0b4-523323c52f43" name="Drû-buri-Drû" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -125,6 +137,7 @@
     <property name="Text" value="Drû-buri-Drû cannot take more than 1 damage each round.&#10;While Dru-buri-Dru is in play, other Wose enemies gets +1 Û and +1 Ú.&#10;Unless Drû-buri-Drû is in the victory display, the players cannot win."/>
   </card>
   <card id="f9a62ed6-f066-478d-9af0-0c39dea250dd" name="Drúadan Warrior" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -138,6 +151,7 @@
     <property name="Text" value="Each hero with no resources in its resource pool cannot be declared as an attacker or defender against Drúadan Warrior."/>
   </card>
   <card id="8c844d0e-74df-4def-a1e7-cb5d2e255908" name="Drúadan Stalker" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -152,6 +166,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +X Û.  X is that enemy's prowl value."/>
   </card>
   <card id="17353135-52af-42a8-a6af-3b2e9148bf5f" name="Devil's Mirk" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -162,6 +177,7 @@
     <property name="Text" value="While Devil's Mirk is in the staging area, characters cannot be healed.&#10;While Devil's Mirk is the active location, each Wose enenemy gets +2 Ú."/>
   </card>
   <card id="6c86b76e-003d-40aa-af57-bd0e6536a2f6" name="Eilenach" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -172,6 +188,7 @@
     <property name="Shadow" value="Shadow: If the defending character has no resources, deal it 1 damage."/>
   </card>
   <card id="b509154c-7596-4a48-941e-0dfa7277d0cf" name="Stonewain Valley" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -181,12 +198,14 @@
     <property name="Text" value="While Stonewain Valley is in the staging area, resources discard or spent by the first player for any reason are placed on Stonewain Valley.&#10;Stonewain Valley gets +1 $ for each resource on it."/>
   </card>
   <card id="63b5d3fe-227a-4781-b9ef-52dc6fb656d5" name="Drums of the Wild Men" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: Each player must trigger the prowl keyword on each enemy engaged with him, as if that enemy had just been revealed from the encounter deck. Then, return each engaged Wose enemy to the staging area.  If no enemies are returned to the staging area by the effect, Drums of the Wild Men gains surge."/>
   </card>
   <card id="27f961dd-c360-418e-9aac-6756d3a46dde" name="Poison-darts" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -195,6 +214,7 @@
     <property name="Text" value="When revealed: Attach to athe enemy in play with the highest engagement cost. (Counts as a Weapon attachement with the text: &quot;Attached enemy gets +2 Û and gains archery 2.&quot;)"/>
   </card>
   <card id="b7be2ad3-5ea1-4cc5-98dc-c7d3cf45cb71" name="Encounter at Amon Dîn">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -209,6 +229,7 @@
     </alternate>
   </card>
   <card id="77b11dde-8c66-4977-8ad9-3525a4b70a3f" name="Orc Raiders" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -222,6 +243,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack after this one."/>
   </card>
   <card id="791c7f2d-26ce-4719-a9ca-eaaa11b10924" name="Pillaging Orc." size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -235,6 +257,7 @@
     <property name="Shadow" value="Shadow: Deal attacking enemy 1 shadow card for each villager token on the active location."/>
   </card>
   <card id="b35ad07f-7862-4479-bc04-7dcf76e7cbc5" name="Beseiged Homestead" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -246,6 +269,7 @@
     <property name="Text" value="Forced: When any amount of progress is placed on a location in the staging area, discard 1 villager token from that location.&#10;Travel: The first player searches the encounter deck for an enemy, reveals it, and puts it into play engaged with him. Shuffle the encounter deck."/>
   </card>
   <card id="037cd2ac-cb12-4905-bd2b-86ae57350a1b" name="Overrun Village" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -257,6 +281,7 @@
     <property name="Text" value="While Overrun Village is in the staging area, it gains: &quot;Forced&quot; After an enemy engages a player, discard 1 villager token from Overrun Village.&quot;&#10;Travel: Place 1 damage token on Dead Villagers."/>
   </card>
   <card id="22511a31-8420-4f18-b834-be80c89d5e6a" name="Trapped Villagers" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -264,6 +289,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +2 Û. If this attack destroys an ally, place 1 damage token on Dead Villagers."/>
   </card>
   <card id="b4dcd330-15c0-4700-b1aa-d235f253b1de" name="Run for your Lives!" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -271,6 +297,7 @@
     <property name="Shadow" value="Shadow: Either discard 1 villager token from Rescued Villagers, or this attack is considered undefended."/>
   </card>
   <card id="a067986f-6c42-446d-8a23-58d0190c39f0" name="Save Us!" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -278,6 +305,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. Deal it another shadow card."/>
   </card>
   <card id="b86d305d-12ba-43bb-9356-fd424f63ace5" name="Those Now Sundered" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Encounter at Amon Dîn - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -286,6 +314,7 @@
     <property name="Text" value="When Revealed: Attach to Rescued Villagers. (Counts as a Condition attachment with the text: &quot;Forced: At the end of the round, discard 1 villager token from Rescued Villagers.&quot;)"/>
   </card>
   <card id="5e0ecd2d-d63e-4507-8707-641b974398ff" name="Assault on Osgiliath">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -300,6 +329,7 @@
     </alternate>
   </card>
   <card id="c9604830-bb2f-4016-b914-7c41248513b5" name="Invading Orc" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -313,6 +343,7 @@
     <property name="Shadow" value="Shadow: If this attack destroys a character, return a location you control to the staging area."/>
   </card>
   <card id="6b928a6d-c90b-4e94-931e-ba5f8f1ebaf4" name="Haradhrim Warrior" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -327,6 +358,7 @@
     <property name="Shadow" value="Shadow: Deal 1 damage to defending character."/>
   </card>
   <card id="ac4da79d-d966-45bf-b1d3-c4d0a348dd7e" name="Palace Remains" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Unique" value="‰"/>
@@ -337,6 +369,7 @@
     <property name="Text" value="Immune to player card effects. Palace Remains gets +1 $ for each resource token on it. &#10;&#10;The players cannot travel here unless there are at least 5 resource tokens on Palace Remains. &#10;While Palace Remains is in the staging area, it gains &quot;Forced: After a player takes control of a location, place 1 resource token here.&quot;"/>
   </card>
   <card id="d4b810a1-7d10-4610-9609-fb7f7568e5f5" name="Crumbled Battlements" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -346,6 +379,7 @@
     <property name="Text" value="Forced: When you take control of Crumbled Battlements, shuffle the encounter discard pile into the encounter deck and discard cards from the encounter deck until an enemy is discarded. Put the discarded enemy into play engaged with you."/>
   </card>
   <card id="2e502d3d-5cf5-47eb-9577-3c14d74995fa" name="Eastern Quarter" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -355,6 +389,7 @@
     <property name="Text" value="Forced: When you take control of Eastern Quarter, discard each event card in your hand. &#10;&#10;While a player controls Eastern Quarter it gains: &quot;Forced: After the 'when revealed' effect of a treachery is canceled, return Easter Quarter to the staging area.&quot;"/>
   </card>
   <card id="6d567c10-864f-48a8-8104-14882b2b254e" name="Western Quarter" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -364,6 +399,7 @@
     <property name="Text" value="Forced: When you take control of Western Quarter, discard the highest cost attachment you control. &#10;&#10;While a player controls Western Quarter it gains: &quot;Forced: After the 'when revealed' effect of a treachery is canceled, return Western Quarter to the staging area.&quot;"/>
   </card>
   <card id="15ccb88a-9a78-4aac-a1f2-839070a19016" name="Relentless Attack" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -371,6 +407,7 @@
     <property name="Text" value="When Revealed: Attach to the current quest. (Counts as a Condition attachment with the text: &quot;Each enemy gets -X engagement cost. X is the number of locations controlled by players. Forced: At the beginning of the encounter phase, if there are fewer than X enemies in the staging area, reveal an encounter card.&quot;)"/>
   </card>
   <card id="ffc5f529-5d18-4870-970b-7503c176f56b" name="Overrun Defenses" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -378,6 +415,7 @@
     <property name="Shadow" value="Shadow: Exhaust a character you control (2 characters instead of you control 4 or more locations)."/>
   </card>
   <card id="d74119d9-703c-4d5a-998b-4788230254c9" name="Pressed on All Sides" size="EncounterCard">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Assault on Osgiliath - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -385,6 +423,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û for each location you control."/>
   </card>
   <card id="118672b6-c6e2-43ec-ae3d-8657d8b659d5" name="The Blood of Gondor">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -399,6 +438,7 @@
     </alternate>
   </card>
   <card id="13c23487-ad49-437b-be41-1c09dd5c30e4" name="Black Númenorean" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -412,6 +452,7 @@
     <property name="Text" value="X is the total number of hidden cards in the game. &#10;&#10;Forced: When Black Númenórean engages you, turn all hidden cards in your play area faceup. &#10;Forced: At the end of the round, each player must raise his threat by 1 for each hidden card in his play area."/>
   </card>
   <card id="ef8af2c9-e9c7-463a-8853-c9ccfc3eff69" name="Orc Trickster" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -424,6 +465,7 @@
     <property name="Text" value="Forced: After Orc Trickster is turned faceup as a hidden card, it makes an immediate attack against the engaged player.&#10;&#10;Forced: When Orc Trickster would be damaged, a random player takes it facedown as a hidden card in his play area instead."/>
   </card>
   <card id="330cc524-6e48-4aa8-a201-d80e1b67570e" name="Uruk Marksman" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -437,6 +479,7 @@
     <property name="Text" value="Forced: After Uruk Marksman is turned faceup as a hidden card, deal 3 damage to a character controlled by the engaged player and return Uruk Marksman to the staging area."/>
   </card>
   <card id="d2e0ef58-b688-4cf7-9289-246b0af56ba8" name="Edge of Ithilien" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -447,6 +490,7 @@
     <property name="Shadow" value="Shadow: Turn 1 hidden card in your play area faceup. If it is a treachery card, attacking enemy makes an additional attack after this one."/>
   </card>
   <card id="866767a4-a4e9-4f61-b8eb-88f21e2fe6f2" name="Mountains of Shadow" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -457,6 +501,7 @@
     <property name="Shadow" value="Shadow: Either take 2 hidden cards, or this attack is considered undefended."/>
   </card>
   <card id="3459889b-48a2-4401-b511-6e11dabec437" name="Surrounded by Shadow" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -464,6 +509,7 @@
     <property name="Text" value="When Revealed: Each player must either take 1 hidden card for each questing hero he controls, or remove one hero he controls from the quest for each hidden card in his play area."/>
   </card>
   <card id="812dce54-8a84-4a44-94ee-5b2cd2bf1997" name="Sudden Onslaught" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -471,6 +517,7 @@
     <property name="Shadow" value="Shadow: Take 1 hidden card. Then, turn 1 hidden card in your play area faceup."/>
   </card>
   <card id="d6d15b55-0418-48a4-8571-9495c1e52232" name="The Morgul Vale">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -485,6 +532,7 @@
     </alternate>
   </card>
   <card id="f1112857-2210-4087-b262-5862aed26b68" name="Warrior of Nurn" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -498,6 +546,7 @@
     <property name="Shadow" value="Shadow: Heal all damage from each Captain enemy in play."/>
   </card>
   <card id="740357cb-f22e-4888-aed5-ccc67728b69d" name="Orc Captor" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -511,6 +560,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +3 Ú until the end of the combat phase."/>
   </card>
   <card id="b490fe8e-4367-424d-8a5c-bc7b8e1a56a7" name="Sentry of the White Bridge" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -524,6 +574,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. If this attack destroys a character, place 1 progress on To the Tower."/>
   </card>
   <card id="43375421-21f6-4e77-855c-0d29d145c803" name="Banks of Morgulduin" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -534,6 +585,7 @@
     <property name="Shadow" value="Shadow: If attacking enemy is a Captain, deal it 3 additional shadow cards for this attack."/>
   </card>
   <card id="85ee1e86-178d-40cf-81d3-c86f5a1f2678" name="Ephel Dúath" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -544,6 +596,7 @@
     <property name="Shadow" value="Shadow: Defending player must either place 1 progress token on To the Tower or treat this attack as undefended."/>
   </card>
   <card id="a1e74757-c5c8-4b81-a01a-6406410f661d" name="White-flowered Fields" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -554,6 +607,7 @@
     <property name="Shadow" value="Shadow: Return attacking enemy to the staging area after this attack."/>
   </card>
   <card id="56fbff9f-2518-4ea3-918b-caf14a93738d" name="The Tower Beckons" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -561,6 +615,7 @@
     <property name="Shadow" value="Shadow: Place 1 progress token on To the Tower."/>
   </card>
   <card id="18150bb4-3157-429c-b958-af1210acd4b2" name="Noxious Fumes" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Morgul Vale - Nightmare"/>
     <property name="Type" value="Treachery"/>

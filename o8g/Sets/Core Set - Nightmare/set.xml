@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Core Set - Nightmare" id="e84f94bf-201b-4adf-95d2-0012e0bb5000" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5001" name="Passage Through Mirkwood">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -17,6 +18,7 @@
     </alternate>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5029" name="Ungoliant's Spawn" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -30,6 +32,7 @@
     <property name="Shadow" value="Shadow: Raise the defending player's theat by 5. (Raise the defending player's threat by 10 instead if undefended.)"/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5028" name="Ungoliant's Brood" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -43,6 +46,7 @@
     <property name="Shadow" value="Shadow: If this attack is undefended, exhaust all characters you control."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5015" name="Forest Flies" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -56,6 +60,7 @@
     <property name="Shadow" value="Shadow: If attacking enemy is an Insect, deal it 2 additional Shadow cards."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5023" name="Spiders of Mirkwood" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -69,12 +74,14 @@
     <property name="Shadow" value="Shadow: Choose and exhaust 1 character you control. If this attack was undefended, also deal that character 2 damage."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5024" name="The Spider's Web" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: The player with the highest threat exhausts all heroes he controls. Then, attach this card to one of that player's heroes. (Counts as a condition attachment with the text, &quot;Each time attached hero readies, deal it 1 damage.&quot;)"/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5009" name="Backtrack!" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -83,6 +90,7 @@
     <property name="Shadow" value="Shadow: Deal and resolve the topmost Shadow effect in the encounter discard pile for this attack."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5006" name="Abandoned Camp" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -94,6 +102,7 @@
     <property name="Shadow" value="Shadow: If this attack is undefended, discard all attachment cards players control."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5017" name="Glade of the Spawn" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Passage Through Mirkwood - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -103,6 +112,7 @@
     <property name="Text" value="When Glade of the Spawn is the active location, it gains: &quot;Forced: After a Spider enemy enters play, each player must choose and exhaust 1 character he controls.&quot;"/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5003" name="Journey Along the Anduin">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -117,6 +127,7 @@
     </alternate>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5018" name="Marshland Outlaws" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -130,6 +141,7 @@
     <property name="Shadow" value="Shadow: Raise your threat by X. X is the amount of damage dealt by this attack."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5008" name="Anduin Troll Spawn" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -142,6 +154,7 @@
     <property name="Text" value="If there is no Hill Troll in play, Anduin Troll Spawn gains surge.&#10;&#10;Forced: At the beginning of the combat phase, Anduin Troll Spawn engages a player engaged with a Hill Troll."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5010" name="Brown Water Rats" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -156,6 +169,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy cannot be damaged this round."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5007" name="A Flooded Ford" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -166,6 +180,7 @@
     <property name="Shadow" value="Shadow: If this attack is undefended, put A Flooded Ford into the staging area with 1 progress token on it."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5016" name="Gladden Marshlands" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -176,12 +191,14 @@
     <property name="Shadow" value="Shadow: Each enemy engaged with the defending character gets +1 Û until the end of the phase. (+2 Û instead if this attack is undefended.)"/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5019" name="Pursuit on the Shore" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: Search the victory display and encounter discard pile for the enemy with the most hit points. Return that enemy to the staging area. If no enemy is returned by this effect, Pursuit on the Shore gains surge. (Cannot be canceled.)"/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5027" name="Troll Attack" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -189,6 +206,7 @@
     <property name="Shadow" value="Shadow: If attacking enemy is a Troll, resolve this attack against each player. (Attack is undefended against each player not engaged with this enemy.)"/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5021" name="Smoking Blood" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey Along the Anduin - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -196,6 +214,7 @@
     <property name="Shadow" value="Shadow: Move all damage on this enemy to the defending character. (If undefended, move the damage to the hero damaged by this attack.)"/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5005" name="Escape from Dol Guldur">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -211,6 +230,7 @@
     </alternate>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5026" name="Torture Master" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -224,6 +244,7 @@
     <property name="Shadow" value="Shadow: Any hero damaged (but not defeated) by this attack is turned face down, as a &quot;prisoner.&quot; Then, if the players are on stage 3, return to stage 2B of the quest."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5012" name="Crazed Captive" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -238,6 +259,7 @@
     <property name="Shadow" value="Shadow: If attacking enemy is not defeated this phase, raise defending player's threat by 7 at the end of the phase."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5022" name="Spider of Dol Guldur" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -251,6 +273,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +3 Û for each unclaimed objective in play."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5025" name="Torture Chamber" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -260,6 +283,7 @@
     <property name="Text" value="If Torture Chamber has 4 or more resource tokens on it, all &quot;prisoners&quot; were killed, and the players have lost the game.&#10;&#10;Forced: At the end of each round, place 1 resource on each Dol Guldur location in play."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5014" name="Dungeon Labyrinth" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -269,12 +293,14 @@
     <property name="Text" value="Dungeon Labyrinth gets +1 $ and +1 quest point for each resource token on it.&#10;&#10;Forced: At the end of each round, place 1 resource token on Dungeon Labyrinth for each player in the game."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5020" name="Sentinel of Shadow" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: The staging area gets +X $ until the end of the phase, where X is twice the number of players in the game. If the players quest unsuccessfully this phase, put the Nazul of Dol Guldur into play (from any out of play area), engaged with the first player. (Cannot be canceled.)"/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5011" name="Catacomb Inspection" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -283,6 +309,7 @@
     <property name="Shadow" value="Shadow: If there is a Dol Guldur location in the staging area, move 1 resource token from each of your heroes' resource pools to that location. (Resolve this effect for each Dol Guldur location."/>
   </card>
   <card id="e84f94bf-201b-4adf-95d2-0012e0bb5013" name="Dark Interrogation" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
     <property name="Type" value="Treachery"/>

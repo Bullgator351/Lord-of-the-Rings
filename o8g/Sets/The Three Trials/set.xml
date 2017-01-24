@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Three Trials" id="8da6cd8d-b3b8-48dd-95c3-68d3c4a29144" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="df9683da-d86f-46c9-9ef5-66001753dad5" name="Idraen">
+    <property name="Card Number" value="25"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
@@ -15,6 +16,7 @@
     <property name="Text" value="Response: After a location is explored, ready Idraen."/>
   </card>
   <card id="b1fb86fd-728b-4e1b-950a-73daa2a82753" name="Rivendell Scout">
+    <property name="Card Number" value="26"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Leadership"/>
@@ -27,6 +29,7 @@
     <property name="Health" value="2"/>
   </card>
   <card id="14936075-9e6a-43af-9497-dbee9df95781" name="Feigned Voices">
+    <property name="Card Number" value="27"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
@@ -34,6 +37,7 @@
     <property name="Text" value="Combat Action: Return a Silvan ally you control to your hand to choose an enemy engaged with a player. That enemy cannot attack that player this phase."/>
   </card>
   <card id="4b794779-c6b6-4ee0-b13f-196b721e28a7" name="Rúmil">
+    <property name="Card Number" value="28"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
@@ -48,6 +52,7 @@
     <property name="Text" value="Response: After you play Rúmil from your hand, choose an enemy engaged with a player. Deal X damage to that enemy where X is the number of ranged characters you control."/>
   </card>
   <card id="6b86cf8e-1708-434d-90a5-93163f3d61ea" name="Elven Mail">
+    <property name="Card Number" value="29"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Tactics"/>
@@ -57,6 +62,7 @@
     <property name="Text" value="Attached character gets +2 hit points and gains sentinel."/>
   </card>
   <card id="284838f8-1ea0-466f-a373-032c7ad6e836" name="Greyflood Wanderer">
+    <property name="Card Number" value="30"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Spirit"/>
@@ -69,6 +75,7 @@
     <property name="Text" value="You may give Greyflood Wanderer doomed 2 when you play it from your hand. If you do, it gains:&#10;“Response: After you play Greyflood Wanderer, place 1 progress token on each location in play.”"/>
   </card>
   <card id="f9b39223-3b12-4682-8db5-9ef4116b4919" name="Warden of Arnor">
+    <property name="Card Number" value="31"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Attachment"/>
@@ -79,6 +86,7 @@
     <property name="Text" value="While attached character is committed to the quest, place 1 progress on the first location revealed by the encounter deck each round."/>
   </card>
   <card id="cc4b0912-ba4a-44b6-b7c5-2c0f0b325ebf" name="Message from Elrond">
+    <property name="Card Number" value="32"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
@@ -86,6 +94,7 @@
     <property name="Text" value="Action: Choose a player. That player may choose 1 card from his hand and add it to another player’s hand. At the end of the round, if the chosen card is in that player's hand or in play, shuffle it into its owner's deck."/>
   </card>
   <card id="b520fbc1-3cb9-49aa-9b37-2dad3b3ba333" name="Noiseless Movement">
+    <property name="Card Number" value="33"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
@@ -93,6 +102,7 @@
     <property name="Text" value="Action: Choose an enemy in the staging area. That enemy does not make engagement checks this round. Then, if your threat is 20 or less&#10;and this is the first time you played a copy of Noiseless Movement this round, return this card to your hand instead of discarding it."/>
   </card>
   <card id="1c692a1a-4ccf-4185-b5bd-d2b8d300de42" name="Leaf Brooch">
+    <property name="Card Number" value="34"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Neutral"/>
@@ -101,6 +111,7 @@
     <property name="Text" value="The first event card you play each round that matches the attached hero’s printed sphere gains secrecy 1."/>
   </card>
   <card id="460a1e18-8a57-44a5-bd06-f0c1b13c86b5" name="The Trials Begin" size="QuestCard">
+    <property name="Card Number" value="35"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Quest"/>
@@ -118,6 +129,7 @@
     </alternate>
   </card>
   <card id="8e6fe06e-36a6-491d-ae17-6580ddfd8014" name="The Trial of Strength" size="QuestCard">
+    <property name="Card Number" value="36"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Quest"/>
@@ -134,6 +146,7 @@
     </alternate>
   </card>
   <card id="be43a52a-370a-4481-bc84-8e004ecbfdca" name="The Trial of Perseverance" size="QuestCard">
+    <property name="Card Number" value="37"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Quest"/>
@@ -150,6 +163,7 @@
     </alternate>
   </card>
   <card id="8a0c8aef-d820-495f-b8f6-f2148f0786ba" name="The Trial of Intuition" size="QuestCard">
+    <property name="Card Number" value="38"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Quest"/>
@@ -166,6 +180,7 @@
     </alternate>
   </card>
   <card id="47f627da-150c-41b2-9442-390d8d2a897a" name="The Antlered Crown" size="QuestCard">
+    <property name="Card Number" value="39"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Quest"/>
@@ -182,6 +197,7 @@
     </alternate>
   </card>
   <card id="3d1a7e6f-382a-49cb-9873-e6e5e86d12d2" name="Boar's Guardian" size="EncounterCard">
+    <property name="Card Number" value="40"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Unique" value="‰"/>
@@ -197,6 +213,7 @@
     <property name="Text" value="Time 2. Forced: After the last time counter is removed from Boar’s Guardian, the engaged player must discard an ally he controls. Place 2&#10;time counters on Boar’s Guardian."/>
   </card>
   <card id="8bd2808a-55d4-41f7-946a-2726a3583eaf" name="Wolf's Guardian" size="EncounterCard">
+    <property name="Card Number" value="41"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Unique" value="‰"/>
@@ -212,6 +229,7 @@
     <property name="Text" value="Time 3. Forced: After the last time counter is removed from Wolf’s Guardian, it makes an immediate attack against the engaged player. Place&#10;3 time counters on Wolf’s Guardian."/>
   </card>
   <card id="9a29c251-6119-47b2-8e10-ba4d33c0747e" name="Raven's Guardian" size="EncounterCard">
+    <property name="Card Number" value="42"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Unique" value="‰"/>
@@ -227,6 +245,7 @@
     <property name="Text" value="Time 4. Forced: After the last time counter is removed from Raven’s Guardian, deal 1 damage to each character controlled by the engaged player. Place 4 time counters on Raven’s Guardian."/>
   </card>
   <card id="e2a70b1d-2d38-48bd-a591-cd2844fe50fd" name="Key of the Boar" size="EncounterCard">
+    <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Unique" value="‰"/>
@@ -236,6 +255,7 @@
     <property name="Shadow" value="Shadow: Shuffle Key of the Boar back into the encounter deck."/>
   </card>
   <card id="9b135a59-15f9-4e3b-be8e-76b7f5841658" name="Key of the Wolf" size="EncounterCard">
+    <property name="Card Number" value="44"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Unique" value="‰"/>
@@ -245,6 +265,7 @@
     <property name="Shadow" value="Shadow: Shuffle Key of the Wolf back into the encounter deck."/>
   </card>
   <card id="877a0217-9708-4139-b305-14c1b83c1d14" name="Key of the Raven" size="EncounterCard">
+    <property name="Card Number" value="45"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Unique" value="‰"/>
@@ -254,6 +275,7 @@
     <property name="Shadow" value="Shadow: Shuffle Key of the Raven back into the encounter deck."/>
   </card>
   <card id="b64d2e55-f304-4356-a491-7ee80e149c5c" name="Hill Barrow" size="EncounterCard">
+    <property name="Card Number" value="46"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Location"/>
@@ -264,6 +286,7 @@
     <property name="Text" value="Forced: When a Guardian enemy attacks, deal it 1 additional shadow card."/>
   </card>
   <card id="a7907eca-8205-40a3-95ba-f30e31aaad82" name="Cave Barrow" size="EncounterCard">
+    <property name="Card Number" value="47"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Location"/>
@@ -274,6 +297,7 @@
     <property name="Text" value="The players, as a group, cannot have more than 5 allies in play. (If there are more than 5 allies in play, discard allies until only 5 remain.)"/>
   </card>
   <card id="35ed8128-584c-43cc-ae7c-a4430e78940c" name="Stone Barrow" size="EncounterCard">
+    <property name="Card Number" value="48"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Location"/>
@@ -284,6 +308,7 @@
     <property name="Text" value="Forced: After a Guardian enemy attacks, raise each player’s threat by X, where X is that enemy’s $."/>
   </card>
   <card id="314e7260-ca85-4842-af5f-913ecbaa13d4" name="Hallowed Circle" size="EncounterCard">
+    <property name="Card Number" value="49"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Unique" value="‰"/>
@@ -296,6 +321,7 @@
     <property name="Text" value="Travel: The players must exhaust 3 Key objectives.&#10;&#10;Forced: After the players travel here, each engaged Guardian enemy makes an immediate attack."/>
   </card>
   <card id="86fe0f99-d978-40be-8f39-136bec2a3d58" name="Spirit of the Wild" size="EncounterCard">
+    <property name="Card Number" value="50"/>
     <property name="Quantity" value="5"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Enemy"/>
@@ -310,6 +336,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û for each Key objective the players control."/>
   </card>
   <card id="94befa92-9e5f-4838-b1e1-0b54d698bcb3" name="Cursed Forest" size="EncounterCard">
+    <property name="Card Number" value="51"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Location"/>
@@ -320,6 +347,7 @@
     <property name="Shadow" value="Shadow: If this attack destroys a character, remove a time counter from an enemy, if able."/>
   </card>
   <card id="a264930c-e083-484a-bbe8-9b615942e83a" name="Grim Foothills" size="EncounterCard">
+    <property name="Card Number" value="52"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Location"/>
@@ -330,6 +358,7 @@
     <property name="Text" value="While Grim Foothills is in the staging area, progress must be placed on Grim Foothills before it can be placed on the active location."/>
   </card>
   <card id="7991d705-7e2d-4303-abbc-f9999b2d2502" name="Curse of the Wild Men" size="EncounterCard">
+    <property name="Card Number" value="53"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Treachery"/>
@@ -337,6 +366,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û for each Key objective the players control."/>
   </card>
   <card id="228a03b8-ec05-4562-90f5-0c7d969490b0" name="The Guardian's Fury" size="EncounterCard">
+    <property name="Card Number" value="54"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Treachery"/>
@@ -344,6 +374,7 @@
     <property name="Shadow" value="Shadow: If attacking enemy is a Guardian, it makes an additional attack after this one."/>
   </card>
   <card id="f24f8d3e-3193-4111-9fea-ecdbbafd921a" name="Wild Tenacity" size="EncounterCard">
+    <property name="Card Number" value="55"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Three Trials"/>
     <property name="Type" value="Treachery"/>

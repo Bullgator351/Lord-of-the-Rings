@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fog on the Barrow-downs" id="a0cb27b2-e62f-4fb4-ba98-7647ac6f81a4" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
   <card id="550e9f11-14bb-4fac-806a-3f43035b30c9" name="The House of Tom Bombadil" size="QuestCard">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Quest"/>
@@ -19,6 +20,7 @@
     </alternate>
   </card>
   <card id="ed3c4835-2741-406c-b43e-0ad72f6b2496" name="Across the Downs" size="QuestCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Quest"/>
@@ -35,6 +37,7 @@
     </alternate>
   </card>
   <card id="b477d0be-d70a-4eb4-8c35-89c17199cab3" name="Lost in the Fog" size="QuestCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Quest"/>
@@ -51,6 +54,7 @@
     </alternate>
   </card>
   <card id="262d615b-5b5d-4f16-975e-335d34e6c733" name="Trapped Inside a Barrow" size="QuestCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Quest"/>
@@ -67,6 +71,7 @@
     </alternate>
   </card>
   <card id="c616d30d-9242-401b-b386-4fe0660dc97b" name="Hollow Circle" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Unique" value="‰"/>
@@ -79,6 +84,7 @@
     <property name="Text" value="Travel: Each player searches the encounter deck and discard pile for a Wight enemy and puts it into play engaged with him. Shuffle the encounter deck."/>
   </card>
   <card id="fa85988c-4530-414e-95a6-066002e0ef7a" name="Standing Stones" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Unique" value="‰"/>
@@ -91,6 +97,7 @@
     <property name="Text" value="Travel: The first player searches the encounter deck, discard pile, and victory display for a Great Barrow and adds it to the staging area. Shuffle the encounter deck."/>
   </card>
   <card id="da95d039-0f3f-452b-9ff5-60c03432facc" name="Great Barrow" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="5"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Location"/>
@@ -102,6 +109,7 @@
     <property name="Text" value="Forced: After Great Barrow enters the staging area, remove each character you control from the quest and create your own staging area. Then, advance to a separate stage 4A by yourself."/>
   </card>
   <card id="24a841df-854e-444b-9b2f-0214f0e26002" name="Ancient Barrow" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Location"/>
@@ -112,6 +120,7 @@
     <property name="Text" value="Forced: After Ancient Barrow enters play, each player places an ally he controls facedown under this location. When Ancient Barrow leaves play as an explored location, return each ally under this location to its owner's hand."/>
   </card>
   <card id="aa632825-0b60-4dc7-9733-8aa554631d6e" name="Stone Ring" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Location"/>
@@ -121,6 +130,7 @@
     <property name="Text" value="While Stone Ring is in the staging area, each Wight enemy engaged with a player gets +1 Û and +1 Ú and applies the first sentence of its game text to each player at this stage as if it were engaged with him."/>
   </card>
   <card id="d7d1581c-74a4-4c6f-acf9-e2d598ccb276" name="North Downs" size="EncounterCard">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Location"/>
@@ -131,6 +141,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +2 Û. If this attack destroys a character, raise each player's threat by 2."/>
   </card>
   <card id="1b9e02cc-d46e-4816-bdbd-9daa05590173" name="Barrow-wight" size="EncounterCard">
+    <property name="Card Number" value="11"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Enemy"/>
@@ -143,6 +154,7 @@
     <property name="Text" value="While Barrow-wight is engaged with a player, that player's threat cannot be reduced.&#10;&#10;Forced: After Barrow-wight attacks and destroys a character, that character's controller raises his threat by 2."/>
   </card>
   <card id="516b75d8-9abe-423e-9ef1-a92f1c87c86f" name="Cold-wight" size="EncounterCard">
+    <property name="Card Number" value="12"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Enemy"/>
@@ -155,6 +167,7 @@
     <property name="Text" value="While Cold-wight is engaged with a player, that player cannot draw cards from card effects.&#10;&#10;Forced: After Cold-wight attacks and destroys a character, that character's controller discards a random card from his hand."/>
   </card>
   <card id="29562ee1-56d9-4a46-ba4b-1af24f85deb6" name="Dark-wight" size="EncounterCard">
+    <property name="Card Number" value="13"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Enemy"/>
@@ -167,6 +180,7 @@
     <property name="Text" value="While Dark-wight is engaged with a player, that player's heroes cannot gain resources from card effects.&#10;&#10;Forced: After Dark-wight attacks and destroys a character, that character's controller discards all resources from each hero he controls."/>
   </card>
   <card id="a727d1ec-2bbf-452b-9e7d-92fffc39acd2" name="I'm Waiting for You!" size="EncounterCard">
+    <property name="Card Number" value="14"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Treachery"/>
@@ -174,6 +188,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+3 Û instead if the defending character is an ally)."/>
   </card>
   <card id="9a5fb929-296c-41ef-a0df-1d670d1c356d" name="Long Groping Arm" size="EncounterCard">
+    <property name="Card Number" value="15"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Treachery"/>
@@ -181,6 +196,7 @@
     <property name="Text" value="When Revealed: Until the end of the phase, each Wight enemy engaged with you contributes its $ to the total $ in the staging area. If no enemies are engaged with you, search the encounter deck and discard pile for a Wight enemy and put it into play engaged with you. Shuffle the encounter deck."/>
   </card>
   <card id="9dae9a06-1a90-4a9f-be69-b6451e4a1883" name="Chill Fog" size="EncounterCard">
+    <property name="Card Number" value="16"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Treachery"/>
@@ -188,6 +204,7 @@
     <property name="Shadow" value="Shadow: Raise your threat by 1 for each damage dealt by this attack."/>
   </card>
   <card id="f18b362f-1669-4743-8802-daf58e638198" name="Frozen by Fear" size="EncounterCard">
+    <property name="Card Number" value="17"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Treachery"/>
@@ -196,6 +213,7 @@
     <property name="Shadow" value="Shadow: Until the end of the round, attacking enemy cannot take damage."/>
   </card>
   <card id="7fe0f143-9d3b-461a-b6bd-bc86e1491311" name="Dreadful Song" size="EncounterCard">
+    <property name="Card Number" value="18"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Treachery"/>
@@ -204,6 +222,7 @@
     <property name="Text" value="When Revealed: Attach to a questing character you control. Counts as a Condition attachment with the text: &quot;Limit 1 per hero. Attached hero's Ò is reduced to 0. Forced: At the end of the round, raise your threat by 1 for each Wight enemy engaged with you.&quot;"/>
   </card>
   <card id="21b27ec8-a778-4bac-8228-aa013043b8ed" name="Tom Bombadil" size="EncounterCard">
+    <property name="Card Number" value="19"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Objective"/>
@@ -215,6 +234,7 @@
     <property name="Text" value="When Revealed: Choose a player. That player gains control of Tom Bombadil, ready and committed to the quest. At the end of the round, discard Tom Bombadil. Then, shuffle the encounter discard pile into the encounter deck. This effect cannot be canceled."/>
   </card>
   <card id="d34c9025-6380-4294-be3f-01c992922830" name="Fog on the Barrow-downs">
+    <property name="Card Number" value="20"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Campaign"/>
@@ -228,6 +248,7 @@
     </alternate>
   </card>
   <card id="381821e5-7bf6-44cd-91d7-e5a5e9ff8066" name="Ho! Tom Bombadil!">
+    <property name="Card Number" value="21"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Fog on the Barrow-downs"/>
     <property name="Type" value="Event"/>

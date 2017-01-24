@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Custom Set - Chasing the Orc Raiders" id="9427c4d6-6784-4fee-8710-668a85bc5ecf" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="149801a5-be67-450c-b34c-4ae2f81a49bd" name="Orc Forest Camp" size="EncounterCard">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
     <property name="Type" value="Location"/>
@@ -11,6 +12,7 @@
     <property name="Text" value="X is the number of resource tokens on this card.&#10;&#10;Forced: At the beginning of the travel phase place a resource token on this card if there is an objective card in the staging area. If there are 5 resource tokens on this card, the players lose the game."/>
   </card>
   <card id="5ac938ec-c2d5-4e73-95e9-78c59669cf0e" name="Elrond's Message" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
     <property name="Type" value="Objective"/>
@@ -19,6 +21,7 @@
     <property name="Text" value="Action: Claim Elrond's Message if it free of encounters. When claimed, attach Elrond's Message to a hero you control. (Counts as an attachment. If attached Hero takes damage or Elrond's message becomes detached, return Elrond's Message to the top of the Encounter Deck.)"/>
   </card>
   <card id="bd0ddb50-f6da-4081-a216-5e492401c6b5" name="Robbed" size="QuestCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
     <property name="Type" value="Quest"/>
@@ -36,6 +39,7 @@
     </alternate>
   </card>
   <card id="64623255-a216-427b-a990-76f723d30400" name="Hide and Seek" size="QuestCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
     <property name="Type" value="Quest"/>
@@ -52,6 +56,7 @@
     </alternate>
   </card>
   <card id="ca69961a-9d2b-427f-b18a-e864193fca61" name="Uninvited Guests" size="QuestCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
     <property name="Type" value="Quest"/>

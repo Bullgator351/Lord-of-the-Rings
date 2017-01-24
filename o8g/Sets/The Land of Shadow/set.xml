@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Land of Shadow" id="3f4acb38-f3b5-4263-9f6f-41c38aaf8a38" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
   <card id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f" name="Frodo Baggins">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
@@ -15,6 +16,7 @@
     <property name="Text" value="Action:Spend 1 ☺ resource and exhaust The One Ring to give Frodo Baggins +2 Ò and +2 Û until the end of the round."/>
   </card>
   <card id="8f937f89-b248-4261-9b00-4e3cd9763299" name="Faramir">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
@@ -29,6 +31,7 @@
     <property name="Text" value="Response: After you engage an enemy, ready an ally you control. (Limit once per phase.)"/>
   </card>
   <card id="3f482b9c-aa18-415e-ab9b-58f9c3b328a1" name="Damrod">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
@@ -42,6 +45,7 @@
     <property name="Text" value="Reduce the cost of the first Trap card you play each round by 1 (to a minimum of 0).&#10;&#10;Response: After a Trap card you control is attached to an enemy, draw 1 card."/>
   </card>
   <card id="c8b5dd1c-82bc-4733-be1a-484a6e87c3c0" name="Anborn">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
@@ -55,6 +59,7 @@
     <property name="Text" value="Response: After an enemy is added to the staging area, exhaust Anborn to give that enemy +5 engagement cost until the end of the round. Then, deal 1 damage to that enemy."/>
   </card>
   <card id="a870e2b3-4b9d-46ea-bc37-425fd682f114" name="Mablung">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
@@ -68,6 +73,7 @@
     <property name="Text" value="Response: After Mablung enters play, choose an enemy to get +5 engagement cost until the end of the round. Then, you may engage that enemy, or return it to the staging area."/>
   </card>
   <card id="df2b2070-240c-4b38-b4c8-29a0d2c789cf" name="Skinbark">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
@@ -82,6 +88,7 @@
     <property name="Text" value="While Skinbark is attacking alone against an Orc enemy, that enemy does not count its Ú."/>
   </card>
   <card id="9e944f47-14b0-4890-98d2-584e0abe0eda" name="Gamling">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
@@ -95,6 +102,7 @@
     <property name="Text" value="Response: After a Rohan ally you control is discarded from play, exhaust Gamling to return that character to your hand."/>
   </card>
   <card id="c86cc6c9-8c50-4069-aa85-4d1cc11f796d" name="Staff of Lebethron">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Leadership"/>
@@ -104,6 +112,7 @@
     <property name="Text" value="Response: After attached hero exhausts to defend an enemy with engagement cost higher than your threat, exhaust Staff of Lebethron to discard a shadow card from that enemy."/>
   </card>
   <card id="bb89cc13-3049-4001-bd85-916438c6d629" name="Ambush">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Lore"/>
@@ -113,6 +122,7 @@
     <property name="Text" value="Combat Action: The engaged player discards Ambush to declare an attack against the attached enemy."/>
   </card>
   <card id="b89d39c4-1017-4707-95c3-d60f352d4e95" name="Snowmane">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Attachment"/>
@@ -123,6 +133,7 @@
     <property name="Text" value="If attached hero is Theoden, Snowmane loses the restricted keyword.&#10;Response: After the players quest successfully, ready attached hero."/>
   </card>
   <card id="1ddaf688-b39b-4d15-8058-1e2957e021ca" name="Taste it Again!">
+    <property name="Card Number" value="11"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
@@ -130,6 +141,7 @@
     <property name="Text" value="Response: After a hero you control defends an attack made by an enemy with engagement cost higher than your threat, ready that hero. Until the end of the phase, that hero gets +2 Û while attacking that enemy."/>
   </card>
   <card id="f9351811-479d-4bad-a6b3-ac745739b63f" name="In the Shadows">
+    <property name="Card Number" value="12"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
@@ -138,6 +150,7 @@
     <property name="Text" value="Combat Action: Each enemy engaged with you with engagement cost higher than your threat gets -1 Û and -1 Ú until the end of the phase."/>
   </card>
   <card id="e2daba5a-f5ac-4fcb-a508-45b3b3cae5a9" name="Speak Your Promise!">
+    <property name="Card Number" value="13"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Fellowship"/>
@@ -145,6 +158,7 @@
     <property name="Text" value="Action: Ready the Ring-bearer to choose an enemy engaged with you. If the Ring-bearer's Ò is greater than that enemy's $, lower that enemy's Û and Ú by the difference until the end of the phase."/>
   </card>
   <card id="c759124f-3bf2-4820-a1af-285c740c4a5b" name="Brace of Conies">
+    <property name="Card Number" value="14"/>
     <property name="Quantity" value="4"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Boon"/>
@@ -155,6 +169,7 @@
     <property name="Text" value="Planning Action: Add Brace of Conies to the victory display to (choose 2): heal up to 2 damage from a hero, add 2 resources to a hero’s pool, choose a player to draw 2 cards, or reduce a player's threat by 2."/>
   </card>
   <card id="8b9b03e6-0036-473a-bdb7-d2d8e74edc69" name="The Searching Eye" size="EncounterCard">
+    <property name="Card Number" value="15"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Treachery"/>
@@ -163,6 +178,7 @@
     <property name="Text" value="Forced: After you draw this card, either exhaust each hero you control, or reveal the top card of the encounter deck."/>
   </card>
   <card id="0e3ce28a-df4b-461e-b47a-299e4c730cc2" name="Groping Dead" size="EncounterCard">
+    <property name="Card Number" value="16"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Enemy"/>
@@ -176,6 +192,7 @@
     <property name="Shadow" value="Shadow: If this attack destroys a character, place 1 mire token on the active location."/>
   </card>
   <card id="73752e58-5dc1-40ea-b294-3c8f1998142d" name="Dead Things" size="EncounterCard">
+    <property name="Card Number" value="17"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Enemy"/>
@@ -189,6 +206,7 @@
     <property name="Shadow" value="Shadow: Raise your threat by 1 for each Undead enemy engaged with you."/>
   </card>
   <card id="c1554b49-597c-4d1b-8871-dfbe867253d5" name="Candle-bearer" size="EncounterCard">
+    <property name="Card Number" value="18"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Enemy"/>
@@ -203,6 +221,7 @@
     <property name="Shadow" value="Shadow: Until the end of the round, attacking enemy cannot take damage."/>
   </card>
   <card id="e25328c2-1a6b-4dda-866e-02685eff4a88" name="Evil-smelling Fens" size="EncounterCard">
+    <property name="Card Number" value="19"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Location"/>
@@ -215,6 +234,7 @@
     <property name="Shadow" value="Shadow: Deal 1 damage to defending character."/>
   </card>
   <card id="8893eba4-1f9c-4661-bfc2-bb485e023066" name="Shifting Quagmire" size="EncounterCard">
+    <property name="Card Number" value="20"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Location"/>
@@ -226,6 +246,7 @@
     <property name="Text" value="Travel: Spend 1 ☺ resource to travel here."/>
   </card>
   <card id="1c765fa8-9cb8-4cf4-8e93-daac5bae4fce" name="Haunted Mere" size="EncounterCard">
+    <property name="Card Number" value="21"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Location"/>
@@ -237,6 +258,7 @@
     <property name="Text" value="Travel: Exhaust Smeagol to travel here."/>
   </card>
   <card id="39262ffc-6819-422c-a72a-9baed00f648a" name="Stagnant Pools" size="EncounterCard">
+    <property name="Card Number" value="22"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Location"/>
@@ -248,6 +270,7 @@
     <property name="Text" value="Stagnant Pools gets +1 $ for each mire token on it. &#10;&#10;Travel: Exhaust Smeagol to travel here."/>
   </card>
   <card id="3254a776-09e5-4576-9b3c-164cc93e1e26" name="Soft Mires" size="EncounterCard">
+    <property name="Card Number" value="23"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Location"/>
@@ -259,6 +282,7 @@
     <property name="Text" value="Travel: Each player must raise his threat by 1 to travel here."/>
   </card>
   <card id="f214f533-374b-423c-86b5-dca1ab5d048f" name="Creeping Marshes" size="EncounterCard">
+    <property name="Card Number" value="24"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Treachery"/>
@@ -266,6 +290,7 @@
     <property name="Text" value="When Revealed: Attach to the current quest. (Counts as a Condition attachment with the text: “Forced: At the end of the refresh phase, place 1 mire token on each location in the staging area. Then, discard Creeping Marshes.”)"/>
   </card>
   <card id="fcc8ad22-ca1f-4fd1-8f84-4955bb683f50" name="Bitter Reek" size="EncounterCard">
+    <property name="Card Number" value="25"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Treachery"/>
@@ -273,6 +298,7 @@
     <property name="Shadow" value="Shadow: Raise your threat by the attacking enemy’s $."/>
   </card>
   <card id="694650d0-9ba6-4573-bf13-10ca8eb7995d" name="A Fell Light" size="EncounterCard">
+    <property name="Card Number" value="26"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Treachery"/>
@@ -280,6 +306,7 @@
     <property name="Shadow" value="Shadow: Return the topmost Undead enemy in the encounter discard pile to the staging area."/>
   </card>
   <card id="2522fc59-6617-4c74-9723-4a120431aa3f" name="The Black Gate" size="EncounterCard">
+    <property name="Card Number" value="27"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Unique" value="‰"/>
@@ -287,6 +314,7 @@
     <property name="Text" value="Forced: At the end of the planning phase, place each Harad enemy in the staging area facedown under The Black Gate.&#10;&#10;If there are at least X facedown cards under The Black Gate, the players lose the game. X is 3 more than the number of players."/>
   </card>
   <card id="62dea330-3ec7-4db0-bea7-382cb3454f83" name="Man of Harad" size="EncounterCard">
+    <property name="Card Number" value="28"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Enemy"/>
@@ -301,6 +329,7 @@
     <property name="Shadow" value="Shadow: Discard 1 random card from your hand."/>
   </card>
   <card id="fc7041f2-b7f8-44a2-bf4c-beadd8016470" name="Captain of Harad" size="EncounterCard">
+    <property name="Card Number" value="29"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Enemy"/>
@@ -314,6 +343,7 @@
     <property name="Shadow" value="Shadow: If this attack destroys a character, return attacking enemy to the staging area."/>
   </card>
   <card id="22f6fc49-6a00-4104-a9fa-4823435175a1" name="The Cross-roads" size="EncounterCard">
+    <property name="Card Number" value="30"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Unique" value="‰"/>
@@ -326,6 +356,7 @@
     <property name="Text" value="The Cross-roads gets -1 $ for each facedown card under it. The players cannot travel here unless there are no facedown cards under The Cross-roads and at least 20 progress tokens on stage 1B."/>
   </card>
   <card id="62ceb94f-5838-4c5c-9547-8786c4c64051" name="Henneth Annun" size="EncounterCard">
+    <property name="Card Number" value="31"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Unique" value="‰"/>
@@ -337,6 +368,7 @@
     <property name="Text" value="While Henneth Annun is the active location, skip both the encounter phase and combat phase, and  ignore the Forced effects on stage 1B and The Black Gate.&#10;&#10;Forced: After Henneth Annun becomes the active location, return each engaged enemy to the staging area."/>
   </card>
   <card id="2b9c8fa1-a5c3-441e-95c1-c10c85948dc1" name="Southward Road" size="EncounterCard">
+    <property name="Card Number" value="32"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Location"/>
@@ -346,6 +378,7 @@
     <property name="Text" value="While Southward Road is the active location, each player may optionally engage an additional enemy during the encounter phase. &#10;&#10;Travel: The first player reveals the top facedown card underneath The Cross­roads and adds it to the staging area to travel here."/>
   </card>
   <card id="8fa4b202-cb8e-470d-ae2b-aa945ac652c5" name="Foothills of Ephel Duath" size="EncounterCard">
+    <property name="Card Number" value="33"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Location"/>
@@ -355,6 +388,7 @@
     <property name="Text" value="While Foothills of Ephel Duath is the active location, each Harad enemy gets -1 $.&#10;&#10;Travel: The first player engages an enemy in the staging area to travel here."/>
   </card>
   <card id="808f60ad-a63f-4504-9b67-4fd45d630add" name="Ithilien Woods" size="EncounterCard">
+    <property name="Card Number" value="34"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Location"/>
@@ -364,6 +398,7 @@
     <property name="Text" value="While Ithilien Woods is the active location, it gains: “Forced: After a player engages a Harad enemy, he readies a character he controls.”&#10;&#10;Travel: The first player reveals the top card of the encounter deck to travel here."/>
   </card>
   <card id="de09949d-6bc8-470c-a500-6b1fd4a5f391" name="Hills of Ithilien" size="EncounterCard">
+    <property name="Card Number" value="35"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Location"/>
@@ -374,6 +409,7 @@
     <property name="Shadow" value="Shadow: Discard a non­objective attachment you control."/>
   </card>
   <card id="2591dde9-00c6-488e-a109-94136e4f9876" name="The Dark Lord's Summons" size="EncounterCard">
+    <property name="Card Number" value="36"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Treachery"/>
@@ -381,6 +417,7 @@
     <property name="Text" value="When Revealed: Either place the lowest Û Harad enemy engaged with you facedown under The Black Gate, or reveal the top facedown card from under The Cross-roads and put it into play engaged with you."/>
   </card>
   <card id="b774e6b4-461c-46eb-9398-dcb2af4cfab5" name="Marching Up the Road" size="EncounterCard">
+    <property name="Card Number" value="37"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Treachery"/>
@@ -388,6 +425,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. If this attack destroys a character, place attacking enemy facedown under The Black Gate."/>
   </card>
   <card id="d12e280f-44f3-469e-a2e8-e3bfd541f909" name="Fierce Southrons" size="EncounterCard">
+    <property name="Card Number" value="38"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Treachery"/>
@@ -395,6 +433,7 @@
     <property name="Text" value="When Revealed: Either place the lowest $ Harad enemy in the staging area facedown under The Black Gate and reveal an additional encounter card, or each enemy in the staging area makes an immediate attack against you."/>
   </card>
   <card id="75c1d9eb-9ade-4c71-a918-74cf5b526ff2" name="Arrows Thick in the Air" size="EncounterCard">
+    <property name="Card Number" value="39"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Treachery"/>
@@ -402,6 +441,7 @@
     <property name="Shadow" value="Shadow: Either place attacking enemy facedown under The Black Gate after this attack, or it makes an additional attack against you after this one."/>
   </card>
   <card id="c03a693c-4fcf-4df5-868b-88e1df8531d9" name="Shelob" size="EncounterCard">
+    <property name="Card Number" value="40"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Unique" value="‰"/>
@@ -417,6 +457,7 @@
     <property name="Text" value="Shelob gets +1 $ for each resource on her.&#10;&#10;Forced: At the beginning of the quest phase, either place 1 resource on Shelob, or she makes an immediate attack against the first player."/>
   </card>
   <card id="8ba47620-aead-42a5-a057-41cb038f5234" name="Morgul Orc" size="EncounterCard">
+    <property name="Card Number" value="41"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Enemy"/>
@@ -431,6 +472,7 @@
     <property name="Shadow" value="Shadow: If this attack destroys a character, discard 1 random card from your hand."/>
   </card>
   <card id="021affba-a51d-48f1-ac86-354f3e82d38d" name="Orc of Citith Ungol" size="EncounterCard">
+    <property name="Card Number" value="42"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Enemy"/>
@@ -444,6 +486,7 @@
     <property name="Text" value="When Revealed: Either discard 1 random card from each player’s hand, or Orc of Cirith Ungol makes an immediate attack against you."/>
   </card>
   <card id="51b6030d-3ce7-4139-b3bc-a408949533e2" name="Morgul Vale" size="EncounterCard">
+    <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Unique" value="‰"/>
@@ -456,6 +499,7 @@
     <property name="Text" value="Forced: After Morgul Vale is explored, search the encounter deck and discard pile for a Morgul Wraith and add it to the staging area. Shuffle the encounter deck. Then, the first player must either exhaust The One Ring, or discard 1 random card from each player’s hand."/>
   </card>
   <card id="4a2696f1-65e1-41d5-8828-38ece23167df" name="Smeagol's Secret Way" size="EncounterCard">
+    <property name="Card Number" value="44"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Unique" value="‰"/>
@@ -467,6 +511,7 @@
     <property name="Text" value="Travel: Either exhaust Smeagol, or discard 1 random card from each player’s hand.&#10;&#10;Forced: After Smeagol’s Secret Way is explored, each player either exhausts a character he controls, or discards 1 random card from his hand."/>
   </card>
   <card id="32873634-3a91-4d6f-988a-fb8bb5c16ef3" name="Cleft of Cirith Ungol" size="EncounterCard">
+    <property name="Card Number" value="45"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Unique" value="‰"/>
@@ -479,6 +524,7 @@
     <property name="Text" value="While The Cleft of Cirith Ungol is in the victory display, Shelob gets +2 Û, loses Indestructible, and gains: “Shelob engages the first player.”&#10;&#10;Travel: Place 1 resource on Shelob to travel here."/>
   </card>
   <card id="6da65b9b-39a7-425d-baa1-00b406bcae36" name="The Spider's Lair" size="EncounterCard">
+    <property name="Card Number" value="46"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Location"/>
@@ -488,6 +534,7 @@
     <property name="Text" value="Forced: When The Spider’s Lair is explored, remove 1 resource from Shelob.&#10;&#10;Forced: After The Spider’s Lair becomes the active location, Shelob makes an attack against the first player."/>
   </card>
   <card id="31f8955f-40d5-41de-b886-77018b59d717" name="The Under-way" size="EncounterCard">
+    <property name="Card Number" value="47"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Location"/>
@@ -498,6 +545,7 @@
     <property name="Shadow" value="Shadow: Deal the attacking enemy 2 additional shadow cards."/>
   </card>
   <card id="ae49e8e5-98f1-4562-935f-5e1ab64631e0" name="Deep Dark Passage" size="EncounterCard">
+    <property name="Card Number" value="48"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Location"/>
@@ -507,6 +555,7 @@
     <property name="Text" value="While Deep Dark Passage is in the staging area, it gains: “Forced: When any amount of progress would be placed on a location in the staging area, reduce that amount by 1.”&#10;&#10;Travel: Exhaust Smeagol to travel here."/>
   </card>
   <card id="1e2560ab-00ce-45c3-a374-f7bb6a3e6889" name="Den of Night" size="EncounterCard">
+    <property name="Card Number" value="49"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Location"/>
@@ -516,6 +565,7 @@
     <property name="Text" value="While Den of Night is in the staging area, it gains: “Forced: After a ‘When Revealed’ effect is canceled, place 1 resource on Shelob.”&#10;&#10;Travel: Place 1 resource on Shelob to travel here."/>
   </card>
   <card id="f77579e7-23f0-4c27-a4e3-e1edcc529e1e" name="Exhalation of Decay" size="EncounterCard">
+    <property name="Card Number" value="50"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Treachery"/>
@@ -523,6 +573,7 @@
     <property name="Shadow" value="Shadow: Discard a non-objective attachment you control."/>
   </card>
   <card id="65c93e63-0284-4449-8158-717d763b3023" name="Many Openings" size="EncounterCard">
+    <property name="Card Number" value="51"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Treachery"/>
@@ -530,6 +581,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +X Û, where X is the active location’s $."/>
   </card>
   <card id="a40aef89-ca91-467c-93f3-9afc97bdbc24" name="A Heavy Burden" size="EncounterCard">
+    <property name="Card Number" value="52"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Objective"/>
@@ -538,6 +590,7 @@
     <property name="Text" value="Forced: At the end of the planning phase, either raise each player’s threat by 1, or exhaust the Ring-bearer."/>
   </card>
   <card id="74d1310a-6c88-49cd-bac1-a1d4b5bbbcdc" name="Morgul Wraith" size="EncounterCard">
+    <property name="Card Number" value="53"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Nazgûl"/>
     <property name="Type" value="Enemy"/>
@@ -551,6 +604,7 @@
     <property name="Text" value="While The One Ring is exhausted, Morgul Wraith gets -30 engagement cost and gains “immune to player card effects.”"/>
   </card>
   <card id="5e8714e3-0581-4b6f-bf45-414098819626" name="Call of the Ring" size="EncounterCard">
+    <property name="Card Number" value="54"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Nazgûl"/>
     <property name="Type" value="Treachery"/>
@@ -558,6 +612,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one."/>
   </card>
   <card id="42e22482-0281-4811-aa65-2b342319ee07" name="We Hates Them" size="EncounterCard">
+    <property name="Card Number" value="55"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Gollum"/>
     <property name="Type" value="Treachery"/>
@@ -566,6 +621,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+3 Û instead if the attacking enemy is Gollum)."/>
   </card>
   <card id="2163f5ef-63a3-4afc-8084-fe730774d216" name="Oliphaunt" size="EncounterCard">
+    <property name="Card Number" value="56"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Men of Harad"/>
     <property name="Type" value="Enemy"/>
@@ -580,6 +636,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +3 Û."/>
   </card>
   <card id="456329e9-c7c4-42ac-9edd-e769aea198ea" name="Haradrim Soldier" size="EncounterCard">
+    <property name="Card Number" value="57"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Men of Harad"/>
     <property name="Type" value="Enemy"/>
@@ -593,6 +650,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one."/>
   </card>
   <card id="c04f4018-e001-4a31-a003-9914e3f585ee" name="Haradrim Archer" size="EncounterCard">
+    <property name="Card Number" value="58"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Men of Harad"/>
     <property name="Type" value="Enemy"/>
@@ -607,6 +665,7 @@
     <property name="Shadow" value="Shadow: Deal 1 damage to the defending character."/>
   </card>
   <card id="e3de3669-64a9-4ab5-a21c-7805e6259267" name="Blocked Tunnel" size="EncounterCard">
+    <property name="Card Number" value="59"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Great Spider"/>
     <property name="Type" value="Location"/>
@@ -616,6 +675,7 @@
     <property name="Text" value="When Revealed: Make Blocked Tunnel the active location, returning any other active location to the staging area.&#10;&#10;Action: Exhaust a character with a Weapon attachment to place 3 progress on Blocked Tunnel. (Any player may trigger this effect.)"/>
   </card>
   <card id="35ea4640-1019-409c-b6a4-8a9906def475" name="Shelob's Poison" size="EncounterCard">
+    <property name="Card Number" value="60"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Great Spider"/>
     <property name="Type" value="Treachery"/>
@@ -623,6 +683,7 @@
     <property name="Shadow" value="Shadow: If attacking enemy is Shelob, resolve the ‘When Revealed’ effect on Shelob’s Poison."/>
   </card>
   <card id="5497d938-1549-498c-abeb-2ed617222b76" name="Lurking Malice" size="EncounterCard">
+    <property name="Card Number" value="61"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Great Spider"/>
     <property name="Type" value="Treachery"/>
@@ -631,6 +692,7 @@
     <property name="Shadow" value="Shadow: If attacking enemy is Shelob, place 1 resource on her. Then, she gets +1 Û for each resource on her."/>
   </card>
   <card id="5ce0a255-9914-4a4f-9630-d1fe8e00bbc0" name="Rage and Hunger" size="EncounterCard">
+    <property name="Card Number" value="62"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Great Spider"/>
     <property name="Type" value="Treachery"/>
@@ -638,6 +700,7 @@
     <property name="Shadow" value="Shadow: If attacking enemy is Shelob, she makes an additional attack against you after this one."/>
   </card>
   <card id="32267333-091c-4bbf-bb29-5f21c8b79188" name="The One Ring" size="EncounterCard">
+    <property name="Card Number" value="63"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Objective"/>
@@ -645,6 +708,7 @@
     <property name="Text" value="Setup: The first player claims The One Ring and attaches it to the Ring-bearer. Attached hero does not count against the hero limit. The first player gains control of attached hero. If The One Ring leaves play, the players lose the game."/>
   </card>
   <card id="7fdde250-5b13-4c94-a9b8-4a3a0029928a" name="The Taming of Smeagol" size="QuestCard">
+    <property name="Card Number" value="64"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Quest"/>
@@ -662,6 +726,7 @@
     </alternate>
   </card>
   <card id="d63f87da-45b4-4c5c-b3b5-970a4277c263" name="Across the Marshes" size="QuestCard">
+    <property name="Card Number" value="65"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Quest"/>
@@ -678,6 +743,7 @@
     </alternate>
   </card>
   <card id="e40770a1-7b1b-4257-afca-443c55701850" name="&quot;Don't Look at the Lights!&quot;" size="QuestCard">
+    <property name="Card Number" value="66"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Quest"/>
@@ -694,6 +760,7 @@
     </alternate>
   </card>
   <card id="61963ddc-1260-471f-afdf-96581602a444" name="The Passage of the Marshes">
+    <property name="Card Number" value="67"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Campaign"/>
@@ -707,6 +774,7 @@
     </alternate>
   </card>
   <card id="b32e4536-aa58-4a09-8025-12028cd28288" name="Ambush the Men of Harad" size="QuestCard">
+    <property name="Card Number" value="68"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Quest"/>
@@ -724,6 +792,7 @@
     </alternate>
   </card>
   <card id="2b93afb6-38fd-4ded-bf92-ed86bc03635d" name="Journey to the Cross-roads">
+    <property name="Card Number" value="69"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Journey to the Cross-roads"/>
     <property name="Type" value="Campaign"/>
@@ -737,6 +806,7 @@
     </alternate>
   </card>
   <card id="da109a2a-65fe-410e-93b4-e09695966fe5" name="The Stairs of Cirith Ungol" size="QuestCard">
+    <property name="Card Number" value="70"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Quest"/>
@@ -754,6 +824,7 @@
     </alternate>
   </card>
   <card id="540e3fbc-a066-4dc6-a156-598f1b2751c0" name="The Spider's Pass" size="QuestCard">
+    <property name="Card Number" value="71"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Quest"/>
@@ -770,6 +841,7 @@
     </alternate>
   </card>
   <card id="29a12054-527c-41a3-9dd8-25565288fb4d" name="Gollum's Betrayal" size="QuestCard">
+    <property name="Card Number" value="72"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Quest"/>
@@ -786,6 +858,7 @@
     </alternate>
   </card>
   <card id="cc77ab8d-1968-4607-b18d-7db3c3c186c7" name="Shelob's Lair">
+    <property name="Card Number" value="73"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shelob's Lair"/>
     <property name="Type" value="Campaign"/>
@@ -799,6 +872,7 @@
     </alternate>
   </card>
   <card id="32993141-956c-4426-98d9-8705de6fee00" name="Gollum" size="EncounterCard">
+    <property name="Card Number" value="75"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Gollum"/>
     <property name="Unique" value="‰"/>
@@ -825,6 +899,7 @@
     </alternate>
   </card>
   <card id="ba62a8f1-1857-4449-8f49-7b584b9aaa7d" name="The Passage of the Marshes">
+    <property name="Card Number" value="999"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>
     <property name="Type" value="Rules"/>

@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Treachery of Rhudaur" id="3d1f5de7-e04d-4efb-99f7-96a2087c9459" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
   <card id="b188f729-0314-4664-95a0-7f93f4d44133" name="Erestor">
+    <property name="Card Number" value="84"/>
     <property name="Quantity" value="1"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Hero"/>
@@ -15,6 +16,7 @@
     <property name="Text" value="Draw 3 additional cards at the beginning of the resource phase.&#10;&#10;At the end of the round, discard all cards in your hand."/>
   </card>
   <card id="b9339072-5665-45c7-a2ca-a8c844c5762d" name="Reinforcements">
+    <property name="Card Number" value="85"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
@@ -23,6 +25,7 @@
     <property name="Text" value="Action: The players, as a group, can put up to 2 allies into play from their hands. Each of these allies may enter play under any player's control. At the end of the phase, return each of those allies that are still in play to their owners' hands."/>
   </card>
   <card id="ad0cbc82-6807-4a5a-ada8-97952cb02c5f" name="Send for Aid" size="PlayerQuestCard">
+    <property name="Card Number" value="86"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Side Quest"/>
     <property name="Sphere" value="Leadership"/>
@@ -33,6 +36,7 @@
     <property name="Text" value="Response: When this stage is defeated, each player may search the top 10 cards of his deck for an ally and put it into play under his control. Each player who did shuffles his deck."/>
   </card>
   <card id="6ba569dd-92d4-4de4-bfa4-385e2d50eddb" name="Elven Spear">
+    <property name="Card Number" value="87"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Tactics"/>
@@ -42,6 +46,7 @@
     <property name="Text" value="Action: Discard a card from your hand to give attached hero +1 Û until the end of the phase. Limit 3 times per phase."/>
   </card>
   <card id="7d906063-149f-4b7d-b271-e1532afea7c0" name="Horn's Cry">
+    <property name="Card Number" value="88"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
@@ -49,6 +54,7 @@
     <property name="Text" value="Action:All enemies get -1 Û until the end of the phase.&#10;&#10;Valour Action: Choose a player. Each enemy engaged with that player gets -3 Û until the end of the phase."/>
   </card>
   <card id="5ababdc3-8d6c-47ad-aa1a-d21f5c96bbda" name="Galadhrim Weaver">
+    <property name="Card Number" value="89"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
     <property name="Sphere" value="Spirit"/>
@@ -62,6 +68,7 @@
     <property name="Text" value="Response: After Galadhrim Weaver enters play, shuffle the top card of your discard pile into your deck."/>
   </card>
   <card id="41b56fc4-6ecd-4c9a-80d4-3074c267e823" name="Silver Harp">
+    <property name="Card Number" value="90"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Spirit"/>
@@ -71,6 +78,7 @@
     <property name="Text" value="Response: After a card is discarded from your hand, exhaust Silver Harp to return that card to your hand."/>
   </card>
   <card id="608ac037-89dd-4aac-8b6d-057bd0fa7507" name="Galdor of the Havens">
+    <property name="Card Number" value="91"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
     <property name="Type" value="Ally"/>
@@ -84,6 +92,7 @@
     <property name="Text" value="Response: After 1 or more cards are discarded from your hand, draw 1 card. Limit once per round."/>
   </card>
   <card id="f9f464e9-188c-42aa-bbea-b325a6d0f16d" name="The Door is Closed!">
+    <property name="Card Number" value="92"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
@@ -91,6 +100,7 @@
     <property name="Text" value="Response: After an encounter card is revealed from the encounter deck, cancel its effects and discard it if there is a card with the same title in the victory display."/>
   </card>
   <card id="38ed7520-8749-47ab-b3b4-34ec96441475" name="Elf-friend">
+    <property name="Card Number" value="93"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Attachment"/>
     <property name="Sphere" value="Neutral"/>
@@ -100,6 +110,7 @@
     <property name="Text" value="Attached character gains the Noldor and Silvan traits."/>
   </card>
   <card id="a7231cbd-0620-4b15-9c2c-68d4e7c79a8f" name="Secrets of Rhudaur" size="QuestCard">
+    <property name="Card Number" value="94"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Quest"/>
@@ -117,6 +128,7 @@
     </alternate>
   </card>
   <card id="fdd55ddc-2f18-4ae6-89bb-e54827a1bbdc" name="Thaurdir's Pursuit" size="QuestCard">
+    <property name="Card Number" value="95"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Quest"/>
@@ -133,6 +145,7 @@
     </alternate>
   </card>
   <card id="5df1bf1c-8dc0-4534-9380-6af6812dc6f8" name="Amarthiúl" size="EncounterCard">
+    <property name="Card Number" value="96"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Unique" value="‰"/>
@@ -145,6 +158,7 @@
     <property name="Text" value="Response: After an enemy engages a player, give control of Amarthiúl to that player.&#10;&#10;If Amarthiúl leaves play, the players lose the game."/>
   </card>
   <card id="125e7884-7f75-42cd-80ba-065cf88eef9a" name="The Great Hall" size="EncounterCard">
+    <property name="Card Number" value="97"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Unique" value="‰"/>
@@ -156,6 +170,7 @@
     <property name="Text" value="Forced: When The Great Hall is explored, each player discards the top 5 cards of the encounter deck and chooses an Undead enemy he discarded in this way to add to the staging area."/>
   </card>
   <card id="d658967b-662e-4dfb-afb6-4b3444074b79" name="Thaurdir" size="EncounterCard">
+    <property name="Card Number" value="98"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Unique" value="‰"/>
@@ -170,6 +185,7 @@
     <property name="Text" value="Forced: After a treachery card with the Sorcery trait is revealed from the encounter deck, Thaurdir heals 3 damage and makes an immediate attack against the first player."/>
   </card>
   <card id="5c5ce14a-332a-40fe-8f55-cfa2f53e8592" name="Wight of Rhudaur" size="EncounterCard">
+    <property name="Card Number" value="99"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Enemy"/>
@@ -182,6 +198,7 @@
     <property name="Text" value="While the current quest has 1 or more progress on it, Wight of Rhudaur gains surge.&#10;&#10;While the current quest has 0 progress on it, Wight of Rhudaur gains doomed 2."/>
   </card>
   <card id="e1edac2f-1d9c-44e6-af0a-10c3101f2709" name="Traitorous Wight" size="EncounterCard">
+    <property name="Card Number" value="100"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Enemy"/>
@@ -195,6 +212,7 @@
     <property name="Shadow" value="Shadow: For each point of damage dealt by this attack, remove 1 progress from each quest in play."/>
   </card>
   <card id="0e205159-5e62-4d24-b0df-635853aea9c0" name="Forbidden Descent" size="EncounterCard">
+    <property name="Card Number" value="101"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Location"/>
@@ -204,6 +222,7 @@
     <property name="Text" value="While Forbidden Descent is in the staging area, the first 2 progress that would be placed on a quest each round must be placed on Forbidden Descent, instead.&#10;&#10;Forced: If Forbidden Descent leaves play from the staging area, raise each player’s threat by 2."/>
   </card>
   <card id="a1a8bd6e-4cd1-4641-9cb1-f693f053f62e" name="Eerie Halls" size="EncounterCard">
+    <property name="Card Number" value="102"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Location"/>
@@ -214,6 +233,7 @@
     <property name="Shadow" value="Shadow: If the defending player does not control at least 1 Clue objective, the attacking enemy makes an additional attack after this one."/>
   </card>
   <card id="c35f2635-fa68-44be-9ce9-80446831f0e0" name="Ghostly Ruins" size="EncounterCard">
+    <property name="Card Number" value="103"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Location"/>
@@ -223,6 +243,7 @@
     <property name="Text" value="Any time the encounter deck runs out of cards, return the topmost Undead enemy in the encounter discard pile to the staging area before resetting the encounter deck.&#10;&#10;Travel: Return the topmost Undead enemy in the encounter discard pile to the staging area."/>
   </card>
   <card id="fd3e323b-0fea-49ce-90d2-cbfea27be8cd" name="Decrepit Remains" size="EncounterCard">
+    <property name="Card Number" value="104"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Location"/>
@@ -233,6 +254,7 @@
     <property name="Shadow" value="Shadow: For each point of damage dealt by this attack, remove 1 progress from each quest in play."/>
   </card>
   <card id="7aa9b24a-7b10-4457-be9e-5bfb78bff865" name="Centuries of Sorrow" size="EncounterCard">
+    <property name="Card Number" value="105"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Treachery"/>
@@ -241,6 +263,7 @@
     <property name="Shadow" value="Shadow: If the defending player does not control at least 1 Clue objective, this attack is considered undefended."/>
   </card>
   <card id="152a0b0a-7e01-41ce-98a4-3e7b0d6eaac4" name="Curse of the Years" size="EncounterCard">
+    <property name="Card Number" value="106"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Treachery"/>
@@ -249,6 +272,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+3 Û instead if the defending player does not control at least 1 Clue objective)."/>
   </card>
   <card id="7aa7f695-f5b5-4fb4-9296-53ec517d6a30" name="Dark Covenant" size="EncounterCard">
+    <property name="Card Number" value="107"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Treachery"/>
@@ -257,6 +281,7 @@
     <property name="Shadow" value="Shadow: If this attack destroys a character, raise your threat by the destroyed character’s Ò."/>
   </card>
   <card id="7f458303-66c1-45db-bf3f-20669fea6ff4" name="Haunting Fog" size="EncounterCard">
+    <property name="Card Number" value="108"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Treachery"/>
@@ -264,6 +289,7 @@
     <property name="Text" value="When Revealed: Each player must exhaust a character he controls. Attach Haunting Fog to the current quest. (Counts as a Condition attachment with the text: “Attached quest gets +6 quest points.”)"/>
   </card>
   <card id="6709bafa-87b5-483e-9895-0f2edea7e47a" name="Quiet the Spirits" size="QuestCard">
+    <property name="Card Number" value="109"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Side Quest"/>
@@ -277,6 +303,7 @@
     </alternate>
   </card>
   <card id="87c33692-599d-4914-a513-4353906fc6d4" name="Daechanar's Brand" size="EncounterCard">
+    <property name="Card Number" value="110"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Objective"/>
@@ -284,6 +311,7 @@
     <property name="Text" value="Action: Exhaust Amarthiúl or a hero to claim Daechanar’s Brand. Then, attach Daechanar’s Brand to that character.&#10;&#10;Attached character gets +1 Û while attacking Undead enemies."/>
   </card>
   <card id="bf925a7c-b427-4fb6-ba6b-dbc86304a69f" name="Sift Through the Debris" size="QuestCard">
+    <property name="Card Number" value="111"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Side Quest"/>
@@ -297,6 +325,7 @@
     </alternate>
   </card>
   <card id="2e5e6e97-003b-4500-8372-495f5ee86051" name="Heirloom of Iârchon" size="EncounterCard">
+    <property name="Card Number" value="112"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Objective"/>
@@ -304,6 +333,7 @@
     <property name="Text" value="Action: Exhaust Amarthiúl or a hero to claim Heirloom of Iârchon. Then, attach Heirloom of Iârchon to that character.&#10;&#10;Attached character gets +1 Ò."/>
   </card>
   <card id="768bab66-1707-41a4-adf3-3baad2e7daad" name="Decipher Ancient Texts" size="QuestCard">
+    <property name="Card Number" value="113"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Side Quest"/>
@@ -317,6 +347,7 @@
     </alternate>
   </card>
   <card id="d9c04b71-93cd-455d-9f6e-4ee16cf7d1b4" name="Orders from Angmar" size="EncounterCard">
+    <property name="Card Number" value="114"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Objective"/>
@@ -324,6 +355,7 @@
     <property name="Text" value="Action: Exhaust Amarthiúl or a hero to claim Orders from Angmar. Then, attach Orders from Angmar to that character.&#10;&#10;Attached character gets +1 Ú while defending against Undead enemies."/>
   </card>
   <card id="d0ab3d77-e84b-41b8-bb9b-f9be302ef1ef" name="The Treachery of Rhudaur">
+    <property name="Card Number" value="999"/>
     <property name="Quantity" value="0"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur"/>
     <property name="Type" value="Rules"/>

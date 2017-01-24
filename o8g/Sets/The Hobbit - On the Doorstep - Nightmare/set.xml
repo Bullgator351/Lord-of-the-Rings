@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Hobbit - On the Doorstep - Nightmare" id="14523a71-dc30-46b1-a727-28ff5ecbcbaa" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
   <card id="337906ff-c49f-4768-ad9f-57561a4c1eb1" name="Flies and Spiders">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -16,6 +17,7 @@
     </alternate>
   </card>
   <card id="c101383e-807d-44b7-992d-a8299c4402a0" name="Attercop" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -29,6 +31,7 @@
     <property name="Text" value="Attercop gets -1 engagement cost for each poison in play.&#10;Poisoned characters cannot be declared as attackers or defenders against Attercop."/>
   </card>
   <card id="8607dbe8-720a-436f-a946-af666e5db568" name="Venomous Spider" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="5"/>
     <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -43,6 +46,7 @@
     <property name="Shadow" value="Shadow: Give 2 poison to the defending character."/>
   </card>
   <card id="ebf0f1f6-8627-4d7d-986e-fd7ae9a2de55" name="Dark Colony" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -53,6 +57,7 @@
     <property name="Text" value="Travel: A player at this stage must give 1 poison to a hero he controls to travel here."/>
   </card>
   <card id="aac8023b-431b-4cfa-8f6e-659a4e8dd04e" name="Mirkwood Path" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -64,6 +69,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û for each poisoned character you control."/>
   </card>
   <card id="92d3dcbb-8ce7-40fa-9df1-44617ebf08b4" name="Patch of Midnight" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -74,6 +80,7 @@
     <property name="Shadow" value="Shadow: Raise your threat by 1 for each poisoned character you control."/>
   </card>
   <card id="0f9b520c-f5c8-4704-a887-feb72fe7cba5" name="A Horrible Battle" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -81,6 +88,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against the defending player after this one."/>
   </card>
   <card id="8471389d-5424-41f9-8ed8-e7f29e9e78f4" name="Spider Bite" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -88,6 +96,7 @@
     <property name="Text" value="When Revealed: Attach to a hero that is not unconscious. (Counts as a Condition attachment with the text: &quot;Limit 1 per hero. Forced: At the end of the refresh phase, give attached hero 1 poison. When attached hero becomes unconscious, discard Spider Bite.&quot;)"/>
   </card>
   <card id="efe062c5-dcdc-47fb-a66a-5c31f4ed5f7c" name="The Lonely Mountain">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -102,6 +111,7 @@
     </alternate>
   </card>
   <card id="424d4f29-d7c6-465f-9742-adb51177affc" name="Erebor Bats" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -114,6 +124,7 @@
     <property name="Text" value="Forced: When Erebor Bats attacks, the defending player discards 1 random card from his hand.&#10;&#10;Burgle: The first player shuffles his deck and reveals the top card. He may discard 2 cards from his hand that match the revealed card's cost and type."/>
   </card>
   <card id="8da00775-fb2b-4abe-bde9-39ecce643d5d" name="Secret Tunnel" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -123,6 +134,7 @@
     <property name="Text" value="Forced: After a player fails a burgle attempt, each player raises his threat by 2.&#10;&#10;Travel: Exhaust Bilbo Baggins and spend 1 Í resource to travel here."/>
   </card>
   <card id="f2484786-8e29-4d43-866e-31c4adae3b1f" name="Southern Spur" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -133,6 +145,7 @@
     <property name="Shadow" value="Shadow: Attacking enemy gets +2 Û. If this attack destroys a character, raise each player's threat by 3."/>
   </card>
   <card id="2e77da31-a3ef-4bea-9af8-3f663c608a62" name="The Front Gate" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -142,6 +155,7 @@
     <property name="Text" value="Forced: When The Front Gate is explored, each Dragon enemy in play makes an attack against the first player. (Deal and resolve a shadow card for this attack.)&#10;Burgle: The first player shuffles his deck and reveals the top card. He may discard 3 cards from his hand that match the revealed card's cost."/>
   </card>
   <card id="fa005ccd-cf35-4d49-8259-23f3c8035954" name="The Dragon's Ire" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -149,6 +163,7 @@
     <property name="Text" value="When Revealed: Each Dragon enemy in play makes an immediate attack against each player in turn order. Do not deal shadow cards for these attacks. For each character that is destroyed by one of these attacks, place 1 progress on each Dragon enemy in play."/>
   </card>
   <card id="ece25a80-d4c6-4032-90eb-ca485da5373d" name="Lust for Treasure" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
     <property name="Type" value="Treachery"/>
@@ -156,6 +171,7 @@
     <property name="Text" value="When Revealed: Each player raises his threat by 1 for each attachment attached to a character he controls.&#10;&#10;Burgle: The first player shuffles his deck and reveals the top card. He may discard 1 card from his hand that matches the revealed card's sphere, type, and cost."/>
   </card>
   <card id="46ac76d7-4215-4840-a029-c4aceb051b94" name="The Battle of Five Armies">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Battle of Five Armies - Nightmare"/>
     <property name="Type" value="Nightmare"/>
@@ -170,6 +186,7 @@
     </alternate>
   </card>
   <card id="d4309384-8472-4385-8122-163d6c4c8396" name="Great Warg" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Battle of Five Armies - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -183,6 +200,7 @@
     <property name="Shadow" value="Shadow: Defending player discards 1 attachment he controls."/>
   </card>
   <card id="b028411b-ab1d-4a54-a9d0-38cb70489f98" name="Frenzied Warg-Rider" size="EncounterCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Battle of Five Armies - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -196,6 +214,7 @@
     <property name="Shadow" value="Shadow: Deal 1 damage to the defending character (2 damage instead if the current quest has no progress on it)."/>
   </card>
   <card id="40956aef-c093-489d-b74a-24502705c6bb" name="Gundabad Elite" size="EncounterCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Battle of Five Armies - Nightmare"/>
     <property name="Type" value="Enemy"/>
@@ -209,6 +228,7 @@
     <property name="Text" value="Forced: At the end of the round, if Gundabad Elite is in the staging area, either remove 2 progress from the current quest, or Gundabad Elite makes an attack against the first player."/>
   </card>
   <card id="29baa3ae-f954-49c1-b127-f364887f80a7" name="Embattled Valley" size="EncounterCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Battle of Five Armies - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -218,6 +238,7 @@
     <property name="Text" value="Forced: At the end of the round, each player assigns X damage among heroes he controls. X is the number of quest stages with no progress on them.&#10;Travel: The players (as a group) exhaust X characters. X is the number of quest stages with no progress on them."/>
   </card>
   <card id="487955be-4805-427c-984b-23bb88e697a6" name="Eastern Ridge" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Battle of Five Armies - Nightmare"/>
     <property name="Type" value="Location"/>
@@ -228,6 +249,7 @@
     <property name="Shadow" value="Shadow: Until the end of the phase, attacking enemy gets +1 Ú for each quest stage with no progress on it."/>
   </card>
   <card id="1b770413-a3b1-41ae-b843-b3b9e78b2906" name="Dread Has Come!" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Battle of Five Armies - Nightmare"/>
     <property name="Type" value="Treachery"/>
