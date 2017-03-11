@@ -641,7 +641,7 @@
     <property name="Health" value="2"/>
     <property name="Text" value="When Revealed: Remove 1 progress from every quest stage in play. (2 progress instead if 3 or more players in the game.)"/>
   </card>
-  <card id="56e98bd5-c952-436e-b552-832031d4bb20" name="Vanguard of Bolg">
+  <card id="56e98bd5-c952-436e-b552-832031d4bb20" name="Vanguard of Bolg" size="EncounterCard">
     <property name="Card Number" value="57"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Battle of Five Armies"/>
