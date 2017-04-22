@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Heirs of Númenor - Nightmare" id="4bb66f68-a4b5-4226-8d64-de74bf2ac793" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Heirs of Númenor - Nightmare" id="4bb66f68-a4b5-4226-8d64-de74bf2ac793" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="486a95af-e3af-4513-ae9a-d705d8557db6" name="Peril in Pelargir">
     <property name="Card Number" value="1"/>

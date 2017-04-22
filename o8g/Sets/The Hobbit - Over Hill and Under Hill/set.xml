@@ -406,7 +406,7 @@
       <property name="Text" value="When Revealed: The first player gains control of Bilbo Baggins. Reveal 1 encounter card per player and add it to the staging area.&#10;&#10;Gollum engages the first player. Damage from undefended attacks made by Gollum must be placed on Bilbo Baggins.&#10;&#10;All riddle effects are ignored. Treachery cards gain surge.&#10;&#10;If the players defeat this stage, they have won the game."/>
     </alternate>
   </card>
-  <card id="51223bd0-ffd1-11df-a976-1801204c9092" name="William" size="EncounterCard">
+  <card id="51223bd0-ffd1-11df-a976-1801204c9092" name="William">
     <property name="Card Number" value="32"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="We Must Away, Ere Break of Day"/>

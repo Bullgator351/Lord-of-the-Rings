@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Hobbit - On the Doorstep - Nightmare" id="14523a71-dc30-46b1-a727-28ff5ecbcbaa" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Hobbit - On the Doorstep - Nightmare" id="14523a71-dc30-46b1-a727-28ff5ecbcbaa" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="337906ff-c49f-4768-ad9f-57561a4c1eb1" name="Flies and Spiders">
     <property name="Card Number" value="1"/>

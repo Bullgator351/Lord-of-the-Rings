@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Against the Shadow - Nightmare" id="ad480f8c-3505-4f59-b19a-aa474bba25dc" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Against the Shadow - Nightmare" id="ad480f8c-3505-4f59-b19a-aa474bba25dc" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="3342238a-2680-4044-822e-39a7d3d767b3" name="The Steward's Fear">
     <property name="Card Number" value="1"/>

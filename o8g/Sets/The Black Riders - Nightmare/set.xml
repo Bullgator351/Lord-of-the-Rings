@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Black Riders - Nightmare" id="f7c01338-9090-4367-830c-504830d7e257" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Black Riders - Nightmare" id="f7c01338-9090-4367-830c-504830d7e257" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="4422e6ce-b272-4a2d-bd05-bf3f41063ea6" name="A Shadow of the Past">
     <property name="Card Number" value="1"/>

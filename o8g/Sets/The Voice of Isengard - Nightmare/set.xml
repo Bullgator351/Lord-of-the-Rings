@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Voice of Isengard - Nightmare" id="d7a668c6-45b0-43d4-a29b-1f38307fe070" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Voice of Isengard - Nightmare" id="d7a668c6-45b0-43d4-a29b-1f38307fe070" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
  <cards>
   <card id="d985a0cd-4c06-4e2e-b05a-ad0ac9ac86be" name="The Fords of Isen">
     <property name="Card Number" value="1"/>

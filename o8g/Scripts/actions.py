@@ -247,6 +247,12 @@ def questDiscard():
 
 def setupDeck():
 	return shared.piles['Setup']
+	
+def stagingSetupDeck():
+	return shared.piles['Staging Setup']
+	
+def activeSetupDeck():
+	return shared.piles['Active Setup']
 
 def isPlayerCard(card):
 	return card.owner in getPlayers()
@@ -1000,19 +1006,40 @@ def nextQuestStage(group=None, x=0, y=0):
 		x = QuestStartX + 89*(count // 2) + 64*n
 		y = QuestStartY + 64*(count % 2)	
 			
+	# card = group.top()
+	# card.moveToTable(x, y)
+	# setReminders(card)
+	# if card.Type in ("Nightmare", "Campaign"):
+		# card.moveToTable(x, y)
+		# notify("{} begins a {} quest '{}'".format(me, card.Type, card))
+		# questSetup(card)
+		# if card.Type == "Nightmare":
+			# flipcard(card)
+		# #Reveal and place the real quest card
+		# if len(group) > 0:
+			# card = group[0]
+			# card.moveToTable(x+64, y)
+			# #If next card was a nightmare/campaign card, still need to reveal the actual quest card
+			# if card.Type in ("Nightmare", "Campaign"):
+				# if len(group) > 0:
+					# card = group[0]
+					# card.moveToTable(x+2*64, y)
+	
+	
 	card = group.top()
 	card.moveToTable(x, y)
+	questSetup(card) # Look for special setup rules on the first card in the quest pile
 	setReminders(card)
-	if card.Type in ("Nightmare", "Campaign"):
-		card.moveToTable(x, y+1)
-		notify("{} begins a {} quest '{}'".format(me, card.Type, card))
-		questSetup(card)
-		if card.Type == "Nightmare":
-			flipcard(card)
-		#Reveal and place the real quest card
-		if len(group) > 0:
-			card = group[0]
-			card.moveToTable(x+64, y)
+	notify("Setting up {}".format(card))
+	i=1
+	# Keep putting cards on the table until a quest card is found
+	while card.Type != "Quest":
+		notify("Setting up {}".format(card))
+		card = group[0]
+		if card is None: break
+		card.moveToTable(x+i*64, y)
+		setReminders(card)
+		i +=1
 	
 	questSetup(card)
 	notify("{} advances quest to '{}'".format(me, card))
@@ -1027,7 +1054,7 @@ def addToTable(card):
 	card.moveToTable(x, y)	
 	
 def questSetup(card):
-	if len(card.Setup) + len(setupDeck()) > 0:
+	if len(card.Setup) + len(setupDeck()) + len(stagingSetupDeck()) + len(activeSetupDeck()) > 0:
 		cardsToStage = card.Setup.count('s')
 		i = 0
 		for c in setupDeck():
@@ -1040,6 +1067,10 @@ def questSetup(card):
 				makeActive(c)
 				setReminders(c)
 			i += 1
+		for c in stagingSetupDeck():
+			addToStagingArea(c)
+		for c in activeSetupDeck():
+			makeActive(c)			
 			
 def readyForNextRound(group=table, x=0, y=0):
 	mute()

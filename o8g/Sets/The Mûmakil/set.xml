@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Mûmakil" id="11d40d51-3678-4413-8c71-3287cb7d6a06" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="ae49dd35-f2c7-4ab5-b34d-0cc8e5fb1f6e" name="Kahliel">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Harad. Noble. "/>
+    <property name="Cost" value="10"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="f5bf16fb-3244-40a4-8800-3e38c979c18c" name="Andrath Guardsman">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Dunedain. Ranger. "/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="8ad1cefa-21c5-435c-8865-6417de0e5ba6" name="Prepare for Battle" size="PlayerQuestCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="1"/>
+    <property name="Quest Points" value="6"/>
+  </card>
+  <card id="1a71163f-eeb4-4992-bd9c-83349d93cd58" name="Yazan">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Harad. Ranger. "/>
+    <property name="Keywords" value="Ranged."/>
+    <property name="Cost" value="5"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="e73ef9d3-e2a1-400b-9ed7-bfdfd0a3bc2a" name="Wait No Longer">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="ba6d53fd-277c-4796-814b-ada9ff23cafd" name="Jubayr">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Harad. Warrior. "/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Cost" value="5"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="86e1977f-0a24-46c8-a7ee-d5d78410f1a3" name="Dwarf Pipe">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Item. Pipe. "/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="43622914-dd7f-4990-89d3-7f1ce7a6525f" name="Firyal">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Harad. Scout."/>
+    <property name="Cost" value="5"/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="2002b5d3-57b1-429a-a19a-2d10a564bc31" name="Coney in a Trap">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="f49d9b7f-bdb6-4f2c-8b25-42b07c60a2f3" name="Kahliel’s Headdress">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Artifact. Item."/>
+    <property name="Cost" value="3"/>
+  </card>
+  <card id="f16aabcd-6a98-4e4a-89ca-0f0d69407d85" name="Horse-hair Lasso" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Capture. "/>
+    <property name="Victory Points" value="1"/>
+  </card>
+  <card id="c08310b6-5201-4c70-975e-61a2e7ff329b" name="Poisoned Spear" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Capture. "/>
+    <property name="Victory Points" value="1"/>
+  </card>
+  <card id="4a5c11eb-44b8-4c6e-a9fa-83112dbd57c0" name="Pit Trap" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Capture. "/>
+    <property name="Victory Points" value="1"/>
+  </card>
+  <card id="fc351b81-fc50-40a5-9f94-7ab885cb7a8c" name="Noose of Vines" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Capture. "/>
+    <property name="Victory Points" value="1"/>
+  </card>
+  <card id="f35e7236-2e03-4e03-aa92-7c4803e79acf" name="Wild Mumak" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Mumak. "/>
+    <property name="Keywords" value="Indestructible."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="3"/>
+  </card>
+  <card id="e6d7da0a-eb6d-429b-b9f9-e32027866d1b" name="Harad Tiger" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. "/>
+    <property name="Engagement Cost" value="0"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="257ffa68-7458-4f3c-bc7e-8d46b27cd837" name="Territorial Ape" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. "/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="60e40838-a6f2-4dbd-8ed2-88ba94d9ac0b" name="Strangling Python" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. "/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="25"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="737724a5-2603-40b0-8a0b-4e72dbb3775e" name="Giant Centipede" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. "/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="6651f8a6-e442-4eba-a8b5-13fab4c1e93c" name="Mumak Trail" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest. "/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="4a28b128-1f89-4ad0-b27b-4cb1755c2d23" name="Stampeding Oliphaunt" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="ad7fc95f-4a8d-4a15-b170-b0db3c3002f0" name="The Savage South" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="df69b078-0073-44b6-9f18-1fed38f9711c" name="Terrible Fever" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="855580e2-87b1-444c-b37a-1062c050d9ee" name="Biting Insects" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="f041d625-2075-4501-ad40-f17042c3d3df" name="Guardians of the Jungle" size="QuestCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Side Quest"/>
+  </card>
+  <card id="adf2480a-644a-47ee-8deb-bd08ff32bf31" name="Welcome to the Jungle" size="QuestCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Setup" value="ttttttttssss"/>
+    <alternate name="Welcome to the Jungle" type="B">
+      <property name="Encounter Set" value="The Mûmakil"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="12"/>
+    </alternate>
+  </card>
+  <card id="fc6d1863-5007-4705-9d47-99d6d118e5ca" name="Capture the Mumakil" size="QuestCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Capture the Mumakil" type="B">
+      <property name="Encounter Set" value="The Mûmakil"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="8"/>
+    </alternate>
+  </card>
+  <card id="f1a0f23e-266d-4c2b-8c95-821bf97da6c9" name="The Mûmakil ">
+    <property name="Card Number" value="999"/>
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="The Mûmakil"/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 1"/>
+  </card>
+  <card id="f1a0f23e-266d-4c2b-8c95-821bf97da6c9" name="Race Across Harad ">
+    <property name="Card Number" value="999"/>
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 1"/>
+  </card>
+ </cards>
+</set>

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Race Across Harad" id="504b9447-8491-42dd-b5f4-aca477812fde" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="12946b30-a231-4074-a524-960365081360" name="Thurindir">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Dunedain. Ranger."/>
+    <property name="Cost" value="8"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="129f6237-c00c-41a2-af6e-98a6f966aad1" name="Kahliel’s Tribesman">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Harad."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="e7df2c09-6d38-4f92-9279-eba5f41370cd" name="Steed of the North">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Mount."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="775422b6-68bd-4ae3-8229-ce65e38465a9" name="Mighty Warrior">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Skill."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="953f3b7f-f4ca-4f6f-92d5-8d4b465231df" name="Proud Hunters">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="0"/>
+  </card>
+  <card id="7114f4a4-aed2-4b6e-87bc-c0e564e55d67" name="Dunedain Pathfinder">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Dunedain. Scout."/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="7b60b869-4232-40cf-bbc5-6856edeef419" name="Backtrack">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="1e88c101-4e02-4f9a-8447-15a6f2a4e566" name="Eryn Galen Settler">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Woodman."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="d7e2e209-7730-48fe-87c7-e226143e462b" name="Explore Secret Ways" size="PlayerQuestCard">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Sphere" value="Lore"/>
+  </card>
+  <card id="32ab123f-b12f-4f9d-a6e5-556f54eb6c06" name="Steward of Orthanc">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Isengard."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="5a3a6917-900b-4878-9545-56c297a50248" name="Tamed Mumak">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Objective Ally"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="8"/>
+  </card>
+  <card id="715625a1-320e-478c-afd3-bec7111105f2" name="River Harnen" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Desert. River."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="10"/>
+    <property name="Victory Points" value="4"/>
+  </card>
+  <card id="50950a5b-0002-432a-b6d6-4ac2ca12e501" name="Expanse of Harad" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Desert."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="4a18a702-0c0e-4be8-b26d-ccf5d4d95e2a" name="Blistering Erg" size="EncounterCard">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Desert."/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="5ae90f6e-1b35-4f08-9f10-912bc9cdd3d1" name="Harad Road" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Desert. Road."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="590dd523-5743-4c36-b905-c34c021c2676" name="Uruk Pursuer" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk. "/>
+    <property name="Engagement Cost" value="20"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="25b9113d-1096-4b8d-a2d3-1eb134fbca62" name="Racing Warg" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="10"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="1"/>
+  </card>
+  <card id="610f3112-1123-4956-a955-df9d42b937bf" name="Pursuers from Mordor" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 2."/>
+  </card>
+  <card id="2ce0c7c6-e7ae-4847-a02d-2be874afa3d4" name="Howling at their Heels" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="fa8e0538-d920-4f0e-9810-103c5186531f" name="Setting Out" size="QuestCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Setup" value="ttttssttsssss"/>
+    <alternate name="Setting Out" type="B">
+      <property name="Encounter Set" value="Race Across Harad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="7d0387db-eba6-44e0-8602-b031a2927ca4" name="Racing North" size="QuestCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Racing North" type="B">
+      <property name="Encounter Set" value="Race Across Harad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="15"/>
+    </alternate>
+  </card>
+  <card id="c9bd8efc-b0df-4ab9-aeb2-07796818ff7d" name="Hunted in Harad" size="QuestCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Hunted in Harad" type="B">
+      <property name="Encounter Set" value="Race Across Harad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+    </alternate>
+  </card>
+  <card id="70decac2-b07f-4c96-9684-4c008f19610b" name="The Ford of Harnen" size="QuestCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="4"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="The Ford of Harnen" type="B">
+      <property name="Encounter Set" value="Race Across Harad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="4"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+    </alternate>
+  </card>
+  <card id="447061f6-3399-4309-9885-1045f115820f" name="Setting Out" size="QuestCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="C"/>
+    <alternate name="Setting Out" type="B">
+      <property name="Encounter Set" value="Race Across Harad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="5"/>
+      <property name="Engagement Cost" value="D"/>
+      <property name="Quest Points" value="10"/>
+    </alternate>
+  </card>
+  <card id="a11f08ac-541b-46ba-9528-467dcbdc90c6" name="Racing North" size="QuestCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="C"/>
+    <alternate name="Racing North" type="B">
+      <property name="Encounter Set" value="Race Across Harad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="6"/>
+      <property name="Engagement Cost" value="D"/>
+      <property name="Quest Points" value="15"/>
+    </alternate>
+  </card>
+  <card id="b21850eb-ca62-47d8-b7aa-6d6c5ff29867" name="Hunted in Harad" size="QuestCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="C"/>
+    <alternate name="Hunted in Harad" type="B">
+      <property name="Encounter Set" value="Race Across Harad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="7"/>
+      <property name="Engagement Cost" value="D"/>
+      <property name="Quest Points" value="20"/>
+    </alternate>
+  </card>
+  <card id="a7f5f1b7-6510-4c0f-9198-fd109e19a5c3" name="The Ford of Harnen" size="QuestCard">
+    <property name="Card Number" value="54"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Race Across Harad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="4"/>
+    <property name="Engagement Cost" value="C"/>
+    <alternate name="The Ford of Harnen" type="B">
+      <property name="Encounter Set" value="Race Across Harad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="8"/>
+      <property name="Engagement Cost" value="D"/>
+      <property name="Quest Points" value="20"/>
+    </alternate>
+  </card>
+ </cards>
+</set>
