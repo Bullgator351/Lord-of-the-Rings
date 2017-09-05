@@ -584,7 +584,7 @@
     <property name="Victory Points" value="4"/>
     <property name="Text" value="While Weathertop is in the victory display, each enemy in play gets -1 $.&#10;&#10;Travel: The first player must exhaust The One Ring to travel here."/>
   </card>
-  <card id="df23bd50-5ca3-4a0e-a83c-a349632b0ff4" name="Chetwood" size="EncounterCard">
+  <card id="df23bd50-5ca3-4a0e-a83c-a349632b0ff4" name="Chetwood">
     <property name="Card Number" value="47"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="A Knife in the Dark"/>

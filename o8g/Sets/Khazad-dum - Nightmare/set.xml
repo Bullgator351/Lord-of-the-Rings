@@ -293,7 +293,7 @@
       <property name="Text" value="When Revealed: Deal 1 damage to each questing character.&#10;Players may bypass this quest card at the end of the combat phase."/>
     </alternate>
   </card>
-  <card id="877df84f-3f61-41e0-96ad-aab2aae56048" name="Swarming Goblins">
+  <card id="877df84f-3f61-41e0-96ad-aab2aae56048" name="Swarming Goblins" size="EncounterCard">
     <property name="Card Number" value="5"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Flight from Moria - Nightmare"/>

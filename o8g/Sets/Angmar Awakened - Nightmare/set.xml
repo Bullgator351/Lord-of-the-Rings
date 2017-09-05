@@ -403,7 +403,7 @@
     <property name="Quest Points" value="5"/>
     <property name="Text" value="Immune to player card effects.&#10;While Secret Antechamber is in the staging area, no more than 5 progress can be placed on the main quest each round.&#10;Travel: Raise each player's threat by 3 to travel here."/>
   </card>
-  <card id="6e38a878-8211-4bbc-ba7c-ed460874fd67" name="Life Drain" size="EncounterCard">
+  <card id="6e38a878-8211-4bbc-ba7c-ed460874fd67" name="Life Drain">
     <property name="Card Number" value="9"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur - Nightmare"/>

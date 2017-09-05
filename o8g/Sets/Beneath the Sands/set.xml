@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Beneath the Sands" id="6c31ecfb-869a-4956-b509-ee449c38ad36" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="068e0590-6bb4-429e-8a2b-2ef0869c7c4f" name="Hirgon">
+    <property name="Card Number" value="55"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Gondor. Scout."/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="dd1a7167-8988-4ec7-a9ae-8e3becbc58d0" name="Haradrim Spear">
+    <property name="Card Number" value="56"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Item. Weapon."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="952277e0-9e7c-423f-b034-0f39b5e77eab" name="Hunting Party">
+    <property name="Card Number" value="57"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="0b179f39-f202-4fe7-b930-0f3db582bc3e" name="The Red Arrow">
+    <property name="Card Number" value="58"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Artifact. Item."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="b8f5c0b1-a11e-41f5-b0bd-8dab7d537feb" name="Keep Watch" size="PlayerQuestCard">
+    <property name="Card Number" value="59"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Quest Points" value="6"/>
+  </card>
+  <card id="f309210e-c505-411f-b748-c6828a028ad4" name="Rider of Rohan">
+    <property name="Card Number" value="60"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Rohan. Scout."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="955a36c0-f348-400e-8ba4-16adcab07444" name="Fireside Song">
+    <property name="Card Number" value="61"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Song."/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="84202632-1548-4926-b307-c2d771abb97d" name="Dunedain Lookout">
+    <property name="Card Number" value="62"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Dunedain."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="b3e3e174-5406-475f-aed9-dd583e8b3652" name="Doughty Ranger">
+    <property name="Card Number" value="63"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Skill."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="8a236d16-1b31-474c-992b-3a2cd91a3b71" name="The Free Peoples">
+    <property name="Card Number" value="64"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Cost" value="5"/>
+  </card>
+  <card id="f47bffb2-d4cc-404c-bd53-5e91be0dc254" name="Brood Mother" size="EncounterCard">
+    <property name="Card Number" value="65"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Spider."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="12"/>
+    <property name="Victory Points" value="4"/>
+  </card>
+  <card id="9afed95c-399f-4823-a277-342ece74a9e4" name="Hive Guardian" size="EncounterCard">
+    <property name="Card Number" value="66"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Spider."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="6ad8ed6c-4b09-4a2a-bc5f-a44b4f180b8e" name="Spider Broodling" size="EncounterCard">
+    <property name="Card Number" value="67"/>
+    <property name="Quantity" value="5"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Spider."/>
+    <property name="Engagement Cost" value="20"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="6b828300-4558-4a8b-a591-a9865202a630" name="Spider Burrow" size="EncounterCard">
+    <property name="Card Number" value="68"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="2"/>
+  </card>
+  <card id="f02f15ee-3262-435a-b894-8f4003068c32" name="Pitch Black Tunnel" size="EncounterCard">
+    <property name="Card Number" value="69"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Keywords" value="Track 4."/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="e1b0b7ba-c097-481b-baba-53755545cbbe" name="Nest of Vermin" size="EncounterCard">
+    <property name="Card Number" value="70"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Keywords" value="Track 3."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="8d55b746-417d-4996-b69b-01c80a7e4602" name="Cobwebbed Cavern" size="EncounterCard">
+    <property name="Card Number" value="71"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Keywords" value="Track 2."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="4233fe0f-ba63-4947-8c3c-f732ab09c472" name="Blocked Passage" size="EncounterCard">
+    <property name="Card Number" value="72"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Keywords" value="Track 2."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="6"/>
+  </card>
+  <card id="8c15fd9d-0956-474a-9051-51f36890c7a5" name="Forced Off Track" size="EncounterCard">
+    <property name="Card Number" value="73"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="a5aef3fe-7bb9-4165-ba0f-91127d8f21e3" name="Grabbed by Spiders" size="EncounterCard">
+    <property name="Card Number" value="74"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Surge. Doomed 1."/>
+    <property name="Keywords" value="Surge. Doomed 1."/>
+  </card>
+  <card id="74c7a9e0-940f-4b66-bc23-c938eef5587f" name="Lost Underground" size="QuestCard">
+    <property name="Card Number" value="75"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Side Quest"/>
+  </card>
+  <card id="4297aa1e-8d53-4bd4-a750-ae5490fbb82b" name="Searching the Caves" size="QuestCard">
+    <property name="Card Number" value="76"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Quest"/>
+    <alternate name="Searching the Caves" type="B">
+      <property name="Encounter Set" value="Beneath the Sands"/>
+      <property name="Type" value="Quest"/>
+      <property name="Keywords" value="5"/>
+      <property name="Quest Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="f38caab3-61dc-45e2-9b31-533ba3b9fbd9" name="Getting Closer" size="QuestCard">
+    <property name="Card Number" value="77"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Quest"/>
+    <alternate name="Getting Closer" type="B">
+      <property name="Encounter Set" value="Beneath the Sands"/>
+      <property name="Type" value="Quest"/>
+      <property name="Keywords" value="5"/>
+      <property name="Quest Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="8351cce0-b16e-4eba-93f2-24015bbc54c1" name="The Spider’s Hive" size="QuestCard">
+    <property name="Card Number" value="78"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Quest"/>
+    <alternate name="The Spider’s Hive" type="B">
+      <property name="Encounter Set" value="Beneath the Sands"/>
+      <property name="Type" value="Quest"/>
+      <property name="Keywords" value="5"/>
+      <property name="Quest Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="05738935-2cd4-4ce3-a977-9e4f59689a32" name="On Track" size="EncounterCard">
+    <property name="Card Number" value="80"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Search."/>
+    <alternate name="Off Track" type="B">
+      <property name="Encounter Set" value="Beneath the Sands"/>
+      <property name="Type" value="Objective"/>
+    </alternate>
+  </card>
+  <card id="47f8f7e5-d5d0-4e11-9c43-22c4bc42b840" name="Beneath the Sands">
+    <property name="Card Number" value="999"/>
+    <property name="Quantity" value="0"/>
+    <property name="Encounter Set" value="Beneath the Sands"/>
+    <property name="Type" value="Rules"/>
+    <property name="Keywords" value="Rulesheet Card 1"/>
+  </card>
+ </cards>
+</set>

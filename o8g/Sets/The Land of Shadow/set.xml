@@ -168,7 +168,7 @@
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Planning Action: Add Brace of Conies to the victory display to (choose 2): heal up to 2 damage from a hero, add 2 resources to a hero’s pool, choose a player to draw 2 cards, or reduce a player's threat by 2."/>
   </card>
-  <card id="8b9b03e6-0036-473a-bdb7-d2d8e74edc69" name="The Searching Eye">
+  <card id="8b9b03e6-0036-473a-bdb7-d2d8e74edc69" name="The Searching Eye" size="EncounterCard">
     <property name="Card Number" value="15"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Passage of the Marshes"/>

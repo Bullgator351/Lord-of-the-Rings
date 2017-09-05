@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Land of Shadow - Nightmare" id="701718f6-d854-4c7c-bfeb-b1ec4d5921c9" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
+ <cards>
+  <card id="9f4fa8d5-eaa4-4089-82aa-1ea4563a237b" name="The Passage of the Marshes">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Nightmare" type="B">
+      <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="77ee7ac0-7957-4cb2-9f01-05eea2c80d6e" name="Festering Mire" size="EncounterCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Marsh."/>
+    <property name="Keywords" value="Mire 2."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="2"/>
+  </card>
+  <card id="a6993cad-4a32-48f4-b5fc-289d39faf740" name="Candle-lit Pool" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Marsh."/>
+    <property name="Keywords" value="Mire 3."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="3"/>
+  </card>
+  <card id="04029ea1-9780-4335-a8a2-74c08710c3f2" name="Great Reed Thicket" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Marsh."/>
+    <property name="Keywords" value="Mire 2."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Victory Points" value="2"/>
+  </card>
+  <card id="b2113592-2485-4324-98c8-ab4bec23deae" name="Pale Faces" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="6e82330b-ca0d-4d6b-a796-024de152ca56" name="Rotting Thing" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+  </card>
+  <card id="555dcce7-e705-4ba1-ba58-4880b449c178" name="Rot and Vapors" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="9b0f5fb4-4f7f-4e89-8565-b327980f2627" name="Gollum's Rage" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Passage of the Marshes - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Peril. Surge."/>
+  </card>
+  <card id="797f8633-3df6-4e0e-b42e-c088f34e488f" name="Journey to the Cross-roads">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <alternate name="Nightmare" type="B">
+      <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="7fe4a83b-8654-4599-ab5d-6c06e56a7cdc" name="Southron Warror" size="EncounterCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Harad."/>
+    <property name="Keywords" value="Archery 2."/>
+    <property name="Engagement Cost" value="46"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="7b41bc67-160e-4d01-90ba-d00481aa3b81" name="Southron Rearguard" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Harad."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="8"/>
+  </card>
+  <card id="38e03ed2-9492-4522-8ef1-014f0444b40e" name="Wooded Glade" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="1fa7117f-2e41-45ae-b81e-75da3ad36cf2" name="Dense Fern-brake" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="0f6dfe98-9645-4c52-93d1-cd6e9089c640" name="Shadowy Thicket" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="8"/>
+  </card>
+  <card id="7dcb70a6-4be1-4436-8e38-9ebdcc12d165" name="Blind Wrath" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="26fcc4f7-16bc-4134-b184-ede9bfe82906" name="Ware! Ware!" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Journey to the Cross-roads - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Peril. Surge."/>
+  </card>
+  <card id="227857db-5332-4c3a-b253-93f5886d8451" name="Shelob's Lair">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Nightmare" type="B">
+      <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="4de10000-6646-4e25-8208-4c277bbbcf80" name="Foul-smelling Cave" size="EncounterCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="1"/>
+  </card>
+  <card id="31da2071-cc8e-4fb4-a3f8-062a235eb209" name="Torech Ungol" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="f774288a-fe38-4da1-ba57-3c3c2ada62a1" name="Cobwebbed Tunnel" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="f951fa4a-6087-442d-a8cf-0e80facba040" name="Orc of Minas Morgul" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Keywords" value="Peril."/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="38421493-b5f5-4399-b543-b59f69bbb43a" name="Under-gate Sentry" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="36becc00-6e06-4b75-985e-9073f009defd" name="Impenetrable Dark" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="807c78ee-ec6b-4df0-9721-1e475f0d04dc" name="Growing Stench" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Shelob's Lair - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Surge."/>
+  </card>
+ </cards>
+</set>

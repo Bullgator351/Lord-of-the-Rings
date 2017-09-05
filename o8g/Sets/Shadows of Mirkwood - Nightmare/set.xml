@@ -321,7 +321,7 @@
     <property name="Text" value="While Pitch-dark Thicket is the active location, all characters lose the ranged keyword."/>
     <property name="Shadow" value="Shadow: Attacking enemy cannot be attacked by characters with the ranged keyword until the end of the phase."/>
   </card>
-  <card id="b91cc63a-7fa3-46b4-b5b2-9da1663f0034" name="Shot from the Sky" size="EncounterCard">
+  <card id="b91cc63a-7fa3-46b4-b5b2-9da1663f0034" name="Shot from the Sky">
     <property name="Card Number" value="7"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="A Journey to Rhosgobel - Nightmare"/>

@@ -1694,7 +1694,7 @@ def drawMany(group, count = None):
  
 def lookAtAllEncounterDeck(group, x = 0, y = 0):
 	mute()
-	notify("{} looks at Global's Encounter.".format(me, count))
+	notify("{} looks at Global's Encounter.".format(me))
 	encounterDeck().lookAt(-1,True)
  
 def lookAtAllEncounterDiscard(group, x = 0, y = 0):
