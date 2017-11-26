@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Mountain of Fire" id="30e352c6-4389-4ace-ab82-874294634554" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
+ <cards>
+  <card id="b937644c-ccbb-4a39-ae3c-24857d1d4d57" name="Frodo Baggins">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value=" "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Fellowship"/>
+    <property name="Traits" value="Hobbit. Ring-bearer."/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="f1cc6057-ced3-4105-9172-869d26a54af5" name="Aragorn">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Fellowship"/>
+    <property name="Traits" value="Dunedain. Gondor. Noble. Warrior."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="7a1bc81a-c226-4589-a1cf-65668846c64b" name="Eomer">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Rohan. Noble. Warrior."/>
+    <property name="Cost" value="10"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="bbab76d6-7554-40da-af74-fb502d08d9a8" name="Tom Cotton">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Hobbit."/>
+    <property name="Cost" value="8"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="0baaf661-4bfd-48ed-80d4-bfa98217da1c" name="Rosie Cotton">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Hobbit."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="0ff72c0f-a6d6-48d3-8781-1988a7e3ba11" name="Elfhelm">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Rohan. Warrior."/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="51512531-0697-4005-9fb6-884da5b02f75" name="Elladan">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Noldor. Ranger."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="769dbf59-9e02-4750-9605-b1ad6c8783e2" name="Elrohir">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Noldor. Ranger."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="cb08f48e-7acf-44ff-ac6f-36d4f017a962" name="Captains of the West">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="3"/>
+  </card>
+  <card id="08d95282-e88d-4a9c-a01b-651d569052ee" name="Raise the Shire">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="ee75373c-d979-4e7a-934d-5542c24c8ab1" name="Guthwinë">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Item. Weapon."/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="04aa368e-b411-4d20-9ca3-f7baf4670599" name="Friend of Friends">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Condition."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="e4fd6941-6ced-4ddc-970d-a933ae7d5cb5" name="Orc Disguise">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Fellowship"/>
+    <property name="Traits" value="Item. Armor."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="ad4739ac-fd18-4add-9b83-860c1fcc2b54" name="Last of the Company" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Fellowship."/>
+  </card>
+  <card id="490a363e-2f00-4c66-9c6f-5bdfb83f6b08" name="Topmost Chamber" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Cirith Ungol."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="1"/>
+  </card>
+  <card id="e53df85c-f6e6-41df-9fd1-03dd2d2a1c65" name="Echoing Passage" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Cirith Ungol."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="46c6afb3-9a68-4f1a-acfa-e421c84da528" name="Bloodied Courtyard" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Cirith Ungol."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="cf74c777-dfe4-4cea-8b7f-4b09fc1aa5b2" name="Winding Stairs" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Cirith Ungol."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="32706788-e37c-47b1-831b-40c7f711cb10" name="Torch-lit Hall" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Cirith Ungol."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="a246d29f-f370-4308-828d-c1ff09029b4a" name="Shagrat" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="46"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="6"/>
+  </card>
+  <card id="74f40d23-068a-40ea-9965-81df44294490" name="Gorbag" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="03abe728-0062-49bb-9a04-e78bff777e83" name="Wounded Uruk" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="66489fc6-7074-4cbb-8a60-37acd641f7a6" name="Orcish Howls" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="c6b0a8d2-32fe-4750-9270-7270cd5f062b" name="The Black Gate" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="0"/>
+  </card>
+  <card id="e5b56e5a-3286-4ea6-bbdd-da7e47750125" name="Towers of the Teeth" size="EncounterCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="8"/>
+  </card>
+  <card id="1eab8808-f8ee-4935-b456-7dd940afbc28" name="Beleaguered Hills" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Hills."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="77bcda70-5126-4e58-919e-447c03d7ab02" name="Waste of Dagorlad" size="EncounterCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="6"/>
+  </card>
+  <card id="3551cf11-1670-46de-b404-7b8fd20d3aff" name="Slopes of Cirith Gorgor" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Hills."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="1"/>
+  </card>
+  <card id="f13a2e94-0ece-45c3-a7ce-0248f9ff92b3" name="Reeking Moat" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="6aaf94eb-c656-4589-acf1-c6637a755946" name="Wall of Morannon" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="a3a28453-4292-49b3-9b78-fc958310a800" name="The Mouth of Sauron" size="EncounterCard">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Engagement Cost" value="99"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="11"/>
+  </card>
+  <card id="e62cec6d-6b96-4662-9a86-bcc0f5aee453" name="Nazgul of Mordor" size="EncounterCard">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Nazgul."/>
+    <property name="Engagement Cost" value="66"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="9"/>
+  </card>
+  <card id="fafbd12c-b97e-41d8-a696-5c89566927ba" name="Gorgoroth Hill-troll" size="EncounterCard">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="56"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="7"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+  </card>
+  <card id="ce23920a-4b87-4015-88bf-8687a6d3f180" name="Easterling Bowman" size="EncounterCard">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Peril. Archery 1."/>
+    <property name="Engagement Cost" value="54"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="7108bf9e-3e91-4cbd-977a-fbab0a464512" name="Warrior of Rhun" size="EncounterCard">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Peril."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="5003227b-ebc3-454a-88b4-2d6e20cc48f7" name="Hell-hawk" size="EncounterCard">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Morgul."/>
+    <property name="Keywords" value="Peril."/>
+  </card>
+  <card id="3f736d45-c2b3-429e-9a21-3f8073cdbd48" name="The Hour of Doom" size="EncounterCard">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+  </card>
+  <card id="d5286130-d03a-49f3-bd70-d40e9320c292" name="Jaws of Steel" size="EncounterCard">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="218b6d77-2c40-4967-8487-2a383b4170ce" name="Rage Filled Him" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Peril."/>
+  </card>
+  <card id="60ac6ce9-7aad-415d-a4af-61f67db59454" name="Onslaught of Mordor" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="5c1973bf-c331-4b8f-8872-4ead564476d3" name="Gwaihir">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective Ally"/>
+    <property name="Traits" value="Creature. Eagle."/>
+    <property name="Keywords" value="Ranged. Sentinel."/>
+  </card>
+  <card id="bb6dd4a6-a72c-400a-9cc6-903d7260ea1b" name="The Tower of Barad-dur" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Mordor."/>
+  </card>
+  <card id="2dc216a5-af92-44e5-b225-9cdc7bf47e73" name="Mount Doom" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="9"/>
+  </card>
+  <card id="1a0189ae-b9ad-49c2-a217-a9c975536384" name="Orc-hold" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="e9bdfb84-2f96-4288-bbed-31f52cc10b86" name="Mordor Road" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="c88f14e5-1bd3-4829-ab70-02479df6cdfd" name="Plain of Gorgoroth" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="cfe25792-3c08-4154-8770-821eee3c9e3f" name="Brake of Thorns" size="EncounterCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="13543061-b855-4e58-9190-e2f56c17cd32" name="Old Water-course" size="EncounterCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="eb232287-e39e-4358-b37f-23b2c45ca6a8" name="Gollum" size="EncounterCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Gollum."/>
+    <property name="Keywords" value="Surge. Immune to non-☺ player card effects."/>
+    <property name="Engagement Cost" value="99"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="c39c83bf-ee9e-4e4d-9689-b8f7559292bd" name="Ringwraith of Sauron" size="EncounterCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Nazgul."/>
+    <property name="Engagement Cost" value="88"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="10"/>
+  </card>
+  <card id="ae4a4129-ed5d-4902-92e3-ae89e2795fb1" name="Orc Captain" size="EncounterCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="55"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="6"/>
+  </card>
+  <card id="6036efda-3456-45d2-817a-4ef8b310db5a" name="Big Uruk" size="EncounterCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="44"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="ad3509b5-b4b4-4fe5-bfdc-e655cc2470d3" name="Little Snuffler" size="EncounterCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Snaga."/>
+    <property name="Keywords" value="Peril. Surge."/>
+    <property name="Engagement Cost" value="33"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="2ab79807-7f6b-4b8b-8295-fb8645cdee8a" name="“Wicked Master!”" size="EncounterCard">
+    <property name="Card Number" value="54"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Gollum."/>
+  </card>
+  <card id="d71de165-8632-4628-94ea-793a1c20e6f8" name="The Lidless Eye" size="EncounterCard">
+    <property name="Card Number" value="55"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Peril."/>
+  </card>
+  <card id="01a03d74-06d9-4fc8-afd7-2739fa900c32" name="Foul Fumes" size="EncounterCard">
+    <property name="Card Number" value="56"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="cdf7a6c5-23f6-4314-a122-3b7df1b97501" name="Heavy and Tired" size="EncounterCard">
+    <property name="Card Number" value="57"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="7d9a3914-bc46-40d6-b489-3157d7430382" name="Orc of Mordor" size="EncounterCard">
+    <property name="Card Number" value="58"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Orcs of Mordor"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="194ceae6-a5e2-4a52-ba07-76e6c2611e8e" name="Snaga Archer" size="EncounterCard">
+    <property name="Card Number" value="59"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Orcs of Mordor"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Snaga."/>
+    <property name="Engagement Cost" value="44"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="50f294ff-ee4b-4685-b7e1-86cd7f2e0a59" name="Uruk Soldier" size="EncounterCard">
+    <property name="Card Number" value="60"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Orcs of Mordor"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="a442dbd4-ec18-44e6-b762-b0ebf94a8897" name="Drawn to the Ring" size="EncounterCard">
+    <property name="Card Number" value="61"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Deep Shadows"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="ef94d441-715f-42e8-bb3a-764592cdf44c" name="Deep Shadows" size="EncounterCard">
+    <property name="Card Number" value="62"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Deep Shadows"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="15f9c6b7-2bb0-48ea-9a5d-b8ec3b1a7e2d" name="Evil Vigilance" size="EncounterCard">
+    <property name="Card Number" value="63"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Deep Shadows"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="23402087-6d53-45c7-86be-3c6b9f5a651c" name="In Darkness Bind Them" size="EncounterCard">
+    <property name="Card Number" value="64"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Epic Multiplayer Mode"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="06b1e27e-6493-4f05-9203-1835058073df" name="The One Ring" size="EncounterCard">
+    <property name="Card Number" value="65"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+  </card>
+  <card id="22e79f71-9496-4f1a-bf7e-36834378d68c" name="Pass the Two Watchers" size="QuestCard">
+    <property name="Card Number" value="66"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="0"/>
+    <alternate name="Pass the Two Watchers" type="B">
+      <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="26eb433a-01e2-4b0e-83c4-680b0e0c4854" name="Fighting in the Tower" size="QuestCard">
+    <property name="Card Number" value="67"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="18"/>
+    <alternate name="Fighting in the Tower" type="B">
+      <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="196dd43b-1df2-4eae-9dcf-2e8d2723af67" name="Escape from Cirith Ungol" size="QuestCard">
+    <property name="Card Number" value="68"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="12"/>
+    <alternate name="Escape from Cirith Ungol" type="B">
+      <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="a27a3045-58aa-4cbe-ab36-90bc6e7a5cdb" name="The Tower of Cirith Ungol">
+    <property name="Card Number" value="69"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Type" value="Campaign"/>
+    <alternate name="The Tower of Cirith Ungol" type="B">
+      <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+      <property name="Type" value="Campaign"/>
+    </alternate>
+  </card>
+  <card id="78f780fd-fcc0-495e-b132-772ce71dbfa9" name="The Two Watchers" size="EncounterCard">
+    <property name="Card Number" value="70"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="0"/>
+    <alternate name="The Two Watchers" type="B">
+      <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Traits" value="Mordor."/>
+      <property name="Engagement Cost" value="50"/>
+      <property name="Threat" value="2"/>
+      <property name="Attack" value="5"/>
+      <property name="Defense" value="2"/>
+      <property name="Health" value="4"/>
+    </alternate>
+  </card>
+  <card id="0f31d397-55d8-4988-b6bb-3d4101977515" name="Embassy from The Dark Tower" size="QuestCard">
+    <property name="Card Number" value="72"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="0"/>
+    <alternate name="Embassy from The Dark Tower" type="B">
+      <property name="Encounter Set" value="The Black Gate Opens"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="48c071bf-b00f-4677-b43f-aa119f736428" name="The Battle of the Morannon" size="QuestCard">
+    <property name="Card Number" value="73"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="0"/>
+    <alternate name="The Battle of the Morannon" type="B">
+      <property name="Encounter Set" value="The Black Gate Opens"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="9ffc1d82-10b3-4703-91e5-865407f0cc1e" name="The Black Gate Opens">
+    <property name="Card Number" value="74"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Black Gate Opens"/>
+    <property name="Type" value="Campaign"/>
+    <alternate name="The Black Gate Opens" type="B">
+      <property name="Encounter Set" value="The Black Gate Opens"/>
+      <property name="Type" value="Campaign"/>
+    </alternate>
+  </card>
+  <card id="39a64a5a-7074-46a5-aacc-a42537fe0ddd" name="The Land of Mordor" size="QuestCard">
+    <property name="Card Number" value="75"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="4"/>
+    <alternate name="The Land of Mordor" type="B">
+      <property name="Encounter Set" value="Mount Doom"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="6a24a5e8-80e9-4bba-af55-64be11742dde" name="The Road to Isenmouthe" size="QuestCard">
+    <property name="Card Number" value="76"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="0"/>
+    <alternate name="The Road to Isenmouthe" type="B">
+      <property name="Encounter Set" value="Mount Doom"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="ec2049ab-c950-46f7-9f1b-30ada69db857" name="The Last Gasp" size="QuestCard">
+    <property name="Card Number" value="77"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="20"/>
+    <alternate name="The Last Gasp" type="B">
+      <property name="Encounter Set" value="Mount Doom"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="ad73bb42-f0fb-4732-956d-e921140e99bb" name="The Crack of Doom" size="QuestCard">
+    <property name="Card Number" value="78"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="4"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Quest Points" value="0"/>
+    <alternate name="The Crack of Doom" type="B">
+      <property name="Encounter Set" value="Mount Doom"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="4"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="271fa771-d678-461e-b5c6-483117059ed1" name="Mount Doom">
+    <property name="Card Number" value="79"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Doom"/>
+    <property name="Type" value="Campaign"/>
+    <alternate name="Mount Doom" type="B">
+      <property name="Encounter Set" value="Mount Doom"/>
+      <property name="Type" value="Campaign"/>
+    </alternate>
+  </card>
+  <card id="477558e9-dc31-4766-b97d-311d5668aa1a" name="Epic Multiplayer Mode">
+    <property name="Card Number" value="80"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Epic Multiplayer Mode"/>
+    <property name="Type" value="Campaign"/>
+    <alternate name="Epic Multiplayer Mode" type="B">
+      <property name="Encounter Set" value="Epic Multiplayer Mode"/>
+      <property name="Type" value="Campaign"/>
+    </alternate>
+  </card>
+  <card id="c4b7ea64-91b2-4037-bfce-45e487a96b01" name="The Eye of Sauron" size="EncounterCard">
+    <property name="Card Number" value="81"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Epic Multiplayer Mode"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Mordor."/>
+  </card>
+  <card id="2f6a81bb-951f-434a-9cfd-7605a7122fd2" name="The Eye of Sauron" size="EncounterCard">
+    <property name="Card Number" value="82"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Epic Multiplayer Mode"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Mordor."/>
+  </card>
+ </cards>
+</set>

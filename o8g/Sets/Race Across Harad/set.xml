@@ -199,7 +199,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Keywords" value="Doomed 2."/>
     <property name="Text" value="When Revealed: Discard cards from the top of the encounter deck until an Orc enemy is discarded. Add that enemy to the Orc’s area. "/>
-    <property name="Shadow" value="Shadow: Attacking enemy gets +1 [Attack]. If this attack destroys a character, place 2 progress on the Orc’s stage. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. If this attack destroys a character, place 2 progress on the Orc’s stage. "/>
   </card>
   <card id="2ce0c7c6-e7ae-4847-a02d-2be874afa3d4" name="Howling at their Heels" size="EncounterCard">
     <property name="Card Number" value="46"/>
@@ -290,7 +290,7 @@
       <property name="Cost" value="5"/>
       <property name="Engagement Cost" value="D"/>
       <property name="Quest Points" value="10"/>
-      <property name="Text" value="Uruk Chieftain cannot leave the Orc’s area.&#10;Forced: At the end of the quest phase, discard the top card of the encounter deck. Place X progress on this stage, where X is the discarded card’s [Threat] plus the total [Threat] in the Orc’s area. "/>
+      <property name="Text" value="Uruk Chieftain cannot leave the Orc’s area.&#10;Forced: At the end of the quest phase, discard the top card of the encounter deck. Place X progress on this stage, where X is the discarded card’s $ plus the total $ in the Orc’s area. "/>
     </alternate>
   </card>
   <card id="a11f08ac-541b-46ba-9528-467dcbdc90c6" name="Racing North" size="QuestCard">
@@ -307,7 +307,7 @@
       <property name="Cost" value="6"/>
       <property name="Engagement Cost" value="D"/>
       <property name="Quest Points" value="15"/>
-      <property name="Text" value="While the players are at stage 3B, Uruk Chieftain cannot leave the Orc’s area.&#10;Forced: At the end of the quest phase, return Uruk Chieftain to the Orc’s area and discard the top card of the encounter deck. Place X progress on this stage, where X is the discarded card’s [Threat] plus the total [Threat] in the Orc’s area.&#10;If you are at stage 2B when this stage is defeated, you lose the game. "/>
+      <property name="Text" value="While the players are at stage 3B, Uruk Chieftain cannot leave the Orc’s area.&#10;Forced: At the end of the quest phase, return Uruk Chieftain to the Orc’s area and discard the top card of the encounter deck. Place X progress on this stage, where X is the discarded card’s $ plus the total $ in the Orc’s area.&#10;If you are at stage 2B when this stage is defeated, you lose the game. "/>
     </alternate>
   </card>
   <card id="b21850eb-ca62-47d8-b7aa-6d6c5ff29867" name="Hunted in Harad" size="QuestCard">

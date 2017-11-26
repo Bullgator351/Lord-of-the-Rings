@@ -218,7 +218,6 @@
     <alternate name="The Crossroad’s Fort" type="B">
       <property name="Encounter Set" value="The Black Serpent"/>
       <property name="Type" value="Quest"/>
-      <property name="Keywords" value="6"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="6"/>
@@ -234,7 +233,6 @@
     <alternate name="Battle in the Camp" type="B">
       <property name="Encounter Set" value="The Black Serpent"/>
       <property name="Type" value="Quest"/>
-      <property name="Keywords" value="6"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="6"/>
@@ -250,7 +248,6 @@
     <alternate name="Defeat the Serpent" type="B">
       <property name="Encounter Set" value="The Black Serpent"/>
       <property name="Type" value="Quest"/>
-      <property name="Keywords" value="6"/>
       <property name="Cost" value="3"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="6"/>

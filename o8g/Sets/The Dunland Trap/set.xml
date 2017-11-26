@@ -10,8 +10,8 @@
     <property name="Traits" value="Silvan. Noble."/>
     <property name="Cost" value="11"/>
     <property name="Willpower" value="3"/>
-    <property name="Attack" value="3"/>
-    <property name="Defense" value="3"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
     <property name="Health" value="4"/>
     <property name="Text" value="Response: After a Silvan ally enters play, that ally gets +1 Ò, +1 Û, and +1 Ú until the end of the round."/>
   </card>

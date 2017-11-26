@@ -198,7 +198,7 @@
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="6"/>
     <property name="Text" value="Forced: When a Goblin enemy enters play, add 1 resource to that enemy if Deep-Mines is in the staging area."/>
-    <property name="Shadow" value="Attacking enemy gets +1 Û]. Then if attacking enemy is a Goblin, deal it another shadow card."/>
+    <property name="Shadow" value="Attacking enemy gets +1 Û. Then if attacking enemy is a Goblin, deal it another shadow card."/>
   </card>
   <card id="5277b186-0c76-4ec6-9615-20cdceb49241" name="Western Hall" size="EncounterCard">
     <property name="Card Number" value="8"/>
