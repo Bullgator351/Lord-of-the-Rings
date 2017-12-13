@@ -8,8 +8,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Wastes of Eriador scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;2x Northern Warg&#10;1x White Warg&#10;1x Sudden Darkness&#10;1x North Downs&#10;2x Eriador Wastes&#10;1x Cold from Angmar&#10;3x Biting Wind&#10;1x Freezing Blast&#10;1x Shrouded Hills&#10;3x Rugged Country&#10;2x Pressing Needs&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Wastes of Eriador encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Wastes of Eriador" type="B">
       <property name="Encounter Set" value="The Wastes of Eriador - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode."/>
     </alternate>
@@ -91,8 +92,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for Escape from Mount Gram scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;4x Prison Cell&#10;3x Dungeon Guard&#10;1x Jailor Gornakh&#10;2x Interrogation&#10;2x Goblin Tormentor&#10;1x Cruel Torturer&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Escape from Mount Gram encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Escape from Mount Gram" type="B">
       <property name="Encounter Set" value="Escape from Mount Gram - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Forced: After choosing a starting hero and randomly setting another hero aside facedown, instead of the standard captured deck setup, shuffle any remaining heroes into your captured dec, then place the facedown set aside hero on the bottom of your captured deck.&#10;The players cannot win the game while a hero is captured (underneath an encounter card, or in their captured deck)."/>
     </alternate>
@@ -112,7 +114,7 @@
     <property name="Victory Points" value="5"/>
     <property name="Text" value="Forced: After Jailor Gornakh enters play, each player searches his captured deck for each hero and captures them underneath Jailor Gornakh.&#10;Forced: After a player rescues any number of cards, Jailor Gornakh attacks that player."/>
   </card>
-  <card id="3798030e-df23-45db-ab29-0ef8a2a35cd6" name="Prison Guard" size="EncounterCard">
+  <card id="3798030e-df23-45db-ab29-0ef8a2a35cd6" name="Prison Guard">
     <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Escape from Mount Gram - Nightmare"/>
@@ -195,8 +197,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for the Across the Ettenmoors scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;1x Into the Ettenmoors&#10;2x Shrouded Hills&#10;1x No Rest&#10;2x Arador's Bane&#10;2x Troll-fells&#10;2x Goblin Pursuer&#10;2x Cold from Angmar&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Across the Ettenmoors encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Across the Ettenmoors" type="B">
       <property name="Encounter Set" value="Across the Ettenmoors - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="Your are playing Nightmare mode.&#10;Forced: When resolving the 'when revealed' effect on stage 2A or stage 3A, also discard cards from the top of the encounter deck until a location with the safe keyword is discarded. Attach that location to the newly revealed side quest, as a guarded objective."/>
     </alternate>
@@ -317,8 +320,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Treachery of Rhudaur scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;2x Decrepit Remains&#10;2x Eerie Halls&#10;1x Dark Covenant&#10;2x Ruins of Arnor&#10;2x Tragic Discovery&#10;5x Cursed Dead&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Treachery of Rhudaur encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Treachery of Rhudaur" type="B">
       <property name="Encounter Set" value="The Treachery of Rhudaur - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode:&#10;Setup: Set the Sift through the Debris, Decipher Ancient Texts, and Quiet the Spirits encounter sets aside, out of play. These sets are indicated by the following icons, respectively:&#10;&#10;Forced: After you advance to stage 2b, for each of the above sidequests that was not defeated, shuffle the encounter set that matches its title into the encounter deck, and shuffle the encounter discard pile into the encounter deck."/>
     </alternate>
@@ -403,7 +407,7 @@
     <property name="Quest Points" value="5"/>
     <property name="Text" value="Immune to player card effects.&#10;While Secret Antechamber is in the staging area, no more than 5 progress can be placed on the main quest each round.&#10;Travel: Raise each player's threat by 3 to travel here."/>
   </card>
-  <card id="6e38a878-8211-4bbc-ba7c-ed460874fd67" name="Life Drain">
+  <card id="6e38a878-8211-4bbc-ba7c-ed460874fd67" name="Life Drain" size="EncounterCard">
     <property name="Card Number" value="9"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur - Nightmare"/>
@@ -419,8 +423,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Battle of Carn Dûm scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;1x Vile Affliction&#10;1x Furious Charge&#10;1x Orc Ambush&#10;1x Angmar Orc&#10;3x Angmar Marauder&#10;3x Terror of the North&#10;2x Accursed Battlefield&#10;1x Blight of Carn Dûm&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Battle of Carn Dûm encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin.&#10;Keyword: Siege&#10;If a quest card has the siege keyword, when characters are committed to that quest, they count their total Ú instead of their total Ò when resolving the quest. Enemies and locations in the staging area still use their $ in opposition to this quest attempt."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Battle of Carn Dûm" type="B">
       <property name="Encounter Set" value="The Battle of Carn Dûm - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
     </alternate>
   </card>
@@ -535,8 +540,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Dread Realm scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;3x Witch of Angmar&#10;2x A Fell Dread&#10;1x Unholy Crypt&#10;1x Sinister Dungeon&#10;2x Dead Lord&#10;3x Terror of the North&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Dread Realm encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Dread Realm" type="B">
       <property name="Encounter Set" value="The Dread Realm - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode."/>
     </alternate>

@@ -8,8 +8,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Uruk-hai scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;3x The Uruk-hai Fighter&#10;1x Snaga&#10;2x Eastemnet&#10;2x Plains of Rohan&#10;3x The Wold&#10;2x Unseen Barrier&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Uruk-hai encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Uruk-hai" type="B">
       <property name="Encounter Set" value="The Uruk-hai - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Each captive is immune to player card effects.&#10;Setup: Set Mauhúr aside, out of play.&#10;Forced: When the players advance to stage 2A, add Mauhúr to the staging area."/>
     </alternate>
@@ -119,8 +120,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for the Helm's Deep scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;1x Isengard Uruk&#10;3x Uruk-hai Fighter&#10;3x Wild Hillman&#10;3x The Hornburg&#10;1x Deeping Wall&#10;2x Postern Door&#10;2x Reckless Hate&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Helm's Deep encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Helm's Deep" type="B">
       <property name="Encounter Set" value="Helm's Deep - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode."/>
     </alternate>
@@ -209,8 +211,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for the The Road to Isengard scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;3x Snaga&#10;1x Ring-wall of Isengard&#10;2x Open Pit&#10;1x Machines of Isengard&#10;3x Blast of Sorcery&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Road to Isengard encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Road to Isengard" type="B">
       <property name="Encounter Set" value="The Road to Isengard - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Forced: When Ent of Fangorn leaves play, remove it from the game."/>
     </alternate>

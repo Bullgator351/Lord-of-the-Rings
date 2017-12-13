@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Grey Havens - Nightmare" id="32271243-32a8-4662-97d8-cb7997401761" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="3.0.0">
+ <cards>
+  <card id="5111c160-ad76-4d33-bc50-52d171880e47" name="Voyage Across Belegaer">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <alternate name="Voyage Across Belegaer" type="B">
+      <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
+    </alternate>
+  </card>
+  <card id="2e5c938b-9b70-4d8b-b632-479fedda84de" name="Corsair Confrontation" size="QuestCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Corsair Confrontation" type="B">
+      <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Victory Points" value="3"/>
+    </alternate>
+  </card>
+  <card id="5583464f-f2e7-44cc-9d8f-87ea065b7e08" name="Lost at Sea" size="QuestCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Lost at Sea" type="B">
+      <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Victory Points" value="3"/>
+    </alternate>
+  </card>
+  <card id="5212a036-a6f3-4979-a4cf-6f4a221bdf36" name="Brash Corsair" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair."/>
+    <property name="Engagement Cost" value="16"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="2a9e1288-4e94-497b-b1c4-41fd8ba34c65" name="Sahir's Pursuer" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Boarding 1. Cannot have attachments."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="7"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+  </card>
+  <card id="322a9715-116f-4cc8-91b5-e090f3074dbb" name="Open Waters" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Ocean."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="¹"/>
+  </card>
+  <card id="fe88f19e-2ea8-45d7-afee-86f8d35630a6" name="Shattered Sea" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Ocean."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="¹"/>
+  </card>
+  <card id="6ea88b3d-c675-4690-b993-ce4672eb3b16" name="Rogue Wave" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Weather."/>
+  </card>
+  <card id="60df407c-b1d7-455b-b4b3-7c68739f73c3" name="Dreams of Númenor" size="EncounterCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="¹"/>
+  </card>
+  <card id="a62a05a3-c982-4ee1-ac17-7298e6f1a525" name="Raging Squall" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Weather."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Victory Points" value="¹*"/>
+  </card>
+  <card id="d6fa1984-6016-4b44-8466-772160706d31" name="The Fate of Númenor">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <alternate name="The Fate of Númenor" type="B">
+      <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
+    </alternate>
+  </card>
+  <card id="02ba32c6-9442-4a69-b89b-b2ec4ee24be2" name="Lost Island" size="EncounterCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Shrine to Morgoth" type="B">
+      <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins."/>
+      <property name="Threat" value="5"/>
+      <property name="Quest Points" value="8"/>
+      <property name="Victory Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="8b8149c8-a1c5-4183-bf0b-a26f93348076" name="Lost Island" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Cursed Temple" type="B">
+      <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins."/>
+      <property name="Threat" value="1"/>
+      <property name="Quest Points" value="3"/>
+    </alternate>
+  </card>
+  <card id="2929a83e-2da9-4f76-8300-8998784155d6" name="Lost Island" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Drowned Graves" type="B">
+      <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins."/>
+      <property name="Threat" value="2"/>
+      <property name="Quest Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="c823de8a-c258-494f-8a4a-9cbb4e812e06" name="Lost Island" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Flooded Ruins" type="B">
+      <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins."/>
+      <property name="Threat" value="3"/>
+      <property name="Quest Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="09f14f19-b4c3-4e9e-aeea-21ed53d09138" name="Lost Island" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Lush Jungle" type="B">
+      <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Forest."/>
+      <property name="Threat" value="4"/>
+      <property name="Quest Points" value="4"/>
+    </alternate>
+  </card>
+  <card id="5e4d1c14-315d-41a7-8ae1-76084554bfa7" name="Lost Island" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Desecrated Grounds" type="B">
+      <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins."/>
+      <property name="Threat" value="5"/>
+      <property name="Quest Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="6e3a151a-55de-402f-bff4-6e0813226ff9" name="Lost Island" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Keywords" value="Uncharted."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="-"/>
+    <alternate name="Forsaken City" type="B">
+      <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Ruins."/>
+      <property name="Threat" value="6"/>
+      <property name="Quest Points" value="4"/>
+    </alternate>
+  </card>
+  <card id="d09d5da8-4fb8-4c94-a344-25fbd40cbd46" name="Guardian of the Golden King" size="EncounterCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Engagement Cost" value="41"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="10"/>
+  </card>
+  <card id="2bb3f0dd-6028-4cd5-bfdc-3d12f9b69c92" name="Overgrown Steps" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest. Ruins."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="1"/>
+  </card>
+  <card id="406c33fc-8f5d-4d1d-a635-eb6ae9c33091" name="Corrupted Fauna" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+  </card>
+  <card id="6a03ecc3-716a-4499-9412-b3838c4b1cba" name="Calphon's Folly" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fate of Númenor - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="a33274da-588d-4430-b730-0e82942c0605" name="Raid on the Grey Havens">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <alternate name="Raid on the Grey Havens" type="B">
+      <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
+    </alternate>
+  </card>
+  <card id="ccba3aa6-5129-47d8-839c-b20aff126e62" name="Sahir's Advance" size="QuestCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Sahir's Advance" type="B">
+      <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+    </alternate>
+  </card>
+  <card id="c4993a31-1e07-469c-a3cb-13e90e44253f" name="Corsair Pillager" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Raider."/>
+    <property name="Engagement Cost" value="16"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="5d491420-2c69-41b8-8023-a7020f5a33df" name="Corsair Pyromaniac" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Raider."/>
+    <property name="Engagement Cost" value="44"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="4a9282c0-44e5-4438-9b97-4b93dc29282d" name="Elite Marauder" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair."/>
+    <property name="Engagement Cost" value="32"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="e0c17eeb-3231-49a4-a807-1e176247573c" name="Nárelenya" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Grey Havens. Ship."/>
+    <property name="Keywords" value="Aflame 10. Immune to player card effects."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="7"/>
+    <property name="Victory Points" value="1"/>
+  </card>
+  <card id="7e8c1439-0d73-459d-b3d9-29c7c2c56e76" name="Dawn Star" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Gondor. Ship."/>
+    <property name="Keywords" value="Aflame 8. Immune to player card effects."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="1"/>
+  </card>
+  <card id="f40d0756-8603-4bf3-ad66-2890552bd60e" name="Silver Wing" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Gondor. Ship."/>
+    <property name="Keywords" value="Aflame 6. Immune to player card effects."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="1"/>
+  </card>
+  <card id="98763910-365c-452a-b7ed-24512c3962a8" name="Burning Tower" size="EncounterCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Grey Havens."/>
+    <property name="Keywords" value="Aflame 5."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="6"/>
+  </card>
+  <card id="6e765a17-9c2e-4b30-b023-5f08450553c4" name="Sudden Assault" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="b52b72ae-574d-4736-96d6-3531a0aae7ae" name="Infiltration" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+ </cards>
+</set>

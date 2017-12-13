@@ -464,7 +464,7 @@
     <property name="Traits" value="Weather."/>
     <property name="Text" value="When Revealed: Attach to the active location. (Counts as a Condition attachment with the text, &quot;Limit 1 per location. No more than 3 progress can be placed on attached location each round.&quot;) If Snowdrifts is not attached to the active location, it gains surge."/>
   </card>
-  <card id="60546e25-329e-4846-852d-65c1a6ee6c5c" name="Bitter Cold">
+  <card id="60546e25-329e-4846-852d-65c1a6ee6c5c" name="Bitter Cold" size="EncounterCard">
     <property name="Card Number" value="37"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Ring Goes South"/>

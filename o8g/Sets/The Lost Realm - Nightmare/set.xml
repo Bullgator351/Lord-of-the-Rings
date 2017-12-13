@@ -8,8 +8,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for the Intruders in Chetwood scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;1x Angmar Orc&#10;3x Angmar Marauder&#10;2x Chetwood Forest&#10;1x Outlying Homestead&#10;2x Borders of Bree-land&#10;1x Rugged Country&#10;1x Shrouded Hills&#10;3x Surprising Speed&#10;2x Sudden Assault&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Intruders in Chetwood encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Intruders in Chetwood" type="B">
       <property name="Encounter Set" value="Intruders in Chetwood - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode."/>
     </alternate>
@@ -114,13 +115,14 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Weather Hills scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;3x Cornered Orc&#10;2x Sheltered Valley&#10;1x Concealed Orc-camp&#10;2x Angmar Marauder&#10;2x Angmar Orc&#10;3x Ruins of Arnor&#10;2x Tragic Discovery&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Weather Hills encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Weather Hills" type="B">
       <property name="Encounter Set" value="The Weather Hills - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Setup: Shuffle each copy of Captive Villager and Rearguard Ambusher into the Orc deck.&#10;The players cannot win the game while a Captive Villager is guarded by an encounter card. If a Captive Villager leaves play, the players lose the game."/>
     </alternate>
   </card>
-  <card id="90f60cd2-e787-4b40-8b3a-35be274d0e9b" name="Captive Villager" size="EncounterCard">
+  <card id="90f60cd2-e787-4b40-8b3a-35be274d0e9b" name="Captive Villager">
     <property name="Card Number" value="12"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Weather Hills - Nightmare"/>
@@ -204,8 +206,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for the Deadmen's Dike scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;2x Fornost Square&#10;3x Broken Battlements&#10;2x Norbury Tombs&#10;2x Restless Evil&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Deadman's Dike encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Deadman's Dike" type="B">
       <property name="Encounter Set" value="Deadman's Dike - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Each player's deck cannot include more than 50 total cards.&#10;Setup: Each player searches the encounter deck for a copy of Cursed Dead and places it in the encounter discard pile. Shuffle the encounter deck."/>
     </alternate>

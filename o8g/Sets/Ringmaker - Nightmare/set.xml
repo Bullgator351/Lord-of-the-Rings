@@ -8,8 +8,10 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Dunland Trap scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;4x Boar Clan Warrior&#10;4x Hithaeglir Stream&#10;1x Dunlending Ambush&#10;1x Frenzied Attack&#10;1x Low on Provisions&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Dunland Trap encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <property name="Shadow" value="The Dunland Trap"/>
+    <alternate name="The Dunland Trap" type="B">
       <property name="Encounter Set" value="The Dunland Trap - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode."/>
     </alternate>
@@ -96,8 +98,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Three Trials scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;3x Spirit of the Wild&#10;3x Grim Foothills&#10;1x Tangled Woods&#10;3x Turned Around&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Three Trials encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Three Trials" type="B">
       <property name="Encounter Set" value="The Three Trials - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Each engaged Guardian enemy contributes its $ to the total $ in the staging area.&#10;While the Trial of Intuition is the current trial, each Guardian enemy cannot be damaged, and each Barrow location cannot be the active location and is immune to player card effects."/>
     </alternate>
@@ -183,8 +186,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for the Trouble in Tharbad scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;1x Orc Hunter&#10;2x Orc Skirmisher&#10;2x Tharbad Hideout&#10;2x Hidden Alleyway&#10;1x Decrepit Rooftops&#10;2x Orc Hunting Party&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Trouble in Tharbad encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin.&#10;Playing Tip: There are many effects in the nightmare version of Trouble in Tharbad that reduce the players' threat elimination level. It may be helpful to use a separate threat tracker or pen and paper to track the players' current threat elimination level."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Trouble in Tharbad" type="B">
       <property name="Encounter Set" value="Trouble in Tharbad - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare Mode.&#10;Setup: Raise each player's starting threat by 5.&#10;Progress cannot be placed on The Crossing at Tharbad while Bellach is in play."/>
     </alternate>
@@ -274,8 +278,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Nîn-in-Eilph scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;1x A Weary Passage (Stage 1B)&#10;1x Impassable Marshland (Stage 2B)&#10;3x Neekerbreekers&#10;1x Hidden Eyot&#10;3x Finger of Glanduin&#10;2x Off Track&#10;1x Low on Provisions&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Nîn-in-Eilph encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Nîn-in-Eilph" type="B">
       <property name="Encounter Set" value="The Nîn-in-Eilph - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Forced: When the players advance to stage 2A, add Ancient Marsh-dweller to the staging area (from out of play or engaged with a player)."/>
     </alternate>
@@ -381,8 +386,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for the Celebrimbor's Secret scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;1x Orc Skirmisher&#10;1x Orc Hunter&#10;3x Prowling Wolf&#10;1x Ruined Plaza&#10;1x City Remains&#10;1x Ancient Foundation&#10;3x Broken Lands&#10;1x Spies from Mordor&#10;2x Orc Hunting Party&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Celebrimbor's Secret encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Celebrimbor's Secret" type="B">
       <property name="Encounter Set" value="Celebrimbor's Secret - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare more.&#10;Forced: When any amount of progress would be placed on a location in the staging area, reduce that amount to 1.&#10;Scour Deal 1 damage to a location in play."/>
     </alternate>
@@ -466,8 +472,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard quest deck and encounter deck for The Antlered Crown scenario.&#10;Remove the following cards, in the specified quantities, from the encounter deck:&#10;1x Dunland Prowler&#10;1x Dunland Berserker&#10;2x Dunlending Bandit&#10;3x Raven Skirmisher&#10;3x Raven War-camp&#10;2x Driven Back&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Antlered Crown encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active through the game, which is now ready to begin.&#10;Note: Dunlending Horde has the &quot;Dunlending Warriors&quot; encounter set icon and should be shuffled into the Raven deck during setup."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Antlered Crown" type="B">
       <property name="Encounter Set" value="The Antlered Crown - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Locations with time counters on them cannot be discarded from play by player card effect."/>
     </alternate>

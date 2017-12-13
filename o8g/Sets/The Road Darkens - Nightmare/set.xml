@@ -8,8 +8,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard and encounter deck for The Ring Goes South scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;4x Uruk-hai Archer&#10;2x River Anduin&#10;1x Slopes of Amon Hen&#10;2x Black Feathered Arrows&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Ring Goes South encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="The Ring Goes South" type="B">
       <property name="Encounter Set" value="The Ring Goes South - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Setup: Set each copy of Pale-green Tentacle aside, out of play.&#10;Forced: When the players advance to stage 4B, each player puts 1 copy of Pale-green Tentacle into play engaged with him. Shuffle any remaining copies, and the encounter discard pile, into the encounter deck."/>
     </alternate>
@@ -99,8 +100,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard and encounter deck for the Journey in the Dark scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;3x Moria Archer&#10;4x Mines of Moria&#10;1x We Cannot Get Out&#10;3x Deep Fissure&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Journey in the Dark encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Journey in the Dark" type="B">
       <property name="Encounter Set" value="Journey in the Dark - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode.&#10;Each hero in each player's discard pile cannot leave the discard pile.&#10;The players cannot defeat stage 3B unless The Balrog is in the victory display."/>
     </alternate>
@@ -191,8 +193,9 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Begin with the standard and encounter deck for the Breaking of the Fellowship scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;4x Uruk-hai Archer&#10;2x River Anduin&#10;1x Slopes of Amon Hen&#10;2x Black Feathered Arrows&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard Breaking of the Fellowship encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <alternate name="Nightmare" type="B">
+    <alternate name="Breaking of the Fellowship" type="B">
       <property name="Encounter Set" value="Breaking of the Fellowship - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Text" value="You are playing Nightmare mode."/>
     </alternate>
