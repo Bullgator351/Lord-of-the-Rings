@@ -123,7 +123,7 @@
       <property name="Text" value="You are playing Nightmare mode.&#10;&#10;Heroes do not collect resources during the resource phase.&#10;&#10;Setup: Add resources to each hero's resource pool until each hero has 5 resources. Search the encounter deck for 1 copy of Garden of Poisons and add it to the staging area.  Shuffle the encounter deck.&#10;&#10;Forced: After stage 2B is revealed, each hero with fewer than 3 resources gains resources until it has 3."/>
     </alternate>
   </card>
-  <card id="c2a753b8-dfb3-4bdf-a0b4-523323c52f43" name="Drû-buri-Drû" size="EncounterCard">
+  <card id="c2a753b8-dfb3-4bdf-a0b4-523323c52f43" name="Drû-buri-Drû">
     <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>

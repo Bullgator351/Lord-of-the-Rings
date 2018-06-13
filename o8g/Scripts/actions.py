@@ -1134,7 +1134,9 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 		#Move Heroes to the table		
 		newHero = False
 		lore = 0
+		hobbits = 0
 		mirlonde = False
+		folco = False
 		for card in me.hand:
 			if card.Type == "Hero":
 				card.moveToTable(heroX(id, heroCount), HeroY)
@@ -1143,11 +1145,17 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 				me.counters['Threat_Level'].value += num(card.Cost)
 				if card.Name == 'Mirlonde':
 					mirlonde = True
+				if card.Name == 'Folco Boffin':
+					folco = True
 				if card.Sphere == 'Lore':
 					lore += 1
+				if 'Hobbit' in card.Traits:
+					hobbits += 1
 		if mirlonde:
 			me.counters['Threat_Level'].value -= lore
-
+		if folco:
+			me.counters['Threat_Level'].value -= hobbits
+			
 		if newHero:		
 			notify("{} places his Heroes on the table and sets his starting Threat to {}".format(me,me.counters['Threat_Level'].value))
 			if len(me.hand) == 0:
@@ -1832,9 +1840,13 @@ def setupTotDMap(group):
 	MapStartX = 350
 	MapStartY = -90
 	i = 0
-	j = 0 
+	
+	map = []
 	for c in group:
 		c.moveToTable(MapStartX,MapStartX)
+		map.append(c)
+		
+	for c in map:
 		if c.name == "Lost Island":
 			x = MapStartX + 64*(i // 3)
 			y = MapStartY + 89*(i % 3)
@@ -1842,9 +1854,32 @@ def setupTotDMap(group):
 			if i==0 or i==2:
 				flipcard(c)
 			i=i+1
-		if c.name == "Temple of the Deceived":
-			c.moveToTable(MapStartX+64*4,MapStartY+89*j)
-			j=j+1
+
+	for c in map:
+		if c.name == "Edge of the Temple":
+			x = MapStartX + 64*(i // 3)
+			y = MapStartY + 89*(i % 3)
+			c.moveToTable(x,y)
+			i=i+1
+
+	for c in map:
+		if c.name == "Temple of the Deceived":	
+			x = MapStartX + 64*(i // 3)
+			y = MapStartY + 89*(i % 3)
+			c.moveToTable(x,y)
+			i=i+1
+	
+		# c.moveToTable(MapStartX,MapStartX)
+		# if c.name == "Lost Island":
+			# x = MapStartX + 64*(i // 3)
+			# y = MapStartY + 89*(i % 3)
+			# c.moveToTable(x,y)
+			# if i==0 or i==2:
+				# flipcard(c)
+			# i=i+1
+		# if c.name == "Temple of the Deceived":
+			# c.moveToTable(MapStartX+64*4,MapStartY+89*j)
+			# j=j+1
 
 		
 # Reminders
@@ -1957,3 +1992,40 @@ def setGlobalReminders():
 	setGlobalVariable("reminderQuest","")
 	setGlobalVariable("reminderCombat","")
 	setGlobalVariable("reminderRefresh","")
+	
+def plusTokenPerRoundResource(card,x=0,y=0):
+	current = 0
+	try:
+		current = num(card.properties['Resource Tokens Per Round'])
+	except:
+		pass
+	newval = current+1
+	# card.properties['Resource Tokens Per Round'] = str(newval)
+	card.ResourceTokensPerRound = str(newval)
+	whisper(card.Cost)
+	card.properties["Cost"] = str(77)
+	whisper(card.Cost)
+	card.Cost = str(76)
+	whisper(card.Cost)
+	card.Threat = str(100)
+	whisper(card.Threat)
+	card["Threat"] = str(99)
+	whisper(card.Threat)
+	update()
+	whisper("{} is now generating an additional {} resource(s) per round.".format(card.Name,card.ResourceTokensPerRound))
+	
+	
+	
+
+def createCard(group=None, x=0, y=0):
+	cardID, quantity = askCard()
+	cards = table.create(cardID, x, y, quantity, True)
+	try:
+		iterator = iter(cards)
+	except TypeError:
+		# not iterable
+		notify("{} created {}.".format(me, cards))
+	else:
+		# iterable	
+		for card in cards:
+			notify("{} created {}.".format(me, card))

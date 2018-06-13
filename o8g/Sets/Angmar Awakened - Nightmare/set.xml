@@ -114,7 +114,7 @@
     <property name="Victory Points" value="5"/>
     <property name="Text" value="Forced: After Jailor Gornakh enters play, each player searches his captured deck for each hero and captures them underneath Jailor Gornakh.&#10;Forced: After a player rescues any number of cards, Jailor Gornakh attacks that player."/>
   </card>
-  <card id="3798030e-df23-45db-ab29-0ef8a2a35cd6" name="Prison Guard">
+  <card id="3798030e-df23-45db-ab29-0ef8a2a35cd6" name="Prison Guard" size="EncounterCard">
     <property name="Card Number" value="3"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Escape from Mount Gram - Nightmare"/>

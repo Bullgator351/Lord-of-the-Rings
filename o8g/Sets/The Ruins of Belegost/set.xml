@@ -208,7 +208,7 @@
     <property name="Keywords" value="Loot."/>
     <property name="Text" value="If unattached, the fist player claims Blue Mountain Gem and attaches it to a hero he controls.&#10;&#10;Action: Exhaust Blue Mountain Gem to choose a player. Reduce that player's threat by 1."/>
   </card>
-  <card id="9d65d755-9d41-47d8-84f5-ea725fba1d2f" name="Naurlhûg" size="EncounterCard">
+  <card id="9d65d755-9d41-47d8-84f5-ea725fba1d2f" name="Naurlhûg">
     <property name="Card Number" value="15"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Ruins of Belegost"/>
