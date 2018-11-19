@@ -173,6 +173,7 @@
     <property name="Traits" value="Cirith Ungol."/>
     <property name="Threat" value="1"/>
     <property name="Quest Points" value="1"/>
+    <property name="Victory Points" value="2"/>
     <property name="Text" value="Immune to player card effects.  The players cannot travel here unless there is at least 18 progress on stage 2B. Travel: Add Shagrat to the staging area to travel here."/>
   </card>
   <card id="e53df85c-f6e6-41df-9fd1-03dd2d2a1c65" name="Echoing Passage" size="EncounterCard">
@@ -227,6 +228,7 @@
     <property name="Attack" value="5"/>
     <property name="Defense" value="4"/>
     <property name="Health" value="6"/>
+    <property name="Victory Points" value="4"/>
     <property name="Text" value="Cannot have non-boon attachments. Cannot take non-combat damage.  Allies cannot attack or defend against Shagrat. Forced: After progress is placed on the quest, Shagrat gets -X engagement cost until the end of the round. X is the amount of progress just placed."/>
   </card>
   <card id="74f40d23-068a-40ea-9965-81df44294490" name="Gorbag" size="EncounterCard">
@@ -241,6 +243,7 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="3"/>
     <property name="Health" value="5"/>
+    <property name="Victory Points" value="3"/>
     <property name="Text" value="Cannot have attachments. Forced: After Gorbag engages you, it makes an immediate attack against you."/>
     <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one."/>
   </card>
@@ -479,6 +482,7 @@
     <property name="Traits" value="Mordor."/>
     <property name="Threat" value="0"/>
     <property name="Quest Points" value="9"/>
+    <property name="Victory Points" value="9"/>
     <property name="Text" value="Immune to player card effects. X is the tens digit of the first player’s threat dial. The players cannot travel here unless there is at least 20 progress on stage 3B. Travel: Each player makes a Fortitude test. If a player fails this test, he raises his threat by 9."/>
   </card>
   <card id="1a0189ae-b9ad-49c2-a217-a9c975536384" name="Orc-hold" size="EncounterCard">
@@ -529,6 +533,7 @@
     <property name="Traits" value="Mordor."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="2"/>
     <property name="Text" value="While Old Water-course is the active location, it gains: “Response: When Old Water-course is explored, reduce each player’s threat by 5.” Travel: Each player must exhaust a hero he controls to travel here."/>
   </card>
   <card id="eb232287-e39e-4358-b37f-23b2c45ca6a8" name="Gollum" size="EncounterCard">
@@ -800,6 +805,7 @@
       <property name="Attack" value="5"/>
       <property name="Defense" value="2"/>
       <property name="Health" value="4"/>
+      <property name="Victory Points" value="5"/>
       <property name="Text" value="Immune to player card effects. Cannot be optionally engaged. Forced: When The Two Watchers deals any amount of damage, cancel the damage and raise the defending player’s threat by X instead. X is the amount of damage just canceled."/>
     </alternate>
   </card>

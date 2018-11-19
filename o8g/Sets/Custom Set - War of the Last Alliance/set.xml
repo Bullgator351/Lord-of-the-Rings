@@ -50,6 +50,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Victory Points" value="1"/>
     <property name="Text" value="Setup: Construct the encounter deck using all the cards from this scenario plus all the enemies with the Goblin or Orc trait from the indicated sets. Remove Sauron and Narsil from encounter deck and set them aside out of play. Shuffle the encounter deck."/>
     <property name="Setup" value="tt"/>
     <alternate name="Preparing for Battle" type="B">

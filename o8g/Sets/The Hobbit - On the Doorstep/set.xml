@@ -476,7 +476,7 @@
     <property name="Health" value="20"/>
     <property name="Text" value="Cannot leave the staging area (except by quest effect) but is considered to be engaged with the first player.&#10;&#10;Forced: If Smaug the Magnificent is dealt a shadow card with a burgle effect, he makes an additional attack immediately after this one."/>
   </card>
-  <card id="babeedb8-f7cd-4e8a-a5c4-fbfdd57238fb" name="Croaking Crows" size="EncounterCard">
+  <card id="babeedb8-f7cd-4e8a-a5c4-fbfdd57238fb" name="Croaking Crows">
     <property name="Card Number" value="42"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Lonely Mountain"/>

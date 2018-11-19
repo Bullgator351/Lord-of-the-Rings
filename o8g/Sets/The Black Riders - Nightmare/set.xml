@@ -76,7 +76,7 @@
     <property name="Text" value="While Stock Woods is in the staging area, players cannot commit more than 2 characters to a Hide test.&#10;Travel: The first player makes a Hide 1 test."/>
     <property name="Shadow" value="Shadow: Attacking enemy gets +2 Û (+3 Û instead if you have failed a Hide test this round)."/>
   </card>
-  <card id="b0ed537a-1e96-4b46-af9b-3449be219781" name="In the Name of Mordor!">
+  <card id="b0ed537a-1e96-4b46-af9b-3449be219781" name="In the Name of Mordor!" size="EncounterCard">
     <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="A Shadow of the Past - Nightmare"/>

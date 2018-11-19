@@ -749,7 +749,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player searches the encounter deck for a copy of Burnt Sands and adds it to the staging area. Shuffle the encounter deck. Place the heat tracker next to the quest deck and set the temperature to 10."/>
-    <property name="Setup" value="ssss"/>
     <alternate name="The Desert of Harad" type="B">
       <property name="Encounter Set" value="Desert Crossing"/>
       <property name="Type" value="Quest"/>

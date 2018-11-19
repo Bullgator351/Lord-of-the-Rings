@@ -144,7 +144,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Pack Leader aside, out of play. Make Shrouded Hills the active location. Add the Time objective to the staging area with Daybreak faceup. The first player takes control of Amarthiúl. Shuffle the encounter deck. Reveal 1 card from the encounter deck per player."/>
-    <property name="Setup" value="tlst"/>
     <alternate name="Across the Wastes" type="B">
       <property name="Encounter Set" value="The Wastes of Eriador"/>
       <property name="Type" value="Quest"/>

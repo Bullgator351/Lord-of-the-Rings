@@ -375,7 +375,7 @@
     <property name="Text" value="Travel: The first player must make a locate test to travel here. If this test is failed, return Eastern Mines to the staging area and trigger all &quot;Lost:&quot; effects in play."/>
     <property name="Shadow" value="Shadow: Defending player must choose and trigger 1 &quot;Lost:&quot; effect in play."/>
   </card>
-  <card id="c23266f8-cd28-4e21-8983-1c6180531e18" name="Bottomless Chasm" size="EncounterCard">
+  <card id="c23266f8-cd28-4e21-8983-1c6180531e18" name="Bottomless Chasm">
     <property name="Card Number" value="6"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Long Dark - Nightmare"/>

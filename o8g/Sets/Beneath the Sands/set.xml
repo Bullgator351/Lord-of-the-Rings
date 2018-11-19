@@ -41,6 +41,7 @@
     <property name="Sphere" value="Tactics"/>
     <property name="Traits" value="Artifact. Item."/>
     <property name="Cost" value="1"/>
+    <property name="Victory Points" value="1"/>
     <property name="Text" value="Limit 1 per deck. Attach to a Gondor hero.&#10;Attached hero gets +1 Ò.&#10;Valour Response: After attached hero quests successfully, add The Red Arrow to the victory display to search the top 5 cards of your deck for an ally and put it into play. "/>
   </card>
   <card id="b8f5c0b1-a11e-41f5-b0bd-8dab7d537feb" name="Keep Watch" size="PlayerQuestCard">
@@ -49,6 +50,7 @@
     <property name="Type" value="Side Quest"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="1"/>
     <property name="Text" value="Limit 1 copy of Keep Watch in the victory display.&#10;While this side quest is in the victory display, each non-unique enemy engaged with a player gets -1 Û. "/>
   </card>
   <card id="f309210e-c505-411f-b748-c6828a028ad4" name="Rider of Rohan">
@@ -224,6 +226,8 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Beneath the Sands"/>
     <property name="Type" value="Side Quest"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="10"/>
     <property name="Text" value="When Revealed: Flip the Search objective to Off Track. While Lost Underground is in play, the Search objective cannot flip. (Do not resolve the Track keyword.)&#10;Response: When this stage is defeated, flip the Search objective to On Track and ignore its Forced effect until the end of the phase. "/>
   </card>
   <card id="4297aa1e-8d53-4bd4-a750-ae5490fbb82b" name="Searching the Caves" size="QuestCard">

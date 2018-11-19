@@ -11,7 +11,6 @@
     <card qty="3" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9006">Blocking Wargs</card>
     <card qty="2" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9046">Ithilien Guardian</card>
     <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9047">Ithilien Road</card>
-    <card qty="4" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9075">Southron Company</card>
     <card qty="2" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9053">Lost Companion</card>
     <card qty="2" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9068">Overgrown Trail</card>
     <card qty="3" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9058">Morgul Spider</card>
@@ -27,14 +26,23 @@
     <card qty="2" id="b8caa465-cf1c-4be2-a32a-cab116ff0886">Savage Fray</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9009">Celador</card>
-    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9047">Ithilien Road</card>
     <card qty="2" id="048b6a57-f577-4dbe-a090-6eca1f266767">Mûmak Elite</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9009">Celador</card>
+    <card qty="4" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9075">Southron Company</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9047">Ithilien Road</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

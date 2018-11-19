@@ -233,6 +233,8 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Mountains of Shadow"/>
     <property name="Type" value="Side Quest"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="10"/>
     <property name="Text" value="The path through the hills has led you too far up and now you walk along exposed heights where there’s nowhere to hide. You need to find a way down. Surge. Each player’s threat cannot be reduced. Response: When Find a Way Down is defeated, each player reduces his threat by 3."/>
   </card>
   <card id="87379a08-2fe2-4e32-9341-d78fb4e0298b" name="Flight to Gondor" size="QuestCard">

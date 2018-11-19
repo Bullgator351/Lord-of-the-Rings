@@ -740,7 +740,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for The Leaping Fish and Alcaron's Scroll. Make The Leaping Fish the active location and attach Alcaron's Scroll to a hero."/>
-    <property name="Setup" value="lt"/>
     <alternate name="The Leaping Fish" type="B">
       <property name="Encounter Set" value="Peril in Pelargir"/>
       <property name="Type" value="Quest"/>
@@ -791,7 +790,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Celador to the staging area. Search the encounter deck for a copy of Ithilien Road and make it the active location. Each player must search the encounter deck for a copy of Southron Company and add it to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="sl"/>
     <alternate name="Ambush in Ithilien" type="B">
       <property name="Encounter Set" value="Into Ithilien"/>
       <property name="Type" value="Quest"/>

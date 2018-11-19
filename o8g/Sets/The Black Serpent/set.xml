@@ -67,6 +67,7 @@
     <property name="Type" value="Side Quest"/>
     <property name="Sphere" value="Spirit"/>
     <property name="Cost" value="1"/>
+    <property name="Victory Points" value="1"/>
     <property name="Text" value="“Foes and fire are before you, and your homes far behind. Yet, though you fight upon an alien field, the glory that you reap there shall be your own forever.” -Theoden, The Return of the King Limit 1 copy of Rally the West in the victory display. While this side quest is in the victory display, each hero gets +1 Ò."/>
   </card>
   <card id="00c52eae-b536-4458-abed-5b69e9283b11" name="Dúnedain Pipe">
@@ -236,6 +237,7 @@
     <property name="Encounter Set" value="The Black Serpent"/>
     <property name="Type" value="Side Quest"/>
     <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="10"/>
     <property name="Text" value="Forced: At the end of the round, discard all progress from the main quest. Forced: After this quest is chosen as the current quest, reveal an encounter card."/>
   </card>
   <card id="c3f9965f-711d-4c51-b9aa-a0b5d5953b49" name="The Crossroad’s Fort" size="QuestCard">

@@ -1084,10 +1084,11 @@ def readyForNextRound(group=table, x=0, y=0):
 		return
 
 	clearTargets()
-	draw(me.deck)
+	resourcePhaseDraw()
 	for card in group:
 		if card.Type == "Hero" and card.controller == me and not isLocked(card):
 			addResource(card)
+
 
 #doNextRound
 #Draw a card and add a resource to each hero
@@ -1095,20 +1096,30 @@ def doNextRound():
 	mute()	
 	debug("doNextRound()")
 
-	if activePlayers() == 0:
-		whisper("All players have been eliminated: You have lost the game")
-		return		
-	if eliminated(me):
-		whisper("You have been eliminated from the game")
-		return
+#	if activePlayers() == 0:
+#		whisper("All players have been eliminated: You have lost the game")
+#		return		
+#	if eliminated(me):
+#		whisper("You have been eliminated from the game")
+#		return
 		
 	clearTargets()
 	if me.Willpower <> 0:
 		me.Willpower = 0
-	draw(me.deck)
+	
+	resourcePhaseDraw()
+	
 	for card in table:
 		if card.Type == "Hero" and card.controller == me and not isLocked(card) and card.isFaceUp:
 			addResource(card)
+	# Additional resources per round
+		if card.controller == me and not isLocked(card) and card.isFaceUp:
+			try:
+				resPerRound = int(card.properties['Resource Tokens Per Round'])
+			except:
+				resPerRound = 0
+			for i in xrange(resPerRound):
+				addResource(card)
 			
 	if not phaseManagement():
 		clearHighlights()
@@ -1894,18 +1905,24 @@ def disableReminders(group, x=0, y=0):
 def isTextInCard(text,card):
 	match = re.search(text,card.Text)
 	if match: return True
-	match = re.search(text,card.alternateProperty("B","Text"))
-	if match: return True
+	try:
+		match = re.search(text,card.alternateProperty("B","Text"))
+		if match: return True
+	except:
+		pass
 	
 def setReminders(card):
 	match = re.search('Time ([0-9]+)',card.Text)
 	if match:
 		for i in range(num(match.group(1))):
 			addTime(card)
-	match = re.search('Time ([0-9]+)',card.alternateProperty("B","Text"))
-	if match:
-		for i in range(num(match.group(1))):
-			addTime(card)
+	try:
+		match = re.search('Time ([0-9]+)',card.alternateProperty("B","Text"))
+		if match:
+			for i in range(num(match.group(1))):
+				addTime(card)
+	except:
+		pass
 	
 	if isTextInCard('resource phase',card): setReminderResource(card)
 	if isTextInCard('quest phase',card): setReminderQuest(card)
@@ -1993,28 +2010,19 @@ def setGlobalReminders():
 	setGlobalVariable("reminderCombat","")
 	setGlobalVariable("reminderRefresh","")
 	
-def plusTokenPerRoundResource(card,x=0,y=0):
+def tokensPerRoundResource(card,x=0,y=0):
 	current = 0
 	try:
 		current = num(card.properties['Resource Tokens Per Round'])
 	except:
 		pass
-	newval = current+1
-	# card.properties['Resource Tokens Per Round'] = str(newval)
-	card.ResourceTokensPerRound = str(newval)
-	whisper(card.Cost)
-	card.properties["Cost"] = str(77)
-	whisper(card.Cost)
-	card.Cost = str(76)
-	whisper(card.Cost)
-	card.Threat = str(100)
-	whisper(card.Threat)
-	card["Threat"] = str(99)
-	whisper(card.Threat)
+
+	count = askInteger("How many additional resource tokens per round?", current)
+	if count is None or count < 0: return
+	newval = count
+	card.properties['Resource Tokens Per Round'] = str(newval)
 	update()
-	whisper("{} is now generating an additional {} resource(s) per round.".format(card.Name,card.ResourceTokensPerRound))
-	
-	
+	whisper("{} is now generating an additional {} resource(s) per round.".format(card.Name,card.properties['Resource Tokens Per Round']))
 	
 
 def createCard(group=None, x=0, y=0):
@@ -2029,3 +2037,32 @@ def createCard(group=None, x=0, y=0):
 		# iterable	
 		for card in cards:
 			notify("{} created {}.".format(me, card))
+
+
+def resourcePhaseDraw():
+	id = playerID(me)
+	count = 1
+	strcount = getGlobalVariable("cardsDrawn{}".format(id))
+	if strcount:
+		count=num(strcount)
+
+	for i in range(count):
+		draw(me.deck)
+		
+def adjustCardsDrawn(group=None, x=0, y=0):
+	id = playerID(me)
+	current = 1
+	strcurrent = getGlobalVariable("cardsDrawn{}".format(id))
+	if strcurrent:
+		current=num(strcurrent)
+	count = askInteger("How many cards do want to draw in the resource phase?", current)
+	if count is None or count < 0: return
+	setGlobalVariable("cardsDrawn{}".format(id), str(count))
+
+def takeControlOfTargets(group=None, x=0, y=0):
+	for c in table:
+		if c.targetedBy == me:
+			c.setController(me)
+			c.target(False)
+	
+	

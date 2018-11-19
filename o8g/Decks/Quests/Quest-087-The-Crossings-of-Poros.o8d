@@ -1,11 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Side Quest" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="87379a08-2fe2-4e32-9341-d78fb4e0298b">Flight to Gondor</card>
     <card qty="1" id="e1c521c0-2889-4f5e-a470-bf70bcf004bf">The Desert Path</card>
@@ -15,7 +9,6 @@
     <card qty="1" id="2e441298-dafc-41bc-a46f-a0f483ac18bd">Orc Patrols</card>
     <card qty="1" id="3ff62e7f-fc09-4569-a45c-1be7e2ba6747">Battle at the Crossings</card>
   </section>
-  <section name="Second Quest Deck" shared="True" />
   <section name="Encounter" shared="True">
     <card qty="1" id="112fc5f3-9d26-4711-8a97-e4a83bb23663">Poros Garrison</card>
     <card qty="1" id="56da2e72-9580-4537-95e9-c138b4d9480e">The Black Serpent</card>
@@ -26,7 +19,16 @@
     <card qty="4" id="2b3939a5-7ee7-4b6a-a889-84487815a1a5">Harondor Waste</card>
     <card qty="2" id="83a8586f-bb6d-4e90-84c7-3909034dad16">Danger Close Behind</card>
   </section>
-  <section name="Special" shared="True">
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Setup" shared="True">
     <card qty="1" id="84877af6-0720-4ef8-802b-69b792c32e15">Find Water</card>
     <card qty="3" id="3d9db37c-4b51-4da8-be2b-25cd2d48e28b">Towering Dunes</card>
     <card qty="2" id="19bcc176-d952-485b-9d28-12188c5a0bc1">Desert Oasis</card>
@@ -36,8 +38,6 @@
     <card qty="2" id="0856a4b4-ec02-4586-8147-93fbadf544cd">Shadowy Vale</card>
     <card qty="2" id="6da909d1-c3e0-4c13-8986-4b3a066e67b5">Mountains of Shadow</card>
     <card qty="1" id="5b3b0e1a-ff08-4d4d-8071-d4de3f3bc9aa">Find a Way Down</card>
-  </section>
-  <section name="Second Special" shared="True">
     <card qty="1" id="55d8f78d-2dd7-4b44-80db-fb539ff05f00">Craft Remedy</card>
     <card qty="2" id="b2ff9ad8-c9c6-42bb-a5cd-cb2af0b006a0">Sand Viper</card>
     <card qty="3" id="5ddb243e-ee43-45fd-b4c2-2b197fdf70a9">Giant Scorpion</card>
@@ -53,7 +53,6 @@
     <card qty="2" id="27d6c3df-c7dc-4ea0-941f-dcad65b3f1eb">Mordor Warg</card>
     <card qty="2" id="cfcee6c8-9eee-4623-afd1-a49ea77e2322">Fear of Mordor</card>
   </section>
-  <section name="Setup" shared="True" />
   <section name="Staging Setup" shared="True" />
   <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>

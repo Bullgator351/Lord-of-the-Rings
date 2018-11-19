@@ -8,7 +8,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="lt"/>
     <alternate name="Peril in Pelargir" type="B">
       <property name="Encounter Set" value="Peril in Pelargir - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -108,7 +107,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="sltt"/>
     <alternate name="Into Ithilien" type="B">
       <property name="Encounter Set" value="Into Ithilien - Nightmare"/>
       <property name="Type" value="Nightmare"/>

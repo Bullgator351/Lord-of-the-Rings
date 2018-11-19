@@ -7,6 +7,9 @@ import clr
 clr.AddReference('System.Web.Extensions')
 from System.Web.Script.Serialization import JavaScriptSerializer as json #since .net 3.5?
 
+# To get most recent save file
+
+
 PLAYER_DECK = ['Hero', 'Ally', 'Attachment', 'Event', 'Side Quest', 'Sideboard']
 
 orientation = {

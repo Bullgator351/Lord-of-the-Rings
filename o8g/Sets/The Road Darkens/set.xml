@@ -417,7 +417,7 @@
     <property name="Quest Points" value="6"/>
     <property name="Text" value="Forced: When Tree-crowned Hill is explored, the players, as a group, exhaust X characters in play. X is the number of damage here."/>
   </card>
-  <card id="5d0085bd-ebb9-46a7-ae28-698da3d11ae6" name="Hills of Hollin">
+  <card id="5d0085bd-ebb9-46a7-ae28-698da3d11ae6" name="Hills of Hollin" size="EncounterCard">
     <property name="Card Number" value="32"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Ring Goes South"/>

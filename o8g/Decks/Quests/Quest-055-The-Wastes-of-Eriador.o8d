@@ -1,11 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Side Quest" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="b6af7b48-e072-45e8-a745-4de2ac8ded8c">Across the Wastes</card>
     <card qty="1" id="43509bf0-3250-420f-b743-e56c3ad5cd90">Howling at Night</card>
@@ -32,12 +26,24 @@
     <card qty="2" id="7d2b321b-d4e6-4dd4-a124-028c772592ee">Weight of Responsibility</card>
     <card qty="1" id="efcd8672-26f1-4c32-b6ef-5a06f80e406a">Lost in the Wilderness</card>
   </section>
-  <section name="Special" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="77dd117d-b2b6-4324-aa59-09fd1343fde9">Pack Leader</card>
-    <card qty="1" id="e2763cc3-019b-4397-b6f8-f647bf3fdf43">Shrouded Hills</card>
+  </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
     <card qty="1" id="3e471bd0-5ee5-4846-815d-fd6a5cd5f921">Daybreak</card>
     <card qty="1" id="207b12bd-20b4-470d-81cc-7896904334d5">Amarthiúl</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="e2763cc3-019b-4397-b6f8-f647bf3fdf43">Shrouded Hills</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

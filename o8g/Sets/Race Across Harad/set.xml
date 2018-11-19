@@ -94,6 +94,8 @@
     <property name="Quantity" value="3"/>
     <property name="Type" value="Side Quest"/>
     <property name="Sphere" value="Lore"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="1"/>
     <property name="Text" value="Limit 1 copy of Explore Secret Ways in the victory display.&#10;While this side quest is in the victory display, each location in the staging area with the same title as the active location does not contribute its $ to the total $ of the staging area. "/>
   </card>
   <card id="32ab123f-b12f-4f9d-a6e5-556f54eb6c06" name="Steward of Orthanc">

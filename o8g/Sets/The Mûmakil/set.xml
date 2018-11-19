@@ -263,6 +263,8 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Mûmakil"/>
     <property name="Type" value="Side Quest"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="10"/>
     <property name="Text" value="The great apes of the jungle gather in the trees around you. They shadow your steps and slow your progress."/>
   </card>
   <card id="adf2480a-644a-47ee-8deb-bd08ff32bf31" name="Welcome to the Jungle" size="QuestCard">
@@ -272,7 +274,6 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Victory Points" value="10"/>
     <property name="Text" value="Setup: Set each copy of Wild Mûmak and each Capture objective aside, out of play. Each player adds 1 different location to the staging area. Shuffle the encounter deck.&#10;"/>
     <property name="Setup" value="ttttttttssss"/>
     <alternate name="Welcome to the Jungle" type="B">

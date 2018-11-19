@@ -240,6 +240,8 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Dungeons of Cirith Gurat"/>
     <property name="Type" value="Side Quest"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="10"/>
     <property name="Text" value="Orcs spring from a secret passage and pull your friends inside! When Revealed: Each player loses control of an ally he controls and attaches it to this stage. If no allies are attached to this stage, discard it and reveal an additional encounter card. Forced: When this stage is defeated, each player reduces his threat by X, where X is the cost of the ally he controls that was attached to this stage."/>
   </card>
   <card id="0676e5a8-1637-42f8-95fa-37aa6e189070" name="Rescue the Prisoners" size="QuestCard">
