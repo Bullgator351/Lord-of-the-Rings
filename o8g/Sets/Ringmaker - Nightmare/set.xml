@@ -263,7 +263,7 @@
     <property name="Text" value="When Revealed: Each player must choose: either remove 1 time counter from the quest or discard an ally he controls from play. Then, if any player's threat is 20 or less, Waylaid by Agents gained doomed 3."/>
     <property name="Shadow" value="Attacking enemy gets +1 Û (+3 Û instead if your threat is 20 or less)."/>
   </card>
-  <card id="68384cac-543c-4e62-9866-e066f2ad27f0" name="Tharbad Patrol" size="EncounterCard">
+  <card id="68384cac-543c-4e62-9866-e066f2ad27f0" name="Tharbad Patrol">
     <property name="Card Number" value="8"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Trouble in Tharbad - Nightmare"/>

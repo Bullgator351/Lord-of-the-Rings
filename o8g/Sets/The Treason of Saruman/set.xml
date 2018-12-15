@@ -197,7 +197,7 @@
     <property name="Text" value="Setup: Attach to a Healer hero.&#10;&#10;Action: Exhaust attached hero and Hands of a Healer to heal up to 3 damage from a hero."/>
     <property name="Setup" value="t"/>
   </card>
-  <card id="528de9d6-9da4-4ac4-b265-773f70d68102" name="Forewarned">
+  <card id="528de9d6-9da4-4ac4-b265-773f70d68102" name="Forewarned" size="EncounterCard">
     <property name="Card Number" value="17"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Attachment"/>

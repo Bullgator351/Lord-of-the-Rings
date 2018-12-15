@@ -301,6 +301,7 @@ def myID():
 	game = getGlobalVariable("game")
 	me.setGlobalVariable("game", game)
 	setGlobalVariable("playersSetup", str(id+1))
+	setGlobalVariable("cardsDrawn{}".format(id), str(1))
 	update()
 	debug("Player {} sits in position {} for game {}".format(me, id, game))
 	return id

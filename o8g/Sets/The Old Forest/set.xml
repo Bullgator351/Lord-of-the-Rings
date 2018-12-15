@@ -132,7 +132,7 @@
     <property name="Health" value="6"/>
     <property name="Text" value="While Long Trailer is in the staging area it gains: &quot;Forced: After the active location leaves play as an explored location, Long Trailer makes an immediate attack against the first player.&quot; "/>
   </card>
-  <card id="ffd2cfe7-e5fc-4f47-b85e-19e8b2df5171" name="Grasping Root">
+  <card id="ffd2cfe7-e5fc-4f47-b85e-19e8b2df5171" name="Grasping Root" size="EncounterCard">
     <property name="Card Number" value="9"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Old Forest"/>

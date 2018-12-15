@@ -106,7 +106,7 @@
     <property name="Victory Points" value="1"/>
     <property name="Text" value="While Tarlang's Neck is the active location, it gains, &quot;Forced: At the beginning of the encounter phase, the players must either immediately end the encounter phase, or the first player must engage all enemies in the staging area.&quot;"/>
   </card>
-  <card id="36a22f2b-56d9-4148-a962-f7fbdf60f3a1" name="Eventide" size="EncounterCard">
+  <card id="36a22f2b-56d9-4148-a962-f7fbdf60f3a1" name="Eventide">
     <property name="Card Number" value="8"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Stone of Erech"/>

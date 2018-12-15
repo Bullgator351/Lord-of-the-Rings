@@ -31,7 +31,7 @@
     <property name="Victory Points" value="4"/>
     <property name="Text" value="Forced: After Mauhúr attacks, increase the pursuit value by 1."/>
   </card>
-  <card id="7595e0f2-391c-4c39-9147-888d53031784" name="Lugdush">
+  <card id="7595e0f2-391c-4c39-9147-888d53031784" name="Lugdush" size="EncounterCard">
     <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Uruk-hai - Nightmare"/>

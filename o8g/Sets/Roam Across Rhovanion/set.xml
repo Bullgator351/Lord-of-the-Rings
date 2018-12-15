@@ -92,7 +92,7 @@
     <property name="Traits" value="Song."/>
     <property name="Cost" value="0"/>
   </card>
-  <card id="554f2002-2d3f-4add-996d-8282f96c9633" name="Eagle of the North">
+  <card id="554f2002-2d3f-4add-996d-8282f96c9633" name="Eagle of the North" size="EncounterCard">
     <property name="Card Number" value="35"/>
     <property name="Quantity" value="3"/>
     <property name="Type" value="Ally"/>
