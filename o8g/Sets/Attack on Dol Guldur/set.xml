@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Attack on Dol Guldur" id="237e179c-c6d0-4062-bdf7-d8cf17b5cbb1" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="0b3a7155-be2d-4fed-9674-bc696662372f" name="Assault on the Golden Wood" size="EncounterCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Set Host of Lórien and all 4 Lieutenant enemies aside, out of play. Add Power of Lórien and 1 copy of Dol Guldur Marauder per player to the staging area. Shuffle the encounter deck."/>
+    <alternate name="Assault on the Golden Wood" type="B">
+      <property name="Encounter Set" value="Attack on Dol Guldur"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="1"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="Setup: Set Host of Lórien and all 4 Lieutenant enemies aside, out of play. Add Power of Lórien and 1 copy of Dol Guldur Marauder per player to the staging area. Shuffle the encounter deck. Forced: At the end of the round, place 1 resource here and move all progress from this stage to Power of Lórien. If there are 3 resources here, advance to stage 2A.Response: At the end of the round, raise each player's threat by 1 to choose a stage. Each player at that stage draws 1 card and adds 1 resource to a hero's resource pool."/>
+    </alternate>
+  </card>
+  <card id="8ff4cf43-75dd-4030-86ae-d256562bc885" name="Crossing the Anduin" size="QuestCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The first player may remove 10 progress from Power of Lórien to take control of the set-aside Host of Lórien. Then, he may remove an additional 20 progress from Power of Lórien to place it in his play area under his control, otherwise discard it."/>
+    <alternate name="Crossing the Anduin" type="B">
+      <property name="Encounter Set" value="Attack on Dol Guldur"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="When Revealed: The first player may remove 10 progress from Power of Lórien to take control of the set-aside Host of Lórien. Then, he may remove an additional 20 progress from Power of Lórien to place it in his play area under his control, otherwise discard it.When Revealed: Each player searches the encounter deck and discard pile for a Dol Guldur location and adds it to the staging area. Shuffle the encounter deck. Advance to a stage 3 of your choice. If you are playing epic multiplayer mode, each team must choose a different stage."/>
+    </alternate>
+  </card>
+  <card id="0aa98b35-6958-4680-a4ed-b9fc16089126" name="The Siege of Dol Guldur" size="QuestCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Bane of Amon Lanc to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Bane of Amon Lanc makes an immediate attack against each player in turn order."/>
+    <alternate name="The Siege of Dol Guldur" type="B">
+      <property name="Encounter Set" value="Attack on Dol Guldur"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Bane of Amon Lanc to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Bane of Amon Lanc makes an immediate attack against each player in turn order.Bane of Amon Lanc gets -1 engagement cost for each progress token on this stage. Forced: At the end of the round, remove 5 progress from this stage or increase Dol Guldur's city strength by 3. The first player may remove an additional 5 progress to reduce Dol Guldur's city strength by 3."/>
+    </alternate>
+  </card>
+  <card id="dff2fcb1-1231-4cda-9d10-029db96ef9e8" name="The Tower of Sorcery" size="QuestCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="C"/>
+    <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Sorcerer of Dol Guldur to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Sorcerer of Dol Guldur makes an immediate attack against each player in turn order."/>
+    <alternate name="The Tower of Sorcery" type="B">
+      <property name="Encounter Set" value="Attack on Dol Guldur"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="D"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="D"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Sorcerer of Dol Guldur to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Sorcerer of Dol Guldur makes an immediate attack against each player in turn order.Sorcerer of Dol Guldur gets -1 engagement cost for each progress token on this stage. Forced: At the end of the round, remove 5 progress from this stage or each player at each stage discards all but 1 card from his hand. The first player may remove an additional 5 progress from this stage to choose a player at any stage. That player searches his deck for a card, adds it to his hand, and shuffles his deck."/>
+    </alternate>
+  </card>
+  <card id="4315467f-210f-40c8-aec2-76c09d4bb8c1" name="Battle Under the Trees" size="QuestCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="E"/>
+    <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Chieftain Morlug to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Chieftain Morlug makes an immediate attack against each player in turn order."/>
+    <alternate name="Battle Under the Trees" type="B">
+      <property name="Encounter Set" value="Attack on Dol Guldur"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="F"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="F"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Chieftain Morlug to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Chieftain Morlug makes an immediate attack against each player in turn order.Chieftain Morlug gets -1 engagement cost for each progress token on this stage. Forced: At the end of the round, remove 5 progress from this stage or each player at each stage discards cards from the top of the encounter deck until an enemy is discarded and puts it into play engaged with him. (If the last card of the encounter deck is discarded resolving this effect, shuffle the discard pile back into the encounter deck.) The first player may remove an additional 5 progress from this stage to choose a non-unique enemy at any stage and destroy it."/>
+    </alternate>
+  </card>
+  <card id="7178f6f6-c2da-4f74-9c9a-9ec43c79232d" name="Dungeons of the Necromancer" size="QuestCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="G"/>
+    <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Dungeon Dweller to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Dungeon Dweller makes an immediate attack against each player in turn order."/>
+    <alternate name="Dungeons of the Necromancer" type="B">
+      <property name="Encounter Set" value="Attack on Dol Guldur"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="H"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="H"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Dungeon Dweller to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Dungeon Dweller makes an immediate attack against each player in turn order.Dungeon Dweller gets -1 engagement cost for each progress token on this stage. Forced: At the end of the round, remove 5 progress from this stage or each player at each stage discards an ally he controls. The first player may remove an additional 5 progress from this stage to choose a player at any stage. That player searches the top 10 cards of his deck for an ally an puts it into play."/>
+    </alternate>
+  </card>
+  <card id="2b56edac-f289-4b76-ae90-f6f3e5fc9b58" name="Dol Guldur" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="City. Stronghold."/>
+    <property name="Text" value="While the players are at stage 3, Dol Guldur gains: &quot;Forced: At the end of the round, after resolving the Forced effect on each stage 3 in play, reduce Dol Guldur's city strength by X, where X is the total siege value of each location explored and each enemy destroyed at each stage this round.&quot;"/>
+  </card>
+  <card id="fe580179-8f51-463e-a235-bde0f7b783d7" name="Power of Lórien" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Lórien."/>
+    <property name="Text" value="While you control Power of Lórien, it gains: &quot;Response: Add Power of Lórien to the victory display to cancel and discard an encounter card just revealed from the encounter deck.&quot;"/>
+  </card>
+  <card id="d8694dea-3406-4199-96d5-cd8d0a97f152" name="Host of Lórien">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Objective Ally"/>
+    <property name="Traits" value="Silvan."/>
+    <property name="Keywords" value="Ranged. Sentinel."/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Immune to player card effects.Does not exhaust to quest.If Host of Lórien leaves play, remove it from the game."/>
+  </card>
+  <card id="47186728-67bf-40b2-9b8d-d5012f0fd1a6" name="Bane of Amon Lanc" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Lieutenant. Troll. Olog-hai."/>
+    <property name="Keywords" value="Indestructible."/>
+    <property name="Engagement Cost" value="45"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Text" value="Immune to player card effects. Forced: When Bane of Amon Lanc attacks you, discard a random card from your hand. Bane of Amon Lanc gets +X Û for this attack, where X is that card's printed cost."/>
+  </card>
+  <card id="49c77ce2-7305-4209-ad6a-f1ed983a556e" name="Sorcerer of Dol Guldur" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Lieutenant. Sorcerer."/>
+    <property name="Keywords" value="Indestructible."/>
+    <property name="Engagement Cost" value="45"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Text" value="Immune to player card effects. Forced: When Sorcerer of Dol Guldur attacks you, discard the top card of your deck. Then, discard each copy of that card from play."/>
+  </card>
+  <card id="cefe5af1-a3d3-43fb-8b82-7ea9b4d2c861" name="Chieftain Morlug" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Lieutenant. Orc. Uruk."/>
+    <property name="Keywords" value="Indestructible."/>
+    <property name="Engagement Cost" value="45"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="8"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Text" value="Immune to player card effects. Forced: When Chieftain Morlug attacks you, discard cards from the top of the encounter deck until an enemy is discarded and put it into play engaged with you."/>
+  </card>
+  <card id="9fa12306-d6ed-4fb8-89ce-8145bb81a58a" name="Dungeon Dweller" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Lieutenant. Spider."/>
+    <property name="Keywords" value="Indestructible."/>
+    <property name="Engagement Cost" value="45"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Text" value="Forced: When Dungeon Dweller attacks you, discard an ally you control."/>
+  </card>
+  <card id="9944cbab-1c77-4cb4-87cc-36709f3143b5" name="Host of Dol Guldur" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Keywords" value="Archery X."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="X"/>
+    <property name="Attack" value="8"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="12"/>
+    <property name="Text" value="X is the number of players.Cannot have attachments. Forced: At the end of the encounter phase, if Host of Dol Guldur is in the staging area, remove X progress from the main quest."/>
+  </card>
+  <card id="f5c7c8e0-3616-4919-9761-85ab5440956d" name="Mirkwood Olog-hai" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll. Olog-hai."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="9"/>
+    <property name="Text" value="Forced: After Mirkwood Olog-hai attacks and destroys a character, remove 1 progress from the main quest for each excess point of damage."/>
+    <property name="Shadow" value="Shadow: Either remove 2 progress from the main quest, or return attacking enemy to the staging area."/>
+  </card>
+  <card id="9babab54-9494-4619-8666-f2299bb37632" name="Beast of Taur-nu-Fuin" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Werewolf."/>
+    <property name="Engagement Cost" value="31"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Beast of Taur-nu-Fuin cannot have attachments and its shadow cards cannot be canceled. Forced: When Beast of Taur-nu-Fuin attacks, either remove 2 progress from the main quest or deal it an additional shadow card."/>
+  </card>
+  <card id="3f9feb64-e4bd-4da5-b00a-05f58dce5fbf" name="Amon Lanc Archer" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Keywords" value="Archery 2."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Forced: After Amon Lanc Archer engages you, either remove 2 progress from the main quest, or deal 2 damage to an ally you control."/>
+    <property name="Shadow" value="Shadow: Exhaust a character you control."/>
+  </card>
+  <card id="02a79046-aaa1-4b12-9e74-467f0b566889" name="Dol Guldur Marauder" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Engagement Cost" value="24"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Dol Guldur Marauder gets +1 Û and +1 Ú for each resource on it. Forced: When Dol Guldur Marauder attacks, either remove 1 progress from the main quest or place 1 resource on Dol Guldur Marauder."/>
+  </card>
+  <card id="08a094d3-de00-4ea3-9dc3-141da9944763" name="Battle Warg" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Warg."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="18"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Forced: After Battle Warg engages you, either remove 1 progress from the main quest or discard an attachment you control."/>
+  </card>
+  <card id="8a1e8a49-0af8-4990-9c47-955927ff09b7" name="Gate of Dol Guldur" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Dol Guldur."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Gate of Dol Guldur is in the staging area, it gains: &quot;The player cannot travel or place progress here unless they are at stage 3B. Each player's threat cannot be reduced by more than 1 each round by player card effects.&quot;"/>
+  </card>
+  <card id="2b4188d2-7910-431f-8c8d-fbd358fc782d" name="The Sorcerer's Tower" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Dol Guldur."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While The Sorcerer's Tower is in the staging area, it gains: &quot;The players cannot travel or place progress here unless they are at stage 3D. Forced: After a 'when revealed' effect is canceled, reveal the top card of the encounter deck.&quot;"/>
+  </card>
+  <card id="617952b3-1ac2-47a2-866f-302c3f0d8fd7" name="The Shadow Road" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Dol Guldur."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="The Shadow Road gets +2 $ for each facedown card attached to it.While The Shadow Road is in the staging area, it gains: &quot;The players cannot travel or place progress here unless they are at stage 3F. Forced: After an event is played during the quest phase, attach it facedown to The Shadow Road.&quot;"/>
+  </card>
+  <card id="baf3e642-1f90-4db5-ac10-c8f4c5300f25" name="Dungeon Door" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Dol Guldur."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Dungeon Door is in the staging area, it gains: &quot;The players cannot travel or place progress here unless they are at stage 3H. No more than 1 damage can be healed from each character each round.&quot;"/>
+  </card>
+  <card id="16436b20-60b2-4f40-9a20-72e86cc35d37" name="Forest Battleground" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="Forest Battleground gets +1 $ for each ally controlled by the player with the most allies. Forced: When Forest Battleground is explored, each player searches the encounter deck and discard pile for an Orc enemy and adds it to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="fa4ccbb8-76d4-4293-aa94-d117b14f042e" name="Blackened Woods" size="EncounterCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="Forced: When Blackened Woods is explored, discard the top card of the encounter deck and raise each player's threat by X, where X is that card's printed $."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack. If this attack destroys a character, remove 3 progress from the main quest."/>
+  </card>
+  <card id="ebbb49f0-4466-44e5-b157-968cd5e80b06" name="Servant of Sauron" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="When Revealed: The enemy in the staging area with the highest engagement cost makes an immediate attack against the first player."/>
+    <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one."/>
+  </card>
+  <card id="c472af20-d956-4aec-af6e-319cdea35230" name="Power Sevenfold" size="EncounterCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="When Revealed: Each player must choose: either search the encounter deck and discard pile for a Dol Guldur location and add it to the staging area, or search the encounter deck and discard pile for an Orc enemy and put it into play engaged with him."/>
+  </card>
+  <card id="6a24bcba-e069-4951-9cb1-59b48d291c74" name="The Necromancer's Rage" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Deal 1 damage to each exhausted character. Until the end of the phase, each damaged character gets -1 Ò."/>
+    <property name="Shadow" value="Shadow: Deal 1 damage to the defending character. Until the end of the phase, the defending character gets -1 Ú for each damage on it."/>
+  </card>
+  <card id="0fd5a1d7-0791-4ab4-a50b-c5b2634ed94b" name="Fear and Despair" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="When Revealed: Each player exhausts a character he controls. Until the end of the round, characters cannot be readied by player card effects."/>
+    <property name="Shadow" value="Shadow: Defending character cannot ready until the end of the round."/>
+  </card>
+  <card id="807175bd-1d09-41ff-a3ab-560a935eb259" name="Fastness of Mirkwood" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: No more than 5 progress can be placed on the current quest this round. If Dol Guldur's city strength is 5 or lower, Fastness of Mirkwood gains surge."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack and +1 Defense until the end of the phase (+2 Attack and +2 Defense instead if at least 5 progress is on the quest)."/>
+  </card>
+  <card id="bdbf8bed-f63f-4797-abb4-79054a9dbcad" name="Standard Game Mode">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Campaign"/>
+    <property name="Text" value="Setup: Add Dol Guldur to the staging area, attach a threat dial to it, and set its value to 5. Then, increase it's value by 5 for each player. For the rest of the game, that threat dial is the siege tracker and it displays the city strength of Dol Guldur. Flip this card over."/>
+    <alternate name="Standard Game Mode" type="B">
+      <property name="Encounter Set" value="Attack on Dol Guldur"/>
+      <property name="Type" value="Campaign"/>
+      <property name="Text" value="While Dol Guldur's city strength is 0, each Lieutenant enemy loses indestructible. While the players are at stage 3, this card gains: &quot;Forced: After resolving the Forced effect on Dol Guldur, randomly select a stage 3 that was not in play this round and resolve its Forced effect. Then, discard all progress from the current stage 3 and advance to a new stage 3 of your choice.&quot; At the end of the round, if Dol Guldur's city strength is 0 and there are no Lieutenant enemies in play, Dol Guldur is captured and the players win the game."/>
+    </alternate>
+  </card>
+  <card id="ac5a17df-dcd0-4bfb-91fe-a444910f30ec" name="Epic Multiplayer Mode">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Attack on Dol Guldur"/>
+    <property name="Type" value="Campaign"/>
+    <property name="Text" value="Setup: Create 3 separate staging area, each with its own quest deck and encounter deck. Divide the players into 3 teams, one for each staging area. One team puts Dol Guldur into play in their staging area, attaches a threat dial to it, and sets its value to 5. Then, increase its value by 5 for each player at each stage. For the rest of the game, that threat dial is the siege tracker and it displays the city strength of Dol Guldur. Each other team removes their copy of Dol Guldur. Each other team removes their copy of Dol Guldur from the game. Flip this card over."/>
+    <alternate name="Epic Multiplayer Mode" type="B">
+      <property name="Encounter Set" value="Attack on Dol Guldur"/>
+      <property name="Type" value="Campaign"/>
+      <property name="Text" value="While Dol Guldur's city strength is 0, each Lieutenant enemy loses indestructible. While the players are at stage 3, this card gains: &quot;Forced: After resolving the Forced effect on Dol Guldur, the team with Dol Guldur in their staging area resolves the forced effect on the stage 3 that was not in play at any stage this round. Then, each team discards all progress from their stage 3 and advances to a new stage 3 of their choice. Each team must choose a different stage.&quot; Response: At the end of the round, a player who controls Host of Lórien or Power of Lórien may give control of that card to another player at any stage. If the last player at a stage is eliminated, the siege falls and the entire group loses the game. At the end of the round, if Dol Guldur's city strength is 0 and there are no Lieutenant enemies in play at each stage, Dol Guldur is captured and the players win the game."/>
+    </alternate>
+  </card>
+ </cards>
+</set>

@@ -10,7 +10,7 @@ from System.Web.Script.Serialization import JavaScriptSerializer as json #since 
 # To get most recent save file
 
 
-PLAYER_DECK = ['Hero', 'Ally', 'Attachment', 'Event', 'Side Quest', 'Sideboard']
+PILE_NAMES = ['Hero', 'Ally', 'Attachment', 'Event', 'Side Quest', 'Sideboard', 'Encounter', 'Quest']
 
 orientation = {
         0: Rot0,
@@ -124,9 +124,12 @@ def serializeCardMarkers(card):
 	return markers
 
 def getSection(sections, card):
-	if card.Type is not None and card.Type in sections:
+	notify(card.type)
+	if card.Type is None:
+		return None
+	if card.Type in sections:
 		return card.Type
-	return None
+	return "Encounter"
 
 
 def moveToTrash(card, x = 0, y = 0):
@@ -275,7 +278,7 @@ def saveDeck(group, x=0, y=0):
 
 #Save the player deck - it is named after the character 	
 def savePlayerDeck(player, suffix): #me.hand or table
-	sections = { p : {} for p in PLAYER_DECK}
+	sections = { p : {} for p in PILES}
 
 	#Add in the character sheet card (from the table)
 	#investigator = None
@@ -348,5 +351,47 @@ def savePiles(name, sections, piles, isShared):
 				f.write(" </section>\n")
 				whisper("{} - {}".format(s, count))
 		f.write("</deck>\n")
+		return filename
+	return None
+	
+def saveGroupAso8d(group, count = None):
+	sections = { p : {} for p in PILE_NAMES}
+	for card in group:
+		s = getSection(sections, card)
+		if s is None:
+			continue
+		if (card.name, card.model) in sections[s]:
+			sections[s][(card.name, card.model)] += 1
+		else:
+			sections[s][(card.name, card.model)] = 1
+	name = askString('Please provide a filename (the ".o8d" will be added automatically)', '')
+	if name == None:
+		whisper("Failed to save deck, missing filename")
+		return
+	name = '{}.o8d'.format(name)
+	dir = wd(name)
+	if 'GameDatabase' in dir:
+		filename = dir.replace('GameDatabase','Decks').replace('a21af4e8-be4b-4cda-a6b6-534f9717391f','Lord of the Rings - The Card Game')
+	else:
+		filename = "Decks\Lord of the Rings - The Card Game".join(dir.rsplit('OCTGN',1))
+	with open(filename, 'w+') as f:
+		f.write('<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n')
+		f.write('<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">\n')
+		for s in sections:
+			if s == 'Encounter' or s == 'Quest':
+				isShared = "True"
+			else:
+				isShared = "False"
+			if len(sections[s]) > 0:
+				f.write(" <section name=\"{}\" shared=\"{}\">\n".format(s, isShared))
+				count = 0
+				for t in sorted(sections[s].keys()):
+					whisper("  <card qty=\"{}\" id=\"{}\">{}</card>\n".format(sections[s][t], t[1], t[0]))
+					f.write("  <card qty=\"{}\" id=\"{}\">{}</card>\n".format(sections[s][t], t[1], t[0]))
+					count += sections[s][t]
+				f.write(" </section>\n")
+				whisper("{} - {}".format(s, count))
+		f.write("</deck>\n")
+		notify("Wrote to {}".format(filename))
 		return filename
 	return None

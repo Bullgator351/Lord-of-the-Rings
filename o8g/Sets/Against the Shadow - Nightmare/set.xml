@@ -508,7 +508,7 @@
     <property name="Keywords" value="Doomed 2."/>
     <property name="Text" value="When Revealed: Each player must either take 1 hidden card for each questing hero he controls, or remove one hero he controls from the quest for each hidden card in his play area."/>
   </card>
-  <card id="812dce54-8a84-4a44-94ee-5b2cd2bf1997" name="Sudden Onslaught" size="EncounterCard">
+  <card id="812dce54-8a84-4a44-94ee-5b2cd2bf1997" name="Sudden Onslaught">
     <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>

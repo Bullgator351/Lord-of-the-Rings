@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Woodland Realm" id="8bb580cd-6800-4ee1-8e5a-b6b0a1b20d8c" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="4fd47b8b-1132-4e90-967c-b15369215025" name="Captured by Spiders" size="QuestCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Add Spider Den to the staging area. The opposing team searches the encounter deck for one different 0 cost enemy or 0 cost location per player and adds it to the staging area. Shuffle the encounter deck."/>
+    <alternate name="Captured by Spiders" type="B">
+      <property name="Encounter Set" value="The Woodland Realm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="1"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="Setup: Add Spider Den to the staging area. The opposing team searches the encounter deck for one different 0 cost enemy or 0 cost location per player and adds it to the staging area. Shuffle the encounter deck. Forced: When Spider Den is explored, flip it over and put Mendor into play under the first player's control, ready. This stage cannot be defeated unless the first player controls Mendor."/>
+    </alternate>
+  </card>
+  <card id="78689e20-d52f-4495-accc-b2cc39bb9ddc" name="A Chosen Path" size="QuestCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing teach searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="Lost in the Dark" type="B">
+      <property name="Encounter Set" value="The Woodland Realm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="The first treachery revealed each round gains Doomed 1 and its 'when revealed' effects cannot be canceled. Forced: After characters are committed to the quest, no more than 5 progress can be placed here this round (10 progress instead if Mendor is committed to the quest)."/>
+    </alternate>
+  </card>
+  <card id="a7280ef5-7a73-4c34-bc7e-e7aef7e4f3df" name="A Chosen Path" size="QuestCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing teach searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="&quot;Don't Leave the Path&quot;" type="B">
+      <property name="Encounter Set" value="The Woodland Realm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="Progress cannot be placed on locations in the staging area.During the travel phase, the players must travel to a location, if able. Forced: After characters are committed to the quest, no more than 5 progress can be placed here this round (10 progress instead if Mendor is committed to the quest)."/>
+    </alternate>
+  </card>
+  <card id="13e84f42-66ff-4abb-819d-a4b0ad088bb1" name="A Chosen Path" size="QuestCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing teach searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="Ambushed at Night" type="B">
+      <property name="Encounter Set" value="The Woodland Realm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="Each enemy in the staging area gets -10 engagement cost, cannot be optionally engaged and cannot take damage. Forced: After characters are committed to the quest, no more than 5 progress can be placed here this round (10 progress instead if Mendor is committed to the quest)."/>
+    </alternate>
+  </card>
+  <card id="2e4aea1e-abb5-48c6-9f83-abbf9b6bcf72" name="On the Trail" size="QuestCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It's 'when revealed' effects cannot be canceled."/>
+    <alternate name="The Forest of Great Fear" type="B">
+      <property name="Encounter Set" value="The Woodland Realm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="15"/>
+      <property name="Text" value="When Revealed: The opposing team searches the encounter deck and discard pile for an enemy, adds it to the staging area, the places a resource on an enemy in play with cost 2 or higher. While this stage is in play, the enemy with a resource gets +2 Û, +2 Ú, and is immune to player card effects. This stage cannot be defeated while the enemy witha resource is in play. When this stage is defeated, the players win the game."/>
+    </alternate>
+  </card>
+  <card id="ba4f0abd-bd8c-4b25-b045-1599e5c92ce7" name="On the Trail" size="QuestCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It's 'when revealed' effects cannot be canceled."/>
+    <alternate name="To the Elvenking's Halls" type="B">
+      <property name="Encounter Set" value="The Woodland Realm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="X"/>
+      <property name="Text" value="X is equal to the threat level of the player with the highest threat level.Each player's threat cannot be reduced by more than 1 each round. Forced: After the players quest successfully, if 10 or more progress was placed here this phase, reveal the top card of the encounter deck.If the players defeat this stage, they win the game."/>
+    </alternate>
+  </card>
+  <card id="35924e07-9473-4701-855a-11f69dc83185" name="On the Trail" size="QuestCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It's 'when revealed' effects cannot be canceled."/>
+    <alternate name="Escape from Taur-Nu-Fuin" type="B">
+      <property name="Encounter Set" value="The Woodland Realm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="Forced: At the beginning of the quest phase, discard cards from the top of the encounter deck until a location is discarded. Add that location to the staging area.If the players defeat this stage, they win the game."/>
+    </alternate>
+  </card>
+  <card id="35fb5564-b4a1-4730-9e4d-65bd2e6d43c4" name="Spider Den" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="1"/>
+    <property name="Text" value="Immune to player card effects. Travel: The opposing team searches the encounter deck and discard pile for a 0 cost enemy and adds it to the staging area, if able (1 cost or less if there are two or more players). Shuffle the encounter deck."/>
+    <alternate name="Mendor" type="B">
+      <property name="Encounter Set" value="The Woodland Realm"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Objective Ally"/>
+      <property name="Traits" value="Silvan. Scout."/>
+      <property name="Keywords" value="Ranged. Sentinel."/>
+      <property name="Willpower" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="Health" value="5"/>
+      <property name="Text" value="The first player gains control of Mendor. If Mendor leaves play, the players lose the game."/>
+    </alternate>
+  </card>
+  <card id="3b855783-5b90-4788-802e-e7c1e81461d8" name="Ungoliant's Spawn" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 01"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Text" value="Cannot have non-objective player card attachments or take non-combat damage.While Ungoliant's Spawn is in the staging area, characters cannot be readied by player card effects."/>
+  </card>
+  <card id="2be47628-65a9-4809-87aa-6251eb68b4bc" name="Forest Grove" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 01"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="X"/>
+    <property name="Quest Points" value="X"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="X is 1 more than the stage number of the main quest. Travel: Each player deals X damage to a character he controls."/>
+  </card>
+  <card id="473e56fe-31b8-4637-acdb-a72a7138237b" name="Despair" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 01"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Until the end of the round, treat each character's printed text box as if it were blank (except for Traits)."/>
+  </card>
+  <card id="3360d53e-e01b-4d22-b2e3-4e1733a4896d" name="Chieftain Ufthak" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 02"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Text" value="Cannot have non-objective player card attachments or take non-combat damage. Forced: After Chieftain Ufthak engages you, the opposing team searches the encounter deck and discard pile for an Orc enemy of cost 1 or less and puts it into play engaged with you. Shuffle the encounter deck."/>
+  </card>
+  <card id="60057e26-14f3-468c-ba70-4b14aea7d49a" name="Abandoned Camp" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 02"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Forced: When Abandoned Camp leaves play as an explored location, the opposing team chooses a card in the encounter discard pile and shuffles it into the encounter deck."/>
+  </card>
+  <card id="10e74386-4dad-42c1-8f29-bb9e35e044a2" name="Gathering Gloom" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 02"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Each player raises his threat by X, where X is 1 more than the stage number of the main quest."/>
+  </card>
+  <card id="9b01e317-82e5-4f19-9375-917607d54aed" name="Black Forest Bats" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 03"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="13"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: The opposing team chooses a questing character. Remove that character from the quest."/>
+  </card>
+  <card id="e00490c1-cab9-4f99-ad19-04f7b81e4077" name="Enchanted Steam" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 03"/>
+    <property name="Type" value="Location"/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Text" value="While Enchanted Steam is in the staging area, progress cannot be placed on the main quest. Travel: Each player exhausts a hero he controls. Those heroes cannot ready while Enchanted Stream is the active location."/>
+  </card>
+  <card id="9adddbd0-458a-4810-b0db-502a5e125704" name="Exhaustion" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 03"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Each player exhausts a character he controls. Until the end of the round, characters cannot be readied by player card effects."/>
+  </card>
+  <card id="f939f43c-51b5-4d96-9a1e-86f606c7dcc6" name="Spiders of Mirkwood" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Woodland Realm 04"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="22"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Forced: After Spiders of Mirkwood engages you, exhaust a character you control."/>
+  </card>
+  <card id="fc45fcc9-65b1-4c1f-ac9a-e392d86d93fd" name="The Spiders' Ring" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 04"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Text" value="While The Spider's Ring is in the staging area, each Spider enemy gets +1 $. Forced: When The Spider's Ring is explored, the opposing team searches the encounter deck and discard pile for a non-unique Spider enemy and adds it to the staging area."/>
+  </card>
+  <card id="df24263d-f2f9-436c-a62f-4db50e09d283" name="Caught in a Web" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 04"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: The opposing team attaches Caught in a Web to a hero and exhausts that hero. (Counts as a Condition attachment with the text: &quot;Limit 1 per hero. Attached hero cannot ready unless its controller first spends 2 resource from its pool.&quot;)"/>
+  </card>
+  <card id="14304a2f-f6f8-4f78-adc6-5ee35bc9a08e" name="Wolf Rider" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Woodland Realm 05"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Engagement Cost" value="23"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: If there is another Orc enemy in the staging area, Wolf Rider gains surge."/>
+  </card>
+  <card id="0daf7bcd-4719-48e6-948a-0230aa96d34c" name="The Goblins' Cave" size="EncounterCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 05"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mountain. Cave."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Text" value="While The Goblin's Cave is in the staging area, each Orc enemy gets +1 Û. Forced: When The Goblin's Cave is explored, the opposing team searches the encounter deck and discard pile for a non-unique Orc enemy and adds it to the staging area."/>
+  </card>
+  <card id="4cf56614-3155-4a84-85dc-74c6cef00ae3" name="Driven by Shadow" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 05"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: The opposing team attaches Driven by Shadow to an enemy and returns it to the staging area. (Counts as a Condition attachment with the text: &quot;Limit 1 per enemy. Attached enemy gets +2 $, +2 Û, +2 Ú and is immune to player card effects.&quot;) If there is no enemy in play, Driven by Shadow gains surge."/>
+  </card>
+  <card id="abf880a9-117c-4c23-8a29-9a152f36c4e9" name="Beast of Taur-nu-Fuin" size="EncounterCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 06"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="8"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Text" value="Beast of Taur-nu-Fuin gets +1 Û for each damage on it. Forced: When Beast of Taur-nu-Fuin is dealt a shadow card with no shadow effect, deal 1 damage to it and the defending character."/>
+  </card>
+  <card id="c2237ebe-c98f-49b1-9e6e-1e33d39f815d" name="Dark Black Woods" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Woodland Realm 06"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Dark Black Woods gets +1 $ for each Dark Black Woods in the staging area. Travel: Each player must discard 1 card from his hand for each Dark Black Woods in the staging area."/>
+  </card>
+  <card id="76ceda47-fb5e-48de-8a6d-83feda48d197" name="Wind-whipped Rain" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 06"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Weather."/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Each player must choose: either choose 1 card from his hand and discard the rest, or assign X damage among characters he controls, where X is the number of cards in his hand."/>
+  </card>
+  <card id="c7f4c92b-e593-4c40-9ecb-64d8ab9c6368" name="Giant Spider" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 07"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Each player exhausts a character he controls."/>
+  </card>
+  <card id="4d5a388c-d710-4663-ab96-a3a914da2a24" name="Giant Web" size="EncounterCard">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 07"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Make Giant Web the active location. Return any previous location to the staging area."/>
+  </card>
+  <card id="9221e69b-0649-4585-9ee2-2dd2890531ea" name="Eyes of the Forest" size="EncounterCard">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 07"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: The opposing team looks at each player's hand and discards 1 card from each."/>
+  </card>
+  <card id="888e1fe6-2fc4-407d-8bb3-df2c020e1e24" name="Mirkwood Patrol" size="EncounterCard">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 08"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="While Mirkwood Patrol is in the staging area, enemies cannot be optionally engaged."/>
+  </card>
+  <card id="4b9d24ad-1ae3-4e49-a675-a27fc84c289b" name="Mountains of Mirkwood" size="EncounterCard">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 08"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mountains."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="While Mountains of Mirkwood is in the staging area, it gains: &quot;Forced: At the end of the round, raise each player's threat by 2.&quot;"/>
+  </card>
+  <card id="1e7ccc5d-2f76-4295-add4-c06da3da1516" name="Hatred Rekindled" size="EncounterCard">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 08"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Each engaged enemy makes an immediate attack. If no attacks were made this way, Hatred Rekindled gains surge."/>
+  </card>
+  <card id="d97a8405-7c6b-4b27-a705-c165ab2c8977" name="Wild Bear" size="EncounterCard">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 09"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="33"/>
+    <property name="Threat" value="X"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="X"/>
+    <property name="Health" value="5"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="X is 1 more than the stage number of the main quest."/>
+  </card>
+  <card id="41928f89-4736-42f9-b789-9ea670d26639" name="Labyrinthine Woods" size="EncounterCard">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 09"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Until the end of the phase, each location in the staging area gets +1 $."/>
+  </card>
+  <card id="37f0bdca-11d8-40ba-97cd-bbe2b8190cd5" name="Vastness of Mirkwood" size="EncounterCard">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 09"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost equal to or less than the stage number of the main quest, sets it aside and shuffles the encounter deck. Then, reveal the set aside card."/>
+  </card>
+  <card id="97ee3084-5379-47da-aab0-acd5d4a540af" name="Mirkwood Flock" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 10"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="12"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Victory Points" value="1"/>
+  </card>
+  <card id="cbf2984f-cfb8-4cc3-9d5c-fdadd4201451" name="The Eaves of Mirkwood" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 10"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="While The Eaves of Mirkwood is in the staging area, no more than 1 progress can be placed on each location in the staging area each round. Travel: Each player discards 1 random card from his hand."/>
+  </card>
+  <card id="a8870930-554e-4e94-9188-b454e2a1158a" name="Massing at Night" size="EncounterCard">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 10"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: The opposing team searches the encounter deck and discard pile for one different 0 cost enemy per player (limit 2) and adds them to the staging area."/>
+  </card>
+  <card id="7f03acd1-41d0-44db-9903-c6030e1548a1" name="Wild Wargs" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 11"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Warg."/>
+    <property name="Engagement Cost" value="25"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After Wild Wargs is dealt a shadow card with no shadow effect, return it to the staging area."/>
+  </card>
+  <card id="ef719fc5-dddd-4455-87de-96fe22e4ff1a" name="Dry Watercourse" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 11"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="While Dry Watercourse in in the staging area, each player cannot reduce his threat by more than 1 each round. Travel: Raise each player's threat by 1."/>
+  </card>
+  <card id="dde0edf6-bc4d-4f21-8681-3e90098218db" name="Turned Around" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 11"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Remove 5 progress tokens from the main quest and attach Turned Around to it. (Counts as a Condition attachment with the text: &quot;Attached quest gets +5 quest points.&quot;)"/>
+  </card>
+  <card id="34a6c6ed-1dff-4264-815c-367ff47e73a6" name="Pack of Wargs" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 12"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Cannot have non-objective player card attachments or take non-combat damage. Forced: After Pack of Wargs is dealt a shadow card with no shadow effect, it makes an additional attack after this one. Do not deal it a shadow card for this attack."/>
+  </card>
+  <card id="6d012dfd-07bb-40d5-8da7-2e4d9bad9bcd" name="Dark-wood Grove" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 12"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="While Dark-wood Grove is in the staging area, it gains: &quot;Forced: After a 'when revealed' effect is canceled, raise each player's threat by 3.&quot; Travel: Reveal the top card of the encounter deck."/>
+  </card>
+  <card id="69c3d8f9-750a-4903-be32-588898fd766e" name="Lost and Witless" size="EncounterCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 12"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Each player reveals his hand and discards each ally card revealed this way."/>
+  </card>
+  <card id="34635348-ab17-4d00-bc6f-7ced07821168" name="Wicked Spider" size="EncounterCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 13"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After Wicked Spider engages you, discard an exhausted character you control."/>
+  </card>
+  <card id="d2d31f2a-4b80-48b5-b92a-e42d254cfd49" name="Old Forest Road" size="EncounterCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 13"/>
+    <property name="Type" value="Location"/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Response: After the players travel to Old Forest Road, the first player discards the top card of his deck. If that card is an ally, he puts it into play. Travel: Discard the top card of the encounter deck, if that card is an enemy, add it to the staging area."/>
+  </card>
+  <card id="2b10aa08-31ac-4133-b613-f7fde8a2444c" name="A Frightened Beast" size="EncounterCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 13"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Each player must choose: either raise your threat by 1 for each questing character you control, or discard a questing character you control."/>
+  </card>
+  <card id="a4e02843-7689-484e-8e58-0b869717aeba" name="Ambushing Orcs" size="EncounterCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Woodland Realm 14"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Ambushing Orcs makes an immediate attack against the first player."/>
+  </card>
+  <card id="057a8676-b610-4806-aa86-edf9b03060e8" name="Mirkwood Path" size="EncounterCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 14"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="1"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Forced: When Mirkwood Path is explored, discard the top card of the encounter deck. If that card is a location, add it to the staging area."/>
+  </card>
+  <card id="83818038-5291-4d4b-acec-1937c5b787e0" name="Wasted Provisions" size="EncounterCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Woodland Realm 14"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Each player discards each resource from each of his heroe's resource pools and raises his threat by 1 for each resource he discarded this way. If no resources were discarded this way, Wasted Provisions gains surge."/>
+  </card>
+ </cards>
+</set>

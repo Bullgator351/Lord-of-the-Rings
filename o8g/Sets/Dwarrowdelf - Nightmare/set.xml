@@ -30,7 +30,7 @@
     <property name="Health" value="4"/>
     <property name="Text" value="Forced: After engaging Wolfpelt Goblin , the engaged player must deal X damage to 1 character he controls, where X is the active location's remaining quest points. Then, remove 2 progress from the active location, if able. "/>
   </card>
-  <card id="abe7a278-0c8e-4b1b-b45a-4da86dd3a3db" name="Silvertine Marauder">
+  <card id="abe7a278-0c8e-4b1b-b45a-4da86dd3a3db" name="Silvertine Marauder" size="EncounterCard">
     <property name="Card Number" value="3"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Redhorn Gate - Nightmare"/>

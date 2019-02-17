@@ -5,7 +5,7 @@
 	id="a21af4e8-be4b-4cda-a6b6-534f9717391f" 
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.1"
-	version="2.6.1.40"
+	version="2.6.1.65"
 	markersize="16"
 	tags="LotR LCG cooperative"
 	description="The Lord of the Rings: The Card Game is a cooperative card game that puts 1-4 players in control of the most powerful characters and artifacts of Middle-earth.&#10;&#10;Players will select heroes, gather allies, acquire artifacts, and coordinate their efforts to face Middle-earth’s most dangerous fiends. By cooperating to overcome the obstacles drawn from the encounter deck, you will complete the quest before you and claim victory!"
@@ -160,6 +160,12 @@
 			<groupaction menu="Player" default="False" execute="randomPlayer" />
 			<groupaction menu="Hero" default="False" execute="randomHero" />
 			<groupaction menu="Ally" default="False" execute="randomAlly" />
+			<groupaction menu="7 Encounter Sets (The Wizard's Quest)" default="False" execute="randomTWQEncounter" />
+			<groupaction menu="7 Encounter Sets (The Woodland Realm)" default="False" execute="randomTWREncounter" />
+			<groupaction menu="7 Encounter Sets (TWQ + TWR)" default="False" execute="randomTWQTWREncounter" />
+			<groupaction menu="Quest Deck (The Wizard's Quest)" default="False" execute="randomTWQQuest" />
+			<groupaction menu="Quest Deck (The Woodland Realm)" default="False" execute="randomTWRQuest" />
+			<groupaction menu="Quest Deck (TWQ + TWR)" default="False" execute="randomTWQTWRQuest" />
 		</groupactions>
 	</table>
 	<player summary="Threat: {#Threat_Level} | WP: {#Willpower}">
@@ -223,11 +229,16 @@
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounter" />
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Secondary..." default="False" execute="moveMany" />
+			<groupaction menu="Save As..." default="False" execute="saveGroupAso8d" />
 		</group>
 		<group name="Encounter Discard Pile" visibility="all" ordered="True" icon="groups/dead.png" collapsed="False">
 			<groupaction menu="Shuffle into Encounter Deck" default="True" execute="moveAllToEncounter" />
+			<groupaction menu="Save As..." default="False" execute="saveGroupAso8d" />
 		</group>
-		<group name="Victory Display" visibility="all" ordered="False" icon="groups/victory.png" collapsed="False" />
+		<group name="Victory Display" visibility="all" ordered="False" icon="groups/victory.png" collapsed="False" >
+			<groupaction menu="Shuffle into Encounter Deck" default="True" execute="moveAllToEncounter" />
+			<groupaction menu="Save As..." default="False" execute="saveGroupAso8d" />
+		</group>
 		<group name="Special" visibility="none" ordered="True" icon="groups/encounter2.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />

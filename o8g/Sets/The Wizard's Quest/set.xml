@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Wizard's Quest" id="f93056c4-82c1-4230-a5e7-edef7faba313" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="79666b89-ec7b-4bc8-98d9-9c517f8ca6ed" name="Radagast's Request" size="QuestCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Add Rhosgobel to the staging area. The opposing team searches the encounter deck for one different 0 cost enemy or 0 cost location per player and adds them to the staging area. Shuffle the encounter deck."/>
+    <alternate name="Radagast's Request" type="B">
+      <property name="Encounter Set" value="The Wizard's Quest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="1"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="Forced: When Rhosgobel is explored, flip it over and add Rider of Mirkwood to the staging area. This stage cannot be defeated while Rhosgobel is in play."/>
+    </alternate>
+  </card>
+  <card id="35d72889-370e-4ee3-99c0-b7d0a605ec49" name="Mirkwood Forest" size="QuestCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less if there are two or more players), sets it aside, and shufles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="A Fork in the Road" type="B">
+      <property name="Encounter Set" value="The Wizard's Quest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="5"/>
+      <property name="Text" value="When Revealed: The opposing team searches the encounter deck and discard pile for a location with cost 2 or less, adds it to the staging area, and places a resource on it. Shuffle the encounter deck. The location with a resource on it is immune to player card effects and the players cannot travel to it while this stage has any quest points remaining. This stage cannot be defeated while the location with a resource on it is in play."/>
+    </alternate>
+  </card>
+  <card id="4ce7c4e4-c96c-4ee7-ae98-cfb497303cd0" name="Mirkwood Forest" size="QuestCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less if there are two or more players), sets it aside, and shufles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="Carried Away" type="B">
+      <property name="Encounter Set" value="The Wizard's Quest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="When Revealed: The opposing team chooses an ally controlled by each player and places them faceup under this stge as guarded objectives with blank text boxes. Players cannot play or put into play any ally that shares a title with an ally guarded by this stage. When this stage is defeated, return each guarded ally to its owner's hand."/>
+    </alternate>
+  </card>
+  <card id="b446fa27-d5f8-40e0-8985-fe15478cd79b" name="Mirkwood Forest" size="QuestCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less if there are two or more players), sets it aside, and shufles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="A New Terror Abroad" type="B">
+      <property name="Encounter Set" value="The Wizard's Quest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="5"/>
+      <property name="Text" value="This stage gets +5 quest points per player. Forced: At the beginning of the quest phase, Rider of Mirkwood makes an immediate attack against the first player."/>
+    </alternate>
+  </card>
+  <card id="7d71a43e-a7ae-49bb-930c-437101a12d82" name="The Necromancer's Tower" size="QuestCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="The Tower of Sorcery" type="B">
+      <property name="Encounter Set" value="The Wizard's Quest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="Forced: After the players have committed characters to the quest, discard cards from the top of the encounter deck until a treachery is discarded. Reveal that treachery. If the players defeat this stage, they win the game."/>
+    </alternate>
+  </card>
+  <card id="b717f5f9-cd1a-4852-aa1d-36acd1f8d3b1" name="The Necromancer's Tower" size="QuestCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="Dungeons of the Necromancer" type="B">
+      <property name="Encounter Set" value="The Wizard's Quest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="15"/>
+      <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. Each player discards from the top of the encounter deck until he discards an enemy, adds that enemy to the staging area, and attached a hero he controls to it as a guarded objective (discard all tokens from the chosen hero).If there is an unguarded hero in the staging area, return it to its owner's control, exhausted. This stage cannot be defeated while there is a guarded objective in play. If the players defeat this stage, they win the game."/>
+    </alternate>
+  </card>
+  <card id="85409c38-e188-46f7-b844-42716266ea83" name="The Necromancer's Tower" size="QuestCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
+    <alternate name="Return to Rhosgobel" type="B">
+      <property name="Encounter Set" value="The Wizard's Quest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="Rider of Mirkwood's engagement cost is considered to be 0. The number of damage tokens on Rider of Mirkwood cannot exceed the number of progress tokens on this stage.Players cannot defeat this stage while Rider of Mirkwood is in play. If the players defeat this stage, they win the game."/>
+    </alternate>
+  </card>
+  <card id="1a3c69f9-c973-4e4e-aa00-435c1f615393" name="Rhosgobel" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest. Village."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="1"/>
+    <property name="Text" value="Immune to player card effects.Response: After the players travel to Rhosgobel, add 1 resource to each hero's pool and each player draws 1 card."/>
+    <alternate name="Rider of Mirkwood" type="B">
+      <property name="Encounter Set" value="The Wizard's Quest"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Traits" value="Nazgûl."/>
+      <property name="Engagement Cost" value="50"/>
+      <property name="Threat" value="X"/>
+      <property name="Attack" value="6"/>
+      <property name="Defense" value="3"/>
+      <property name="Health" value="10"/>
+      <property name="Victory Points" value="6"/>
+      <property name="Text" value="Immune to player card effects.X is 1 more than the stage number of the main quest. Cannot leave the staging area unless the players are at stage 3B."/>
+    </alternate>
+  </card>
+  <card id="9f29199a-f40a-4198-b355-4d5e75d910e2" name="Nazgûl of Dol Guldur" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 15"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Nazgûl."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Text" value="Cannot have non-objective player card attachments or take non-combat damage. Forced: After Nazgûl of Dol Guldur attacks you, eithe return it to the staging area or raise your threat by 3."/>
+  </card>
+  <card id="ad36bbe2-646e-4ac1-983b-e2d8a651dd0e" name="Necromancer's Pass" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 15"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Dol Guldur."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: The first player chooses a card in his hand. The opposing team looks at the first player's hand and chooses a different card to place faceup under Necromancer's Pass as a guarded objective. While Necromancer's Pass is guarding a card, copies of that card cannot be played. When Necromancer's Pass is explored, return the guarded card to its owner's hand."/>
+  </card>
+  <card id="60fe85d1-4dae-4c74-8776-424b4a306054" name="Pursued by Shadow" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 15"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: The highest Û enemy in the staging area makes an immediate attack against the first player. If no attack is made this way, Pursued by Shadow gains surge."/>
+    <property name="Shadow" value="Shadow: If attacking enemy is unique, it makes an additional attack against you after this one."/>
+  </card>
+  <card id="996158ae-41aa-457e-99c4-97640796d6e0" name="Bane of Amon Lanc" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 16"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="37"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="7"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Text" value="Cannot have non-objective player card attachments. Forced: After Bane of Amon Lanc attacks and destroys an ally, the defending player discards 1 card from his hand for each excess point of damage dealt by this attack."/>
+  </card>
+  <card id="678fe922-7c1f-4270-aaec-002d916fc52a" name="Oak-wood Grove" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 16"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="While Oak-wood Grove is in the staging area, progress cannot be placed on other locations in the staging area. Travel: Each player exhausts a character."/>
+  </card>
+  <card id="826b71a9-3f90-454a-8009-24afa9a94ec8" name="Smoking Blood" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 16"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: The opposing team attached Smoking Blood to a Troll enemy. If they cannot, Smoking Blood gains surge.(Counts as a Condition attachment with the text: &quot;Limit 1 per enemy. Forced: When attached enemy is dealt enough damage to destroy it, cancel the damage and discard Smoking Blood instead.&quot;)"/>
+  </card>
+  <card id="2899ad24-ba7e-4c24-9d20-dabe8f4fce71" name="Forest Flies" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 17"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Insect."/>
+    <property name="Engagement Cost" value="6"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Forced: When Forest Flies attacks, raise the defending player's threat by 1."/>
+    <property name="Shadow" value="Shadow: Raise your threat by 1 for each enemy engaged with you."/>
+  </card>
+  <card id="a662bccc-025c-48dd-9c13-0eb47a91236c" name="Twilight Hall" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 17"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Text" value="Cannot have attachments. Twilight Hall gets +1 $ for each character controlled by the first player. Forced: When Twilight Hall is explored, reveal 1 encounter card per player."/>
+  </card>
+  <card id="ad6a6843-b482-43a8-8d1f-771ac69c9ab5" name="Swarming Mosquitoes" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 17"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Each player deals X damage to a character he controls, where X is more than the stage number of the main quest."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack (+2 Attack instead if the defending character has an attachment)."/>
+  </card>
+  <card id="d801e97a-0cb8-44f0-a28f-de9546200967" name="Goblin Sniper" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 18"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Text" value="Cannot be optionally engaged. Forced: At the end of the combat phase, easy player deals 1 damage to a hero he controls."/>
+    <property name="Shadow" value="Shadow: Defending character does not count it's Defense."/>
+  </card>
+  <card id="14a944ab-8301-4006-8e2a-d607eb614fab" name="Pine Slopes" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Wizard's Quest 18"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mountain. Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Each Pine Slopes +2 $ until the end of the phase. Travel: Raise your threat by 1 for each Pine Slopes in the staging area."/>
+  </card>
+  <card id="15e06e00-8d82-4590-b2ae-6e615330d78a" name="Under the Shadow">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 18"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Attach to the main quest. (Counts as a condition attachment with the text: &quot;Each player cannot play more than 1 card each phase.&quot;)"/>
+  </card>
+  <card id="a880b0ab-79d4-42b4-81b1-5ad9a8054c27" name="Necromancer's Warg" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 19"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Warg."/>
+    <property name="Engagement Cost" value="21"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Forced: After Necromancer's Warg engages you, deal 1 damage to a character you control."/>
+    <property name="Shadow" value="Shadow: If you are engaged with an Orc enemy and a Warg enemy, discard a character you control."/>
+  </card>
+  <card id="e7100f6a-bdbd-4605-86e2-67d4479d227d" name="Dol Guldur Beastmaster" size="EncounterCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 19"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Text" value="Forced: After Dol Guldur Beastmaster engages you, the opposing team searches the encounter deck and discard pile for a Necromancer's Warg and puts it into play engaged with you. Shuffle the enconter deck."/>
+  </card>
+  <card id="764c89bc-d212-401f-acfa-a971cd0e5e17" name="Watched Path" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 19"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="1"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Forced: When Watched Path is explored, discard the top card of the encounter deck. If the discarded card is an enemy, add it to the staging area."/>
+  </card>
+  <card id="3f7b681f-f1c0-4771-8e7b-b6e804d0bf88" name="Evil Storm" size="EncounterCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 19"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Weather."/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Each player deals 1 damage to a questing character he controls. Until the end of the phase, each damaged character gets -1 Ã’ and cannot be healed."/>
+    <property name="Shadow" value="Shadow: Deal 1 damage to the defending character."/>
+  </card>
+  <card id="79a2b4c2-7d0c-41a5-aa5f-1ec29644caab" name="Spider of Dol Guldur" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 20"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Text" value="Forced: After Spider of Dol Guldur attacks and destroys an ally, return it to the staging area."/>
+    <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one."/>
+  </card>
+  <card id="1b036c00-55cc-4538-a659-6d86aaf8ce20" name="Patch of Midnight" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 20"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: At the beginning of the staging step, discard Patch of Midnight and reveal the top card of the encounter deck."/>
+    <property name="Shadow" value="Shadow: If this attack destroys a character, reveal the top card of the encounter deck."/>
+  </card>
+  <card id="e7a6c9c3-9d45-478c-81e5-7811d43deb0e" name="Eyes in the Dark" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Wizard's Quest 20"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: The opposing team chooses a questing character controlled by each player. Ready each chosen character and remove them from the quest."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack. If this attack destroys a character, raise each player's threat by 1."/>
+  </card>
+  <card id="fd9398a9-9f4f-4134-875b-5527f3533c7d" name="Eastern Crows" size="EncounterCard">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Wizard's Quest 21"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="11"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="While there is a copy of Eastern Crows in the discard pile, Eastern Crows gains surge."/>
+  </card>
+  <card id="ac78aadc-9a58-42a6-a328-60dbb1e2191c" name="The Sorcerer's Tower" size="EncounterCard">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 21"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Dol Guldur."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Text" value="While The Sorcerer's Tower is in the staging area, each treachery gains Doomed 1. Forced: When the Sorcerer's Tower is explored, shuffle the encounter discard pile into the encounter deck and discard cards from the top until a treachery is discarded. Resolve the 'when revealed' effects on that treachery."/>
+  </card>
+  <card id="e763a539-7fc8-49ab-8f8f-879070aa0e03" name="Power Sevenfold" size="EncounterCard">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 21"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: The opposing team chooses any number of non-unique encounter cards in play. Discard the chosen cards and reveal an equal number of cards from the top of the encounter deck."/>
+    <property name="Shadow" value="Shadow: Either reveal an encounter card, or treat this attack as undefended."/>
+  </card>
+  <card id="058c4067-9b8c-4631-ae6b-6cee784e71df" name="Hill Troll" size="EncounterCard">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 22"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="33"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="8"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Cannot have non-objective palyer card attachments."/>
+  </card>
+  <card id="008bcdb1-bac6-4c45-86c5-6bcfb0bf12cc" name="Troll Cave" size="EncounterCard">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 22"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest. Cave."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Response: After the players travel to Troll Cave, each player draws 1 card. Travel: The opposing team searches the top 5 cards of the encounter deck for a Hill Troll and adds it to the staging area, if able. Shuffle the encounter deck."/>
+  </card>
+  <card id="85cf554d-25c5-47f4-96bb-c11f4e764155" name="Befouled Equipment" size="EncounterCard">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 22"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Û to the character with the most attachments without Befouled Equipment attached. (Counts as a Condition attachment with the text: &quot;Forced: At the end of the round, discard an attachment from attached character. Befouled Equipment cannot be discarded this way unless it is the only attachment on attached character.&quot;)"/>
+  </card>
+  <card id="90c7e192-2a1e-480c-96a2-7c643f0562d1" name="Hunting Warg" size="EncounterCard">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 23"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Warg."/>
+    <property name="Engagement Cost" value="32"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After Hunting Warg engages a player, it makes an immediate attack. If Hunting Warg is dealt a shadow card with no shadow effect for this attack, it gets +2 Û until the end of the phase."/>
+  </card>
+  <card id="0b215acb-56e1-4653-9cbf-38171c4af9c9" name="Hunter's Lookout" size="EncounterCard">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 23"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mountain. Forest."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="While Hunter's Lookout is in the staging area, it gains: &quot;Forced: At the end of the round, raise each player's threat by 1 for each enemy in the staging area.&quot;Travel: The highest Û enemy in the staging area makes an immediate attack against the first player."/>
+  </card>
+  <card id="88efb537-cea8-4c20-8b73-e51f0742f769" name="Restless Hunters" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 23"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Return each engaged enemy to the staging area. If no enemies were returned this way, Restless Hunters gains surge."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack. If this attack destroys a character, return attacking enemy to the staging area."/>
+  </card>
+  <card id="93e61cb5-2bde-420e-aebd-79a1c4111838" name="Dol Guldur Orcs" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 24"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc."/>
+    <property name="Engagement Cost" value="24"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Each player deals 1 damage to a character he controls."/>
+    <property name="Shadow" value="Shadow: Defending character gets -1 Defense for each damage on it."/>
+  </card>
+  <card id="6c456def-a38c-409c-a085-37f027e9c7b0" name="The Shadow Road" size="EncounterCard">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 24"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest. Road."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="While The Shadow Road is in the staging area, it gains: &quot;Forced: After a player optionally engages an enemy, he deals 1 damage to a character he controls.&quot;Travel: Each player deals 1 damage to a character he controls."/>
+  </card>
+  <card id="59724478-f4c5-4f9b-99bd-288dd8fc1b43" name="The Necromancer's Reach" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 24"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Deal 1 damage to each exhausted character."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack (+2 Attack instead if the defending character is damaged)."/>
+  </card>
+  <card id="05119d55-73f5-4973-ada5-d0cc73a2eb4b" name="Ravenous Spider" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 25"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After Ravenous Spider attacks and destroys a character, the defending player exhausts a character he controls."/>
+    <property name="Shadow" value="Shadow: If this attack destroys a character, exhaust a character you control."/>
+  </card>
+  <card id="763643f4-fb17-43d0-a165-ae0b0b10bc46" name="Forest Gate" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 25"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Forest Gate gets +1 $ for each enemy in the staging area."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack for each enemy engaged with you."/>
+  </card>
+  <card id="66391b37-52bb-4461-97e7-e24fd3aaa3d5" name="Nightfall" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 25"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Attach to the first player's threat dial. (Counts as a Condition attachment with the text: &quot;Forced: Raise your threat by an additional point during the refresh phase.&quot;)"/>
+  </card>
+  <card id="c37069a2-1a82-4a67-a08a-d79f5525c547" name="Venomous Spider" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 26"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After Venomous Spider attacks and damages a character, that character cannot ready until the end of the round."/>
+    <property name="Shadow" value="Shadow: Defending character cannot ready until the end of the round."/>
+  </card>
+  <card id="2108c366-c09a-4952-9920-398f8d84b5a9" name="Pitch-dark Thicket" size="EncounterCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 26"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="While Pitch-dark Thicket is in the staging area, enemies in the staging area cannot take damage."/>
+    <property name="Shadow" value="Shadow: If attacking enemy was engaged this round, it cannot take damage until the end of the round."/>
+  </card>
+  <card id="2e005552-a0a2-4a70-bd96-9d1b21601261" name="Fastness of Mirkwood" size="EncounterCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 26"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: The opposing team searches the encounter deck and discard pile for one different 0 cost location per player (limit 2) and adds them to the staging area. Shuffle the encounter deck."/>
+    <property name="Shadow" value="Shadow: If this attack destroys a character, return the active location to the staging area."/>
+  </card>
+  <card id="5c4188a5-5767-4c8c-8dfd-0b3f7c55e4a1" name="Dark Bats" size="EncounterCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 27"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="20"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="Forced: After Dark Bats attacks and damages a character, reveal the top card of the encounter deck. Then, discard Dark Bats."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack. Deal it an additional shadow card."/>
+  </card>
+  <card id="98fe6f91-977f-41a0-b7a4-a89d24836239" name="Forest Stream" size="EncounterCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Wizard's Quest 27"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest. River."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="While Forest Stream is in the staging area, it gains: &quot;Forced: At the end of the round, remove 2 progress from the main quest.&quot;Travel: Raise each player's threat by 2."/>
+  </card>
+  <card id="5f2bf8db-d56f-4353-b9be-fd25b7b0650e" name="Treacherous Fog" size="EncounterCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 27"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Weather."/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Until the end of the phase, each enemy and location in the staging area gets +2 $."/>
+    <property name="Shadow" value="Shadow: Each enemy engaged with you gets +1 Attack and +1 Defense until the end of the phase."/>
+  </card>
+  <card id="929a0f96-a029-4327-b8e5-03cb78293bdf" name="Howling Warg" size="EncounterCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Wizard's Quest 28"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Warg."/>
+    <property name="Engagement Cost" value="23"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Text" value="When Revealed: Discard the top card of the encounter deck. If that card has the Warg trait, reveal it and add it to the staging area."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Attack (+2 Attack instead if it has the the Warg trait)."/>
+  </card>
+  <card id="f75180d3-29c9-4184-85ce-8b805b9aa8c6" name="The Wargs' Glade" size="EncounterCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 28"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Text" value="While The Warg's Glade is in the staging area, the first Warg enemy revealed each round gains surge. Forced: When The Warg's Glade is explored, the opposing team searches the encounter deck and discard pile for a non-unique Warg enemy and adds it to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="c4aea786-9987-451a-8924-e63c628be505" name="Weighed Down" size="EncounterCard">
+    <property name="Card Number" value="54"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Wizard's Quest 28"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="When Revealed: Exhaust each character with an attachment. If no character is exhausted this way, Weighed Down gains surge."/>
+    <property name="Shadow" value="Shadow: Discard an attachment from the defending character."/>
+  </card>
+ </cards>
+</set>

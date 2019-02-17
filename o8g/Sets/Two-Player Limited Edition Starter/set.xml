@@ -14,6 +14,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="Response: After Aragorn commits to a quest, spend 1 resource from his resource pool to ready him."/>
   </card>
   <card id="1eb86575-d94b-444a-8739-d47945b68956" name="Gildor Inglorion">
     <property name="Card Number" value="2"/>
@@ -27,6 +28,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Action: Pay 1 resource from Gildor Inglorion`s resource pool to choose a player to draw 1 card (Limit once per round.)"/>
   </card>
   <card id="d10872b6-6ae9-4253-b035-de3ec3806ebd" name="Nori">
     <property name="Card Number" value="3"/>
@@ -40,6 +42,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="Response: After you play a Dwarf character from your hand, reduce your threat by 1."/>
   </card>
   <card id="b74a01c4-3eaf-4b75-8e0b-2e882abcffbd" name="Gandalf">
     <property name="Card Number" value="4"/>
@@ -53,6 +56,7 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="4"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="At the end of the round, discard Gandalf from play.Response: After Gandalf enters play, (choose 1): draw 3 cards, deal 4 damage to 1 enemy in play, or reduce your threat by 5."/>
   </card>
   <card id="b20bd2b6-c4b8-464d-81ed-c1285c99ae7e" name="Galadriel">
     <property name="Card Number" value="5"/>
@@ -66,6 +70,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="At the end of the round, discard Galadriel from play.Response: After you play Galadriel from your hand, search the top 5 cards of your deck for an attachment of cost 3 or less and put it into play. Put the remaining cards back in any order."/>
   </card>
   <card id="cd3420c9-feb9-4a8f-ab8f-71e7c241a920" name="Gimli">
     <property name="Card Number" value="6"/>
@@ -80,6 +85,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Response: After an enemy is revealed from the encounter deck, ready Gimli."/>
   </card>
   <card id="05419721-91bd-4851-ac95-cdc079a2c036" name="Faramir">
     <property name="Card Number" value="7"/>
@@ -93,6 +99,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Action: Exhaust Faramir to choose a player. Each character controlled by that player gets +1 Ò until the end of the phase."/>
   </card>
   <card id="99832065-8c3b-44ac-ba33-876c8798eb84" name="Arwen Undómiel">
     <property name="Card Number" value="8"/>
@@ -106,6 +113,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Arwen Undómiel exhausts, choose a character. That character gains sentinel and gets +1 Ú until the end of the round."/>
   </card>
   <card id="339bd45e-7ae8-4611-a51a-836d1c6cb729" name="Orophin">
     <property name="Card Number" value="9"/>
@@ -120,6 +128,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Orophin enters play, return a Silvan ally from your discard pile to your hand."/>
   </card>
   <card id="b1193e7c-538f-4cd4-9926-bb2c814da9b5" name="Bofur">
     <property name="Card Number" value="10"/>
@@ -133,6 +142,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Quest Action: Spend 1 Ê resource to put Bofur into play from your hand, exhausted and commited to a quest. If you quest successfully this phase and Bofur is still in play, return him to your hand."/>
   </card>
   <card id="418da080-4747-46c1-b73e-a327c5ce626f" name="Fili">
     <property name="Card Number" value="11"/>
@@ -146,6 +156,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After you play Fili from your hand during the planning phase, seach your deck for Kili and put him into play under your control. Then shuffle your deck."/>
   </card>
   <card id="65156eb7-dc07-43b9-9290-07ba4063564b" name="Kili">
     <property name="Card Number" value="12"/>
@@ -159,6 +170,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After you play Kili from your hand during the planning phase, seach your deck for Fili and put him into play under your control. Then shuffle your deck."/>
   </card>
   <card id="c6f6c059-ccf4-47e7-8682-54b17c4652b6" name="Silverlode Archer">
     <property name="Card Number" value="13"/>
@@ -185,6 +197,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After a Silvan ally you control leaves play, ready Defender of the Naith."/>
   </card>
   <card id="c3397abd-e535-422f-9e63-0a3f60670859" name="Andrath Guardsman">
     <property name="Card Number" value="15"/>
@@ -197,6 +210,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After you play Andrath Guardsman from your hand, choose a non-unique enemy engaged with you. That enemy cannot attack you this round."/>
   </card>
   <card id="5d296af4-b918-4148-9f10-fe9cc2905bce" name="Woodland Courier">
     <property name="Card Number" value="16"/>
@@ -209,6 +223,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="1"/>
+    <property name="Text" value="Response: After Woodland Courier enters play, place 1 progress on a location (2 progress instead if that location has the Forest trait."/>
   </card>
   <card id="8e3dfe7b-b5e1-483b-ba26-e7befd08e3d1" name="Naith Guide">
     <property name="Card Number" value="17"/>
@@ -221,6 +236,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="1"/>
+    <property name="Text" value="Response: After Naith Guide enters play, choose a hero. That hero does not exhaust to quest this round."/>
   </card>
   <card id="cac5c60c-81b3-4e3b-aaa7-45d3a1f5f975" name="Blue Mountain Trader">
     <property name="Card Number" value="18"/>
@@ -233,6 +249,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Action: Choose another player. That player gains control of Blue Mountain Trader. Then, the player moves 1 resource from the resource pool of a hero he controls to the resource pool of a hero you control, or Blue Mountain Trader is discarded. (Limit once per round.)"/>
   </card>
   <card id="f10202b4-9daf-4b9f-b52a-0010917f075d" name="Dwarven Sellsword">
     <property name="Card Number" value="19"/>
@@ -245,6 +262,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Forced: At the end of the round, discard Dwarven Sellsword unless the players as a group spend 1 Ì resource."/>
   </card>
   <card id="ac8089a9-6dee-4c11-8c6c-4ef528400b39" name="Celebrían's Stone">
     <property name="Card Number" value="20"/>
@@ -255,6 +273,7 @@
     <property name="Traits" value="Artifact. Item."/>
     <property name="Keywords" value="Restricted."/>
     <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to a hero.Attached hero gains +2 Ò. If attached hero is Aragorn, he also gains a Ê resource icon."/>
   </card>
   <card id="7ce49caa-c7ac-455e-b35f-217055be34ed" name="Steward of Gondor">
     <property name="Card Number" value="21"/>
@@ -264,6 +283,7 @@
     <property name="Sphere" value="Leadership"/>
     <property name="Traits" value="Gondor. Title."/>
     <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to a hero.Attached hero gains the Gondor trait.Action: Exhaust Steward of Gondor to add 2 resources to attached hero`s resource pool."/>
   </card>
   <card id="527143bf-4220-4577-a128-4316e6831e6c" name="Light of Valinor">
     <property name="Card Number" value="22"/>
@@ -273,6 +293,7 @@
     <property name="Sphere" value="Spirit"/>
     <property name="Traits" value="Condition."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a Nolder or Silvan hero.Attached hero does not exhaust to commit to a quest."/>
   </card>
   <card id="e718605c-622d-4fd5-b1a1-b9fe467f09c5" name="Unexpected Courage">
     <property name="Card Number" value="23"/>
@@ -281,6 +302,7 @@
     <property name="Sphere" value="Spirit"/>
     <property name="Traits" value="Condition."/>
     <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to a hero.Action: Exhaust Unexpected Courage to ready attached hero."/>
   </card>
   <card id="82435db6-aa5d-4626-baef-e5d39309b833" name="Ancient Mathom">
     <property name="Card Number" value="24"/>
@@ -289,6 +311,7 @@
     <property name="Sphere" value="Spirit"/>
     <property name="Traits" value="Mathom."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a location.Response: After attached location is explored, the first player draws 3 cards."/>
   </card>
   <card id="914e9832-60fb-4726-b44b-232c4b5bbead" name="Cram">
     <property name="Card Number" value="25"/>
@@ -297,6 +320,7 @@
     <property name="Sphere" value="Leadership"/>
     <property name="Traits" value="Item."/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Attach to a hero.Action: Discard Cram to ready attached hero."/>
   </card>
   <card id="d0024a2b-e3ea-44aa-a813-999b8ab754a4" name="Grim Resolve">
     <property name="Card Number" value="26"/>
@@ -304,6 +328,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="5"/>
+    <property name="Text" value="Action: Ready all characters in play."/>
   </card>
   <card id="cc5a8589-7f65-4e75-936e-9a5044ec8191" name="Sneak Attack">
     <property name="Card Number" value="27"/>
@@ -311,6 +336,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Put 1 ally card into play from your hand. At the end of the phase, if that ally is still in play, return it to your hand."/>
   </card>
   <card id="beab4f4f-86c2-4173-a60f-8243ddf8004e" name="A Test of Will">
     <property name="Card Number" value="28"/>
@@ -318,6 +344,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Spirit"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Response: Cancel the `when revealed` effects of a card that was just revealed from the encounter deck."/>
   </card>
   <card id="02a4ed01-dede-45ab-9e25-a1e3f1777fbf" name="Ever Vigilant">
     <property name="Card Number" value="29"/>
@@ -325,6 +352,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Choose and ready 1 ally card."/>
   </card>
   <card id="11ee15f1-a1c2-4fce-ab9f-54741dec8920" name="Hasty Stroke">
     <property name="Card Number" value="30"/>
@@ -332,6 +360,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Spirit"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Response: Cancel a shadow effect just triggered during combat."/>
   </card>
   <card id="02cecab1-6921-4380-8309-bfd01a21ebb9" name="Desperate Defense">
     <property name="Card Number" value="31"/>
@@ -339,6 +368,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Spirit"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Response: After a sentinel character is declared as a defender, it gets +2 Ú for this attack. If this attack deals no damage, ready the defending character."/>
   </card>
   <card id="2d0172ca-4e02-4482-a9cd-984997a83675" name="Dwarven Tomb">
     <property name="Card Number" value="32"/>
@@ -346,6 +376,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Spirit"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Return a Ê card from your discard pile to your hand."/>
   </card>
   <card id="6b5ebd2c-715c-4a9e-942f-746b712401df" name="Feigned Voices">
     <property name="Card Number" value="33"/>
@@ -353,6 +384,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Combat Action: Return a Silvan ally you control to your hand to choose an enemy engaged with a player. That enemy cannot attack that player this phase."/>
   </card>
   <card id="c3bda1bf-3f2e-4fb4-a36b-3e982123c9f9" name="Glorfindel">
     <property name="Card Number" value="34"/>
@@ -366,6 +398,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="Action: Pay 1 resource from Glorfindel`s pool to heal 1 damage on any character. (Limit once per round.)"/>
   </card>
   <card id="a511ccaf-b2c6-4e25-86ba-accd5d67b51b" name="Bifur">
     <property name="Card Number" value="35"/>
@@ -379,6 +412,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Action: Pay 1 resource from a hero`s resource pool to add 1 resource to Bifur`s resource pool. Any player may trigger this ability. (Limit once per round.)"/>
   </card>
   <card id="82a938fd-4975-4c18-ba65-7d9bea277e89" name="Thorin Stonehelm">
     <property name="Card Number" value="36"/>
@@ -392,6 +426,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="Response: After Thorin Stonehelm is declared as an attacker, discard the top card of your deck to deal 1 damage to an enemy engaged with you."/>
   </card>
   <card id="5867614b-61fc-4b7c-9a05-02c59b7cc06a" name="Gandalf">
     <property name="Card Number" value="37"/>
@@ -405,6 +440,7 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="4"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="At the end of the round, discard Gandalf from play.Response: After Gandalf enters play, (choose 1): draw 3 cards, deal 4 damage to 1 enemy in play, or reduce your threat by 5."/>
   </card>
   <card id="b35970cd-87e6-4508-a38f-bdf09f63fd49" name="Legolas">
     <property name="Card Number" value="38"/>
@@ -419,6 +455,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Response: After Legolas participates in an attack that destroys an enemy, draw 1 card."/>
   </card>
   <card id="8b29bdbd-90d0-4754-97c8-8c3510933df3" name="Haldir of Lórien">
     <property name="Card Number" value="39"/>
@@ -445,6 +482,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="3"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="At the end of the round, discard Elrond from play.Response: After Elrond enters play, choose one: heal all damage on a hero, discard a Condition attachment, or each player draws 1 card."/>
   </card>
   <card id="d88af6bd-c885-48d9-95a7-31206f04300b" name="Azain Silverbeard">
     <property name="Card Number" value="41"/>
@@ -458,6 +496,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Azain Silverbeard participates in an attack that destroys an enemy, spend 1 Ï resource to deal 2 damage to another enemy that shares a Trait with the destroyed enemy. Any player may trigger this response."/>
   </card>
   <card id="778bd9b7-ac91-4f25-a885-e99c30094d31" name="Mablung">
     <property name="Card Number" value="42"/>
@@ -471,6 +510,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Mablung enters play, choose an enemy to get +5 enagement cost until the end of the round. Then, you may engage that enemy, or return it to the staging area"/>
   </card>
   <card id="12951d4e-ad35-4103-8cb5-964cb1f7bfd2" name="Henamarth Riversong">
     <property name="Card Number" value="43"/>
@@ -484,6 +524,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="1"/>
+    <property name="Text" value="Action: Exhaust Henamarth Riversong to look at the top card of the encounter deck."/>
   </card>
   <card id="1e78eb4b-6702-4e77-872a-3a2ff9f97d0b" name="Ioreth">
     <property name="Card Number" value="44"/>
@@ -497,6 +538,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="1"/>
+    <property name="Text" value="Cannot attack or defend.Action: Spend 1 Î resource to exhaust Ioreth. Then, heal 3 points of damage from a character. Any player may trigger this action."/>
   </card>
   <card id="04632de4-a8dc-40b9-888a-29180748b48e" name="Sarn Ford Sentry">
     <property name="Card Number" value="45"/>
@@ -509,6 +551,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Sarn Ford Sentry enters play, draw 1 card for each enemy engaged with you."/>
   </card>
   <card id="7bf8b939-e73b-4801-af25-757e325666ce" name="Erebor Hammersmith">
     <property name="Card Number" value="46"/>
@@ -521,6 +564,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Response: After you play Erebor Hammersmith, return the topmost attachment in any player`s discard pile to his hand."/>
   </card>
   <card id="e1b2a7d6-605d-4787-bfa4-3a0972510cf6" name="Galadhon Archer">
     <property name="Card Number" value="47"/>
@@ -534,6 +578,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="1"/>
+    <property name="Text" value="Response: After Galadhon Archer enters play, deal 1 damage to an enemy not engaged with you."/>
   </card>
   <card id="c691690d-16ff-4aea-8639-a9655a30216c" name="Galadhrim Minstrel">
     <property name="Card Number" value="48"/>
@@ -546,6 +591,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="1"/>
+    <property name="Text" value="Response: After Galadhrim Minstrel enters play, search the top 5 cards of your deck for an event card and add it to your hand. Shuffle the other cards back into your deck."/>
   </card>
   <card id="5058f9cf-7d65-4a88-bcee-27004f6064a8" name="Defender of Rammas">
     <property name="Card Number" value="49"/>
@@ -570,6 +616,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: Discard Dúnedain Lookout to cancel the `when revealed` effects of an enemy just revealed from the encounter deck."/>
   </card>
   <card id="4b76df75-5897-482d-9a05-b4f4e9d9ca1a" name="Envoy of Pelargir">
     <property name="Card Number" value="51"/>
@@ -582,6 +629,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="1"/>
+    <property name="Text" value="Response: After Envoy of Pelargir enters play, add 1 resource to a Gondor or Noble hero`s resource pool."/>
   </card>
   <card id="581940af-2450-4484-83be-568fb4fbce69" name="Horn of Gondor">
     <property name="Card Number" value="52"/>
@@ -592,6 +640,7 @@
     <property name="Traits" value="Item. Artifact."/>
     <property name="Keywords" value="Restricted."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a hero.Response: After a character is destroyed, add 1 resource to attached hero`s pool."/>
   </card>
   <card id="60c7ba84-8d59-48c6-ab81-0639ab55a8bf" name="Elf-stone">
     <property name="Card Number" value="53"/>
@@ -601,6 +650,7 @@
     <property name="Sphere" value="Lore"/>
     <property name="Traits" value="Artifact. Item."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to the active location. Attached location gets +1 quest point.Response: After attached location leaves play as an explored location, the first player puts 1 ally into play from his hand."/>
   </card>
   <card id="90a3a467-a8a0-4394-9996-127b459deb58" name="Dwarrowdelf Axe">
     <property name="Card Number" value="54"/>
@@ -610,6 +660,7 @@
     <property name="Traits" value="Item. Weapon."/>
     <property name="Keywords" value="Restricted."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a Dwarf character.Attached hero gains +1 Û.Response: After attached character attacks, deal 1 damage to the defending character."/>
   </card>
   <card id="8b253eb0-95dc-437a-9748-6a45ad157f34" name="Blade of Gondolin">
     <property name="Card Number" value="55"/>
@@ -618,6 +669,7 @@
     <property name="Sphere" value="Tactics"/>
     <property name="Traits" value="Item. Weapon."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a hero.Attached hero gets +1 Û when attacking an Orc.Response: After attached hero attacks and destroys an enemy, place 1 progress token on the current quest."/>
   </card>
   <card id="9fa0e4f8-4abf-4552-bb46-94c4b1f0bc15" name="Lembas">
     <property name="Card Number" value="56"/>
@@ -626,6 +678,7 @@
     <property name="Sphere" value="Lore"/>
     <property name="Traits" value="Item."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Play only if you control a Noldor or Silvan hero.Attach to a hero.Action: Discard Lembas to ready attached hero and heal 3 damage from it."/>
   </card>
   <card id="ef59a40a-0014-42ae-a2d5-09701833a6f3" name="The Long Defeat">
     <property name="Card Number" value="57"/>
@@ -634,6 +687,7 @@
     <property name="Sphere" value="Lore"/>
     <property name="Traits" value="Condition."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a quest card in play. Limit 1 per quest.Response: After attached quest is defeated, each player either draws 2 cards or heals up to 5 damage from among characters he controls."/>
   </card>
   <card id="213228e9-3ec1-489c-900d-61a37d7ac7f0" name="Gildor's Counsel">
     <property name="Card Number" value="58"/>
@@ -641,6 +695,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
     <property name="Cost" value="3"/>
+    <property name="Text" value="Play during the Quest phase, before characters are commited to the Quest.Action: Reveal 1 less card from the encounter deck this phase. (To a minimum of 1.)"/>
   </card>
   <card id="f3de92eb-a5ab-4f5c-ab15-7a18df647cbb" name="Feint">
     <property name="Card Number" value="59"/>
@@ -648,6 +703,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Combat Action: Choose an enemy engaged with a player. That enemy cannot attack that player this phase."/>
   </card>
   <card id="c717de8f-8343-40be-b16c-25b7a08ebe87" name="Secret Paths">
     <property name="Card Number" value="60"/>
@@ -655,6 +711,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Quest Action: Choose a location in the staging area. Until the end of the phase, that location does not contribute its $."/>
   </card>
   <card id="73cd6d76-7d03-4519-874a-a7697b9a0ef3" name="Quick Strike">
     <property name="Card Number" value="61"/>
@@ -662,6 +719,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Exhaust a character you control to immediately declare it as an attacker (and resolve its attack) against any eligible enemy target."/>
   </card>
   <card id="86ce39b6-bd3d-42ec-8222-039c7a203eb3" name="Ancestral Knowledge">
     <property name="Card Number" value="62"/>
@@ -669,6 +727,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Exhaust a Dwarf character to place 2 progress tokens on the active location. (4 progress tokens instead if it is an Underground or Mountain location.)"/>
   </card>
   <card id="f5a08e27-4309-4672-99d5-70fae5735a4f" name="Khazâd! Khazâd!">
     <property name="Card Number" value="63"/>
@@ -676,6 +735,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Choose a Dwarf character. Until the end of the phase, that character gets +3 Û."/>
   </card>
   <card id="d8729719-5d37-48c2-9bf6-8d2c8d579901" name="Daeron's Runes">
     <property name="Card Number" value="64"/>
@@ -683,6 +743,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Draw 2 cards. Then, discard 1 card for your hand."/>
   </card>
   <card id="4aace185-c413-4d47-93f4-2aa29e0a65a4" name="Pursuing the Enemy">
     <property name="Card Number" value="65"/>
@@ -690,6 +751,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Return a Silvan ally you control to your hand to choose a player. Deal 1 damage to each enemy engaged with that player."/>
   </card>
   <card id="d80da0f8-430e-4a67-91ca-35cc9d3afe8b" name="Spiders of Mirkwood" size="EncounterCard">
     <property name="Card Number" value="66"/>
@@ -702,6 +764,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="While it is engaged with you, Spiders of Mirkwood gets +1 Û for each exhausted character you control."/>
   </card>
   <card id="84efd59f-f6f2-44c4-b995-8ad809dd25d1" name="Great Spider" size="EncounterCard">
     <property name="Card Number" value="67"/>
@@ -714,6 +777,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Forced: After Gret Spider engages you, exhaust a character you control."/>
   </card>
   <card id="21b339e8-a5e9-4491-96cc-1a4b0f1b18cb" name="The Eaves of Mirkwood" size="EncounterCard">
     <property name="Card Number" value="68"/>
@@ -723,6 +787,7 @@
     <property name="Traits" value="Forest."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="2"/>
+    <property name="Text" value="While The Eaves of Mirkwood is the active location, encounter card effects cannot be canceled."/>
   </card>
   <card id="650522ec-c2e3-4e42-be7a-e87cceccc545" name="Tangled Grove" size="EncounterCard">
     <property name="Card Number" value="69"/>
@@ -732,6 +797,7 @@
     <property name="Traits" value="Forest."/>
     <property name="Threat" value="X"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="X is the number of locations in the staging area.Travel: Each player must discard 1 random card from his hand to travel here."/>
   </card>
   <card id="96b72fe4-c42d-469d-9741-294c4da73278" name="Forest Gate" size="EncounterCard">
     <property name="Card Number" value="70"/>
@@ -741,6 +807,7 @@
     <property name="Traits" value="Forest."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Response: After you travel to Forest Gate, the first player draws 2 cards."/>
   </card>
   <card id="52e70f35-b859-494e-81d0-8be66f519a2a" name="Spider Den" size="EncounterCard">
     <property name="Card Number" value="71"/>
@@ -750,6 +817,7 @@
     <property name="Traits" value="Forest."/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Quest Action: Search the encounter deck and discard pile for a Spider enemy and put it into play engaged with you to discard Spider Den. (Any player may trigger this effect.)"/>
   </card>
   <card id="251c0ba0-a466-401e-b762-b2fef09ea96a" name="Goblin Trail" size="EncounterCard">
     <property name="Card Number" value="72"/>
@@ -760,24 +828,28 @@
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="6"/>
     <property name="Victory Points" value="3"/>
+    <property name="Text" value="Travel: Reveal the top card of the encounter deck to travel here.Response: When Goblin Trail leaves play as an explored location, place 6 progress on the current quest."/>
   </card>
   <card id="64813258-1533-420c-9fce-4d4c1f13c99d" name="Driven by Shadow" size="EncounterCard">
     <property name="Card Number" value="73"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Oath"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each enemy and each location currently in the staging area gets +1 $ until the end of the phase. If there are no cards in the staging area, Driven by Shadow gains surge."/>
   </card>
   <card id="4af27413-5674-4352-b54a-7f12c4fa0afc" name="Surprising Speed" size="EncounterCard">
     <property name="Card Number" value="74"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Oath"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player returns 1 enemy engaged with him to the staging area. If no enemy was returned to the staging area this way, Surprising Speed gains surge and doomed 1."/>
   </card>
   <card id="460b83ed-986a-496b-9b38-627c77a836e9" name="Caught in a Web" size="EncounterCard">
     <property name="Card Number" value="75"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Oath"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The player with the highest threat level attached this card to one of his heroes. (Counts as a Condition attachment with the text: `Attached hero does not ready during the refresh phase unless you pay 2 resources from that hero`s pool.`)"/>
   </card>
   <card id="998f6e45-b0d3-42c4-b5ba-fdf301401d90" name="Goblin Troop" size="EncounterCard">
     <property name="Card Number" value="76"/>
@@ -790,6 +862,7 @@
     <property name="Attack" value="5"/>
     <property name="Defense" value="3"/>
     <property name="Health" value="6"/>
+    <property name="Text" value="Cannot have attachments.While Goblin Troop is engaged with you, each other Goblin enemy engaged with you gets +1 Û and +1 Ú."/>
   </card>
   <card id="e8db9cc7-d53f-4ce9-991d-31078b2d507a" name="Goblin Sniper" size="EncounterCard">
     <property name="Card Number" value="77"/>
@@ -802,6 +875,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="During the encounter phase, players cannot optionally engage Goblin Sniper if there are other enemies in the staging area.Forced: If Goblin Sniper is in the staging area at the end of the combat phase, each player deals 1 point of damage to 1 character he controls."/>
   </card>
   <card id="acd10bf3-4af4-41f0-888f-55eb777be3d8" name="Goblin Runners" size="EncounterCard">
     <property name="Card Number" value="78"/>
@@ -827,12 +901,14 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="When Revealed: Discard the top card of each player`s deck. Until the end of the phase, increase Goblintown Savengers` $ by the total printed cost of all cards discarded in this way."/>
   </card>
   <card id="26e6135d-df1b-4221-ba45-a501858bafdf" name="Goblins are Upon You!" size="EncounterCard">
     <property name="Card Number" value="80"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Goblins"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player must search the encounter deck and discard pile for a Goblin enemy and put it into play, engaged with him. Then, shuffle the encounter deck. (This effect cannot be canceled.)"/>
   </card>
   <card id="7b3e0874-fa4e-4ffb-8614-2bb088896d42" name="Eyes in the Dark" size="EncounterCard">
     <property name="Card Number" value="81"/>
@@ -840,6 +916,7 @@
     <property name="Encounter Set" value="The Goblins"/>
     <property name="Type" value="Treachery"/>
     <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="When Revealed: Each player must choose: Either raise your threat by 1 for each questing character you control, or discard a questing character you control."/>
   </card>
   <card id="737b346c-792e-48d2-b8da-5dae52ddc902" name="Goblin Chieftain" size="EncounterCard">
     <property name="Card Number" value="82"/>
@@ -853,6 +930,7 @@
     <property name="Attack" value="X"/>
     <property name="Defense" value="X"/>
     <property name="Health" value="8"/>
+    <property name="Text" value="X is the stage number of the quest.Cannot take damage. Cannot have attachments.Forced: After Goblin Chieftain attacks, either remove X progress from the quest, or return it to the staging area."/>
   </card>
   <card id="dee08f07-580d-4229-8e56-573ef9eed6b0" name="Cracked Pillar" size="EncounterCard">
     <property name="Card Number" value="83"/>
@@ -863,6 +941,7 @@
     <property name="Traits" value="Underground."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="2"/>
+    <property name="Text" value="While Cracked Pillar is in the staging area, it gains: `The first player may declare an attack against Cracked Pillar during the combat phase as if it was an enemy engaged with him. Use Cracked Pillar`s $ as its Ú during this attack.`Travel: Remove 4 damage from Cracked Pillar to travel here."/>
   </card>
   <card id="a0b5c990-9acd-499c-befe-9a55e347f075" name="Cave Torch" size="EncounterCard">
     <property name="Card Number" value="84"/>
@@ -871,6 +950,7 @@
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Light."/>
     <property name="Keywords" value="Restricted."/>
+    <property name="Text" value="Attach to a hero.Action: Exhause Cave Torch to place up to 3 progress tokens on a Dark location.Forced: After Cave Torch exhausts, discard the top card of the encounter deck. If that card is an enemy, add it to the staging area."/>
   </card>
   <card id="dbf55659-b4ea-4a8a-82d1-20c0f2e4405e" name="Great Cave-troll" size="EncounterCard">
     <property name="Card Number" value="85"/>
@@ -883,6 +963,7 @@
     <property name="Attack" value="6"/>
     <property name="Defense" value="4"/>
     <property name="Health" value="6"/>
+    <property name="Text" value="Cannot have attachments.For each point of excess combat damage dealt by Great Cave-troll (damage that is dealt beyond the remaining hit points of the character damaged by its attack) remove 1 progress from the current quest."/>
   </card>
   <card id="8104e805-08e3-4379-acde-0a9cc96837fe" name="Cavern Warg" size="EncounterCard">
     <property name="Card Number" value="86"/>
@@ -895,6 +976,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Response: When Cavern Warg attacks you, exhaust Cave Torch to cancel the attack and return Cavern Warg to the staging area."/>
   </card>
   <card id="2c21eeec-9aa4-4278-b050-f4297426f89a" name="Goblin Tunnels" size="EncounterCard">
     <property name="Card Number" value="87"/>
@@ -904,6 +986,7 @@
     <property name="Traits" value="Underground. Dark."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="7"/>
+    <property name="Text" value="While Goblin Tunnels is in the staging area, it gains: `Forced: After a Goblin is revealed from the encounter deck, remove a progress token from the current quest card.`"/>
   </card>
   <card id="35617e02-f4ad-4e6d-af45-9b5e0b7ce682" name="Lightless Passage" size="EncounterCard">
     <property name="Card Number" value="88"/>
@@ -913,6 +996,7 @@
     <property name="Traits" value="Underground. Dark."/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Travel: Players must exhaust a Cave Torch to travel here."/>
   </card>
   <card id="d4a5f505-6cc6-4669-b9b9-8f5ad2a6e5df" name="Branching Paths" size="EncounterCard">
     <property name="Card Number" value="89"/>
@@ -922,6 +1006,7 @@
     <property name="Traits" value="Underground. Dark."/>
     <property name="Threat" value="1"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Branching Paths is in the staging area, each Dark location gets +1 $.Forced: After Branching Paths leaves play as an explored location, look at the top 3 cards of the encounter deck. Players must choose 1 of those to reveal and add to the staging area, moving the other 2 to the bottom of the deck."/>
   </card>
   <card id="21d3d814-0fa5-41a3-b0d9-3ba5163374ed" name="Collapsed Mine" size="EncounterCard">
     <property name="Card Number" value="90"/>
@@ -931,6 +1016,7 @@
     <property name="Traits" value="Underground. Dark."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="6"/>
+    <property name="Text" value="While Collapsed Mine is in the staging area, no more than 4 progress can be placed on the quest each round."/>
   </card>
   <card id="67ddffc2-652d-4892-97a6-fe2af59d4616" name="Goblin Dungeon" size="EncounterCard">
     <property name="Card Number" value="91"/>
@@ -940,24 +1026,28 @@
     <property name="Traits" value="Underground."/>
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="5"/>
+    <property name="Text" value="Travel: Reveal the top card of the encounter deck to travel here.Response: After Goblin Dungeon leaves play as an explored location, the first player searches the top 5 cards of his deck for an ally and puts it into play under his control. Shuffle the rest of the searched cards back into his deck."/>
   </card>
   <card id="ffb334eb-991d-4615-93ce-b2215a02d74f" name="Crumbling Ruin" size="EncounterCard">
     <property name="Card Number" value="92"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player must exhaust a character and discard the top card of his deck, if able. If the printed cost of the discarded card is equal to or higher than the remaining hit points of the exhausted character, discard the exhausted character."/>
   </card>
   <card id="2fb27cc8-c3f5-4172-8ff0-456907f9b111" name="Lost in the Dark" size="EncounterCard">
     <property name="Card Number" value="93"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The player who controls Cave Torch must choose: Either exhaust Cave Torch, or progress cannot be placed on the quest until the end of the phase. (Progress can still be placed on the active location.)"/>
   </card>
   <card id="5a5f72e8-0133-439f-b715-c7600b20fba9" name="Watchful Eyes" size="EncounterCard">
     <property name="Card Number" value="94"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The first player attaches Watchful Eyes to one of his heroes. (Counts as a Condition attachment with the text: `Limit 1 per hero. Forced: If attached hero is exhausted at the end of the combat phase, reveal 1 card from the encounter deck and add it to the staging area.`)"/>
   </card>
   <card id="4a6fe2e8-899b-4d4b-9b02-61516044fdc4" name="After the Raid" size="QuestCard">
     <property name="Card Number" value="95"/>
@@ -966,12 +1056,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Search the encounter deck for 1 copy of The Eaves of Mirkwood and Goblin Troop. Add The Eaves of Mirkwood to the staging area and set Goblin Troop aside, out of play. Shuffle of the encounter deck."/>
     <alternate name="After the Raid" type="B">
       <property name="Encounter Set" value="The Oath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="9"/>
+      <property name="Text" value="Setup: Search the encounter deck for 1 copy of The Eaves of Mirkwood and Goblin Troop. Add The Eaves of Mirkwood to the staging area and set Goblin Troop aside, out of play. Shuffle of the encounter deck."/>
     </alternate>
   </card>
   <card id="ebfa8c86-1f8c-4c37-adf3-75dfb7b77cef" name="Mirkwood Forest" size="QuestCard">
@@ -987,6 +1079,7 @@
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="12"/>
+      <property name="Text" value="When Revealed: Each player searches the encounter deck and discard pile for a Forest location and adds it to the staging area. Shuffle the encounter deck. This stage cannot be defeated unless at least 1 copy of Goblin Trail is in the vitory display."/>
     </alternate>
   </card>
   <card id="9bb6a890-b9d3-4528-8049-8017d9a01c4c" name="The Rearguard" size="QuestCard">
@@ -996,12 +1089,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The first player adds the set-aside Goblin Troop to the staging area. Each other player searches the encounter deck and discard pile for a Goblin enemy and adds it to the staging area."/>
     <alternate name="The Rearguard" type="B">
       <property name="Encounter Set" value="The Oath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="6"/>
+      <property name="Text" value="When Revealed: The first player adds the set-aside Goblin Troop to the staging area. Each other player searches the encounter deck and discard pile for a Goblin enemy and adds it to the staging area.This stage cannot be defeated while Goblin Troop is in play. When this stage is defeated, the heroes discover the trail to the Goblins` secret lair and the players win the game."/>
     </alternate>
   </card>
   <card id="9ebe2570-4478-45a4-af3b-5ba73a75cff9" name="The Dark of Nibin-Dûm" size="QuestCard">
@@ -1011,12 +1106,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Search the encounter deck for Goblin Chieftain, Cracked Pillar, and Cave Torch. Set Goblin Chieftain and Cracked Pillar aside, out of play. The first player attached Cave Torch to one of his heroes. Shuffle the encounter deck."/>
     <alternate name="The Dark of Nibin-Dûm" type="B">
       <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="8"/>
+      <property name="Text" value="Setup: Search the encounter deck for Goblin Chieftain, Cracked Pillar, and Cave Torch. Set Goblin Chieftain and Cracked Pillar aside, out of play. The first player attached Cave Torch to one of his heroes. Shuffle the encounter deck.When Revealed: Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck."/>
     </alternate>
   </card>
   <card id="8b1a3e3e-903f-4c4d-acf4-c216c2116339" name="Surprise Attack" size="QuestCard">
@@ -1026,12 +1123,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Add Goblin Chieftain to the staging area. Each player searches the encounter deck and discard pile for a different enemy of his choice and adds it to the staging area. Shuffle the encounter deck."/>
     <alternate name="Surprise Attack" type="B">
       <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="0"/>
+      <property name="Text" value="When Revealed: Add Goblin Chieftain to the staging area. Each player searches the encounter deck and discard pile for a different enemy of his choice and adds it to the staging area. Shuffle the encounter deck.During the encounter phase, treat each enemy`s engagement cost as if it were 0.The stage gets +4 quest points for each enemy in play."/>
     </alternate>
   </card>
   <card id="09a5cf0c-153e-4fa8-9f42-0e13ea70eb11" name="The Chasm" size="QuestCard">
@@ -1041,12 +1140,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Set Goblin Chieftain aside, out of play. Add Cracked Pillar to the staging area."/>
     <alternate name="The Chasm" type="B">
       <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="-"/>
+      <property name="Text" value="When Revealed: Set Goblin Chieftain aside, out of play. Add Cracked Pillar to the staging area.Forced: Reveal an additional encounter card during the quest phase.Progress cannot be placed on Cracked Pillar while it is in the staging area.After Cracked Pillar leaves play as an explored location, advance to stage 4A."/>
     </alternate>
   </card>
   <card id="a589eabf-64a6-4400-aa3d-ad30b4f721c3" name="Oathkeepers" size="QuestCard">
@@ -1056,12 +1157,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Add Goblin Chieftain to the staging area."/>
     <alternate name="Oathkeepers" type="B">
       <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="8"/>
+      <property name="Text" value="When Revealed: Add Goblin Chieftain to the staging area.While there are at least 8 progress tokens on this stage, Goblin Chieftain loses the text: `Cannot take damage.`This stage cannot be defeated while Goblin Chieftain is in play. When this stage is defeated, the heroes rescue the captives, fulfilling their oaths, and the players win the game!"/>
     </alternate>
   </card>
  </cards>

@@ -926,7 +926,7 @@
       <property name="Text" value="Players cannot advance from this stage unless stage 3 and stage 4 are complete.&#10;&#10;Forced: If there is no progress on this stage at the end of the round, each player must discard 1 random card from his hand."/>
     </alternate>
   </card>
-  <card id="81e81787-13b1-4bbf-a9ef-b8516deebbbc" name="Battle in the Dale" size="QuestCard">
+  <card id="81e81787-13b1-4bbf-a9ef-b8516deebbbc" name="Battle in the Dale" size="EncounterCard">
     <property name="Card Number" value="77"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Battle of Five Armies"/>

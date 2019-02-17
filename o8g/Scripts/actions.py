@@ -425,6 +425,17 @@ def deckLoaded(player, groups):
 			if shared.piles[p].controller != me:
 				shared.piles[p].setController(me)
 		rnd(1,2) # This causes OCTGN to sync the controller changes!
+
+	# Wizard's Quest and Woodland Realm
+	for p in groups:
+		for card in p:
+			# Look for the Rhosgobel or Spider Den card, which will determine that the Wizard's Quest or Woodland Realm was loaded.
+			if card.model == '1a3c69f9-c973-4e4e-aa00-435c1f615393' or card.model == '35fb5564-b4a1-4730-9e4d-65bd2e6d43c4':
+				notify("Setting up The Wizard's Quest / The Woodland Realm.")
+				setupWizardsQuest(groups)
+				update()
+				playerSetup(table, 0, 0, isPlayer, isShared)
+				return
 			
 	#Cards for the encounter deck and player deck are loaded into the discard pile because this has visibility="all"	
 	#Check for cards with a Setup effects and move other cards back into the correct pile
@@ -445,6 +456,9 @@ def deckLoaded(player, groups):
 			if card.model == 'f3bc3759-1f94-4983-bebb-66c7d9e3e0b3':
 				whisper('Setting up map.')
 				setupTotDMap(p)
+				
+
+	
 	update()
 	playerSetup(table, 0, 0, isPlayer, isShared)
 	#if automate():			<-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
@@ -1893,6 +1907,29 @@ def setupTotDMap(group):
 			# c.moveToTable(MapStartX+64*4,MapStartY+89*j)
 			# j=j+1
 
+
+
+# Wizard's Quest and Woodland Realm
+def setupWizardsQuest(groups):
+	offset = [0]*28 # Define Offsets for each of the 28 encounter sets
+	StartX = StagingStart - 64 * 3
+	StartY = StagingY - 20
+	for p in groups:
+		for card in p:
+			set = card.properties["Encounter Set"]
+			setnumstr = set[-2:] # Get last two characters from encounter set, so "Wizard's Quest 15" becomes "15"
+			if not setnumstr.isdigit(): 
+				addToTable(card)
+				continue
+			setnum = int(setnumstr) # Cast to int
+			setnum -= 1 # 0 based
+			x = StartX + 64 * (setnum % 14)
+			y = StartY + 150 * (setnum // 14) + offset[setnum]
+			offset[setnum] += 12
+			card.moveToTable(x,y)
+			
+
+	
 		
 # Reminders
 
@@ -2066,4 +2103,98 @@ def takeControlOfTargets(group=None, x=0, y=0):
 			c.setController(me)
 			c.target(False)
 	
+# The Woodland Realm / The Wizard's Quest Randomization
+twqtwr = [
+[["3b855783-5b90-4788-802e-e7c1e81461d8",1],["2be47628-65a9-4809-87aa-6251eb68b4bc",2],["473e56fe-31b8-4637-acdb-a72a7138237b",2]],
+[["3360d53e-e01b-4d22-b2e3-4e1733a4896d",1],["60057e26-14f3-468c-ba70-4b14aea7d49a",2],["10e74386-4dad-42c1-8f29-bb9e35e044a2",2]],
+[["9b01e317-82e5-4f19-9375-917607d54aed",2],["e00490c1-cab9-4f99-ad19-04f7b81e4077",1],["9adddbd0-458a-4810-b0db-502a5e125704",2]],
+[["f939f43c-51b5-4d96-9a1e-86f606c7dcc6",3],["fc45fcc9-65b1-4c1f-ac9a-e392d86d93fd",1],["df24263d-f2f9-436c-a62f-4db50e09d283",1]],
+[["14304a2f-f6f8-4f78-adc6-5ee35bc9a08e",3],["0daf7bcd-4719-48e6-948a-0230aa96d34c",1],["4cf56614-3155-4a84-85dc-74c6cef00ae3",1]],
+[["abf880a9-117c-4c23-8a29-9a152f36c4e9",1],["c2237ebe-c98f-49b1-9e6e-1e33d39f815d",3],["76ceda47-fb5e-48de-8a6d-83feda48d197",1]],
+[["c7f4c92b-e593-4c40-9ecb-64d8ab9c6368",2],["4d5a388c-d710-4663-ab96-a3a914da2a24",2],["9221e69b-0649-4585-9ee2-2dd2890531ea",1]],
+[["888e1fe6-2fc4-407d-8bb3-df2c020e1e24",2],["4b9d24ad-1ae3-4e49-a675-a27fc84c289b",2],["1e7ccc5d-2f76-4295-add4-c06da3da1516",1]],
+[["d97a8405-7c6b-4b27-a705-c165ab2c8977",2],["41928f89-4736-42f9-b789-9ea670d26639",2],["37f0bdca-11d8-40ba-97cd-bbe2b8190cd5",1]],
+[["97ee3084-5379-47da-aab0-acd5d4a540af",2],["cbf2984f-cfb8-4cc3-9d5c-fdadd4201451",2],["a8870930-554e-4e94-9188-b454e2a1158a",1]],
+[["7f03acd1-41d0-44db-9903-c6030e1548a1",2],["ef719fc5-dddd-4455-87de-96fe22e4ff1a",2],["dde0edf6-bc4d-4f21-8681-3e90098218db",1]],
+[["34a6c6ed-1dff-4264-815c-367ff47e73a6",1],["6d012dfd-07bb-40d5-8da7-2e4d9bad9bcd",2],["69c3d8f9-750a-4903-be32-588898fd766e",2]],
+[["34635348-ab17-4d00-bc6f-7ced07821168",1],["d2d31f2a-4b80-48b5-b92a-e42d254cfd49",2],["2b10aa08-31ac-4133-b613-f7fde8a2444c",2]],
+[["a4e02843-7689-484e-8e58-0b869717aeba",1],["057a8676-b610-4806-aa86-edf9b03060e8",2],["83818038-5291-4d4b-acec-1937c5b787e0",2]],
+[["9f29199a-f40a-4198-b355-4d5e75d910e2",1],["ad36bbe2-646e-4ac1-983b-e2d8a651dd0e",2],["60fe85d1-4dae-4c74-8776-424b4a306054",2]],
+[["996158ae-41aa-457e-99c4-97640796d6e0",1],["678fe922-7c1f-4270-aaec-002d916fc52a",2],["826b71a9-3f90-454a-8009-24afa9a94ec8",2]],
+[["2899ad24-ba7e-4c24-9d20-dabe8f4fce71",2],["a662bccc-025c-48dd-9c13-0eb47a91236c",1],["ad6a6843-b482-43a8-8d1f-771ac69c9ab5",2]],
+[["d801e97a-0cb8-44f0-a28f-de9546200967",1],["14a944ab-8301-4006-8e2a-d607eb614fab",3],["15e06e00-8d82-4590-b2ae-6e615330d78a",1]],
+[["a880b0ab-79d4-42b4-81b1-5ad9a8054c27",1],["e7100f6a-bdbd-4605-86e2-67d4479d227d",1],["764c89bc-d212-401f-acfa-a971cd0e5e17",2],["3f7b681f-f1c0-4771-8e7b-b6e804d0bf88",1]],
+[["79a2b4c2-7d0c-41a5-aa5f-1ec29644caab",1],["1b036c00-55cc-4538-a659-6d86aaf8ce20",1],["e7a6c9c3-9d45-478c-81e5-7811d43deb0e",3]],
+[["fd9398a9-9f4f-4134-875b-5527f3533c7d",3],["ac78aadc-9a58-42a6-a328-60dbb1e2191c",1],["e763a539-7fc8-49ab-8f8f-879070aa0e03",1]],
+[["058c4067-9b8c-4631-ae6b-6cee784e71df",2],["008bcdb1-bac6-4c45-86c5-6bcfb0bf12cc",1],["85cf554d-25c5-47f4-96bb-c11f4e764155",2]],
+[["90c7e192-2a1e-480c-96a2-7c643f0562d1",2],["0b215acb-56e1-4653-9cbf-38171c4af9c9",1],["88efb537-cea8-4c20-8b73-e51f0742f769",2]],
+[["93e61cb5-2bde-420e-aebd-79a1c4111838",2],["6c456def-a38c-409c-a085-37f027e9c7b0",1],["59724478-f4c5-4f9b-99bd-288dd8fc1b43",2]],
+[["05119d55-73f5-4973-ada5-d0cc73a2eb4b",1],["763643f4-fb17-43d0-a165-ae0b0b10bc46",2],["66391b37-52bb-4461-97e7-e24fd3aaa3d5",2]],
+[["c37069a2-1a82-4a67-a08a-d79f5525c547",2],["2108c366-c09a-4952-9920-398f8d84b5a9",2],["2e005552-a0a2-4a70-bd96-9d1b21601261",1]],
+[["5c4188a5-5767-4c8c-8dfd-0b3f7c55e4a1",2],["98fe6f91-977f-41a0-b7a4-a89d24836239",2],["5f2bf8db-d56f-4353-b9be-fd25b7b0650e",1]],
+[["929a0f96-a029-4327-b8e5-03cb78293bdf",3],["f75180d3-29c9-4184-85ce-8b805b9aa8c6",1],["c4aea786-9987-451a-8924-e63c628be505",1]]
+]
+
+def randomSubset(set, n):
+	subset = []
+	while len(subset) < n:
+		randn = rnd(0,len(set)-1)
+		if set[randn] in subset: continue
+		subset.append(set[randn])
+	return subset
 	
+
+def random7Sets(setnums):
+	for setnum in setnums:
+		notify("Choosing set {}.".format(setnum+1))
+		for guid in twqtwr[setnum]:
+			encounterDeck().create(guid[0],guid[1])
+	shuffle(encounterDeck())
+	
+def randomTWQEncounter(group=None, x=0, y=0):
+	setnums = randomSubset(range(15,28), 7)
+	random7Sets(setnums)
+
+
+def randomTWREncounter(group=None, x=0, y=0):
+	setnums = randomSubset(range(0,14), 7)
+	random7Sets(setnums)
+
+def randomTWQTWREncounter(group=None, x=0, y=0):
+	setnums = randomSubset(range(0,28), 7)
+	random7Sets(setnums)
+
+def randomTWQQuest(group=None, x=0, y=0):
+	oneA = "79666b89-ec7b-4bc8-98d9-9c517f8ca6ed"
+	twoA = ["35d72889-370e-4ee3-99c0-b7d0a605ec49","4ce7c4e4-c96c-4ee7-ae98-cfb497303cd0","b446fa27-d5f8-40e0-8985-fe15478cd79b"]
+	thrA = ["7d71a43e-a7ae-49bb-930c-437101a12d82","b717f5f9-cd1a-4852-aa1d-36acd1f8d3b1","85409c38-e188-46f7-b844-42716266ea83"]
+	loc = "1a3c69f9-c973-4e4e-aa00-435c1f615393"
+	
+	questDeck().create(oneA)
+	questDeck().create(twoA[rnd(0,2)],1)
+	questDeck().create(thrA[rnd(0,2)],1)
+	nextQuestStage()
+	
+	card = stagingSetupDeck().create(loc, 1)
+	addToStagingArea(card)
+
+def randomTWRQuest(group=None, x=0, y=0):
+	oneA = "4fd47b8b-1132-4e90-967c-b15369215025"
+	twoA = ["78689e20-d52f-4495-accc-b2cc39bb9ddc","a7280ef5-7a73-4c34-bc7e-e7aef7e4f3df","13e84f42-66ff-4abb-819d-a4b0ad088bb1"]
+	thrA = ["2e4aea1e-abb5-48c6-9f83-abbf9b6bcf72","ba4f0abd-bd8c-4b25-b045-1599e5c92ce7","35924e07-9473-4701-855a-11f69dc83185"]
+	loc = "35fb5564-b4a1-4730-9e4d-65bd2e6d43c4"
+	
+	questDeck().create(oneA)
+	questDeck().create(twoA[rnd(0,2)],1)
+	questDeck().create(thrA[rnd(0,2)],1)
+	nextQuestStage()
+	
+	card = stagingSetupDeck().create(loc, 1)
+	addToStagingArea(card)
+	
+def randomTWQTWRQuest(group=None, x=0, y=0):	
+	n = rnd(1,2)
+	if n==1:
+		randomTWQQuest()
+	else:
+		randomTWRQuest()

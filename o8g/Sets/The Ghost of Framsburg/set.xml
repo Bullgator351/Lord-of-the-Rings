@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Ghost of Framsburg" id="f709ce4b-029b-460e-883e-64dc6b870dd3" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="14638d50-b682-45f9-9ebf-da64467a16e0" name="Dain Ironfoot">
+    <property name="Card Number" value="84"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Dwarf. Noble. Warrior. "/>
+    <property name="Cost" value="11"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="83da0531-b843-425c-8386-256d4652495e" name="Soldier of Erebor">
+    <property name="Card Number" value="85"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Dwarf. Warrior. "/>
+    <property name="Cost" value="5"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="5bde9166-227c-457d-8e85-6f646d510180" name="Man the Walls">
+    <property name="Card Number" value="86"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="b8e7c8d0-45dc-43b2-ab65-7b2be14bc862" name="Mirkwood Hunter">
+    <property name="Card Number" value="87"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Woodman. Ranger. "/>
+    <property name="Keywords" value="Ranged."/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="52c36397-34c6-41a2-87a9-6e82a9cb26f1" name="Familiar Lands">
+    <property name="Card Number" value="88"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="58189608-6de5-4022-a999-e3810044aa18" name="Warrior Sword">
+    <property name="Card Number" value="89"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Item. Weapon. "/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="e386624f-09f1-4c4e-8ab6-fe8d1ab83796" name="Swift and Strong">
+    <property name="Card Number" value="90"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Song. "/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="27688d31-f8ba-4b6e-b118-a3645c7595af" name="Descendant of Girion">
+    <property name="Card Number" value="91"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Dale. "/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="fcf1b49f-12b2-4b30-b11d-4b1273440587" name="Valiant Determination">
+    <property name="Card Number" value="92"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Condition. "/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="b009dbd9-56a5-40eb-90f2-b5d71ed4a626" name="Ring of Thror">
+    <property name="Card Number" value="93"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Artifact. Ring. "/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="c3aff9c9-640f-4e90-85f3-6e245c2156fe" name="Crypt Key">
+    <property name="Card Number" value="94"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective "/>
+    <property name="Traits" value="Artifact. Item. "/>
+    <property name="Keywords" value="Loot."/>
+  </card>
+  <card id="29662c71-2f27-405c-ae5a-db519ed91f33" name="Old Lantern">
+    <property name="Card Number" value="95"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective "/>
+    <property name="Traits" value="Artifact. Item. "/>
+    <property name="Keywords" value="Loot."/>
+  </card>
+  <card id="5dbc4cec-84c9-420b-809f-088296eb4a62" name="Scatha’s Teeth">
+    <property name="Card Number" value="96"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective "/>
+    <property name="Traits" value="Artifact. Item. "/>
+    <property name="Keywords" value="Loot."/>
+  </card>
+  <card id="315c85eb-9c20-46a1-b445-e5197cd15032" name="The Cursed Tomb">
+    <property name="Card Number" value="97"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location "/>
+    <property name="Traits" value="Ruins. Dark. "/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="5"/>
+  </card>
+  <card id="f829839e-b79d-465a-8ca9-bf6af975ce7b" name="Fram’s Shade">
+    <property name="Card Number" value="98"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy "/>
+    <property name="Traits" value="Undead. Wight. Hazard. "/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+  </card>
+  <card id="36ac198d-0248-464a-8919-36f96b8e7caf" name="Crypt Stalker">
+    <property name="Card Number" value="99"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Enemy "/>
+    <property name="Traits" value="Undead. Hazard. "/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="0"/>
+    <property name="Attack" value="X"/>
+    <property name="Defense" value="X"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="62d814e4-e0cf-437b-8ee7-b26478beb721" name="Evil Spectre">
+    <property name="Card Number" value="100"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Enemy "/>
+    <property name="Traits" value="Undead. Hazard. "/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="11c67697-29da-4c76-bf89-985c2c036940" name="Forgotten Crypt">
+    <property name="Card Number" value="101"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Location "/>
+    <property name="Traits" value="Ruins. Dark. "/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+  </card>
+  <card id="8c4cc797-13e6-4ee4-a991-7ec76866418a" name="Haunted Hall">
+    <property name="Card Number" value="102"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Location "/>
+    <property name="Traits" value="Ruins. Dark. "/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="4bae8841-e3e4-4a93-b10f-8544eaab9cb3" name="Hidden Staircase">
+    <property name="Card Number" value="103"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Location "/>
+    <property name="Traits" value="Ruins. Dark. Hazard. "/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="ed7b5f3e-432b-4dd7-85f9-6dea5ff62d3d" name="Moonlit Passage">
+    <property name="Card Number" value="104"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Location "/>
+    <property name="Traits" value="Ruins. "/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="f2c22e9a-c3f6-450c-b891-98e0e5c18b6c" name="Cursed Tower">
+    <property name="Card Number" value="105"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Location "/>
+    <property name="Traits" value="Ruins. Dark. "/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="bececd5f-87dd-4141-8ecf-69e43ecc0ff4" name="Abandoned Ruins">
+    <property name="Card Number" value="106"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Treachery "/>
+  </card>
+  <card id="b5c08c5b-dd05-4139-b262-e9d5c0f29016" name="Terrible Shadows">
+    <property name="Card Number" value="107"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Treachery "/>
+    <property name="Traits" value="Hazard. "/>
+  </card>
+  <card id="f5a65abc-e3df-4d26-aeed-2a3b1effb005" name="Slammed Shut">
+    <property name="Card Number" value="108"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Treachery "/>
+    <property name="Traits" value="Hazard. "/>
+  </card>
+  <card id="9b75cef3-e5a3-4284-aff6-9a0b473fa37d" name="The Haunted Keep" size="QuestCard">
+    <property name="Card Number" value="109"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="The Haunted Keep" type="B">
+      <property name="Encounter Set" value="The Ghost of Framsburg "/>
+      <property name="Type" value="Quest "/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="A"/>
+      <property name="Quest Points" value="6"/>
+    </alternate>
+  </card>
+  <card id="48d2ea1f-449b-4af9-9f43-c70fffd66991" name="Searching the Ruins" size="QuestCard">
+    <property name="Card Number" value="110"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Ruins of Framsburg "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Searching the Ruins" type="B">
+      <property name="Encounter Set" value="The Ruins of Framsburg "/>
+      <property name="Type" value="Quest "/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="A"/>
+      <property name="Quest Points" value="12"/>
+    </alternate>
+  </card>
+  <card id="6948a0fa-e13f-4023-865f-3c8b6599c6a0" name="The Cursed Shade" size="QuestCard">
+    <property name="Card Number" value="111"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Ghost of Framsburg "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="The Cursed Shade" type="B">
+      <property name="Encounter Set" value="The Ghost of Framsburg "/>
+      <property name="Type" value="Quest "/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="A"/>
+      <property name="Quest Points" value="6"/>
+    </alternate>
+  </card>
+ </cards>
+</set>
