@@ -256,7 +256,9 @@ def activeSetupDeck():
 
 def isPlayerCard(card):
 	return card.owner in getPlayers()
-	
+
+def isEncounterCard(card):
+	return card.type in ['Enemy','Treachery','Location','Objective','Objective Ally']	
 #------------------------------------------------------------
 # Global variable manipulations function
 #------------------------------------------------------------
@@ -1558,7 +1560,9 @@ def discard(card, x=0, y=0):
 			nextQuestStage()
 		return
 
-	if isPlayerCard(card):
+	if isEncounterCard(card):
+		pile = encounterDiscard()
+	elif isPlayerCard(card):
 		pile = card.owner.piles['Discard Pile']
 	elif isSpecialCard(card):
 		pile = specialDiscard()

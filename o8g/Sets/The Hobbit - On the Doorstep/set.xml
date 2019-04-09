@@ -564,7 +564,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: Each Dragon enemy in the staging area makes an immediate attack against the player with the highest total Ò committed to the quest. (Do not deal a shadow card for this attack.)&#10;&#10;Burgle: The first player shuffles his deck and reveals the top card. He may discard 1 card from his hand that matches the revealed card's type and cost."/>
   </card>
-  <card id="db6355c7-3edd-4573-a63c-1b6fc08bb8fa" name="Dragon-Spell" size="EncounterCard">
+  <card id="db6355c7-3edd-4573-a63c-1b6fc08bb8fa" name="Dragon-Spell">
     <property name="Card Number" value="51"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Lonely Mountain"/>
@@ -926,7 +926,7 @@
       <property name="Text" value="Players cannot advance from this stage unless stage 3 and stage 4 are complete.&#10;&#10;Forced: If there is no progress on this stage at the end of the round, each player must discard 1 random card from his hand."/>
     </alternate>
   </card>
-  <card id="81e81787-13b1-4bbf-a9ef-b8516deebbbc" name="Battle in the Dale" size="EncounterCard">
+  <card id="81e81787-13b1-4bbf-a9ef-b8516deebbbc" name="Battle in the Dale" size="QuestCard">
     <property name="Card Number" value="77"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Battle of Five Armies"/>

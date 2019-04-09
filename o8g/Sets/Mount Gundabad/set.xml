@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Mount Gundabad" id="4c57e1ec-05b5-42c7-bc90-f3c6e2046885" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="3844dc9e-8235-4eda-8799-e18fe2af44d4" name="Bilbo Baggins">
+    <property name="Card Number" value="112"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Hobbit. Burglar. "/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="be817106-0e2f-4fa2-a3ca-35c0dc21671f" name="Greenwood Defender">
+    <property name="Card Number" value="113"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Silvan. "/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="f1c81942-39e6-4107-ba02-e6d0b68e15be" name="Elf Guide">
+    <property name="Card Number" value="114"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="0"/>
+  </card>
+  <card id="3ea6d276-cdff-4520-a590-9c79f57e5791" name="Gaffer Gamgee">
+    <property name="Card Number" value="115"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Hobbit. "/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+  </card>
+  <card id="3502e51b-bc7a-4e8c-81c7-dfc7b3c09cbc" name="Drinking Song">
+    <property name="Card Number" value="116"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Song. "/>
+    <property name="Cost" value="0"/>
+  </card>
+  <card id="4c23f4d0-fbf4-4c07-bb1d-0f5507647e0f" name="Sting">
+    <property name="Card Number" value="117"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Artifact. Item. Weapon. "/>
+    <property name="Cost" value="0"/>
+  </card>
+  <card id="7ebbd831-3bd6-4d40-9d86-4b0a4e85ed57" name="Round Shield">
+    <property name="Card Number" value="118"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Item. Armor. "/>
+    <property name="Cost" value="0"/>
+  </card>
+  <card id="8b68c5b5-1e86-487f-9fca-3b47ce6c6a9d" name="Erebor Toymaker">
+    <property name="Card Number" value="119"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Dwarf. Craftsman. "/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="4c77565a-475e-4f57-9360-8f0a2916607f" name="Armor of Erebor">
+    <property name="Card Number" value="120"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Item. Armor. "/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="35acc13d-fc10-458f-bacb-99f4979956ce" name="The Shirefolk">
+    <property name="Card Number" value="121"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Cost" value="0"/>
+  </card>
+  <card id="71060c15-34c0-44ad-885b-4b6c18d2962a" name="The First Forge" size="EncounterCard">
+    <property name="Card Number" value="122"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. "/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="1"/>
+  </card>
+  <card id="9d1daee2-2d6e-4d9a-87e4-b706779555d4" name="Dagnir’s Hoard" size="EncounterCard">
+    <property name="Card Number" value="123"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. "/>
+    <property name="Threat" value="7"/>
+    <property name="Quest Points" value="7"/>
+  </card>
+  <card id="ea5faa85-5a47-4ab3-a623-3f88df71f7fd" name="Throat of the Mountain" size="EncounterCard">
+    <property name="Card Number" value="124"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Dark. "/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="fe2c30ae-dd35-48de-a2c2-4886a0c0783e" name="Dagnir" size="EncounterCard">
+    <property name="Card Number" value="125"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dragon. "/>
+    <property name="Keywords" value="Indestructible. Immune to player card effects. X is 1 more than the number of quest cards in the victory display."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="0"/>
+    <property name="Attack" value="7"/>
+    <property name="Defense" value="5"/>
+    <property name="Health" value="20"/>
+  </card>
+  <card id="3cbe2fe1-e7ab-4213-85dd-fd9b6244479f" name="Guardian of Gundabad" size="EncounterCard">
+    <property name="Card Number" value="126"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin. "/>
+    <property name="Engagement Cost" value="39"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="475d31c0-45d5-4a9f-aaac-c23b93c73f03" name="Dagnir’s Slave" size="EncounterCard">
+    <property name="Card Number" value="127"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin. "/>
+    <property name="Engagement Cost" value="26"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="d3bd47e5-cf59-4097-9cec-92a15fe56bf4" name="Deep-dweller" size="EncounterCard">
+    <property name="Card Number" value="128"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Spider. "/>
+    <property name="Engagement Cost" value="32"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="a802fd4f-0a1b-440e-8648-ff44601bda2c" name="Mines of Gundabad" size="EncounterCard">
+    <property name="Card Number" value="129"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Dark. "/>
+    <property name="Keywords" value="Deep."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="f77ffb66-297c-49e0-8ed5-9cc3bd715926" name="Narrow Stair" size="EncounterCard">
+    <property name="Card Number" value="130"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. "/>
+    <property name="Keywords" value="Deep."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="34c61d95-cb2e-49c4-b85e-5d3c32b02342" name="Desecrated Ruins" size="EncounterCard">
+    <property name="Card Number" value="131"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Dark. "/>
+    <property name="Keywords" value="Deep."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="62d5807c-caef-49bd-8cbc-cb6429647fce" name="Wilderland’s Bane" size="EncounterCard">
+    <property name="Card Number" value="132"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="fd06cd6e-5741-4bd2-b50c-52052f973208" name="Suffocating Shadows" size="EncounterCard">
+    <property name="Card Number" value="133"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="8eae3ce5-c37e-4092-b91d-02c0721ffc0d" name="The Side Door">
+    <property name="Card Number" value="134"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Quest"/>
+    <alternate name="The Side Door" type="B">
+      <property name="Encounter Set" value="Mount Gundabad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+    </alternate>
+  </card>
+  <card id="044a7b39-8ef6-41c7-bb99-ce209f700b09" name="Exploring Gundabad" size="QuestCard">
+    <property name="Card Number" value="136"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="The Upper Levels" type="B">
+      <property name="Encounter Set" value="Mount Gundabad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="3"/>
+    </alternate>
+  </card>
+  <card id="5a0d35ad-e9af-48b1-8454-534753394ed2" name="Exploring Gundabad" size="QuestCard">
+    <property name="Card Number" value="137"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="The Lower Deeps" type="B">
+      <property name="Encounter Set" value="Mount Gundabad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="C"/>
+      <property name="Quest Points" value="3"/>
+    </alternate>
+  </card>
+  <card id="cf435143-655b-4a7c-ac6b-f9f61b4cba72" name="Exploring Gundabad" size="QuestCard">
+    <property name="Card Number" value="138"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Frenzied Warriors" type="B">
+      <property name="Encounter Set" value="Mount Gundabad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="D"/>
+      <property name="Quest Points" value="5"/>
+    </alternate>
+  </card>
+  <card id="b3147b4e-2a60-402f-a1aa-5d56c002326d" name="Exploring Gundabad" size="QuestCard">
+    <property name="Card Number" value="139"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Dagnir's Wrath" type="B">
+      <property name="Encounter Set" value="Mount Gundabad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="E"/>
+      <property name="Quest Points" value="7"/>
+    </alternate>
+  </card>
+  <card id="89cd149f-69d3-4d75-887d-96b45730792a" name="Exploring Gundabad" size="QuestCard">
+    <property name="Card Number" value="140"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Foreboding Darkness" type="B">
+      <property name="Encounter Set" value="Mount Gundabad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="F"/>
+      <property name="Quest Points" value="4"/>
+    </alternate>
+  </card>
+  <card id="5abd3a4b-2769-401d-aa3c-c904da21b97a" name="Exploring Gundabad" size="QuestCard">
+    <property name="Card Number" value="141"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Imminent Pursuit" type="B">
+      <property name="Encounter Set" value="Mount Gundabad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="G"/>
+      <property name="Quest Points" value="6"/>
+    </alternate>
+  </card>
+  <card id="47aada3f-9ee6-455d-8c2d-786962633f34" name="Exploring Gundabad" size="QuestCard">
+    <property name="Card Number" value="142"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Mount Gundabad "/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="The Great Worm" type="B">
+      <property name="Encounter Set" value="Mount Gundabad "/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="H"/>
+      <property name="Quest Points" value="-"/>
+    </alternate>
+  </card>
+  <card id="cfe00736-4ac0-4f51-b698-705b04eca9a4" name="Wormsbane">
+    <property name="Card Number" value="143"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Traits" value="Artifact.   Weapon.   Broken."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Wormsbane" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Type" value="Attatchment"/>
+      <property name="Traits" value="Artifact.   Weapon.   Reforged."/>
+      <property name="Keywords" value="Restricted."/>
+    </alternate>
+  </card>
+ </cards>
+</set>

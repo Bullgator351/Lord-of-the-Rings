@@ -289,7 +289,7 @@
     <property name="Victory Points" value="0"/>
     <property name="Text" value="When Revealed: Each Pine Slopes +2 $ until the end of the phase. Travel: Raise your threat by 1 for each Pine Slopes in the staging area."/>
   </card>
-  <card id="15e06e00-8d82-4590-b2ae-6e615330d78a" name="Under the Shadow">
+  <card id="15e06e00-8d82-4590-b2ae-6e615330d78a" name="Under the Shadow" size="EncounterCard">
     <property name="Card Number" value="23"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Wizard's Quest 18"/>

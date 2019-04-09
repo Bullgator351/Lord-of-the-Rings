@@ -323,7 +323,7 @@
     <property name="Text" value="While Desolate Meadow is in the staging area, it gains: &quot;Forced: After any number of time counters are removed from the current quest, heal 2 damage on each Creature enemy in play.&quot;"/>
     <property name="Shadow" value="If this attack destroys a character, remove all progress from the current quest."/>
   </card>
-  <card id="87025e60-afc4-410b-9b97-c5f527b524c8" name="Peat Bog" size="EncounterCard">
+  <card id="87025e60-afc4-410b-9b97-c5f527b524c8" name="Peat Bog">
     <property name="Card Number" value="5"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Nîn-in-Eilph - Nightmare"/>

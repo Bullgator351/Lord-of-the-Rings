@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Attack on Dol Guldur" id="237e179c-c6d0-4062-bdf7-d8cf17b5cbb1" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
  <cards>
-  <card id="0b3a7155-be2d-4fed-9674-bc696662372f" name="Assault on the Golden Wood" size="EncounterCard">
+  <card id="0b3a7155-be2d-4fed-9674-bc696662372f" name="Assault on the Golden Wood" size="QuestCard">
     <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Attack on Dol Guldur"/>
@@ -312,7 +312,7 @@
     <property name="Quest Points" value="4"/>
     <property name="Text" value="While The Sorcerer's Tower is in the staging area, it gains: &quot;The players cannot travel or place progress here unless they are at stage 3D. Forced: After a 'when revealed' effect is canceled, reveal the top card of the encounter deck.&quot;"/>
   </card>
-  <card id="617952b3-1ac2-47a2-866f-302c3f0d8fd7" name="The Shadow Road" size="EncounterCard">
+  <card id="617952b3-1ac2-47a2-866f-302c3f0d8fd7" name="The Shadow Road">
     <property name="Card Number" value="22"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Attack on Dol Guldur"/>

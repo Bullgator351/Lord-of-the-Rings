@@ -176,7 +176,7 @@
     <property name="Quest Points" value="3"/>
     <property name="Text" value="While Devil's Mirk is in the staging area, characters cannot be healed.&#10;While Devil's Mirk is the active location, each Wose enenemy gets +2 Ú."/>
   </card>
-  <card id="6c86b76e-003d-40aa-af57-bd0e6536a2f6" name="Eilenach" size="EncounterCard">
+  <card id="6c86b76e-003d-40aa-af57-bd0e6536a2f6" name="Eilenach">
     <property name="Card Number" value="6"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>
@@ -508,7 +508,7 @@
     <property name="Keywords" value="Doomed 2."/>
     <property name="Text" value="When Revealed: Each player must either take 1 hidden card for each questing hero he controls, or remove one hero he controls from the quest for each hidden card in his play area."/>
   </card>
-  <card id="812dce54-8a84-4a44-94ee-5b2cd2bf1997" name="Sudden Onslaught">
+  <card id="812dce54-8a84-4a44-94ee-5b2cd2bf1997" name="Sudden Onslaught" size="EncounterCard">
     <property name="Card Number" value="8"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Blood of Gondor - Nightmare"/>
