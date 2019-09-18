@@ -73,7 +73,7 @@
     <property name="Quantity" value="3"/>
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
-    <property name="Cost" value="2"/>
+    <property name="Cost" value="1"/>
     <property name="Text" value="Response: After a Beorning character is declared as an attacker or defender against an enemy, that enemy gets -2 Û and -2 Ú. "/>
   </card>
   <card id="27c06f1e-7be0-417e-9029-f5a71c93e3c5" name="Long Lake Fisherman">

@@ -13,6 +13,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Bilbo Baggins commits to the quest, choose an enemy in the staging area. Until the end of the phase, Bilbo Baggins gets +X Ò where X is that enemy’s $. If the players quest successfully, deal 1 damage to that enemy (2 damage instead if it is guarding a card). "/>
   </card>
   <card id="be817106-0e2f-4fa2-a3ca-35c0dc21671f" name="Greenwood Defender">
     <property name="Card Number" value="113"/>
@@ -25,6 +26,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Response: After Greenwood Defender enters play, it does not exhaust to defend until the end of the round. "/>
   </card>
   <card id="f1c81942-39e6-4107-ba02-e6d0b68e15be" name="Elf Guide">
     <property name="Card Number" value="114"/>
@@ -32,6 +34,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Return a Silvan ally you control to your hand to choose a hero. Add 1 resource to that hero’s pool. "/>
   </card>
   <card id="3ea6d276-cdff-4520-a590-9c79f57e5791" name="Gaffer Gamgee">
     <property name="Card Number" value="115"/>
@@ -45,6 +48,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="1"/>
+    <property name="Text" value="Combat Action: Return Gaffer Gamgee to your hand to choose an enemy with engagement cost higher than your threat. Until the end of the round, that enemy cannot attack you. "/>
   </card>
   <card id="3502e51b-bc7a-4e8c-81c7-dfc7b3c09cbc" name="Drinking Song">
     <property name="Card Number" value="116"/>
@@ -53,6 +57,7 @@
     <property name="Sphere" value="Lore"/>
     <property name="Traits" value="Song. "/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Count the number of cards in your hand and shuffle your hand into your deck. Then, draw an equal number of cards. Draw 1 additional card if you control a unique Hobbit character. "/>
   </card>
   <card id="4c23f4d0-fbf4-4c07-bb1d-0f5507647e0f" name="Sting">
     <property name="Card Number" value="117"/>
@@ -62,6 +67,7 @@
     <property name="Sphere" value="Tactics"/>
     <property name="Traits" value="Artifact. Item. Weapon. "/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Guarded (enemy).  Attach to a Hobbit hero. Restricted. Attached hero gets +1 Ò, +1 Û, and +1 Ú. Response: After attached hero is declared as an attacker or defender against an enemy, deal 1 damage to that enemy."/>
   </card>
   <card id="7ebbd831-3bd6-4d40-9d86-4b0a4e85ed57" name="Round Shield">
     <property name="Card Number" value="118"/>
@@ -70,6 +76,7 @@
     <property name="Sphere" value="Tactics"/>
     <property name="Traits" value="Item. Armor. "/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Attach to a character. Restricted. Response: After a shadow effect is triggered during combat, exhaust Round Shield to give attached character +2 Ú for this attack. "/>
   </card>
   <card id="8b68c5b5-1e86-487f-9fca-3b47ce6c6a9d" name="Erebor Toymaker">
     <property name="Card Number" value="119"/>
@@ -82,6 +89,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After you play Erebor Toymaker from your hand, reduce the cost of the next attachment played this phase by 2. "/>
   </card>
   <card id="4c77565a-475e-4f57-9360-8f0a2916607f" name="Armor of Erebor">
     <property name="Card Number" value="120"/>
@@ -90,6 +98,7 @@
     <property name="Sphere" value="Spirit"/>
     <property name="Traits" value="Item. Armor. "/>
     <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to a Dale or Dwarf character. Restricted. Attached character gets +1 Ú and gains sentinel. "/>
   </card>
   <card id="35acc13d-fc10-458f-bacb-99f4979956ce" name="The Shirefolk">
     <property name="Card Number" value="121"/>
@@ -97,6 +106,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Neutral"/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Play only if each of your heroes is a Hobbit. Action: Reduce your threat by 4. "/>
   </card>
   <card id="71060c15-34c0-44ad-885b-4b6c18d2962a" name="The First Forge" size="EncounterCard">
     <property name="Card Number" value="122"/>
@@ -107,6 +117,7 @@
     <property name="Traits" value="Underground. "/>
     <property name="Threat" value="1"/>
     <property name="Quest Points" value="1"/>
+    <property name="Text" value="Immune to player card effects. Forced: After The First Forge becomes the active location, exhaust the hero with Wormsbane attached. That hero cannot ready while The First Forge is the active location. Response: After The First Forge is explored, flip Wormsbane to its Reforged side and attach it to any hero. "/>
   </card>
   <card id="9d1daee2-2d6e-4d9a-87e4-b706779555d4" name="Dagnir’s Hoard" size="EncounterCard">
     <property name="Card Number" value="123"/>
@@ -117,6 +128,7 @@
     <property name="Traits" value="Underground. "/>
     <property name="Threat" value="7"/>
     <property name="Quest Points" value="7"/>
+    <property name="Text" value="Forced: When Dagnir’s Hoard is explored, Dagnir returns to the staging area and makes an immediate attack against each player in turn order. Response: After Dagnir’s Hoard is explored, each player may search his deck for an Item attachment, add it to his hand, and shuffle his deck. "/>
   </card>
   <card id="ea5faa85-5a47-4ab3-a623-3f88df71f7fd" name="Throat of the Mountain" size="EncounterCard">
     <property name="Card Number" value="124"/>
@@ -127,6 +139,7 @@
     <property name="Traits" value="Underground. Dark. "/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Response: When Throat of the Mountain is explored, search the quest deck for a quest card and make it the current main quest. Then, flip it over. Shuffle the rest of the quest deck. "/>
   </card>
   <card id="fe2c30ae-dd35-48de-a2c2-4886a0c0783e" name="Dagnir" size="EncounterCard">
     <property name="Card Number" value="125"/>
@@ -141,6 +154,7 @@
     <property name="Attack" value="7"/>
     <property name="Defense" value="5"/>
     <property name="Health" value="20"/>
+    <property name="Text" value="Cannot take more than X damage each round. While there are 5 or more quest cards in the victory display, Dagnir cannot leave the staging area and is considered to be engaged with each player. "/>
   </card>
   <card id="3cbe2fe1-e7ab-4213-85dd-fd9b6244479f" name="Guardian of Gundabad" size="EncounterCard">
     <property name="Card Number" value="126"/>
@@ -153,6 +167,8 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="While there are 3 or more quest cards in the victory display, Guardian of Gundabad gets +2 Ú. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +2 Ú until the end of the phase. "/>
   </card>
   <card id="475d31c0-45d5-4a9f-aaac-c23b93c73f03" name="Dagnir’s Slave" size="EncounterCard">
     <property name="Card Number" value="127"/>
@@ -165,6 +181,8 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Dagnir cannot take damage from non-quest effects. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1Û (+2 Û instead if Dagnir is engaged with you). "/>
   </card>
   <card id="d3bd47e5-cf59-4097-9cec-92a15fe56bf4" name="Deep-dweller" size="EncounterCard">
     <property name="Card Number" value="128"/>
@@ -177,6 +195,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="Forced: When Deep-dweller engages you, it makes an immediate attack. Forced: When Deep-dweller takes any amount of damage (and survives), return it to the staging area. "/>
   </card>
   <card id="a802fd4f-0a1b-440e-8648-ff44601bda2c" name="Mines of Gundabad" size="EncounterCard">
     <property name="Card Number" value="129"/>
@@ -187,6 +206,8 @@
     <property name="Keywords" value="Deep."/>
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="Dagnir gets –10 engagement cost. "/>
+    <property name="Shadow" value="Shadow: If attacking enemy is Dagnir, the defending player must assign X damage among characters he controls, where X is 1 more than the number of quest cards in the victory display. "/>
   </card>
   <card id="f77ffb66-297c-49e0-8ed5-9cc3bd715926" name="Narrow Stair" size="EncounterCard">
     <property name="Card Number" value="130"/>
@@ -197,6 +218,8 @@
     <property name="Keywords" value="Deep."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="When faced with the option to travel, the players must travel to Narrow Stair. "/>
+    <property name="Shadow" value="Shadow: Until the end of the round, defending character cannot be readied by player card effects. "/>
   </card>
   <card id="34c61d95-cb2e-49c4-b85e-5d3c32b02342" name="Desecrated Ruins" size="EncounterCard">
     <property name="Card Number" value="131"/>
@@ -207,30 +230,38 @@
     <property name="Keywords" value="Deep."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="While there are 3 or more quest cards in the victory display, Desecrated Ruins gets +2 $. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1Û. If this attack destroys a character, each player discards a random card from his hand. "/>
   </card>
   <card id="62d5807c-caef-49bd-8cbc-cb6429647fce" name="Wilderland’s Bane" size="EncounterCard">
     <property name="Card Number" value="132"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Mount Gundabad "/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Dagnir makes an immediate attack against each engaged player. If no attacks were made this way, Dagnir gets –30 engagement cost until the end of the round. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one. "/>
   </card>
   <card id="fd06cd6e-5741-4bd2-b50c-52052f973208" name="Suffocating Shadows" size="EncounterCard">
     <property name="Card Number" value="133"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Mount Gundabad "/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player assigns X damage among allies he controls, where X is 1 more than the number of quest cards in the victory display. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1Û (+3 Û instead if there are 3 or more quests in the victory display). "/>
   </card>
   <card id="8eae3ce5-c37e-4092-b91d-02c0721ffc0d" name="The Side Door">
     <property name="Card Number" value="134"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Mount Gundabad "/>
     <property name="Type" value="Quest"/>
+    <property name="Text" value="Setup: Add Dagnir to the staging area and set The First Forge aside, out of play. Create the Caves deck and the quest deck (see insert). Attach Wormsbane to a hero, Broken side face-up. Shuffle the encounter deck and discard cards from the top until X locations have been discarded, where X is 1 less than the number of players in the game. Add those locations to the staging area. "/>
     <alternate name="The Side Door" type="B">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="-"/>
+      <property name="Text" value="Forced: At the end of the planning phase, the first player looks at the top 2 cards of the quest deck and chooses 1 to place on the bottom of the quest deck. Then, add The Side Door to the victory display and advance to the top stage 2A of the quest deck."/>
     </alternate>
   </card>
   <card id="044a7b39-8ef6-41c7-bb99-ce209f700b09" name="Exploring Gundabad" size="QuestCard">
@@ -240,12 +271,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
     <alternate name="The Upper Levels" type="B">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="3"/>
+      <property name="Text" value="Forced: After characters are committed to the quest, raise each player's threat by 1. Forced: When this stage is defeated, shuffle The First Forge into the Caves deck. At the end of the combat phase, the players may bypass this stage."/>
     </alternate>
   </card>
   <card id="5a0d35ad-e9af-48b1-8454-534753394ed2" name="Exploring Gundabad" size="QuestCard">
@@ -255,12 +288,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
     <alternate name="The Lower Deeps" type="B">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="C"/>
       <property name="Quest Points" value="3"/>
+      <property name="Text" value="The 'when revealed' effects of the first treachery revealed each round cannot be canceled. Forced: When this stage is defeated, search the Caves deck for a location and make it the active location. Shuffle the Caves deck. At the end of the combat phase, the players may bypass this stage."/>
     </alternate>
   </card>
   <card id="cf435143-655b-4a7c-ac6b-f9f61b4cba72" name="Exploring Gundabad" size="QuestCard">
@@ -270,12 +305,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
     <alternate name="Frenzied Warriors" type="B">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="D"/>
       <property name="Quest Points" value="5"/>
+      <property name="Text" value="Forced: After characters are committed to the quest, discard the top 5 cards of the encounter deck. Add a random enemy discarded this way to the staging area. Forced: When this stage is defeated, reduce each player's threat by 5. At the end of the combat phase, the players may bypass this stage."/>
     </alternate>
   </card>
   <card id="b3147b4e-2a60-402f-a1aa-5d56c002326d" name="Exploring Gundabad" size="QuestCard">
@@ -285,12 +322,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
     <alternate name="Dagnir's Wrath" type="B">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="E"/>
       <property name="Quest Points" value="7"/>
+      <property name="Text" value="Forced: After characters are committed to the quest, Dagnir makes an immediate attack against each player with 6 or more characters. Forced: When this stage is defeated, deal 5 damage to Dagnir. This damage is not limited by Dagnir's text, and does not count toward her X value. At the end of the combat phase, the players may bypass this stage."/>
     </alternate>
   </card>
   <card id="89cd149f-69d3-4d75-887d-96b45730792a" name="Exploring Gundabad" size="QuestCard">
@@ -300,12 +339,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
     <alternate name="Foreboding Darkness" type="B">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="F"/>
       <property name="Quest Points" value="4"/>
+      <property name="Text" value="Each player cannot play more than 1 card each phase. Forced: When this stage is defeated, the first player looks at the top 2 cards of the quest deck and chooses 1 to place on the bottom of the quest deck. Then, flip over the top card of the quest deck. At the end of the combat phase, the players may bypass this stage."/>
     </alternate>
   </card>
   <card id="5abd3a4b-2769-401d-aa3c-c904da21b97a" name="Exploring Gundabad" size="QuestCard">
@@ -315,12 +356,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
     <alternate name="Imminent Pursuit" type="B">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="G"/>
       <property name="Quest Points" value="6"/>
+      <property name="Text" value="Forced: After characters are committed to the quest, each player must deal 2 damage to a questing character he controls. Forced: When this stage is defeated, discard a non-unique enemy from play. At the end of the combat phase, the players may bypass this stage."/>
     </alternate>
   </card>
   <card id="47aada3f-9ee6-455d-8c2d-786962633f34" name="Exploring Gundabad" size="QuestCard">
@@ -330,12 +373,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
     <alternate name="The Great Worm" type="B">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="H"/>
       <property name="Quest Points" value="-"/>
+      <property name="Text" value="Dagnir gets -5 engagement cost for each character the first player controls. Response: After a player resolve an attack against Dagnir, if Dagnir has no hit points remaining, that player may discard a Reforged Wormsbane he controls to add Dagnir to the victory display. Then, the players win the game. At the end of the combat phase, if there are 4 or fewer quests in the victory display, the players must bypass this stage."/>
     </alternate>
   </card>
   <card id="cfe00736-4ac0-4f51-b698-705b04eca9a4" name="Wormsbane">
@@ -347,11 +392,13 @@
     <property name="Keywords" value="Restricted."/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Attach to a hero. Attached hero gets +1 Û. If attached hero leaves play, the players lose the game."/>
     <alternate name="Wormsbane" type="B">
       <property name="Encounter Set" value=""/>
       <property name="Type" value="Attatchment"/>
       <property name="Traits" value="Artifact.   Weapon.   Reforged."/>
       <property name="Keywords" value="Restricted."/>
+      <property name="Text" value="Attach to a hero. Attached hero gets +X Û, where X is 1 more than the number of quest cards in the victory display. If attached hero leaves play, the players lose the game."/>
     </alternate>
   </card>
  </cards>

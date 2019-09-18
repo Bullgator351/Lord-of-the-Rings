@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Fate of Wilderland" id="88ede21b-3408-4c38-a842-8311d27f7e27" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="e94cf08b-30d1-433c-92ae-c5de5a049638" name="Radagast">
+    <property name="Card Number" value="145"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Istari."/>
+    <property name="Cost" value="11"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="You may use resources from Radagast’s pool to pay for Creature allies of any sphere. Response: After you play a Creature card, Radagast does not exhaust to quest this round. "/>
+  </card>
+  <card id="a8a39702-3d19-4cfc-8a42-6b59a7d8b844" name="Messenger Raven">
+    <property name="Card Number" value="146"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="Cannot attack, defend, or have attachments. Refresh Action: Return Messenger Raven to its owner’s hand and name a card type. Choose a player to look at the top card of his deck. If that card is the named type, add it to its owner’s hand. If it’s not, discard it. "/>
+  </card>
+  <card id="477fcead-808a-4a2a-971b-cbd600e166bb" name="The King’s Return">
+    <property name="Card Number" value="147"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Song."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Search your deck for a Guarded attachment and put it into play. Shuffle your deck. "/>
+  </card>
+  <card id="4c3a2153-b5f4-40de-b74b-5594bf3bffa7" name="Loyal Hound">
+    <property name="Card Number" value="148"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Cannot have attachments. Response: Discard Loyal Hound to cancel up to 2 damage just dealt to a hero you control. "/>
+  </card>
+  <card id="3c70ec5c-8f05-4ed3-a162-98649fead7bc" name="The Great Hunt">
+    <property name="Card Number" value="149"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="You must use resources from 3 different heroes’ pools to pay for this card. Combat Action: Choose and discard a non-unique enemy in the staging area. "/>
+  </card>
+  <card id="a18f96a5-09b5-4db2-9a3b-6bb6b8d80314" name="Bywater Shirriff">
+    <property name="Card Number" value="150"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Hobbit. Shirriff."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Bywater Shirriff gets +1 Ò, +1 Û, and +1 Ú while you are engaged with an enemy with engagement cost higher than your threat. "/>
+  </card>
+  <card id="8f1cedc5-bca5-4594-bc01-73caae4a5083" name="Gwaihir’s Debt">
+    <property name="Card Number" value="151"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Play only if you control a unique character with the Istari trait and another unique character with the Eagle trait. Action: Search the top 5 cards of your deck for an Eagle or Istari ally and put it into play. Shuffle your deck. At the end of the round, if that ally is still in play, return it to your hand. "/>
+  </card>
+  <card id="7ac14902-ae05-43ca-b9db-2b56bf55219d" name="Mirthril Shirt">
+    <property name="Card Number" value="152"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Artifact. Item. Armor."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Guarded (location). Attach to a hero.  Response: When attached hero is dealt any amount of damage, reduce that amount by 1. "/>
+  </card>
+  <card id="18f0d0d0-b60b-4f9b-9153-75f3f6e82081" name="Reforged">
+    <property name="Card Number" value="153"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="X"/>
+    <property name="Text" value="Action: Choose an attachment with a printed cost of X in any player’s discard pile and play that attachment for no cost. (The chosen attachment can belong to any sphere of influence.) "/>
+  </card>
+  <card id="9d072a19-45ee-444f-baad-e5d47097aee7" name="Radagast’s Staff">
+    <property name="Card Number" value="154"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Artifact. Item. Staff."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to Radagast. Action: Exhaust Radagast’s Staff to choose one: Reduce the cost of the next Creature ally you play this phase by 2, ready a Creature ally, or return a non-unique Creature enemy engaged with you to the staging area. "/>
+  </card>
+  <card id="aeb2f711-4597-42c1-af8c-eb7d6f4fa79a" name="The Goblins’ Assault" size="EncounterCard">
+    <property name="Card Number" value="155"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Assault."/>
+    <property name="Text" value="Urdug gets +2 Ú for each other enemy in play and cannot be dealt damage unless he has resolved an attack this phase. Forced: After the players quest unsuccessfully, place 1 progress here for each player in the game. "/>
+  </card>
+  <card id="7f9cf578-980e-43af-995f-27a84fd54a01" name="The Heroes’ Defense" size="EncounterCard">
+    <property name="Card Number" value="156"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Defense."/>
+    <property name="Text" value="While there are X or more resources on The Heroes’ Defense, Urdug is considered to be engaged with each player. X is five times the number of players. Response: After an enemy is destroyed, place 1 resource here. "/>
+  </card>
+  <card id="315ed83a-1dae-421f-b5ba-1bcb5cd6c2a7" name="Urdug" size="EncounterCard">
+    <property name="Card Number" value="157"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Immune to player card effects. Cannot leave the staging area. Forced: When Urdug attacks, discard the top card of the encounter deck. He gets +X Û for this attack, where X is the discarded card’s printed $. When Urdug is destroyed, the players win the game. "/>
+  </card>
+  <card id="3b26d048-24cb-4978-86f9-d255048426d8" name="Urdug’s Elite" size="EncounterCard">
+    <property name="Card Number" value="158"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="25"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Forced: After Urdug’s Elite engages you, either exhaust a character you control, or palce 1 progress on The Goblins’ Assault. "/>
+    <property name="Shadow" value="Shadow: Exhaust a character you control.  "/>
+  </card>
+  <card id="3f8273a2-f64c-407c-97fb-4a4ef0bddb0b" name="Fierce Vanguard" size="EncounterCard">
+    <property name="Card Number" value="159"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin.  "/>
+    <property name="Engagement Cost" value="20"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: After Fierce Vanguard engages you, either it gets +2 Û until the end of the round, or place 1 progress on The Goblins’ Assault. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +2 Û and +2 Ú until the end of the phase. "/>
+  </card>
+  <card id="4abe9f52-1e56-479a-a59f-c3f7075ec493" name="Warg-rider" size="EncounterCard">
+    <property name="Card Number" value="160"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Text" value="Threat Threshold:  Threat: 3 Attack: 4 Defense: 1 Hit Points: 4  Orc. Goblin.  Forced: After Warg-rider is dealt a shadow card with no effect, either return it to the staging area or place 1 progress on The Goblins’ Assault. "/>
+  </card>
+  <card id="98461b3e-54c4-4eb9-9172-616c9bebb0f6" name="Gate of Gundabad" size="EncounterCard">
+    <property name="Card Number" value="161"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mountain. Gate."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="Immune to player card effects. While Gate of Gundabad is in the staging area, resources cannot be placed on The Heroes’ Defense. Travel: Search the encounter deck, discard pile, and victory display for a Goblin Troop and add it to the staging area. Shuffle the encounter deck. "/>
+  </card>
+  <card id="f7117e07-e8d2-4e7d-a5c3-5dd0f1c0d455" name="Hilltop Battlements" size="EncounterCard">
+    <property name="Card Number" value="162"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mountain. Fortification."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Hilltop Battlements is in the staging area, each non-unique enemy gets –5 engagement cost. Forced: When Hilltop Battlements is explored, discard the top X cards of the encounter deck, where X is the number of players in the game. Add each enemy discarded by this effect to the staging area. "/>
+  </card>
+  <card id="7d71aa09-badb-4ba8-9d08-597a8d814020" name="Dwarven Watchtower" size="EncounterCard">
+    <property name="Card Number" value="163"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mountain. Fortification."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Dwarven Watchtower is the active location, each hero gets +1 Ú. Response: After Dwarven Watchtower is explored, the first player chooses: either place 1 resource on The Heroes’ Defense, or remove 1 progress from The Goblins’ Assault. "/>
+  </card>
+  <card id="882952c5-c3a7-43aa-91d2-8a130b300d5f" name="Slopes of Gundabad" size="EncounterCard">
+    <property name="Card Number" value="164"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Mountain."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="When Revealed: Either place 1 progress on The Goblins’ Assault, or reveal an additional encounter card. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy cannot take damage this phase. "/>
+  </card>
+  <card id="c2d8cd64-a1dc-4bf2-9e61-0336170e73af" name="Fierce Attack" size="EncounterCard">
+    <property name="Card Number" value="165"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="Doomed 1. When Revealed: Place X progress on The Goblins’ Assault, where X is the stage number of the main quest. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +X Û, where X is the stage number of the main quest. "/>
+  </card>
+  <card id="5775b97c-4047-4dc2-b148-b852bad4f9bb" name="Urdug’s Command" size="EncounterCard">
+    <property name="Card Number" value="166"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Urdug makes an immediate attack against the first player. If this attack destroys a character, place 1 progress on The Goblins’ Assault. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. If this attack destroys a character, place 1 progress on The Goblins’ Assault. "/>
+  </card>
+  <card id="c5e9ef20-a88f-40fb-861f-c44de8e12bd9" name="Dark Clouds" size="EncounterCard">
+    <property name="Card Number" value="167"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each enemy and each location in the staging area gets +1 $ until the end of the phase. If the players quest unsuccessfully this phase, place 1 progress on The Goblins’ Assault. "/>
+    <property name="Shadow" value="Shadow: Discard a non-objective attachment you control. "/>
+  </card>
+  <card id="99ab7a92-0e3e-4ec2-9a40-0f467920879d" name="Urdug’s Assault" size="QuestCard">
+    <property name="Card Number" value="168"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Add The Goblins’ Assault, The Heroes’ Defense, and Urdug to the staging area. Shuffle the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players in the game. Add those enemies to the staging area."/>
+    <alternate name="Urdug’s Assault" type="B">
+      <property name="Encounter Set" value="The Fate of Wilderland"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="Forced: At the end of the round, place 1 progress on The Goblins’ Assault for each enemy in the staging area. Then, if there is X or more progress on The Goblins’ Assault, advance. X is equal to 2, plus 2 per player. "/>
+    </alternate>
+  </card>
+  <card id="d90a8977-78e1-445d-b57d-a13e0e98f450" name="Outflanked" size="QuestCard">
+    <property name="Card Number" value="169"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players in the game. Add those enemies to the staging area."/>
+    <alternate name="Outflanked" type="B">
+      <property name="Encounter Set" value="The Fate of Wilderland"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="Forced: After an enemy attacks, place 1 progress on The Goblins’ Assault.&#10;Forced: At the end of the round, if there is X or more progress on The Goblins’ Assault, advance. X is equal to 4, plus 4 per player. "/>
+    </alternate>
+  </card>
+  <card id="0fffdddc-d9f9-498a-9669-e840304ebb9b" name="The Final Push" size="QuestCard">
+    <property name="Card Number" value="170"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fate of Wilderland"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players in the game. Add those enemies to the staging area."/>
+    <alternate name="The Final Push" type="B">
+      <property name="Encounter Set" value="The Fate of Wilderland"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="Forced: At the end of the round, place 1 progress on The Goblins’ Assault for each enemy in play. Then, if there is X or more progress on The Goblins’ Assault, the players lose the game. X is equal to 8, plus 8 per player. "/>
+    </alternate>
+  </card>
+ </cards>
+</set>

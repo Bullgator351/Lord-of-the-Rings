@@ -729,7 +729,7 @@
     <property name="Text" value="Forced: After Uruk-hai Fighter attacks and destroys a character, return it to the staging area."/>
     <property name="Shadow" value="Shadow: Discard a non-objective attachment you control."/>
   </card>
-  <card id="f28dc579-14b5-4623-848a-0a9383162b4c" name="Fighting Uruk-hai" size="EncounterCard">
+  <card id="f28dc579-14b5-4623-848a-0a9383162b4c" name="Fighting Uruk-hai">
     <property name="Card Number" value="65"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Orcs of the White Hand"/>

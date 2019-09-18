@@ -178,7 +178,7 @@
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Response: After attached hero declares an attack, add Black Arrow to the victory display to give attached hero +5 Û for this attack."/>
   </card>
-  <card id="f4490261-317e-4e9e-9440-a5c58dcddcbf" name="Thror's Key">
+  <card id="f4490261-317e-4e9e-9440-a5c58dcddcbf" name="Thror's Key" size="EncounterCard">
     <property name="Card Number" value="16"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
@@ -564,7 +564,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: Each Dragon enemy in the staging area makes an immediate attack against the player with the highest total Ò committed to the quest. (Do not deal a shadow card for this attack.)&#10;&#10;Burgle: The first player shuffles his deck and reveals the top card. He may discard 1 card from his hand that matches the revealed card's type and cost."/>
   </card>
-  <card id="db6355c7-3edd-4573-a63c-1b6fc08bb8fa" name="Dragon-Spell">
+  <card id="db6355c7-3edd-4573-a63c-1b6fc08bb8fa" name="Dragon-Spell" size="EncounterCard">
     <property name="Card Number" value="51"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Lonely Mountain"/>

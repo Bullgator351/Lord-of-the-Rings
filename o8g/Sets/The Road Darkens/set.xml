@@ -1037,7 +1037,7 @@
     <property name="Text" value="When Revealed: Either move 1 enemy engaged with you to the first player's staging area, or Growing Threat gains doomed 2 and surge."/>
     <property name="Shadow" value="Shadow: After this attack, move attacking enemy to the first player's staging area."/>
   </card>
-  <card id="87539fa5-677d-4163-aff5-321841981cd4" name="Orcs of the White Hand" size="EncounterCard">
+  <card id="87539fa5-677d-4163-aff5-321841981cd4" name="Orcs of the White Hand">
     <property name="Card Number" value="81"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Breaking of the Fellowship"/>

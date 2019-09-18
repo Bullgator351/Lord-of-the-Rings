@@ -729,13 +729,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="0"/>
     <property name="Text" value="Setup: Set Shagrat aside, out of play. Add The Two Watchers (location side faceup) and Topmost Chamber to the staging area. The first player loses control of the Ring-bearer, places it faceup under Topmost Chamber as a guarded objective. Then, the first player attaches Last of the Company to a hero he controls and attaches The One Ring to that hero."/>
     <alternate name="Pass the Two Watchers" type="B">
       <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
       <property name="Text" value="Each non-unique location gets -1 $ and cannot leave the staging area. While The Two Watchers is in the staging area (enemy side faceup), it is considered to be engaged with each player. This stage cannot be defeated while The Two Watchers is in play. "/>
     </alternate>
   </card>
@@ -746,13 +746,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="18"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards until X enemies are discarded, where X is the number of players in the game. Add each enemy discarded by this effect to the staging area."/>
     <alternate name="Fighting in the Tower" type="B">
       <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="18"/>
       <property name="Text" value="Forced: At the beginning of the quest phase, discard cards from the top of the encounter deck until an enemy is discarded. If there is a copy of that enemy in the staging area, discard that copy as well. If there is not, add the discarded enemy to the staging area.&#10;This stage cannot be defeated unless Topmost Chamber is in the victory display. When the Ring-bearer is free of encounters, the first player gains control of it. "/>
     </alternate>
   </card>
@@ -763,13 +763,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="12"/>
     <property name="Text" value="When Revealed: Add Last of the Company to the victory display. Attach The One Ring to the Ring-bearer and exhaust the Ring-bearer. The first player moves The Two Watchers from the victory display to the staging area (location side faceup). Each other player reveals an encounter card."/>
     <alternate name="Escape from Cirith Ungol" type="B">
       <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="12"/>
       <property name="Text" value="The players cannot travel to The Two Watchers unless there is at least 12 progress on this stage.&#10;While The Two Watchers is in the staging area (enemy side faceup), it gets +3 [Threat] and +3 [Defense] and is considered to be engaged with each player.&#10;This stage cannot be defeated while The Two Watchers is in play. If this stage is defeated, the players win the game. "/>
     </alternate>
   </card>
@@ -816,13 +816,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="0"/>
     <property name="Text" value="Setup: Add The Black Gate and The Mouth of Sauron to the staging area. Set Gwaihir aside, out of play. Shuffle the encounter deck."/>
     <alternate name="Embassy from The Dark Tower" type="B">
       <property name="Encounter Set" value="The Black Gate Opens"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
       <property name="Text" value="Dire. When Revealed: In player order, each player places the top card of his deck faceup in front of him until there are a total of 4 faceup player cards between the players. Place the top 4 cards of the encounter deck faceup. Starting with the highest cost player card, pair each player card with the highest threat encounter card remaining until there are 4 pairs. For each pair, the first player must choose: either discard both cards in that pair, or reveal the encounter card to play the player card at no cost.&#10;"/>
     </alternate>
   </card>
@@ -833,13 +833,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="0"/>
     <property name="Text" value="Dire When Revealed: Each player searches the encounter deck and discard pile for a different Orc, Troll, or Nazgul enemy to the staging area. Shuffle Gwaihir into the encounter deck."/>
     <alternate name="The Battle of the Morannon" type="B">
       <property name="Encounter Set" value="The Black Gate Opens"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
       <property name="Text" value="Dire. During the staging step, the first player does not reveal an encounter card as normal. Instead, he reveals 1 encounter card for each resource on The Black Gate.&#10;Forced: After the players quest unsuccessfully, discard the active location. &#10;This stage cannot be defeated. Each round the players survive gives the Ring-bearer more time to fulfill the quest to Mount Doom. "/>
     </alternate>
   </card>
@@ -862,13 +862,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="4"/>
     <property name="Text" value="Setup: Add Mount Doom and The Tower of Barad-dur to the staging area. Make Brake of Thorns the active location. Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck."/>
     <alternate name="The Land of Mordor" type="B">
       <property name="Encounter Set" value="Mount Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="4"/>
       <property name="Text" value="Dire. This stage gets +4 quest points for each player.&#10;The first treachery revealed each quest phase is immune to player card effects and gains surge. "/>
     </alternate>
   </card>
@@ -879,13 +879,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="0"/>
     <property name="Text" value="Dire. When Revealed: Search the encounter deck, discard pile, and victory display for Mordor Road and add it to the staging area. Shuffle the encounter discard pile into the encounter deck and travel to Mordor Road."/>
     <alternate name="The Road to Isenmouthe" type="B">
       <property name="Encounter Set" value="Mount Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
       <property name="Text" value="Dire. Forced: After placing progress here from questing successfully, each player makes a fortitude test. If a player passes this test, he places a resource here. If a player fails this test, he discards cards from the top of the encounter deck until an enemy is discarded and puts that enemy into play engaged with him. At the end of the quest phase, if the number of resources here is equal to or greater than the number of players, advance to stage 3A."/>
     </alternate>
   </card>
@@ -896,13 +896,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="20"/>
     <property name="Text" value="Dire. When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X locations are discarded, where X is the number of players in the game. Add each location discarded this way to the staging area."/>
     <alternate name="The Last Gasp" type="B">
       <property name="Encounter Set" value="Mount Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
       <property name="Text" value="Dire. The first treachery revealed each quest phase is immune to player card effects and gains surge. Forced: At the beginning of the quest phase, the first player makes a Fortitude test. If the first player fails this test, no more than 5 progress can be placed here this round. This stage cannot be defeated unless Mount Doom is the active location."/>
     </alternate>
   </card>
@@ -913,13 +913,13 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Quest Points" value="0"/>
     <property name="Text" value="Dire. When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area."/>
     <alternate name="The Crack of Doom" type="B">
       <property name="Encounter Set" value="Mount Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
       <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
       <property name="Text" value="Dire. Allies cannot enter play and ‘when revealed’ effects cannot be canceled. Forced: When Mount Doom is explored, the first player makes a Fortitude test. Discard 1 extra encounter card for each player. If the first player fails this test, the Ring-bearer claims The One Ring for himself and the players lose the game. If the test is successful, the Ring-bearer completes his quest and the players win the game."/>
     </alternate>
   </card>

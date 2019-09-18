@@ -1165,7 +1165,11 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 		hobbits = 0
 		mirlonde = False
 		folco = False
-		for card in me.hand:
+		thurindir = False
+		for card in me.hand:			
+			if card.Type == "Contract":
+				card.moveToTable(heroX(id, heroCount), HeroY)
+				heroCount += 1
 			if card.Type == "Hero":
 				card.moveToTable(heroX(id, heroCount), HeroY)
 				heroCount += 1
@@ -1175,6 +1179,8 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 					mirlonde = True
 				if card.Name == 'Folco Boffin':
 					folco = True
+				if card.Name == 'Thurindir':
+					thurindir = True
 				if card.Sphere == 'Lore':
 					lore += 1
 				if 'Hobbit' in card.Traits:
@@ -1183,12 +1189,37 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 			me.counters['Threat_Level'].value -= lore
 		if folco:
 			me.counters['Threat_Level'].value -= hobbits
+		
+		drawStartingHand = True
+		# The One Ring
+		masterCards = []
+		for card in me.deck:
+			if card.Name == 'The One Ring':
+				card.moveToTable(heroX(id, heroCount), HeroY)
+				heroCount += 1
+				for card in me.deck:
+					if 'Master.' in card.Traits and card.Name not in masterCards:
+						card.moveToTable(heroX(id, heroCount), HeroY)
+						heroCount += 1
+						masterCards.append(card.Name)
+		if len(masterCards) > 1: drawStartingHand = False # Need to decide first
+				
+		# Thurindir
+		sideQuests = []
+		if thurindir:
+			for card in me.deck:
+				if card.Type == 'Side Quest' and card.Name not in sideQuests:
+					card.moveToTable(heroX(id, heroCount), HeroY)
+					heroCount += 1
+					sideQuests.append(card.Name)
+		if len(sideQuests) > 1: drawStartingHand = False # Need to decide first
+		
 			
 		if newHero:		
 			notify("{} places his Heroes on the table and sets his starting Threat to {}".format(me,me.counters['Threat_Level'].value))
 			if len(me.hand) == 0:
 				shuffle(me.deck)
-				drawMany(me.deck, shared.HandSize)
+				if drawStartingHand: drawMany(me.deck, shared.HandSize)
 			if len(getPlayers()) > 1 and getFirstPlayerID() == playerID(me): #Put the first player token onto the table
 				x, y = firstHero(me).position
 				c = moveFirstPlayerToken(x, y+Spacing)
@@ -2202,3 +2233,23 @@ def randomTWQTWRQuest(group=None, x=0, y=0):
 		randomTWQQuest()
 	else:
 		randomTWRQuest()
+
+def drinkingSongNoHobbit(group, x = 0, y = 0):
+	mute()
+	handsize = len(group)
+	for card in group:
+		card.moveToBottom(me.deck)
+	shuffle(me.deck)
+	for card in me.deck.top(handsize):
+		card.moveTo(me.hand)
+	notify("{} draws {} new cards.".format(me, shared.HandSize))
+	
+def drinkingSongWithHobbit(group, x = 0, y = 0):
+	mute()
+	handsize = len(group)
+	for card in group:
+		card.moveToBottom(me.deck)
+	shuffle(me.deck)
+	for card in me.deck.top(handsize+1):
+		card.moveTo(me.hand)
+	notify("{} draws {} new cards.".format(me, shared.HandSize))

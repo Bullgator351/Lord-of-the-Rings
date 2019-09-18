@@ -13,6 +13,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="3"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="While Dain Ironfoot is defending, he gains: “Action: Discard the top card of your deck to give Dain Ironfoot +1 Ú for this attack. (Limit 3 times per phase.)” "/>
   </card>
   <card id="83da0531-b843-425c-8386-256d4652495e" name="Soldier of Erebor">
     <property name="Card Number" value="85"/>
@@ -25,6 +26,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="3"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Action: Discard the top 3 cards of your deck to ready Soldier of Erebor. (Limit once per round.) "/>
   </card>
   <card id="5bde9166-227c-457d-8e85-6f646d510180" name="Man the Walls">
     <property name="Card Number" value="86"/>
@@ -32,6 +34,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Play only if no other copies of Man the Walls have been played this round. Planning Action: Reduce the cost of the first ally played by each player this phase by 1. Those allies cannot quest this round. "/>
   </card>
   <card id="b8e7c8d0-45dc-43b2-ab65-7b2be14bc862" name="Mirkwood Hunter">
     <property name="Card Number" value="87"/>
@@ -45,6 +48,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Reduce the cost to play Mirkwood Hunter by 1 for each attachment on the active location. "/>
   </card>
   <card id="52c36397-34c6-41a2-87a9-6e82a9cb26f1" name="Familiar Lands">
     <property name="Card Number" value="88"/>
@@ -52,6 +56,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Lore"/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Each location with a player card attachment gets -2 $ until the end of the phase. "/>
   </card>
   <card id="58189608-6de5-4022-a999-e3810044aa18" name="Warrior Sword">
     <property name="Card Number" value="89"/>
@@ -60,6 +65,7 @@
     <property name="Sphere" value="Tactics"/>
     <property name="Traits" value="Item. Weapon. "/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a Ï or Warrior character. Restricted. Limit 1 per character. Attached character gets +1 Û for each enemy engaged with you. (Limit +3 Û.) "/>
   </card>
   <card id="e386624f-09f1-4c4e-8ab6-fe8d1ab83796" name="Swift and Strong">
     <property name="Card Number" value="90"/>
@@ -68,6 +74,7 @@
     <property name="Sphere" value="Tactics"/>
     <property name="Traits" value="Song. "/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Response: After a character you control attacks and destroys an enemy, exhaust a Weapon attached to that character to ready that character and give it +2 Û for its next attack this phase. "/>
   </card>
   <card id="27688d31-f8ba-4b6e-b118-a3645c7595af" name="Descendant of Girion">
     <property name="Card Number" value="91"/>
@@ -80,6 +87,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Reduce the cost to play Item attachments on Descendant of Girion by 1. "/>
   </card>
   <card id="fcf1b49f-12b2-4b30-b11d-4b1273440587" name="Valiant Determination">
     <property name="Card Number" value="92"/>
@@ -88,6 +96,7 @@
     <property name="Sphere" value="Spirit"/>
     <property name="Traits" value="Condition. "/>
     <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to an ally. Attached ally does not exhaust to quest. "/>
   </card>
   <card id="b009dbd9-56a5-40eb-90f2-b5d71ed4a626" name="Ring of Thror">
     <property name="Card Number" value="93"/>
@@ -97,6 +106,7 @@
     <property name="Sphere" value="Neutral"/>
     <property name="Traits" value="Artifact. Ring. "/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Guarded (enemy or location). Attach to a Dwarf hero.  Action: Exhaust Ring of Thror and discard the top card of your deck to ready attached hero. If the discarded card is an attachment, put it into play. "/>
   </card>
   <card id="c3aff9c9-640f-4e90-85f3-6e245c2156fe" name="Crypt Key" size="EncounterCard">
     <property name="Card Number" value="94"/>
@@ -106,6 +116,7 @@
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Artifact. Item. "/>
     <property name="Keywords" value="Loot."/>
+    <property name="Text" value="If unattached, the first player claims Crypt Key and attaches it to a hero he controls. Response: When the players travel to a Discover location, exhaust Crypt Key to either increase or decrease its Discover value by 1 before resolving it. "/>
   </card>
   <card id="29662c71-2f27-405c-ae5a-db519ed91f33" name="Old Lantern" size="EncounterCard">
     <property name="Card Number" value="95"/>
@@ -115,6 +126,7 @@
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Artifact. Item. "/>
     <property name="Keywords" value="Loot."/>
+    <property name="Text" value="If unattached, the first player claims Old Lantern and attaches it to a hero he controls. Action: Exhaust Old Lantern to choose a player to look at the top X cards of his deck, where X is the Discover value of the active location. He adds one of those cards to his hand and places the rest on the bottom of his deck. "/>
   </card>
   <card id="5dbc4cec-84c9-420b-809f-088296eb4a62" name="Scatha’s Teeth" size="EncounterCard">
     <property name="Card Number" value="96"/>
@@ -124,6 +136,7 @@
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Artifact. Item. "/>
     <property name="Keywords" value="Loot."/>
+    <property name="Text" value="If unattached, the first player claims Scatha’s Teeth and attaches it to a hero he controls. Action: Exhaust Scatha’s Teeth and attached hero to choose a player. That player reduces his threat by 2. "/>
   </card>
   <card id="315c85eb-9c20-46a1-b445-e5197cd15032" name="The Cursed Tomb" size="EncounterCard">
     <property name="Card Number" value="97"/>
@@ -134,6 +147,7 @@
     <property name="Traits" value="Ruins. Dark. "/>
     <property name="Threat" value="5"/>
     <property name="Quest Points" value="5"/>
+    <property name="Text" value="Immune to player card effects. The players cannot travel to The Cursed Tomb unless they control 3 Loot objectives. Forced: After the player travel to The Cursed Tomb, search the encounter deck and discard pile for Fram’s Shade and add it to the staging area. Shuffle the encounter deck. Fram’s Shade makes an immediate attack against each player in turn order. "/>
   </card>
   <card id="f829839e-b79d-465a-8ca9-bf6af975ce7b" name="Fram’s Shade" size="EncounterCard">
     <property name="Card Number" value="98"/>
@@ -147,6 +161,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="3"/>
     <property name="Health" value="6"/>
+    <property name="Text" value="Cannot have non-objective attachments. Fram’s Shade gets +1 $, +1 Û, and +1 Ú for each Loot objective the players control. When Fram’s Shade is dealt shadow cards, deal it a number of shadow cards equal to the number of Loot objectives the players control (to a minimum of 1). "/>
   </card>
   <card id="36ac198d-0248-464a-8919-36f96b8e7caf" name="Crypt Stalker" size="EncounterCard">
     <property name="Card Number" value="99"/>
@@ -159,6 +174,8 @@
     <property name="Attack" value="X"/>
     <property name="Defense" value="X"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="X is the tens digit of the first player’s threat. Forced: When Crypt Stalker attacks, raise the defending player’s threat by 1. "/>
+    <property name="Shadow" value="Shadow: Either raise your threat by 2, or return attacking enemy to the staging area. "/>
   </card>
   <card id="62d814e4-e0cf-437b-8ee7-b26478beb721" name="Evil Spectre" size="EncounterCard">
     <property name="Card Number" value="100"/>
@@ -171,6 +188,8 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="Forced: When Evil Spectre is destroyed, shuffle it back into the encounter deck if the active location has the Dark trait. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+2 Û instead if the active location has the Dark trait.) "/>
   </card>
   <card id="11c67697-29da-4c76-bf89-985c2c036940" name="Forgotten Crypt" size="EncounterCard">
     <property name="Card Number" value="101"/>
@@ -180,6 +199,7 @@
     <property name="Traits" value="Ruins. Dark. "/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="2"/>
+    <property name="Text" value="Immune to player card effects. Forced: After Forgotten Crypt becomes the active location, discard cards from the encounter deck until an Undead enemy is discarded and add it to the staging area. Then, attach a Loot objective in the encounter discard pile to that enemy as a guarded objective. "/>
   </card>
   <card id="8c4cc797-13e6-4ee4-a991-7ec76866418a" name="Haunted Hall" size="EncounterCard">
     <property name="Card Number" value="102"/>
@@ -189,6 +209,7 @@
     <property name="Traits" value="Ruins. Dark. "/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Discover 4. While Dark Hall is in the staging area, it gains, “Forced: After a player places any amount of progress on a Dark location in the staging area, he raises his threat by 1.” "/>
   </card>
   <card id="4bae8841-e3e4-4a93-b10f-8544eaab9cb3" name="Hidden Staircase" size="EncounterCard">
     <property name="Card Number" value="103"/>
@@ -198,6 +219,7 @@
     <property name="Traits" value="Ruins. Dark. Hazard. "/>
     <property name="Threat" value="0"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Discover X.  X is the tens digit of the first player’s threat. Forced: After resolving the Discover keyword on Hidden Staircase, reduce each player’s threat by X if no Hazard cards were revealed by it. "/>
   </card>
   <card id="ed7b5f3e-432b-4dd7-85f9-6dea5ff62d3d" name="Moonlit Passage" size="EncounterCard">
     <property name="Card Number" value="104"/>
@@ -207,6 +229,7 @@
     <property name="Traits" value="Ruins. "/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Discover 2. While Moonlit Passage is in the staging area, each player’s threat cannot be reduced by more than 1 via player card effects each round."/>
   </card>
   <card id="f2c22e9a-c3f6-450c-b891-98e0e5c18b6c" name="Cursed Tower" size="EncounterCard">
     <property name="Card Number" value="105"/>
@@ -216,12 +239,16 @@
     <property name="Traits" value="Ruins. Dark. "/>
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="Discover 3. While Cursed Tower is in the staging area, it gains: “Forced: After a player plays an event, raise his threat by 1.” "/>
+    <property name="Shadow" value="Shadow: Discard a non-objective attachment you control. "/>
   </card>
   <card id="bececd5f-87dd-4141-8ecf-69e43ecc0ff4" name="Abandoned Ruins" size="EncounterCard">
     <property name="Card Number" value="106"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Ghost of Framsburg "/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player resolves the Discover keyword of the active location in turn order. If they cannot, Abandoned Ruins gains surge and doomed 2. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one. "/>
   </card>
   <card id="b5c08c5b-dd05-4139-b262-e9d5c0f29016" name="Terrible Shadows" size="EncounterCard">
     <property name="Card Number" value="107"/>
@@ -229,6 +256,8 @@
     <property name="Encounter Set" value="The Ghost of Framsburg "/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Hazard. "/>
+    <property name="Text" value="When Revealed: Each character gets –1 Ò, –1 Û, and –1 Ú until the end of the round. "/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. If this attack destroys a character, raise the defending player’s threat by 3. "/>
   </card>
   <card id="f5a65abc-e3df-4d26-aeed-2a3b1effb005" name="Slammed Shut" size="EncounterCard">
     <property name="Card Number" value="108"/>
@@ -236,6 +265,7 @@
     <property name="Encounter Set" value="The Ghost of Framsburg "/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Hazard. "/>
+    <property name="Text" value="Doomed 1. When Revealed: Each player chooses an exhausts a character he controls. Until the end of the round, characters cannot be readied by player card effects. "/>
   </card>
   <card id="9b75cef3-e5a3-4284-aff6-9a0b473fa37d" name="The Haunted Keep" size="QuestCard">
     <property name="Card Number" value="109"/>
@@ -244,12 +274,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Set The Cursed Tomb aside, out of play. Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck."/>
     <alternate name="The Haunted Keep" type="B">
       <property name="Encounter Set" value="The Ghost of Framsburg "/>
       <property name="Type" value="Quest "/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="A"/>
       <property name="Quest Points" value="6"/>
+      <property name="Text" value="This stage cannot be defeated unless the players control at least 1 Loot objective. "/>
     </alternate>
   </card>
   <card id="48d2ea1f-449b-4af9-9f43-c70fffd66991" name="Searching the Ruins" size="QuestCard">
@@ -259,12 +291,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. Then, each player reveals an encounter card."/>
     <alternate name="Searching the Ruins" type="B">
       <property name="Encounter Set" value="The Ruins of Framsburg "/>
       <property name="Type" value="Quest "/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="A"/>
       <property name="Quest Points" value="12"/>
+      <property name="Text" value="Forced: At the beginning of the quest phase, the first player must choose: either raise each player’s threat by 2, or discard cards from the top of the encounter deck until a location is discarded and adds that location to the staging area.&#10;This stage cannot be defeated unless the players control at least 2 Loot objectives. "/>
     </alternate>
   </card>
   <card id="6948a0fa-e13f-4023-865f-3c8b6599c6a0" name="The Cursed Shade" size="QuestCard">
@@ -274,12 +308,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The first player adds The Cursed Tomb to the staging area. Each other player searches the encounter deck and discard pile for a non-unique Undead enemy and adds it to the staging area. Shuffle the encounter deck."/>
     <alternate name="The Cursed Shade" type="B">
       <property name="Encounter Set" value="The Ghost of Framsburg "/>
       <property name="Type" value="Quest "/>
       <property name="Cost" value="3"/>
       <property name="Engagement Cost" value="A"/>
       <property name="Quest Points" value="6"/>
+      <property name="Text" value="Fram’s Shade is immune to player card effects.&#10;While The Cursed Tomb is in the victory display, Fram’s Shade gains victory 6.&#10;This stage cannot be defeated unless Fram’s Shade is in the victory display. When the players defeat this stage, they win the game. "/>
     </alternate>
   </card>
  </cards>

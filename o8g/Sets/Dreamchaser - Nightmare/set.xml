@@ -302,5 +302,384 @@
     <property name="Text" value="When Revealed: Attach to the active location. (Counts as a Condition attachment with the text: &quot;Forced: After you travel from attached location to the right, deal 2 damage to each exhausted character.&quot;)"/>
     <property name="Shadow" value="Attacking enemy makes an additional attack after this one."/>
   </card>
+  <card id="ad1fbfb1-a45a-474a-bf30-eb5c9e642d16" name="The Drowned Ruins">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Begin with the standard quest deck and encounter deck for The Drowned Ruins scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;1x Cursed Caverns / Twisting Hollow&#10;1x Undersea Grotto / Dark Abyss&#10;2x Throngs of Unfaithful&#10;2x Soulless Cadaver&#10;2x Drowned Cave&#10;3x Into the Abyss&#10;1x Tangling and Grasping&#10;2x Sea-scorpion&#10;2x Cave Eel&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard The Drowned Ruins encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
+    <alternate name="The Drowned Ruins" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Text" value="You are playing Nightmare mode.&#10;While the active location is Underwater, encounter card effects cannot be cancelled.&#10;Forced: When the 'when revealed' effect on stage 2A resolves, Captain Sahír makes an immediate attack against each player in turn order, instead of only the first player."/>
+    </alternate>
+  </card>
+  <card id="cec23012-fe4a-4c06-a3de-3123e2986d59" name="Overgrown Passage" size="EncounterCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Grotto."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Overgrown Passage is the active location, heroes cannot gain resources.&#10;Response: After you travel to Overgrown Passage, you may flip it to its Underwater side."/>
+    <alternate name="Jagged Cavern" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground. Underwater."/>
+      <property name="Threat" value="6"/>
+      <property name="Quest Points" value="8"/>
+      <property name="Victory Points" value="2"/>
+      <property name="Text" value="While Jagged Cavern is the active location, the first treachery card revealed each round gains doomed 1 and surge.&#10;Forced: If Jagged Cavern is the active location at the end of the quest phase, each player must discard each card in his or her hand. Then, you may flip Jagged Cavern to its Grotto side."/>
+    </alternate>
+  </card>
+  <card id="cfb44b9d-0865-45ed-948d-3b28c36b9d61" name="Overgrown Passage" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Grotto."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Overgrown Passage is the active location, heroes cannot gain resources.&#10;Response: After you travel to Overgrown Passage, you may flip it to its Underwater side."/>
+    <alternate name="Submerged Crawlway" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground. Underwater."/>
+      <property name="Threat" value="2"/>
+      <property name="Quest Points" value="16"/>
+      <property name="Victory Points" value="2"/>
+      <property name="Text" value="While Submerged Crawlway is the active location, deal each engaged enemy 1 additional shadow card at the beginning of the combat phase.&#10;Forced: If Submerged Crawlway is the active location at the end of the quest phase, each player must search the encounter deck and discard pile for an enemy and add it to the staging area. Then, you may flip Submerged Crawlway to its Grotto side."/>
+    </alternate>
+  </card>
+  <card id="8b906fda-69b7-461f-bfb2-2e50ced157a6" name="Sharp Precipice" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Grotto."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="Forced: When faced with the option to travel, if you do not choose to travel to a location named Sharp Precipice, you must raise each player's threat by 3.&#10;Forced: After you travel to Sharp Precipice, flip it to its Underwater side."/>
+    <alternate name="Jagged Cavern" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground. Underwater."/>
+      <property name="Threat" value="6"/>
+      <property name="Quest Points" value="8"/>
+      <property name="Victory Points" value="2"/>
+      <property name="Text" value="While Jagged Cavern is the active location, the first treachery card revealed each round gains doomed 1 and surge.&#10;Forced: If Jagged Cavern is the active location at the end of the quest phase, each player must discard each card in his or her hand. Then, you may flip Jagged Cavern to its Grotto side."/>
+    </alternate>
+  </card>
+  <card id="b9835b1a-609d-4cec-87e8-dd524b5685a8" name="Sharp Precipice" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Grotto."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="Forced: When faced with the option to travel, if you do not choose to travel to a location named Sharp Precipice, you must raise each player's threat by 3.&#10;Forced: After you travel to Sharp Precipice, flip it to its Underwater side."/>
+    <alternate name="Submerged Crawlway" type="B">
+      <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground. Underwater."/>
+      <property name="Threat" value="2"/>
+      <property name="Quest Points" value="16"/>
+      <property name="Victory Points" value="2"/>
+      <property name="Text" value="While Submerged Crawlway is the active location, deal each engaged enemy 1 additional shadow card at the beginning of the combat phase.&#10;Forced: If Submerged Crawlway is the active location at the end of the quest phase, each player must search the encounter deck and discard pile for an enemy and add it to the staging area. Then, you may flip Submerged Crawlway to its Grotto side."/>
+    </alternate>
+  </card>
+  <card id="08e743d7-0613-4863-b977-763b68256183" name="Submerged Dead" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Engagement Cost" value="26"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="When Revealed: If the active location is Underwater, return each other Submerged Dead in the encounter discard pile to the staging area."/>
+    <property name="Shadow" value="Shadow: If the active location is Underwater, put Submerged Dead into play in the staging area."/>
+  </card>
+  <card id="18b0c2b8-c88d-4621-a7a9-583b7c00cc67" name="Great Shark" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Great Shark gets +1 $, +1 Û, and +1 Ú for each Underwater location in the victory display. &#10;Great Shark cannot be engaged or damaged unless the active location is Underwater.&#10;Forced: At the beginning of the encounter phase, return Great Shark to the staging area unless the active location is Underwater."/>
+  </card>
+  <card id="70907f02-3a93-4292-ad21-e736d08232be" name="Undersea Cave Troll" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="7"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="10"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="For each point of excess damage dealt by Undersea Cave Troll (damage that is dealt beyond the remaining hit points of the character damaged by this attack) discard 1 resource from one of your objective-allies or from one of your heroes' resource pools."/>
+  </card>
+  <card id="9fd0166e-dd9b-46a8-830a-b3a1a9fe84db" name="Flooded Caverns" size="EncounterCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground. Underwater."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="If Flooded Caverns is in the staging area and the active location is Underwater, add that location's $ to the $ of Flooded Caverns.&#10;Forced: If Flooded Caverns is the active location at the end of the quest phase, return an Underwater location from the victory display to the bottom of the Grotto deck, Grotto side faceup. Then, return Flooded Caverns to the staging area."/>
+  </card>
+  <card id="dfc6d0c9-0ea2-40ac-b883-6be2a5f4b36b" name="Pit into the Depths" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="When Revealed: Until the end of the quest phase, each ally gets -1 Ò. If the active location has the Grotto trait, remove all progress from it and flip it to its Underwater side."/>
+    <property name="Shadow" value="Shadow: If the active location is Underwater, treat this attack as if it were undefended."/>
+  </card>
+  <card id="8093af80-f939-49cc-a8be-b54a454e2a55" name="Sulfur Cloud" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Drowned Ruins - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="When Revealed: If the active location is Underwater, choose a number and raise each player's threat by that number. No more than X progress may be placed on Underwater locations this phase, where X is twice the chosen number. If the active location is not Underwater, Sulfur Cloud gains surge."/>
+  </card>
+  <card id="b029e7a4-d2a1-4cc8-ba60-6a6244e8a48f" name="A Storm on Cobas Haven">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Begin with the standard quest deck and encounter deck for A Storm on Cobas Haven scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;2x Belfalas Islet&#10;2x Cobas Haven&#10;2x Fog Bank&#10;2x Corsair Skirmisher&#10;1x Ramming Speed!&#10;2x Corsair Infiltrator&#10;1x Cunning Pirate&#10;1x Umbar Raider&#10;Then, shuffle the encounter cards in this Nightmare Deck into the remainder of the standard A Storm on Cobas Haven encounter deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin.&#10;¹*: Some cards in the A Storm on Cobas Haven Nightmare Deck have Sailing success symbols (¹) with an asterisk (*) next to them. This indicates that the card has a Forced effect which will trigger when the card is discarded during a sailing test."/>
+    <alternate name="A Storm on Cobas Haven" type="B">
+      <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Text" value="You are playing Nightmare mode.&#10;Setup: When choosing a Dol Amroth objective to put into play during setup, players must choose randomly among all 6 Dol Amroth objectives.&#10;Raider Flagship cannot guard objectives.&#10;While any player is engaged with Raider Flagship, no more than 5 progress can be placed on the current quest each round.&#10;&#10;And in the morning the banner of Dol Amroth, a white ship like a swan upon blue water, floated from the Tower...&#10;-The Return of the King"/>
+    </alternate>
+  </card>
+  <card id="43c0ac02-4d9b-416e-978c-b00897654220" name="Aearlang" size="EncounterCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Dol Amroth. Besieged."/>
+    <property name="Keywords" value="Guarded."/>
+    <property name="Text" value="If Aearlang is free of encounters, add it to the staging area, controlled by the players.&#10;Action: Exhaust Aearlang to ready a hero. Any player may trigger this action. "/>
+  </card>
+  <card id="877f5f1e-133b-4d23-883d-9938cd07ba3b" name="Docks of Dol Amroth" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Dol Amroth. Besieged."/>
+    <property name="Keywords" value="Guarded."/>
+    <property name="Victory Points" value="¹"/>
+    <property name="Text" value="If Docks of Dol Amroth is free of encounters, add it to the staging area, controlled by the players.&#10;Action: Exhaust Docks of Dol Amroth to heal 2 damage from a Ship objective. Any player may trigger this action. "/>
+  </card>
+  <card id="53cbbb3d-ec71-49f2-b9e1-07eb1cd87a7b" name="Ramming Ship" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Cannot have attachments."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+    <property name="Text" value="Forced: After Ramming Ship engages you, it gets +4 Û until the end of the round."/>
+    <property name="Shadow" value="Shadow: Put the top card of the Corsair deck into play engaged with you and deal it a shadow card."/>
+  </card>
+  <card id="049298a9-9232-43f3-8c63-2b5598143812" name="Fang of Sahír" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair."/>
+    <property name="Engagement Cost" value="42"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: When Fang of Sahír engages you, either deal 3 damage to a Ship objective you control, or Fang of Sahír makes an immediate attack."/>
+  </card>
+  <card id="c5c142e5-ab8a-416c-a82d-fd7e1d12df1b" name="City Under Siege" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Coastland. Ocean."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="While City Under Siege is in the staging area, it gains archery 2, and damage from the archery keyword must be applied to Ship objectives."/>
+    <property name="Shadow" value="Shadow: If attacking enemy is guarding an objective, return it to the staging area after this attack."/>
+  </card>
+  <card id="f7d92d48-16a4-4460-a0d7-d1cf2737d10a" name="Sea-wall" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Coastland. Ocean."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="Sea-wall gets +2 $ and +2 quest points for each objective guarded by an encounter card."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û for each objective guarded by an encounter card."/>
+  </card>
+  <card id="1cd6ee90-545a-4e41-b1bc-24b2b6b1d512" name="War-torn Waters" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Coastland. Ocean."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While War-torn Waters is in the staging area, it gains: &quot;Forced: At the end of the quest phase, if War-torn Waters is not guarding an objective and there is an unguarded objective in the staging area, attach War-torn Waters to that objective, guarding it.&quot;&#10;Travel: Deal 2 damage to each Ship objective to travel here."/>
+  </card>
+  <card id="7fa155cf-ba79-40de-b0eb-a80cefa2b48b" name="Broken Rudder" size="EncounterCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Attach to a Ship objective (Counts as a Condition attachment with the text: &quot;During sailing tests, for each ¹ symbol found, cancel it unless you deal 1 damage to attached objective. Action: Exhaust 3 characters you control to discard Broken Rudder.&quot;)&#10;*Forced: After this Sailing test ends, attach Broken Rudder to a Ship objective committed to that test."/>
+  </card>
+  <card id="44668bf1-b1cb-4d39-8ed9-71a5cb9c3a9c" name="Grappled!" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="A Storm on Cobas Haven - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Attach to a Ship objective. (Counts as a Condition attachment with the text: &quot;Attached objective cannot ready. Action: Exhaust 3 characters you control to discard Grappled!&quot;)"/>
+    <property name="Shadow" value="Shadow: If defending character is a Ship, attach Grappled! to it."/>
+  </card>
+  <card id="b4b93598-b2f1-4a7c-84df-32fe5a58ccc4" name="The City of Corsairs">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Nightmare"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Begin with the standard quest deck and encounter deck for The City of Corsairs scenario.&#10;Remove the following cards, in the specified quantities, from the standard encounter deck:&#10;2x Corsair Infiltrator&#10;2x Fog Bank&#10;2x Starlit Sea&#10;2x Scouting Ship&#10;2x Serpent's Tail&#10;1x Streets of Umbar&#10;During setup, players are instructed to set The City of Corsairs encounter set aside, out of play. After doing so, shuffle the encounter cards in this Nightmare Deck that have The City of Corsairs encounter set icon into the set aside The City of Corsairs encounter set icon. Then, use the encounter cards in this Nightmare Deck that have the Coast of Umbar encounter set icon to build the standard encounter deck and Corsair deck.&#10;Finally, flip this setup card over and place it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin.&#10;¹*: Some cards in The City of Corsairs Nightmare Deck have Sailing success symbols (¹) with an asterisk (*) next to them. This indicates that the card has a Forced effect which will trigger when the card is discarded during a sailing test."/>
+    <alternate name="The City of Corsairs" type="B">
+      <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+      <property name="Type" value="Nightmare"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Text" value="You are playing Nightmare mode.&#10;Forced: When the 'when revealed' effect on stage 2B resolves, also search the encounter deck and discard pile for each copy of Umbar Bridge and each copy of Inspiring Fury and shuffle them into the second encounter deck.&#10;Forced: When the 'when revealed' effect on Stage 3A resolves, also search the encounter deck for The Cursed Sword and attach it to the set-aside Captain Sahír."/>
+    </alternate>
+  </card>
+  <card id="89b9eb6d-21a5-463b-b80a-586b531e56de" name="Patrol Ship" size="EncounterCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Boarding 2."/>
+    <property name="Engagement Cost" value="41"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="7"/>
+    <property name="Text" value="Forced: After you shift your heading on-course, Patrol Ship gets -40 engagement cost this round.&#10;*Forced: After Patrol Ship is discarded from the encounter deck during a Sailing test, cancel all ¹ symbols found unless you add it to the staging area."/>
+  </card>
+  <card id="ac878445-4c48-46b3-8664-c8572b2f93f2" name="Corsair Loyalist" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. "/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="While Corsair Loyalist has 4 or more resources on it, its attacks are considered to be undefended."/>
+    <property name="Shadow" value="Shadow: If attacking enemy is a Raider, either add 2 resources to attacking enemy, or attacking enemy makes an additonal attack after this one."/>
+  </card>
+  <card id="6eea3254-9a47-494b-a19c-6a9efb7fc793" name="Walls of Umbar" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Ocean. Coastland."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Walls of Umbar is in the staging area, it gains: &quot;Forced: After a player commits an ally to a Sailing test, raise his or her threat by 1.&quot;&#10;*Forced: After Walls of Umbar is discarded from the encounter deck during a Sailing test, raise each player's threat by 1 for each ally he or she committed to that test."/>
+  </card>
+  <card id="d583f6a7-c86f-47c9-aa75-f17f3befbdfd" name="Umbar Bridge" size="EncounterCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Umbar. Coastland."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="While Umbar Bridge is in the staging area, cancel the first X progress that would be placed on the current quest each round, where X is the highest number of resources on a Raider enemy in play.&#10;Travel: Reduce the engagement cost of each Corsair enemy to 0 until the end of the round."/>
+  </card>
+  <card id="d4e0a9cb-6739-457c-9ce7-ca06c27183d3" name="Inspiring Fury" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="When Revaled: Deal Inspiring Fury to the enemy with the highest Û, as a shadow card."/>
+    <property name="Shadow" value="Shadow: Shuffle the encounter discard pile into the encounter deck and deal attacking enemy 3 additional shadow cards. During this attack, shadow effects cannot be canceled."/>
+  </card>
+  <card id="8d546f2d-2296-4d52-b8f0-5803be8d9b84" name="The Cursed Sword" size="EncounterCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Artifact. Item. Cursed."/>
+    <property name="Keywords" value="Cannot be discarded by player card effects."/>
+    <property name="Text" value="The Cursen Sword counts as a Weapon attachment with the text: &quot;Forced: After Captain Sahír attacks and deals excess damage, assign that excess damage to Captain Sahír as resources. (Limit once per round.)&quot;"/>
+  </card>
+  <card id="60d839a5-7b1c-4ad7-b2dd-f7344b97d7fb" name="Umbar Patrol" size="EncounterCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair."/>
+    <property name="Engagement Cost" value="48"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Forced: At the end of the encounter phase, if Umbar Patrol is in the staging area, add 2 resources to the Raider enemy with the most resources on it."/>
+    <property name="Shadow" value="Shadow: Add 1 resource to each Raider enemy engaged with you."/>
+  </card>
+  <card id="d76823ec-0216-42cc-aa40-8c6b284c62e1" name="Raise the Alarm!" size="EncounterCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Discard cards from the top of the encounter deck until a Raider enemy is discarded. Add that enemy to the staging area and place 3 resources on it."/>
+    <property name="Shadow" value="Shadow: If attacking enemy is a Raider, after this attack ends, add 1 resource to attacking enemy for each damage dealt by this attack."/>
+  </card>
+  <card id="260708f2-17f2-4ffc-b7e3-43806d5c842f" name="Slave Trade" size="EncounterCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The City of Corsairs - Nightmare"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player deals 2 damage to an ally he or she controls. For each ally destroyed by this effect, place resources on a Raider enemy in play equal to that ally's resource cost."/>
+    <property name="Shadow" value="Shadow: Discard an attachment you control. If attacking enemy is a Raider, add resources to it equal to that attachment's printed cost."/>
+  </card>
  </cards>
 </set>
