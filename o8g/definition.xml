@@ -2,10 +2,10 @@
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	name="Lord of the Rings - The Card Game"
-	id="a21af4e8-be4b-4cda-a6b6-534f9717391f" 
+	id="a21af4e8-be4b-4cda-a6b6-534f9717391f"
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.1"
-	version="2.6.1.83"
+	version="2.6.1.84"
 	markersize="16"
 	tags="LotR LCG cooperative"
 	description="The Lord of the Rings: The Card Game is a cooperative card game that puts 1-4 players in control of the most powerful characters and artifacts of Middle-earth.&#10;&#10;Players will select heroes, gather allies, acquire artifacts, and coordinate their efforts to face Middle-earth’s most dangerous fiends. By cooperating to overcome the obstacles drawn from the encounter deck, you will complete the quest before you and claim victory!"
@@ -22,7 +22,7 @@
 		<event name="OnGameStart" action="startOfGame"/>
 		<event name="OnLoadDeck" action="deckLoaded"/>
 		<event name="OnChangeCounter" action="counterChanged"/>
-		<event name="OnPlayerGlobalVariableChanged" action="globalChanged"/>	
+		<event name="OnPlayerGlobalVariableChanged" action="globalChanged"/>
 	</events>
 	<fonts>
 		<font src="fonts/TimesNewRomanLOTR.ttf" size="12" target="context" />
@@ -33,7 +33,7 @@
 	<documents>
 		<document name="Keywords" icon="documents/icon.jpg" src="documents/keywords.txt" />
 		<document name="Short cuts" icon="documents/shortcuts.png" src="documents/shortcuts.txt" />
-		<document name="Turn summary" icon="documents/icon.jpg" src="documents/phases.txt" />	
+		<document name="Turn summary" icon="documents/icon.jpg" src="documents/phases.txt" />
 	</documents>
 	<globalvariables>
 		<globalvariable name="Automation" value="Turn"/> <!-- New Definitions and default values? -->
@@ -104,7 +104,7 @@
 		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
 		<groupaction menu="Adjust Number of Cards Drawn" default="False" execute="adjustCardsDrawn" />
 		<groupaction menu="Take Control of Targeted Cards" default="False" shortcut="ctrl+shift+C" execute="takeControlOfTargets" />
-		
+
 		<cardaction menu="Make Active Location" showIf="isLocation" default="False" shortcut="ctrl+A" execute="makeActive" />
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
 		<cardaction menu="Add Shadow Card" showIf="isEnemy" default="False" shortcut="ctrl+S" execute="addShadow" />

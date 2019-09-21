@@ -40,7 +40,7 @@ showDebug = False #Can be changed to turn on debug - we don't care about the val
 def debug(str):
 	if showDebug:
 		whisper(str)
-		
+
 def toggleDebug(group, x=0, y=0):
 	global showDebug
 	showDebug = not showDebug
@@ -48,7 +48,7 @@ def toggleDebug(group, x=0, y=0):
 		notify("{} turns on debug".format(me))
 	else:
 		notify("{} turns off debug".format(me))
-	
+
 #Return the default x coordinate of the players hero
 def heroX(player, hero=0):
 	return hero*Spacing + (BoardWidth * player / len(getPlayers())) - BoardWidth / 2
@@ -66,10 +66,10 @@ def moveCard(model, x, y):
 			c.moveToTable(x, y)
 			return c
 	return table.create(model, x, y)
-	
+
 def moveFirstPlayerToken(x=0, y=0):
 	return moveCard("15e40d4f-b763-4dcc-aa52-e32b64a992dd", x, y)
-	
+
 def getFirstPlayerToken():
 	for c in table:
 		if c.model == "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
@@ -81,8 +81,8 @@ def automationCard(x=0, y=0):
 
 def isSpecialCard(card):
 	return card.Sphere == 'Special'
-	
-#Find and return this players left most hero card	
+
+#Find and return this players left most hero card
 def firstHero(player):
 	first = None
 	for h in table:
@@ -101,7 +101,7 @@ def getPlayer(id):
 		if playerID(p) == id:
 			return p
 	return None
-	
+
 def countHeroes(p):
 	heroes = 0
 	for card in table:
@@ -110,10 +110,10 @@ def countHeroes(p):
 	return heroes
 
 #Work out if the player is still in the game (threat < 50 and has heroes on the table)
-def eliminated(p):	
+def eliminated(p):
 	if not p:
 		return False
-		
+
 	if p.counters['Threat_Level'].value >= 50:
 		debug("eliminated({}) = True (Threat)".format(p))
 		return True
@@ -137,8 +137,8 @@ def nextPlayer(current):
 		fp = getFirstPlayerToken()
 		if fp is not None and isLocked(fp):
 			return me
-			
-	np = me		
+
+	np = me
 	tries = 0
 	while tries < len(getPlayers()):
 		current = (current + 1) % len(getPlayers())
@@ -148,7 +148,7 @@ def nextPlayer(current):
 			break
 		tries += 1
 	return np
-		
+
 def questCount(group):
 	count = 0
 	nightmare = 0
@@ -160,7 +160,7 @@ def questCount(group):
 	return (nightmare, count)
 
 #Check see if a card at x1,y1 overlaps a card at x2,y2
-#Both have size w, h	
+#Both have size w, h
 def overlaps(x1, y1, x2, y2, w, h):
 	#Four checks, one for each corner
 	if x1 >= x2 and x1 <= x2 + w and y1 >= y2 and y1 <= y2 + h: return True
@@ -168,7 +168,7 @@ def overlaps(x1, y1, x2, y2, w, h):
 	if x1 >= x2 and x1 <= x2 + w and y1 + h >= y2 and y1 <= y2: return True
 	if x1 + w >= x2 and x1 <= x2 and y1 + h >= y2 and y1 <= y2: return True
 	return False
-	
+
 def cardHere(x, y, checkOverlap=True):
 	cw = 0
 	ch = 0
@@ -184,11 +184,11 @@ def cardHere(x, y, checkOverlap=True):
 def cardX(card):
 	x, y = card.position
 	return x
-	
+
 def cardY(card):
 	x, y = card.position
 	return y
-	
+
 #Move the given card in the staging area to the first available space on the left of the Staging Area
 #If there is no room then we compress all the cards in the staging area to make room
 def layoutStage(card=None):
@@ -226,31 +226,31 @@ def findCard(group, model):
 		if c.model == model:
 			return c
 	return None
-	
+
 def encounterDeck():
 	return shared.piles['Encounter']
-	
+
 def encounterDiscard():
 	return shared.piles['Encounter Discard Pile']
-	
+
 def specialDeck():
 	return shared.piles['Special']
 
 def specialDiscard():
 	return shared.piles['Special Discard Pile']
-	
+
 def questDeck():
 	return shared.piles['Quest']
-	
+
 def questDiscard():
 	return shared.piles['Quest Discard Pile']
 
 def setupDeck():
 	return shared.piles['Setup']
-	
+
 def stagingSetupDeck():
 	return shared.piles['Staging Setup']
-	
+
 def activeSetupDeck():
 	return shared.piles['Active Setup']
 
@@ -258,7 +258,7 @@ def isPlayerCard(card):
 	return card.owner in getPlayers()
 
 def isEncounterCard(card):
-	return card.type in ['Enemy','Treachery','Location','Objective','Objective Ally']	
+	return card.type in ['Enemy','Treachery','Location','Objective','Objective Ally'] or 'Encounter' in card.Keywords
 #------------------------------------------------------------
 # Global variable manipulations function
 #------------------------------------------------------------
@@ -267,10 +267,10 @@ def getLock():
 	lock = getGlobalVariable("lock")
 	if lock == str(me._id):
 		return True
-	
+
 	if len(lock) > 0: #Someone else has the lock
 		return False
-	
+
 	setGlobalVariable("lock", str(me._id))
 	if len(getPlayers()) > 1:
 		update()
@@ -284,7 +284,7 @@ def clearLock():
 		return True
 	debug("{} id {} failed to clear lock id {}".format(me, me._id, lock))
 	return False
-		
+
 
 #Store this player's starting position (his ID for this game)
 #The first player is 0, the second 1 ....
@@ -293,7 +293,7 @@ def clearLock():
 def myID():
 	if me.getGlobalVariable("game") == getGlobalVariable("game") and len(me.getGlobalVariable("playerID")) > 0:
 		return playerID(me) # We already have a valid ID for this game
-		
+
 	g = getGlobalVariable("playersSetup")
 	if len(g) == 0:
 		id = 0
@@ -308,7 +308,7 @@ def myID():
 	debug("Player {} sits in position {} for game {}".format(me, id, game))
 	return id
 
-def playerID(p):	
+def playerID(p):
 	return num(p.getGlobalVariable("playerID"))
 
 #FirstPlayer - the default value is the controller of the first player token
@@ -320,16 +320,16 @@ def getFirstPlayerID():
 		id = -1
 	else:
 		id = num(var)
-	
-	if token is None:		
+
+	if token is None:
 		return id
-	
-	result = playerID(token.controller)	
+
+	result = playerID(token.controller)
 	if id != result: #Ensure global is the in sync with controller of token
 		setGlobalVariable("firstPlayer", str(result))
 		update()
-	return result		
-	
+	return result
+
 def setFirstPlayer(id):
 	setGlobalVariable("firstPlayer", str(id))
 
@@ -340,10 +340,10 @@ def setActivePlayer(p):
 	else:
 		setGlobalVariable("activePlayer", str(playerID(p)))
 	update()
-	
+
 def getActivePlayer():
 	return getPlayer(num(getGlobalVariable("activePlayer")))
-	
+
 def setPlayerDone(phase=-1, step=-1):
 	if phase == -1:
 		phase = shared.counters['Phase'].value
@@ -352,12 +352,12 @@ def setPlayerDone(phase=-1, step=-1):
 	me.setGlobalVariable("done", "{}.{}.{}.{}".format(getGlobalVariable("game"), shared.counters['Round'].value, phase, step))
 	updatePhase()
 	update()
-	
+
 def clearPlayerDone():
 	me.setGlobalVariable("done", "")
 	updatePhase()
 	update()
-	
+
 def isPlayerDone(p, phase=-1, step=-1):
 	debug("isPlayerDone({}): {}".format(p, p.getGlobalVariable("done")))
 	when = p.getGlobalVariable("done").split('.')
@@ -380,18 +380,18 @@ def deckLocked():
 
 def lockDeck():
 	me.setGlobalVariable("deckLocked", "1")
-	
+
 def unlockDeck():
 	me.setGlobalVariable("deckLocked", "0")
-		
+
 #---------------------------------------------------------------------------
 # Workflow routines
 #---------------------------------------------------------------------------
 
 #Triggered event OnGameStart
-def startOfGame(): 
+def startOfGame():
 	unlockDeck()
-	setActivePlayer(None)	
+	setActivePlayer(None)
 	if me._id == 1:
 		setGlobalVariable("playersSetup", "")
 		setGlobalVariable("game", str(num(getGlobalVariable("game"))+1))
@@ -405,11 +405,11 @@ def startOfGame():
 
 
 #Triggered event OnLoadDeck
-def deckLoaded(player, groups): 
+def deckLoaded(player, groups):
 	mute()
 	if player != me:
 		return
-	
+
 	isShared = False
 	isPlayer = False
 	for p in groups:
@@ -419,8 +419,8 @@ def deckLoaded(player, groups):
 			isShared = True
 		elif p.name in me.piles:
 			isPlayer = True
-	
-	#If we are loading into the shared piles we need to become the controller of all the shared piles	
+
+	#If we are loading into the shared piles we need to become the controller of all the shared piles
 	if isShared:
 		notify("{} Takes control of the encounter deck".format(me))
 		for p in shared.piles:
@@ -438,8 +438,8 @@ def deckLoaded(player, groups):
 				update()
 				playerSetup(table, 0, 0, isPlayer, isShared)
 				return
-			
-	#Cards for the encounter deck and player deck are loaded into the discard pile because this has visibility="all"	
+
+	#Cards for the encounter deck and player deck are loaded into the discard pile because this has visibility="all"
 	#Check for cards with a Setup effects and move other cards back into the correct pile
 	for p in groups:
 		for card in p:
@@ -451,42 +451,42 @@ def deckLoaded(player, groups):
 				card.moveTo(encounterDeck())
 			elif p == me.piles['Discard Pile']:
 				card.moveTo(me.deck)
-	
+
 	#Temple of the Decieved
 	for p in groups:
-		for card in p:			
+		for card in p:
 			if card.model == 'f3bc3759-1f94-4983-bebb-66c7d9e3e0b3':
 				whisper('Setting up map.')
 				setupTotDMap(p)
-				
 
-	
+
+
 	update()
 	playerSetup(table, 0, 0, isPlayer, isShared)
 	#if automate():			<-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
 	#	playerSetup(table, 0, 0, isPlayer, isShared)
-		
+
 #Triggered event OnChangeCounter
-def counterChanged(player, counter, oldV): 
+def counterChanged(player, counter, oldV):
 	if counter == shared.counters['Round']:
 		fp = getFirstPlayerToken()
 		if fp is not None and fp.controller == me:
 			fp.markers[Turn] = shared.counters['Round'].value
 
 #Triggered event OnPlayerGlobalVariableChanged
-#We use this to manage turn and phase management by tracking changes to the player "done" variable			
+#We use this to manage turn and phase management by tracking changes to the player "done" variable
 def globalChanged(player, var, oldV, newV):
 	debug("globalChanged(player {}, Variable {}, from {}, to {})".format(player, var, oldV, newV))
 	if var == "done":
 		updatePhase(player)
-		
+
 def numDone(phase=-1, step=-1):
 	count = 0
 	for p in getPlayers():
 		if isPlayerDone(p, phase, step): count += 1
 	debug("numDone() == {}".format(count))
 	return count
-	
+
 def highlightPlayer(p, state):
 	if len(getPlayers()) <= 1:
 		return
@@ -511,11 +511,11 @@ def highlightPlayers():
 		else:
 			c = WaitingColour
 		highlightPlayer(p, c)
-			
+
 def nextPhase():
 	shared.counters['Phase'].value += 1
 	shared.counters['Step'].value = 1
-	
+
 def nextStep():
 	shared.counters['Step'].value += 1
 
@@ -528,13 +528,13 @@ def showPhase():
 	y = StagingY + 113
 
 	debug("showPhase: {} {}".format(phase, step))
-	
+
 	if phase == 0:
 		notify("Player Setup")
 		idx = -1
 	else:
-		idx = phaseID[phase-1][step-1]	
-		
+		idx = phaseID[phase-1][step-1]
+
 	phaseCard = None
 	for c in table:
 		if c.model in phases:
@@ -542,14 +542,14 @@ def showPhase():
 				phaseCard = c
 			else:
 				c.moveTo(me.piles['Discard Pile'])
-	
+
 	if idx >= 0:
 		if phaseCard is None:
 			phaseCard = table.create(phases[idx], x, y)
 			notify("{} - {}".format(phaseCard, phaseCard.properties['Text']))
 		else:
 			phaseCard.moveToTable(x, y)
-		
+
 def clearPhase():
 	#Delete current phase card
 	for c in table:
@@ -558,13 +558,13 @@ def clearPhase():
 
 #playerDone - called when player presses the Done button
 #Calls the setPlayerDone function to mark the player as ready (stored in their global variables)
-#Updating the Global variable will trigger an event that will then check to see if all players are ready to move to the next phase (see updatePhase())			
+#Updating the Global variable will trigger an event that will then check to see if all players are ready to move to the next phase (see updatePhase())
 def playerDone(group, x=0, y=0):
 	mute()
 	if not phaseManagement():
 		notify("<{}> done".format(me))
 		return
-		
+
 	#The game state is defined by the phase and step we are in.
 	#Some states allow any player to act (False), others restrict actions to the current active player (True)
 	phaseState = [ [False], #Setup
@@ -577,20 +577,20 @@ def playerDone(group, x=0, y=0):
 					[False] ] #Refresh
 	phase = shared.counters['Phase'].value
 	step = shared.counters['Step'].value
-	debug("{} playerDone: Phase {} Step {} activeOnly {} Active Player {}".format(me, phase, step, phaseState[phase][step-1], getActivePlayer()))	
+	debug("{} playerDone: Phase {} Step {} activeOnly {} Active Player {}".format(me, phase, step, phaseState[phase][step-1], getActivePlayer()))
 
 	if phaseState[phase][step-1] == False or getActivePlayer() == me:
 		setPlayerDone()
 
 #Called when the "done" global variable is changed by one of the players
-#We use this check to see if all players are ready to advance to the next phase	
+#We use this check to see if all players are ready to advance to the next phase
 #Note - all players get called whenever any player changes state. To ensure we don't all do the same thing multiple times
-#       only the Encounter player is allowed to change the phase or step and only the player triggering the event is allowed to change the highlights	
+#       only the Encounter player is allowed to change the phase or step and only the player triggering the event is allowed to change the highlights
 def updatePhase(who=me):
 	mute()
 	if not automate():
-		return	
-	
+		return
+
 	#Depending on current game state we either
 	# Advance to next player
 	# Advance to next step of this phase
@@ -599,7 +599,7 @@ def updatePhase(who=me):
 
 	isActive = (getActivePlayer() == me and who == me)
 	isEncounterPlayer = (encounterDeck().controller == me)
-	
+
 	if turnManagement() and shared.counters['Phase'].value > 0 and shared.counters['Phase'].value < 6:
 		#The phase and step will not have been updated in turn management mode so we skip straight to the end of combat (ready for refresh)
 		if isEncounterPlayer:
@@ -607,11 +607,11 @@ def updatePhase(who=me):
 			shared.counters['Step'].value = 3
 		phase = 6
 		step = 3
-	else:			
+	else:
 		phase = shared.counters['Phase'].value
 		step = shared.counters['Step'].value
 	debug("me = {} updatePhase({}): Phase {} Step {}".format(me, who, phase, step))
-		
+
 	ready = (numDone(phase, step) >= activePlayers())
 
 	if phase == 1: #Resource
@@ -707,23 +707,23 @@ def updatePhase(who=me):
 				setActivePlayer(nextPlayer(playerID(me)))
 				if phaseManagement():
 					highlightPlayers()
-		else: 
+		else:
 			if ready: # Trigger refresh
 				doRestoreAll()
 				me.counters['Threat_Level'].value += 1
 				notify("{} increases threat to {}.".format(me, me.counters['Threat_Level'].value))
-				
+
 				#The first player token needs to move on in the refresh phase
 				if getFirstPlayerID() == playerID(me):
 					advanceFirstPlayer()
-				if me.isActivePlayer: # Anyone can act in the refresh phase			
+				if me.isActivePlayer: # Anyone can act in the refresh phase
 					setActivePlayer(None)
 				if turnManagement() and not isPlayerDone(me, 7, 1): # Clear my refresh highlight if I'm not ready for phase 7
 					highlightPlayer(me, None)
 				if isEncounterPlayer:
 					nextPhase()
 					refreshReminders()
-				
+
 				#We need to check if we are ready to complete phase 7
 				ready = (numDone(7, 1) >= activePlayers())
 				if ready:
@@ -748,8 +748,8 @@ def updatePhase(who=me):
 					highlightPlayers()
 			doNextRound()
 		elif phaseManagement() and who == me:
-			highlightPlayers()	
-	
+			highlightPlayers()
+
 	#Show the updated game state by updating the phase card
 	if phaseManagement() and isEncounterPlayer:
 		showPhase()
@@ -762,19 +762,19 @@ def isLocation(cards,x,y):
 		if c.Type != 'Location':
 			return False
 	return True
-	
+
 def isEnemy(cards,x,y):
 	for c in cards:
 		if c.isFaceUp and (c.type != "Enemy" or c.orientation == Rot90):
 			return False
 	return True
-	
+
 def isFirstPlayerToken(cards,x,y):
 	for c in cards:
 		if c.model != "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
 			return False
 	return True
-	
+
 #---------------------------------------------------------------------------
 # Table group actions
 #---------------------------------------------------------------------------
@@ -789,7 +789,7 @@ def turnManagementOn(group, x=0, y=0):
 		remoteCall(encounterDeck().controller, "clearPhase", [])
 	notify("{} enables Turn Management for all players".format(me))
 	notify("Use ctrl+N to advance the turn")
-	
+
 def phaseManagementOn(group, x = 0, y = 0):
 	mute()
 	setGlobalVariable("Automation", "Phase")
@@ -800,7 +800,7 @@ def phaseManagementOn(group, x = 0, y = 0):
 		remoteCall(encounterDeck().controller, "showPhase", [])
 	notify("{} enables Phase Management for all players".format(me))
 	notify("Use ctrl+Right Arrow to advance the phase/step")
-	
+
 def automationOff(group, x = 0, y = 0):
 	mute()
 	setGlobalVariable("Automation", "Off")
@@ -810,7 +810,7 @@ def automationOff(group, x = 0, y = 0):
 	else:
 		remoteCall(encounterDeck().controller, "clearPhase", [])
 	notify("{} disables all turn management".format(me))
-	
+
 def automationHelp(group, x = 0, y = 0):
 	mute()
 	automationCard(x, y)
@@ -825,7 +825,7 @@ def automationHelp(group, x = 0, y = 0):
 		whisper("Turn Management is on")
 	else:
 		whisper("Turn Management is turned off")
-	
+
 def phaseManagement():
 	mute()
 	return getGlobalVariable("Automation") == "Phase"
@@ -834,7 +834,7 @@ def turnManagement():
 	mute()
 	auto = getGlobalVariable("Automation")
 	return auto == "Turn" or len(auto) == 0
-	
+
 def automate():
 	mute()
 	return getGlobalVariable("Automation") != "Off"
@@ -873,7 +873,7 @@ def randomAlly(group, x=0, y=0):
 def randomHero(group, x=0, y=0):
 	mute()
 	randomCard(table, "Hero")
-	
+
 def randomCard(group, type):
 	n = 0
 	for card in group:
@@ -902,36 +902,36 @@ def readyForRefresh(group, x = 0, y = 0):
 	if phaseManagement():
 		whisper("Phase Management will automate this operation")
 		return
-	
+
 	if turnManagement():
 		if shared.counters['Phase'].value < 7:
 			highlightPlayer(me, WaitingColour)
-			setPlayerDone(6, 3) # Mark step 6 (combat) as done - i.e. ready to refresh			
+			setPlayerDone(6, 3) # Mark step 6 (combat) as done - i.e. ready to refresh
 		return
-	
+
 	doRestoreAll(group)
 	me.counters['Threat_Level'].value += 1
 	notify("{} increases threat to {}.".format(me, me.counters['Threat_Level'].value))
-	
-def doRestoreAll(group=table): 
+
+def doRestoreAll(group=table):
 	mute()
-		
-	debug("doRestoreAll({})".format(group))	
+
+	debug("doRestoreAll({})".format(group))
 	myCards = (card for card in group
 				if card.controller == me)
 	for card in myCards:
 		if not isLocked(card) and card.model != "ce1cf93c-68d9-4613-af3a-a08671152358":
 			card.orientation &= ~Rot90
 	notify("{} readies all his cards.".format(me))
-	
+
 #Advance the first player token to the next player but don't change the OCTGN active player (yet)
 #This will be done at the end of the refresh phase
 def advanceFirstPlayer():
 	mute()
 	current = getFirstPlayerID() #This is the position (ID) of the current first player
-	first = nextPlayer(current)	
+	first = nextPlayer(current)
 	debug("New first player will be {}".format(first))
-					
+
 	if len(getPlayers()) > 1: #Put the first player token onto the table
 		x, y = firstHero(first).position
 		c = moveFirstPlayerToken(x, y+Spacing)
@@ -953,12 +953,12 @@ def addHidden(group=None, x=0, y=0):
 
 def addHiddenSpecial(group, x=0, y=0):
 	nextEncounter(specialDeck(), x, y, True)
-	
+
 def addEncounter(group=None, x=0, y=0):
 	nextEncounter(encounterDeck(), x, y, False)
 	if me == encounterDeck().controller:
 		questReminders()
-	
+
 def addEncounterSpecial(group=None, x=0, y=0):
 	nextEncounter(specialDeck(), x, y, False)
 
@@ -971,26 +971,26 @@ def addToStagingArea(card, facedown=False, who=me):
 	while move is not None:
 		layoutStage(move)
 		move = cardHere(ex, ey)
-	card.moveToTable(ex, ey, facedown)			
+	card.moveToTable(ex, ey, facedown)
 	layoutStage(card)
 	notify("{} adds '{}' to the staging area.".format(who, card))
-	
+
 def nextEncounter(group, x, y, facedown, who=me):
 	mute()
 
 	if group.controller != me:
 		remoteCall(group.controller, "nextEncounter", [group, x, y, facedown, me])
 		return
-		
+
 	if len(group) == 0:
 		resetEncounterDeck(group)
 	if len(group) == 0: # No cards
 		return
-		
+
 	clearTargets()
 	card = group.top()
 	if x == 0 and y == 0:  #Move to default position in the staging area
-		addToStagingArea(card, facedown, who)		
+		addToStagingArea(card, facedown, who)
 	else:
 		card.moveToTable(x-card.width()/2, y-card.height()/2, facedown)
 		notify("{} places '{}' on the table.".format(who, card))
@@ -998,31 +998,31 @@ def nextEncounter(group, x, y, facedown, who=me):
 	setReminders(card)
 	if len(group) == 0:
 		resetEncounterDeck(group)
-	
+
 def nextQuestStage(group=None, x=0, y=0):
 	mute()
-	
+
 	#If the current quest card has side A showing it is simply flipped and we are done
 	for c in table:
 		if c.Type in ("Quest", "Nightmare") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
 			flipcard(c)
 			return
-	
+
 	#We need a new quest card
 	if group is None or group == table:
 		group = questDeck()
 	if len(group) == 0: return
-	
+
 	if group.controller != me:
 		remoteCall(group.controller, "nextQuestStage", [group, x, y])
 		return
-		
+
 	if x == 0 and y == 0: #The keyboard shortcut was used
 		#Count quest cards already on table to work out where to put this one
 		n, count = questCount(table)
 		x = QuestStartX + 89*(count // 2) + 64*n
-		y = QuestStartY + 64*(count % 2)	
-			
+		y = QuestStartY + 64*(count % 2)
+
 	# card = group.top()
 	# card.moveToTable(x, y)
 	# setReminders(card)
@@ -1041,8 +1041,8 @@ def nextQuestStage(group=None, x=0, y=0):
 				# if len(group) > 0:
 					# card = group[0]
 					# card.moveToTable(x+2*64, y)
-	
-	
+
+
 	card = group.top()
 	card.moveToTable(x, y)
 	questSetup(card) # Look for special setup rules on the first card in the quest pile
@@ -1057,7 +1057,7 @@ def nextQuestStage(group=None, x=0, y=0):
 		card.moveToTable(x+i*64, y)
 		setReminders(card)
 		i +=1
-	
+
 	questSetup(card)
 	notify("{} advances quest to '{}'".format(me, card))
 
@@ -1068,8 +1068,8 @@ def addToTable(card):
 	while blocked is not None:
 		x += 16
 		blocked = cardHere(x, y, False)
-	card.moveToTable(x, y)	
-	
+	card.moveToTable(x, y)
+
 def questSetup(card):
 	if len(card.Setup) + len(setupDeck()) + len(stagingSetupDeck()) + len(activeSetupDeck()) > 0:
 		cardsToStage = card.Setup.count('s')
@@ -1087,8 +1087,8 @@ def questSetup(card):
 		for c in stagingSetupDeck():
 			addToStagingArea(c)
 		for c in activeSetupDeck():
-			makeActive(c)			
-			
+			makeActive(c)
+
 def readyForNextRound(group=table, x=0, y=0):
 	mute()
 	if phaseManagement():
@@ -1110,22 +1110,22 @@ def readyForNextRound(group=table, x=0, y=0):
 #doNextRound
 #Draw a card and add a resource to each hero
 def doNextRound():
-	mute()	
+	mute()
 	debug("doNextRound()")
 
 #	if activePlayers() == 0:
 #		whisper("All players have been eliminated: You have lost the game")
-#		return		
+#		return
 #	if eliminated(me):
 #		whisper("You have been eliminated from the game")
 #		return
-		
+
 	clearTargets()
 	if me.Willpower <> 0:
 		me.Willpower = 0
-	
+
 	resourcePhaseDraw()
-	
+
 	for card in table:
 		if card.Type == "Hero" and card.controller == me and not isLocked(card) and card.isFaceUp:
 			addResource(card)
@@ -1137,36 +1137,36 @@ def doNextRound():
 				resPerRound = 0
 			for i in xrange(resPerRound):
 				addResource(card)
-			
+
 	if not phaseManagement():
 		clearHighlights()
-	
+
 	if me == encounterDeck().controller:
 		resourceReminders()
-					
+
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 	mute()
-	
+
 	if not getLock():
 		whisper("Others players are setting up, please try manual setup again (Ctrl+Shift+S)")
 		return
-		
+
 	unlockDeck()
 	if doPlayer:
 		id = myID() #This ensures we have a unique ID based on our position in the setup order
-		heroCount = countHeroes(me)		
+		heroCount = countHeroes(me)
 		if shared.counters['Round'].value == 0 and id == 0 and heroCount == 0: #First time actions
 			me.setActivePlayer()
 			setFirstPlayer(id)
-		
-		#Move Heroes to the table		
+
+		#Move Heroes to the table
 		newHero = False
 		lore = 0
 		hobbits = 0
 		mirlonde = False
 		folco = False
 		thurindir = False
-		for card in me.hand:			
+		for card in me.hand:
 			if card.Type == "Contract":
 				card.moveToTable(heroX(id, heroCount), HeroY)
 				heroCount += 1
@@ -1189,7 +1189,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 			me.counters['Threat_Level'].value -= lore
 		if folco:
 			me.counters['Threat_Level'].value -= hobbits
-		
+
 		drawStartingHand = True
 		# The One Ring
 		masterCards = []
@@ -1203,19 +1203,19 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 						heroCount += 1
 						masterCards.append(card.Name)
 		if len(masterCards) > 1: drawStartingHand = False # Need to decide first
-				
+
 		# Thurindir
 		sideQuests = []
 		if thurindir:
+			sideQuestsCount = 0
 			for card in me.deck:
 				if card.Type == 'Side Quest' and card.Name not in sideQuests:
-					card.moveToTable(heroX(id, heroCount), HeroY)
-					heroCount += 1
-					sideQuests.append(card.Name)
-		if len(sideQuests) > 1: drawStartingHand = False # Need to decide first
-		
-			
-		if newHero:		
+					card.moveToTable(heroX(id, sideQuestsCount), -36 )
+					sideQuestsCount += 1
+		if sideQuestsCount > 1: drawStartingHand = False # Need to decide first
+
+
+		if newHero:
 			notify("{} places his Heroes on the table and sets his starting Threat to {}".format(me,me.counters['Threat_Level'].value))
 			if len(me.hand) == 0:
 				shuffle(me.deck)
@@ -1224,18 +1224,18 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 				x, y = firstHero(me).position
 				c = moveFirstPlayerToken(x, y+Spacing)
 				c.setController(me)
-					
+
 	#If we loaded the encounter deck - add the first quest card to the table
 	if doEncounter or encounterDeck().controller == me:
 		n, count = questCount(table)
 		if n+count == 0:
 			nextQuestStage()
 			shuffle(encounterDeck())
-			shuffle(specialDeck())	
-		
+			shuffle(specialDeck())
+
 	if phaseManagement():
 		highlightPlayers()
-		
+
 	if not clearLock():
 		notify("Players performed setup at the same time causing problems, please reset and try again")
 
@@ -1268,7 +1268,7 @@ def calcScore(group=None, x=0, y=0):
 	notify("Victory points = {}".format(shared.VictoryPoints))
 	scoreTotal = scoreRound + scoreThreat + scoreDamage + scoreDeadHeroes - shared.VictoryPoints
 	notify("TOTAL SCORE = {}".format(scoreTotal))
-	
+
 def toggleLock(group, x=0, y=0):
 	if deckLocked():
 		unlockDeck()
@@ -1281,7 +1281,7 @@ def toggleLock(group, x=0, y=0):
 		if len(me.deck) > 0:
 			lockCard(me.deck.top())
 		notify("{} Locks his deck".format(me))
-	
+
 #---------------------------------------------------------------------------
 # Table card actions
 #---------------------------------------------------------------------------
@@ -1311,7 +1311,7 @@ def defaultAction(card, x = 0, y = 0):
 		addDamage(card, x, y)
 	else:
 		kneel(card, x, y)
-		
+
 def kneel(card, x = 0, y = 0):
     mute()
     card.orientation ^= Rot90
@@ -1325,10 +1325,10 @@ def inspectCard(card, x = 0, y = 0):
     for k in card.properties:
         if len(card.properties[k]) > 0:
             whisper("{}: {}".format(k, card.properties[k]))
-                                
+
 def flipcard(card, x = 0, y = 0):
 	mute()
-	
+
 	if card.controller != me:
 		notify("{} gets {} to flip card".format(me, card.controller()))
 		remoteCall(card.controller, "flipcard", card)
@@ -1383,7 +1383,7 @@ def flipcard(card, x = 0, y = 0):
 		notify("{} turns '{}' face up.".format(me, card))
 	elif card.isFaceUp:
 		card.isFaceUp = False
-		notify("{} turns '{}' face down.".format(me, card))        
+		notify("{} turns '{}' face down.".format(me, card))
 	else:
 		card.isFaceUp = True
 		notify("{} turns '{}' face up.".format(me, card))
@@ -1431,28 +1431,28 @@ def makeActive(card, x=0, y=0):
 	mute()
 	if card.Type != "Location": return
 	card.moveToTable(252, -229)
-		
+
 def addResource(card, x = 0, y = 0):
     addToken(card, Resource)
-    
+
 def addDamage(card, x = 0, y = 0):
     addToken(card, Damage)
-    
+
 def addProgress(card, x = 0, y = 0):
-    addToken(card, Progress)  
+    addToken(card, Progress)
 
 def addWillpower(card, x = 0, y = 0):
-    addToken(card, WillpowerToken)  
+    addToken(card, WillpowerToken)
 
 def addAttack(card, x = 0, y = 0):
-    addToken(card, AttackToken)  
+    addToken(card, AttackToken)
 
 def addDefense(card, x = 0, y = 0):
-    addToken(card, DefenseToken)  
+    addToken(card, DefenseToken)
 
 def addThreat(card, x = 0, y = 0):
     addToken(card, ThreatToken)
-	
+
 def addTime(card, x=0, y=0):
     addToken(card, TimeToken)
 
@@ -1464,7 +1464,7 @@ def addToken(card, tokenType):
 	mute()
 	card.markers[tokenType] += 1
 	notify("{} adds a {} to '{}'".format(me, tokenType[0], card))
-	
+
 def subResource(card, x = 0, y = 0):
     subToken(card, Resource)
 
@@ -1473,19 +1473,19 @@ def subDamage(card, x = 0, y = 0):
 
 def subProgress(card, x = 0, y = 0):
     subToken(card, Progress)
-	
+
 def subWillpower(card, x = 0, y = 0):
-    subToken(card, WillpowerToken)  
+    subToken(card, WillpowerToken)
 
 def subAttack(card, x = 0, y = 0):
-    subToken(card, AttackToken)  
+    subToken(card, AttackToken)
 
 def subDefense(card, x = 0, y = 0):
-    subToken(card, DefenseToken)  
+    subToken(card, DefenseToken)
 
 def subThreat(card, x = 0, y = 0):
     subToken(card, ThreatToken)
-	
+
 def subTime(card, x=0, y=0):
     subToken(card, TimeToken)
 
@@ -1507,17 +1507,17 @@ def lockCard(card, x=0, y=0):
 
 def isLocked(card):
 	return card.markers[Lock] > 0
-	
+
 def shadowCardAt(sx, sy):
 	for c in table:
 		x, y = c.position
 		if x == sx and y == sy and c.orientation == Rot90:
 			return True
 	return False
-	
+
 def addShadow(card, x=0, y=0):
 	mute ()
-	
+
 	if not card.isFaceUp and card.orientation == Rot90: #This is a shadow card - reveal it
 		card.isFaceUp = True
 		if card.Type == "Side Quest":
@@ -1532,11 +1532,11 @@ def addShadow(card, x=0, y=0):
 	#Only enemy cards or facedown player cards (Orc Guards) are valid targets
 	if card.isFaceUp and (card.type != "Enemy" or card.orientation == Rot90):
 		return
-					
+
 	if len(encounterDeck()) == 0:
 		whisper("There are no cards left in the encounter deck")
 		return
-		
+
 	posx, posy = card.position
 	xoff = (card.width() - card.height())/2
 	yoff = card.width() - card.height()/2
@@ -1552,7 +1552,7 @@ def addShadow(card, x=0, y=0):
 	while shadowCardAt(x, y):
 		x += skip
 		y += skip
-	
+
 	notify("{} adds a shadow card to '{}'".format(me, card))
 	dealShadow(card.controller, x, y)
 	if me == encounterDeck().controller:
@@ -1561,7 +1561,7 @@ def dealShadow(who, x, y):
 	if encounterDeck().controller != me:
 		remoteCall(encounterDeck().controller, "dealShadow", [who, x, y])
 		return
-	
+
 	deck = encounterDeck()
 	if len(deck) == 0:
 		return
@@ -1575,14 +1575,14 @@ def dealShadow(who, x, y):
 	sc.orientation = Rot90
 	sc.sendToBack()
 	sc.setController(who)
-	
-	
+
+
 def discard(card, x=0, y=0):
 	mute()
 	if card.controller != me:
 		whisper("{} does not control '{}' - discard cancelled".format(me, card))
 		return
-		
+
 	if card.Type == "Quest": #If we remove the only quest card then we reveal the next one
 		card.moveToBottom(questDiscard())
 		notify("{} discards '{}'".format(me, card))
@@ -1599,11 +1599,11 @@ def discard(card, x=0, y=0):
 		pile = specialDiscard()
 	else:
 		pile = encounterDiscard()
-		
+
 	who = pile.controller
 	notify("{} discards '{}'".format(me, card))
 	if who != me:
-		card.setController(who)		
+		card.setController(who)
 		remoteCall(who, "doDiscard", [me, card, pile])
 	else:
 		doDiscard(who, card, pile)
@@ -1613,7 +1613,7 @@ def discardSpecial(card, x=0, y=0):
 	if card.controller != me:
 		whisper("{} does not control '{}' - discard cancelled".format(me, card))
 		return
-		
+
 	if card.Type == "Quest": #If we remove the only quest card then we reveal the next one
 		card.moveToBottom(questDiscard())
 		notify("{} discards '{}'".format(me, card))
@@ -1628,11 +1628,11 @@ def discardSpecial(card, x=0, y=0):
 		pile = specialDiscard()
 	else:
 		pile = specialDiscard()
-		
+
 	who = pile.controller
 	notify("{} discards '{}'".format(me, card))
 	if who != me:
-		card.setController(who)		
+		card.setController(who)
 		remoteCall(who, "doDiscard", [me, card, pile])
 	else:
 		doDiscard(who, card, pile)
@@ -1646,12 +1646,12 @@ def shuffleIntoDeck(card, x=0, y=0, player=me):
 	if card.controller != me:
 		whisper("{} does not control '{}' - shuffle cancelled".format(me, card))
 		return
-		
+
 	if card.Type == "Quest":
 		whisper("Invalid operation on a {} card".format(card.Type))
 		return
-		
-	if isPlayerCard(card):
+
+	if isPlayerCard(card) and 'Encounter' not in card.Keywords:
 		pile = card.owner.deck
 	elif isSpecialCard(card):
 		pile = specialDeck()
@@ -1659,17 +1659,17 @@ def shuffleIntoDeck(card, x=0, y=0, player=me):
 		pile = encounterDeck()
 
 	who=pile.controller
-	notify("{} moves '{}' to '{}'".format(me, card, pile.name))		
+	notify("{} moves '{}' to '{}'".format(me, card, pile.name))
 	if who != me:
 		card.setController(who)
 		remoteCall(who, "doMoveShuffle", [me, card, pile])
 	else:
 		doMoveShuffle(me, card, pile)
-		
+
 def doMoveShuffle(player, card, pile):
 	card.moveTo(pile)
 	shuffle(pile)
-	
+
 def playCard(card, x=0, y=0):
 	if x == 0 and y == 0 and not eliminated(me):
 		x, y = firstHero(me).position
@@ -1688,7 +1688,7 @@ def sumVictory():
 	for c in shared.piles['Victory Display']:
 		v += num(c.properties['Victory Points'])
 	shared.VictoryPoints = v
-	
+
 def moveToVictory(card, x=0, y=0):
 	mute()
 	card.moveTo(shared.piles['Victory Display'])
@@ -1696,7 +1696,7 @@ def moveToVictory(card, x=0, y=0):
 	sumVictory()
 	notify("{} adds '{}' (+{}) to the Global Victory Display (Total = {})".format(me, card, v, shared.VictoryPoints))
 
-	
+
 #---------------------------
 #movement actions
 #---------------------------
@@ -1711,12 +1711,12 @@ def randomDiscard(group):
 	if card is None: return
 	notify("{} randomly discards '{}'.".format(me, card))
 	card.moveTo(me.piles['Discard Pile'])
- 
+
 def mulligan(group, x = 0, y = 0):
 	mute()
 	if shared.HandSize <= 0:
 		whisper("Invalid hand size specified in global counter")
-		return		
+		return
 	if not confirm("Are you sure you want to Mulligan?"): return
 	for card in group:
 		card.moveToBottom(me.deck)
@@ -1724,7 +1724,7 @@ def mulligan(group, x = 0, y = 0):
 	for card in me.deck.top(shared.HandSize):
 		card.moveTo(me.hand)
 	notify("{} draws {} new cards.".format(me, shared.HandSize))
- 
+
 #------------------------------------------------------------------------------
 # Pile Actions
 #------------------------------------------------------------------------------
@@ -1760,12 +1760,12 @@ def drawMany(group, count = None):
 	for c in group.top(count):
 		c.moveTo(me.hand)
 		notify("{} draws '{}'".format(me, c))
- 
+
 def lookAtAllEncounterDeck(group, x = 0, y = 0):
 	mute()
 	notify("{} looks at Global's Encounter.".format(me))
 	encounterDeck().lookAt(-1,True)
- 
+
 def lookAtAllEncounterDiscard(group, x = 0, y = 0):
 	mute()
 	encounterDiscard().lookAt(-1,True)
@@ -1779,7 +1779,7 @@ def lookAtTop10Deck(group, x = 0, y = 0):
 	mute()
 	notify("{} looks at {}'s Deck.".format(me, me))
 	me.deck.lookAt(10,True)
-	
+
 def search(group, count = None):
 	mute()
 	if len(group) == 0: return
@@ -1788,28 +1788,28 @@ def search(group, count = None):
 	if count is None or count <= 0:
 		whisper("search: invalid card count")
 		return
-		
-	notify("{} searches top {} cards".format(me, count))	
+
+	notify("{} searches top {} cards".format(me, count))
 	moved = 0
 	for c in group.top(count):
 		c.moveTo(me.piles['Discard Pile'])
 		moved += 1
 	me.piles['Discard Pile'].lookAt(moved)
-	
+
 def moveMany(group, count = None):
 	if len(group) == 0: return
 	mute()
 	if count is None:
 		count = askInteger("Move how many cards to secondary deck?", 1)
 		if count is None or count <= 0: return
-	
+
 	moved = 0
-	
+
 	if group == me.deck:
 		pile = me.piles['Secondary Deck']
 	else:
 		pile = specialDeck()
-	
+
 	for c in group.top(count):
 		c.moveTo(pile)
 		moved += 1
@@ -1823,7 +1823,7 @@ def discardMany(group, count = None):
 	if count is None:
 		count = askInteger("Discard how many cards?", 1)
 		if count is None or count <= 0: return
-		
+
 	if group == me.deck:
 		pile = me.piles['Discard Pile']
 		fr = "his deck"
@@ -1842,7 +1842,7 @@ def moveAllToEncounter(group):
 			c.moveTo(encounterDeck())
 		notify("{} moves all cards from {} to the Encounter Deck".format(me, group.name))
 		shuffle(encounterDeck())
-		
+
 def moveAllToEncounterBottom(group):
 	mute()
 	if confirm("Move all cards from {} to the bottom of the Encounter Deck?".format(group.name)):
@@ -1884,7 +1884,7 @@ def captureDeck(group):
 	mute()
 	if group == me.deck:
 		pile = me.piles['Secondary Deck']
-	else: return		
+	else: return
 	if confirm("Create your capture deck?"):
 		for c in group:
 			if c.Type == "Ally":
@@ -1901,12 +1901,12 @@ def setupTotDMap(group):
 	MapStartX = 350
 	MapStartY = -90
 	i = 0
-	
+
 	map = []
 	for c in group:
 		c.moveToTable(MapStartX,MapStartX)
 		map.append(c)
-		
+
 	for c in map:
 		if c.name == "Lost Island":
 			x = MapStartX + 64*(i // 3)
@@ -1924,12 +1924,12 @@ def setupTotDMap(group):
 			i=i+1
 
 	for c in map:
-		if c.name == "Temple of the Deceived":	
+		if c.name == "Temple of the Deceived":
 			x = MapStartX + 64*(i // 3)
 			y = MapStartY + 89*(i % 3)
 			c.moveToTable(x,y)
 			i=i+1
-	
+
 		# c.moveToTable(MapStartX,MapStartX)
 		# if c.name == "Lost Island":
 			# x = MapStartX + 64*(i // 3)
@@ -1953,7 +1953,7 @@ def setupWizardsQuest(groups):
 		for card in p:
 			set = card.properties["Encounter Set"]
 			setnumstr = set[-2:] # Get last two characters from encounter set, so "Wizard's Quest 15" becomes "15"
-			if not setnumstr.isdigit(): 
+			if not setnumstr.isdigit():
 				addToTable(card)
 				continue
 			setnum = int(setnumstr) # Cast to int
@@ -1962,10 +1962,10 @@ def setupWizardsQuest(groups):
 			y = StartY + 150 * (setnum // 14) + offset[setnum]
 			offset[setnum] += 12
 			card.moveToTable(x,y)
-			
 
-	
-		
+
+
+
 # Reminders
 
 def enableReminders(group, x=0, y=0):
@@ -1974,7 +1974,7 @@ def enableReminders(group, x=0, y=0):
 def disableReminders(group, x=0, y=0):
 	setGlobalVariable("Reminders", "Off")
 	whisper("Reminders disabled.")
-	
+
 def isTextInCard(text,card):
 	match = re.search(text,card.Text)
 	if match: return True
@@ -1983,7 +1983,7 @@ def isTextInCard(text,card):
 		if match: return True
 	except:
 		pass
-	
+
 def setReminders(card):
 	match = re.search('Time ([0-9]+)',card.Text)
 	if match:
@@ -1996,7 +1996,7 @@ def setReminders(card):
 				addTime(card)
 	except:
 		pass
-	
+
 	if isTextInCard('resource phase',card): setReminderResource(card)
 	if isTextInCard('quest phase',card): setReminderQuest(card)
 	if isTextInCard('staging step',card): setReminderQuest(card)
@@ -2010,7 +2010,7 @@ def resourceReminders():
 	reminder = getGlobalVariable("reminderResource")
 	for c in table:
 		if str(c._id) in reminder:
-			c.target(True)	
+			c.target(True)
 
 def questReminders():
 	if getGlobalVariable("Reminders") == "Off": return;
@@ -2018,14 +2018,14 @@ def questReminders():
 	for c in table:
 		if str(c._id) in reminder:
 			c.target(True)
-			
+
 def combatReminders():
 	if getGlobalVariable("Reminders") == "Off": return;
 	reminder = getGlobalVariable("reminderCombat")
 	for c in table:
 		if str(c._id) in reminder:
 			c.target(True)
-			
+
 def refreshReminders():
 	if getGlobalVariable("Reminders") == "Off": return;
 	clearTargets()
@@ -2054,7 +2054,7 @@ def setReminderQuest(card,x=0,y=0):
 def removeReminderQuest(card,x=0,y=0):
 	reminder = getGlobalVariable("reminderQuest")
 	reminder = reminder.replace(str(card._id) + ",","")
-	setGlobalVariable("reminderQuest",reminder)	
+	setGlobalVariable("reminderQuest",reminder)
 
 def setReminderCombat(card,x=0,y=0):
 	reminder = getGlobalVariable("reminderCombat")
@@ -2064,8 +2064,8 @@ def setReminderCombat(card,x=0,y=0):
 def removeReminderCombat(card,x=0,y=0):
 	reminder = getGlobalVariable("reminderCombat")
 	reminder = reminder.replace(str(card._id) + ",","")
-	setGlobalVariable("reminderCombat",reminder)	
-	
+	setGlobalVariable("reminderCombat",reminder)
+
 def setReminderRefresh(card,x=0,y=0):
 	reminder = getGlobalVariable("reminderRefresh")
 	if not str(card._id) in reminder:
@@ -2074,15 +2074,15 @@ def setReminderRefresh(card,x=0,y=0):
 def removeReminderRefresh(card,x=0,y=0):
 	reminder = getGlobalVariable("reminderRefresh")
 	reminder = reminder.replace(str(card._id) + ",","")
-	setGlobalVariable("reminderRefresh",reminder)	
-	
+	setGlobalVariable("reminderRefresh",reminder)
+
 def setGlobalReminders():
 	setGlobalVariable("Reminders", "Off")
 	setGlobalVariable("reminderResource","")
 	setGlobalVariable("reminderQuest","")
 	setGlobalVariable("reminderCombat","")
 	setGlobalVariable("reminderRefresh","")
-	
+
 def tokensPerRoundResource(card,x=0,y=0):
 	current = 0
 	try:
@@ -2096,7 +2096,7 @@ def tokensPerRoundResource(card,x=0,y=0):
 	card.properties['Resource Tokens Per Round'] = str(newval)
 	update()
 	whisper("{} is now generating an additional {} resource(s) per round.".format(card.Name,card.properties['Resource Tokens Per Round']))
-	
+
 
 def createCard(group=None, x=0, y=0):
 	cardID, quantity = askCard()
@@ -2107,7 +2107,7 @@ def createCard(group=None, x=0, y=0):
 		# not iterable
 		notify("{} created {}.".format(me, cards))
 	else:
-		# iterable	
+		# iterable
 		for card in cards:
 			notify("{} created {}.".format(me, card))
 
@@ -2121,7 +2121,7 @@ def resourcePhaseDraw():
 
 	for i in range(count):
 		draw(me.deck)
-		
+
 def adjustCardsDrawn(group=None, x=0, y=0):
 	id = playerID(me)
 	current = 1
@@ -2137,7 +2137,7 @@ def takeControlOfTargets(group=None, x=0, y=0):
 		if c.targetedBy == me:
 			c.setController(me)
 			c.target(False)
-	
+
 # The Woodland Realm / The Wizard's Quest Randomization
 twqtwr = [
 [["3b855783-5b90-4788-802e-e7c1e81461d8",1],["2be47628-65a9-4809-87aa-6251eb68b4bc",2],["473e56fe-31b8-4637-acdb-a72a7138237b",2]],
@@ -2177,7 +2177,7 @@ def randomSubset(set, n):
 		if set[randn] in subset: continue
 		subset.append(set[randn])
 	return subset
-	
+
 
 def random7Sets(setnums):
 	for setnum in setnums:
@@ -2185,7 +2185,7 @@ def random7Sets(setnums):
 		for guid in twqtwr[setnum]:
 			encounterDeck().create(guid[0],guid[1])
 	shuffle(encounterDeck())
-	
+
 def randomTWQEncounter(group=None, x=0, y=0):
 	setnums = randomSubset(range(15,28), 7)
 	random7Sets(setnums)
@@ -2204,12 +2204,12 @@ def randomTWQQuest(group=None, x=0, y=0):
 	twoA = ["35d72889-370e-4ee3-99c0-b7d0a605ec49","4ce7c4e4-c96c-4ee7-ae98-cfb497303cd0","b446fa27-d5f8-40e0-8985-fe15478cd79b"]
 	thrA = ["7d71a43e-a7ae-49bb-930c-437101a12d82","b717f5f9-cd1a-4852-aa1d-36acd1f8d3b1","85409c38-e188-46f7-b844-42716266ea83"]
 	loc = "1a3c69f9-c973-4e4e-aa00-435c1f615393"
-	
+
 	questDeck().create(oneA)
 	questDeck().create(twoA[rnd(0,2)],1)
 	questDeck().create(thrA[rnd(0,2)],1)
 	nextQuestStage()
-	
+
 	card = stagingSetupDeck().create(loc, 1)
 	addToStagingArea(card)
 
@@ -2218,16 +2218,16 @@ def randomTWRQuest(group=None, x=0, y=0):
 	twoA = ["78689e20-d52f-4495-accc-b2cc39bb9ddc","a7280ef5-7a73-4c34-bc7e-e7aef7e4f3df","13e84f42-66ff-4abb-819d-a4b0ad088bb1"]
 	thrA = ["2e4aea1e-abb5-48c6-9f83-abbf9b6bcf72","ba4f0abd-bd8c-4b25-b045-1599e5c92ce7","35924e07-9473-4701-855a-11f69dc83185"]
 	loc = "35fb5564-b4a1-4730-9e4d-65bd2e6d43c4"
-	
+
 	questDeck().create(oneA)
 	questDeck().create(twoA[rnd(0,2)],1)
 	questDeck().create(thrA[rnd(0,2)],1)
 	nextQuestStage()
-	
+
 	card = stagingSetupDeck().create(loc, 1)
 	addToStagingArea(card)
-	
-def randomTWQTWRQuest(group=None, x=0, y=0):	
+
+def randomTWQTWRQuest(group=None, x=0, y=0):
 	n = rnd(1,2)
 	if n==1:
 		randomTWQQuest()
@@ -2243,7 +2243,7 @@ def drinkingSongNoHobbit(group, x = 0, y = 0):
 	for card in me.deck.top(handsize):
 		card.moveTo(me.hand)
 	notify("{} draws {} new cards.".format(me, shared.HandSize))
-	
+
 def drinkingSongWithHobbit(group, x = 0, y = 0):
 	mute()
 	handsize = len(group)
