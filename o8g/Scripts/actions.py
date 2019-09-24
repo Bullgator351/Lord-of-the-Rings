@@ -1207,12 +1207,11 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 		# Thurindir
 		sideQuests = []
 		if thurindir:
-			sideQuestsCount = 0
 			for card in me.deck:
 				if card.Type == 'Side Quest' and card.Name not in sideQuests:
-					card.moveToTable(heroX(id, sideQuestsCount), -36 )
-					sideQuestsCount += 1
-		if sideQuestsCount > 1: drawStartingHand = False # Need to decide first
+					card.moveToTable(heroX(id, len(sideQuests)), -36 )
+					sideQuests.append(card.Name)
+		if len(sideQuests) > 1: drawStartingHand = False # Need to decide first
 
 
 		if newHero:
