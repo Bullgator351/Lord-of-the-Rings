@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import time
 import re
 
@@ -259,6 +260,9 @@ def isPlayerCard(card):
 
 def isEncounterCard(card):
 	return card.type in ['Enemy','Treachery','Location','Objective','Objective Ally'] or 'Encounter' in card.Keywords
+
+def isSetupCard(card):
+	return card.Name in ['Mirlonde','Folco Boffin','Thurindir'] or (card.Name == 'Éowyn' and card.Sphere == 'Tactics') or (card.Name == 'Denethor' and card.Sphere == 'Leadership')
 #------------------------------------------------------------
 # Global variable manipulations function
 #------------------------------------------------------------
@@ -1163,9 +1167,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 		newHero = False
 		lore = 0
 		hobbits = 0
-		mirlonde = False
-		folco = False
-		thurindir = False
+		setupCards = []
 		for card in me.hand:
 			if card.Type == "Contract":
 				card.moveToTable(heroX(id, heroCount), HeroY)
@@ -1175,19 +1177,29 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 				heroCount += 1
 				newHero = True
 				me.counters['Threat_Level'].value += num(card.Cost)
-				if card.Name == 'Mirlonde':
-					mirlonde = True
-				if card.Name == 'Folco Boffin':
-					folco = True
-				if card.Name == 'Thurindir':
-					thurindir = True
+				if isSetupCard(card):
+					setupCards.append(card.Name)
+
+					#Leadership Denethor starts with 2 extra resources
+					if card.Name == 'Denethor':
+						addResource(card)
+						addResource(card)
+
 				if card.Sphere == 'Lore':
 					lore += 1
 				if 'Hobbit' in card.Traits:
 					hobbits += 1
-		if mirlonde:
+
+		# Tactics Éowyn - reduces your starting threat by 3
+		if 'Éowyn' in setupCards:
+			me.counters['Threat_Level'].value -= 3
+
+		# Mirlonde - reduces your starting threat by 1 for each Lore hero you control
+		if 'Mirlonde' in setupCards:
 			me.counters['Threat_Level'].value -= lore
-		if folco:
+
+		# Folco Boffin - reduces your starting threat by 1 for each Hobbit hero you control
+		if 'Folco Boffin' in setupCards:
 			me.counters['Threat_Level'].value -= hobbits
 
 		drawStartingHand = True
@@ -1204,9 +1216,9 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 						masterCards.append(card.Name)
 		if len(masterCards) > 1: drawStartingHand = False # Need to decide first
 
-		# Thurindir
+		# Thurindir - place all your side quests on the table to choose one
 		sideQuests = []
-		if thurindir:
+		if 'Thurindir' in setupCards:
 			for card in me.deck:
 				if card.Type == 'Side Quest' and card.Name not in sideQuests:
 					card.moveToTable(heroX(id, len(sideQuests)), -36 )
