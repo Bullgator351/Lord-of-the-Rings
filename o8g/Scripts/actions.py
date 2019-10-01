@@ -2245,22 +2245,24 @@ def randomTWQTWRQuest(group=None, x=0, y=0):
 	else:
 		randomTWRQuest()
 
-def drinkingSongNoHobbit(group, x = 0, y = 0):
-	mute()
-	handsize = len(group)
-	for card in group:
-		card.moveToBottom(me.deck)
-	shuffle(me.deck)
-	for card in me.deck.top(handsize):
-		card.moveTo(me.hand)
-	notify("{} draws {} new cards.".format(me, shared.HandSize))
+def drinkingSong(group):
+	additionalCards = 0
+	hobbitFound = '-'
+	for card in table:
+		if ('Hobbit' in card.Traits) and (card.Unique) and (card.controller == me):
+			additionalCards = 1
+			hobbitFound = card.Name
+			break
+	notify("Drinking Song - Found {} unique Hobbits: {}.".format(additionalCards, hobbitFound))
+	exchangeCardsInHand(group, additionalCards)
 
-def drinkingSongWithHobbit(group, x = 0, y = 0):
+def exchangeCardsInHand(group, additionalCards):
 	mute()
 	handsize = len(group)
+	newHandSize = handsize + additionalCards
 	for card in group:
 		card.moveToBottom(me.deck)
 	shuffle(me.deck)
-	for card in me.deck.top(handsize+1):
+	for card in me.deck.top(newHandSize):
 		card.moveTo(me.hand)
-	notify("{} draws {} new cards.".format(me, shared.HandSize))
+	notify("{} draws {} new cards.".format(me, newHandSize))
