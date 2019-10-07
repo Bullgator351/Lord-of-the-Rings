@@ -5,7 +5,7 @@
 	id="a21af4e8-be4b-4cda-a6b6-534f9717391f"
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.1"
-	version="2.6.1.87"
+	version="2.6.1.88"
 	markersize="16"
 	tags="LotR LCG cooperative"
 	description="The Lord of the Rings: The Card Game is a cooperative card game that puts 1-4 players in control of the most powerful characters and artifacts of Middle-earth.&#10;&#10;Players will select heroes, gather allies, acquire artifacts, and coordinate their efforts to face Middle-earth’s most dangerous fiends. By cooperating to overcome the obstacles drawn from the encounter deck, you will complete the quest before you and claim victory!"
@@ -104,6 +104,7 @@
 		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
 		<groupaction menu="Adjust Number of Cards Drawn" default="False" execute="adjustCardsDrawn" />
 		<groupaction menu="Take Control of Targeted Cards" default="False" shortcut="ctrl+shift+C" execute="takeControlOfTargets" />
+		<groupaction menu="Unload Your Deck" default="False" execute="unloadDeck" />
 
 		<cardaction menu="Make Active Location" showIf="isLocation" default="False" shortcut="ctrl+A" execute="makeActive" />
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />

@@ -407,6 +407,24 @@ def startOfGame():
 	setGlobalVariable("currentPlayers",str([]))
 	setGlobalReminders()
 
+# Try to unload a player deck
+def unloadDeck(group, x = 0, y = 0):
+	mute()
+	for p in me.piles:
+		notify("{} removes cards from {}.".format(me,p))
+		for c in me.piles[p]:
+			if c.owner == me:
+				c.delete()
+	notify("{} removes cards from hand.".format(me))
+	for c in me.hand:
+		if c.owner == me:
+			c.delete()
+	notify("{} removes cards from table.".format(me))
+	for c in group:
+		if c.owner == me:
+			c.delete()
+	me.counters['Threat_Level'].value = 0
+	notify("{} sets threat counter to {}.".format(me,me.counters['Threat_Level'].value))
 
 #Triggered event OnLoadDeck
 def deckLoaded(player, groups):
