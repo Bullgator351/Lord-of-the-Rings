@@ -785,6 +785,18 @@ def isLocation(cards,x,y):
 			return False
 	return True
 
+def isHero(cards,x,y):
+	for c in cards:
+		if c.Type != 'Hero':
+			return False
+	return True
+
+def isAlly(cards,x,y):
+	for c in cards:
+		if c.Type != 'Ally':
+			return False
+	return True
+
 def isEnemy(cards,x,y):
 	for c in cards:
 		if c.isFaceUp and (c.type != "Enemy" or c.orientation == Rot90):
@@ -1314,6 +1326,15 @@ def toggleLock(group, x=0, y=0):
 #---------------------------------------------------------------------------
 # Table card actions
 #---------------------------------------------------------------------------
+def changeCardTypeToHero(card, x = 0, y = 0):
+	changeCardTypeTo(card,'Hero')
+
+def changeCardTypeToAlly(card, x = 0, y = 0):
+	changeCardTypeTo(card,'Ally')
+
+def changeCardTypeTo(card,newtype):
+	card.Type = newtype
+
 
 def defaultAction(card, x = 0, y = 0):
 	mute()
