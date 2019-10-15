@@ -421,7 +421,7 @@ def unloadDeck(group, x = 0, y = 0):
 			c.delete()
 	notify("{} removes cards from table.".format(me))
 	for c in group:
-		if c.owner == me:
+		if c.owner == me and c.model != "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
 			c.delete()
 	me.counters['Threat_Level'].value = 0
 	notify("{} sets threat counter to {}.".format(me,me.counters['Threat_Level'].value))
@@ -785,13 +785,13 @@ def isLocation(cards,x,y):
 			return False
 	return True
 
-def isHero(cards,x,y):
+def isHero(cards,x=0,y=0):
 	for c in cards:
 		if c.Type != 'Hero':
 			return False
 	return True
 
-def isAlly(cards,x,y):
+def isAlly(cards,x=0,y=0):
 	for c in cards:
 		if c.Type != 'Ally':
 			return False
@@ -1326,15 +1326,14 @@ def toggleLock(group, x=0, y=0):
 #---------------------------------------------------------------------------
 # Table card actions
 #---------------------------------------------------------------------------
-def changeCardTypeToHero(card, x = 0, y = 0):
-	changeCardTypeTo(card,'Hero')
-
-def changeCardTypeToAlly(card, x = 0, y = 0):
-	changeCardTypeTo(card,'Ally')
-
-def changeCardTypeTo(card,newtype):
-	card.Type = newtype
-
+def changeCardType(card, x=0, y=0):
+	if card.Type == 'Hero':
+		card.Type = 'Ally'
+	elif card.Type == 'Ally':
+		card.Type = 'Hero'
+	else:
+		return
+	notify("{} changed type of {} to {}.".format(me, card.Name, card.Type))
 
 def defaultAction(card, x = 0, y = 0):
 	mute()

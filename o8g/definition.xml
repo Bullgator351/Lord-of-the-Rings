@@ -5,7 +5,7 @@
 	id="a21af4e8-be4b-4cda-a6b6-534f9717391f"
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.1"
-	version="2.6.1.89"
+	version="2.6.1.90"
 	markersize="16"
 	tags="LotR LCG cooperative"
 	description="The Lord of the Rings: The Card Game is a cooperative card game that puts 1-4 players in control of the most powerful characters and artifacts of Middle-earth.&#10;&#10;Players will select heroes, gather allies, acquire artifacts, and coordinate their efforts to face Middle-earth’s most dangerous fiends. By cooperating to overcome the obstacles drawn from the encounter deck, you will complete the quest before you and claim victory!"
@@ -155,8 +155,8 @@
 		<cardaction menu="Rotate Left" default="False" shortcut="F8" execute="rotateLeft" />
 		<cardaction menu="Rotate Right" default="False" shortcut="F9" execute="rotateRight" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
-		<cardaction menu="Change Type to Hero" showIf="isAlly" default="False" execute="changeCardTypeToHero" />
-		<cardaction menu="Change Type to Ally" showIf="isHero" default="False" execute="changeCardTypeToAlly" />
+		<cardaction menu="Change Type to Hero" showIf="isAlly" default="False" execute="changeCardType" />
+		<cardaction menu="Change Type to Ally" showIf="isHero" default="False" execute="changeCardType" />
 		<groupactions menu="Random">
 			<groupaction menu="Coin Flip" default="False" execute="flipCoin" />
 			<groupaction menu="Number" default="False" execute="randomNumber" />

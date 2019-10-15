@@ -178,7 +178,7 @@
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Response: After attached hero declares an attack, add Black Arrow to the victory display to give attached hero +5 Û for this attack."/>
   </card>
-  <card id="f4490261-317e-4e9e-9440-a5c58dcddcbf" name="Thror's Key" size="EncounterCard">
+  <card id="f4490261-317e-4e9e-9440-a5c58dcddcbf" name="Thror's Key">
     <property name="Card Number" value="16"/>
     <property name="Quantity" value="3"/>
     <property name="Unique" value="‰"/>
