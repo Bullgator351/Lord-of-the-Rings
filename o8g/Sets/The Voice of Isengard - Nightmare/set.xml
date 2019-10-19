@@ -111,7 +111,7 @@
       <property name="Text" value="You are playing Nightmare mode. &#10;&#10;Setup: Each player shuffles 1 copy of Vigilant Orc into his out of play deck. Set both copiues of Mugash's Rage and any remaining copies of Vigilant Orc aside, out of play. Forced: When the players advance to stage 3A, shuffle both copies of Mugash's Rage into the encounter deck."/>
     </alternate>
   </card>
-  <card id="5e24cde4-29e5-4f8f-82c5-67f96f9c3283" name="Vigilant Orc" size="EncounterCard">
+  <card id="5e24cde4-29e5-4f8f-82c5-67f96f9c3283" name="Vigilant Orc">
     <property name="Card Number" value="2"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="To Catch an Orc - Nightmare"/>
