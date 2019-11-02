@@ -36,6 +36,7 @@
   </section>
   <section name="Staging Setup" shared="True">
     <card qty="1" id="56b24d25-a04a-418b-add0-7b1971dae38e">Easterling Pursuit</card>
+    <card qty="1" id="1fdfdb77-31e0-458d-85d1-9c158f12717f">River Running</card>
   </section>
   <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
