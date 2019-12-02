@@ -19,7 +19,7 @@
     <card qty="2" id="a750ab9c-9b29-4ca4-8221-8fa27cd74fe2">Enemies Close Behind</card>
     <card qty="2" id="f6e8459b-b0d6-4d30-ad8e-6aacfa34ec32">Exposed Riverbank</card>
     <card qty="2" id="2af71d2e-0b70-43a2-b94e-89770992ef9c">Easterling Outrider</card>
-    <card qty="2" id="1fdfdb77-31e0-458d-85d1-9c158f12717f">River Running</card>
+    <card qty="1" id="1fdfdb77-31e0-458d-85d1-9c158f12717f">River Running</card>
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="bbc72a18-cf4c-469f-bd01-6b1d3492c2ff">Warriors of the East</card>
@@ -30,6 +30,7 @@
     <card qty="1" id="4befb4c8-e350-48ed-a7dd-ee803e2ca8d7">Easterling Raider</card>
     <card qty="1" id="5af4be18-af74-46ef-a235-9c1002b85338">Rider of Rhûn</card>
     <card qty="1" id="9042242b-054d-413e-83c7-bb9f42551a8a">Easterling Captain</card>
+    <card qty="1" id="1fdfdb77-31e0-458d-85d1-9c158f12717f">River Running</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
