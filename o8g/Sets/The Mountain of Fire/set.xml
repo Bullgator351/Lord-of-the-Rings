@@ -453,7 +453,7 @@
     <property name="Text" value="When Revealed: Each player deals 1 damage to a questing character he controls. Until the end of the phase, each damaged character gets -1 Ò and cannot be healed."/>
     <property name="Shadow" value="Shadow: Choose a non-unique enemy in the staging area. Engage it and deal it a shadow card."/>
   </card>
-  <card id="5c1973bf-c331-4b8f-8872-4ead564476d3" name="Gwaihir" size="EncounterCard">
+  <card id="5c1973bf-c331-4b8f-8872-4ead564476d3" name="Gwaihir">
     <property name="Card Number" value="41"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Black Gate Opens"/>

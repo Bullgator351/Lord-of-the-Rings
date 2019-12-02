@@ -312,7 +312,7 @@
     <property name="Quest Points" value="4"/>
     <property name="Text" value="While The Sorcerer's Tower is in the staging area, it gains: &quot;The players cannot travel or place progress here unless they are at stage 3D. Forced: After a 'when revealed' effect is canceled, reveal the top card of the encounter deck.&quot;"/>
   </card>
-  <card id="617952b3-1ac2-47a2-866f-302c3f0d8fd7" name="The Shadow Road">
+  <card id="617952b3-1ac2-47a2-866f-302c3f0d8fd7" name="The Shadow Road" size="EncounterCard">
     <property name="Card Number" value="22"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Attack on Dol Guldur"/>

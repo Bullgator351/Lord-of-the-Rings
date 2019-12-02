@@ -809,7 +809,6 @@
   <template src="proxy/sidequest.jpg" default="False">
     <matches>
       <match name="Type" value="Side Quest" />
-      <match name="Encounter Set" value="" />
     </matches>
     <textblocks>
       <link block="sidequest_name">

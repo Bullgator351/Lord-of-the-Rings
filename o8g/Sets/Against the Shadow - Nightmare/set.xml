@@ -176,7 +176,7 @@
     <property name="Quest Points" value="3"/>
     <property name="Text" value="While Devil's Mirk is in the staging area, characters cannot be healed.&#10;While Devil's Mirk is the active location, each Wose enenemy gets +2 Ú."/>
   </card>
-  <card id="6c86b76e-003d-40aa-af57-bd0e6536a2f6" name="Eilenach">
+  <card id="6c86b76e-003d-40aa-af57-bd0e6536a2f6" name="Eilenach" size="EncounterCard">
     <property name="Card Number" value="6"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Drúadan Forest - Nightmare"/>

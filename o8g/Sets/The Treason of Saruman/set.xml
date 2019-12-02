@@ -445,7 +445,7 @@
     <property name="Quest Points" value="4"/>
     <property name="Text" value="Forced: When Deeping Wall is explored, raise each player’s threat by 4."/>
   </card>
-  <card id="990e60bb-a627-4758-8230-81b40a57a382" name="Deeping Culvert" size="EncounterCard">
+  <card id="990e60bb-a627-4758-8230-81b40a57a382" name="Deeping Culvert">
     <property name="Card Number" value="39"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Helm's Deep"/>
@@ -729,7 +729,7 @@
     <property name="Text" value="Forced: After Uruk-hai Fighter attacks and destroys a character, return it to the staging area."/>
     <property name="Shadow" value="Shadow: Discard a non-objective attachment you control."/>
   </card>
-  <card id="f28dc579-14b5-4623-848a-0a9383162b4c" name="Fighting Uruk-hai">
+  <card id="f28dc579-14b5-4623-848a-0a9383162b4c" name="Fighting Uruk-hai" size="EncounterCard">
     <property name="Card Number" value="65"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Orcs of the White Hand"/>

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Wrath and Ruin" id="3b061244-4f7f-4d04-9ef4-b52b05914042" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="e6e32f1f-fca8-44cc-8e04-0eaf6361b929" name="Thorin Stonehelm">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Dwarf. Noble. Warrior."/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+  </card>
+  <card id="5177774a-29a0-4ce7-890c-aae2fe01e611" name="Soldier of Gondor">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Gondor."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="28877bba-27de-4b19-a8ab-5d557b634172" name="Pillars of the Kings">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="4"/>
+  </card>
+  <card id="b1e30a3e-c93f-4126-8271-be44b5880f88" name="Cautious Halfling">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Hobbit."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="63b32a1d-495a-416e-bc19-a200a581393b" name="Tom Bombadillo!">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Song."/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="be4ccbc9-1d4c-461f-a44d-582c52d353e6" name="Durin's Axe">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Artifact. Item. Weapon."/>
+    <property name="Keywords" value="Guarded (enemy). Restricted."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="13705ef5-c36c-45c2-97e4-df34e972c1f9" name="Charge into Battle">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="5"/>
+  </card>
+  <card id="28bc6296-217d-460a-96b1-47714daf3817" name="Silver Circlet">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Item."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="2"/>
+  </card>
+  <card id="b41ed6a0-17bc-4cbc-a654-d4d9538eed62" name="Inner Strength">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Master."/>
+    <property name="Cost" value="1"/>
+  </card>
+  <card id="9d44ab05-a5a5-41ac-9a14-0e6a5e314053" name="Tom Bombadil">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Legend."/>
+    <property name="Keywords" value="Encounter."/>
+    <property name="Cost" value="-"/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+  </card>
+  <card id="02a5e04c-d08f-49f4-a7b5-ba6a1cb86de7" name="Thane Ulchor" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="6"/>
+  </card>
+  <card id="f2981455-b642-4d9b-851d-0209a12cffae" name="Champion of Rhûn" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+  </card>
+  <card id="215881a3-df0a-4163-a19d-33b444e7aa95" name="Easterling Skirmisher" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Surge. Archery 1."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="31c36264-7e6f-45df-a345-167d4df70885" name="Gate of Dorwinion" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="X"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="5"/>
+  </card>
+  <card id="0198aa68-aced-42d0-8816-719ce166ef15" name="Contested Square" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="f672b4f9-6ce8-4be0-95ab-fb5d2091f4ca" name="Ransacked House" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="2a7b5607-d7ed-4580-b27b-39cf12879297" name="Makeshift Fortification" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="3"/>
+  </card>
+  <card id="51a5e288-cf6e-430d-bc66-715ad2be1a16" name="Captured Tower" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+  </card>
+  <card id="32621d0f-16a3-4ab9-a553-657834cb6691" name="Fury" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Surge."/>
+  </card>
+  <card id="1a96a88c-3715-4419-89b1-a218e838b5b5" name="Caught Off Guard" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="f054a6e2-71ae-4acb-ba62-2548ecbfcf9a" name="Street Fighting" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="9a870606-9e85-4bdc-a70d-3d1831703eb8" name="Under Siege" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Treachery"/>
+  </card>
+  <card id="a652a7ef-25ad-4e43-94b4-f18c68e34e83" name="Ulchor's Revenge" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+  </card>
+  <card id="e91aae6d-3708-4580-8598-9ccceb213839" name="The Burglar's Turn">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Contract"/>
+    <property name="Sphere" value="Neutral"/>
+  </card>
+  <card id="cefd0596-2e3b-4496-95e0-57899ab83b04" name="Inside the Walls" size="QuestCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Inside the Walls" type="B">
+      <property name="Encounter Set" value="Wrath and Ruin"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="4"/>
+    </alternate>
+  </card>
+  <card id="138ee2a3-0982-48ab-945e-60fab6f06586" name="Drive them Out" size="QuestCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Wrath and Ruin"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Drive them Out" type="B">
+      <property name="Encounter Set" value="Wrath and Ruin"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="12"/>
+    </alternate>
+  </card>
+ </cards>
+</set>

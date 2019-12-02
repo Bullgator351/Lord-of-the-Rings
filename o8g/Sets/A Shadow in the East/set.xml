@@ -10,6 +10,7 @@
     <property name="Traits" value="Artifact. Ring. Master."/>
     <property name="Keywords" value="Restricted."/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Immune to non-Master card effects.Setup: Attach to a hero you control and search your deck for a Master card. Add it to your hand and shuffle your deck. Your threat elimination level is reduced by 5.If The One Ring leaves play, the players lose the game."/>
   </card>
   <card id="f733522a-bcdd-466c-9565-0b4cba58701b" name="Frodo Baggins">
     <property name="Card Number" value="2"/>
@@ -23,6 +24,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Frodo commits to a quest, spend 1 resource from his resource pool to ready another questing unique character. If you quest successfully, reduce your threat by 1."/>
   </card>
   <card id="e730d8cc-b97c-40b3-b16b-2efcba1f2e07" name="Merry">
     <property name="Card Number" value="3"/>
@@ -36,6 +38,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Merry enters play, each unique ally you control gets +1 Ò until the end of the round."/>
   </card>
   <card id="835ad72c-6da5-4ddf-9447-1d0fa3746096" name="Pippin">
     <property name="Card Number" value="4"/>
@@ -49,6 +52,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="0"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Pippin gets +2 Û while attacking an enemy with an engagement cost higher than your threat.Response: After you engage an enemy with an engagement cost higher than your threat, ready Pippin."/>
   </card>
   <card id="f43d5b83-4136-4be8-af89-71f883f32563" name="Faramir">
     <property name="Card Number" value="5"/>
@@ -62,6 +66,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Response: After Faramir enters play, choose a non-unique enemy in the staging area. Engage that enemy and deal 2 damage to it (4 damage instead if it has an attachment on it)."/>
   </card>
   <card id="dcdbd457-86bb-4481-8ce0-e30f04aa35f5" name="Derufin">
     <property name="Card Number" value="6"/>
@@ -76,6 +81,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Ranged. Response: After Derufin participates in an attack which destroys an enemy engaged with a player, discard Derufin to reduce the engaged player`s threat by X, where X is the destroyed enemy`s printed $."/>
   </card>
   <card id="91f9cf7d-d590-4812-af95-33d520757a1b" name="The Gathering Storm">
     <property name="Card Number" value="7"/>
@@ -83,6 +89,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Planning Action: Search the top 5 cards of the encounter deck for an enemy. Add that enemy to the staging area to reduce the cost of the first ally you play this phase by X, where X is that enemy`s $. Shuffle the encounter deck."/>
   </card>
   <card id="639a4814-6a8e-4d7d-b589-fbbf22c78df2" name="Put Off Pursuit">
     <property name="Card Number" value="8"/>
@@ -91,6 +98,7 @@
     <property name="Sphere" value="Lore"/>
     <property name="Traits" value="Condition."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to the active location. Limit 1 per location.Attached location gets +2 quest points.Response: After attached location is explored, discard cards from the encounter deck until a location is discarded. Add that location to the staging area to choose an non-unique enemy in the staging area and shuffle it into the encounter deck."/>
   </card>
   <card id="d56de2f3-06cc-488e-aeea-e68f1cedf0c0" name="The Master Ring">
     <property name="Card Number" value="9"/>
@@ -99,6 +107,7 @@
     <property name="Sphere" value="Neutral"/>
     <property name="Traits" value="Master."/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Response: Exhaust The One Ring and raise your threat by 1 to cancel the effects of an encounter card just revealed from the encounter deck and discard that card. Then, reveal an encounter card."/>
   </card>
   <card id="1bcd39f5-8b3a-4cfb-8cf4-f651a87f2c6f" name="The Ruling Ring">
     <property name="Card Number" value="10"/>
@@ -107,6 +116,7 @@
     <property name="Sphere" value="Neutral"/>
     <property name="Traits" value="Master."/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Combat Action: Exhaust The One Ring and raise your threat by 1 to choose a non-Nazgul enemy engaged with you. Until the end of the phase, that enemy cannot attack you."/>
   </card>
   <card id="db733a56-9d85-4a9b-bdbf-e1aa5770a125" name="The Ring of Power">
     <property name="Card Number" value="11"/>
@@ -115,12 +125,14 @@
     <property name="Sphere" value="Neutral"/>
     <property name="Traits" value="Master."/>
     <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Exhaust The One Ring and raise your threat by 1 to ready the hero with The One Ring Attached. That hero gets +1 Ò, +1 Û, and +1 Ú until the end of the phase."/>
   </card>
   <card id="56b24d25-a04a-418b-add0-7b1971dae38e" name="Easterling Pursuit" size="EncounterCard">
     <property name="Card Number" value="12"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The River Running"/>
     <property name="Type" value="Objective"/>
+    <property name="Text" value="Forced: At the end of the round, place 1 resource here. Then if there are at lest 3 resources here, remove 3 of them and shuffle the encounter discard pile into the encounter deck. Discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area."/>
   </card>
   <card id="2af71d2e-0b70-43a2-b94e-89770992ef9c" name="Easterling Outrider" size="EncounterCard">
     <property name="Card Number" value="13"/>
@@ -134,6 +146,8 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Forced: After Easterling Outrider engages a player, either place 1 resource on Easterling Pursuit, or Easterling Outrider makes an immediate attack."/>
+    <property name="Shadow" value="Shadow: Discard an attachment you control. "/>
   </card>
   <card id="1fdfdb77-31e0-458d-85d1-9c158f12717f" name="River Running" size="EncounterCard">
     <property name="Card Number" value="14"/>
@@ -143,6 +157,7 @@
     <property name="Traits" value="Riverland."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="5"/>
+    <property name="Text" value="While River Running is in the staging area, enemies cannot be optionally engaged.Travel: The first player engages the highest engagement cost enemy in the staging area."/>
   </card>
   <card id="f6e8459b-b0d6-4d30-ad8e-6aacfa34ec32" name="Exposed Riverbank" size="EncounterCard">
     <property name="Card Number" value="15"/>
@@ -152,12 +167,15 @@
     <property name="Traits" value="Riverland."/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Exposed Riverbank is in the staging area, it gains: `Forced: After a `when revealed` effect is canceled, place 1 resource on Easterling Pursuit.`Travel: Place 1 resource on Easterling Pursuit."/>
   </card>
   <card id="a750ab9c-9b29-4ca4-8221-8fa27cd74fe2" name="Enemies Close Behind" size="EncounterCard">
     <property name="Card Number" value="16"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The River Running"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Place 1 resource on Easterling Pursuit. Then, raise each player`s threat by 1 for each resource on Easterling Pursuit."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. If this attack destroys a character, place 1 resource on Easterling Pursuit. "/>
   </card>
   <card id="9042242b-054d-413e-83c7-bb9f42551a8a" name="Easterling Captain" size="EncounterCard">
     <property name="Card Number" value="17"/>
@@ -172,6 +190,7 @@
     <property name="Defense" value="3"/>
     <property name="Health" value="6"/>
     <property name="Victory Points" value="6"/>
+    <property name="Text" value="Forced: When Easterling Captain enters play, discard cards from the encounter deck until an Easterling treachery is discarded. Attach that treachery to Easterling Captain.Forced: When Easterling Captain would take any amount of damage, discard an Easterling attachment from him. Then, cancel the damage."/>
   </card>
   <card id="5af4be18-af74-46ef-a235-9c1002b85338" name="Rider of Rhûn" size="EncounterCard">
     <property name="Card Number" value="18"/>
@@ -185,6 +204,7 @@
     <property name="Attack" value="5"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="Rider of Rhûn gets -10 enagement cost for each Easterling attachment it has.When Revealed: Search the encounter deck and discard pile for an Easterling Horse and attach it to Rider of Rhûn. Shuffle the encounter deck."/>
   </card>
   <card id="53c01bdc-2761-4f8f-90bc-1eedd14ca376" name="Easterling Horse" size="EncounterCard">
     <property name="Card Number" value="19"/>
@@ -192,6 +212,7 @@
     <property name="Encounter Set" value="Riders of Rhûn"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Easterling."/>
+    <property name="Text" value="While attached to an enemy, counts as a Mount attachment with the text: `Attached enemy gets +2 $. Forced: At the end of the round, return attached enemy to the staging area.`When Revealed: Attach to the lowest engagement cost Easterling enemy without an Easterling Horse and return it to the staging area. Otherwise, Easterling Horse gains surge."/>
   </card>
   <card id="4befb4c8-e350-48ed-a7dd-ee803e2ca8d7" name="Easterling Raider" size="EncounterCard">
     <property name="Card Number" value="20"/>
@@ -205,6 +226,8 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Easterling Raider gets +1 Û and +1 Ú for each Easterling attachment on it."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+2 Ú instead if it has an Easterling attachment). "/>
   </card>
   <card id="aabc830a-4833-42cf-9b26-d8f2c5eb9658" name="Warrior of Rhûn" size="EncounterCard">
     <property name="Card Number" value="21"/>
@@ -217,6 +240,8 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="3"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="Forced: When Warrior of Rhûn attacks, attach the top Easterling treachery in the discard pile to it."/>
+    <property name="Shadow" value="Shadow: Attach the top Easterling treachery in the discard pile to attacking enemy. "/>
   </card>
   <card id="b897b63d-86ac-417c-88d2-1a594f3674f1" name="Sword of Rhûn" size="EncounterCard">
     <property name="Card Number" value="22"/>
@@ -225,6 +250,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Easterling."/>
     <property name="Keywords" value="Surge."/>
+    <property name="Text" value="While attached to an enemy, counts as a Weapon attachment with the text: `Attached enemy gets +2 Û.`When Revealed: Attach to the Easterling enemy with the lowest Û without a Sword of Rhûn."/>
   </card>
   <card id="576b4f3c-add2-42b6-b78c-8a2e482290ae" name="Recurve Bow" size="EncounterCard">
     <property name="Card Number" value="23"/>
@@ -233,6 +259,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Easterling."/>
     <property name="Keywords" value="Surge."/>
+    <property name="Text" value="While attached to an enemy, counts as a Weapon attachment with the text: `Attached enemy gains Archery 2.`When Revealed: Attach to the highest engagement cost Easterling enemy without a Recurve Bow."/>
   </card>
   <card id="bbc72a18-cf4c-469f-bd01-6b1d3492c2ff" name="Warriors of the East" size="QuestCard">
     <property name="Card Number" value="24"/>
@@ -240,6 +267,7 @@
     <property name="Type" value="Side Quest"/>
     <property name="Keywords" value="Surge."/>
     <property name="Victory Points" value="10"/>
+    <property name="Text" value="When Revealed: After an Easterling enemy enters play, attach the top Easterling treachery in the discard pile to that enemy.Forced: After Warriors of the East becomes the current quest, the highest Û Easterling enemy in the staging area attacks the first player."/>
   </card>
   <card id="c6ffa525-d499-4dcc-9f07-cbd0da50479f" name="Rollings Plains" size="EncounterCard">
     <property name="Card Number" value="25"/>
@@ -249,6 +277,7 @@
     <property name="Traits" value="Plains."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="When Revealed: Each copy of Rolling Plains gets +2 $ until the end of the phase.Travel: Raise each player`s threat by 2."/>
   </card>
   <card id="926a17c6-ea0b-43ba-925a-71ba5ef1ed77" name="Rocky Outcrop" size="EncounterCard">
     <property name="Card Number" value="26"/>
@@ -258,6 +287,7 @@
     <property name="Traits" value="Plains."/>
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Rocky Outcrop is in the staging area, characters cannot be readied by player card effects.Travel: The first player exhausts a hero he controls."/>
   </card>
   <card id="1f4cdef5-6847-4dd5-96b0-8ce03d21bd8d" name="Weary Lands" size="EncounterCard">
     <property name="Card Number" value="27"/>
@@ -265,18 +295,23 @@
     <property name="Encounter Set" value="Rolling Plains"/>
     <property name="Type" value="Treachery"/>
     <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="When Revealed: Each exhausted character gets -1 Ò until the end of the phase."/>
+    <property name="Shadow" value="Shadow: Deal 1 damage to the defending character. "/>
   </card>
   <card id="37153373-7a82-484e-9aca-7ed47a6a7703" name="Painful Fatigue" size="EncounterCard">
     <property name="Card Number" value="28"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Rolling Plains"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player exhausts a character he controls and deals 1 damage to it."/>
+    <property name="Shadow" value="Shadow: Either exhaust a character you control, or return attacking enemy to the staging area. "/>
   </card>
   <card id="c1ee0cb7-a209-44d6-8f35-8494a9e6cf1d" name="An Arduous Journey" size="QuestCard">
     <property name="Card Number" value="29"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Side Quest"/>
     <property name="Victory Points" value="10"/>
+    <property name="Text" value="Each player cannot ready more than 6 characters he controls during the refresh phase.Response: When this stage is defeated, each player may ready a hero he controls."/>
   </card>
   <card id="2351fadd-4348-4a17-b062-f0e8142f2e6f" name="Priest of Sauron" size="EncounterCard">
     <property name="Card Number" value="30"/>
@@ -291,6 +326,7 @@
     <property name="Defense" value="2"/>
     <property name="Health" value="8"/>
     <property name="Victory Points" value="6"/>
+    <property name="Text" value="Immune to player card effects.Cannot be optionally engaged.Forced: After Priest of Sauron attacks and destroys an ally, raise each player`s threat by 2."/>
   </card>
   <card id="f250a697-b5aa-4041-9bad-a66b2ab8ccba" name="The Governor" size="EncounterCard">
     <property name="Card Number" value="31"/>
@@ -305,6 +341,7 @@
     <property name="Defense" value="3"/>
     <property name="Health" value="8"/>
     <property name="Victory Points" value="6"/>
+    <property name="Text" value="Immune to player card effects.Forced: After a location is revealed from the encounter deck, The Governor engages the first player and makes an immediate attack."/>
   </card>
   <card id="52b0bc28-37bb-4097-b96a-cc7dc4af8721" name="Black Nûmenórean" size="EncounterCard">
     <property name="Card Number" value="32"/>
@@ -319,6 +356,7 @@
     <property name="Defense" value="1"/>
     <property name="Health" value="9"/>
     <property name="Victory Points" value="6"/>
+    <property name="Text" value="Immune to player card effects.Do not discard shadow cards dealt to Black Nûmenórean if they have a shadow effect.Forward: When Black Nûmenórean attacks, resolve each of his faceup shadow cards as if they had been dealt this round."/>
   </card>
   <card id="8f6e5d67-81c7-4db8-9cb0-ef45b71490c6" name="Bribes" size="EncounterCard">
     <property name="Card Number" value="33"/>
@@ -326,6 +364,7 @@
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Plot."/>
+    <property name="Text" value="Add +1 to the total $ in the staging area for each resource here.Forced: When the active location is explored, discard the top X cards of each player`s deck, when X is that location`s $. Then, place 1 resource here for each event discarded this way."/>
   </card>
   <card id="ef6ebaef-6b53-4aa0-b03b-9929bd2bc492" name="Submit or Die" size="EncounterCard">
     <property name="Card Number" value="34"/>
@@ -333,6 +372,7 @@
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Plot."/>
+    <property name="Text" value="Each non-unique enemy gets +1 Û.Forced: After an enemy attacks and destroys a character, place 1 damage token here. Then, if there are X damage tokens here, the players lose the game. X is 4 more than the number of players."/>
   </card>
   <card id="ae20c7c6-9950-4799-a88e-d0b394879af2" name="Sauron Worship" size="EncounterCard">
     <property name="Card Number" value="35"/>
@@ -340,6 +380,7 @@
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Plot."/>
+    <property name="Text" value="Sauron Worship enters play with 1 damage token on it.Each player`s threat elimination level is reduced by 1 for each damage token here.Forced: At the end of the round, place 1 damage token here."/>
   </card>
   <card id="57e22e64-6ff5-4133-8c70-2ee3460d02f9" name="Evidence of the Cult" size="EncounterCard">
     <property name="Card Number" value="36"/>
@@ -349,6 +390,7 @@
     <property name="Traits" value="Clue."/>
     <property name="Keywords" value="Guarded (enemy)."/>
     <property name="Victory Points" value="1"/>
+    <property name="Text" value="Attached enemy gets +1 $, +1 Û, and +1 Ú.When Evidence of the Cult is free of encounters, add it to the victory display. Then, place 1 resource on the main quest."/>
   </card>
   <card id="5100f009-8c78-4f2a-b77e-1bd9ccbfef77" name="Hillside Manor" size="EncounterCard">
     <property name="Card Number" value="37"/>
@@ -358,18 +400,22 @@
     <property name="Traits" value="City."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Hillside Manor is in the staging area, each player`s threat cannot be reduced by more than 1 each round by player card effects.Travel: Each player discards 1 random card from his hand."/>
   </card>
   <card id="522c612d-5f3c-4a02-a1a7-7d87191922e0" name="Disappearances" size="EncounterCard">
     <property name="Card Number" value="38"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player discards all ally cards from his hand. If no cards are discarded this way, Disappearances gains doomed 2."/>
+    <property name="Shadow" value="Shadow: Discard an attachment you control."/>
   </card>
   <card id="617bc2e6-05a9-4c99-b3ff-8304ecb6ef32" name="Secret Cultist" size="EncounterCard">
     <property name="Card Number" value="39"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Attach to the highest attack ally in play. (Counts as a Condition attachment with the text: `Attached ally loses the ally card type, gains the enemy card type, and engages its owner. Treat attached ally`s text box as if it were blank. If Secret Cultist is discarded, or the attached ally`s owner is eliminated, discard attached ally.`)"/>
   </card>
   <card id="6d485bbc-6876-4160-8111-77f3935123c9" name="Messenger from Mordor" size="EncounterCard">
     <property name="Card Number" value="40"/>
@@ -382,6 +428,8 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="When Revealed: Either raise each player`s threat by X, where X is the active location`s $, or Messenger from Mordor makes an immediate attack against the first player."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. "/>
   </card>
   <card id="80e25c61-e49c-40cb-b8e7-b4c45620163c" name="Servant of Sauron" size="EncounterCard">
     <property name="Card Number" value="41"/>
@@ -395,6 +443,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Servant of Sauron engages the first player.Forced: After the engaged player raises his threat, Servant of Sauron makes an immediate attack. (Limit once per phase.)"/>
   </card>
   <card id="e3b4dfb0-2875-4e73-aea3-c63cab5cc43a" name="Overwhelmed" size="EncounterCard">
     <property name="Card Number" value="42"/>
@@ -402,6 +451,8 @@
     <property name="Encounter Set" value="Servants of Sauron"/>
     <property name="Type" value="Treachery"/>
     <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="When Revealed: Until the end of the round, enemies engaged with the first player cannot take damage."/>
+    <property name="Shadow" value="Shadow: Either raise your threat by 2, or attacking enemy cannot take damage this round. "/>
   </card>
   <card id="ba630f98-6ad5-4c4a-adfd-aeeac5485722" name="Shadow of Fear" size="QuestCard">
     <property name="Card Number" value="43"/>
@@ -409,6 +460,7 @@
     <property name="Type" value="Side Quest"/>
     <property name="Keywords" value="Surge."/>
     <property name="Victory Points" value="10"/>
+    <property name="Text" value="Forced: After an enemy engages a player, that player raises his threat by 1.Response: When Shadow of Fear is defeated, reduce each player`s threat by 3."/>
   </card>
   <card id="1cd05eb5-2456-467a-8d24-efaadd027145" name="Rhûn Backstabber" size="EncounterCard">
     <property name="Card Number" value="44"/>
@@ -421,6 +473,8 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Forced: After Rhûn Backstabber engages you, either raise your threat by 2, or discard an ally you control with printed cost 2 or higher."/>
+    <property name="Shadow" value="Shadow: Raise your threat by 1 for each enemy engaged with you. "/>
   </card>
   <card id="eb2b56e7-d669-405b-b2d3-5d3c30cb3f4e" name="Treacherous Easterling" size="EncounterCard">
     <property name="Card Number" value="45"/>
@@ -433,6 +487,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="Treacherous Easterlings gets +1 Û and +1 Ú for each resource token on it (Limit +3 Û and +3 Ú.)Forced: After the engaged player raises his threat, place 1 resource token on Treacherous Easterling."/>
   </card>
   <card id="0323e852-a05c-4c2d-a038-3f2596af7a85" name="City Forum" size="EncounterCard">
     <property name="Card Number" value="46"/>
@@ -442,6 +497,7 @@
     <property name="Traits" value="City."/>
     <property name="Threat" value="1"/>
     <property name="Quest Points" value="5"/>
+    <property name="Text" value="City Forum gets +1 $ for each resource here.While City Forum is in the staging area, it gains: `Forced: After a location is explored, place 1 resource here.`Travel: Each player raises his threat by 1 for each resource here."/>
   </card>
   <card id="2f5221a8-8afd-48d8-afd3-352151d87ed6" name="Seedy Tavern" size="EncounterCard">
     <property name="Card Number" value="47"/>
@@ -452,12 +508,15 @@
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="5"/>
     <property name="Victory Points" value="2"/>
+    <property name="Text" value="Immune to player card effects.Forced: When Seedy Travern is explored, reveal each facedown card under it.Travel: Look at the top 5 cards of the encounter deck. Put one of those cards facedown under Seedy Tavern and shuffle the rest back into the encounter deck."/>
   </card>
-  <card id="4b7db087-febb-4e88-bd30-e0f7919511c7" name="Dakrness in the East" size="EncounterCard">
+  <card id="4b7db087-febb-4e88-bd30-e0f7919511c7" name="Darkness in the East" size="EncounterCard">
     <property name="Card Number" value="48"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="City of Rhûn"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Raise each player`s threat by X, where X is the active location`s $. If there is no active location, Darkness in the East gains surge."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+2 Û instead if you raised your threat this round). "/>
   </card>
   <card id="55d05b39-c993-45bb-874c-3eacbcf49278" name="Side Street" size="EncounterCard">
     <property name="Card Number" value="49"/>
@@ -467,6 +526,7 @@
     <property name="Traits" value="City."/>
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Side Street is in the staging area, progress cannot be placed on other locations in the staging area.Travel: Shuffle the encounter discard pile into the encounter deck and discard cards until a location is discarded. Add that location to the staging area."/>
   </card>
   <card id="d7775ec0-caf0-42b8-9aef-ca70a1e6950b" name="Catacombs" size="EncounterCard">
     <property name="Card Number" value="50"/>
@@ -476,24 +536,29 @@
     <property name="Traits" value="City."/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Catacombs is in the staging area, enemes in the staging area cannot take damage.Travel: Each player discards the top card of the encounter deck. If a player discards an enemy this way, he puts it into play engaged with him."/>
   </card>
   <card id="9bcae7d4-8bbc-4d82-a173-ca2f63557664" name="Under Guard" size="EncounterCard">
     <property name="Card Number" value="51"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Under Guard"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Resolve the Travel effect on the active location. If there is no active location, discard cards from the encounter deck until a location is discarded. Add that location to the staging area."/>
+    <property name="Shadow" value="Shadow: If this attack destroys a character, resolve the Travel effect on the active location."/>
   </card>
   <card id="203ed863-1738-4974-ae79-19977eea868d" name="Unwelcome Travelers" size="QuestCard">
     <property name="Card Number" value="52"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Side Quest"/>
     <property name="Victory Points" value="10"/>
+    <property name="Text" value="Each location in the staging area gets +1 $.Forced: After Unwelcome Travelers becomes the current quest, the first player discards cards from the top of the encounter deck until an enemy is discarded and puts it into play engaged with him."/>
   </card>
   <card id="20a011e7-0153-45b1-9c6c-a68753683a79" name="Tribute to Mordor" size="QuestCard">
     <property name="Card Number" value="53"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Side Quest"/>
     <property name="Victory Points" value="10"/>
+    <property name="Text" value="Forced: At the end of the round, place 1 damage token here. Then, if there are 4 or more damage tokens here, remove 4 of them and reveal the top card of the Power of Mordor deck. If you cannot, the player lose the game.This stage cannot be the active quest while Thane Ulchor has any hit points remaining. When this stage is defeated, the players win the game."/>
   </card>
   <card id="039a688f-8bef-4a77-97c4-84b942f3d91a" name="Than Ulchor" size="EncounterCard">
     <property name="Card Number" value="54"/>
@@ -509,6 +574,7 @@
     <property name="Defense" value="4"/>
     <property name="Health" value="9"/>
     <property name="Victory Points" value="6"/>
+    <property name="Text" value="Immune to player card effects.X is 1 more than the number of quest stages in the victory display. Cannot be engaged unless X is equal to 5.Forced: When Thane Ulchor attacks and destroys a character, place 1 damage token on Tribute to Mordor."/>
   </card>
   <card id="89fba072-2af9-460c-8556-3bf3a8f0091e" name="Temple of Sauron" size="EncounterCard">
     <property name="Card Number" value="55"/>
@@ -518,6 +584,8 @@
     <property name="Traits" value="Underground."/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="1"/>
+    <property name="Text" value="Forced: When Temple of Sauron leaves play, place 1 damage token on Tribute to Mordor."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 [Attack] for each quest stage in the victory display. "/>
   </card>
   <card id="2744032b-21e4-4b52-a66e-f4c1926f451b" name="Hall of Horrors" size="EncounterCard">
     <property name="Card Number" value="56"/>
@@ -527,12 +595,15 @@
     <property name="Traits" value="Underground."/>
     <property name="Threat" value="X"/>
     <property name="Quest Points" value="5"/>
+    <property name="Text" value="X is 1 more than the number of quest stages in the victory display.Forced: When Hall of Horrors leaves play, each player deals X damage to a character he controls."/>
   </card>
   <card id="24ffba46-0c66-4559-ae13-d0980180f537" name="Place of Evil" size="EncounterCard">
     <property name="Card Number" value="57"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Place 1 damage token on Tribute to Mordor. Then, either place 1 additional damage token on Tribute to Mordor, or Place of Evil gains surge."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +1 [Attack]. If this attack destroys a character, place 1 damage token on Tribute to Mordor. "/>
   </card>
   <card id="74ceb68a-a1c9-41bc-aeb8-41738b34a3bb" name="Ulchor's Guard" size="EncounterCard">
     <property name="Card Number" value="58"/>
@@ -545,12 +616,16 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="While Thane of Ulchor is engaged with a player, Ulchor`s Guard engages that player."/>
+    <property name="Shadow" value="Shadow: Attacking enemy gets +2 [Defense] until the end of the phase. "/>
   </card>
   <card id="8d61982f-acf9-4b03-969f-6e75688ee1fd" name="Ulchor's Rage" size="EncounterCard">
     <property name="Card Number" value="59"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Ulchor's Guard"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Thane Ulchor makes an immediate attack against the first player. If no attack is made this way, Ulchor`s Rage gains surge."/>
+    <property name="Shadow" value="Shadow: Deal 1 damage to the defending character. "/>
   </card>
   <card id="1ac7e2b5-aa19-4608-b101-e22390c8a906" name="Fanaticism" size="EncounterCard">
     <property name="Card Number" value="60"/>
@@ -558,6 +633,7 @@
     <property name="Encounter Set" value="Ulchor's Guard"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Easterling."/>
+    <property name="Text" value="While attached to an enemy, counts as a Condition attachment with the text: `Attached enemy gets +1 $, +1 Û, +1 Ú, and is immune to player card effects.`When Revealed: Attach to the Easterling enemy with the lowest Ú without a copy of Fanaticism. Otherwise, Fanaticism gains surge."/>
   </card>
   <card id="67251171-ee5f-46d5-b3c8-10523350c60c" name="Twisted Tunnel" size="EncounterCard">
     <property name="Card Number" value="61"/>
@@ -567,6 +643,8 @@
     <property name="Traits" value="Underground."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="2"/>
+    <property name="Text" value="When Revealed: Discard cards from the top of the encounter deck until an enemy is discarded. Add that enemy to the staging area."/>
+    <property name="Shadow" value="Shadow: Defending character cannot ready until the end of the round. "/>
   </card>
   <card id="4b678143-ec9f-4727-998a-85dfef48d47a" name="Narrow Opening" size="EncounterCard">
     <property name="Card Number" value="62"/>
@@ -576,6 +654,7 @@
     <property name="Traits" value="Underground."/>
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Narrow Opening is the active location, each player cannot play more than 1 card each round.Forced: When Narrow Opening leaves play, each player discards 1 random card from his hand."/>
   </card>
   <card id="6885658b-983d-459f-83f8-5a4d3ee5db9d" name="Crumbling Passage" size="EncounterCard">
     <property name="Card Number" value="63"/>
@@ -585,6 +664,7 @@
     <property name="Traits" value="Underground."/>
     <property name="Threat" value="5"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="When Revealed: Make Crumbling Passage the active location, returning any previously active location to the staging area.Forced: When Crumbling Passage leaves play, deal 1 damage to each exhausted character."/>
   </card>
   <card id="64d1e3f3-3265-44a8-97f7-9a1c744a01b9" name="Fearful Shadows" size="EncounterCard">
     <property name="Card Number" value="64"/>
@@ -592,12 +672,14 @@
     <property name="Encounter Set" value="Twisted Tunnels"/>
     <property name="Type" value="Treachery"/>
     <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="When Revealed: Until the end of the round, treat the printed text box of each character as if it were blank (except for Traits)."/>
   </card>
   <card id="c33f8472-2563-438e-94d3-77490d7c2175" name="Lost in the Dark" size="QuestCard">
     <property name="Card Number" value="65"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Side Quest"/>
     <property name="Victory Points" value="10"/>
+    <property name="Text" value="When Revealed: Each player places the top 10 cards of his deck facedown under his threat dial (without looking at them). When this stage is defeated, each player shuffles all cards under his threat dial back into his deck.Forced: After a player raises his threat by any amount, he discards the top card from under his threat dial."/>
   </card>
   <card id="2fe95d8c-0f30-4c20-b926-d92e4feea8e2" name="Khamûl the Easterling" size="EncounterCard">
     <property name="Card Number" value="66"/>
@@ -611,6 +693,7 @@
     <property name="Attack" value="6"/>
     <property name="Defense" value="4"/>
     <property name="Health" value="9"/>
+    <property name="Text" value="Immune to player card effects.Khamûl the Easterling engages the first player.Only the engaged player can declare attackers or defenders against Khamûl the Easterling."/>
   </card>
   <card id="47ecf6a6-84e9-4aa7-ba23-9afe914027cd" name="The Tower of Barad-dûr" size="EncounterCard">
     <property name="Card Number" value="67"/>
@@ -621,6 +704,7 @@
     <property name="Traits" value="Mordor."/>
     <property name="Threat" value="5"/>
     <property name="Quest Points" value="-"/>
+    <property name="Text" value="Immune to player card effects.The player cannot travel here.Each player`s threat elimination level is reduced by 5."/>
   </card>
   <card id="4cd62a82-6bc9-4e38-8561-49b5fa2aba7e" name="Under the Watchful Eye" size="EncounterCard">
     <property name="Card Number" value="68"/>
@@ -628,6 +712,7 @@
     <property name="Encounter Set" value="The Power of Mordor"/>
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Mordor."/>
+    <property name="Text" value="When Revealed: Each player with more than 5 cards in his hand discards cards from his hand until he has only 5.Forced: After a player draws any number of cards, he raises his threat by 1."/>
   </card>
   <card id="bd837efe-9358-4fe9-8770-69b9b1fefb48" name="The Armies of Mordor" size="EncounterCard">
     <property name="Card Number" value="69"/>
@@ -635,6 +720,7 @@
     <property name="Encounter Set" value="The Power of Mordor"/>
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Mordor."/>
+    <property name="Text" value="Forced: After a non-unique enemy engages a player, that enemy cannot take damage until the end of the round."/>
   </card>
   <card id="f3285b0c-ccd9-48b1-9c20-c8fbc4bd1695" name="Covered in Darkness" size="EncounterCard">
     <property name="Card Number" value="70"/>
@@ -643,6 +729,7 @@
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Mordor."/>
     <property name="Keywords" value="Doomed 5."/>
+    <property name="Text" value="Each player`s threat cannot be reduced by more than 1 each round by player card effects."/>
   </card>
   <card id="beb13658-234c-44c2-9987-4dea3351184f" name="Stinker" size="EncounterCard">
     <property name="Card Number" value="71"/>
@@ -651,6 +738,8 @@
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Gollum."/>
     <property name="Keywords" value="Surge."/>
+    <property name="Text" value="When Revealed: Gollum makes an immediate attack. If no attach was made this way, discard all tokens from Sméagol and flip him to Gollum."/>
+    <property name="Shadow" value="Shadow: Raise your threat by 2 (by 4 instead if attacking enemy is Gollum). Shuffle Stinker back into the encounter deck. "/>
   </card>
   <card id="aed43197-5067-4bfe-9a52-95ada03f3b2c" name="Sméagol">
     <property name="Card Number" value="72"/>
@@ -664,6 +753,7 @@
     <property name="Attack" value="2"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Cannot have attachments. Setup: Shuffle 2 copies of Stinker into the encounter deck.Response: After you travel to a location, raise your threat by 1 to draw 1 card."/>
     <alternate name="Gollum" type="B">
       <property name="Encounter Set" value=""/>
       <property name="Unique" value="‰"/>
@@ -673,6 +763,7 @@
       <property name="Attack" value="2"/>
       <property name="Defense" value="2"/>
       <property name="Health" value="3"/>
+      <property name="Text" value="Immune to non-Gollum card effects. Gollum engages the first player. Forced: When Gollum is defeated, flip him to Sméagol and return him to his owner`s control, exhausted."/>
     </alternate>
   </card>
   <card id="cf207eaa-2897-430e-9988-c557173055b5" name="Fellowship">
@@ -680,9 +771,11 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Contract"/>
     <property name="Sphere" value="Neutral"/>
+    <property name="Text" value="You cannot play non-unique allies or put non-unique allies into play. Forced: When you control exactly 9 unique characters, flip this card over."/>
     <alternate name="Fellowship" type="B">
       <property name="Encounter Set" value=""/>
       <property name="Type" value="Contract"/>
+      <property name="Text" value="You cannot play allies or put allies into play. Each character you control gets +1 Ò, +1 Û, and +1 Û. Forced: After a character you control leaves play, flip this card over."/>
     </alternate>
   </card>
   <card id="fbc99604-7183-41fe-b37c-d5a8f54bea0e" name="Chased by Easterlings" size="QuestCard">
@@ -690,10 +783,14 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The River Running"/>
     <property name="Type" value="Quest"/>
+    <property name="Text" value="Setup: Set Warriors of the East aside, out of play. Add Easterling Pursuit and 1 copy of River Running to the staging area. Each player adds 1 different Easterling enemy to the staging area. Shuffle the encounter deck."/>
     <alternate name="Chased by Easterlings" type="B">
       <property name="Encounter Set" value="The River Running"/>
       <property name="Type" value="Quest"/>
-      <property name="Health" value="This stage gets +5 quest points per player.Add +1 $ to the total threat in the staging area for each resource token on Easterling Pursuit."/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="5"/>
+      <property name="Text" value="This stage gets +5 quest points per player.Add +1 $ to the total threat in the staging area for each resource token on Easterling Pursuit."/>
     </alternate>
   </card>
   <card id="8bd42629-07e8-4d8e-ac82-1f463c1cb7e6" name="The Crossing of Araw" size="QuestCard">
@@ -701,10 +798,15 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The River Running"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="When Revealed: Add Warriors of the East to the staging area. Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area."/>
     <alternate name="The Crossing of Araw" type="B">
       <property name="Encounter Set" value="The River Running"/>
       <property name="Type" value="Quest"/>
-      <property name="Health" value="Each enemy in the staging area gets -10 enagement cost.While at least one player is engaged with an enemy, no more than 5 progress can be placed here each round.When this stage is defeated, the players win the game."/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="15"/>
+      <property name="Text" value="Each enemy in the staging area gets -10 enagement cost.While at least one player is engaged with an enemy, no more than 5 progress can be placed here each round.When this stage is defeated, the players win the game."/>
     </alternate>
   </card>
   <card id="25e58441-df9d-4935-a3c7-0a5b210538c5" name="A City in Turmoil" size="QuestCard">
@@ -712,10 +814,15 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Setup: Set each plot objective and each Cultist enemy aside, out of play. Each player searches the encounter deck for a different location and adds it to the staging area. One of those locations must be Side Street. Shuffle the encounter deck."/>
     <alternate name="A City in Turmoil" type="B">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
       <property name="Type" value="Quest"/>
-      <property name="Health" value="Forced: After the active location leaves play as an explored location, place 1 resource here.This stage cannot be defeated unless there are at least 2 resources here."/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="5"/>
+      <property name="Text" value="Forced: After the active location leaves play as an explored location, place 1 resource here.This stage cannot be defeated unless there are at least 2 resources here."/>
     </alternate>
   </card>
   <card id="f77e471a-7dd2-4f05-ac8f-fbb534c66633" name="The Shadow of Mordor" size="QuestCard">
@@ -723,10 +830,15 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="When Revealed: Add 1 random set aside Plot objective to the staging area. Reveal 1 encounter card per player."/>
     <alternate name="The Shadow of Mordor" type="B">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
       <property name="Type" value="Quest"/>
-      <property name="Health" value="Forced: After the active location leaves play as an explored location, reveal the top card of the encounter deck. Then, place 1 resource here.This stage cannot be defeated unless there are at least X resources here, where X is 3 more than the number of players."/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+      <property name="Text" value="Forced: After the active location leaves play as an explored location, reveal the top card of the encounter deck. Then, place 1 resource here.This stage cannot be defeated unless there are at least X resources here, where X is 3 more than the number of players."/>
     </alternate>
   </card>
   <card id="51b45e84-3f63-46ea-aa08-b83dd89244ff" name="Leader of the Cult" size="QuestCard">
@@ -734,10 +846,15 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="When Revealed: Add 1 random set-aside Cultist enemy to the staging area. Shuffle the encounter discard pile into the encounter deck and discard cards until X enemies are discarded, where X is one less than the number of players. Add each enemy discarded this way to the staging area."/>
     <alternate name="Leader of the Cult" type="B">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
       <property name="Type" value="Quest"/>
-      <property name="Health" value="The Cultist cannot take more than X damage each round, where X is the printed quest points of the active location.When the Cultist enemy is defeated, the players win the game."/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="The Cultist cannot take more than X damage each round, where X is the printed quest points of the active location.When the Cultist enemy is defeated, the players win the game."/>
     </alternate>
   </card>
   <card id="31acc133-3c82-4c6e-8fc1-ced6537f735e" name="The Forgotten Temple" size="QuestCard">
@@ -745,11 +862,16 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="Setup: Shuffle each of the stage 2 quest cards together and place them facedown under this stage. Create The Power of Mordor deck (see insert) and set it next to the quest deck. Add Thane Ulchor and Tribute to Mordor to the staging area. Shuffle the encounter deck."/>
     <alternate name="The Forgotten Temple" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
-      <property name="Attack" value="10"/>
-      <property name="Health" value="Forced: At the end of the planning phase, place 1 resource token here. Then, if there are 2 resource tokens here, add this stage to the victory display and advance to the topmost stage 2A."/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Victory Points" value="10"/>
+      <property name="Text" value="Forced: At the end of the planning phase, place 1 resource token here. Then, if there are 2 resource tokens here, add this stage to the victory display and advance to the topmost stage 2A."/>
     </alternate>
   </card>
   <card id="ffe7cb9e-8ac6-411d-a8b9-77ebaf8ee12e" name="The Legacy of Mordor" size="QuestCard">
@@ -757,11 +879,16 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
     <alternate name="The Legacy of Mordor" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
-      <property name="Attack" value="1"/>
-      <property name="Health" value="While there are 4 quest stages in the victory display, progress cannot be placed here."/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="8"/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced: At the beginning of the quest phase, each player deals 1 damage to a hero he controls and exhausts that hero. That hero cannot ready or be healed until the refresh phase.&#10;&#10;While there are 4 quest stages in the victory display, progress cannot be placed here."/>
     </alternate>
   </card>
   <card id="f015bc92-42c1-405d-a54e-1a1c7bc0afae" name="Memory of the Dark Years" size="QuestCard">
@@ -769,11 +896,16 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
     <alternate name="Memory of the Dark Years" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
-      <property name="Attack" value="1"/>
-      <property name="Health" value="While there are 4 quest stages in the victory display, progress cannot be place here."/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="12"/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced: At the beginning of the quest phase, discard X cards from the top of the encounter deck, where X is 1 more than the number of quest stages in the victory display. Add 2 to the total Threat in the staging area for each different card type discarded this way. &#10;&#10;While there are 4 quest stages in the victory display, progress cannot be place here."/>
     </alternate>
   </card>
   <card id="ea80809a-c719-41a9-8729-5f58cdec149b" name="Shrine to Sauron" size="QuestCard">
@@ -781,11 +913,16 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
     <alternate name="Shrine to Sauron" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
-      <property name="Attack" value="1"/>
-      <property name="Health" value="Forced: At the beginning of the quest phase, each player discards the top X cards of his deck, where X is 1 more than the number of quest stages in the victory display. Each player examines the cards he controls and the cards in his hand. If any of these cards are copies of the cards he just discarded from the top of his deck, he must discard those copies as well.While there are 4 quest stages in the victory display, progress cannot be placed here."/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="16"/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced: At the beginning of the quest phase, each player discards the top X cards of his deck, where X is 1 more than the number of quest stages in the victory display. Each player examines the cards he controls and the cards in his hand. If any of these cards are copies of the cards he just discarded from the top of his deck, he must discard those copies as well. &#10;&#10;While there are 4 quest stages in the victory display, progress cannot be placed here."/>
     </alternate>
   </card>
   <card id="91c259ee-7c5c-45d4-9a97-bb0a2a05d7f8" name="The Lord of Middle-earth" size="QuestCard">
@@ -793,11 +930,16 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
     <alternate name="The Lord of Middle-earth" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
-      <property name="Attack" value="1"/>
-      <property name="Health" value="This stage gets +4 quest points per player.Forced: At the beginning of the quest phase, each player discards 1 card from his hand. Until the end of the round, no more than X progress can be placed on this stage. X is the total cost of each card discarded by this effect.While there are 4 quest stages in the victory display, progress cannot be placed here."/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="This stage gets +4 quest points per player. Forced: At the beginning of the quest phase, each player discards 1 card from his hand. Until the end of the round, no more than X progress can be placed on this stage. X is the total cost of each card discarded by this effect. &#10;&#10;While there are 4 quest stages in the victory display, progress cannot be placed here."/>
     </alternate>
   </card>
  </cards>

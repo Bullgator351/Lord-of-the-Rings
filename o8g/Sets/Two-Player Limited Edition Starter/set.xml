@@ -553,7 +553,7 @@
     <property name="Health" value="2"/>
     <property name="Text" value="Response: After Sarn Ford Sentry enters play, draw 1 card for each enemy engaged with you."/>
   </card>
-  <card id="7bf8b939-e73b-4801-af25-757e325666ce" name="Erebor Hammersmith">
+  <card id="7bf8b939-e73b-4801-af25-757e325666ce" name="Erebor Hammersmith" size="EncounterCard">
     <property name="Card Number" value="46"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Ally"/>
@@ -1082,7 +1082,7 @@
       <property name="Text" value="When Revealed: Each player searches the encounter deck and discard pile for a Forest location and adds it to the staging area. Shuffle the encounter deck. This stage cannot be defeated unless at least 1 copy of Goblin Trail is in the vitory display."/>
     </alternate>
   </card>
-  <card id="9bb6a890-b9d3-4528-8049-8017d9a01c4c" name="The Rearguard" size="QuestCard">
+  <card id="9bb6a890-b9d3-4528-8049-8017d9a01c4c" name="The Rearguard">
     <property name="Card Number" value="97"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Oath"/>

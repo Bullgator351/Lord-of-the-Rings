@@ -85,7 +85,7 @@
     <property name="Defense" value="2"/>
     <property name="Health" value="5"/>
   </card>
-  <card id="9f25b06e-5b09-437e-a781-edb0a02f10c1" name="Éowyn">
+  <card id="9f25b06e-5b09-437e-a781-edb0a02f10c1" name="Eowyn">
     <property name="Card Number" value="7"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Dark Corners of Middle-earth"/>
