@@ -76,6 +76,7 @@
 		<!--<groupaction menu="Save Player Deck ..." default="False" execute="saveDeck" /> -->
  		<groupaction menu="Save Table State..." default="False" execute="saveTable" />
  		<groupaction menu="Load Table State..." default="False" execute="loadTable" />
+		<groupaction menu="Load Player Deck from RingsDB..." default="False" execute="loadDeckFromRingsDB" />
 		<groupaction menu="Done" default="False" shortcut="Ctrl+Right" execute="playerDone" />
 		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+T" execute="playerSetup" />
 		<groupaction menu="Reveal Encounter Card" default="False" shortcut="ctrl+E" execute="addEncounter" />
