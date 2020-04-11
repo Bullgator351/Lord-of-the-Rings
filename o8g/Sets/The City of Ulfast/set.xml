@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The City of Ulfast" id="bbcb1c60-f3bd-45c3-91a0-efbeb64f7e19" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="4cca8984-2e4e-4df2-ac96-86af18b2a961" name="Lothíriel">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Gondor. Noble."/>
+    <property name="Cost" value="8"/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="If Éomer is in play, Lothíriel gains the Rohan trait. Response: After Lothíriel commits to a quest, choose an ally in your hand. If that ally shares a Trait with her, put that ally into play exhausted and committed to the quest. At the end of the phase, if that ally is still in play, shuffle it into your deck."/>
+  </card>
+  <card id="0c65af6a-7038-476b-9318-a024cc94c8b6" name="Angbor the Fearless">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Gondor. Warrior."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="While your threat is 40 or higher, Angbor the Fearless gets +2 Û and does not exhaust to quest."/>
+  </card>
+  <card id="3dc9ec01-71b6-48fd-8fe4-0c8fa2161fe3" name="Need Drives Them">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="Action: Each player whose threat is 40 or higher readies all characters he controls."/>
+  </card>
+  <card id="8f6ea5ad-8075-463e-96bc-37e383e39e6b" name="Woodland Sentry">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Silvan."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After you play Woodland Sentry from your hand, choose an enemy or location in play. If there is a copy of that card in the victory display, discard the chosen card."/>
+  </card>
+  <card id="d06a7a16-808a-47c2-a87d-a8ee61fa5545" name="Keen Longbow">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Item. Weapon."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to a Î hero. Limit 1 per hero.Restricted.Attached hero gains ranged.Response: After attached hero is declared an as attacker against an enemy, discard up to 3 cards from your hand to deal 1 damage to that enemy for each card discarded this way."/>
+  </card>
+  <card id="6f02e0de-b54d-4c13-97b8-2f3a53b3aa77" name="War Axe">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Item. Weapon."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a Ï character. Limit 1 per character. Restricted. Attached characters gets +1 Û for each attachment it has with the restricted keyword."/>
+  </card>
+  <card id="fbf90e5c-4d15-499c-98c2-f8e63855fb69" name="Strength and Courage">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Master."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to the hero with The One Ring.Limit 1 per hero. Attached hero gets +1 Û. Response: After attached hero is declared as an attacker, exhaust The One Ring and raise your threat by 1 to double attached hero`s printed Û for this attack."/>
+  </card>
+  <card id="42cafa71-a9c1-4e66-85b0-83072c54b106" name="Knight of Belfalas">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Gondor. Warrior."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Knight of Belfalas enters play, return a Gondor ally from your discard pile to your hand."/>
+  </card>
+  <card id="52a0f137-da57-4c41-b455-9671aecd5298" name="Horn of the Mark">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Artifact. Item."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a Rohan hero or Merry. Restricted.Response: When a character leaves play, if that character shares at least one trait with the attached hero, exhaust Horn of the Mark to draw 1 card."/>
+  </card>
+  <card id="70c370e2-ae8e-4dff-bf38-619e9c6d0ce7" name="Host of Galadhrim">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Cost" value="4"/>
+    <property name="Text" value="Planning Action: Return each Silvan ally you control to your hand. Then, play each of those allies from your hand one at a time at no cost."/>
+  </card>
+  <card id="3043df29-f8e9-426e-bd14-5cb720ed8f10" name="City Guard" size="EncounterCard">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Indestructible."/>
+    <property name="Engagement Cost" value="45"/>
+    <property name="Threat" value="X"/>
+    <property name="Attack" value="9"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="20"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Text" value="Immune to player card effects. Indestructible. X is 1 more than the number of resources on the main quest.City Guard cannot leave the staging area but is considered to be engaged with each player whose threat is equal to or higher than its engagement cost."/>
+  </card>
+  <card id="c2720938-450b-4017-9ac3-f3130164bdf9" name="Ulfast Sentry" size="EncounterCard">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Engagement Cost" value="25"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="X"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="X is 1 more than the number of resources on the main quest.Forced: After Ulfast Sentry engages you, either place 1 resource on the main quest or Ulfast Sentry makes an attack."/>
+  </card>
+  <card id="33ed5e88-f3ba-4970-9e4a-fbb8c2a6d959" name="The King's Elite" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Cannot have player card attachments. Forced: When The King`s Elite attacks, place 1 resource on the main quest."/>
+  </card>
+  <card id="60b96a86-77b5-4184-9703-f55b8c857eb9" name="Ulchor's Agent" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Engagement Cost" value="32"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="When Revealed: Raise each player`s threat by 3."/>
+  </card>
+  <card id="a7ae0add-ff9b-4976-8932-cff6d6e9a4dc" name="The King's Lawn" size="EncounterCard">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While The King`s Lawn is in the staging area, each player must raise his threat by 1 additional point during the refresh phase. Travel: Place 1 resource on the main quest."/>
+  </card>
+  <card id="f6f56327-cc71-458c-bcdb-51ca6dab2fa1" name="Guarded Archway" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Guarded Archway is in the staging area, each player engaged with City Guard cannot reduce his threat. Travel: City Guard makes an attack against the first player."/>
+  </card>
+  <card id="b07cec11-452d-423a-b33e-3f9345c9f6e1" name="Crowded Market" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="While Crowded Market is the active location, City Guard gets +20 engagement cost.Travel: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until an enemy is discarded. Add that enemy to the staging area."/>
+  </card>
+  <card id="af3543c4-f30f-4522-bbb7-5ef039344fdf" name="Streets of Ulfast" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="X"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="X is 1 more than the number of resources on the main quest. Travel: Raise each player`s threat by X."/>
+  </card>
+  <card id="e4ad5220-6251-4c65-8206-ab656540cc3b" name="Extra Vigil" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Attach to City Guard. (Counts as a Condition attachment with the text: `City Guard gets -10 engagement cost. Response: After you attack and damage City Guard, raise your threat by 1 and discard Extra Vigil.`)"/>
+  </card>
+  <card id="92d8276b-0839-44b4-b7ce-e18e135fe407" name="We've Been Seen" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player must choose: either City Guard makes an attack against you, or raise your threat by X, where X is 1 more than the number of allies you control."/>
+  </card>
+  <card id="379415fb-39c8-4cb8-aa19-ac54c46bcb4a" name="Patrolling the Streets" size="EncounterCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Place 1 resource on the main quest. Then, either progress cannot be placedon the current quest this phase, or raise each player`s threat by X, where X is 1 more than the number of resources on the main quest."/>
+  </card>
+  <card id="fdf01cb8-5798-43f3-adbd-e2870c53f0cf" name="Cat and Mouse" size="QuestCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Each enemy in the staging area gets -10 engagement cost.Response: After Cat and Mouse is defeated, each player may discard a non-unique enemy engaged with him."/>
+  </card>
+  <card id="4a0d8846-9a30-455e-9bf7-a2f5c77b787b" name="Forth, The Three Hunters!">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Contract"/>
+    <property name="Text" value="Your deck cannot include ally cards. Each of your heroes can have 1 additional restricted attachment. Reduce the cost of the first restricted attachment you play on each of your heroes each round by 1. Refresh Action: If each of your heroes has at least 2 restricted attachments, flip this card over."/>
+    <alternate name="Forth, The Three Hunters!" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Type" value="Contract"/>
+      <property name="Text" value="Each of your heroes can have 1 additional restricted attachment and gets +1 Ò for each restricted attachment on it. Action: Exhaust this card to heal 1 damage from each of your heroes."/>
+    </alternate>
+  </card>
+  <card id="e0fd5147-e1aa-42c3-972f-5cf0c93a6716" name="Searching for Ulchor" size="QuestCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Add City Guard to the staging area. Each player adds a different location to the staging area. Shuffle the encounter deck."/>
+    <alternate name="Searching for Ulchor" type="B">
+      <property name="Encounter Set" value="The City of Ulfast"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Text" value="Setup: Add City Guard to the staging area. Each player adds a different location to the staging area. Shuffle the encounter deck.City Guard cannot have more than 5 damage, and it gets -5 engagement cost for each resource here.Forced: At the end of the round, place 1 resource here."/>
+    </alternate>
+  </card>
+  <card id="7f5e53ea-a9a7-4a7d-b5cb-06924fdde2c3" name="Trying to Blend In" size="QuestCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Each player must choose: either raise your threat by 5, or reveal an encounter card."/>
+    <alternate name="Trying to Blend In" type="B">
+      <property name="Encounter Set" value="The City of Ulfast"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Text" value="When Revealed: Each player must choose: either raise your threat by 5, or reveal an encounter card.City Guard cannot have more than 10 damage, and it gets -5 engagement cost for each resource here.Forced: At the end of the round, place 1 resource here."/>
+    </alternate>
+  </card>
+  <card id="59314974-a07d-4024-9951-40736209b6b9" name="Drawing Attention" size="QuestCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Each player must choose: either raise your threat by 5, or City Guard makes an immediate attack against you."/>
+    <alternate name="Drawing Attention" type="B">
+      <property name="Encounter Set" value="The City of Ulfast"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Text" value="City Guard cannot have more than 15 damage, and it gets -5 engagement cost for each resource here."/>
+    </alternate>
+  </card>
+  <card id="1b0de48c-a010-490f-b0e3-0ced635b3b3b" name="Ulchor's Trap" size="QuestCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The City of Ulfast"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="4"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded. X is the number of players. Add each enemy discarded this way to the staging area."/>
+    <alternate name="Ulchor's Trap" type="B">
+      <property name="Encounter Set" value="The City of Ulfast"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="4"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded. X is the number of players. Add each enemy discarded this way to the staging area.City Guard cannot have more than 20 damage, and it gets -5 engagement cost for each resource here.Forced: At the end of the round, place 1 resource here.This stage cannot be defeated while City Guardhas hit points remaining. When this stage is defeated, the players win the game."/>
+    </alternate>
+  </card>
+ </cards>
+</set>

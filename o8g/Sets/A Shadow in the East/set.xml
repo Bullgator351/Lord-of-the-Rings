@@ -264,6 +264,7 @@
   <card id="bbc72a18-cf4c-469f-bd01-6b1d3492c2ff" name="Warriors of the East" size="QuestCard">
     <property name="Card Number" value="24"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Easterling Raiders"/>
     <property name="Type" value="Side Quest"/>
     <property name="Keywords" value="Surge."/>
     <property name="Victory Points" value="10"/>
@@ -309,6 +310,7 @@
   <card id="c1ee0cb7-a209-44d6-8f35-8494a9e6cf1d" name="An Arduous Journey" size="QuestCard">
     <property name="Card Number" value="29"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Rolling Plains"/>
     <property name="Type" value="Side Quest"/>
     <property name="Victory Points" value="10"/>
     <property name="Text" value="Each player cannot ready more than 6 characters he controls during the refresh phase.Response: When this stage is defeated, each player may ready a hero he controls."/>
@@ -457,6 +459,7 @@
   <card id="ba630f98-6ad5-4c4a-adfd-aeeac5485722" name="Shadow of Fear" size="QuestCard">
     <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Servants of Sauron"/>
     <property name="Type" value="Side Quest"/>
     <property name="Keywords" value="Surge."/>
     <property name="Victory Points" value="10"/>
@@ -549,6 +552,7 @@
   <card id="203ed863-1738-4974-ae79-19977eea868d" name="Unwelcome Travelers" size="QuestCard">
     <property name="Card Number" value="52"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Under Guard"/>
     <property name="Type" value="Side Quest"/>
     <property name="Victory Points" value="10"/>
     <property name="Text" value="Each location in the staging area gets +1 $.Forced: After Unwelcome Travelers becomes the current quest, the first player discards cards from the top of the encounter deck until an enemy is discarded and puts it into play engaged with him."/>
@@ -556,11 +560,12 @@
   <card id="20a011e7-0153-45b1-9c6c-a68753683a79" name="Tribute to Mordor" size="QuestCard">
     <property name="Card Number" value="53"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Side Quest"/>
     <property name="Victory Points" value="10"/>
     <property name="Text" value="Forced: At the end of the round, place 1 damage token here. Then, if there are 4 or more damage tokens here, remove 4 of them and reveal the top card of the Power of Mordor deck. If you cannot, the player lose the game.This stage cannot be the active quest while Thane Ulchor has any hit points remaining. When this stage is defeated, the players win the game."/>
   </card>
-  <card id="039a688f-8bef-4a77-97c4-84b942f3d91a" name="Than Ulchor" size="EncounterCard">
+  <card id="039a688f-8bef-4a77-97c4-84b942f3d91a" name="Thane Ulchor" size="EncounterCard">
     <property name="Card Number" value="54"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Temple of Doom"/>
@@ -677,6 +682,7 @@
   <card id="c33f8472-2563-438e-94d3-77490d7c2175" name="Lost in the Dark" size="QuestCard">
     <property name="Card Number" value="65"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Twisted Tunnels"/>
     <property name="Type" value="Side Quest"/>
     <property name="Victory Points" value="10"/>
     <property name="Text" value="When Revealed: Each player places the top 10 cards of his deck facedown under his threat dial (without looking at them). When this stage is defeated, each player shuffles all cards under his threat dial back into his deck.Forced: After a player raises his threat by any amount, he discards the top card from under his threat dial."/>
@@ -799,6 +805,7 @@
     <property name="Encounter Set" value="The River Running"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Warriors of the East to the staging area. Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area."/>
     <alternate name="The Crossing of Araw" type="B">
       <property name="Encounter Set" value="The River Running"/>
@@ -815,6 +822,7 @@
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set each plot objective and each Cultist enemy aside, out of play. Each player searches the encounter deck for a different location and adds it to the staging area. One of those locations must be Side Street. Shuffle the encounter deck."/>
     <alternate name="A City in Turmoil" type="B">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
@@ -831,6 +839,7 @@
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add 1 random set aside Plot objective to the staging area. Reveal 1 encounter card per player."/>
     <alternate name="The Shadow of Mordor" type="B">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
@@ -847,6 +856,7 @@
     <property name="Encounter Set" value="Danger in Dorwinion"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add 1 random set-aside Cultist enemy to the staging area. Shuffle the encounter discard pile into the encounter deck and discard cards until X enemies are discarded, where X is one less than the number of players. Add each enemy discarded this way to the staging area."/>
     <alternate name="Leader of the Cult" type="B">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
@@ -863,6 +873,7 @@
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Shuffle each of the stage 2 quest cards together and place them facedown under this stage. Create The Power of Mordor deck (see insert) and set it next to the quest deck. Add Thane Ulchor and Tribute to Mordor to the staging area. Shuffle the encounter deck."/>
     <alternate name="The Forgotten Temple" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
@@ -880,6 +891,7 @@
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
     <alternate name="The Legacy of Mordor" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
@@ -897,6 +909,7 @@
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
     <alternate name="Memory of the Dark Years" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
@@ -914,6 +927,7 @@
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
     <alternate name="Shrine to Sauron" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>
@@ -931,6 +945,7 @@
     <property name="Encounter Set" value="Temple of Doom"/>
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
     <alternate name="The Lord of Middle-earth" type="B">
       <property name="Encounter Set" value="Temple of Doom"/>

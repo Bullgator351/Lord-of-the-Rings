@@ -1298,7 +1298,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for 1 copy of the Forest Spider and 1 copy of the Old Forest Road, and add them to the staging area. Then, shuffle the encounter deck."/>
-    <property name="Setup" value="ss"/>
     <alternate name="Flies and Spiders" type="B">
       <property name="Encounter Set" value="Passage Through Mirkwood"/>
       <property name="Type" value="Quest"/>
@@ -1363,7 +1362,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for the 3 objective cards, reveal and place them in the staging area. Also, place the Nazgul of Dol Guldur face up but out of play, alongside the quest deck. Then, shuffle the encounter deck, and attach 1 encounter to each objective card."/>
-    <property name="Setup" value="ssst"/>
     <alternate name="The Necromancer's Tower" type="B">
       <property name="Encounter Set" value="Escape from Dol Guldur"/>
       <property name="Type" value="Quest"/>

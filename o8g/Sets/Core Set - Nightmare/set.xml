@@ -221,7 +221,6 @@
     <property name="Keywords" value="Setup"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="ssst"/>
     <alternate name="Escape from Dol Guldur" type="B">
       <property name="Encounter Set" value="Escape from Dol Guldur - Nightmare"/>
       <property name="Type" value="Nightmare"/>

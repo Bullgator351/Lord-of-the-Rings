@@ -13,6 +13,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="4"/>
+    <property name="Text" value="Response: After Thorin Stonehelm is declared as an attacker, discard the top card of your deck to deal 1 damage to an enemy engaged with you."/>
   </card>
   <card id="5177774a-29a0-4ce7-890c-aae2fe01e611" name="Soldier of Gondor">
     <property name="Card Number" value="2"/>
@@ -25,6 +26,7 @@
     <property name="Attack" value="1"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Soldier of Gondor enters play, seach the top 5 cards of your deck for a Gondor ally and add it to your hand (any number of Gondor allies instead if your threat is 40 or higher). Shuffle your deck."/>
   </card>
   <card id="28877bba-27de-4b19-a8ab-5d557b634172" name="Pillars of the Kings">
     <property name="Card Number" value="3"/>
@@ -32,6 +34,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Leadership"/>
     <property name="Cost" value="4"/>
+    <property name="Text" value="While your threat is less than 40, reduce the cost to play Pillars of the Kings by 4.Action: Set your threat to 40. If this effect raised your threat, draw a card (draw 4 cards instead if it raised your threat by 10 or more)."/>
   </card>
   <card id="b1e30a3e-c93f-4126-8271-be44b5880f88" name="Cautious Halfling">
     <property name="Card Number" value="4"/>
@@ -44,6 +47,7 @@
     <property name="Attack" value="0"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Cautious Halfling enters play, look at the top card of the encounter deck. If that card is not an enemy, draw a card."/>
   </card>
   <card id="63b32a1d-495a-416e-bc19-a200a581393b" name="Tom Bombadillo!">
     <property name="Card Number" value="5"/>
@@ -52,6 +56,7 @@
     <property name="Sphere" value="Lore"/>
     <property name="Traits" value="Song."/>
     <property name="Cost" value="2"/>
+    <property name="Text" value="Play only if you control a Hobbit hero. You cannot play this card if there is a copy of Tom Bombadillo! in the victory display.Planning Action: Add Tom Bombadillo the the victory display to shuffle a set-aside copy of Tom Bombadil into the encounter deck."/>
   </card>
   <card id="be4ccbc9-1d4c-461f-a44d-582c52d353e6" name="Durin's Axe">
     <property name="Card Number" value="6"/>
@@ -62,6 +67,7 @@
     <property name="Traits" value="Artifact. Item. Weapon."/>
     <property name="Keywords" value="Guarded (enemy). Restricted."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Guarded (enemy). Restricted.Attach to a hero. Attached hero gets +2 Û.Response: After attach hero attacks and destroys an enemy, deal 1 damage to an enemy engaged with you."/>
   </card>
   <card id="13705ef5-c36c-45c2-97e4-df34e972c1f9" name="Charge into Battle">
     <property name="Card Number" value="7"/>
@@ -69,6 +75,7 @@
     <property name="Type" value="Event"/>
     <property name="Sphere" value="Tactics"/>
     <property name="Cost" value="5"/>
+    <property name="Text" value="Play only after staging step.Quest Action: You may declare and resolve an attack against each non-unique enemy in the staging are as if it were engaged with you."/>
   </card>
   <card id="28bc6296-217d-460a-96b1-47714daf3817" name="Silver Circlet">
     <property name="Card Number" value="8"/>
@@ -78,6 +85,7 @@
     <property name="Traits" value="Item."/>
     <property name="Keywords" value="Restricted."/>
     <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to a Ê hero. Limit 1 per hero.Restricted.Attached hero gets +2 Ò."/>
   </card>
   <card id="b41ed6a0-17bc-4cbc-a654-d4d9538eed62" name="Inner Strength">
     <property name="Card Number" value="9"/>
@@ -86,6 +94,7 @@
     <property name="Sphere" value="Spirit"/>
     <property name="Traits" value="Master."/>
     <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to the hero with The One Ring.Limit 1 per hero. Attached hero gets +1 Ú.Response: Exhaust The One Ring and raise your threat by 1 to cancel a shadow effect just triggered during an attack that attached hero is defending."/>
   </card>
   <card id="9d44ab05-a5a5-41ac-9a14-0e6a5e314053" name="Tom Bombadil">
     <property name="Card Number" value="10"/>
@@ -100,6 +109,7 @@
     <property name="Attack" value="3"/>
     <property name="Defense" value="3"/>
     <property name="Health" value="6"/>
+    <property name="Text" value="When Revealed: Choose a player. That player gains control of Tom Bombadil, ready and committed to the quest. At the end of the round, remove Tom Bombadil and a copy of Tom Bombadillo! in the victory display from the game. This effect cannot be cancelled."/>
   </card>
   <card id="02a5e04c-d08f-49f4-a7b5-ba6a1cb86de7" name="Thane Ulchor" size="EncounterCard">
     <property name="Card Number" value="11"/>
@@ -113,6 +123,7 @@
     <property name="Defense" value="4"/>
     <property name="Health" value="9"/>
     <property name="Victory Points" value="6"/>
+    <property name="Text" value="Immune to player card effects. Cannot leave the staging area.Forced: After the active location is explored, the first player must choose: either discard cards from the top of the encounter deck until a location is discarded and add it to the staging area, or Thane Ulchor attacks you."/>
   </card>
   <card id="f2981455-b642-4d9b-851d-0209a12cffae" name="Champion of Rhûn" size="EncounterCard">
     <property name="Card Number" value="12"/>
@@ -125,6 +136,7 @@
     <property name="Attack" value="5"/>
     <property name="Defense" value="2"/>
     <property name="Health" value="5"/>
+    <property name="Text" value="Forced: After Champion of Rhûn engages you, either return a location you control to the staging area, or Champion of Rhûn makes an attack."/>
   </card>
   <card id="215881a3-df0a-4163-a19d-33b444e7aa95" name="Easterling Skirmisher" size="EncounterCard">
     <property name="Card Number" value="13"/>
@@ -138,6 +150,7 @@
     <property name="Attack" value="4"/>
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
+    <property name="Text" value="Surge. Archery 1.Forced: After Easterling Skirmisher attacks and destroys a character, that character`s controller must return the location he controls with the highest $ to the staging area."/>
   </card>
   <card id="31c36264-7e6f-45df-a345-167d4df70885" name="Gate of Dorwinion" size="EncounterCard">
     <property name="Card Number" value="14"/>
@@ -149,6 +162,7 @@
     <property name="Threat" value="X"/>
     <property name="Quest Points" value="5"/>
     <property name="Victory Points" value="5"/>
+    <property name="Text" value="Immune to player card effects.X is 1 more than the number of locations controlled by the players.The players cannot travel here unless stage 2B has at least 12 progress on it.Travel: Thane Ulchor attacks each player in turn order."/>
   </card>
   <card id="0198aa68-aced-42d0-8816-719ce166ef15" name="Contested Square" size="EncounterCard">
     <property name="Card Number" value="15"/>
@@ -159,6 +173,7 @@
     <property name="Keywords" value="Surge."/>
     <property name="Threat" value="1"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="Surge.Forced: After an enemy is defeated, place 1 progress on Contested Square if it is in the staging area.While you control Contested Square, it gains: `Forced: After a character you control is destroyed, if you control Contested Square, returns Contested Square to the staging area.`"/>
   </card>
   <card id="f672b4f9-6ce8-4be0-95ab-fb5d2091f4ca" name="Ransacked House" size="EncounterCard">
     <property name="Card Number" value="16"/>
@@ -168,6 +183,7 @@
     <property name="Traits" value="City."/>
     <property name="Threat" value="2"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="Encounter Action: Put the topmost enemy in the encounter discard pile into play engaged with you to take control of Ransacked House.While you control Ransacked House, it gains: `Forced: After the player who controls Ransacked House loses control of a location, return Ransacked House to the staging area.`"/>
   </card>
   <card id="2a7b5607-d7ed-4580-b27b-39cf12879297" name="Makeshift Fortification" size="EncounterCard">
     <property name="Card Number" value="17"/>
@@ -177,6 +193,7 @@
     <property name="Traits" value="City."/>
     <property name="Threat" value="3"/>
     <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Makeshift Fortification is the active location, it gains archery 3.Forced: After a player takes control of Makeshift Fortification, return the topmost enemy in the encounter discard pile to the staging area."/>
   </card>
   <card id="51a5e288-cf6e-430d-bc66-715ad2be1a16" name="Captured Tower" size="EncounterCard">
     <property name="Card Number" value="18"/>
@@ -186,6 +203,7 @@
     <property name="Traits" value="City."/>
     <property name="Threat" value="4"/>
     <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Captured Tower is the active location, encounter card effects cannot be canceled.Forced: After a player takes control of Captured Tower, he shuffles the encounter discard pile into the encounter deck and discards cards from the top until he discards an enemy and puts that enemy into play engaged with him."/>
   </card>
   <card id="32621d0f-16a3-4ab9-a553-657834cb6691" name="Fury" size="EncounterCard">
     <property name="Card Number" value="19"/>
@@ -194,24 +212,28 @@
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Easterling."/>
     <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Surge.While attached to an enemy, counts as a Condition attachment with the text: `Forced: When attached enemy would be destroyed, heal all damage from it and discard Fury instead.`When Revealed: Attach to the lowest engagement cost Easterling enemy without Fury."/>
   </card>
   <card id="1a96a88c-3715-4419-89b1-a218e838b5b5" name="Caught Off Guard" size="EncounterCard">
     <property name="Card Number" value="20"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Wrath and Ruin"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player must choose: either return a location you control to the staging area, or discard cards from the top of the encounter deck until an enemy is discarded and put it into play engaged with you."/>
   </card>
   <card id="f054a6e2-71ae-4acb-ba62-2548ecbfcf9a" name="Street Fighting" size="EncounterCard">
     <property name="Card Number" value="21"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Wrath and Ruin"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player assigns X damage among characters he controls, where X is 1 more than the number of locations he controls."/>
   </card>
   <card id="9a870606-9e85-4bdc-a70d-3d1831703eb8" name="Under Siege" size="EncounterCard">
     <property name="Card Number" value="22"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Wrath and Ruin"/>
     <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Until the end of the phase, add X $ to the staging area, where X is 1 more than the number of locations the players control."/>
   </card>
   <card id="a652a7ef-25ad-4e43-94b4-f18c68e34e83" name="Ulchor's Revenge" size="EncounterCard">
     <property name="Card Number" value="23"/>
@@ -219,12 +241,18 @@
     <property name="Encounter Set" value="Wrath and Ruin"/>
     <property name="Type" value="Treachery"/>
     <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="Doomed 1.When Revealed: Thane Ulchor makes an immediate attack against each player that controls a location (in turn order)."/>
   </card>
   <card id="e91aae6d-3708-4580-8598-9ccceb213839" name="The Burglar's Turn">
     <property name="Card Number" value="24"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Contract"/>
-    <property name="Sphere" value="Neutral"/>
+    <property name="Text" value="You cannot include attachments in your deck.Setup: Choose 14 different Item or Artifact attachments from your collection and shuffle them together. This is your loot deck. Flip this card over and place your loot deck facedown under it."/>
+    <alternate name="The Burglar's Turn" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Type" value="Contract"/>
+      <property name="Text" value="The active location gets +1 quest point for each attachment attached to it. Forced: After you travel to a location, attach the top card of your loot deck faceup to that location as a guarded objective. If that attachment has the guarded X keyword, ignore it. Forced: When the active location is explored, you may put each guarded attachment on that location into play at no cost, or add it to your hand."/>
+    </alternate>
   </card>
   <card id="cefd0596-2e3b-4496-95e0-57899ab83b04" name="Inside the Walls" size="QuestCard">
     <property name="Card Number" value="25"/>
@@ -233,12 +261,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Add Thane Ulchor and Gate of Dorwinion to the staging area. Each player adds a different location to the staging area. Make a copy of Makeshift Fortification the active location. Shuffle the enocounter deck."/>
     <alternate name="Inside the Walls" type="B">
       <property name="Encounter Set" value="Wrath and Ruin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="4"/>
+      <property name="Text" value="This stage gets +4 quest points per player. Progess cannot be placed on locations in the staging area by player card effects. Forced: When a location is explored, the first player takes control of it. The stage cannot be defeated unless there are more locations under the players` control than in the staging area at the end of the round."/>
     </alternate>
   </card>
   <card id="138ee2a3-0982-48ab-945e-60fab6f06586" name="Drive them Out" size="QuestCard">
@@ -248,12 +278,14 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Each player returns the highest $ location he controls to the staging area. Shuffle the encounter discard pile into the encounter deck. Starting with the first player, each player discards cards from the top of the encounter deck until he discards an enemy and puts that enemy into play engaged with him."/>
     <alternate name="Drive them Out" type="B">
       <property name="Encounter Set" value="Wrath and Ruin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
       <property name="Engagement Cost" value="B"/>
       <property name="Quest Points" value="12"/>
+      <property name="Text" value="Progress cannot be placed on locations in the staging area by player card effects. The players cannot travel to Gate of Dorwinion unless there are more locations under the players control than in the staging area. Forced: When a location is explored, the first player takes control of it. At the end of the round, if the players control Gate of Dorwinion, they win the game."/>
     </alternate>
   </card>
  </cards>

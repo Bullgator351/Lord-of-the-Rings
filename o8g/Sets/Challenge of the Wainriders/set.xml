@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Challenge of the Wainriders" id="6c015862-3f02-4761-b8cf-caa8629f2903" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="28296152-f2b0-4ccc-9be9-423d08aa174f" name="Saruman">
+    <property name="Card Number" value="54"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Istari. Isengard."/>
+    <property name="Cost" value="13"/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="When a player card effect would reduce your threat by any amount, reduce that amount to 1. When you play an event with the printed doomed keyword, Saruman gains the printed Ì, Ê, and Ï icons. Response: When you play a card with the Doomed keyword, ready Saruman."/>
+  </card>
+  <card id="de829d6a-4b69-4423-88ce-d9e803e0e418" name="Power of Command">
+    <property name="Card Number" value="55"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Master."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to the hero with The One Ring. Limit 1 per hero. Attached hero gets +1 Ò. Response: After attached hero commits to the quest, exhaust The One Ring and raise your threat by 1 to give each other unique character you control +1 Ò until the end of the phase."/>
+  </card>
+  <card id="303355a0-0429-438f-8e45-db7a09dd57c6" name="Horns! Horns! Horns!">
+    <property name="Card Number" value="56"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Keywords" value="Doomed 2."/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Doomed 2. Action: Each player may put one ally card into play from his hand. At the end of the phase, shuffle each of those allies that are still in play into their owners` decks."/>
+  </card>
+  <card id="765a3037-f02c-4dfa-b82a-ac377f9ecf3f" name="Soldier of Isengard">
+    <property name="Card Number" value="57"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Keywords" value="Doomed 2."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Doomed 2. Response: After a player raises his threat from the doomed keyword, give control of Soldier of Isengard to that player."/>
+  </card>
+  <card id="347cfbbb-69a7-4f43-84b2-2a8751be552f" name="Far-sighted">
+    <property name="Card Number" value="58"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Doomed 1. Action: Look at the top 5 cards of the encounter deck. Put them back in the same order."/>
+  </card>
+  <card id="6854e071-f438-42b2-a43a-580aec184eeb" name="Nori">
+    <property name="Card Number" value="59"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Dwarf."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Nori participates in an attack that destroys an enemy, put the top card of your discard pile on the bottom of your deck."/>
+  </card>
+  <card id="a4e40caa-dbd4-47a4-94ec-db7bf42486f5" name="Golden Belt">
+    <property name="Card Number" value="60"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Item."/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Attach to a hero. Limit 1 per hero. Attached hero can have 1 additional restricted attachment."/>
+  </card>
+  <card id="af0802d7-5e9c-424e-86d3-2f81f56b5ea8" name="Rohirrim Scout">
+    <property name="Card Number" value="61"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Rohan. Scout."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Action: Discard Rohirrim Scout to choose a non-unique enemy in the staging area. That enemy does not make engagement checks against you this round."/>
+  </card>
+  <card id="8047c8c2-1569-428c-865e-0459c2733db3" name="The Muster of Rohan">
+    <property name="Card Number" value="62"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="4"/>
+    <property name="Text" value="While paying for The Muster of Rohan, each Rohan hero you control is considered to have a Ê icon. Planning Action: Search the top 10 cards of your deck for up to 4 Rohan allies and put them into play. Shuffle your deck. If any of those allies are still in play at the end of the round, discard them."/>
+  </card>
+  <card id="8bb095c6-478a-4123-bcbf-926dbdbc8cb2" name="Saruman's Staff">
+    <property name="Card Number" value="63"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Artifact. Item. Staff."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to Saruman. Restricted. Action: Exhaust Saruman`s Staff to (choose 1): Reduce the X value of the next Doomed X event you play this phase by 2, or search the top 5 cards of your deck for a Doomed event and add it to your hand. (Shuffle your deck.)"/>
+  </card>
+  <card id="727b90c5-46b3-4568-9ab9-cb7c6e662428" name="The Wainriders" size="EncounterCard">
+    <property name="Card Number" value="64"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Objective"/>
+    <property name="Text" value="If The Wainriders` stage has damage on it equal to or greater than its quest points, The Wainriders advances to the next stage in the circuit. Place any excess damage on that stage. Forced: At the end of the quest phase, place X damage on The Wainriders` stage, where X is the total $ of each enemy in the staging area."/>
+  </card>
+  <card id="c2ff668a-6174-47d4-bbab-46f9c91403eb" name="The Challengers" size="EncounterCard">
+    <property name="Card Number" value="65"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Objective"/>
+    <property name="Text" value="Forced: When the players defeat a quest stage with the race keyword, advance this card to the next quest stage in the circuit. If The Challengers completes two circuits before the Wainriders, the players win the game. If The Wainriders completes two circuits before the challenges, the players lose the game."/>
+  </card>
+  <card id="f607e8d7-ca95-4f83-80b9-a07726d38f65" name="Wainrider Champion" size="EncounterCard">
+    <property name="Card Number" value="66"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Indestructible."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="X"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="X"/>
+    <property name="Health" value="5"/>
+    <property name="Victory Points" value="4"/>
+    <property name="Text" value="X is 2 per player. Indestructible. Immune to player card effects. Cannot leave the staging area. While The Challengers is at the same stage as The Wainriders, Wainrider Champion is considered to be engaged with each player."/>
+  </card>
+  <card id="2301fc93-a05e-4dd4-b06e-40d659783d8b" name="Aggressive Racer" size="EncounterCard">
+    <property name="Card Number" value="67"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Archery 1."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Archery 1. While The Challengers is ahead of the The Wainriders, Aggressive Racer gains surge. Forced: After Aggressive Racer attacks and destroys a character, place 2 damage on The Wainriders` stage."/>
+  </card>
+  <card id="e6995a7d-46af-4c90-86dc-9ef9c8e3a666" name="Chariot Driver" size="EncounterCard">
+    <property name="Card Number" value="68"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="When Revealed: Either place 3 damage on The Wainriders` stage, or Chariot Driver makes an attack against the first player."/>
+  </card>
+  <card id="79e00002-0087-4bb1-9e44-a460f4aa2894" name="Veteran Wainrider" size="EncounterCard">
+    <property name="Card Number" value="69"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Engagement Cost" value="45"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="While The Challengers is ahead of The Wainriders, Veteran Wainrider gets +2 $ and cannot leave the staging area."/>
+  </card>
+  <card id="cfaa761e-c273-451f-bb1e-84d25c4bedbb" name="Narrow Pass" size="EncounterCard">
+    <property name="Card Number" value="70"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="while Narrow Pass is the active location, it gains: `Response: When damage would be placed on Wainrider Champion, remove an equal amount of damage from The Wainriders` stage instead. `"/>
+  </card>
+  <card id="31911895-7f61-4cd1-aeeb-6ae706ffa4f5" name="Crowded Track" size="EncounterCard">
+    <property name="Card Number" value="71"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Location"/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="Crowded Track gets +1 $ for each character controlled by the first player. Forced: After Crowded Track becomes the active location, each player searches the encounter deck and discard pile for an enemy and adds it to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="9ff94935-ae08-4d86-859f-f4d0776a66e5" name="Ravine Ledge" size="EncounterCard">
+    <property name="Card Number" value="72"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Ravine Ledge is in the staging area, each racing test requires 1 additional matching result. Travel: The first player makes a racing Û test. To pass requires 1 TURN result. If the players pass the test, each player draws 1 card. If the players faill the test, each player discards 1 random card from his hand."/>
+  </card>
+  <card id="309c763a-60c9-4e33-bb0b-2b5e3a015227" name="Wainrider Chariot" size="EncounterCard">
+    <property name="Card Number" value="73"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Surge. While attached, counts as a Weapon attachment with the text: `Attached enemy gets +1 Û. Excess damage dealt by attached enemy must be placed on The Wainriders` stage. `When Revealed: Attach to a non-unique Easterling enemy without a Wainrider Chariot attached."/>
+  </card>
+  <card id="611c0811-1810-4b3e-a00e-4d34f1f986b1" name="The Champion's Cunning" size="EncounterCard">
+    <property name="Card Number" value="73"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Wainrider Champion makes an attack against each engaged player. If no attacks were made, place damage on The Wainriders` stage equal to the Wainrider Champion`s $."/>
+  </card>
+  <card id="ab909b87-a7c0-4841-83e4-84776262e552" name="The Grey Wanderer">
+    <property name="Card Number" value="74"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Contract"/>
+    <property name="Text" value="You cannot choose more than 1 starting hero. Setup: Search your deck for an attachment with a printed cost of 1 and put it into play. Then, flip this card over."/>
+    <alternate name="The Grey Wanderer" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Type" value="Contract"/>
+      <property name="Text" value="The first non-unique card you play each planning phase does not require a resource match. Action: Exhaust this card and raise your threat by 1 to (choose two): Ready your starting hero, add 2 resources to your starting hero's resource pool, or heal 3 damage from your starting hero."/>
+    </alternate>
+  </card>
+  <card id="21165a65-1296-4664-a880-d85eea19a4ae" name="Wainrider Camp" size="QuestCard">
+    <property name="Card Number" value="75"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Quest"/>
+    <property name="Keywords" value="Race."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Setup: Build the circuit (see insert). Place The Wainriders and The Challengers objective cards at this stage. The first player adds Wainrider Champion to the staging area. Each other player adds 1 different location to the staging area. Shuffle the encounter deck."/>
+    <alternate name="Wainrider Camp" type="B">
+      <property name="Encounter Set" value="Challenge of the Wainriders"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+      <property name="Text" value="Race. This stage gets +4 quest points per player. Forced: When this stage is defeated, make a racing Ú test. To pass requires 1 STRAIGHT result, plus an additional STRAIGHT result for each stage you have completed this round. If the players pass the test, excess progress is placed on the next stage. If the players fail the test, each player discards 1 random card from his hand."/>
+    </alternate>
+  </card>
+  <card id="282bca71-ff04-4447-a4e9-a7e5f70e0083" name="First Sprint" size="QuestCard">
+    <property name="Card Number" value="76"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Quest"/>
+    <property name="Keywords" value="Race."/>
+    <property name="Cost" value="2"/>
+    <alternate name="First Sprint" type="B">
+      <property name="Encounter Set" value="Challenge of the Wainriders"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+      <property name="Text" value="Forced: When this stage is defeated, make a racing Û test. To pass requires 1 STRAIGHT result, plus an additional STRAIGHT result for each stage you have completed this round. If the players pass the test, excess progress is placed on the next stage. If the players fail the test, deal 1 damage to each character."/>
+    </alternate>
+  </card>
+  <card id="fbfee53c-fec3-4b55-a8b4-c7329f8f973e" name="The Turnaround" size="QuestCard">
+    <property name="Card Number" value="77"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Quest"/>
+    <property name="Keywords" value="Race."/>
+    <property name="Cost" value="3"/>
+    <alternate name="The Turnaround" type="B">
+      <property name="Encounter Set" value="Challenge of the Wainriders"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+      <property name="Text" value="Forced: When this stage is defeated, make a racing Ò test. To pass requires 1 TURN result, plus an additional TURN result for each stage you have completed this round. If the players pass the test, excess progress is placed on the next stage. If the players fail the test, each player discards an ally he controls."/>
+    </alternate>
+  </card>
+  <card id="29fd0721-10ed-4315-b415-5fadeb010051" name="The Farthest Edge" size="QuestCard">
+    <property name="Card Number" value="78"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Quest"/>
+    <property name="Keywords" value="Race."/>
+    <property name="Cost" value="4"/>
+    <alternate name="The Farthest Edge" type="B">
+      <property name="Encounter Set" value="Challenge of the Wainriders"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="4"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+      <property name="Text" value="Forced: When this stage is defeated, make a racing Ú test. To pass requires 1 STRAIGHT result, plus an additional STRAIGHT result for each stage you have completed this round. If the players pass the test, excess progress is placed on the next stage. If the players fail the test, reveal the top card of the encounter deck (top 2 cards instead if there are 3 or more players)."/>
+    </alternate>
+  </card>
+  <card id="4c1e8a5c-db6b-4d36-8202-bf0960870914" name="Last Climb" size="QuestCard">
+    <property name="Card Number" value="79"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Quest"/>
+    <property name="Keywords" value="Race."/>
+    <property name="Cost" value="5"/>
+    <alternate name="Last Climb" type="B">
+      <property name="Encounter Set" value="Challenge of the Wainriders"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="5"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+      <property name="Text" value="Forced: When this stage is defeated, make a racing Ò test. To pass requires 1 STRAIGHT result, plus an additional STRAIGHT result for each stage you have completed this round. If the players pass the test, excess progress is placed on the next stage. If the players fail the test, place 2 damage per player on The Wainriders` stage."/>
+    </alternate>
+  </card>
+  <card id="b7f25c2a-b9f1-4ec7-8ab3-4843aaef4e06" name="Home Stretch" size="QuestCard">
+    <property name="Card Number" value="80"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Challenge of the Wainriders"/>
+    <property name="Type" value="Quest"/>
+    <property name="Keywords" value="Race."/>
+    <property name="Cost" value="6"/>
+    <alternate name="Home Stretch" type="B">
+      <property name="Encounter Set" value="Challenge of the Wainriders"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="6"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="0"/>
+      <property name="Text" value="Forced: When this stage is defeated, make a racing Û test. To pass requires 1 TURN result, plus an additional TURN result for each stage you have completed this round. If the players pass the test, excess progress is placed on the next stage. If the players fail the test, this stage is not defeated and all progress here is discarded."/>
+    </alternate>
+  </card>
+ </cards>
+</set>

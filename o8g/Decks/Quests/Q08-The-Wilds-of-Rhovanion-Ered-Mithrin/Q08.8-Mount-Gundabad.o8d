@@ -11,8 +11,6 @@
     <card qty="1" id="47aada3f-9ee6-455d-8c2d-786962633f34">Exploring Gundabad</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="1" id="9d1daee2-2d6e-4d9a-87e4-b706779555d4">Dagnir’s Hoard</card>
-    <card qty="1" id="ea5faa85-5a47-4ab3-a623-3f88df71f7fd">Throat of the Mountain</card>
     <card qty="3" id="3cbe2fe1-e7ab-4213-85dd-fd9b6244479f">Guardian of Gundabad</card>
     <card qty="3" id="475d31c0-45d5-4a9f-aaac-c23b93c73f03">Dagnir’s Slave</card>
     <card qty="2" id="d3bd47e5-cf59-4097-9cec-92a15fe56bf4">Deep-dweller</card>
@@ -32,12 +30,14 @@
     <card qty="3" id="f945cfde-271f-4e93-8eed-93eaaf0fb408">Dark Places</card>
   </section>
   <section name="Special" shared="True">
+    <card qty="1" id="ea5faa85-5a47-4ab3-a623-3f88df71f7fd">Throat of the Mountain</card>
     <card qty="1" id="286a5206-9ebb-4ec4-a349-2960ccb2f669">Lost Armory</card>
     <card qty="1" id="c0c522b2-5f5c-45a0-b6fc-e05c8bb835d8">Ancient Treasury</card>
     <card qty="1" id="9e490f6c-3873-4cd7-8c80-98a6640b9043">Frightful Den</card>
     <card qty="1" id="acbf7fd1-9f93-4d0b-b18a-8f0854e028f5">Lightless Grotto</card>
     <card qty="1" id="9a5884f4-c2a8-4696-97b5-f0c5c5e92b6d">Crumbling Cavern</card>
     <card qty="1" id="8be23a53-ba85-4db3-8d1f-821da0323cbf">Underground Lake</card>
+    <card qty="1" id="9d1daee2-2d6e-4d9a-87e4-b706779555d4">Dagnir’s Hoard</card>
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="71060c15-34c0-44ad-885b-4b6c18d2962a">The First Forge</card>
