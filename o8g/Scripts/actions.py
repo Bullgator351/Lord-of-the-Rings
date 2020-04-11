@@ -2,6 +2,11 @@
 import time
 import re
 
+# for XML parsing in loadDeckFromRingsDB
+import clr
+clr.AddReference("System.Xml")
+from System.Xml import XmlDocument
+
 Resource = ("Resource", "62a2ba76-9872-481b-b8fc-ec35447ca640")
 Damage = ("Damage", "38d55f36-04d7-4cf9-a496-06cb84de567d")
 Progress = ("Progress", "e9a419ff-5154-41cf-b84f-95149cc19a2a")
@@ -427,6 +432,8 @@ def unloadDeck(group, x = 0, y = 0):
 	notify("{} sets threat counter to {}.".format(me,me.counters['Threat_Level'].value))
 
 #Triggered event OnLoadDeck
+# It is also explicitly called from loadDeckFromRingsDB so the same setup happens whether the player
+# deck was loaded from the menu bar or from RingsDB directly
 def deckLoaded(player, groups):
 	mute()
 	if player != me:
@@ -2304,3 +2311,65 @@ def exchangeCardsInHand(group, additionalCards):
 	for card in me.deck.top(newHandSize):
 		card.moveTo(me.hand)
 	notify("{} draws {} new cards.".format(me, newHandSize))
+
+def loadDeckFromRingsDB(group, x=0, y=0):
+	notify("loadDeckFromRingsDB called successfully")
+
+	url = askString("Please enter the URL of the deck you wish to load.", "")
+        if url == None: # cancelled
+		return
+
+	if re.match("^https://(www\.)?ringsdb\.com/decklist/view/", url) != None:
+		deckid = url.split("/view/")[1].split("/")[0]
+		data, code = webRead("https://ringsdb.com/decklist/export/octgn/{}".format(deckid))
+	elif re.match("^https://(www\.)?ringsdb\.com/deck/view/", url) != None:
+		deckid = url.split("/view/")[1].split("/")[0]
+		data, code = webRead("https://ringsdb.com/deck/export/octgn/{}".format(deckid))
+        else:
+		notify("Error: Invalid RingsDB Deck URL - should look like https://ringsdb.com/*/view/*")
+		return
+
+	if code != 200:
+		notify("""Error retrieving online deck data, please try again. You may need to enable
+'Share my decks' in your RingsDB account if this was a /deck/view/ URL""")
+		return
+
+	doc = XmlDocument()
+	doc.LoadXml(data)
+
+	# start off by validating the basic structure of the XML - xml node and game node
+	if (doc.ChildNodes.Count != 2 or doc.ChildNodes[0].Name != "xml" or
+		doc.ChildNodes[1].Name != "deck" or doc.ChildNodes[1].Attributes["game"] == None or
+		doc.ChildNodes[1].Attributes["game"].Value != "a21af4e8-be4b-4cda-a6b6-534f9717391f"):
+		notify("Illegal XML in OCTGN export")
+	else:
+		sections = doc.ChildNodes[1].ChildNodes
+
+                # the below is pretty pedantic about checking for well-formed OCTGN exports. I wanted
+                # it to be as bulletproof as possible, but that means that if OCTGN export formats change
+                # much, this code will likely need to change as well
+		for section in sections:
+			if section.Name == "section":
+				name_attr = section.Attributes["name"]
+
+				if name_attr != None:
+					for card in section.ChildNodes:
+						if (card.Name == "card" and card.Attributes["qty"] != None and
+							card.Attributes["id"] != None and
+							re.match("^[0-9]+$", card.Attributes["qty"].Value) != None):
+
+							id = card.Attributes["id"].Value
+							qty = int(card.Attributes["qty"].Value)
+
+							# heroes get loaded into hand (based on definition.xml)
+							if name_attr.Value == "Hero":
+								me.hand.create(id, qty)
+							# sideboard cards get loaded as such
+							elif name_attr.Value == "Sideboard":
+								me.piles['Sideboard'].create(id, qty)
+							# other cards get loaded into the discard pile
+							else:
+								me.piles['Discard Pile'].create(id, qty)
+
+		# call this so that it appears that this was "loaded" from the menu bar items
+		deckLoaded(me, [ me.hand, me.piles['Discard Pile'] ])
