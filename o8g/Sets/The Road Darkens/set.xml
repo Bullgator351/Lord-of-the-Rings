@@ -699,7 +699,7 @@
     <property name="Quest Points" value="2"/>
     <property name="Text" value="Forced: After Darkened Stairway is explored, discard the top card of the encounter deck. If the discarded card is a location, add it to the staging area."/>
   </card>
-  <card id="3c53610e-0126-424f-a4cc-9e7710ebcffe" name="Ancient Guardroom">
+  <card id="3c53610e-0126-424f-a4cc-9e7710ebcffe" name="Ancient Guardroom" size="EncounterCard">
     <property name="Card Number" value="55"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Journey in the Dark"/>

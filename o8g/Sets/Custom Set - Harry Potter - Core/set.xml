@@ -1,0 +1,1593 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Custom Set - Harry Potter - Core" id="7c6c253f-c039-4eb6-8c5d-5eaea7cbb58e" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="097ddf2c-9bc7-4b53-a44e-9937df0b62af" name="Harry Potter">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Gryffindor. Noble. Quidditch."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Cost" value="12"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Response: After Harry Potter commits to a quest, spend 1 resource from his resource pool to ready him."/>
+  </card>
+  <card id="a09da863-b58c-4037-8a11-7bda53192db9" name="Ernie MacMillon">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Noble. Hufflepuff. DA."/>
+    <property name="Cost" value="8"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Response: After Ernie MacMillon commits to a quest, choose a hero committed to that quest. Add 1 resource to that hero's resource pool."/>
+  </card>
+  <card id="4da45b3f-a4ab-4b26-9dd2-9aba510db76f" name="Seamus Finnigan">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Gryffindor. DA."/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Response: After Seamus Finnegan suffers damage, add 1 resource to his resource pool for each point of damage he just suffered."/>
+  </card>
+  <card id="d5bf87bf-3600-431a-b3c6-68a3c6513a6b" name="Ron Weasley">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Prefect. Noble. DA."/>
+    <property name="Cost" value="11"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Ron Weasley gets +1 Û for each damage token on him."/>
+  </card>
+  <card id="bc840efc-207e-44f9-815e-624350bf4a12" name="Cedric Diggory">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Hufflepuff. Prefect. Quidditch."/>
+    <property name="Keywords" value="Ranged."/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Response: After Cedric Diggory participates in an attack that destroys an enemy, place 2 progress tokens on the current quest."/>
+  </card>
+  <card id="c0772187-e2f5-4c42-866c-118ba55c67b2" name="Dean Thomas">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Gryffindor. DA."/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="While Dean Thomas is committed to a quest, deal 1 damage to each enemy as it is revealed by the encounter deck."/>
+  </card>
+  <card id="c56d9654-97c8-4278-afd5-40692f5cdad4" name="Luna Lovegood">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Ravenclaw. DA."/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="4"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Action: Discard 1 card from your hand to give Luna Lovegood +1 Ò until the end of the phase. This effect may be triggered by each player once each round."/>
+  </card>
+  <card id="08f0e0d1-369d-4767-87b0-3be14c880001" name="Cho Chang">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Ravenclaw. Prefect. Quidditch. DA."/>
+    <property name="Cost" value="7"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Response: Exhaust Cho Chang to cancel the &quot;when revealed&quot; effects of a treachery card just revealed by the encounter deck. Then, discard that card, and replace it with the next card from the encounter deck."/>
+  </card>
+  <card id="3def90e6-4c6b-4a29-ac8e-8f88c0538aff" name="Oliver Wood">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Gryffindor. Quidditch."/>
+    <property name="Cost" value="8"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Oliver Wood can target enemies in the staging area when he attacks alone. When doing so, he gets +1 Û."/>
+  </card>
+  <card id="165ba485-90c4-4a27-a19a-44e9af526b07" name="Neville Longbottom">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Gryffindor. Noble. DA."/>
+    <property name="Cost" value="8"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Action: Exhaust Neville Longbottom to look at the top card of the encounter deck. You may move that card to the bottom of the deck."/>
+  </card>
+  <card id="6261d3e9-a5c9-4760-ba3c-3974aee6f334" name="Hermione Grainger">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Gryffindor. Prefect. DA."/>
+    <property name="Cost" value="12"/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Action: Pay 1 resource from Hermione Grainger's pool to heal 1 damage on any character. (Limit once per round.)"/>
+  </card>
+  <card id="2f44c538-34b2-4266-804b-7619c24c6090" name="Ginny Weasley">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Gryffindor. Noble. Quidditch. DA."/>
+    <property name="Cost" value="10"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Action: Exhaust Ginny Weasley to choose a player. That player draws 2 cards. Limit once per round."/>
+  </card>
+  <card id="6009b59e-971d-45ed-8285-16c22d5840a8" name="Statue Guard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Hogwarts. Warrior."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="1676b028-61fa-49b3-84af-15eedf0b7070" name="Filius Flitwick">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="2"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Goblin. Professor. Minstrel."/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Action: Exhaust Filius Flitwick to choose a player. Each character controlled by that player gets +1 Ò until the end of the phase."/>
+  </card>
+  <card id="e7e45c30-aa26-4544-ab19-b846c8951540" name="Prefect">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Hogwarts."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Prefect enters play, choose an enemy card in the staging area or currently engaged with another player. Engage that enemy."/>
+  </card>
+  <card id="9e33c6f7-fb2a-45bd-8e65-a096c9a0aeb1" name="First Year">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Hogwarts. Scout."/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="Response: After First Year enters play, choose a location. Place 1 progress token on that location."/>
+  </card>
+  <card id="d98d098f-76d2-4384-af4e-397b64948e64" name="Wizengamot Member">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Ministry."/>
+    <property name="Keywords" value="Ranged."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+  </card>
+  <card id="35cdcd32-8723-4bc9-a0cf-de99c95b9fed" name="Dueling Instructor">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Hogwarts. Warrior."/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Response: After Dueling Instructor enters play, deal 1 damage to each Creature enemy in play."/>
+  </card>
+  <card id="1714ec84-8115-4384-aa69-d4777b8eb7dd" name="Minerva McGonagall">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Gryffindor. Professor."/>
+    <property name="Cost" value="6"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Response: After a Gryffindor hero you control leaves play, put Minerva McGonagall into play from your hand."/>
+  </card>
+  <card id="de6e9fcf-7cf4-435c-8308-e4a0e36ddcee" name="Invigoration Draught">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Choose and ready 1 ally card."/>
+  </card>
+  <card id="0a26c939-efb0-495e-96f9-ccaaff9cfd35" name="Dueling Second">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Exhaust 1 hero you control to choose and ready a different hero."/>
+  </card>
+  <card id="a39248b3-bf85-49e7-a1ee-9634f41c9220" name="For Gryffindor!">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Action: Until the end of the phase, all characters get +1 Û. All Gryffindor characters also get +1 Ú until the end of the phase."/>
+  </card>
+  <card id="f2255779-debc-45d6-a599-9fccd28c9eb2" name="Portkey">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Put 1 ally card into play from your hand. At the end of the phase, if that ally is still in play, return it to your hand."/>
+  </card>
+  <card id="ffdb4abb-c502-4837-9486-b50c20f68d89" name="Valiant Sacrifice">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Response: After an ally card leaves play, that card's controller draws 2 cards."/>
+  </card>
+  <card id="8ef6c824-fff5-4cf0-bcf0-3fe779b6b63f" name="Girding Potion">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="5"/>
+    <property name="Text" value="Action: Ready all character cards in play."/>
+  </card>
+  <card id="7681fec6-7e58-4293-bc76-2a1467f49f4a" name="Descendant of Peverell">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="2"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Gryffindor. Title."/>
+    <property name="Keywords" value="Attach to a hero."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Attached hero gains the Gryffindor trait.&#10;&#10;Action: Exhaust Descendant of Peverell to add 2 resources to attached hero's resource pool."/>
+  </card>
+  <card id="21bbd696-9e40-41f8-b88e-bbaf90fb026f" name="Marauder's Map">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Artifact. Item."/>
+    <property name="Keywords" value="Attach to a hero. Restricted."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Attached hero gains +2 Ò.&#10;&#10;If attached hero is Harry Potter, he also gains a Ê resource icon."/>
+  </card>
+  <card id="498d569d-6d77-45c2-8076-b990741029bd" name="Dumbledore's Army Member">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="DA. Hogwarts."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="e6b3820d-d0fb-4a8a-8135-00944d0834b3" name="Hogwarts Spearman">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Hogwarts. Warrior."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="Response: After Hogwarts Spearman is declared as a defender, deal 1 damage to the attacking enemy."/>
+  </card>
+  <card id="e5685b24-5ced-4e6c-a38d-5533adda44ff" name="Centaur">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Creature. Archer."/>
+    <property name="Keywords" value="Ranged."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+  </card>
+  <card id="80195a20-8acf-468d-8d22-518f4be320e8" name="Rubeus Hagrid">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Giant. Warrior."/>
+    <property name="Cost" value="6"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Action: Rubeus Hagrid gains +5 Û until the end of the phase. At the end of the phase in which you trigger this effect, shuffle Rubeus Hagrid back into your deck. (Limit once per round.)"/>
+  </card>
+  <card id="2e9686f7-a46a-4264-8b7c-583be4d8aeec" name="Mentor's Guidance">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Choose a character. Until the end of the phase, that character gains +1 Û and +1 Ú."/>
+  </card>
+  <card id="e5bccaed-859e-4a0a-9fdd-528cd602e1e9" name="Rain of Spells">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Exhaust a character you control with the ranged keyword to choose a player. Deal 1 damage to each enemy engaged with that player."/>
+  </card>
+  <card id="43e5f599-13c5-43b0-84bd-2340c2ea06f2" name="Stupefy!">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Combat Action: Choose an enemy engaged with a player. That enemy cannot attack that player this phase."/>
+  </card>
+  <card id="06aa7ac8-33f9-4ce6-ac00-991758cad294" name="Flipendo">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Exhaust a character you control to immediately declare it as an attacker (and resolve its attack) against any eligible enemy target."/>
+  </card>
+  <card id="dadd9c52-80ca-4b54-b25e-22d17b3faf73" name="Protego Maxima">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="You must use resources from 3 different heroes' pools to pay for this card.&#10;&#10;Action: Choose a player. That player's engaged enemies cannot attack that player this phase."/>
+  </card>
+  <card id="c43d5371-4271-4ab7-b46d-adef62414067" name="Confringo">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Response: After a character is declared as a defender, deal 2 damage to the attacking enemy."/>
+  </card>
+  <card id="5370ac59-8c55-44d2-8a52-c72dba326cb1" name="Teamwork">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Choose a player. That player may declare any number of his eligible characters as defenders against each enemy attacking him this phase."/>
+  </card>
+  <card id="14ea7f66-ae3c-4822-9791-31189f565c3f" name="Silver Dagger">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Item. Weapon."/>
+    <property name="Keywords" value="Attach to a hero. Restricted."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attached hero gets +1 Û when attacking an Creature .&#10;&#10;Response: After attached hero attacks and destroys an enemy, place 1 progress token on the current quest."/>
+  </card>
+  <card id="805958d0-62a1-4c17-8d5c-88230bd5bf74" name="Goblin-made Armor">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Item. Armor."/>
+    <property name="Keywords" value="Attach to a hero. Restricted."/>
+    <property name="Cost" value="4"/>
+    <property name="Text" value="Attached hero gets +4 Hit Points."/>
+  </card>
+  <card id="b553bd1d-9fb1-4f83-9b3c-1c266ec9b4c3" name="Sword of Gryffindor">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Item. Weapon."/>
+    <property name="Keywords" value="Attach to a hero. Restricted."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Attached hero gains +1 Û. (+2 Û instead if attached hero is a Gryffindor.)"/>
+  </card>
+  <card id="ee695486-0245-476a-8cc1-e0f535338cf1" name="Two-way Mirror">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Item. Artifact."/>
+    <property name="Keywords" value="Attach to a hero. Restricted."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Response: After a character leaves play, add 1 resource to attached hero's pool."/>
+  </card>
+  <card id="5da2da75-3a63-4852-b416-dee86e25cdda" name="Peeves">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Poltergeist. Non-being."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Action: Reduce your threat by 3 to give control of Peeves to another player. Raise that player's threat by 3."/>
+  </card>
+  <card id="a2d259d9-71b4-4da2-874f-f6a737ffb58a" name="Teacher">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Hogwarts. Professor."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Teacher commits to a quest, place 1 progress token on the active location."/>
+  </card>
+  <card id="72e87b35-b5c0-46db-8046-fe900611029a" name="Auror">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Ministry."/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Response: After Auror commits to a quest, place 1 progress token on each location in the staging area."/>
+  </card>
+  <card id="c6610e3b-a801-431f-85f3-e26e44d74175" name="Room of Requirement">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="Action: Reduce one player's threat by 6, or reduce each player's threat by 2."/>
+  </card>
+  <card id="3299efc7-9779-4ea4-86a9-a2d9539965eb" name="Revelio">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Response: After you travel to a location, exhaust a Ê character to place 2 progress tokens on that location."/>
+  </card>
+  <card id="85354c80-78a6-4fa5-89ef-0a447385b95d" name="Salvio Hexia">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Response: Cancel a shadow effect just triggered during combat."/>
+  </card>
+  <card id="70ac673f-8f28-4cf9-a644-cbff6fd373d1" name="Wiggenweld Potion">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Choose a player. Shuffle that player's discard pile back into his deck."/>
+  </card>
+  <card id="20ee476a-c6f3-443d-a5d2-8de3f36d5dc7" name="Finite Incantatem">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Response: Cancel the &quot;when revealed&quot; effects of a card that was just revealed from the encounter deck."/>
+  </card>
+  <card id="ebf0d107-a4a7-4b8c-a8e0-18d78e09a256" name="Stand and Fight">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="X"/>
+    <property name="Text" value="Action: Choose an ally with a printed cost of X in any player's discard pile. Put that ally into play under your control. (The chosen ally can belong to any sphere of influence.)"/>
+  </card>
+  <card id="abf3dc2a-e646-483f-8820-abd78f525ba2" name="Lumos">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Action: Choose an enemy engaged with a player. Return that enemy to the staging area."/>
+  </card>
+  <card id="a39c1639-3241-46d8-9342-b22a207ad5ad" name="Geminio">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Return 1 Ê card from your discard pile to your hand."/>
+  </card>
+  <card id="d4720173-e90f-4732-a94d-c1977da41e40" name="Elixir of Life">
+    <property name="Card Number" value="54"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="5"/>
+    <property name="Text" value="Action: Choose a hero in any player's discard pile. Put that card into play, under its owner's control."/>
+  </card>
+  <card id="85f305cb-61d4-47c2-a64b-d95ec5de8222" name="Anti-Dementor Lessons">
+    <property name="Card Number" value="55"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Condition."/>
+    <property name="Keywords" value="Attach to a hero."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Attached hero gains +1 Ò."/>
+  </card>
+  <card id="742d1c8c-1ec7-4541-81bf-14e890cc93bb" name="Fang's Protection">
+    <property name="Card Number" value="56"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Condition."/>
+    <property name="Keywords" value="Attach to a location."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attached location gets -1 $."/>
+  </card>
+  <card id="c2724fb7-21ec-40c0-b926-78cea37a144a" name="Time Turner">
+    <property name="Card Number" value="57"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Condition."/>
+    <property name="Keywords" value="Attach to a hero."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Action: Exhaust Time Turner to ready attached hero."/>
+  </card>
+  <card id="f2b299c8-b0ce-40e3-bb58-5c18c148af8f" name="Healer">
+    <property name="Card Number" value="58"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="St. Mungos."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="Action: Exhaust Healer to heal up to 2 damage on any 1 hero."/>
+  </card>
+  <card id="d65212d5-940c-4631-9b07-a33f39e55c1f" name="Goblin Silversmith">
+    <property name="Card Number" value="59"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Goblin. Craftsman."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Response: After you play Goblin Silversmith, return the topmost attachment in any player's discard pile to his hand."/>
+  </card>
+  <card id="655dbc1e-f7bd-4ae3-9040-b040d7b77cd0" name="Sybill Trewlawney">
+    <property name="Card Number" value="60"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Seer. Professor."/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="Action: Exhaust Sybill Trewlawney to look at the top card of the encounter deck."/>
+  </card>
+  <card id="0b7a305f-4641-4b1b-9a2d-99dd7b090c8b" name="Gringotts Employee">
+    <property name="Card Number" value="61"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Goblin."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Gringotts Employee enters play, choose and discard 1 Condition attachment from play."/>
+  </card>
+  <card id="22c0f7b4-c32e-4a01-821e-6d2d3ea0a544" name="Myron Wagtail">
+    <property name="Card Number" value="62"/>
+    <property name="Quantity" value="2"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Minstrel."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Action: Exhaust Myron Wagtail to choose a player. That player draws 1 card."/>
+  </card>
+  <card id="88e9df5e-6f03-4467-b310-85bb9093f15f" name="Healing Potion">
+    <property name="Card Number" value="63"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Action: Choose a character. Heal all damage from that character."/>
+  </card>
+  <card id="adf8a935-8b3b-4cf5-b626-825d1cfe364b" name="Light Reading">
+    <property name="Card Number" value="64"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="Action: Choose a player. That player draws 3 cards."/>
+  </card>
+  <card id="a1f6a557-222c-46c5-a1e7-0c6ce18c2517" name="Flying Car">
+    <property name="Card Number" value="65"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Quest Action: Choose an enemy in the staging area. Until the end of the phase, that enemy does not contribute its $."/>
+  </card>
+  <card id="bc009b9f-0f77-4de0-b87e-e79f178d7a84" name="Patronus Guide">
+    <property name="Card Number" value="66"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Quest Action: Choose a location in the staging area. Until the end of the phase, that location does not contribute its $."/>
+  </card>
+  <card id="ede0f39a-e038-43cd-a957-0582516835a6" name="Restricted Section">
+    <property name="Card Number" value="67"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="X"/>
+    <property name="Text" value="Action: Look at the top X cards of any player's deck, add 1 of those cards to its owner's hand, and return the rest to the top of the deck in any order."/>
+  </card>
+  <card id="3f16f15a-f394-4320-a0ed-04bb07fbe466" name="Vulnera Sanentur">
+    <property name="Card Number" value="68"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="5"/>
+    <property name="Text" value="Action: Choose a player. Heal all damage on each hero controlled by that player."/>
+  </card>
+  <card id="995c4fe8-e614-4047-8968-90e8ec97ca8d" name="Incarcerous">
+    <property name="Card Number" value="69"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Spell. Conjuration."/>
+    <property name="Keywords" value="Attach to an enemy engaged with a player."/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="Attached enemy cannot attack."/>
+  </card>
+  <card id="139a63b7-ee52-4044-a628-26d12ccdab30" name="Defense Text">
+    <property name="Card Number" value="70"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Tome."/>
+    <property name="Keywords" value="Attach to a hero."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Discard a card from your hand to give attached hero +1 Ú or +1 Ò until the end of the phase. Limit 3 times per phase."/>
+  </card>
+  <card id="9da4bd00-28c4-4770-8e8f-bf00b35e1a6a" name="Prophecy">
+    <property name="Card Number" value="71"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Condition."/>
+    <property name="Keywords" value="Attach to a hero. Attached hero gets -1 Ò."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Response: Exhaust Prophecy to look at 1 shadow card that was just dealt to an enemy attacking you."/>
+  </card>
+  <card id="92658736-c494-44d0-9337-5925db478131" name="Hospital Wing">
+    <property name="Card Number" value="72"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Hogwarts. Healing."/>
+    <property name="Keywords" value="Attach to a character."/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="Action: Exhaust Hospital Wing to heal 2 points of damage from attached character."/>
+  </card>
+  <card id="3308c677-53bb-4bdd-b4c6-b025478e274a" name="Albus Dumbledore">
+    <property name="Card Number" value="73"/>
+    <property name="Quantity" value="4"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Order of Merlin."/>
+    <property name="Keywords" value="At the end of the round, discard Albus Dumbledore from play."/>
+    <property name="Cost" value="5"/>
+    <property name="Willpower" value="4"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Response: After Albus Dumbledore enters play, (choose 1): draw 3 cards, deal 4 damage to 1 enemy in play, or reduce your threat by 5."/>
+  </card>
+  <card id="8f145ed9-c391-42c7-831a-f1af62aa25a6" name="Acromantula" size="EncounterCard">
+    <property name="Card Number" value="74"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Spider."/>
+    <property name="Engagement Cost" value="20"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="When Revealed: Each player must choose and exhaust 1 character he controls."/>
+    <property name="Shadow" value="Shadow: Defending player must choose and exhaust 1 character he controls. (2 characters instead if this attack is undefended.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    </alternate>
+  </card>
+  <card id="7f0f828c-5689-412c-94cc-b9ab5edd1a9a" name="Vampyr Mosp" size="EncounterCard">
+    <property name="Card Number" value="75"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Insect."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="3"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Text" value="Forced: After Vampyr Mosp engages you, deal 5 damage to a single hero you control."/>
+    <property name="Shadow" value="Shadow: Deal 1 damage to each character the defending player controls. (2 damage instead if this attack is undefended.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    </alternate>
+  </card>
+  <card id="a857f92e-13b5-4c27-a588-473493805c4b" name="Aragog's Spawn" size="EncounterCard">
+    <property name="Card Number" value="76"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Spider."/>
+    <property name="Engagement Cost" value="32"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="9"/>
+    <property name="Text" value="When Revealed: Each character currently committed to a quest gets -1 Ò until the end of the phase."/>
+    <property name="Shadow" value="Shadow: Raise defending player's threat by 4. (Raise defending player's threat by 8 instead if this attack is undefended.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    </alternate>
+  </card>
+  <card id="ab164aee-60b8-45b1-bd67-022380c6c890" name="Aragog's Lair" size="EncounterCard">
+    <property name="Card Number" value="77"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="Travel: Each player must exhaust 1 hero he controls to travel here."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    </alternate>
+  </card>
+  <card id="ebf94a0a-919c-49bf-83eb-cba98bea71cf" name="Hogwarts Mountains" size="EncounterCard">
+    <property name="Card Number" value="78"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest. Mountain."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="Travel: Reveal the top card of the encounter deck and add it to the staging area to travel here.&#10;&#10;Response: After Hogwarts Mountains leaves play as an explored location, each player may search the top 5 cards of his deck for 1 card and add it to his hand. Shuffle the rest of the searched cards back into their owners' decks."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    </alternate>
+  </card>
+  <card id="4cb81fab-c58a-4ca2-90e1-443c2f41c6fe" name="Eyes in the Hedge" size="EncounterCard">
+    <property name="Card Number" value="79"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player discards all event cards in his hand."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    </alternate>
+  </card>
+  <card id="53526c94-95de-44b7-986c-3db46053005e" name="Caught in a Web" size="EncounterCard">
+    <property name="Card Number" value="80"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The player with the highest threat level attaches this card to one of his heroes. (Counts as a Condition attachment with the text: &quot;Attached hero does not ready during the refresh phase unless you pay 2 resources from that hero's pool.&quot;)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Spiders of Mirkwood"/>
+    </alternate>
+  </card>
+  <card id="f832a485-fb1f-407a-a14f-eccbebaac136" name="Manticore" size="EncounterCard">
+    <property name="Card Number" value="81"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Wilderlands"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Part Human."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="10"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Shadow" value="Shadow: Manticore attacks the defending player. That player may declare 1 character as a defender. Deal Manticore its own Shadow card. After combat, return Manticore to the top of the encounter deck."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Wilderlands"/>
+    </alternate>
+  </card>
+  <card id="ca13fcc6-1bfd-4223-8348-ebb2619e7999" name="Moutain Troll" size="EncounterCard">
+    <property name="Card Number" value="82"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wilderlands"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="4"/>
+    <property name="Text" value="Excess combat damage dealt by Mountain Troll (damage that is dealt beyond the remaining hit points of the character damaged by its attack) must be assigned as an increase to your threat."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Wilderlands"/>
+    </alternate>
+  </card>
+  <card id="f4a70571-1ba8-49e3-a383-f2b17eb993f5" name="Dark Centaur" size="EncounterCard">
+    <property name="Card Number" value="83"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wilderlands"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Centaur."/>
+    <property name="Engagement Cost" value="48"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="During the encounter phase, players cannot optionally engage Dark Centaur if there are other enemies in the staging area.&#10;&#10;Forced: If Dark Centaur is in the staging area at the end of the combat phase, each player deals 1 point of damage to 1 character he controls."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Wilderlands"/>
+    </alternate>
+  </card>
+  <card id="2a198123-796d-4e70-9d89-d798effca049" name="Horned Serpent" size="EncounterCard">
+    <property name="Card Number" value="84"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Wilderlands"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="7"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Text" value="Forced: Each time Horner Serpent attacks you, raise your threat by 1."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Wilderlands"/>
+    </alternate>
+  </card>
+  <card id="3dbc528e-6ad6-49f6-b7e5-414e4b8b161e" name="Quintipeds" size="EncounterCard">
+    <property name="Card Number" value="85"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wilderlands"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="20"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: If Quintipeds is dealt a shadow card with no effect, return Quintipeds to the staging area after it attacks."/>
+    <property name="Shadow" value="Shadow: attacking enemy gets +1 Û. (+2 Û instead if this attack is undefended.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Wilderlands"/>
+    </alternate>
+  </card>
+  <card id="a39cf4d9-0de1-49a4-8e14-4bc055908673" name="Devil's Snare" size="EncounterCard">
+    <property name="Card Number" value="86"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wilderlands"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Remove 4 progress tokens from the current quest card. (If there are fewer than 4 progress tokens on the quest, remove all progress tokens from that quest.)"/>
+    <property name="Shadow" value="Shadow: Defending character does not count its Ú."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Wilderlands"/>
+    </alternate>
+  </card>
+  <card id="fefeb00c-894b-49da-89df-9326c516cd38" name="The Sahara Desert" size="EncounterCard">
+    <property name="Card Number" value="87"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wilderlands"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Wasteland."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="1"/>
+    <property name="Text" value="Forced: After the players travel to The Sahara Desert, place 1 progress token on it."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Wilderlands"/>
+    </alternate>
+  </card>
+  <card id="85b00e08-a354-40e9-8871-33b84721da28" name="Albania" size="EncounterCard">
+    <property name="Card Number" value="88"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Wilderlands"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Wasteland."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="When faced with the option to travel, the players must travel to Albania if there is no active location."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Wilderlands"/>
+    </alternate>
+  </card>
+  <card id="9096547d-40a8-44d0-a140-d52b38fe7c95" name="Death Eaters" size="EncounterCard">
+    <property name="Card Number" value="89"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Dark Wizards"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dark Wizard."/>
+    <property name="Engagement Cost" value="10"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="When Revealed: The first player chooses 1 character currently committed to a quest. Deal 2 damage to that character."/>
+    <property name="Shadow" value="Shadow: attacking enemy gets +1 Û. (+3 Û instead if this attack is undefended.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Dark Wizards"/>
+    </alternate>
+  </card>
+  <card id="b5c909e4-264b-4ee5-b8bf-0fe215f01734" name="Tom Riddle" size="EncounterCard">
+    <property name="Card Number" value="90"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dark Wizards"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dark Wizard. Horcrux."/>
+    <property name="Keywords" value="Tom Riddle get +2 Û for each resource token on him."/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="4"/>
+    <property name="Text" value="Forced: After Tom Riddle attacks, place 1 resource token on him."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Dark Wizards"/>
+    </alternate>
+  </card>
+  <card id="dd0d95f9-783a-4c47-8c2f-f915dc36e982" name="Bad Teacher" size="EncounterCard">
+    <property name="Card Number" value="91"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Dark Wizards"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dark Wizard. Bigot."/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Forced: When Bad Teacher attacks, deal it 1 additional shadow card."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Dark Wizards"/>
+    </alternate>
+  </card>
+  <card id="a8a6e8d2-7adc-4a42-99e3-b095d849e9bf" name="Morsmordre" size="EncounterCard">
+    <property name="Card Number" value="92"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dark Wizards"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each enemy and each location currently in the staging area gets +1 $ until the end of the phase. If there are no cards in the staging area, Morsmordre gains surge."/>
+    <property name="Shadow" value="Shadow: Choose and discard 1 attachment from the defending character. (If this attack is undefended, discard all attachments you control.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Dark Wizards"/>
+    </alternate>
+  </card>
+  <card id="20bd3186-1c09-49b7-9b73-145ddfb62021" name="Cascading Jinx" size="EncounterCard">
+    <property name="Card Number" value="93"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Dark Wizards"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Deal 1 damage to each exhausted character."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Dark Wizards"/>
+    </alternate>
+  </card>
+  <card id="7a9121be-08be-4a73-8aa5-d9d835a00b20" name="Azkaban" size="EncounterCard">
+    <property name="Card Number" value="94"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Dark Wizards"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Stronghold. Ministry."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="Travel: The first player must discard 2 cards from his hand at random to travel here."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Dark Wizards"/>
+    </alternate>
+  </card>
+  <card id="77d11504-55ed-4c18-a498-394f134d9ada" name="Great Lake Shore" size="EncounterCard">
+    <property name="Card Number" value="95"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Dark Wizards"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="While Great Lake Shore is the active location, players cannot draw cards."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Dark Wizards"/>
+    </alternate>
+  </card>
+  <card id="7e7f2adb-8963-45a9-a81a-7399eed9b5be" name="Aragog's Grandchild" size="EncounterCard">
+    <property name="Card Number" value="96"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Spider."/>
+    <property name="Engagement Cost" value="25"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Forced: After Aragog's Grandchild engages a player, it gets +1 Û until the end of the round."/>
+    <property name="Shadow" value="Shadow: Defending player must choose and discard 1 attachment he controls."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    </alternate>
+  </card>
+  <card id="375e2071-d404-4850-9408-514d5d16be53" name="Baby Dragon" size="EncounterCard">
+    <property name="Card Number" value="97"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Dragon."/>
+    <property name="Engagement Cost" value="5"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Shadow" value="Shadow: attacking enemy gets +1 Û. (If this attack is undefended, also raise your threat by 3.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    </alternate>
+  </card>
+  <card id="346d2a43-7687-4ce0-a72c-76d097ccf80b" name="Blast Ended Skrewt" size="EncounterCard">
+    <property name="Card Number" value="98"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="15"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="When Revealed: Each player must choose 1 character currently committed to a quest, and remove that character from the quest. (The chosen character does not ready.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    </alternate>
+  </card>
+  <card id="33536ade-7ac1-4135-8b54-9fa514a824ff" name="Forbidden Forest" size="EncounterCard">
+    <property name="Card Number" value="99"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="Response: After you travel to the Forbidden Forest, the first player may choose and ready 1 character he controls."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    </alternate>
+  </card>
+  <card id="d05df991-a8d8-4ac4-9a8a-1579c940042e" name="Forest Clearing" size="EncounterCard">
+    <property name="Card Number" value="100"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Forest."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="Response: After you travel to Forest Clearing, the first player may draw 2 cards."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Passage Through The Forbidden Forest"/>
+    </alternate>
+  </card>
+  <card id="786e27a2-79df-4d11-b29d-f18e85d22c34" name="Lucius Malfoy" size="EncounterCard">
+    <property name="Card Number" value="101"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dark Wizard. Pure Blood."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="Forced: If Lucius Malfoy is in the staging area after the players have just quested unsuccessfully, shuffle 1 unclaimed objective card from the staging area back into the encounter deck."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="0931cb1b-23b4-43d3-aef8-276ecda7b97b" name="Guardian of Azkaban" size="EncounterCard">
+    <property name="Card Number" value="102"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dementor. Non-being."/>
+    <property name="Keywords" value="No attachments can be played on Guardian of Azkaban."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="5"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="9"/>
+    <property name="Text" value="Forced: When the prisoner is &quot;rescued&quot;, move Guardian of Azkaban into the staging area.&#10;&#10;Forced: After a shadow effect dealt to Guardian of Azkaban resolves, the engaged player must choose and discard 1 character he controls."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="ce81caa6-7971-4a4d-a88a-0aa175878fdf" name="Infirius Guardian" size="EncounterCard">
+    <property name="Card Number" value="103"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Undead."/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Engagement Cost" value="8"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Shadow" value="Shadow: Choose and discard 1 attachment you control. Discarded  objective cards are returned to the staging area. (If this attack is  undefended, discard all attachments you control.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="3d8eae5c-8c32-4e92-9aac-19b5ec2688bc" name="Under the Shadow" size="EncounterCard">
+    <property name="Card Number" value="104"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Until the end of the phase, raise the total $ in the  staging area by X, where X is the number of players in the game."/>
+    <property name="Shadow" value="Shadow: Defending player raises his threat by the number of enemies  with which he is engaged."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="dbd31d23-39ee-4a71-8d43-cb0295e5fa59" name="Fulgari" size="EncounterCard">
+    <property name="Card Number" value="105"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Attach Fulgari to the top of the first player's deck. (Counts as a Condition attachment with the text: &quot;The next time a player would draw 1 or more cards from attached deck, discard Fulgari instead.&quot;)"/>
+    <property name="Shadow" value="Shadow: Resolve the &quot;When Revealed&quot; effect of Fulgari."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="d5e54823-e25a-45c0-8aa5-c2dc924cf5e7" name="Dept. of Mysteries" size="EncounterCard">
+    <property name="Card Number" value="106"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Dungeon."/>
+    <property name="Keywords" value="Doomed 1. Surge."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="3"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="331c7735-a091-4dbc-a7e8-4532d2a8e2db" name="Ministry Gate" size="EncounterCard">
+    <property name="Card Number" value="107"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Dungeon."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="1"/>
+    <property name="Text" value="Forced: After travelling to Ministry Gate, each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called &quot;Ministry Guard&quot;, and act as enemies with: 1 hit point, 1 Û, and 1 Ú."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="f7df7726-9a6e-494b-9b2b-7161ad932bd1" name="Prophecy" size="EncounterCard">
+    <property name="Card Number" value="108"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Item."/>
+    <property name="Keywords" value="Guarded. Restricted."/>
+    <property name="Text" value="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Prophecy to a hero you control. (Counts as an attachment. If detached, return Prophecy to the staging area.) &#10;&#10;Attached hero cannot attack or defend."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="2f98d3a6-a5bc-4737-a3e6-bbf2208b965a" name="Magic Lantern" size="EncounterCard">
+    <property name="Card Number" value="109"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Item."/>
+    <property name="Keywords" value="Guarded. Restricted."/>
+    <property name="Text" value="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Magic Lantern to a hero you control. (Counts as an attachment. If detached, return Magic Lantern to the staging area.)&#10;&#10;Forced: At the end of each round, raise attached hero's controller's threat by 2."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="e84fa8d0-1a49-4ad3-ad0d-15dbecdb79b9" name="Cursed Floo Powder" size="EncounterCard">
+    <property name="Card Number" value="110"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Item."/>
+    <property name="Keywords" value="Guarded. Restricted."/>
+    <property name="Text" value="Action: Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Cursed Floo Powder to a hero you control. (Counts as an attachment. If detached, return Cursed Floo Powder to the staging area.)&#10;&#10;Forced: At the end of each round, attached hero suffers 1 damage."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+    </alternate>
+  </card>
+  <card id="5fda268a-163c-48a8-a188-2ab741fd98e0" name="Grindylows" size="EncounterCard">
+    <property name="Card Number" value="111"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="15"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: After Grindylows attacks, remove 1 progress token from the current quest."/>
+    <property name="Shadow" value="Shadow: Remove 1 progress token from the current quest. (3 progress tokens instead if this attack is undefended.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    </alternate>
+  </card>
+  <card id="1a4d6d59-af07-4ef2-b863-3d99e96e5c09" name="Snatchers" size="EncounterCard">
+    <property name="Card Number" value="112"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Reveal X additional cards from the encounter deck. X is the number of players in the game."/>
+    <property name="Shadow" value="Shadow: Deal X shadow cards to this attacker. X is the number of players in the game."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    </alternate>
+  </card>
+  <card id="beaa331d-e88e-47af-8019-18d6ca102f05" name="Banks of the Clyde River" size="EncounterCard">
+    <property name="Card Number" value="113"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Riverland."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="Forced: If Banks of the Clyde River leaves play, return it to the top of the encounter deck instead of placing it in the discard pile."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    </alternate>
+  </card>
+  <card id="4dca6fb2-e5c7-4a51-801b-f95ee327553a" name="Queerditch Marsh" size="EncounterCard">
+    <property name="Card Number" value="114"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Marshland."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Text" value="Forced: While Queerditch Marsh is the active location, each player must raise his threat by an additional point during the refresh phase."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    </alternate>
+  </card>
+  <card id="d22d283e-6aa5-46dd-b61f-bcc94b37103a" name="Cornish Pixies" size="EncounterCard">
+    <property name="Card Number" value="115"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Voldemort's Reach"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="Forced: After Cornish Pixies is defeated, shuffle it back into the encounter deck."/>
+    <property name="Shadow" value="Shadow: attacking enemy gets +1 Û. (+2 Û instead if defending player's threat is 35 or higher.)"/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Voldemort's Reach"/>
+    </alternate>
+  </card>
+  <card id="188dbc99-3e72-46c8-bf99-0125e042ef16" name="Evil Storm" size="EncounterCard">
+    <property name="Card Number" value="116"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Voldemort's Reach"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Deal 1 damage to each character controlled by each player with a threat of 35 or higher."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Voldemort's Reach"/>
+    </alternate>
+  </card>
+  <card id="6999a67c-acdf-44d0-b622-509b6dfe998c" name="Unsupported Flight" size="EncounterCard">
+    <property name="Card Number" value="117"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Voldemort's Reach"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player raises his threat by 1 for each character he controls that is not currently committed to a quest."/>
+    <property name="Shadow" value="Shadow: Defending player chooses and returns 1 exhausted ally he controls to its owner's hand. If he controls no exhausted allies, raise his threat by 3."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Voldemort's Reach"/>
+    </alternate>
+  </card>
+  <card id="f3dea593-e194-4039-9f18-12d4552f22f5" name="Dismal Mist" size="EncounterCard">
+    <property name="Card Number" value="118"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Voldemort's Reach"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each location in the staging area gets +1 $ until the end of the phase. Then, each player with a threat of 35 or higher chooses and discards 1 card from his hand."/>
+    <alternate name="EncounterCard" type="B">
+      <property name="Encounter Set" value="Voldemort's Reach"/>
+    </alternate>
+  </card>
+  <card id="03977dbf-5e36-4943-9eb4-d2af224d59b9" name="Follow the Spiders" size="QuestCard">
+    <property name="Card Number" value="119"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Search the encounter deck for 1 copy of Aragog's Grandchild and 1 copy of the Forbidden Forest, and add them to the staging area. Then, shuffle the encounter deck."/>
+    <property name="Setup" value="ss"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="1"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="8"/>
+    </alternate>
+  </card>
+  <card id="58f20ac1-bbf3-4486-9dde-97ba2f97274c" name="A Fork in the Road" size="QuestCard">
+    <property name="Card Number" value="120"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="2"/>
+      <property name="Engagement Cost" value="Forced: When you defeat this stage, proceed to one of the 2 &quot;A Chosen Path&quot; stages, at random."/>
+    </alternate>
+  </card>
+  <card id="2d1aea1f-b3b6-45eb-a321-907cfb215a63" name="A Chosen Path" size="QuestCard">
+    <property name="Card Number" value="121"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="0"/>
+      <property name="Engagement Cost" value="When Revealed: Each player must search the encounter deck and discard pile for 1 Spider card of his choice, and add it to the staging area.&#10;&#10;The players must find and defeat Aragog's Spawn to win this game."/>
+    </alternate>
+  </card>
+  <card id="59a3dc2d-7861-474d-aaed-de52289f386f" name="A Chosen Path" size="QuestCard">
+    <property name="Card Number" value="122"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="10"/>
+      <property name="Engagement Cost" value="Players cannot defeat this stage while Aragog's Spawn is in play. If players defeat this stage, they have won the game."/>
+    </alternate>
+  </card>
+  <card id="3d5d369c-def3-4e5a-90c9-0a5fb534bfa4" name="The Ministry of Magic" size="QuestCard">
+    <property name="Card Number" value="123"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Search the encounter deck for the 3 objective cards, reveal and place them in the staging area. Also, place the Guardian of Azkaban face up but out of play, alongside the quest deck. Then, shuffle the encounter deck, and attach 1 encounter to each objective card."/>
+    <property name="Setup" value="ssst"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="1"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="9"/>
+      <property name="Engagement Cost" value="When Revealed: Randomly select 1 hero card (among all the heroes controlled by the players) and turn it facedown. That hero is now considered a &quot;prisoner&quot;, cannot be used, cannot be damaged, and does not collect resources, until it is &quot;rescued&quot; (as instructed by card effects) later in this quest.&#10;&#10;The players, as a group, cannot play more than 1 ally card each round.&#10;&#10;Players cannot advance to the next stage of this quest unless they have at least 1 objective card."/>
+    </alternate>
+  </card>
+  <card id="e5df4608-6548-4d26-9426-0c8da19605d4" name="Into the Depths" size="QuestCard">
+    <property name="Card Number" value="124"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="15"/>
+      <property name="Engagement Cost" value="Response: After placing any number of progress tokens on this card, flip the &quot;prisoner&quot; hero card face-up, and place 1 damage token on it. This hero has been &quot;rescued&quot;, and may now be used by its controller.&#10;&#10;The players, as a group, cannot play more than 1 ally card each round.&#10;&#10;Players cannot advance to the next stage of this quest unless they have rescued the prisoner and have all 3 &quot;Escape the Ministry&quot; objective cards."/>
+    </alternate>
+  </card>
+  <card id="e93442f6-4ed8-4fbb-98dc-b9b9975312c5" name="Fleeing the Ministry" size="QuestCard">
+    <property name="Card Number" value="125"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from The Ministry"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Escape from The Ministry"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="7"/>
+      <property name="Engagement Cost" value="Forced: At the beginning of each quest phase, each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called &quot;Ministry Guard&quot;, and act as enemies with: 1 hit point, 1 Û, and 1 Ú.&#10;&#10;Players cannot defeat this stage while Guardian of Azkaban is in play. If this stage is defeated and Guardian of Azkaban is not in play, the players have won the game."/>
+    </alternate>
+  </card>
+  <card id="52fc0e6f-f637-4adf-827b-e518e5660c85" name="To the River..." size="QuestCard">
+    <property name="Card Number" value="126"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area."/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Journey Along the Clyde River"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="1"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="8"/>
+      <property name="Engagement Cost" value="When Revealed: Search the encounter deck for 1 Mountain Troll (if one is not already in play), and place it in the staging area. Shuffle the encounter deck.&#10;&#10;Players cannot defeat this stage while any Mountain Troll cards are in play."/>
+    </alternate>
+  </card>
+  <card id="dd7d7dab-9a6c-443b-b4b0-090a17ba67ba" name="Clyde Passage" size="QuestCard">
+    <property name="Card Number" value="127"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Journey Along the Clyde River"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="2"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="16"/>
+      <property name="Engagement Cost" value="Reveal 1 additional card from the encounter deck each quest phase. Do not make engagement checks during the encounter phase. (Each player may still optionally engage 1 enemy each encounter phase.)"/>
+    </alternate>
+  </card>
+  <card id="ec2af448-2d8e-4072-8c34-d3cc68b02778" name="Ambush on the Shore" size="QuestCard">
+    <property name="Card Number" value="128"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Journey Along the Clyde River"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="QuestCard" type="B">
+      <property name="Encounter Set" value="Journey Along the Clyde River"/>
+      <property name="Type" value="Quest"/>
+      <property name="Sphere" value="3"/>
+      <property name="Traits" value="B"/>
+      <property name="Keywords" value="0"/>
+      <property name="Engagement Cost" value="When Revealed: Reveal 2 encounter cards per player, and add them to the staging area.&#10;&#10;Skip the staging step of the quest phase for the remainder of the game.&#10;&#10;Once there are no enemies in play, the players have won the game."/>
+    </alternate>
+  </card>
+ </cards>
+</set>
