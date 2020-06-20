@@ -1367,7 +1367,7 @@ def defaultAction(card, x = 0, y = 0):
 			addProgress(card, x, y)
 	elif card.Type == "Nightmare" or card.type == "Campaign":
 		flipcard(card)
-	elif card.Type == "Location": #Add a progress token
+	elif card.Type == "Location" or card.Type == "Side Quest": #Add a progress token
 		addProgress(card, x, y)
 	elif card.Type == "Enemy": #Add damage
 		addDamage(card, x, y)
