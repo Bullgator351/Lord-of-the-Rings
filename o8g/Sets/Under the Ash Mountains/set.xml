@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Under the Ash Mountains" id="3b50b31f-72e8-4c65-b094-d21006cebf2c" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="4eac6112-54ea-4a3e-851b-cd6456047dd2" name="Gildor Inglorion">
+    <property name="Card Number" value="81"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Noldor. Noble."/>
+    <property name="Cost" value="9"/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Action: Pay 1 resource from Gildor Inglorion`s resource pool to choose a player to draw 1 card (Limit once per round.)"/>
+  </card>
+  <card id="aa91cbd5-461e-4bdf-961c-05f736ae65b1" name="Wandering Exile">
+    <property name="Card Number" value="82"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Noldor."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Wandering Exile commits to a quest, discard a card from your hand to ready Wandering Exile."/>
+  </card>
+  <card id="47deb269-e02b-426d-b64a-34a4adff44de" name="Valiant Sword">
+    <property name="Card Number" value="83"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Item. Weapon."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a Noble hero. Limit 1 per hero.Restricted.Attached hero gets +1 Û (+2 Û if your threat is 40 or higher)."/>
+  </card>
+  <card id="d45259f1-a551-466c-8352-cc466e1670c2" name="Stone of Elostirion">
+    <property name="Card Number" value="84"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Artifact. Item."/>
+    <property name="Keywords" value="Guarded (location). Restricted."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Guarded (location). Restricted.Attach to a hero. Attached hero gets +2 Ò.You draw 1 additional card during the resource phase."/>
+  </card>
+  <card id="9a39a6b1-d480-4ced-8590-d3748b076208" name="Well Preserved">
+    <property name="Card Number" value="85"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Master."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to the hero with The One Ring.Limit 1 per hero. Attached hero gets + 1 hit point.Response: At the beginning of the round, exhaust The One Ring and raise your threat by 1 to heal all damage from attached hero."/>
+  </card>
+  <card id="d8591a12-d000-4dc1-b011-3fa81a95f93a" name="Northern Bowmaster">
+    <property name="Card Number" value="86"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Dúnedain. Ranger."/>
+    <property name="Keywords" value="Ranged."/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="Ranged.You cannot play Northern Bowmaster from your hand unless you are engaged with an enemy."/>
+  </card>
+  <card id="42ad7767-4b3a-4ba0-ad80-87daa86476cd" name="Reckless Attack">
+    <property name="Card Number" value="87"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Keywords" value="Doomed 2."/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Doomed 2.Action: Each player deals 2 damage to an enemy engaged with him."/>
+  </card>
+  <card id="ed2a2959-7070-4f23-bb37-d6a0a19217c9" name="Odo Proudfoot">
+    <property name="Card Number" value="88"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Hobbit."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Odo Proudfoot enters play, search the top 5 cards of your deck for a Hobbit ally and add it to your hand. Shuffle the other cards back into your deck."/>
+  </card>
+  <card id="76a2a47f-59c3-4130-85bb-50823351b2fe" name="Defiant Challenge">
+    <property name="Card Number" value="89"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Keywords" value="Doomed 2."/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Doomed 2.Action: Each player may ready a characer he controls."/>
+  </card>
+  <card id="887ff756-3e65-47d0-b056-12194727a83b" name="Helm of Secrecy">
+    <property name="Card Number" value="90"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Cost" value="4"/>
+    <property name="Text" value="Limit 1 per deck.Action: Choose a hero you control and discard all tokens from it. Select a different non-â˜º, non-Ã hero from your collection with a threat cost less than or equal to the chosen hero. Swap those heroes, moving all eligible attachments and damage tokens to the hero from your collection."/>
+  </card>
+  <card id="b9f75b1f-4854-4ae7-97e6-be53fb0107dc" name="Council of the Wise">
+    <property name="Card Number" value="91"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Contract"/>
+    <property name="Text" value="You cannot include more than 1 copy of a card, by title, in your deck.Response: After you play an event from your hand, choose one: reduce your threat by 1, draw 1 card, or add 1 resource to your hero`s resource pool. You can only choose each option once per round."/>
+  </card>
+  <card id="84b7e934-3d4d-4966-accf-c257c4413035" name="The Tunnels of Torech Gorgor" size="QuestCard">
+    <property name="Card Number" value="92"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="During the travel phase, the players must travel to a location, if able.Forced: When the active location is explored, place 1 resource here.Progress cannot be placed on this quest unless there are at least 3 resources here."/>
+  </card>
+  <card id="ede538df-8c8e-44b6-bab2-3a60e8a50449" name="A Haunt for Beasts" size="QuestCard">
+    <property name="Card Number" value="93"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Each enemy cannot take more than 4 damage each round.While there is at least one enemy in the staging area, this stage cannot be chosen as the current quest."/>
+  </card>
+  <card id="e0841275-753f-47bd-8d6d-807e4fb747ac" name="Overwhelming Darkness" size="QuestCard">
+    <property name="Card Number" value="94"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Forced: After a player players a card, he discards the top card of his deck.Response: When this stage is defeated, each player shuffles the top 3 cards of his discard pile into his deck."/>
+  </card>
+  <card id="c88d317b-d8b9-43ef-b41d-427ae4337f8d" name="Nameless Beast" size="EncounterCard">
+    <property name="Card Number" value="95"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Nameless."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Forced: When Nameless Beast attacks you, discard the top card of your deck. Nameless Beast gets +X Û for this attack, where X is that card`s cost."/>
+  </card>
+  <card id="ff815834-bf79-4914-8057-903f834190f1" name="Mordor Cave Troll" size="EncounterCard">
+    <property name="Card Number" value="96"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="33"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+    <property name="Text" value="Cannot have attachments.Forced: After Mordor Cave Troll attacks and destroys a character, discard the top card of your deck for each point of excess damage dealt by this attack."/>
+  </card>
+  <card id="451b7209-4dea-4167-948e-dca0079fb997" name="Ash Mountain Werewolf" size="EncounterCard">
+    <property name="Card Number" value="97"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Werewolf."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Forced: After Ash Mountain Werewolf attacks you, discard the top card of your deck (top 2 cards instead if this attack destroyed a character)."/>
+  </card>
+  <card id="ba77505a-1def-4537-a194-0b7482433a72" name="Spawn of Shelob" size="EncounterCard">
+    <property name="Card Number" value="98"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Spider."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="12"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Surge.Forced: After Spawn of Shelob engages you, either discard the top card of your deck, or Spawn of Shelob gets +2 Û until the end of the round."/>
+  </card>
+  <card id="df3f0718-7558-48c5-b680-2c2fc38d3de2" name="Torech Gorgor Patrol" size="EncounterCard">
+    <property name="Card Number" value="99"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="45"/>
+    <property name="Threat" value="X"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="9"/>
+    <property name="Text" value="X is 1 more than the number of quest cards in play.While Torech Gorgor Patrol is in the staging area, no more than 5 progress can be placed on the main quest each round.Forced: After Torech Gorgor Patrol engages a player, it makes an attack."/>
+  </card>
+  <card id="ef7c6601-a62d-440a-89b1-5a9d6208481b" name="Fiery Chasm" size="EncounterCard">
+    <property name="Card Number" value="100"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="X"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="X is 1 more than the number of quest cards in play.Forced: When Fiery Chasm is explored, discard the top X cards of your deck."/>
+  </card>
+  <card id="b93c5b70-0655-4577-9f5e-68ca00d4bfc8" name="Hideous Deeps" size="EncounterCard">
+    <property name="Card Number" value="101"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="When Revealed: Each player places the top 3 cards of his deck facedown under Hideous Deeps.Forced: When Hideous Deeps is explored as the active location, shuffle each facedown card under it into its owner`s deck."/>
+  </card>
+  <card id="fc8711c3-a458-4f0b-86d2-61fb3fd70316" name="Orc Passage" size="EncounterCard">
+    <property name="Card Number" value="102"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Orc Passage is in the staging area, encounter card effects cannot be canceled.Forced: When Orc Passage is explored, search the encounter deck and discard pile for a copy of Torech Gorgor Patrol and add it to the staging area."/>
+  </card>
+  <card id="9832252b-4c87-4a03-b249-aa8abe404459" name="Ransacked Supplies" size="EncounterCard">
+    <property name="Card Number" value="103"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player discards the top card of his deck. Until the end of the phase, add the total cost of each card discarded this way to the $ in the staging area."/>
+  </card>
+  <card id="12a9c24d-c09d-4fd8-a746-4d75d30b7548" name="Burning Reek" size="EncounterCard">
+    <property name="Card Number" value="104"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="Doomed 1.When Revealed: Each player discard 1 card from the top of his deck for each character he controls."/>
+  </card>
+  <card id="b622efab-65dd-4a49-af87-8984066ab4ae" name="Writhing Shadows" size="EncounterCard">
+    <property name="Card Number" value="105"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player assigns X damage among character he controls, where X is 1 more than the number of quest cards in play. Exhaust each character damaged by this effect."/>
+  </card>
+  <card id="db69ea89-f018-4534-9661-7c748298e1f5" name="Passage into Mordor" size="QuestCard">
+    <property name="Card Number" value="106"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Each player with more than 40 cards in his deck discards cards from the top of his deck until he has 40 cards left. The first player adds a copy of Torech Gorgor Patrol to the staging area. Each other player adds 1 different location to the staging area. Shuffle the encounter deck and discard cards from the top until a side quest is discarded. Reveal that side quest. Shuffle the encounter discard pile into the encounter deck."/>
+    <alternate name="Passage into Mordor" type="B">
+      <property name="Encounter Set" value="Under the Ash Mountains"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="25"/>
+      <property name="Text" value="Event cards cannot shuffle cards from a player`s discard pile into his deck.Forced: At the end of the round, each player discards X cards from the top of his deck, where X is 1 more than the number of quest cards in play. If a player has no cards left in his deck, he is eliminated from the game."/>
+    </alternate>
+  </card>
+  <card id="7ce50ea4-2496-414f-8fd5-5b076b58c9ee" name="An Evil Place" size="QuestCard">
+    <property name="Card Number" value="107"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Search the encounter deck and discard pile for an encounter side quest and reveal it. Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area."/>
+    <alternate name="An Evil Place" type="B">
+      <property name="Encounter Set" value="Under the Ash Mountains"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="25"/>
+      <property name="Text" value="Event cards cannot shuffle cards from a player`s discard pile into his deck.Forced: At the end of the round, each player discards X cards from the top of his deck, where X is 1 more than the number of quest cards in play. If a player has no cards left in his deck, he is eliminated from the game.If the player defeat this stage, they win the game."/>
+    </alternate>
+  </card>
+ </cards>
+</set>

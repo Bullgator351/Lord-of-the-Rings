@@ -1209,7 +1209,13 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 			if card.Type == "Contract":
 				card.moveToTable(heroX(id, heroCount), HeroY)
 				heroCount += 1
+				
+			if card.Type == "Ally":
+				card.delete()
+				continue
+			
 			if card.Type == "Hero":
+					
 				card.moveToTable(heroX(id, heroCount), HeroY)
 				heroCount += 1
 				newHero = True
