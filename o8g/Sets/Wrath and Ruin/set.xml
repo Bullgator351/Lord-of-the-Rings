@@ -262,7 +262,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Thane Ulchor and Gate of Dorwinion to the staging area. Each player adds a different location to the staging area. Make a copy of Makeshift Fortification the active location. Shuffle the enocounter deck."/>
-    <alternate name="Inside the Walls" type="B">
+    <alternate name="Inside the Walls" type="B" size="QuestCard">
       <property name="Encounter Set" value="Wrath and Ruin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -279,7 +279,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player returns the highest $ location he controls to the staging area. Shuffle the encounter discard pile into the encounter deck. Starting with the first player, each player discards cards from the top of the encounter deck until he discards an enemy and puts that enemy into play engaged with him."/>
-    <alternate name="Drive them Out" type="B">
+    <alternate name="Drive them Out" type="B" size="QuestCard">
       <property name="Encounter Set" value="Wrath and Ruin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

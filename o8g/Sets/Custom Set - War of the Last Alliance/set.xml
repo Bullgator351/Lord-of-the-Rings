@@ -53,7 +53,7 @@
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Setup: Construct the encounter deck using all the cards from this scenario plus all the enemies with the Goblin or Orc trait from the indicated sets. Remove Sauron and Narsil from encounter deck and set them aside out of play. Shuffle the encounter deck."/>
     <property name="Setup" value="tt"/>
-    <alternate name="Preparing for Battle" type="B">
+    <alternate name="Preparing for Battle" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - War of the Last Alliance"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -69,7 +69,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Combat" type="B">
+    <alternate name="Combat" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - War of the Last Alliance"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -86,7 +86,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When revealed: Discard all enemies from play then add Sauron to the staging area. Any player may discard a Noldor hero and put Narsil into play, attached to a Gondor hero they control. Advance to the refresh phase."/>
-    <alternate name="Terrible and Unstoppable" type="B">
+    <alternate name="Terrible and Unstoppable" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - War of the Last Alliance"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

@@ -245,7 +245,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Poros Garrison and each of the following encounter sets aside, out of play: Mountains of Shadow, Desert Sands, Desert Creatures, Harad Soldiers, and Mordor Orcs. The first player adds The Black Serpent to the staging area and shuffles the encounter deck. Each other player reveals an encounter card."/>
-    <alternate name="Flight to Gondor" type="B">
+    <alternate name="Flight to Gondor" type="B" size="QuestCard">
       <property name="Encounter Set" value="Crossings of Poros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -262,7 +262,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the Desert Sands encounter set into the encounter deck. Remove the Mountains of Shadow encounter set and the other stage 2A from the game."/>
-    <alternate name="The Desert Path" type="B">
+    <alternate name="The Desert Path" type="B" size="QuestCard">
       <property name="Encounter Set" value="Crossings of Poros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -279,7 +279,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the Mountains of Shadow encounter set into the encounter deck. Remove the Desert Sands encounter set and the other stage 2A from the game."/>
-    <alternate name="The Ephel Duath" type="B">
+    <alternate name="The Ephel Duath" type="B" size="QuestCard">
       <property name="Encounter Set" value="Crossings of Poros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -296,7 +296,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set each other stage 3A aside, out of play. Shuffle the encounter discard pile and the Desert Creatures encounter set into the encounter deck. Then, each player reveals an encounter card."/>
-    <alternate name="Deadly Creatures" type="B">
+    <alternate name="Deadly Creatures" type="B" size="QuestCard">
       <property name="Encounter Set" value="Crossings of Poros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -313,7 +313,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set each other stage 3A aside, out of play. Shuffle the encounter discard pile and the Harad Soldiers encounter set into the encounter deck. Then, each player reveals an encounter card."/>
-    <alternate name="Southron Pursuit" type="B">
+    <alternate name="Southron Pursuit" type="B" size="QuestCard">
       <property name="Encounter Set" value="Crossings of Poros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -330,7 +330,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set each other stage 3A aside, out of play. Shuffle the encounter discard pile and the Mordor Orcs encounter set into the encounter deck. Then, each player reveals an encounter card."/>
-    <alternate name="Orc Patrols" type="B">
+    <alternate name="Orc Patrols" type="B" size="QuestCard">
       <property name="Encounter Set" value="Crossings of Poros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -347,7 +347,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player takes control of Poros Garrison. Search the encounter deck and discard pile for each enemy that belongs to an encounter set denoted by the first icon on each set aside stage 3 and add them to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Battle at the Crossings" type="B">
+    <alternate name="Battle at the Crossings" type="B" size="QuestCard">
       <property name="Encounter Set" value="Crossings of Poros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

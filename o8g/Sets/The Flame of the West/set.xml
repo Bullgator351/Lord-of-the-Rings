@@ -712,7 +712,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set The Stone of Erech and Army of the Dead aside, out of play. Each player attaches a copy of Overcome by Fear to his threat dial. Remove each unattached copy of Overcome by Fear from the game. "/>
     <property name="Setup" value="tttttttt"/>
-    <alternate name="The Forbidden Door" type="B">
+    <alternate name="The Forbidden Door" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Passing of the Grey Company"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -730,7 +730,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck. "/>
     <property name="Setup" value="--------"/>
-    <alternate name="The Paths of the Dead" type="B">
+    <alternate name="The Paths of the Dead" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Passing of the Grey Company"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -747,7 +747,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add The Stone of Erech and Army of the Dead (enemy side faceup) to the staging area. Each player may raise his threat by 3 to detach Overcome by Fear from his threat dial and set it aside, out of play.  "/>
-    <alternate name="The Dead are Following" type="B">
+    <alternate name="The Dead are Following" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Passing of the Grey Company"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -807,7 +807,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Corsair Fleet (Corsair side faceup) and Great Corsair Ship to the staging area. Each player searches the encounter deck for a Ship location and adds it to the staging area. Shuffle the encounter deck.  "/>
     <property name="Setup" value="ssst"/>
-    <alternate name="Attack on Pelargir" type="B">
+    <alternate name="Attack on Pelargir" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Gondor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -856,7 +856,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Minas Tirith, Grond, The Witch-king, and each copy of Wraith on Wings aside, out of play. Search the encounter deck for a copy of Pelennor Field and make it the active location. Shuffle the encounter deck. The players may attach Esquire of Rohan and Esquire of Gondor to different heroes. "/>
     <property name="Setup" value="ttttttttlttt"/>
-    <alternate name="The Garrison of Gondor" type="B">
+    <alternate name="The Garrison of Gondor" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -873,7 +873,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player adds 1 set aside Wraith on Wings to the staging area and reveals an encounter card. Starting with the first player, each player discards cards from the top of his deck until he discards an ally that is not in play. Put the discarded ally into play in the staging area and treat its text box as if it were blank until the end of the phase.  "/>
-    <alternate name="Retreat from Osgiliath" type="B">
+    <alternate name="Retreat from Osgiliath" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -890,7 +890,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player takes control of each ally he owns in the staging area and exhausts it. The first player adds Minas Tirith, Grond, and The Witch-king (Captain side faceup) to the staging area. Each other player searches the encounter deck and discard pile for a different enemy and adds it to the staging area.  "/>
-    <alternate name="The White City Besieged" type="B">
+    <alternate name="The White City Besieged" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -907,7 +907,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set The Witch-king aside, out of play. Each player searches the top 10 cards of his deck for an ally that matches the sphere of a hero he controls and puts it into play under his control. Each player shuffles his deck. "/>
-    <alternate name="Rohan has Come!" type="B">
+    <alternate name="Rohan has Come!" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -924,7 +924,7 @@
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player adds The Witch-king to the staging area (Sorcerer side faceup). Then, he searches the encounter deck and discard pile for a Fell Beast and attaches it to The Witch-king, if able. Each other player reveals an encounter card. "/>
-    <alternate name="Fighting in the Fields" type="B">
+    <alternate name="Fighting in the Fields" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>

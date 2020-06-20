@@ -256,7 +256,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Bucklebury Ferry aside, out of play.  Add 1 Black Rider to the staging area and make Bag End the active location.  Shuffle the encounter deck."/>
     <property name="Setup" value="ttsl"/>
-    <alternate name="Three is Company" type="B">
+    <alternate name="Three is Company" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Shadow of the Past"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -272,7 +272,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="A Shortcut to Mushrooms" type="B">
+    <alternate name="A Shortcut to Mushrooms" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Shadow of the Past"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -289,7 +289,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Bucklebury Ferry to the staging area."/>
-    <alternate name="Escape to Buckland" type="B">
+    <alternate name="Escape to Buckland" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Shadow of the Past"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -307,7 +307,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set all copies of Ringwraith, The Witch-king, Midgewater, and Weathertop aside, out of play.  Add The Prancing Pony and Bill Ferny to the staging area.  Shuffle the encounter deck."/>
     <property name="Setup" value="ttttsstttt"/>
-    <alternate name="Trouble in Bree" type="B">
+    <alternate name="Trouble in Bree" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Knife in the Dark"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -323,7 +323,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Into the Wild" type="B">
+    <alternate name="Into the Wild" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Knife in the Dark"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -340,7 +340,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Weathertop and The Witch-king to the staging area.  Search the encounter deck and discard pile and add each Nazgul enemy found to the staging area.  Shuffle the encounter deck."/>
-    <alternate name="The Ringwraiths Attack" type="B">
+    <alternate name="The Ringwraiths Attack" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Knife in the Dark"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -358,7 +358,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Shuffle each burden card from the Flight to the Ford burden set into a Burden deck. Attach An Evil Wound to the Ring-bearer.  Set Ford of Bruinen and The Witch-King aside, out of play.  Add The Last Bridge and 1 Fell Rider per player to the staging area.  Set the Ring-bearer's life at 15. Shuffle the encounter deck."/>
     <property name="Setup" value="ttttstttt"/>
-    <alternate name="Pursued by the Enemy" type="B">
+    <alternate name="Pursued by the Enemy" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight to the Ford"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -374,7 +374,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Race To Rivendell" type="B">
+    <alternate name="Race To Rivendell" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight to the Ford"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

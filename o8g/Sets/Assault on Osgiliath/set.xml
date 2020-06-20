@@ -122,7 +122,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player chooses 1 enemy and 1 unique location and add them to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Retake the City" type="B">
+    <alternate name="Retake the City" type="B" size="QuestCard">
       <property name="Encounter Set" value="Assault on Osgiliath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>

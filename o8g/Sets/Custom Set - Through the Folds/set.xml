@@ -10,7 +10,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Remove all location, treachery and objective cards that do not pertain to the Through the Folds encounter set. Remove from the encounter deck all the Captain and Route cards, and set aside, out of play. Add Edoras Hills to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="sttttt"/>
-    <alternate name="To Edoras" type="B">
+    <alternate name="To Edoras" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Through the Folds"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -27,7 +27,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add The White Mountains to the staging area."/>
-    <alternate name="Course to Anorien" type="B">
+    <alternate name="Course to Anorien" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Through the Folds"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -44,7 +44,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Mindolluin and Ghulat to the staging area."/>
-    <alternate name="Reaching Minas Tirith" type="B">
+    <alternate name="Reaching Minas Tirith" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Through the Folds"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

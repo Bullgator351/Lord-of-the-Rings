@@ -9,7 +9,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Rhosgobel to the staging area. The opposing team searches the encounter deck for one different 0 cost enemy or 0 cost location per player and adds them to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Radagast's Request" type="B">
+    <alternate name="Radagast's Request" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wizard's Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="1"/>
@@ -28,7 +28,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less if there are two or more players), sets it aside, and shufles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="A Fork in the Road" type="B">
+    <alternate name="A Fork in the Road" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wizard's Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -47,7 +47,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less if there are two or more players), sets it aside, and shufles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="Carried Away" type="B">
+    <alternate name="Carried Away" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wizard's Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -66,7 +66,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less if there are two or more players), sets it aside, and shufles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="A New Terror Abroad" type="B">
+    <alternate name="A New Terror Abroad" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wizard's Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -85,7 +85,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="The Tower of Sorcery" type="B">
+    <alternate name="The Tower of Sorcery" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wizard's Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -104,7 +104,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="Dungeons of the Necromancer" type="B">
+    <alternate name="Dungeons of the Necromancer" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wizard's Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -123,7 +123,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="Return to Rhosgobel" type="B">
+    <alternate name="Return to Rhosgobel" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wizard's Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>

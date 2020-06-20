@@ -126,7 +126,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Corsair deck. Players prepare their fleet. Set each copy of Dol Amroth Warship aside, out of play. Search the encounter deck for Raider Flagship and 1 copy of Scouting Ship, and add them to the staging area. Search the encounter deck for a Dol Amroth objective of your choice and add it to the staging area. Then, shuffle the encounter deck and resolve the Guarded keyword on that objective."/>
     <property name="Setup" value="ttsstttttsssst"/>
-    <alternate name="Outmaneuver the Enemy" type="B">
+    <alternate name="Outmaneuver the Enemy" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Storm on Cobas Haven"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="10"/>
@@ -141,7 +141,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for a Ship enemy and add it to the staging area (2 Ship enemies instead if there are 3 or more players in the game). Shuffle the encounter deck. For each unguarded objective in the staging area, attach a non-unique Ship enemy in the staging area to that objective, guarding it."/>
-    <alternate name="Battle in the Bay" type="B">
+    <alternate name="Battle in the Bay" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Storm on Cobas Haven"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="16"/>
@@ -156,7 +156,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The players make engagement checks against each enemy in the staging area. Raider Flagship gets –50 engagement cost during these engagement checks."/>
-    <alternate name="Break Through the Fleet!" type="B">
+    <alternate name="Break Through the Fleet!" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Storm on Cobas Haven"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="5"/>

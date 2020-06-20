@@ -108,7 +108,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="sstttttttttttt"/>
-    <alternate name="Chestwood Outskirts" type="B">
+    <alternate name="Chestwood Outskirts" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Bandits of Chetwood North"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -123,7 +123,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Searching for Stolen Treasure" type="B">
+    <alternate name="Searching for Stolen Treasure" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Bandits of Chetwood North"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -138,7 +138,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Adella's Fight" type="B">
+    <alternate name="Adella's Fight" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Bandits of Chetwood North"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

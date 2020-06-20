@@ -2093,7 +2093,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set aside Devouring Werewolf, Draugluin, Bridge to the Isle and Wolf-Sauron. Create a pit area with stage 2A and follow the setup instructions on that card."/>
     <property name="Setup" value="sttts"/>
-    <alternate name="Upon the Bridge" type="B">
+    <alternate name="Upon the Bridge" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Isle of Werewolves"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -2110,7 +2110,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck for Finrod Felagund and Eyes in the Dark and add both to the pit area. Choose one hero to be placed in the pit area. That hero is captured. The controlling player may immediately replace the captured hero with another of his choice."/>
-    <alternate name="The Pits of Sauron" type="B">
+    <alternate name="The Pits of Sauron" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Isle of Werewolves"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -2127,7 +2127,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Wolf-Sauron to the staging area. Reveal 1 encounter card per player."/>
-    <alternate name="Tol-in-Gaurhoth" type="B">
+    <alternate name="Tol-in-Gaurhoth" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Isle of Werewolves"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -2158,7 +2158,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Carcharoth to the staging area. Set Morgoth and all objectives and unique locations aside out of play. Set your threat equal to the number of heroes you control."/>
     <property name="Setup" value="sttttttttts"/>
-    <alternate name="Doors of Angband" type="B">
+    <alternate name="Doors of Angband" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Seat of Morgoth"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -2175,7 +2175,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Remove Carcharoth from play. Add Pits of Angband, Thrall Quarters, and Tunnels of Shadow to the staging area. Each player must search the encounter deck and discard pile for 1 enemy and add it to the staging area."/>
-    <alternate name="Descent into Darkness" type="B">
+    <alternate name="Descent into Darkness" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Seat of Morgoth"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -2191,7 +2191,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Greatest Deed" type="B">
+    <alternate name="The Greatest Deed" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Seat of Morgoth"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -2208,7 +2208,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Remove Morgoth from play. Add Carcharoth to the staging area, removing any damage that was previously placed."/>
-    <alternate name="To See the Light" type="B">
+    <alternate name="To See the Light" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Seat of Morgoth"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -2239,7 +2239,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Place Carcharoth the Tormented and Gates of Menegroth aside, out of play. Shuffle all other copies of Carcharoth into a Carcharoth deck. Each player must search the encounter deck for 1 different location and add it to the staging area. Put the Beleg Strongbow objective ally into play."/>
     <property name="Setup" value="ttst"/>
-    <alternate name="Ride Forth in the Morning" type="B">
+    <alternate name="Ride Forth in the Morning" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Hunting of the Wolf"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -2256,7 +2256,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Remove Carcharoth from play and put the Carcharoth deck aside. Add Carcharoth the Tormented to the staging area. Remove half of the damage on Carcharoth (rounding up)."/>
-    <alternate name="At Last Upon the Wolf" type="B">
+    <alternate name="At Last Upon the Wolf" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Hunting of the Wolf"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -2273,7 +2273,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Gates of Menegroth becomes the active location, moving any previous active location to the staging area."/>
-    <alternate name="Ruin Upon the World" type="B">
+    <alternate name="Ruin Upon the World" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Hunting of the Wolf"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

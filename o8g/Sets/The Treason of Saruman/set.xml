@@ -777,7 +777,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Make Eastemnet the active location. Add Uglúk and To Isengard! to the staging area. Each player chooses 1 non-☺ hero he controls to be a Captive and places it faceup underneath To Isengard! Set the pursuit value to 10."/>
     <property name="Setup" value="lsst"/>
-    <alternate name="Follow the Orcs" type="B">
+    <alternate name="Follow the Orcs" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Uruk-hai"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -794,7 +794,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player searches the encounter deck and discard pile for an Uruk-hai enemy, reveals it, and adds it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Rescue the Captives" type="B">
+    <alternate name="Rescue the Captives" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Uruk-hai"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -826,7 +826,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set The Defense of Helm’s Deep and 1 copy of Deeping Wall aside, out of play. Each player sets 1 copy of Soldier of Isengard aside, out of play. Then, the players must choose: either each player shuffles 1 copy of Poisoned Counsels into his deck, or advance to stage 2A (bypassing stage 1B)."/>
     <property name="Setup" value="ttttttttttt"/>
-    <alternate name="The King of the Golden Hall" type="B">
+    <alternate name="The King of the Golden Hall" type="B" size="QuestCard">
       <property name="Encounter Set" value="Helm's Deep"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -843,7 +843,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add The Defense of Helm’s Deep and each set aside copy of Soldier of Isengard to the staging area. Make Deeping Wall the active location. Shuffle the encounter deck. Then, each player reveals 1 encounter card."/>
-    <alternate name="Assault on Helm's Deep" type="B">
+    <alternate name="Assault on Helm's Deep" type="B" size="QuestCard">
       <property name="Encounter Set" value="Helm's Deep"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -860,7 +860,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck, discard pile, and victory display for Helm’s Gate and add it to the staging area. Shuffle the encounter deck. Make Helm’s Gate the active location, returning any previous active location to the staging area."/>
-    <alternate name="The Hosts of Isengard" type="B">
+    <alternate name="The Hosts of Isengard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Helm's Deep"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -877,7 +877,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. Discard cards from the encounter deck until X enemies are discarded. X is the number of players. Add each enemy discarded this way to the staging area."/>
-    <alternate name="The Wall is Breached!" type="B">
+    <alternate name="The Wall is Breached!" type="B" size="QuestCard">
       <property name="Encounter Set" value="Helm's Deep"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -894,7 +894,7 @@
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. Discard cards from the encounter deck until X enemies are discarded. X is the number of players. Add each enemy discarded this way to the staging area."/>
-    <alternate name="The King Rides Out" type="B">
+    <alternate name="The King Rides Out" type="B" size="QuestCard">
       <property name="Encounter Set" value="Helm's Deep"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>
@@ -926,7 +926,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Gates of Isengard, Orthanc, Saruman, and Saruman’s Staff aside, out of play. Add each copy of Ent of Fangorn to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="ttttsssst"/>
-    <alternate name="Rouse the Ents" type="B">
+    <alternate name="Rouse the Ents" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Road to Isengard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -943,7 +943,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Make Gates of Isengard the active location. Add Saruman and Orthanc to the staging area."/>
-    <alternate name="Breaking Isengard" type="B">
+    <alternate name="Breaking Isengard" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Road to Isengard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -960,7 +960,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player draws 6 cards. Each player with more than 6 cards in his hand discards cards from his hand until he has only 6. Attach Saruman’s Staff to Saruman."/>
-    <alternate name="The Voice of Saruman" type="B">
+    <alternate name="The Voice of Saruman" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Road to Isengard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

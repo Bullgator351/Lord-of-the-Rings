@@ -110,7 +110,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Remove Dark Pit from the encounter deck and place it aside, out of play. Add Durin's Bane to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="ts"/>
-    <alternate name="Nearing the Gate" type="B">
+    <alternate name="Nearing the Gate" type="B" size="QuestCard">
       <property name="Encounter Set" value="Shadow and Flame"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -126,7 +126,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Rear Guard" type="B">
+    <alternate name="The Rear Guard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Shadow and Flame"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -142,7 +142,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Last Lord of Moria" type="B">
+    <alternate name="Last Lord of Moria" type="B" size="QuestCard">
       <property name="Encounter Set" value="Shadow and Flame"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

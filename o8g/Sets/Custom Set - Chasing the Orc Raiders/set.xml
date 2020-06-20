@@ -29,7 +29,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Elrond's Message, Orc Forest Camp and Ungoliant Spawn. Add Elrond's Message and Orc Forest Camp to the staging area. Place Ungoliant Spawn face up but out of play, alongside the quest deck."/>
     <property name="Setup" value="sts"/>
-    <alternate name="Robbed" type="B">
+    <alternate name="Robbed" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -46,7 +46,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set aside Orc Forest Camp out of play."/>
-    <alternate name="Hide and Seek" type="B">
+    <alternate name="Hide and Seek" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -63,7 +63,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Place Ungoliant Spawn in the staging area. All orcs in the staging area are discarded."/>
-    <alternate name="Uninvited Guests" type="B">
+    <alternate name="Uninvited Guests" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

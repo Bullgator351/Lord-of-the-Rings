@@ -356,7 +356,7 @@
     <property name="Type" value="Quest"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Raise each player's threat by 1."/>
-    <alternate name="An Arduous Journey" type="B">
+    <alternate name="An Arduous Journey" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Engagement Cost" value="B"/>
@@ -371,7 +371,7 @@
     <property name="Type" value="Quest"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Raise each player's threat by 1. Add Ancient Marsh-dweller to the staging area (from out of play or engaged with a player) and heal all damage from it."/>
-    <alternate name="Deadly Waters" type="B">
+    <alternate name="Deadly Waters" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Engagement Cost" value="B"/>

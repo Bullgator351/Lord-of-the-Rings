@@ -765,7 +765,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player may shuffle 1 copy Bilbo's Magic Ring into his deck. Search the encounter deck for The Spider's Glade and set it aside, out of play. Then, shuffle the encounter deck and reveal 1 encounter card per player."/>
     <property name="Setup" value="tttt"/>
-    <alternate name="Into Mirkwood" type="B">
+    <alternate name="Into Mirkwood" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flies and Spiders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -781,7 +781,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Lost in the Dark" type="B">
+    <alternate name="Lost in the Dark" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flies and Spiders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -798,7 +798,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Remove all resources from each hero's resource pool. Then, make each character you control (except Bilbo Baggins) unconscious."/>
-    <alternate name="Captured by Spiders" type="B">
+    <alternate name="Captured by Spiders" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flies and Spiders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -815,7 +815,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add The Spider's Glade to the staging area."/>
-    <alternate name="Battle with the Spiders" type="B">
+    <alternate name="Battle with the Spiders" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flies and Spiders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -833,7 +833,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Smaug the Golden, Smaug the Magnificent, The Lonely Mountain, and A Bare Patch. Set Smaug the Magnificent and A Bare Patch aside, out of play. Add Smaug the Golden and The Lonely Mountain to the staging area. Shuffle the five Erebor treasure cards and stack them facedown under The Lonely Mountain."/>
     <property name="Setup" value="sstt"/>
-    <alternate name="A Warm Welcome" type="B">
+    <alternate name="A Warm Welcome" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Lonely Mountain"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -849,7 +849,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Burglar's Turn" type="B">
+    <alternate name="The Burglar's Turn" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Lonely Mountain"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -866,7 +866,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set Smaug the Golden aside, out of play. Add Smaug the Magnificent and A Bare Patch to the staging area."/>
-    <alternate name="Inside Information" type="B">
+    <alternate name="Inside Information" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Lonely Mountain"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -883,7 +883,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Remove all progress from Smaug the Golden and set him aside, out of play. Then, add Smaug the Magnificent to the staging area."/>
-    <alternate name="Thieves! Fire! Murder!" type="B">
+    <alternate name="Thieves! Fire! Murder!" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Lonely Mountain"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -901,7 +901,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Bolg and add it to the staging area. Then, shuffle the encounter deck and reveal 1 encounter card per player."/>
     <property name="Setup" value="s"/>
-    <alternate name="The Gathering of the Clouds" type="B">
+    <alternate name="The Gathering of the Clouds" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Five Armies"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -917,7 +917,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Eastern Spur" type="B">
+    <alternate name="The Eastern Spur" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Five Armies"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -933,7 +933,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Battle in the Dale" type="B">
+    <alternate name="Battle in the Dale" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Five Armies"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -949,7 +949,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Defense of Ravenhill" type="B">
+    <alternate name="The Defense of Ravenhill" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Five Armies"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -965,7 +965,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Clouds Burst" type="B">
+    <alternate name="The Clouds Burst" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Five Armies"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>

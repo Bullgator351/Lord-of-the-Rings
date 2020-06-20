@@ -740,7 +740,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for The Leaping Fish and Alcaron's Scroll. Make The Leaping Fish the active location and attach Alcaron's Scroll to a hero."/>
-    <alternate name="The Leaping Fish" type="B">
+    <alternate name="The Leaping Fish" type="B" size="QuestCard">
       <property name="Encounter Set" value="Peril in Pelargir"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -756,7 +756,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Fighting in the Streets" type="B">
+    <alternate name="Fighting in the Streets" type="B" size="QuestCard">
       <property name="Encounter Set" value="Peril in Pelargir"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -773,7 +773,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player searches the encounter deck and discard pile for 1 enemy and adds it to the staging area."/>
-    <alternate name="Escape to the Quays" type="B">
+    <alternate name="Escape to the Quays" type="B" size="QuestCard">
       <property name="Encounter Set" value="Peril in Pelargir"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -790,7 +790,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Celador to the staging area. Search the encounter deck for a copy of Ithilien Road and make it the active location. Each player must search the encounter deck for a copy of Southron Company and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Ambush in Ithilien" type="B">
+    <alternate name="Ambush in Ithilien" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into Ithilien"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -806,7 +806,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Southron Counter-attack" type="B">
+    <alternate name="Southron Counter-attack" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into Ithilien"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -822,7 +822,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Hidden Way" type="B">
+    <alternate name="The Hidden Way" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into Ithilien"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -838,7 +838,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Approaching Cair Andros" type="B">
+    <alternate name="Approaching Cair Andros" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into Ithilien"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -856,7 +856,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Approach, The Citadel, and The Banks to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="sss"/>
-    <alternate name="The Defense" type="B">
+    <alternate name="The Defense" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Cair Andros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -872,7 +872,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Reinforcing the Banks" type="B">
+    <alternate name="Reinforcing the Banks" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Cair Andros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -888,7 +888,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Breakthrough at the Approach" type="B">
+    <alternate name="Breakthrough at the Approach" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Cair Andros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -904,7 +904,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Breakthrough at the Citadel" type="B">
+    <alternate name="Breakthrough at the Citadel" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Cair Andros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -920,7 +920,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Last Battle" type="B">
+    <alternate name="The Last Battle" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Cair Andros"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>

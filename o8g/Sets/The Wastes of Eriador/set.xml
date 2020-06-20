@@ -144,7 +144,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Pack Leader aside, out of play. Make Shrouded Hills the active location. Add the Time objective to the staging area with Daybreak faceup. The first player takes control of Amarthiúl. Shuffle the encounter deck. Reveal 1 card from the encounter deck per player."/>
-    <alternate name="Across the Wastes" type="B">
+    <alternate name="Across the Wastes" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wastes of Eriador"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -161,7 +161,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top of the encounter deck until X Warg enemies are discarded. X is the number of players in the game. Add each discarded enemy to the staging area."/>
-    <alternate name="Howling at Night" type="B">
+    <alternate name="Howling at Night" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wastes of Eriador"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -178,7 +178,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Flip the Time objective to Nightfall. Add Pack Leader to the staging area. Shuffle the encounter discard pile into the encounter deck and discard cards from the top of the encounter deck until X Warg enemies are discarded. X is 1 less than the number of players in the game. Add each discarded enemy to the staging area."/>
-    <alternate name="Battle with the Pack" type="B">
+    <alternate name="Battle with the Pack" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Wastes of Eriador"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

@@ -580,7 +580,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Put Celemir into the staging area with Neeker-Breeker Swarm engaged with him. Put Ranger Cache into the staging area. Remove all Hill Trolls and Goblin Snipers from the game."/>
     <property name="Setup" value="sss"/>
-    <alternate name="Looking for a Cure" type="B">
+    <alternate name="Looking for a Cure" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Making of a Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -596,7 +596,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Midgewater Marshes" type="B">
+    <alternate name="Midgewater Marshes" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Making of a Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -927,7 +927,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Remove Bill Ferny and Ferny’s Secret Hideout from the deck and set them out of play to the side. Then put South Gate and 1 Burning Homes into the staging area."/>
     <property name="Setup" value="ttss"/>
-    <alternate name="Smoke Over Bree" type="B">
+    <alternate name="Smoke Over Bree" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Blood in Bree-land"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -944,7 +944,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Reaveled: Each player must serch the encounter deck and discard pile for 1 Brigand card of his choice, reveal it and add it to the staging area."/>
-    <alternate name="Hunting for Bill Ferny" type="B">
+    <alternate name="Hunting for Bill Ferny" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Blood in Bree-land"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -961,7 +961,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Reaveled: Add Bill Ferny and Ferny’s Secret Hideout to the staging area."/>
-    <alternate name="The Purge of Bree" type="B">
+    <alternate name="The Purge of Bree" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Blood in Bree-land"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -1471,7 +1471,7 @@
     <property name="Type" value="Quest"/>
     <property name="Text" value="Set aside all Bandit Captain enemies, Bandit Refuge locations, The White Hand Captain and The Midgewater. Add Breaking the Bandits' Back to the staging area. Shuffle all Stolen Item objective cards into a Stolen Goods deck and set it to the side out of play."/>
     <property name="Setup" value="sstttttttttt"/>
-    <alternate name="Lowbank Estate" type="B">
+    <alternate name="Lowbank Estate" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="0"/>
@@ -1484,7 +1484,7 @@
     <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Randomly reveal and add one Bandit Captain to the staging area. Randomly reveal and add one Bandit Refuge to the staging area."/>
-    <alternate name="Archet Lumber Camp" type="B">
+    <alternate name="Archet Lumber Camp" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="10"/>
@@ -1497,7 +1497,7 @@
     <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Randomly reveal and add one Bandit Captain to the staging area. Randomly reveal and add one Bandit Refuge to the staging area."/>
-    <alternate name="Andrath Ruins" type="B">
+    <alternate name="Andrath Ruins" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="10"/>
@@ -1510,7 +1510,7 @@
     <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Randomly reveal and add one Bandit Captain to the staging area. Randomly reveal and add one Bandit Refuge to the staging area."/>
-    <alternate name="Forsaken Inn" type="B">
+    <alternate name="Forsaken Inn" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="3"/>
@@ -1523,7 +1523,7 @@
     <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Randomly reveal and add one Bandit Captain to the staging area. Randomly reveal and add one Bandit Refuge to the staging area."/>
-    <alternate name="Shire Road Fort" type="B">
+    <alternate name="Shire Road Fort" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="10"/>
@@ -1536,7 +1536,7 @@
     <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Add the White Hand Captain and the Midgewater to the staging area. Add Breaking the Bandits' Back to the victory display."/>
-    <alternate name="Showdown" type="B">
+    <alternate name="Showdown" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="0"/>

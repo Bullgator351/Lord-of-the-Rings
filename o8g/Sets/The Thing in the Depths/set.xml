@@ -121,7 +121,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Build the encounter deck using only The Stormcaller and Corsair Raiders encounter sets, setting The Thing in the Depths and The Stormcaller Elite encounter sets aside, out of play (enemy side faceup). Search the encounter deck for Helm of the Stormcaller and 1 copy of Umbar Raider, and add them to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="sstttt"/>
-    <alternate name="Take the Ship! " type="B">
+    <alternate name="Take the Ship! " type="B" size="QuestCard">
       <property name="Encounter Set" value="The Thing in the Depths "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -137,7 +137,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Change of Plans" type="B">
+    <alternate name="Change of Plans" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Thing in the Depths "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -154,7 +154,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Discard cards from the top of the encounter deck until X Tentacle enemies are discarded, where X is 1 more than the number of players in the game. Resolve the Grapple keyword on each of those enemies."/>
-    <alternate name="Defend the Ship!" type="B">
+    <alternate name="Defend the Ship!" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Thing in the Depths "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

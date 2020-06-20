@@ -10,7 +10,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Make Tarlang's Neck the active location. Set Derufin, The Lord of the Dead, The Stone of Erech, and the 3 Night objectives aside, out of play. Shuffle the encounter deck. Place Eventide into play, next to the current quest."/>
     <property name="Setup" value="ltttttt"/>
-    <alternate name="The Disappearance" type="B">
+    <alternate name="The Disappearance" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Stone of Erech"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -27,7 +27,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add The Stone of Erech to the staging area and attach Derufin to it."/>
-    <alternate name="Terror of the Dead" type="B">
+    <alternate name="Terror of the Dead" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Stone of Erech"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -44,7 +44,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Starting with the first player, each player searches the encounter deck and discard pile for 1 Oathbreaker enemy, reveals it, and adds it to the staging area. Add the Lord of the Dead to the staging area. Shuffle the encounter deck."/>
-    <alternate name="The Shadow Host" type="B">
+    <alternate name="The Shadow Host" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Stone of Erech"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

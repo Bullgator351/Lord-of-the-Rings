@@ -9,7 +9,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="ttt"/>
-    <alternate name="Investigating the Crime" type="B">
+    <alternate name="Investigating the Crime" type="B" size="QuestCard">
       <property name="Encounter Set" value="Murder at the Prancing Pony"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -25,7 +25,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="ttt"/>
-    <alternate name="Running out of Time" type="B">
+    <alternate name="Running out of Time" type="B" size="QuestCard">
       <property name="Encounter Set" value="Murder at the Prancing Pony"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -41,7 +41,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="ttt"/>
-    <alternate name="Apprehending the Killer" type="B">
+    <alternate name="Apprehending the Killer" type="B" size="QuestCard">
       <property name="Encounter Set" value="Murder at the Prancing Pony"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

@@ -121,7 +121,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Place the Foundations of Stone encounter set aside, out of play. The first player attaches Cave Torch to a hero of his choice."/>
     <property name="Setup" value="t"/>
-    <alternate name="The Dripping Walls" type="B">
+    <alternate name="The Dripping Walls" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -137,7 +137,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Water's Edge" type="B">
+    <alternate name="The Water's Edge" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -153,7 +153,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Washed Away!" type="B">
+    <alternate name="Washed Away!" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -169,7 +169,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Sheltered Rocks" type="B">
+    <alternate name="Sheltered Rocks" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -185,7 +185,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Endless Caves" type="B">
+    <alternate name="The Endless Caves" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -201,7 +201,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Shivering Bank" type="B">
+    <alternate name="The Shivering Bank" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -217,7 +217,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Old One Lair" type="B">
+    <alternate name="Old One Lair" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -233,7 +233,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Out of the Depths" type="B">
+    <alternate name="Out of the Depths" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>

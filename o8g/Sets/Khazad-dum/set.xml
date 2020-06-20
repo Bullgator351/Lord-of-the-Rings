@@ -684,7 +684,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Goblin Patrol" type="B">
+    <alternate name="Goblin Patrol" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into the Pit"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -702,7 +702,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Victory Points" value="2"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="A Wrong Turn" type="B">
+    <alternate name="A Wrong Turn" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -720,7 +720,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for East-gate and Cave Torch. Put East-gate into play as the active location, and have the first player attach Cave Torch to a hero of his choice. Set First Hall and Bridge of Khazad-dum aside, out of play. Shuffle the encounter deck."/>
     <property name="Setup" value="lttt"/>
-    <alternate name="Entering the Mines" type="B">
+    <alternate name="Entering the Mines" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into the Pit"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -738,7 +738,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Book of Mazarbul, and have the first player attach it to a hero of his choice. Shuffle the encounter deck."/>
     <property name="Setup" value="t"/>
-    <alternate name="Search for the Chamber" type="B">
+    <alternate name="Search for the Chamber" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Seventh Level"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -754,7 +754,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Fate of Balin" type="B">
+    <alternate name="The Fate of Balin" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Seventh Level"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -770,7 +770,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="A Way Up" type="B">
+    <alternate name="A Way Up" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into the Pit"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -787,7 +787,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Blocked by Shadow" type="B">
+    <alternate name="Blocked by Shadow" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -804,7 +804,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Escape from Darkness" type="B">
+    <alternate name="Escape from Darkness" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -823,7 +823,7 @@
     <property name="Victory Points" value="2"/>
     <property name="Text" value="Setup: Prepare the quest deck. Add The Nameless Fear to the staging area. Remove all copies of A Foe Beyond from the encounter deck. Then, shuffle 1 copy of A Foe Beyond per player back into the encounter deck."/>
     <property name="Setup" value="stttt"/>
-    <alternate name="A Presence in the Dark" type="B">
+    <alternate name="A Presence in the Dark" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -841,7 +841,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Narrow Paths" type="B">
+    <alternate name="Narrow Paths" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -859,7 +859,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Heading Up" type="B">
+    <alternate name="Heading Up" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -877,7 +877,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Victory Points" value="2"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Hasty Council" type="B">
+    <alternate name="Hasty Council" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -895,7 +895,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Heading Down" type="B">
+    <alternate name="Heading Down" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

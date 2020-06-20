@@ -244,7 +244,7 @@
     <property name="Keywords" value="Race."/>
     <property name="Cost" value="1"/>
     <property name="Text" value="Setup: Build the circuit (see insert). Place The Wainriders and The Challengers objective cards at this stage. The first player adds Wainrider Champion to the staging area. Each other player adds 1 different location to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Wainrider Camp" type="B">
+    <alternate name="Wainrider Camp" type="B" size="QuestCard">
       <property name="Encounter Set" value="Challenge of the Wainriders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -260,7 +260,7 @@
     <property name="Type" value="Quest"/>
     <property name="Keywords" value="Race."/>
     <property name="Cost" value="2"/>
-    <alternate name="First Sprint" type="B">
+    <alternate name="First Sprint" type="B" size="QuestCard">
       <property name="Encounter Set" value="Challenge of the Wainriders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -276,7 +276,7 @@
     <property name="Type" value="Quest"/>
     <property name="Keywords" value="Race."/>
     <property name="Cost" value="3"/>
-    <alternate name="The Turnaround" type="B">
+    <alternate name="The Turnaround" type="B" size="QuestCard">
       <property name="Encounter Set" value="Challenge of the Wainriders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -292,7 +292,7 @@
     <property name="Type" value="Quest"/>
     <property name="Keywords" value="Race."/>
     <property name="Cost" value="4"/>
-    <alternate name="The Farthest Edge" type="B">
+    <alternate name="The Farthest Edge" type="B" size="QuestCard">
       <property name="Encounter Set" value="Challenge of the Wainriders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -308,7 +308,7 @@
     <property name="Type" value="Quest"/>
     <property name="Keywords" value="Race."/>
     <property name="Cost" value="5"/>
-    <alternate name="Last Climb" type="B">
+    <alternate name="Last Climb" type="B" size="QuestCard">
       <property name="Encounter Set" value="Challenge of the Wainriders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>
@@ -324,7 +324,7 @@
     <property name="Type" value="Quest"/>
     <property name="Keywords" value="Race."/>
     <property name="Cost" value="6"/>
-    <alternate name="Home Stretch" type="B">
+    <alternate name="Home Stretch" type="B" size="QuestCard">
       <property name="Encounter Set" value="Challenge of the Wainriders"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="6"/>

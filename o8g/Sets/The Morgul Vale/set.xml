@@ -118,7 +118,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set aside Lord Alcaron, Nazgûl of Minas Morgul, and The White Bridge. Add To the Tower, Murzag, and 1 copy of Morgul Vale to the staging area."/>
     <property name="Setup" value="tttsss"/>
-    <alternate name="The Rearguard" type="B">
+    <alternate name="The Rearguard" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Morgul Vale"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -135,7 +135,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Lord Alcaron to the staging area."/>
-    <alternate name="The Betrayal" type="B">
+    <alternate name="The Betrayal" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Morgul Vale"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -152,7 +152,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Nazgûl of Minas Morgul and The White Bridge to the staging area."/>
-    <alternate name="The Morgul Rider" type="B">
+    <alternate name="The Morgul Rider" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Morgul Vale"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

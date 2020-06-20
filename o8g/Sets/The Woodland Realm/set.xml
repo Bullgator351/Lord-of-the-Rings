@@ -9,7 +9,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Spider Den to the staging area. The opposing team searches the encounter deck for one different 0 cost enemy or 0 cost location per player and adds it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Captured by Spiders" type="B">
+    <alternate name="Captured by Spiders" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Woodland Realm"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="1"/>
@@ -28,7 +28,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing teach searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="Lost in the Dark" type="B">
+    <alternate name="Lost in the Dark" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Woodland Realm"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -47,7 +47,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing teach searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="&quot;Don't Leave the Path&quot;" type="B">
+    <alternate name="&quot;Don't Leave the Path&quot;" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Woodland Realm"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -66,7 +66,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing teach searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its 'when revealed' effects cannot be canceled."/>
-    <alternate name="Ambushed at Night" type="B">
+    <alternate name="Ambushed at Night" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Woodland Realm"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -85,7 +85,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It's 'when revealed' effects cannot be canceled."/>
-    <alternate name="The Forest of Great Fear" type="B">
+    <alternate name="The Forest of Great Fear" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Woodland Realm"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -104,7 +104,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It's 'when revealed' effects cannot be canceled."/>
-    <alternate name="To the Elvenking's Halls" type="B">
+    <alternate name="To the Elvenking's Halls" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Woodland Realm"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -123,7 +123,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (3 or less if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It's 'when revealed' effects cannot be canceled."/>
-    <alternate name="Escape from Taur-Nu-Fuin" type="B">
+    <alternate name="Escape from Taur-Nu-Fuin" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Woodland Realm"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>

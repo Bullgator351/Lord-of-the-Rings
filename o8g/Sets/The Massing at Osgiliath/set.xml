@@ -183,7 +183,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for 12 Scout cards, and add 3 per player (one of each title), to the staging area. Remove The Witch-king from the encounter deck and set him aside, out of play. Shuffle any unused Scoutcards back into the encounter deck."/>
     <property name="Setup" value="ttttttttttttt"/>
-    <alternate name="Beyond Expectations" type="B">
+    <alternate name="Beyond Expectations" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Massing at Osgiliath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -199,7 +199,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Through the Ruins" type="B">
+    <alternate name="Through the Ruins" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Massing at Osgiliath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -215,7 +215,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Anduin Crossing" type="B">
+    <alternate name="Anduin Crossing" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Massing at Osgiliath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -231,7 +231,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Race to Minas Tirith" type="B">
+    <alternate name="Race to Minas Tirith" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Massing at Osgiliath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

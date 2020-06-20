@@ -120,7 +120,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Amon Hen and Amon Lhaw, and add them to the staging area. Then shuffle the encounter deck."/>
     <property name="Setup" value="ss"/>
-    <alternate name="The Hills of Emyn Muil" type="B">
+    <alternate name="The Hills of Emyn Muil" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Hills of Emyn Muil"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>

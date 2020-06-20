@@ -122,7 +122,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Carrock to the staging area. Remove 4 unique Troll cards and 4 copies of the &quot;Sacked!&quot; card from the encounter deck and set them aside, out of play. Then shuffle 1 &quot;Sacked!&quot; card per player back into the encounter deck."/>
     <property name="Setup" value="stttttttt"/>
-    <alternate name="Grimbeorn's Quest" type="B">
+    <alternate name="Grimbeorn's Quest" type="B" size="QuestCard">
       <property name="Encounter Set" value="Conflict at the Carrock"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -138,7 +138,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Against the Trolls" type="B">
+    <alternate name="Against the Trolls" type="B" size="QuestCard">
       <property name="Encounter Set" value="Conflict at the Carrock"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

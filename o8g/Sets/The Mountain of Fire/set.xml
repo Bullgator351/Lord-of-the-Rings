@@ -730,7 +730,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Shagrat aside, out of play. Add The Two Watchers (location side faceup) and Topmost Chamber to the staging area. The first player loses control of the Ring-bearer, places it faceup under Topmost Chamber as a guarded objective. Then, the first player attaches Last of the Company to a hero he controls and attaches The One Ring to that hero."/>
-    <alternate name="Pass the Two Watchers" type="B">
+    <alternate name="Pass the Two Watchers" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -747,7 +747,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards until X enemies are discarded, where X is the number of players in the game. Add each enemy discarded by this effect to the staging area."/>
-    <alternate name="Fighting in the Tower" type="B">
+    <alternate name="Fighting in the Tower" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -764,7 +764,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Last of the Company to the victory display. Attach The One Ring to the Ring-bearer and exhaust the Ring-bearer. The first player moves The Two Watchers from the victory display to the staging area (location side faceup). Each other player reveals an encounter card."/>
-    <alternate name="Escape from Cirith Ungol" type="B">
+    <alternate name="Escape from Cirith Ungol" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Tower of Cirith Ungol"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -817,7 +817,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Black Gate and The Mouth of Sauron to the staging area. Set Gwaihir aside, out of play. Shuffle the encounter deck."/>
-    <alternate name="Embassy from The Dark Tower" type="B">
+    <alternate name="Embassy from The Dark Tower" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Black Gate Opens"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -834,7 +834,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Dire When Revealed: Each player searches the encounter deck and discard pile for a different Orc, Troll, or Nazgul enemy to the staging area. Shuffle Gwaihir into the encounter deck."/>
-    <alternate name="The Battle of the Morannon" type="B">
+    <alternate name="The Battle of the Morannon" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Black Gate Opens"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -863,7 +863,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Mount Doom and The Tower of Barad-dur to the staging area. Make Brake of Thorns the active location. Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="The Land of Mordor" type="B">
+    <alternate name="The Land of Mordor" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -880,7 +880,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Dire. When Revealed: Search the encounter deck, discard pile, and victory display for Mordor Road and add it to the staging area. Shuffle the encounter discard pile into the encounter deck and travel to Mordor Road."/>
-    <alternate name="The Road to Isenmouthe" type="B">
+    <alternate name="The Road to Isenmouthe" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -897,7 +897,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Dire. When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X locations are discarded, where X is the number of players in the game. Add each location discarded this way to the staging area."/>
-    <alternate name="The Last Gasp" type="B">
+    <alternate name="The Last Gasp" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -914,7 +914,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Dire. When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area."/>
-    <alternate name="The Crack of Doom" type="B">
+    <alternate name="The Crack of Doom" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

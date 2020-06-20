@@ -121,7 +121,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: The first player takes control of Nalir. Set the Ancient Marsh-dweller aside, out of play. Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="tt"/>
-    <alternate name="Fleeing from Tharbad" type="B">
+    <alternate name="Fleeing from Tharbad" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -138,7 +138,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Raise each player's threat by 1."/>
-    <alternate name="No End in Sight" type="B">
+    <alternate name="No End in Sight" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -155,7 +155,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Raise each player's threat by 1."/>
-    <alternate name="A Weary Passage" type="B">
+    <alternate name="A Weary Passage" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -172,7 +172,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Raise each player's threat by 1."/>
-    <alternate name="A Forgotten Land" type="B">
+    <alternate name="A Forgotten Land" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -189,7 +189,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Raise each player's threat by 1. Add Ancient Marsh-dweller to the staging area (from out of play or engaged with a player) and heal all damage from it."/>
-    <alternate name="Impassable Marshland" type="B">
+    <alternate name="Impassable Marshland" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -206,7 +206,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Raise each player's threat by 1. Add Ancient Marsh-dweller to the staging area (from out of play or engaged with a player) and heal all damage from it."/>
-    <alternate name="A Treacherous Swamp" type="B">
+    <alternate name="A Treacherous Swamp" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -223,7 +223,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Raise each player's threat by 1. Add Ancient Marsh-dweller to the staging area (from out of play or engaged with a player) and heal all damage from it."/>
-    <alternate name="Creatures of a Forgotten Age" type="B">
+    <alternate name="Creatures of a Forgotten Age" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -240,7 +240,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Ancient Marsh-dweller to the staging area (from out of play or engaged with a player) and heal all damage from it. Then, Ancient Marsh-dweller makes an attack against each player in player order."/>
-    <alternate name="Out of the Swamp" type="B">
+    <alternate name="Out of the Swamp" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

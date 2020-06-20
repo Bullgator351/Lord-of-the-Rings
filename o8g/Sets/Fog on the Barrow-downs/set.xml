@@ -10,7 +10,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set each copy of Great Barrow, Standing Stones, and Hollow Circle aside, out of play. Shuffle the encounter deck."/>
     <property name="Setup" value="ttttttttt"/>
-    <alternate name="The House of Tom Bombadil" type="B">
+    <alternate name="The House of Tom Bombadil" type="B" size="QuestCard">
       <property name="Encounter Set" value="Fog on the Barrow-downs"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -27,7 +27,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Hollow Circle to the staging area. Each player reveals 1 encounter card."/>
-    <alternate name="Across the Downs" type="B">
+    <alternate name="Across the Downs" type="B" size="QuestCard">
       <property name="Encounter Set" value="Fog on the Barrow-downs"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -44,7 +44,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player adds Standing Stones to the staging area. Each other player reveals 1 encounter card. Shuffle the encounter discard pile and each copy of Great Barrow into the encounter deck."/>
-    <alternate name="Lost in the Fog" type="B">
+    <alternate name="Lost in the Fog" type="B" size="QuestCard">
       <property name="Encounter Set" value="Fog on the Barrow-downs"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -61,7 +61,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed:End your quest phase (do not resolve the quest). Discard cards from the encounter deck until a Wight enemy is discarded. Add the discarded Wight enemy to the staging area. Discard all but X allies you control where X is the number of enemies engaged with you."/>
-    <alternate name="Inside the Barrow" type="B">
+    <alternate name="Inside the Barrow" type="B" size="QuestCard">
       <property name="Encounter Set" value="Fog on the Barrow-downs"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

@@ -283,7 +283,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="ttttt-"/>
-    <alternate name="Solving the Trouble" type="B">
+    <alternate name="Solving the Trouble" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quarrel in the Misty Mountains"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -298,7 +298,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Uninvited Guests" type="B">
+    <alternate name="Uninvited Guests" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quarrel in the Misty Mountains"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -313,7 +313,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Searching for Remnants" type="B">
+    <alternate name="Searching for Remnants" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quarrel in the Misty Mountains"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -328,7 +328,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Enemy Reorganized" type="B">
+    <alternate name="Enemy Reorganized" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quarrel in the Misty Mountains"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -343,7 +343,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Problem Eliminated" type="B">
+    <alternate name="Problem Eliminated" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quarrel in the Misty Mountains"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -475,7 +475,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="tss"/>
-    <alternate name="Travel to the Library" type="B">
+    <alternate name="Travel to the Library" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quest for Obscure Knowledge"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -490,7 +490,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="A Frivolous Try" type="B">
+    <alternate name="A Frivolous Try" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quest for Obscure Knowledge"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -505,7 +505,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Daedal Writings" type="B">
+    <alternate name="The Daedal Writings" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quest for Obscure Knowledge"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -520,7 +520,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Alaric, The Mad" type="B">
+    <alternate name="Alaric, The Mad" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quest for Obscure Knowledge"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -773,7 +773,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Only the Living Choose Their Destiny" type="B">
+    <alternate name="Only the Living Choose Their Destiny" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Search for the Blue Wizard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -788,7 +788,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Onto the Green Ocean" type="B">
+    <alternate name="Onto the Green Ocean" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Search for the Blue Wizard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -803,7 +803,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="A Curious Key" type="B">
+    <alternate name="A Curious Key" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Search for the Blue Wizard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -818,7 +818,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="A Mirror in the Grove" type="B">
+    <alternate name="A Mirror in the Grove" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Search for the Blue Wizard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -833,7 +833,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The White Wizard Writings" type="B">
+    <alternate name="The White Wizard Writings" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Search for the Blue Wizard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -848,7 +848,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="A Flint of Light in the Darkness" type="B">
+    <alternate name="A Flint of Light in the Darkness" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Search for the Blue Wizard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -863,7 +863,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="On the Way" type="B">
+    <alternate name="On the Way" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Search for the Blue Wizard"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>

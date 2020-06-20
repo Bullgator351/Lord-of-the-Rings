@@ -739,7 +739,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Put Iârion into play. Add 1 Orc War Party to the staging area. Each player adds 1 different location to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="ts"/>
-    <alternate name="Stop the War Party" type="B">
+    <alternate name="Stop the War Party" type="B" size="QuestCard">
       <property name="Encounter Set" value="Intruders in Chetwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -757,7 +757,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Orc Ambush and Amon Ford aside, out of play. Create the Orc deck (see insert) and set it next to the quest deck. Make Exposed Ridge the active location. Add Hunting the Orcs and 1 Weathered Hilltop to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="ttlss"/>
-    <alternate name="Scattered Among the Hills" type="B">
+    <alternate name="Scattered Among the Hills" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Weather Hills"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -774,7 +774,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: End the current phase. Shuffle the encounter discard pile and the Orc deck into the encounter deck. Reveal Orc Ambush and Amon Ford and add them to the staging area."/>
-    <alternate name="Cornered Animals" type="B">
+    <alternate name="Cornered Animals" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Weather Hills"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -806,7 +806,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Put Iârion into play. Set Thaurdir aside, out of play. Add 1 copy of Fornost Square to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="tts"/>
-    <alternate name="The Shades of Angmar" type="B">
+    <alternate name="The Shades of Angmar" type="B" size="QuestCard">
       <property name="Encounter Set" value="Deadmen's Dike"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -823,7 +823,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Thaurdir to the staging area. Then, reveal 1 encounter card per player."/>
-    <alternate name="A Fell Wraith" type="B">
+    <alternate name="A Fell Wraith" type="B" size="QuestCard">
       <property name="Encounter Set" value="Deadmen's Dike"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

@@ -268,7 +268,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player with more than 40 cards in his deck discards cards from the top of his deck until he has 40 cards left. The first player adds a copy of Torech Gorgor Patrol to the staging area. Each other player adds 1 different location to the staging area. Shuffle the encounter deck and discard cards from the top until a side quest is discarded. Reveal that side quest. Shuffle the encounter discard pile into the encounter deck."/>
-    <alternate name="Passage into Mordor" type="B">
+    <alternate name="Passage into Mordor" type="B" size="QuestCard">
       <property name="Encounter Set" value="Under the Ash Mountains"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -285,7 +285,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for an encounter side quest and reveal it. Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area."/>
-    <alternate name="An Evil Place" type="B">
+    <alternate name="An Evil Place" type="B" size="QuestCard">
       <property name="Encounter Set" value="Under the Ash Mountains"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

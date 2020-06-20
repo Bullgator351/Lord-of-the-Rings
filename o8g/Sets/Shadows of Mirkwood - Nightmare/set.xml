@@ -238,7 +238,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Rob &amp; Bob to the staging area. Then, each player must search the encounter deck and discard pile for a non-unique Troll enemy and add it to the staging area, if able. Shuffle the encounter deck."/>
-    <alternate name="Grimbeorn's Folly" type="B">
+    <alternate name="Grimbeorn's Folly" type="B" size="QuestCard">
       <property name="Encounter Set" value="Conflict at the Carrock - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

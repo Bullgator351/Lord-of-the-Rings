@@ -356,7 +356,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Remove and shuffle the Wild enemies into a Orcs from Dark Forest deck and set it aside face down. Then, shuffle the encounter deck. Each player reveals 1 card from the top of the encounter deck and adds it to the staging area."/>
-    <alternate name="The Trial of the Dark Forest" type="B">
+    <alternate name="The Trial of the Dark Forest" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Orc Hunting"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>

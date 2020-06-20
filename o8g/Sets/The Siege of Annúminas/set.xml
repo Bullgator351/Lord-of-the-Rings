@@ -35,7 +35,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Lieutenant of Angmar, Battering Ram, Enemy Camp, Siege Tunnel, each copy of Host of Angmar, and each copy Dúnedain of Annúminas aside, out of play. Each player searches the encounter deck for a different location and adds it to the staging area. One of those locations must be Gate of Annúminas. Shuffle the encounter deck."/>
-    <alternate name="Rebuild the Defenses" type="B">
+    <alternate name="Rebuild the Defenses" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -52,7 +52,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded. X is one less than the number of players at this stage, to a minimum of 1. Add each enemy discarded in this way to the staging area."/>
-    <alternate name="Defend the City" type="B">
+    <alternate name="Defend the City" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -69,7 +69,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. The first player adds Battering Ram and Lieutenant of Angmar to the staging area. Each other player reveals an encounter card."/>
-    <alternate name="Lead a Sortie" type="B">
+    <alternate name="Lead a Sortie" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -86,7 +86,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="Setup: Set Lieutenant of Angmar, Battering Ram, Enemy Camp, Siege Tunnel, each copy of Host of Angmar, and each copy Dúnedain of Annúminas aside, out of play. Shuffle the encounter deck. Each player discards cards from the top of the encounter deck until he discards an enemy or location. Add each enemy and location discarded in this way to the staging area."/>
-    <alternate name="Raise the Levee" type="B">
+    <alternate name="Raise the Levee" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -103,7 +103,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded. X is one less than the number of players at this stage, to a minimum of 1. Add each enemy discarded in this way to the staging area."/>
-    <alternate name="Guard the Gate" type="B">
+    <alternate name="Guard the Gate" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -120,7 +120,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. The first player adds Enemy Camp to the staging area. Each other player reveals an encounter card. Each player at each stage chooses a hero he controls, discards all tokens and attachments from it, and places it facedown under the main quest at their stage."/>
-    <alternate name="Rescue the Captives" type="B">
+    <alternate name="Rescue the Captives" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -137,7 +137,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="E"/>
     <property name="Text" value="Setup: Set Lieutenant of Angmar, Battering Ram, Enemy Camp, Siege Tunnel, each copy of Host of Angmar, and each copy Dúnedain of Annúminas aside, out of play. Each player searches the encounter deck for a different enemy and adds it to the staging area. One of those enemies must be Vanguard of Carn Dûm."/>
-    <alternate name="Delay the Enemy" type="B">
+    <alternate name="Delay the Enemy" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -154,7 +154,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="E"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded. X is one less than the number of players at this stage, to a minimum of 1. Add each enemy discarded in this way to the staging area."/>
-    <alternate name="Man the Walls" type="B">
+    <alternate name="Man the Walls" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -171,7 +171,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="E"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. The first player adds Siege Tunnel to the staging area. Each other player reveals an encounter card."/>
-    <alternate name="Stop the Attack" type="B">
+    <alternate name="Stop the Attack" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

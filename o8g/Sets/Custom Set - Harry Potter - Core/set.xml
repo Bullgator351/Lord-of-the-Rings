@@ -1434,7 +1434,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for 1 copy of Aragog's Grandchild and 1 copy of the Forbidden Forest, and add them to the staging area. Then, shuffle the encounter deck."/>
     <property name="Setup" value="ss"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="1"/>
@@ -1449,7 +1449,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -1465,7 +1465,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -1481,7 +1481,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Passage Through the Forbidden Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -1499,7 +1499,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for the 3 objective cards, reveal and place them in the staging area. Also, place the Guardian of Azkaban face up but out of play, alongside the quest deck. Then, shuffle the encounter deck, and attach 1 encounter to each objective card."/>
     <property name="Setup" value="ssst"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from The Ministry"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="1"/>
@@ -1515,7 +1515,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from The Ministry"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -1531,7 +1531,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from The Ministry"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -1548,7 +1548,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area."/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Along the Clyde River"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="1"/>
@@ -1564,7 +1564,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Along the Clyde River"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -1580,7 +1580,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="QuestCard" type="B">
+    <alternate name="QuestCard" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Along the Clyde River"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>

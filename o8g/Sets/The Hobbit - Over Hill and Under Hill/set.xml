@@ -263,7 +263,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Remove and shuffle the 7 Sack cards into a Sack deck and set it aside face down. Remove the 3 Troll enemies and the Troll Cave from the encounter deck and set them aside out of play. Then, shuffle the encounter deck. Each player reveals 1 card from the top of the encounter deck and adds it to the staging area."/>
     <property name="Setup" value="tttt"/>
-    <alternate name="An Unexpected Party" type="B">
+    <alternate name="An Unexpected Party" type="B" size="QuestCard">
       <property name="Encounter Set" value="We Must Away, Ere Break of Day"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -279,7 +279,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add the set-aside Troll enemies and the Troll Cave to the staging area. Shuffle the encounter discard pile back into the encounter deck."/>
-    <alternate name="Roast Mutton" type="B">
+    <alternate name="Roast Mutton" type="B" size="QuestCard">
       <property name="Encounter Set" value="We Must Away, Ere Break of Day"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -295,7 +295,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Dawn Take You All" type="B">
+    <alternate name="Dawn Take You All" type="B" size="QuestCard">
       <property name="Encounter Set" value="We Must Away, Ere Break of Day"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -313,7 +313,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Shuffle the Over the Misty Mountains Grim and Western Lands encounter sets into one encounter deck and make it the active encounter deck. Then, shuffle the The Great Goblin and Misty Mountain Goblins encounter sets into a second encounter deck and set it aside, inactive."/>
     <property name="Setup" value="s"/>
-    <alternate name="A Short Rest" type="B">
+    <alternate name="A Short Rest" type="B" size="QuestCard">
       <property name="Encounter Set" value="Over the Misty Mountains Grim"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -329,7 +329,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Mountain Pass" type="B">
+    <alternate name="The Mountain Pass" type="B" size="QuestCard">
       <property name="Encounter Set" value="Over the Misty Mountains Grim"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -346,7 +346,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle all encounter cards back into the encounter deck and set it aside, inactive. The second encounter deck becomes the active encounter deck. Search the encounter deck for The Great Goblin and add it to the staging area. Then, shuffle the encounter deck."/>
-    <alternate name="Down, Down to Goblin Town" type="B">
+    <alternate name="Down, Down to Goblin Town" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Great Goblin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -364,7 +364,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Lake in the Cavern to the staging area. Create a riddle area with stage 2A and follow the setup instructions on that card."/>
     <property name="Setup" value="stt"/>
-    <alternate name="Out of the Frying Pan" type="B">
+    <alternate name="Out of the Frying Pan" type="B" size="QuestCard">
       <property name="Encounter Set" value="Dungeons Deep and Caverns Dim"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -381,7 +381,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Gollum and Bilbo's Magic Ring. Place Gollum and Bilbo Baggins in the riddle area and attach Bilbo's Magic Ring to Bilbo Baggins. Then, shuffle the encounter deck."/>
-    <alternate name="Riddles in the Dark" type="B">
+    <alternate name="Riddles in the Dark" type="B" size="QuestCard">
       <property name="Encounter Set" value="Dungeons Deep and Caverns Dim"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -397,7 +397,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Into the Fire" type="B">
+    <alternate name="Into the Fire" type="B" size="QuestCard">
       <property name="Encounter Set" value="Dungeons Deep and Caverns Dim"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

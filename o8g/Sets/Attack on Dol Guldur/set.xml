@@ -9,7 +9,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Host of Lórien and all 4 Lieutenant enemies aside, out of play. Add Power of Lórien and 1 copy of Dol Guldur Marauder per player to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Assault on the Golden Wood" type="B">
+    <alternate name="Assault on the Golden Wood" type="B" size="QuestCard">
       <property name="Encounter Set" value="Attack on Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="1"/>
@@ -28,7 +28,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player may remove 10 progress from Power of Lórien to take control of the set-aside Host of Lórien. Then, he may remove an additional 20 progress from Power of Lórien to place it in his play area under his control, otherwise discard it."/>
-    <alternate name="Crossing the Anduin" type="B">
+    <alternate name="Crossing the Anduin" type="B" size="QuestCard">
       <property name="Encounter Set" value="Attack on Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="2"/>
@@ -47,7 +47,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Bane of Amon Lanc to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Bane of Amon Lanc makes an immediate attack against each player in turn order."/>
-    <alternate name="The Siege of Dol Guldur" type="B">
+    <alternate name="The Siege of Dol Guldur" type="B" size="QuestCard">
       <property name="Encounter Set" value="Attack on Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -66,7 +66,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Sorcerer of Dol Guldur to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Sorcerer of Dol Guldur makes an immediate attack against each player in turn order."/>
-    <alternate name="The Tower of Sorcery" type="B">
+    <alternate name="The Tower of Sorcery" type="B" size="QuestCard">
       <property name="Encounter Set" value="Attack on Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -85,7 +85,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="E"/>
     <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Chieftain Morlug to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Chieftain Morlug makes an immediate attack against each player in turn order."/>
-    <alternate name="Battle Under the Trees" type="B">
+    <alternate name="Battle Under the Trees" type="B" size="QuestCard">
       <property name="Encounter Set" value="Attack on Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>
@@ -104,7 +104,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="G"/>
     <property name="Text" value="When Revealed: Remove all tokens from the Lieutenant enemy at this stage and set it aside, out of play. Add the set aside Dungeon Dweller to the staging area, unless it is in a victory display. If Dol Guldur's city strength is 5 or lower (10 or lower if playing epic multiplayer mode), Dungeon Dweller makes an immediate attack against each player in turn order."/>
-    <alternate name="Dungeons of the Necromancer" type="B">
+    <alternate name="Dungeons of the Necromancer" type="B" size="QuestCard">
       <property name="Encounter Set" value="Attack on Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Sphere" value="3"/>

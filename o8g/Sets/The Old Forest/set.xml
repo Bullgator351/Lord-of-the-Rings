@@ -10,7 +10,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Old Man Willow and Withywindle aside, out of play. Each player searches the encounter deck and adds 1 different location to the staging area. Shuffle the encounter deck. "/>
     <property name="Setup" value="tttt"/>
-    <alternate name="Farewell to the Shire" type="B">
+    <alternate name="Farewell to the Shire" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -27,7 +27,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: If the number of locations in the staging area is less than the number of players in the game, search the encounter deck and discard pile for a location and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Dark Bad Place" type="B">
+    <alternate name="Dark Bad Place" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -44,7 +44,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: If the number of locations in the staging area is less than the number of players in the game, search the encounter deck and discard pile for a location and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Choked with Brambles" type="B">
+    <alternate name="Choked with Brambles" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -61,7 +61,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: If the number of locations in the staging area is less than the number of players in the game, search the encounter deck and discard pile for a location and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Shifting Trees" type="B">
+    <alternate name="Shifting Trees" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -78,7 +78,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: If the number of locations in the staging area is less than the number of players in the game, search the encounter deck and discard pile for a location and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Closing in Around Them" type="B">
+    <alternate name="Closing in Around Them" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -95,7 +95,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Old Man Willow and Withywindle to the staging area. Reveal X encounter cards where X is the number of players in the game minus 1."/>
-    <alternate name="The Wicked Willow" type="B">
+    <alternate name="The Wicked Willow" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

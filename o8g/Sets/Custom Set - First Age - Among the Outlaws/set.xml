@@ -344,7 +344,7 @@
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Set all enemy and treachery cards with the Gaurwaith trait aside, out of play. Shuffle all Dilemma cards together into a dilemma deck. Add Fellowship with the Outlaws to the staging area. Put Forweg and Androg into play, ally side faceup. Each player searches the encounter deck for a different location and adds it to the staging area."/>
     <property name="Setup" value="stt"/>
-    <alternate name="An Evil and Dangerous Way" type="B">
+    <alternate name="An Evil and Dangerous Way" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="-"/>
@@ -357,7 +357,7 @@
     <property name="Encounter Set" value="Custom Set - First Age"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: Flip Forweg and Androg to their enemy sides, remove all tokens from them, and place them in the staging area. Discard all Woodmen enemies. Remove all enemy and treachery cards with the Woodmen trait from the encounter deck and discard pile and set them aside, out of play. Shuffle the set aside enemy and treachery cards with the Gaurwaith trait into the encounter deck. Reveal 1 encounter card per player."/>
-    <alternate name="To Govern this Fellowship" type="B">
+    <alternate name="To Govern this Fellowship" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="30"/>

@@ -134,7 +134,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Corsair deck. Players prepare their fleet. Prepare the Stormcaller’s area with a second quest deck consisting of only stages 2C, 3C, and 4C, as well as the Stormcaller (see insert). Search the encounter deck for 1 copy of Rolling Seas, and add it to the staging area (2 copies instead if there are 3 or more players in the game). Shuffle the encounter deck. "/>
     <property name="Setup" value="sstttttttt"/>
-    <alternate name="Swift Departure" type="B">
+    <alternate name="Swift Departure" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>
       <property name="Keywords" value="Sailing."/>
@@ -152,7 +152,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for 1 copy of Swift Raider and add it to the staging area. Shuffle the encounter deck. "/>
-    <alternate name="Full Sail Ahead!" type="B">
+    <alternate name="Full Sail Ahead!" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>
       <property name="Keywords" value="Sailing."/>
@@ -169,7 +169,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Weather Turns Foul" type="B">
+    <alternate name="The Weather Turns Foul" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>
       <property name="Keywords" value="Sailing."/>
@@ -187,7 +187,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Discard cards from the top of the encounter deck until a Weather treachery is discarded. Resolve that card’s “when revealed” effect. That effect cannot be canceled. "/>
-    <alternate name="The Cape of Andrast" type="B">
+    <alternate name="The Cape of Andrast" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>
       <property name="Keywords" value="Sailing."/>
@@ -204,7 +204,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="C"/>
-    <alternate name="Full Sail Ahead!" type="B">
+    <alternate name="Full Sail Ahead!" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -221,7 +221,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for 1 copy of Sahír's Escort and add it to the Stormcaller's area. Shuffle the encounter deck. "/>
-    <alternate name="The Weather Turns Foul" type="B">
+    <alternate name="The Weather Turns Foul" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -237,7 +237,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="C"/>
-    <alternate name="The Cape of Andrast" type="B">
+    <alternate name="The Cape of Andrast" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

@@ -250,7 +250,7 @@
     <property name="Encounter Set" value="The Dungeons of Cirith Gurat"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Set Uruk Chieftain aside, out of play. Add The Captives of Cirith Gurat and 1 copy of Dungeon Cell to the staging area. Attach Abaan to Dungeon Cell. Each player searches the encounter deck for a different Orc enemy and adds it to the staging area. Shuffle the encounter deck. Starting with the first player, each player discards cards from the top of his deck until an ally that is not in play is discarded and attaches that ally to an unattached enemy in the staging area."/>
-    <alternate name="Rescue the Prisoners" type="B">
+    <alternate name="Rescue the Prisoners" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Dungeons of Cirith Gurat"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="10"/>
@@ -263,7 +263,7 @@
     <property name="Encounter Set" value="The Dungeons of Cirith Gurat"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the encounter deck until an enemy is discarded and adds that enemy to the staging area."/>
-    <alternate name="Sneak Past the Guards" type="B">
+    <alternate name="Sneak Past the Guards" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Dungeons of Cirith Gurat"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="15"/>
@@ -276,7 +276,7 @@
     <property name="Encounter Set" value="The Dungeons of Cirith Gurat"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: The first player adds Uruk Chieftain to the staging area. Each player chooses a hero he controls, discards all tokens and attachments from it, and attaches it to an unattached enemy in the staging area as a captive. Then, the players make a standard series of engagement checks against each enemy in the staging area. Reduce the engagement cost of each enemy not guarding an objective to 0 during these engagement checks."/>
-    <alternate name="Fight Your Way Out" type="B">
+    <alternate name="Fight Your Way Out" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Dungeons of Cirith Gurat"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="10"/>

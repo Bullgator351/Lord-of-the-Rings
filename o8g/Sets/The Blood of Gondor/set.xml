@@ -123,7 +123,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add the Crossroads and Black Númenorean to the staging area. Put the Faramir and Lord Alcaron objective allies into play. Shuffle the encounter deck and reveal 1 card from the encounter deck per player and add it to the staging area. "/>
     <property name="Setup" value="sstt"/>
-    <alternate name="The Ambush" type="B">
+    <alternate name="The Ambush" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Blood of Gondor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -141,7 +141,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Place Faramir and Lord Alcaron under Captured! (they are in play but players cannot gain control of them). Each player turns each of his hudden cards faceup. "/>
-    <alternate name="Captured!" type="B">
+    <alternate name="Captured!" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Blood of Gondor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

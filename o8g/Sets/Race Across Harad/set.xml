@@ -220,7 +220,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Ford of Harnen and 1 copy of Uruk Warg-rider aside, out of play. Each player takes control of a Tamed Mumak. Remove each remaining Tamed Mumak from the game. Create the Orc’s area with a second quest deck consisting of stage 1C, 2C, 3C, and 4C as well as Uruk Chieftain."/>
     <property name="Setup" value="ttttssttsssss"/>
-    <alternate name="Setting Out" type="B">
+    <alternate name="Setting Out" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -236,7 +236,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Choose the staging area or the Orc’s area. Add the set aside Uruk Warg-rider to the chosen area."/>
-    <alternate name="Racing North" type="B">
+    <alternate name="Racing North" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -253,7 +253,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until an Orc enemy is discarded. Add that enemy to the Orc’s area."/>
-    <alternate name="Hunted in Harad" type="B">
+    <alternate name="Hunted in Harad" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -270,7 +270,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add River Harnen to the staging area. Shuffle the encounter discard pile into the encounter deck and discard cards from the top until an Orc enemy is discarded. Add that enemy to the Orc’s area."/>
-    <alternate name="The Ford of Harnen" type="B">
+    <alternate name="The Ford of Harnen" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -286,7 +286,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="C"/>
-    <alternate name="Setting Out" type="B">
+    <alternate name="Setting Out" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>
@@ -303,7 +303,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: If the players have already defeated stage 2B, discard cards from the top of the encounter deck until an Orc enemy is discarded. Add that enemy to the Orc’s area.&#10;"/>
-    <alternate name="Racing North" type="B">
+    <alternate name="Racing North" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="6"/>
@@ -320,7 +320,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: If the players have already defeated stage 3B, discard cards from the top of the encounter deck until an Orc enemy is discarded. Add that enemy to the Orc’s area.&#10;"/>
-    <alternate name="Hunted in Harad" type="B">
+    <alternate name="Hunted in Harad" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="7"/>
@@ -336,7 +336,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="C"/>
-    <alternate name="The Ford of Harnen" type="B">
+    <alternate name="The Ford of Harnen" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="8"/>

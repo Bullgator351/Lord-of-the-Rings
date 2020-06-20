@@ -280,7 +280,7 @@
     <property name="Encounter Set" value="Fire in the Night"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Search the encounter deck for all 8 encounter side quests, shuffle them together, and place them facedown next to the quest deck. This is the side quest deck. The first player adds Dagnir to the staging area and shuffles the encounter deck. Each other player reveals an encounter card."/>
-    <alternate name="Hrogar’s Hill" type="B">
+    <alternate name="Hrogar’s Hill" type="B" size="QuestCard">
       <property name="Encounter Set" value="Fire in the Night"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="50"/>

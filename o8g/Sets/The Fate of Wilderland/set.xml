@@ -246,7 +246,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Goblins’ Assault, The Heroes’ Defense, and Urdug to the staging area. Shuffle the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players in the game. Add those enemies to the staging area."/>
-    <alternate name="Urdug’s Assault" type="B">
+    <alternate name="Urdug’s Assault" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Fate of Wilderland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="-"/>
@@ -261,7 +261,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players in the game. Add those enemies to the staging area."/>
-    <alternate name="Outflanked" type="B">
+    <alternate name="Outflanked" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Fate of Wilderland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="-"/>
@@ -276,7 +276,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players in the game. Add those enemies to the staging area."/>
-    <alternate name="The Final Push" type="B">
+    <alternate name="The Final Push" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Fate of Wilderland"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="-"/>

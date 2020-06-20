@@ -275,7 +275,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set The Cursed Tomb aside, out of play. Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="The Haunted Keep" type="B">
+    <alternate name="The Haunted Keep" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ghost of Framsburg "/>
       <property name="Type" value="Quest "/>
       <property name="Cost" value="1"/>
@@ -292,7 +292,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. Then, each player reveals an encounter card."/>
-    <alternate name="Searching the Ruins" type="B">
+    <alternate name="Searching the Ruins" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ruins of Framsburg "/>
       <property name="Type" value="Quest "/>
       <property name="Cost" value="2"/>
@@ -309,7 +309,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player adds The Cursed Tomb to the staging area. Each other player searches the encounter deck and discard pile for a non-unique Undead enemy and adds it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="The Cursed Shade" type="B">
+    <alternate name="The Cursed Shade" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ghost of Framsburg "/>
       <property name="Type" value="Quest "/>
       <property name="Cost" value="3"/>

@@ -238,7 +238,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="You have journeyed to the Withered Heath in search of a giant Dragon. There you discover tracks that lead you to the cold heights of the Grey Mountains. Setup: Set Cold-Drake and all four copies of Dragon Sign aside, out of play. Create the Caves deck (see insert) and set it next to the quest deck. Shuffle 2 set aside Dragon Sign objectives into the Caves deck. Shuffle the encounter deck and discard cards from the top until X locations are discarded, where X is the number of players. Add each discarded location to the staging area."/>
-    <alternate name="Searching for Dragon Sign" type="B">
+    <alternate name="Searching for Dragon Sign" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Withered Heath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -255,7 +255,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="You’ve followed the Dragon tracks high up the Ered Mithrin mountain range to a sheltered hollow where you find the beast waiting for you. It lets out a roar that shakes the mountain, and rocks tumble down as it charges toward you in a rage! When Revealed: Add the set-aside Cold-Drake to the staging area."/>
-    <alternate name="The Cold-Drake Attacks!" type="B">
+    <alternate name="The Cold-Drake Attacks!" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Withered Heath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -272,7 +272,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The injured drake retreats among the rising slopes of the Ered Mithrin and you chase after it, carefully searching each potential hiding place. When Revealed: Shuffle 2 set-aside Dragon Sign objectives into the Caves deck. Set Cold-Drake aside, out of play. (Do not remove damage tokens from it.) Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X locations are discarded, where X is the number of players. Add each discarded location to the staging area."/>
-    <alternate name="Hunting the Beast" type="B">
+    <alternate name="Hunting the Beast" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Withered Heath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -289,7 +289,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="At last you have cornered the injured Dragon. But with nowhere left to run, it attacks you with desperate fury. The men of Dale will make songs of this battle, if you survive to tell the story... When Revealed: Add Cold-Drake to the staging area. It makes an immediate attack against each player in turn order. (Deal and resolve a shadow card for each attack.)"/>
-    <alternate name="A Cornered Dragon" type="B">
+    <alternate name="A Cornered Dragon" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Withered Heath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

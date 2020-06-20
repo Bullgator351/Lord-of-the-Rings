@@ -10,7 +10,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Shuffle all copies of Smaug into a separate Smaug Deck. Search the encounter deck for Lake-town and add it to the staging area. Shuffle the encounter deck. Then reveal 1 card from the encounter deck per player, and add it to the staging area."/>
     <property name="Setup" value="s"/>
-    <alternate name="Terror from the Mountain" type="B">
+    <alternate name="Terror from the Mountain" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Lake-Town"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -26,7 +26,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Fire and Water" type="B">
+    <alternate name="Fire and Water" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Lake-Town"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -42,7 +42,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="The Dragon's Wrath" type="B">
+    <alternate name="The Dragon's Wrath" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Lake-Town"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

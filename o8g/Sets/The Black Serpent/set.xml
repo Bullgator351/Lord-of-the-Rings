@@ -248,7 +248,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set each Harad objective aside, out of play. Add The Black Serpent to the staging area. Shuffle the encounter deck. The first player randomly selects 1 set aside Harad objective, reveals it, and adds it to the staging area."/>
-    <alternate name="The Crossroad’s Fort" type="B">
+    <alternate name="The Crossroad’s Fort" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Black Serpent"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -265,7 +265,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck. The first player randomly selects 1 set aside Harad objective, reveals it, and adds it to the staging area."/>
-    <alternate name="Battle in the Camp" type="B">
+    <alternate name="Battle in the Camp" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Black Serpent"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -282,7 +282,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Randomly select 1 set aside Harad objective and attach it to The Black Serpent. Shuffle the encounter discard pile into the encounter deck and reveal 1 encounter card per player."/>
-    <alternate name="Defeat the Serpent" type="B">
+    <alternate name="Defeat the Serpent" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Black Serpent"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

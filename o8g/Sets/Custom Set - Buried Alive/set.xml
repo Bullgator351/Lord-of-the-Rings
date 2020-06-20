@@ -41,7 +41,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for a Great Cave Troll. Set it aside for later use along with Nor, Longbeard Cavern and Treacherous Slope."/>
     <property name="Setup" value="----"/>
-    <alternate name="The Mountain Pass" type="B">
+    <alternate name="The Mountain Pass" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Buried Alive"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -58,7 +58,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player must choose at least 1 of their heros and any number of their allies to join the diversion party. Flip over all the characters not in the diversion party along with thier attachments. Face down cards are considered to be out of play."/>
     <property name="Setup" value="s---"/>
-    <alternate name="The Diversion" type="B">
+    <alternate name="The Diversion" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Buried Alive"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -75,7 +75,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Discard all locations from play. Flip over all player cards (All cards involved in the diversion will now be face down and all other cards will be face up). Face down cards are considered to be out of play."/>
     <property name="Setup" value="tss"/>
-    <alternate name="The Rescue" type="B">
+    <alternate name="The Rescue" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Buried Alive"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

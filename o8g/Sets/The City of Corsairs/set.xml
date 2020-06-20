@@ -109,7 +109,7 @@
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Shuffle the Coast of Umbar, Corsair Raiders, Stormy Weather, Umbar Fleet, and Voyage Across Belegaer encounter sets into one encounter deck and make it the active encounter deck. Set The City of Corsairs encounter set aside, as an inactive second encounter deck. Prepare the Corsair deck. Players prepare their fleet. Add the Stormcaller to the staging area. Add 1 copy of Southern Belfalas to the staging area (2 instead if there are 3 or 4 players in the game). Shuffle the encounter deck."/>
     <property name="Setup" value="sssttttttt"/>
-    <alternate name="The Coast of Umbar" type="B">
+    <alternate name="The Coast of Umbar" type="B" size="QuestCard">
       <property name="Encounter Set" value="Coast of Umbar"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="15"/>
@@ -122,7 +122,7 @@
     <property name="Encounter Set" value="Coast of Umbar"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: Each player assigns damage among non-Ship characters he controls equal to the total damage on each Ship objective he controls. Discard all Ship enemies, Ship objectives, and Ocean locations in play."/>
-    <alternate name="Fate of The Dream-chaser" type="B">
+    <alternate name="Fate of The Dream-chaser" type="B" size="QuestCard">
       <property name="Encounter Set" value="Coast of Umbar"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="0"/>
@@ -135,7 +135,7 @@
     <property name="Encounter Set" value="The City of Corsairs"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: Search the encounter deck for The Shattered Monument and Captain Sahír, and set them aside, out of play. Each player searches the encounter deck for 1 enemy and 1 location, and adds them to the staging area. If the Stormcaller was not destroyed during stage 1, add 1 resource to each Raider enemy in play."/>
-    <alternate name="The Haven of Umbar" type="B">
+    <alternate name="The Haven of Umbar" type="B" size="QuestCard">
       <property name="Encounter Set" value="The City of Corsairs"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="18"/>
@@ -147,7 +147,7 @@
     <property name="Encounter Set" value="The City of Corsairs"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: Add The Shattered Monument to the staging area. Put Captain Sahír into play, engaged with the first player. Each player searches the encounter deck and discard pile for an enemy and adds it to the staging area. Shuffle the encounter deck. Add 1 resource to each Raider enemy in play."/>
-    <alternate name="Final Confrontation" type="B">
+    <alternate name="Final Confrontation" type="B" size="QuestCard">
       <property name="Encounter Set" value="The City of Corsairs"/>
       <property name="Type" value="Quest"/>
       <property name="Quest Points" value="0"/>

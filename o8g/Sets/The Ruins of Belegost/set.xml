@@ -29,7 +29,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Stalking the Ruins and 1 copy of Abandoned Mine per player to the staging area. Set Lurker of the Depths, Naurlhûg, Naurlhûg's Lair, and Sword of Belegost aside, out of play. Randomly select 1 of the 5 remaining Loot objectives and place it facedown underneath Stalking the Ruins (without looking). Shuffle the others into the encounter deck (without looking at them)."/>
     <property name="Setup" value="ttsssssttttttttt"/>
-    <alternate name="Ruins of the First Age" type="B">
+    <alternate name="Ruins of the First Age" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ruins of Belegost"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -46,7 +46,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Lurker of the Depths to the staging area."/>
-    <alternate name="Ancient Evils Disturbed" type="B">
+    <alternate name="Ancient Evils Disturbed" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ruins of Belegost"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -63,7 +63,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Shuffle Lurker of the Depths and the encounter discard pile into the encounter deck. Discard cards from the top of the encounter deck until a location is discarded. Add the discarded location to the staging area."/>
-    <alternate name="Deeper into the Past" type="B">
+    <alternate name="Deeper into the Past" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ruins of Belegost"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -80,7 +80,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and reveal 1 encounter card per player."/>
-    <alternate name="The Servants of Morgoth" type="B">
+    <alternate name="The Servants of Morgoth" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ruins of Belegost"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -97,7 +97,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and reveal 1 encounter card per player."/>
-    <alternate name="The Roots of Ered Luin" type="B">
+    <alternate name="The Roots of Ered Luin" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ruins of Belegost"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -114,7 +114,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="E"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and reveal 1 encounter card per player."/>
-    <alternate name="The Mines of Belegost" type="B">
+    <alternate name="The Mines of Belegost" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ruins of Belegost"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -131,7 +131,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Naurlhûg and Naurlhûg's Lair to the staging area. Shuffle the Sword of Belegost, and the encounter discard pile into the encounter deck."/>
-    <alternate name="The Beast of Belegost" type="B">
+    <alternate name="The Beast of Belegost" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ruins of Belegost"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

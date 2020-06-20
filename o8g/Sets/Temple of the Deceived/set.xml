@@ -126,7 +126,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Island Map (see insert). Flip over the top-left and bottom-left locations of the Island Map (without resolving their Forced effects, if any), and choose one as the players’ starting active location, using a resource token to represent which location is active. The first player takes control of Captain Sahír, and the last player takes control of Na’asiyah (objective-ally sides faceup). Add Temple Guardian to the staging area and attach Gate Key to it, guarded. Shuffle the encounter deck."/>
     <property name="Setup" value="ttssss"/>
-    <alternate name="Searching the Island" type="B">
+    <alternate name="Searching the Island" type="B" size="QuestCard">
       <property name="Encounter Set" value="Temple of the Deceived"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>

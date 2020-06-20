@@ -237,7 +237,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: The first player takes control of Urdug, objective side face-up. Set each other objective and objective-ally aside, out of play. Shuffle the encounter deck and discard cards from the top until X locations are discarded, where X is the number of players. Add each discarded location to the staging area."/>
-    <alternate name="The Goblin’s Task" type="B">
+    <alternate name="The Goblin’s Task" type="B" size="QuestCard">
       <property name="Encounter Set" value="Roam Across Rhovanion"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -254,7 +254,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player searches the encounter deck, discard pile, and victory display for a Grey Moorland, adds it to the staging area, and attaches the set-aside Tiny objective-ally to it as a guarded objective. Shuffle the encounter deck. Each other player reveals an encounter card."/>
-    <alternate name="Rescue Tiny" type="B">
+    <alternate name="Rescue Tiny" type="B" size="QuestCard">
       <property name="Encounter Set" value="Roam Across Rhovanion"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -271,7 +271,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player searches the encounter deck, discard pile, and victory display for a Grey Mountain Giant, adds it to the staging area, and attaches the set-aside Urdug’s Horn to it as a guarded objective. Shuffle the encounter deck. Each other player reveals an encounter card."/>
-    <alternate name="Retrieve Urdug’s Horn" type="B">
+    <alternate name="Retrieve Urdug’s Horn" type="B" size="QuestCard">
       <property name="Encounter Set" value="Roam Across Rhovanion"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -288,7 +288,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player searches the encounter deck, discard pile, and victory display for a Deep Ravine, adds it to the staging area, and attaches the set-aside Durin’s Key to it as a guarded objective. Shuffle the encounter deck. Each other player reveals an encounter card."/>
-    <alternate name="Find Durin’s Key" type="B">
+    <alternate name="Find Durin’s Key" type="B" size="QuestCard">
       <property name="Encounter Set" value="Roam Across Rhovanion"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -305,7 +305,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player loses control of both Urdug and Tiny, flips them to their enemy sides, and adds them to the staging area. (Remove any damage that was on them.) Each other player reveals an encounter card."/>
-    <alternate name="Urdug’s Gambit" type="B">
+    <alternate name="Urdug’s Gambit" type="B" size="QuestCard">
       <property name="Encounter Set" value="Roam Across Rhovanion"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

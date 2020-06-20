@@ -236,7 +236,7 @@
     <property name="Encounter Set" value="Beneath the Sands"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Set Brood Mother aside, out of play. Add the Search objective to the staging area (Off Track face up)."/>
-    <alternate name="Searching the Caves" type="B">
+    <alternate name="Searching the Caves" type="B" size="QuestCard">
       <property name="Encounter Set" value="Beneath the Sands"/>
       <property name="Type" value="Quest"/>
       <property name="Keywords" value="5"/>
@@ -250,7 +250,7 @@
     <property name="Encounter Set" value="Beneath the Sands"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: Flip the Search objective to Off Track. Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded by this effect to the staging area."/>
-    <alternate name="Getting Closer" type="B">
+    <alternate name="Getting Closer" type="B" size="QuestCard">
       <property name="Encounter Set" value="Beneath the Sands"/>
       <property name="Type" value="Quest"/>
       <property name="Keywords" value="5"/>
@@ -264,7 +264,7 @@
     <property name="Encounter Set" value="Beneath the Sands"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: The first player adds Brood Mother to the staging area. Each other player reveals an encounter card. Flip the Search objective to Off Track."/>
-    <alternate name="The Spider’s Hive" type="B">
+    <alternate name="The Spider’s Hive" type="B" size="QuestCard">
       <property name="Encounter Set" value="Beneath the Sands"/>
       <property name="Type" value="Quest"/>
       <property name="Keywords" value="5"/>

@@ -126,7 +126,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="tttttttttt"/>
-    <alternate name="A Dark Fog" type="B">
+    <alternate name="A Dark Fog" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Culling at the Barrow Downs"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -141,7 +141,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Silent, Heavy, and Chill" type="B">
+    <alternate name="Silent, Heavy, and Chill" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Culling at the Barrow Downs"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -156,7 +156,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Escaping the Great Barrow" type="B">
+    <alternate name="Escaping the Great Barrow" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Culling at the Barrow Downs"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

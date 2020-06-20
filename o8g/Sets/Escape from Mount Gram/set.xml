@@ -118,7 +118,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player shuffles his starting hand into his deck. Each player prepares a separate captured deck (see insert) and chooses only 1 hero to be his starting hero. Each player adds 2 resources to his starting hero and sets his threat to that hero’s threat cost. Set Southern Gate, Jailor Gornákh and the Angmar Orcs encounter set aside, out of play. Shuffle the encounter deck. Each player draws a new starting hand 3 cards."/>
     <property name="Setup" value="tttt"/>
-    <alternate name="Unexpected Rescue" type="B">
+    <alternate name="Unexpected Rescue" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Mount Gram"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -136,7 +136,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck for 1 copy of Prison Cell and add it to your staging area. Then, capture an additional 2 cards from the top of your captured deck underneath that copy of Prison Cell."/>
-    <alternate name="Gornákh's Dungeons" type="B">
+    <alternate name="Gornákh's Dungeons" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Mount Gram"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -153,7 +153,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Southern Gate and Jailor Gornákh to the staging area. Shuffle the Angmar Orcs encounter set into the encounter deck. Then, reveal 1 encounter card per player from the top of the encounter deck."/>
-    <alternate name="Flight from Mount Gram" type="B">
+    <alternate name="Flight from Mount Gram" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Mount Gram"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

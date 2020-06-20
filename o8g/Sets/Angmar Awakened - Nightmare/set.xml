@@ -210,7 +210,7 @@
     <property name="Encounter Set" value="Across the Ettenmoors - Nightmare"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Set aside each side quest and each location with the safe keyword. Reveal 1 of those side quests and 1 of those safe locations at random, adding them to the staging area with the safe location guarded by the side quest. shuffle the remaining side quests and safe locations into the encounter deck. Discard cards from the top of the encounter deck until X enemies are discarded, where X is the number of players in the game. Add the discarded enemies to the staging area. The first player gains control of Amarthiul."/>
-    <alternate name="Quest" type="B">
+    <alternate name="Quest" type="B" size="QuestCard">
       <property name="Encounter Set" value="Across the Ettenmoors - Nightmare"/>
       <property name="Quest Points" value="10"/>
       <property name="Text" value="You have escaped from the prisons of Mount Gram, but you are not safe yet.&#10;Forced: At the beginning of the quest phase, if there are no encounter side quests in play, discard cards from the top of the encounter deck until a side quest is discarded, reveal it, and add it to the staging area."/>

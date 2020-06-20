@@ -790,7 +790,7 @@
     <property name="Encounter Set" value="The River Running"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Set Warriors of the East aside, out of play. Add Easterling Pursuit and 1 copy of River Running to the staging area. Each player adds 1 different Easterling enemy to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Chased by Easterlings" type="B">
+    <alternate name="Chased by Easterlings" type="B" size="QuestCard">
       <property name="Encounter Set" value="The River Running"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -807,7 +807,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Warriors of the East to the staging area. Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area."/>
-    <alternate name="The Crossing of Araw" type="B">
+    <alternate name="The Crossing of Araw" type="B" size="QuestCard">
       <property name="Encounter Set" value="The River Running"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -824,7 +824,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set each plot objective and each Cultist enemy aside, out of play. Each player searches the encounter deck for a different location and adds it to the staging area. One of those locations must be Side Street. Shuffle the encounter deck."/>
-    <alternate name="A City in Turmoil" type="B">
+    <alternate name="A City in Turmoil" type="B" size="QuestCard">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -841,7 +841,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add 1 random set aside Plot objective to the staging area. Reveal 1 encounter card per player."/>
-    <alternate name="The Shadow of Mordor" type="B">
+    <alternate name="The Shadow of Mordor" type="B" size="QuestCard">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -858,7 +858,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add 1 random set-aside Cultist enemy to the staging area. Shuffle the encounter discard pile into the encounter deck and discard cards until X enemies are discarded, where X is one less than the number of players. Add each enemy discarded this way to the staging area."/>
-    <alternate name="Leader of the Cult" type="B">
+    <alternate name="Leader of the Cult" type="B" size="QuestCard">
       <property name="Encounter Set" value="Danger in Dorwinion"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -875,7 +875,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Shuffle each of the stage 2 quest cards together and place them facedown under this stage. Create The Power of Mordor deck (see insert) and set it next to the quest deck. Add Thane Ulchor and Tribute to Mordor to the staging area. Shuffle the encounter deck."/>
-    <alternate name="The Forgotten Temple" type="B">
+    <alternate name="The Forgotten Temple" type="B" size="QuestCard">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -893,7 +893,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
-    <alternate name="The Legacy of Mordor" type="B">
+    <alternate name="The Legacy of Mordor" type="B" size="QuestCard">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -911,7 +911,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
-    <alternate name="Memory of the Dark Years" type="B">
+    <alternate name="Memory of the Dark Years" type="B" size="QuestCard">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -929,7 +929,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
-    <alternate name="Shrine to Sauron" type="B">
+    <alternate name="Shrine to Sauron" type="B" size="QuestCard">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -947,7 +947,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Reveal 1 encounter card per player."/>
-    <alternate name="The Lord of Middle-earth" type="B">
+    <alternate name="The Lord of Middle-earth" type="B" size="QuestCard">
       <property name="Encounter Set" value="Temple of Doom"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

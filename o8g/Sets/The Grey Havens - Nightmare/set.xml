@@ -21,7 +21,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck, discard pile, and victory display for 1 copy of Corsair Warship and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Corsair Confrontation" type="B">
+    <alternate name="Corsair Confrontation" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -39,7 +39,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set your heading to the worst setting (¾)"/>
-    <alternate name="Lost at Sea" type="B">
+    <alternate name="Lost at Sea" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -325,7 +325,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="A menacing ship leads the raiders, its charismatic captain bellowing orders to the Corsairs: &quot;Kill the defenders!&quot; he shouts. &quot;Destroy their ships!&quot;&#10;When Revealed: Add Na'asiyah and Captain Sahir to the staging area, enemy side faceup. Each player reveals the top card of the encounter deck. Place resources on Na'asiyah and Captain Sahir equal to the amount of damage on the Dream-chaser. Add 1 resource to each other Raider enemy in play."/>
-    <alternate name="Sahir's Advance" type="B">
+    <alternate name="Sahir's Advance" type="B" size="QuestCard">
       <property name="Encounter Set" value="Raid on the Grey Havens - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

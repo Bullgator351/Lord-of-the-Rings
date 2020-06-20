@@ -43,7 +43,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Form a 3x3 grid using the 9 quest cards. Put card 1A in the top left corner and card 3A in the bottom right corner. Shuffle the 2A cards and deal them out to fill the remaining 7 spaces, side A upwards. Put Old Man Willow in the staging area and set aside River Wight and Barrow Blade."/>
     <property name="Setup" value="stt"/>
-    <alternate name="Follow the Withywindle" type="B">
+    <alternate name="Follow the Withywindle" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -59,7 +59,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: Before the players place a resource token on this card, turn it over to side 2B."/>
-    <alternate name="Goldberry's Blessing" type="B">
+    <alternate name="Goldberry's Blessing" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -75,7 +75,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: Before the players place a resource token on this card, turn it over to side 2B."/>
-    <alternate name="The Old Barrow" type="B">
+    <alternate name="The Old Barrow" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -91,7 +91,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: Before the players place a resource token on this card, turn it over to side 2B."/>
-    <alternate name="Pack of Wargs" type="B">
+    <alternate name="Pack of Wargs" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -107,7 +107,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: Before the players place a resource token on this card, turn it over to side 2B."/>
-    <alternate name="Blocked" type="B">
+    <alternate name="Blocked" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -123,7 +123,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: Before the players place a resource token on this card, turn it over to side 2B."/>
-    <alternate name="Ambush" type="B">
+    <alternate name="Ambush" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -139,7 +139,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: Before the players place a resource token on this card, turn it over to side 2B."/>
-    <alternate name="Spiders" type="B">
+    <alternate name="Spiders" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -155,7 +155,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: Before the players place a resource token on this card, turn it over to side 2B."/>
-    <alternate name="The Heart of the Forest" type="B">
+    <alternate name="The Heart of the Forest" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -171,7 +171,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: Before the players place a resource token on this card, turn it over to side 3B."/>
-    <alternate name="Disturbed Grave" type="B">
+    <alternate name="Disturbed Grave" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

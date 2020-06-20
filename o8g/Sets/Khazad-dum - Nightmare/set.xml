@@ -23,7 +23,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player must search the encounter deck and discard pile for X Orc enemies and add them to the staging area, where X is 1 plus the number of players in the game. One of these choices must be Patrol Sentry and one must be Patrol Leader, if able."/>
-    <alternate name="Goblin Ambush" type="B">
+    <alternate name="Goblin Ambush" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into the Pit - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -248,7 +248,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Pursued by Shadow" type="B">
+    <alternate name="Pursued by Shadow" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -265,7 +265,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Blocked by Flame" type="B">
+    <alternate name="Blocked by Flame" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -283,7 +283,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step."/>
-    <alternate name="Ghash!" type="B">
+    <alternate name="Ghash!" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight from Moria - Nightmare"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

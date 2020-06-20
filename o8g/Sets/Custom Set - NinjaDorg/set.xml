@@ -10,7 +10,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Put to one side Nazgul of Dol Guldur and 2 Dungeons Jailors from the Dol Guldur set and remove the Dol Guldur Objective cards from play. Unless stated otherwise, proceed to the next Stage in numerical order."/>
     <property name="Setup" value="ttt"/>
-    <alternate name="Dark Road" type="B">
+    <alternate name="Dark Road" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Branching Paths"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -26,7 +26,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Sacred Shrine" type="B">
+    <alternate name="Sacred Shrine" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Branching Paths"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -42,7 +42,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Besieged" type="B">
+    <alternate name="Besieged" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Branching Paths"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -58,7 +58,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Take Flight" type="B">
+    <alternate name="Take Flight" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Branching Paths"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -74,7 +74,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Liberation" type="B">
+    <alternate name="Liberation" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Branching Paths"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>
@@ -90,7 +90,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="6"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Abandoned" type="B">
+    <alternate name="Abandoned" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Branching Paths"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="6"/>
@@ -106,7 +106,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="7"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Showdown" type="B">
+    <alternate name="Showdown" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Branching Paths"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="7"/>
@@ -124,7 +124,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Take out the Nazgul of Dol Guldur, Ungoliant's Spawn and Objective cards and set them to one side out of play."/>
     <property name="Setup" value="ttttt"/>
-    <alternate name="Ancient Path" type="B">
+    <alternate name="Ancient Path" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Forgotten Ruins"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -141,7 +141,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Place the Shadow Key into play and attach one encounter card to it for EACH player"/>
-    <alternate name="Deep Catacombs" type="B">
+    <alternate name="Deep Catacombs" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Forgotten Ruins"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -158,7 +158,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="You may now remove the Shadow Key from play."/>
-    <alternate name="Risen Nightmare" type="B">
+    <alternate name="Risen Nightmare" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Forgotten Ruins"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -175,7 +175,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Each player searches the encounter deck and places the first Orc they find into the staging area. Shuffle the encounter deck."/>
-    <alternate name="Goblin Gate" type="B">
+    <alternate name="Goblin Gate" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Elven Assembly"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -191,7 +191,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Elf Path" type="B">
+    <alternate name="Elf Path" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Elven Assembly"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -208,7 +208,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Each player searches the encounter deck and places the first Orc they find into the staging area. Shuffle the encounter deck."/>
-    <alternate name="The Veil of the Lonely Mountain" type="B">
+    <alternate name="The Veil of the Lonely Mountain" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Elven Assembly"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -226,7 +226,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="SOLO PLAY: You may only choose ONE HERO (and thus one sphere deck) to perform this quest. Also, take out the Legolas Hero card (from the Tactics Sphere) and set it to one side out of play."/>
     <property name="Setup" value="t"/>
-    <alternate name="Forgotten Path" type="B">
+    <alternate name="Forgotten Path" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Lost Road"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -242,7 +242,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Tranquil Glade" type="B">
+    <alternate name="Tranquil Glade" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Lost Road"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -258,7 +258,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Goblin Mines" type="B">
+    <alternate name="Goblin Mines" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Lost Road"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -276,7 +276,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Take out 1 Hill Troll and the Chieftain Ufthak card and set them both to one side out of play."/>
     <property name="Setup" value="tt"/>
-    <alternate name="Orc War Party" type="B">
+    <alternate name="Orc War Party" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -293,7 +293,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="tt"/>
-    <alternate name="Dark Woods" type="B">
+    <alternate name="Dark Woods" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -309,7 +309,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Daring Rescue" type="B">
+    <alternate name="Daring Rescue" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -327,7 +327,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Take out th Nazgul of Dol Guldur, Ungoliant's Spawn and the Objective cards and set them to one side out of play. Then choose a hero and five that hero Gandalf's Map."/>
     <property name="Setup" value="ttttt"/>
-    <alternate name="Foul Tower" type="B">
+    <alternate name="Foul Tower" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Ungoliant's Lair"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -344,7 +344,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Allies may no longer enter play or be put into play."/>
-    <alternate name="Twisted Caverns" type="B">
+    <alternate name="Twisted Caverns" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Ungoliant's Lair"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -361,7 +361,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Allies or Attachments may no longer enter play or be put into play."/>
-    <alternate name="Final Stand" type="B">
+    <alternate name="Final Stand" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Ungoliant's Lair"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

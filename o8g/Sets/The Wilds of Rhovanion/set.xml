@@ -683,7 +683,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Woodman Village and The Old Ford aside, out of play. Create the Evil Creatures deck (see insert) and place it next to the quest deck. Shuffle the encounter deck and discard cards from the top until X locations are discarded, where X is the number of players. Add each discarded location to the staging area."/>
-    <alternate name="Traveling North" type="B">
+    <alternate name="Traveling North" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Up the Anduin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -700,7 +700,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player adds Woodman Village to the staging area. Each other player reveals an encounter card."/>
-    <alternate name="Woodmen Under Attack" type="B">
+    <alternate name="Woodmen Under Attack" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Up the Anduin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -717,7 +717,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player adds The Old Ford to the staging area. Each other player takes the top card of the Evil Creatures deck and adds it to the staging area."/>
-    <alternate name="The Passage of the Ford" type="B">
+    <alternate name="The Passage of the Ford" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Up the Anduin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -754,7 +754,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set the Spiders of Mirkwood and Dol Guldur Orcs encounter sets aside, out of play. The first player takes control of Haldan and adds Searching for a Way Out to the staging area. Each player adds 1 Forest Spider to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Ambushed at Night" type="B">
+    <alternate name="Ambushed at Night" type="B" size="QuestCard">
       <property name="Encounter Set" value="Lost in Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -771,7 +771,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the Spiders of Mirkwood encounter set into the encounter deck. Then, reveal 1 encounter card per player."/>
-    <alternate name="Spiders of Mirkwood" type="B">
+    <alternate name="Spiders of Mirkwood" type="B" size="QuestCard">
       <property name="Encounter Set" value="Lost in Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -788,7 +788,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Shuffle the Dol Guldur Orcs encounter set into the encounter deck. Then, reveal 1 encounter card per player."/>
-    <alternate name="Dol Guldur Orcs" type="B">
+    <alternate name="Dol Guldur Orcs" type="B" size="QuestCard">
       <property name="Encounter Set" value="Lost in Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -805,7 +805,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player chooses a hero he controls, discards each token and attachment from that hero, and places it in the staging area. Each player discards cards from the top of the encounter deck until an enemy is discarded and attaches that enemy to the hero he owns in the staging area, guarding it."/>
-    <alternate name="Carried Away" type="B">
+    <alternate name="Carried Away" type="B" size="QuestCard">
       <property name="Encounter Set" value="Lost in Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -822,7 +822,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Each player discards cards from the top of the encounter deck until he discards a non-objective lcoation and adds it to the staging area. Each player places his hand of cards facedown under a different location in the staging area."/>
-    <alternate name="Truly Lost" type="B">
+    <alternate name="Truly Lost" type="B" size="QuestCard">
       <property name="Encounter Set" value="Lost in Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -839,7 +839,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Remove Searching for a Way Out from the game. Search the remaining set-aside encounter set for the enemy with the most hit points and add it to the staging area. That enemy is the “nemesis” until it leaves play."/>
-    <alternate name="The Forest of Great Fear" type="B">
+    <alternate name="The Forest of Great Fear" type="B" size="QuestCard">
       <property name="Encounter Set" value="Lost in Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -856,7 +856,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="C"/>
     <property name="Text" value="When Revealed: Remove Searching for a Way Out from the game. Starting with the first player, each player discards cards from the top of the encounter deck until he discards an enemy and puts that enemy into play engaged with him."/>
-    <alternate name="Escape from Taur-nu-Fuin" type="B">
+    <alternate name="Escape from Taur-nu-Fuin" type="B" size="QuestCard">
       <property name="Encounter Set" value="Lost in Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -871,7 +871,7 @@
     <property name="Encounter Set" value="The King’s Quest"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Build the Caves deck (see insert) and set it next to the quest deck. Set Fire-drake, Dragon Hoard, and the Dragon Might encounter sets aside, out of play. Shuffle the encounter deck. Each player discards cards from the top of the encounter deck until he discards an enemy or location and adds that card to the staging area."/>
-    <alternate name="The Iron Hills" type="B">
+    <alternate name="The Iron Hills" type="B" size="QuestCard">
       <property name="Encounter Set" value="The King’s Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -886,7 +886,7 @@
     <property name="Encounter Set" value="The King’s Quest"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: Place Dragon Hoard on the bottom of the Caves deck. Add Fire-drake to the staging area and shuffle the Dragon Might encounter set into the encounter deck."/>
-    <alternate name="The Lower Depths" type="B">
+    <alternate name="The Lower Depths" type="B" size="QuestCard">
       <property name="Encounter Set" value="The King’s Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -901,7 +901,7 @@
     <property name="Encounter Set" value="The King’s Quest"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for a Dragon treachery and attach it to Fire-drake, if able. Shuffle the encounter deck."/>
-    <alternate name="The Fire Worm" type="B">
+    <alternate name="The Fire Worm" type="B" size="QuestCard">
       <property name="Encounter Set" value="The King’s Quest"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

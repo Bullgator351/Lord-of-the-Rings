@@ -248,7 +248,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Lust for the Ring, Redhorn Pass, Doors of Durin and Watcher in the Water aside, out of play. Shuffle the encounter deck."/>
     <property name="Setup" value="tttt"/>
-    <alternate name="The Council of Elrond" type="B">
+    <alternate name="The Council of Elrond" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ring Goes South"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -265,7 +265,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Make Redhorn Pass the active location. The first player reveals cards from the encounter deck until there is at least X $ in the staging area. X is twice the number of players in the game."/>
-    <alternate name="The Nine Walkers" type="B">
+    <alternate name="The Nine Walkers" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ring Goes South"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -282,7 +282,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player searches the encounter deck and discard pile for an enemy and adds it to the staging area. One of those enemies must be Great Warg Chief, if able. Shuffle the encounter deck."/>
-    <alternate name="The Hunt is Up!" type="B">
+    <alternate name="The Hunt is Up!" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ring Goes South"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -299,7 +299,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Make Doors of Durin the active location. Add Watcher in the Water to the staging area. Discard all tokens from the Ring-bearer and place it (and each card attached to it) facedown under Watcher in the Water."/>
-    <alternate name="The Gates of Moria" type="B">
+    <alternate name="The Gates of Moria" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ring Goes South"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -504,7 +504,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set The Balrog, The Great Bridge, and Chamber of Mazarbul aside out of play. Add Doom, Doom, Doom to the staging area and place 10 damage tokens on it. Each player adds 1 different location to the staging area."/>
     <property name="Setup" value="ttts"/>
-    <alternate name="The Long Dark of Moria" type="B">
+    <alternate name="The Long Dark of Moria" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey in the Dark"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -521,7 +521,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Chamber of Mazarbul to the staging area."/>
-    <alternate name="Drums in the Deep" type="B">
+    <alternate name="Drums in the Deep" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey in the Dark"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -538,7 +538,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add The Great Bridge to the staging area. Each player reveals 1 encounter card and removes 1 damage token from Doom, Doom, Doom."/>
-    <alternate name="The Bridge of Khazad-dûm" type="B">
+    <alternate name="The Bridge of Khazad-dûm" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey in the Dark"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -766,7 +766,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Frodo's Choice, Seat of Seeing, and Parth Galen aside, out of play. Add The Argonath and Sarn Gebir to the staging area."/>
     <property name="Setup" value="tttss"/>
-    <alternate name="The Great River" type="B">
+    <alternate name="The Great River" type="B" size="QuestCard">
       <property name="Encounter Set" value="Breaking of the Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -783,7 +783,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Remove the Ring-bearer, and each card attached to it, from the game (treat The One Ring's text as blank while resolving this effect). Reduce each enemy's engagement cost to 0 until the end of the engagement phase. Skip the travel phase this round."/>
-    <alternate name="The Company Divided" type="B">
+    <alternate name="The Company Divided" type="B" size="QuestCard">
       <property name="Encounter Set" value="Breaking of the Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -800,7 +800,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: After stage 2B is discarded, if the total $ of encounter cards in this staging area is less than 4, reveal 1 encounter card."/>
-    <alternate name="Searching the Woods" type="B">
+    <alternate name="Searching the Woods" type="B" size="QuestCard">
       <property name="Encounter Set" value="Breaking of the Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -817,7 +817,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: After stage 2B is discarded, if the total $ of encounter cards in this staging area is less than 4, reveal 1 encounter card."/>
-    <alternate name="Guard the Hobbits" type="B">
+    <alternate name="Guard the Hobbits" type="B" size="QuestCard">
       <property name="Encounter Set" value="Breaking of the Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -834,7 +834,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: After stage 2B is discarded, if the total $ of encounter cards in this staging area is less than 4, reveal 1 encounter card."/>
-    <alternate name="The Seat of Amon Hen" type="B">
+    <alternate name="The Seat of Amon Hen" type="B" size="QuestCard">
       <property name="Encounter Set" value="Breaking of the Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -851,7 +851,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Forced: After stage 2B is discarded, if the total $ of encounter cards in this staging area is less than 4, reveal 1 encounter card."/>
-    <alternate name="Orc Hunting" type="B">
+    <alternate name="Orc Hunting" type="B" size="QuestCard">
       <property name="Encounter Set" value="Breaking of the Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -868,7 +868,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Parth Galen to the staging area. If it is your quest phase, end the phase (do not resolve the quest)."/>
-    <alternate name="The Ring-bearer Sets Out" type="B">
+    <alternate name="The Ring-bearer Sets Out" type="B" size="QuestCard">
       <property name="Encounter Set" value="Breaking of the Fellowship"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

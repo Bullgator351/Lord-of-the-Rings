@@ -119,7 +119,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set aside all 3 Guardian enemies, all 3 Key objectives, all 3 Barrow locations, and Hallowed Circle."/>
     <property name="Setup" value="tttttttttt"/>
-    <alternate name="The Trials Begin" type="B">
+    <alternate name="The Trials Begin" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Three Trials"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -136,7 +136,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Randomly choose 1 of the remaining set aside Guardian enemies and 1 of the remaining set aside Barrow locations, reveal them, and add them to the staging area. Find the set aside Key objective that shares a Trait with the just revealed Guardian enemy and attach it to that enemy."/>
-    <alternate name="The Trial of Strength" type="B">
+    <alternate name="The Trial of Strength" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Three Trials"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -153,7 +153,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Randomly choose 1 of the remaining set aside Barrow locations and add it to the staging area. Then, randomly choose 1 of the remaining set aside Key objectives and attach it to that Barrow location. Find the set aside Guardian enemy that shares a Trait with the Key objective in play and reveal it, adding it to the staging area."/>
-    <alternate name="The Trial of Perseverance" type="B">
+    <alternate name="The Trial of Perseverance" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Three Trials"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -170,7 +170,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Randomly choose 1 of the remaining set aside Guardian enemies and 1 of the remaining set aside Barrow locations, reveal them, and add them to the staging area. Shuffle the encounter discard pile into the encounter deck. Find the set aside Key objective that shares a Trait with the just revealed Guardian enemy and shuffle it into the bottom 10 cards of the encounter deck."/>
-    <alternate name="The Trial of Intuition" type="B">
+    <alternate name="The Trial of Intuition" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Three Trials"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -187,7 +187,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Hallowed Circle to the staging area. Reveal each Guardian enemy in the victory display, adding them to the staging area."/>
-    <alternate name="The Antlered Crown" type="B">
+    <alternate name="The Antlered Crown" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Three Trials"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

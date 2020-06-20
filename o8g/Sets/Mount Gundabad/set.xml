@@ -272,7 +272,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
-    <alternate name="The Upper Levels" type="B">
+    <alternate name="The Upper Levels" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -289,7 +289,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
-    <alternate name="The Lower Deeps" type="B">
+    <alternate name="The Lower Deeps" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -306,7 +306,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
-    <alternate name="Frenzied Warriors" type="B">
+    <alternate name="Frenzied Warriors" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -323,7 +323,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
-    <alternate name="Dagnir's Wrath" type="B">
+    <alternate name="Dagnir's Wrath" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -340,7 +340,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
-    <alternate name="Foreboding Darkness" type="B">
+    <alternate name="Foreboding Darkness" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -357,7 +357,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
-    <alternate name="Imminent Pursuit" type="B">
+    <alternate name="Imminent Pursuit" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -374,7 +374,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Return Dagnir to the staging area.&#10;If Exploring Gundabad is the current main quest, do not flip it over until the beginning of the quest phase. "/>
-    <alternate name="The Great Worm" type="B">
+    <alternate name="The Great Worm" type="B" size="QuestCard">
       <property name="Encounter Set" value="Mount Gundabad "/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

@@ -276,7 +276,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set each copy of Wild Mûmak and each Capture objective aside, out of play. Each player adds 1 different location to the staging area. Shuffle the encounter deck.&#10;"/>
     <property name="Setup" value="ttttttttssss"/>
-    <alternate name="Welcome to the Jungle" type="B">
+    <alternate name="Welcome to the Jungle" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Mûmakil"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -293,7 +293,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Starting with the first player, each player attaches 1 random set-aside Capture objective to a Wild Mûmak in play."/>
-    <alternate name="Capture the Mumakil" type="B">
+    <alternate name="Capture the Mumakil" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Mûmakil"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

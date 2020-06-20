@@ -1298,7 +1298,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for 1 copy of the Forest Spider and 1 copy of the Old Forest Road, and add them to the staging area. Then, shuffle the encounter deck."/>
-    <alternate name="Flies and Spiders" type="B">
+    <alternate name="Flies and Spiders" type="B" size="QuestCard">
       <property name="Encounter Set" value="Passage Through Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -1313,7 +1313,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="A Fork in the Road" type="B">
+    <alternate name="A Fork in the Road" type="B" size="QuestCard">
       <property name="Encounter Set" value="Passage Through Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -1329,7 +1329,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="&quot;Don't Leave the Path!&quot;" type="B">
+    <alternate name="&quot;Don't Leave the Path!&quot;" type="B" size="QuestCard">
       <property name="Encounter Set" value="Passage Through Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -1345,7 +1345,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Beorn's Path" type="B">
+    <alternate name="Beorn's Path" type="B" size="QuestCard">
       <property name="Encounter Set" value="Passage Through Mirkwood"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -1362,7 +1362,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for the 3 objective cards, reveal and place them in the staging area. Also, place the Nazgul of Dol Guldur face up but out of play, alongside the quest deck. Then, shuffle the encounter deck, and attach 1 encounter to each objective card."/>
-    <alternate name="The Necromancer's Tower" type="B">
+    <alternate name="The Necromancer's Tower" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -1378,7 +1378,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Through the Caverns" type="B">
+    <alternate name="Through the Caverns" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -1394,7 +1394,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Out of the Dungeons" type="B">
+    <alternate name="Out of the Dungeons" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Dol Guldur"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -1411,7 +1411,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area."/>
-    <alternate name="To the River..." type="B">
+    <alternate name="To the River..." type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Down the Anduin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -1427,7 +1427,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Anduin Passage" type="B">
+    <alternate name="Anduin Passage" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Down the Anduin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -1443,7 +1443,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Ambush on the Shore" type="B">
+    <alternate name="Ambush on the Shore" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey Down the Anduin"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

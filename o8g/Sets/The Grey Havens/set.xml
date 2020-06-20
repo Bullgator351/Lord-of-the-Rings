@@ -175,7 +175,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Corsair deck. Players prepare their fleet. Shuffle each stage 2 card in the quest deck so that their order is random, leaving stage 3 on the bottom. Search the encounter deck for 1 copy of Rolling Seas and 1 copy of Scouting Ship, and add them to the staging area. Shuffle the encounter deck."/>
     <property name="Setup" value="ttttttttss"/>
-    <alternate name="Departure from the Havens" type="B">
+    <alternate name="Departure from the Havens" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -193,7 +193,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for 1 copy of Waterspout and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Into the Storm" type="B">
+    <alternate name="Into the Storm" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -211,7 +211,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for 1 copy of Fog Bank and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Cursed Mists" type="B">
+    <alternate name="Cursed Mists" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -229,7 +229,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for 1 copy of Scouting Ship and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Calphon’s Divination" type="B">
+    <alternate name="Calphon’s Divination" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -247,7 +247,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for 1 copy of Starlit Sea and add it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="The Star’s Guidance" type="B">
+    <alternate name="The Star’s Guidance" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -265,7 +265,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Search the encounter deck and discard pile for a Ship enemy with the highest $ and add it to the staging area (2 Ship enemies with the highest $ instead if there are 3 or more players in the game). Shuffle the encounter deck."/>
-    <alternate name="Corsair Pursuit" type="B">
+    <alternate name="Corsair Pursuit" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -320,7 +320,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Uncharted deck. Set Shrine to Morgoth aside, out of play. Add 2 copies of Lost Island from the top of the Uncharted deck to the staging area (3 copies instead if there are 3 or 4 players in the game). The first player takes control of Calphon."/>
     <property name="Setup" value="ttt"/>
-    <alternate name="Explore the Island" type="B">
+    <alternate name="Explore the Island" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Fate of Númenor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -337,7 +337,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add 2 copies of Lost Island from the top of the Uncharted deck to the staging area. Add Shrine to Morgoth to the staging area, Lost Island side faceup. Remove all progress from each Uncharted location in the staging area and shuffle them so that the players do not know which one is which."/>
-    <alternate name="A Fateful Discovery" type="B">
+    <alternate name="A Fateful Discovery" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Fate of Númenor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -475,7 +475,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Captain Sahír and Na’asiyah aside, out of play. Add The Havens Burn, Dream-chaser, and 1 copy of Sahír’s Ravager to the staging area. Shuffle the encounter deck and discard cards from the top of the encounter deck until X locations with the Aflame keyword are discarded, where X is the number of players in the game. Add each discarded Aflame location to the staging area. Then, shuffle the encounter discard pile back into the encounter deck."/>
     <property name="Setup" value="tttsss"/>
-    <alternate name="The Corsairs' Assault" type="B">
+    <alternate name="The Corsairs' Assault" type="B" size="QuestCard">
       <property name="Encounter Set" value="Raid on the Grey Havens"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -492,7 +492,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Na’asiyah and Captain Sahír to the staging area, enemy side faceup. Each player reveals the top card of the encounter deck. Place resources on Na’asiyah and Captain Sahír equal to the amount of damage on The Dream-chaser. Add 1 resource to each other Raider enemy in play."/>
-    <alternate name="Sahír's Advance" type="B">
+    <alternate name="Sahír's Advance" type="B" size="QuestCard">
       <property name="Encounter Set" value="Raid on the Grey Havens"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -1075,7 +1075,7 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Dream-chaser's Fleet"/>
     <property name="Type" value="Objective"/>
-    <alternate name="Heading" type="B">
+    <alternate name="Heading" type="B" size="Square">
       <property name="Encounter Set" value="The Dream-chaser's Fleet"/>
       <property name="Type" value="Objective"/>
     </alternate>

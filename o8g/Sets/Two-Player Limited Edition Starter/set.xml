@@ -1057,7 +1057,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for 1 copy of The Eaves of Mirkwood and Goblin Troop. Add The Eaves of Mirkwood to the staging area and set Goblin Troop aside, out of play. Shuffle of the encounter deck."/>
-    <alternate name="After the Raid" type="B">
+    <alternate name="After the Raid" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Oath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -1073,7 +1073,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Mirkwood Forest" type="B">
+    <alternate name="Mirkwood Forest" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Oath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -1107,7 +1107,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Goblin Chieftain, Cracked Pillar, and Cave Torch. Set Goblin Chieftain and Cracked Pillar aside, out of play. The first player attached Cave Torch to one of his heroes. Shuffle the encounter deck."/>
-    <alternate name="The Dark of Nibin-Dûm" type="B">
+    <alternate name="The Dark of Nibin-Dûm" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -1124,7 +1124,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Goblin Chieftain to the staging area. Each player searches the encounter deck and discard pile for a different enemy of his choice and adds it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Surprise Attack" type="B">
+    <alternate name="Surprise Attack" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -1141,7 +1141,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set Goblin Chieftain aside, out of play. Add Cracked Pillar to the staging area."/>
-    <alternate name="The Chasm" type="B">
+    <alternate name="The Chasm" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -1158,7 +1158,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Goblin Chieftain to the staging area."/>
-    <alternate name="Oathkeepers" type="B">
+    <alternate name="Oathkeepers" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Caves of Nibin-Dûm"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

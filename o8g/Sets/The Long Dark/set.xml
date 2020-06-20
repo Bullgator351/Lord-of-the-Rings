@@ -119,7 +119,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: The first player attaches Cave Torch to a hero of his choice."/>
     <property name="Setup" value="t"/>
-    <alternate name="Journey in the Black Pit" type="B">
+    <alternate name="Journey in the Black Pit" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Long Dark"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -135,7 +135,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Continuing Eastward" type="B">
+    <alternate name="Continuing Eastward" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Long Dark"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

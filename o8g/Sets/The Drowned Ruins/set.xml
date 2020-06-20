@@ -127,7 +127,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="In the sunken ruins of the temple, you find a grotto leading deep below the sea level. Much of the grotto is submerged underwater.&#10;&#10;Setup: Set Shrine to Morgoth aside, out of play. Prepare the Grotto deck. Add the top 2 locations from the Grotto deck to the staging area, Grotto side faceup (the top 3 instead if there are 3 or more players in the game). The first player takes control of Captain Sahír, and the last player takes control of Na'asiyah (objective-ally sides faceup)."/>
     <property name="Setup" value="tttt"/>
-    <alternate name="The Grotto" type="B">
+    <alternate name="The Grotto" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Drowned Ruins"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -144,7 +144,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="In the center of the shrine, reverently placed on a large altar, lies a long black chest. As soon as you get close, Sahír knocks one of the heroes over and grabs it!&#10;&#10;When Revealed: Make the set aside Shrine to Morgoth the active location, Grotto side faceup. Captain Sahír flips to his enemy side (removing all tokens) and makes an immediate attack against the first player. Remove Captain Sahír from the game. Each player searches the encounter deck and discard pile for an Undead enemy and adds it to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Sahír's Betrayal" type="B">
+    <alternate name="Sahír's Betrayal" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Drowned Ruins"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

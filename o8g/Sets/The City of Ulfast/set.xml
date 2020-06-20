@@ -254,7 +254,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add City Guard to the staging area. Each player adds a different location to the staging area. Shuffle the encounter deck."/>
-    <alternate name="Searching for Ulchor" type="B">
+    <alternate name="Searching for Ulchor" type="B" size="QuestCard">
       <property name="Encounter Set" value="The City of Ulfast"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -270,7 +270,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player must choose: either raise your threat by 5, or reveal an encounter card."/>
-    <alternate name="Trying to Blend In" type="B">
+    <alternate name="Trying to Blend In" type="B" size="QuestCard">
       <property name="Encounter Set" value="The City of Ulfast"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -286,7 +286,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player must choose: either raise your threat by 5, or City Guard makes an immediate attack against you."/>
-    <alternate name="Drawing Attention" type="B">
+    <alternate name="Drawing Attention" type="B" size="QuestCard">
       <property name="Encounter Set" value="The City of Ulfast"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -302,7 +302,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Shuffle the encounter discard pile into the encounter deck and discard cards from the top until X enemies are discarded. X is the number of players. Add each enemy discarded this way to the staging area."/>
-    <alternate name="Ulchor's Trap" type="B">
+    <alternate name="Ulchor's Trap" type="B" size="QuestCard">
       <property name="Encounter Set" value="The City of Ulfast"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

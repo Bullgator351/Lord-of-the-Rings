@@ -308,7 +308,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Setup" value="ttttttttt"/>
-    <alternate name="Preparing for Battle" type="B">
+    <alternate name="Preparing for Battle" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -325,7 +325,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Choose one of the remaining set aside objectives and attach it to the quest. Discard cards from the top of the encounter deck until X enemies are discarded. X is equal to the number of players in the game. Add each enemy discarded this way to the staging area."/>
-    <alternate name="Repel the Incursion" type="B">
+    <alternate name="Repel the Incursion" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -342,7 +342,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Choose one of the remaining set aside objectives and attach it to the quest. Each player must add 1 copy of Orc Raiding Party to the staging area."/>
-    <alternate name="Rescue the Settlement" type="B">
+    <alternate name="Rescue the Settlement" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -359,7 +359,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Choose one of the remaining set aside objectives and attach it to the quest. Add Weapon of Morgoth to the staging area."/>
-    <alternate name="Hunting Foray" type="B">
+    <alternate name="Hunting Foray" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -376,7 +376,7 @@
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Choose one of the remaining set aside objectives and attach it to the quest. Add Azrat to the staging area. If there are fewer than X enemies in play, discard cards from the top of the encounter deck, adding each enemy discarded this way to the staging area, until X enemies are in play. X is the number of players."/>
-    <alternate name="A Final Proving" type="B">
+    <alternate name="A Final Proving" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>

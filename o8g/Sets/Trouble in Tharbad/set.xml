@@ -124,7 +124,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Bellach and The Crossing of Tharbad aside, out of play. Search the encounter deck for 1 copy of Spy From Mordor per player, and add them to the staging area. Make The Empty Mug the active location. The first player takes control of Nalir, as an ally. Shuffle the encounter deck."/>
     <property name="Setup" value="ttttttlt"/>
-    <alternate name="Double Dealings" type="B">
+    <alternate name="Double Dealings" type="B" size="QuestCard">
       <property name="Encounter Set" value="Trouble in Tharbad"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -141,7 +141,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Bellach and The Crossing of Tharbad to the staging area. Then, shuffle the encounter discard pile into the encounter deck and discard cards from the encounter deck until X Orc enemies have been discarded, where X is the number of players in the game. Add all discarded Orc enemies to the staging area."/>
-    <alternate name="Escape from Tharbad" type="B">
+    <alternate name="Escape from Tharbad" type="B" size="QuestCard">
       <property name="Encounter Set" value="Trouble in Tharbad"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>

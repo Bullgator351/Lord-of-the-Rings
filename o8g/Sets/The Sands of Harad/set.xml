@@ -715,7 +715,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add “Seize them!” to the staging area. Each player adds 1 different location to the staging area and puts 1 copy of Umbar Sentry into play engaged with him. Shuffle the encounter deck."/>
     <property name="Setup" value="sssssssss"/>
-    <alternate name="Stranded in Umbar" type="B">
+    <alternate name="Stranded in Umbar" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Umbar"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -732,7 +732,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: End the current phase. Shuffle the encounter discard pile into the encounter deck. Starting with the first player, each player discards cards from the top of the encounter deck until he discards an enemy, and puts that enemy into play engaged with him."/>
-    <alternate name="Flee the City" type="B">
+    <alternate name="Flee the City" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Umbar"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -749,7 +749,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player searches the encounter deck for a copy of Burnt Sands and adds it to the staging area. Shuffle the encounter deck. Place the heat tracker next to the quest deck and set the temperature to 10."/>
-    <alternate name="The Desert of Harad" type="B">
+    <alternate name="The Desert of Harad" type="B" size="QuestCard">
       <property name="Encounter Set" value="Desert Crossing"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -766,7 +766,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Increase the temperature by 2. Shuffle the encounter discard pile into the encounter deck and reveal 1 encounter card per player."/>
-    <alternate name="Under the Merciless Sun" type="B">
+    <alternate name="Under the Merciless Sun" type="B" size="QuestCard">
       <property name="Encounter Set" value="Desert Crossing"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -783,7 +783,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Increase the temperature by 2. Each player searches the encounter deck, discard pile, and victory display for a Were-worm and adds it to the staging area, if able. Shuffle the encounter deck."/>
-    <alternate name="Beasts of Legend" type="B">
+    <alternate name="Beasts of Legend" type="B" size="QuestCard">
       <property name="Encounter Set" value="Desert Crossing"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -801,7 +801,7 @@
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Uruk Chieftain aside, out of play. Each player adds 1 copy of Sauron’s Enforcers to the staging area. Move each hero to the staging area. Each player takes control of an objective-hero and adds 2 resources to its resource pool. Remove each remaining objective-hero from the game. For the remainder of the game, heroes in the staging area are in play but under no player’s control, immune to player card effects, and their text boxes are considered to be blank."/>
     <property name="Setup" value="ttttsssst"/>
-    <alternate name="Surprise Attack" type="B">
+    <alternate name="Surprise Attack" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Long Arm of Mordor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -817,7 +817,7 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <alternate name="Find the Others" type="B">
+    <alternate name="Find the Others" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Long Arm of Mordor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -834,7 +834,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player searches the encounter deck and discard pile for an Orc enemy and adds it to the staging area. Shuffle the encounter deck. Attach each hero in the staging area to a different Orc enemy in the staging area. Each hero attached to an enemy is guarded by that enemy. Guarded heroes are under no player’s control, immune to player card effects, and their text boxes are considered to be blank."/>
-    <alternate name="Free the Captives" type="B">
+    <alternate name="Free the Captives" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Long Arm of Mordor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -851,7 +851,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add Uruk Chieftain to the staging area. Shuffle the encounter discard pile into the encounter deck and reveal 1 encounter card per player."/>
-    <alternate name="Escape into the Jungle" type="B">
+    <alternate name="Escape into the Jungle" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Long Arm of Mordor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>

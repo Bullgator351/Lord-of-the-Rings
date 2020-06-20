@@ -9,7 +9,7 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Create 4 staging areas from right (east) to left (west), and reveal quest stages 2A, 3A, 4A, and 5A, assigning them to the staging areas from east to west, in that order (so that The Eastern Defenses is assigned to the eastmost staging area). Resolve the 'When Revealed' effects on Stages 2, 3, 4, and 5, and turn them over. Then, turn this card over to stage 1B."/>
-    <alternate name="The Siege of Erebor" type="B">
+    <alternate name="The Siege of Erebor" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Erebor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="1"/>
@@ -26,7 +26,7 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Set The Attack, The Defense, Gate of Erebor, one copy of The Desolation of Smaug, and each copy of Iron Hills Batallion aside, out of play.&#10;"/>
-    <alternate name="The Eastern Defenses" type="B">
+    <alternate name="The Eastern Defenses" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Erebor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="2"/>
@@ -44,7 +44,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Take the set aside copy of The Desolation of Smaug and make it this stage's active location. Shuffle the encounter deck. If there is only 1 player in the game, add 1 Iron Hills Battalion to this stage's staging area. "/>
-    <alternate name="The Riverlands" type="B">
+    <alternate name="The Riverlands" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Erebor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>
@@ -62,7 +62,7 @@
     <property name="Cost" value="4"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: If there are 2 or fewer players in the game, add 1 Iron Hills Battalion to this stage's staging area."/>
-    <alternate name="Dale" type="B">
+    <alternate name="Dale" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Erebor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="4"/>
@@ -80,7 +80,7 @@
     <property name="Cost" value="5"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Add The Defense and The Attack to this stage's staging area. If there are 3 or fewer players in the game, add 1 Iron Hills Battalion to this stage's staging area."/>
-    <alternate name="Erebor" type="B">
+    <alternate name="Erebor" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Erebor"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="5"/>
