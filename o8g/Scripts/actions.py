@@ -2,10 +2,10 @@
 import time
 import re
 
-# for XML parsing in loadDeckFromRingsDB
+# for JSON parsing in loadDeckFromRingsDB
 import clr
-clr.AddReference("System.Xml")
-from System.Xml import XmlDocument
+clr.AddReference('System.Web.Extensions')
+from System.Web.Script.Serialization import JavaScriptSerializer as json #since .net 3.5?
 
 Resource = ("Resource", "62a2ba76-9872-481b-b8fc-ec35447ca640")
 Damage = ("Damage", "38d55f36-04d7-4cf9-a496-06cb84de567d")
@@ -2318,64 +2318,81 @@ def exchangeCardsInHand(group, additionalCards):
 		card.moveTo(me.hand)
 	notify("{} draws {} new cards.".format(me, newHandSize))
 
+CARD_API_URL = 'https://ringsdb.com/api/public/card/{}'
+PUBLISHED_DECK_API_URL = 'https://ringsdb.com/api/public/decklist/{}'
+UNPUBLISHED_DECK_API_URL = 'https://ringsdb.com/api/oauth2/deck/load/{}'
+
 def loadDeckFromRingsDB(group, x=0, y=0):
-	notify("loadDeckFromRingsDB called successfully")
-
 	url = askString("Please enter the URL of the deck you wish to load.", "")
-        if url == None: # cancelled
+	if url == None: # cancelled
 		return
-
-	if re.match("^https://(www\.)?ringsdb\.com/decklist/view/", url) != None:
-		deckid = url.split("/view/")[1].split("/")[0]
-		data, code = webRead("https://ringsdb.com/decklist/export/octgn/{}".format(deckid))
-	elif re.match("^https://(www\.)?ringsdb\.com/deck/view/", url) != None:
-		deckid = url.split("/view/")[1].split("/")[0]
-		data, code = webRead("https://ringsdb.com/deck/export/octgn/{}".format(deckid))
-        else:
-		notify("Error: Invalid RingsDB Deck URL - should look like https://ringsdb.com/*/view/*")
-		return
-
-	if code != 200:
-		notify("""Error retrieving online deck data, please try again. You may need to enable
+	
+	try:
+		if re.match("^https://(www\.)?ringsdb\.com/decklist/view/", url) != None:
+			deckid = url.split("/view/")[1].split("/")[0]
+			data, code = webRead(PUBLISHED_DECK_API_URL.format(deckid))
+		elif re.match("^https://(www\.)?ringsdb\.com/deck/view/", url) != None:
+			deckid = url.split("/view/")[1].split("/")[0]
+			data, code = webRead(UNPUBLISHED_DECK_API_URL.format(deckid))
+		else:
+			notify("Error: Invalid RingsDB Deck URL - should look like https://ringsdb.com/*/view/*")
+			return
+        
+		if code != 200:
+			notify("""Error retrieving online deck data, please try again. You may need to enable
 'Share my decks' in your RingsDB account if this was a /deck/view/ URL""")
-		return
+			return
 
-	doc = XmlDocument()
-	doc.LoadXml(data)
+		deckData = json().DeserializeObject(data)
 
-	# start off by validating the basic structure of the XML - xml node and game node
-	if (doc.ChildNodes.Count != 2 or doc.ChildNodes[0].Name != "xml" or
-		doc.ChildNodes[1].Name != "deck" or doc.ChildNodes[1].Attributes["game"] == None or
-		doc.ChildNodes[1].Attributes["game"].Value != "a21af4e8-be4b-4cda-a6b6-534f9717391f"):
-		notify("Illegal XML in OCTGN export")
-	else:
-		sections = doc.ChildNodes[1].ChildNodes
+		# sometimes we get a 200 but can't load any data. but there's an 'error' key in the JSON we can emit to help
+		if 'error' in deckData:
+			notify(deckData['error'])
+			return
 
-                # the below is pretty pedantic about checking for well-formed OCTGN exports. I wanted
-                # it to be as bulletproof as possible, but that means that if OCTGN export formats change
-                # much, this code will likely need to change as well
-		for section in sections:
-			if section.Name == "section":
-				name_attr = section.Attributes["name"]
+		if 'slots' in deckData:
+			# this allows us to make sure that contracts are added to hand first so they sort right on the table
+			heroes = {}
+			contracts = {}
+			
+			for cardKey in deckData['slots'].Keys:
+				cardData, cardCode = webRead(CARD_API_URL.format(cardKey))
+				if cardCode != 200:
+					notify("Error retrieving data for card ID {}. Please ping #tech-support on Discord".format(cardKey))
+					return
+				
+				cardJsonData = json().DeserializeObject(cardData)
+				# heroes and contracts get loaded into hand. everything else into the discard pile
+				if cardJsonData['type_name'] == 'Hero':
+					heroes[cardJsonData['octgnid']] = deckData['slots'][cardKey]
+				elif cardJsonData['type_name'] == 'Contract':
+					contracts[cardJsonData['octgnid']] = deckData['slots'][cardKey]
+				else:
+					me.piles['Discard Pile'].create(cardJsonData['octgnid'], deckData['slots'][cardKey])
 
-				if name_attr != None:
-					for card in section.ChildNodes:
-						if (card.Name == "card" and card.Attributes["qty"] != None and
-							card.Attributes["id"] != None and
-							re.match("^[0-9]+$", card.Attributes["qty"].Value) != None):
+			# contracts into hand first so they appear in the same order as the OCTGN export
+			for k,v in contracts.iteritems():
+				me.hand.create(k, v)
+			for k,v in heroes.iteritems():
+				me.hand.create(k, v)
 
-							id = card.Attributes["id"].Value
-							qty = int(card.Attributes["qty"].Value)
+		# ugh - if there's a sideboard, then 'sideslots' is a dictionary. if not, it's an empty array. Put in this
+		# gross hack to differentiate...
+		if 'sideslots' in deckData and str(type(deckData['sideslots'])) != "<type 'Array[object]'>":
+			for cardKey in deckData['sideslots'].Keys:
+				cardData, cardCode = webRead(CARD_API_URL.format(cardKey))
+				if cardCode != 200:
+					notify("Error retrieving data for card ID {}. Please ping #tech-support on Discord".format(cardKey))
+					return
 
-							# heroes get loaded into hand (based on definition.xml)
-							if name_attr.Value == "Hero":
-								me.hand.create(id, qty)
-							# sideboard cards get loaded as such
-							elif name_attr.Value == "Sideboard":
-								me.piles['Sideboard'].create(id, qty)
-							# other cards get loaded into the discard pile
-							else:
-								me.piles['Discard Pile'].create(id, qty)
+				cardJsonData = json().DeserializeObject(cardData)
+				me.piles['Sideboard'].create(cardJsonData['octgnid'], deckData['sideslots'][cardKey])
 
 		# call this so that it appears that this was "loaded" from the menu bar items
 		deckLoaded(me, [ me.hand, me.piles['Discard Pile'] ])
+		notify("loadDeckFromRingsDB successful")
+		
+	except Exception as e:
+		whisper(str(e))
+		notify("""Unexpected error in loadDeckFromRingsDB. Please ping @JoJoTheDogFacedBoy in
+#tech-support on Discord with the deck URL that caused the issue""")
