@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import time
 import re
+from collections import namedtuple
 
 # for XML parsing in loadDeckFromRingsDB
 import clr
@@ -434,8 +435,10 @@ def unloadDeck(group, x = 0, y = 0):
 #Triggered event OnLoadDeck
 # It is also explicitly called from loadDeckFromRingsDB so the same setup happens whether the player
 # deck was loaded from the menu bar or from RingsDB directly
-def deckLoaded(player, groups):
+def deckLoaded(args):
 	mute()
+	player = args.player
+	groups = args.groups
 	if player != me:
 		return
 
@@ -496,7 +499,10 @@ def deckLoaded(player, groups):
 	#	playerSetup(table, 0, 0, isPlayer, isShared)
 
 #Triggered event OnChangeCounter
-def counterChanged(player, counter, oldV):
+def counterChanged(args):
+        player = args.player
+        counter = args.counter
+        oldV = args.value
 	if counter == shared.counters['Round']:
 		fp = getFirstPlayerToken()
 		if fp is not None and fp.controller == me:
@@ -504,7 +510,11 @@ def counterChanged(player, counter, oldV):
 
 #Triggered event OnPlayerGlobalVariableChanged
 #We use this to manage turn and phase management by tracking changes to the player "done" variable
-def globalChanged(player, var, oldV, newV):
+def globalChanged(args):
+	player = args.player
+        var = args.name
+	oldV = args.oldValue
+	newV = args.value
 	debug("globalChanged(player {}, Variable {}, from {}, to {})".format(player, var, oldV, newV))
 	if var == "done":
 		updatePhase(player)
@@ -1186,7 +1196,6 @@ def doNextRound():
 		resourceReminders()
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
-	mute()
 
 	if not getLock():
 		whisper("Others players are setting up, please try manual setup again (Ctrl+Shift+S)")
@@ -1197,7 +1206,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 		id = myID() #This ensures we have a unique ID based on our position in the setup order
 		heroCount = countHeroes(me)
 		if shared.counters['Round'].value == 0 and id == 0 and heroCount == 0: #First time actions
-			me.setActivePlayer()
+			me.setActive()
 			setFirstPlayer(id)
 
 		#Move Heroes to the table
@@ -2378,4 +2387,6 @@ def loadDeckFromRingsDB(group, x=0, y=0):
 								me.piles['Discard Pile'].create(id, qty)
 
 		# call this so that it appears that this was "loaded" from the menu bar items
-		deckLoaded(me, [ me.hand, me.piles['Discard Pile'] ])
+                Arguments = namedtuple('Arguments', 'player groups')
+                args = Arguments(me, [ me.hand, me.piles['Discard Pile'] ])
+		deckLoaded(args)
