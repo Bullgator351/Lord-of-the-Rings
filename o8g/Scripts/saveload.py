@@ -5,9 +5,7 @@ from datetime import datetime as dt
 import collections
 import clr
 clr.AddReference('System.Web.Extensions')
-clr.AddReference('IronPython')
 from System.Web.Script.Serialization import JavaScriptSerializer as json #since .net 3.5?
-import IronPython.Runtime.UnboundNameException
 
 # To get most recent save file
 
@@ -168,10 +166,7 @@ def saveTable(group, x=0, y=0):
 		
                 # Not everyone is running the latest version of OCTGN, so fall back to the old code if the
                 # new dialog is not available
-                try:
-                    filename = saveFileDlg('Save table state', filename, 'Json files (*.json) | *.json')
-                except IronPython.Runtime.UnboundNameException:
-                    filename = askString('Please input the path to save the table state', filename)
+		filename = saveFileDlg('Save table state', filename, 'Json files (*.json) | *.json')
 		
 		if not filename:
 			return
@@ -203,10 +198,7 @@ def loadTable(group, x=0, y=0):
 
                 # Not everyone is running the latest version of OCTGN, so fall back to the old code if the
                 # new dialog is not available
-                try:
-                    filename = openFileDlg('Load table state', filename, 'Json files (*.json) | *.json')
-                except IronPython.Runtime.UnboundNameException:
-                    filename = askString('Please input the path to load the table states', filename)
+		filename = openFileDlg('Load table state', filename, 'Json files (*.json) | *.json')
 		
 		if not filename:
 			return
