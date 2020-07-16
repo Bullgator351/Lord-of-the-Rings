@@ -360,12 +360,10 @@ def setPlayerDone(phase=-1, step=-1):
 	if step == -1:
 		step = shared.counters['Step'].value
 	me.setGlobalVariable("done", "{}.{}.{}.{}".format(getGlobalVariable("game"), shared.counters['Round'].value, phase, step))
-	updatePhase()
 	update()
 
 def clearPlayerDone():
 	me.setGlobalVariable("done", "")
-	updatePhase()
 	update()
 
 def isPlayerDone(p, phase=-1, step=-1):

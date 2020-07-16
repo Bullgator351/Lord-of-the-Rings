@@ -41,7 +41,6 @@
 		<globalvariable name="game" value=""/>
 		<globalvariable name="playersSetup" value=""/>
 		<globalvariable name="currentPlayers" value="" />
-		<globalvariable name="done" value="" />
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />
