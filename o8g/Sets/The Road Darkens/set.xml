@@ -1061,7 +1061,7 @@
     <property name="Traits" value="Corruption."/>
     <property name="Text" value="When Revealed: Attach to a hero and move it to the first player's staging area. (Counts as a Condition attachment with the text: &quot;Attached hero loses the hero card type and gains the enemy card type with $ equal to its Ò and engagement cost equal to its threat cost. If Fallen into Evil is discarded, return attached hero to its owner's control.&quot;"/>
   </card>
-  <card id="7068731b-3837-40f3-9e98-6c996af4dddc" name="Lust for the Ring" size="EncounterCard">
+  <card id="7068731b-3837-40f3-9e98-6c996af4dddc" name="Lust for the Ring">
     <property name="Card Number" value="84"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Ring Goes South"/>

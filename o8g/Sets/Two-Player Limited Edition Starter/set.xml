@@ -238,7 +238,7 @@
     <property name="Health" value="1"/>
     <property name="Text" value="Response: After Naith Guide enters play, choose a hero. That hero does not exhaust to quest this round."/>
   </card>
-  <card id="cac5c60c-81b3-4e3b-aaa7-45d3a1f5f975" name="Blue Mountain Trader">
+  <card id="cac5c60c-81b3-4e3b-aaa7-45d3a1f5f975" name="Blue Mountain Trader" size="EncounterCard">
     <property name="Card Number" value="18"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Ally"/>
@@ -553,7 +553,7 @@
     <property name="Health" value="2"/>
     <property name="Text" value="Response: After Sarn Ford Sentry enters play, draw 1 card for each enemy engaged with you."/>
   </card>
-  <card id="7bf8b939-e73b-4801-af25-757e325666ce" name="Erebor Hammersmith" size="EncounterCard">
+  <card id="7bf8b939-e73b-4801-af25-757e325666ce" name="Erebor Hammersmith">
     <property name="Card Number" value="46"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Ally"/>
@@ -789,7 +789,7 @@
     <property name="Quest Points" value="2"/>
     <property name="Text" value="While The Eaves of Mirkwood is the active location, encounter card effects cannot be canceled."/>
   </card>
-  <card id="650522ec-c2e3-4e42-be7a-e87cceccc545" name="Tangled Grove" size="EncounterCard">
+  <card id="650522ec-c2e3-4e42-be7a-e87cceccc545" name="Tangled Grove">
     <property name="Card Number" value="69"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Oath"/>
@@ -1082,7 +1082,7 @@
       <property name="Text" value="When Revealed: Each player searches the encounter deck and discard pile for a Forest location and adds it to the staging area. Shuffle the encounter deck. This stage cannot be defeated unless at least 1 copy of Goblin Trail is in the vitory display."/>
     </alternate>
   </card>
-  <card id="9bb6a890-b9d3-4528-8049-8017d9a01c4c" name="The Rearguard">
+  <card id="9bb6a890-b9d3-4528-8049-8017d9a01c4c" name="The Rearguard" size="QuestCard">
     <property name="Card Number" value="97"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Oath"/>
@@ -1090,7 +1090,7 @@
     <property name="Cost" value="3"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: The first player adds the set-aside Goblin Troop to the staging area. Each other player searches the encounter deck and discard pile for a Goblin enemy and adds it to the staging area."/>
-    <alternate name="The Rearguard" type="B">
+    <alternate name="The Rearguard" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Oath"/>
       <property name="Type" value="Quest"/>
       <property name="Cost" value="3"/>

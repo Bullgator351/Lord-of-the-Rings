@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Hunt for the Dreadnaught" id="36d3f557-f437-437f-b2a2-193b4d77d362" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="f7babd23-3133-4fdc-ab08-1f863d41ad96" name="Easy Mode">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Campaign"/>
+    <property name="Text" value="Setup: Players prepare their fleet. Prepare the Corsair deck. Set the following enemies aside: all 7 unique enemies (including the Dreadnaught), 2 copies of Black Sails, and 1 copy of Corsair Warship. Add the Cobas Haven loction to the staging area. Shuffle the encounter deck. Add 1 resource to each hero`s resource pool. Flip this card over and place it next to the quest deck."/>
+    <alternate name="Easy Mode" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Type" value="Campaign"/>
+      <property name="Text" value="Each player draws 1 additional card during the resource phase. Quest Action: Deal 10 damage to a non-unique enemy engaged with a player in any group. (Group limit once per game.) If a player controls no ship-objective, that player is eliminated from the game."/>
+    </alternate>
+  </card>
+  <card id="666a449f-e103-4d70-932e-48e57c4d662c" name="Standard Mode">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Campaign"/>
+    <property name="Text" value="Setup: Players prepare their fleet. Prepare the Corsair deck. Set the following enemies aside: all 7 unique enemies (including the Dreadnaught). Shuffle the encounter deck and discard cards from the top until 2 locations are discarded (3 locations instead if there are 3 or more players). Add those locations to the staging area. Flip this card over and place it next to the quest deck."/>
+    <alternate name="Standard Mode" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Type" value="Campaign"/>
+      <property name="Text" value="Quest Action: Deal 10 damage to a non-unique enemy engaged with a player in any group. (Group limit once per game.) If a player controls no ship-objective, that player is eliminated from the game. "/>
+    </alternate>
+  </card>
+  <card id="e0928dc0-6f67-4611-843c-3354e949d879" name="Hard Mode">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Campaign"/>
+    <property name="Text" value="Setup: Players prepare their fleet. Prepare the Corsair deck. Set the following enemies aside: all 7 unique enemies (including the Dreadnaught). Add 3 Tolfalas Landing locations to the staging area (3 Tolfalas Landing locations and 2 Wicked Cove locations if there are 3 or more players). Shuffle the encounter deck. Flip this card over and place it next to the quest deck."/>
+    <alternate name="Hard Mode" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Type" value="Campaign"/>
+      <property name="Text" value="Each player's threat cannot be reduced by more than 1 each round. Forced: After a character is healed or readied by a player card effect, its controller raises their threat by 1. If a player controls no ship-objective, that player is eliminated from the game. "/>
+    </alternate>
+  </card>
+  <card id="2232bb8b-4b21-4315-9c6d-300b3a3ed7f9" name="Searching the High Seas" size="QuestCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <alternate name="Searching the High Seas" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="*This stage has a global quest point value of 8 per player among all groups.No more than 5 progress per player can be placed on this stage each round.The players can only advance at the end of the quest phase."/>
+    </alternate>
+  </card>
+  <card id="a8c911a5-bc2f-4882-8581-c5129d682370" name="Destroy the Dreadnaught" size="QuestCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Add the set-aside Dreadnaught enemy to the staging area, Elite side faceup."/>
+    <alternate name="Destroy the Dreadnaught" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="No more than 5 progress per player can be placed on this stage each round.Action: Remove 5 progress per player from this stage to choose any group to shuffle 1 set aside Gondorian Warship card into their encounter deck.Response: When the Dreadnaught attacks you, raise your threat by 4 to cancel the attack.When the Dreadnaught is destroyed, the players win the game."/>
+    </alternate>
+  </card>
+  <card id="78d40f21-ce85-4600-8f5e-5159d83c50cb" name="Eithiliant" size="EncounterCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Grey Havens. Ship. Basic."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Text" value="Immune to player card effects. Sentinel.Each hero you control gets +1 Ò.Setup: Choose a hero you control. Until the end of the game, that hero gains the printed Traits of another hero you control."/>
+    <alternate name="Eithiliant" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Objective"/>
+      <property name="Traits" value="Grey Havens. Ship. Upgraded."/>
+      <property name="Keywords" value="Sentinel."/>
+      <property name="Text" value="Immune to player card effects. Sentinel.Each hero you control gets +2 Ò.Response: After Eithiliant flips, shuffle up to 6 cards from your discard pile into your deck. Place 6 progress on a location in any group."/>
+    </alternate>
+  </card>
+  <card id="244873ca-427f-4358-804d-16bec79fca36" name="Golden Wing" size="EncounterCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Grey Havens. Ship. Basic."/>
+    <property name="Keywords" value="Ranged. Sentinel."/>
+    <property name="Text" value="Immune to player card effects. Ranged. Sentinel.Each hero you control gets +1 hit point.Reduce your threat by 3. Choose a hero you control. Until the end of the game, that hero gains ranged."/>
+    <alternate name="Golden Wing" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Objective"/>
+      <property name="Traits" value="Grey Havens. Ship. Upgraded."/>
+      <property name="Keywords" value="Ranged. Sentinel."/>
+      <property name="Text" value="Immune to player card effects. Ranged. Sentinel.Each hero you control gains +2 hit points and gains ranged.Response: After Golden Wing flips, deal 6 damage to an enemy in any group."/>
+    </alternate>
+  </card>
+  <card id="eb2b84b4-40b3-4dda-bf87-4f59a78aa6b1" name="Pride of Lebennin" size="EncounterCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Gondor. Ship. Basic."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Text" value="Immune to player card effects. Sentinel.Each hero you control gets +1 Ú.Forced: When you draw your starting hand, draw 5 additional cards, then shuffle 5 cards from your hand into your deck. You cannot take a mulligan."/>
+    <alternate name="Pride of Lebennin" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Objective"/>
+      <property name="Traits" value="Gondor. Ship. Upgraded."/>
+      <property name="Keywords" value="Sentinel."/>
+      <property name="Text" value="Immune to player card effects. Sentinel.Each hero you control gets +2 Ú.Response: After Pride of Lebennin flips, heal 2 damage from a character. Choose up to 2 cards from the encounter discard pile and add them to the victory display."/>
+    </alternate>
+  </card>
+  <card id="5bca670f-054d-41cd-93d7-0e318dc8c0e1" name="Silent Mist" size="EncounterCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Gondor. Ship. Basic."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Text" value="Immune to player card effects. Sentinel.Your starting hand size is 8 cards.Action: Play an event from your hand with a cost 3 or more, reducing its cost by 1."/>
+    <alternate name="Silent Mist" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Objective"/>
+      <property name="Traits" value="Gondor. Ship. Upgraded."/>
+      <property name="Keywords" value="Sentinel."/>
+      <property name="Text" value="Immune to player card effects. Sentinel.Response: After Silent Mist flips, choose up to 2 events from your discard pile and/or your collection and add them to your hand (following deckbuilding rules).Action: Play an event from your hand with cost 3 or more, reducing its cost by 2."/>
+    </alternate>
+  </card>
+  <card id="9022960a-30cc-4453-9e5e-00b17ac03efc" name="Swan Ship of Dol Amroth" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Gondor. Ship. Basic."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Text" value="Immune to player card effects. Sentinel.Setup: Add 1 resource to each of your heroes` resource pools.Action: Spend 2 resources to ready a character. (Limit once per round.)"/>
+    <alternate name="Swan Ship of Dol Amroth" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Objective"/>
+      <property name="Traits" value="Gondor. Ship. Upgraded."/>
+      <property name="Keywords" value="Sentinel."/>
+      <property name="Text" value="Immune to player card effects. Sentinel.Response: After Swan Ship of Dol Amroth flips, add 2 resources to a hero`s resource pool. Ready a card.Action: Spend 1 resource to ready a card. (Limit once per round.)"/>
+    </alternate>
+  </card>
+  <card id="6c4bf737-20cf-4fc5-b473-8f1540430c45" name="Twilight's Call" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Grey Havens. Ship. Basic."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Text" value="Immune to player card effects. Sentinel.The first card you play each round does not require a resource match.Action: Play an ally or attachment from your hand. (Limit once per round.)"/>
+    <alternate name="Twilight's Call" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Objective"/>
+      <property name="Traits" value="Grey Havens. Ship. Upgraded."/>
+      <property name="Keywords" value="Sentinel."/>
+      <property name="Text" value="Immune to player card effects. Sentinel.Each card you play does not require a resource match.Response: After Twilight`s Call flips, draw 3 cards.Action: Play an ally or attachment from your hand."/>
+    </alternate>
+  </card>
+  <card id="4bb271af-6486-4625-bf7e-386c74baec9b" name="Gondorian Warship" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Objective"/>
+    <property name="Traits" value="Gondor. Ship."/>
+    <property name="Keywords" value="Ranged. Sentinel."/>
+    <property name="Text" value="Immune to player card effects. Ranged. Sentinel.When Revealed: Choose a player. That player gains control of Gondorian Warship.Forced: When Gondorian Warship is destroyed, set it aside, out of play."/>
+  </card>
+  <card id="16fc9e92-cbc9-46ff-8312-a9c6491ca70b" name="Dreadnaught" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Elite. Corsair. Ship."/>
+    <property name="Keywords" value="Archery 1 Per Player."/>
+    <property name="Text" value="Archery 1 Per Player. Immune to player card effects. Cannot take more than 5 damage per player each round.*The Dreadnaught has global hit point value (15 hit points for each player among all groups).Forced: At the end of the round if the Dreadnaught has less than half of its starting hit pints, flip it over."/>
+    <alternate name="Dreadnaught" type="B">
+      <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Traits" value="Corsair. Ship. Damaged."/>
+      <property name="Keywords" value="Massive."/>
+      <property name="Victory Points" value="99"/>
+      <property name="Text" value="Massive. Immune to player card effects. Cannot take more than 5 damage per player each round.*The Dreadnaught has a global hit point value of 15 per player among all groups.Forced: After the Dreadnaught flips, each player puts 1 set-aside unique Corsair enemy into play at random engaged with them."/>
+    </alternate>
+  </card>
+  <card id="7e8ff46f-2d5a-49e3-bb97-15a3cbc254d6" name="Captain of the Haven" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Pillager. Elite."/>
+    <property name="Keywords" value="Pillage 8."/>
+    <property name="Engagement Cost" value="31"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="8"/>
+    <property name="Defense" value="5"/>
+    <property name="Health" value="7"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Immune to player card effects. Pillage 8.Engaged player cannot attack the Dreadnaught.Forced: At the end of the combat phase, if engaged player has no cards in their deck, that player is eliminated from the game."/>
+  </card>
+  <card id="b78d0cf0-c3d3-4bd9-98c5-61d8a4485684" name="Commander of the Dreadnaught" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Elite."/>
+    <property name="Engagement Cost" value="39"/>
+    <property name="Threat" value="5"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Immune to player card effects.Engaged player cannot attack the Dreadnaught.Forced: After Commander of the Dreadnaught attacks you, the Dreadnaught attacks you."/>
+  </card>
+  <card id="7e6fec55-9dd6-4fdc-96b5-4922aa095544" name="Descendant of Castamir" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Elite."/>
+    <property name="Engagement Cost" value="42"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Immune to player card effects.Engaged player cannot attack the Dreadnaught.Forced: After Descendant of Castamir engages you, put the top 2 cards of the Corsair deck into play engaged with you and deal each of them 1 shadow card."/>
+  </card>
+  <card id="d4de89b5-2e86-417a-baf1-81e7e852e5d4" name="Hydraken" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Elite."/>
+    <property name="Engagement Cost" value="41"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Immune to player cards effects.Engaged player cannot attack the Dreadnaught.Forced: After Hydraken attacks, he makes an additional attack. Deal him 2 additional shadow cards for this attack and engaged player raises their threat by 4. (Limit once per round.)"/>
+  </card>
+  <card id="da8951b1-f170-48c4-8c0b-8979e5134aaf" name="Ophidian" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Elite."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="8"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Immune to player card effects. No more than 1 character can attack Ophidian each round.Engaged player cannot attack the Dreadnaught.Forced: When a character defends against Ophidian, deal 2 damage to that character."/>
+  </card>
+  <card id="f071a69f-34e3-4603-a632-80b6b45b0e36" name="Varjax" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Elite."/>
+    <property name="Keywords" value="Archery 3."/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="6"/>
+    <property name="Attack" value="7"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Archery 3. Immune to player card effects.Engaged player cannot attack the Dreadnaught.For each point of excess combat damage dealt by Varjax, defending player deals 1 damage to a Ship they control."/>
+  </card>
+  <card id="e1c90186-e56e-44c0-ad7d-65c6cc6fbad7" name="Brash Corsair" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair."/>
+    <property name="Engagement Cost" value="16"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: When engaged player exhausts a Ship objective, Brash Corsair attacks that player."/>
+  </card>
+  <card id="c5b174ae-d1e5-4dac-bedf-7a6c741e26d6" name="Corsair Plunderer" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Pillager."/>
+    <property name="Keywords" value="Pillage 2."/>
+    <property name="Engagement Cost" value="12"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="Pillage 2. (After this enemy attacks you, discard the top 2 cards of your deck.)Forced: After an event card is discarded from your deck by Corsair Plunderer`s Pillage keyword, discard an attachment you control."/>
+  </card>
+  <card id="01ce9bbd-3f99-47eb-a702-ca40205324fb" name="Daring Buccaneer" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Pillager."/>
+    <property name="Keywords" value="Pillage 3."/>
+    <property name="Engagement Cost" value="23"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Pillage 3. (After this enemy attacks you, discard the top 3 cards of your deck.)Forced: After an event card is discarded from your deck by Daring Buccaneer`s Pillage keyword, deal 1 damage to a character you control."/>
+  </card>
+  <card id="7869b9ba-7757-4d8e-a201-aaf247ec6f99" name="Fierce Marauder" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Pillager."/>
+    <property name="Keywords" value="Pillage 3."/>
+    <property name="Engagement Cost" value="19"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Pillage 3. (After this enemy attacks you, discard the top 3 cards of your deck.)Forced: After an event card is discarded from your deck by Fierce Marauder`s Pillage keyword, discard 1 resource from the resource pool of a hero you control."/>
+  </card>
+  <card id="3fca46ae-c558-4666-8b0a-8c5c9ee5156a" name="Southron Sailor" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="0"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="While Southron Sailor is engaged with you, each Ship enemy engaged with you contributes its $ to the total $ in the staging area."/>
+  </card>
+  <card id="33c87224-ad8d-41a0-b08a-931e9205609b" name="Umbar Captain" size="EncounterCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Engaged player cannot attack Ship enemies."/>
+  </card>
+  <card id="ad2fdaaa-90d8-4d56-8112-37278e369dbd" name="Black Sails" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Boarding 2."/>
+    <property name="Text" value="Boarding 2. Cannot have attachments.While Black Sails is in the staging area, it gains Archery 3."/>
+  </card>
+  <card id="fa9a87c8-ed31-44b9-b5d6-4f42ca6de2c9" name="Corsair Skiff" size="EncounterCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Surge. Cannot have attachments.Forced: When Corsair Skiff engages you from the staging area, eithe raise your threat by 3 or it gains Bording 1."/>
+  </card>
+  <card id="ef9c63c3-08f3-4e8a-9156-3887df213550" name="Corsair Skirmisher" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Boarding 1."/>
+    <property name="Text" value="Boarding 1. Immune to player card effects.Response: After Corsair Skirmisher is destroyed as an enemy, the engaged player may discard allies they control with a total of at least 3 Ò to take control of Corsair Skirmisher as a ship-objective with Ò equal to its $. (It loses the ship-enemy card type and gaines the ship-objective card type)."/>
+  </card>
+  <card id="a258aec8-a5d9-4194-8612-ac2dd3b8f99e" name="Corsair Warship" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Boarding 3."/>
+    <property name="Victory Points" value="6"/>
+    <property name="Text" value="Boarding 3. Cannot have attachments.While Corsair Warship is in the staging area, it cannot be damaged and gains Archery 4."/>
+  </card>
+  <card id="4d4f814c-57d6-4d19-b147-6ab5e321cdd6" name="Ramming Ship" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Text" value="Cannot have attachments.Forced: After Ramming Ship engages you, it gets +4 Û until the end of the round."/>
+  </card>
+  <card id="06d3e4c3-d716-4b9a-b1c6-b6835bdd361a" name="Slave Ship" size="EncounterCard">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Boarding 1."/>
+    <property name="Text" value="Boarding 1. Cannot have attachments.For each point of damage that is dealt to a Ship objective by Slave Ship`s attack, deal 1 point of damage to a non-Ship character controlled by the defending player, as well."/>
+  </card>
+  <card id="9fb2a57c-5f37-4427-bb50-fc732194f4f3" name="War Galley" size="EncounterCard">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Corsair. Ship."/>
+    <property name="Keywords" value="Archery 2. Boarding 1."/>
+    <property name="Text" value="Archery 2. Boarding 1. Cannot have attachments.Forced: When War Galley engages you from the staging area, either raise your threat by 4 or it gains Boarding 1."/>
+  </card>
+  <card id="413fa654-8c2c-4245-9c6b-78d98db9903e" name="Sea Monster" size="EncounterCard">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Text" value="Ship objectives may attack and defend against Sea Monster.When Revealed: Deal 4 damage to the Ship enemy or Ship objective with the fewest remaining hit points."/>
+  </card>
+  <card id="cc0e7ed5-1a20-466d-84e7-355d690080cc" name="Belfalas Shipyard" size="EncounterCard">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Coastland. Ocean."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="Response: After Belfalas Shipyard is explored as the active location, the players as a group spend 5 resources to heal 5 damage from a Ship objective in any group. Ready that Ship and flip it to its Upgraded side."/>
+  </card>
+  <card id="7fbf49c1-fae7-4968-bc60-503d92f8aa18" name="Cobas Haven" size="EncounterCard">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Coastland. Ocean."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Cobas Haven is the active location, reduce the Boading value on each Ship enemy by 1."/>
+  </card>
+  <card id="390c3a3f-a5f2-44f2-bcc7-fbe22e46cbb5" name="Isle of Fortune" size="EncounterCard">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Ocean."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="Isle of Fortune enters play with 1 resource per player on it.Forced: After a Ship enemy enters play, discard 1 resource from Isle of Fortune.Response: When Isle of Fortune is explored as the active location, move each resource on it to a hero`s resource pool."/>
+  </card>
+  <card id="049758ee-7fb1-4978-9ed0-1b4de1d5ae14" name="Mouths of Anduin" size="EncounterCard">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Coastland. Ocean."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Mouths of Anduin is in the staging area, is gains: `Forced: After a `when revealed` effect is canceled, reveal the top card of the encounter deck.`"/>
+  </card>
+  <card id="96b6e743-0f7b-4d7f-8623-437911137940" name="Tolfalas Landing" size="EncounterCard">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Ocean."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Tofalas Landing is in the staging area, it gains: `Forced: After a player draws any number of cards from a player card effect, that player raises their threat by that number.`"/>
+  </card>
+  <card id="e7b0f67c-ad7e-442a-af9f-188e9cedddde" name="Wicked Cove" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Coastland. Ocean."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="Each location in the staging area is immune to player card effects."/>
+  </card>
+  <card id="2937b3c4-2e60-49a7-87cc-d6b708b6462d" name="Ballista Barrage" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Attack."/>
+    <property name="Keywords" value="Doomed 1."/>
+    <property name="Text" value="Doomed 1. (Raise each players threat by 1.)When Revealed: Until the end of the round, each Ship enemy gains Archery 2."/>
+  </card>
+  <card id="5666ae7f-838c-4f18-ad78-c40302c444e6" name="Boarding Party" size="EncounterCard">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player puts the top card of the Corsair deck into play engaged with them."/>
+  </card>
+  <card id="7bb3db62-642f-4ab1-9ce7-a870fad8fecd" name="Grappled!" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Attach to a Ship objective. (Counts as a Condition attachment with the text: `Attached objective cannot ready. Action: Exhaust 3 characters to discard Grappled!`)"/>
+  </card>
+  <card id="055e0afc-b257-43ef-9b74-02e6ee16d40c" name="Out of the Mist" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Attack."/>
+    <property name="Text" value="When Revealed: The enemy with the highest engagement cost engages the first player and attacks them. If no attack is made this way, Out of the Mist gains surge."/>
+  </card>
+  <card id="8cfe3fbe-f6bb-43ab-89af-8f9fb6dc2bd6" name="Overworked" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="When Revealed: Until the end of the round, treat the text box of each non-Ship ally as blank, except for Traits. If a player controls 7 or more allies, Overworked gains surge."/>
+  </card>
+  <card id="68ba3515-4cbc-4e73-b8f3-69a3ab4b8110" name="Taking on Water" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Attach to a Ship objective. (Counts as a Condition attachment with the text: `Forced: When attached objective exhausts, deal 2 damage to it. Action: Exhaust 3 characters to discard Taking on Water.`)"/>
+  </card>
+  <card id="33f456cb-3119-444b-9bbe-a0db4e5e5de1" name="Violent Tempest" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Hunt for the Dreadnaught"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Weather."/>
+    <property name="Text" value="When Revealed: Deal 1 damage to each enemy. Each player assigns X among characters they control. X is the number of exhausted characters they control."/>
+  </card>
+  <card id="42542310-5f9c-4897-8a12-bb270964087f" name="A Perilous Voyage">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Contract"/>
+    <property name="Text" value="Your minimum deck size is 100 cards.Your threat cannot be reduced by player card effects.Action: Exhaust this card and raise your threat by 1 to look at the top 2 cards of your deck, draw 1, and place the other on the bottom of your deck.Forced: When you would be eliminated by reaching your threat elimination level, flip this card over instead."/>
+    <alternate name="A Perilous Voyage" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Type" value="Contract"/>
+      <property name="Text" value="Your threat cannot be reduced by non-contract player card effects. Heroes you control do not exhaust to quest. Forced: When this card is flipped to this side, reduce your threat by 10. Search your deck for a card and either add it to your hand or play it, reducing its cost by 3. Shuffle your deck. "/>
+    </alternate>
+  </card>
+ </cards>
+</set>

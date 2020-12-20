@@ -121,6 +121,7 @@
   <card id="84b7e934-3d4d-4966-accf-c257c4413035" name="The Tunnels of Torech Gorgor" size="QuestCard">
     <property name="Card Number" value="92"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
     <property name="Type" value="Side Quest"/>
     <property name="Quest Points" value="3"/>
     <property name="Victory Points" value="10"/>
@@ -129,6 +130,7 @@
   <card id="ede538df-8c8e-44b6-bab2-3a60e8a50449" name="A Haunt for Beasts" size="QuestCard">
     <property name="Card Number" value="93"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
     <property name="Type" value="Side Quest"/>
     <property name="Quest Points" value="4"/>
     <property name="Victory Points" value="10"/>
@@ -137,6 +139,7 @@
   <card id="e0841275-753f-47bd-8d6d-807e4fb747ac" name="Overwhelming Darkness" size="QuestCard">
     <property name="Card Number" value="94"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Under the Ash Mountains"/>
     <property name="Type" value="Side Quest"/>
     <property name="Quest Points" value="6"/>
     <property name="Victory Points" value="10"/>

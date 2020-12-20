@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Land of Sorrow" id="a0d7569b-916c-409e-b180-91bbc5e078f3" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="00d61652-9003-4278-af72-7d4fab3dfa7c" name="Gwaihir">
+    <property name="Card Number" value="108"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Creature. Eagle."/>
+    <property name="Keywords" value="Ranged. Sentinel."/>
+    <property name="Cost" value="13"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Ranged. Sentinel.Cannot have restricted attachments. Gwaihir does not ready during the refresh phase.Response: After an Eagle ally enters or leaves play, ready Gwaihir. (Limit once per phase.)"/>
+  </card>
+  <card id="ff6ad982-2539-4ea3-ab76-fb5195bc7505" name="Hobbit Archer">
+    <property name="Card Number" value="109"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Hobbit. Archer."/>
+    <property name="Keywords" value="Ranged."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Ranged.Hobbit Archer gets +1 Û while attacking an enemy with a higher engagement cost thatn your threat."/>
+  </card>
+  <card id="1cb9b7ce-c138-4de6-b983-68485fb4ea0b" name="Red Book of Westmarch">
+    <property name="Card Number" value="110"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Artifact. Item."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="Attach to a Hobbit hero. Restricted.While attached hero is committed to the quest, each Hobbit character gets +1 Ò.Response: After you quest successfully, exhaust Red Book of Westmarch to add 1 resource to attached hero`s resource pool."/>
+  </card>
+  <card id="57615541-d34a-4fb8-950f-ce32867e4f6d" name="Dale Messenger">
+    <property name="Card Number" value="111"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Dale."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Dale Messenger enters play, choose a player. That player heals 1 damage from each character he controls with a player card attachment."/>
+  </card>
+  <card id="6cc4e51e-fc30-419f-aa2a-b74ba8e20861" name="Song of Healing">
+    <property name="Card Number" value="112"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Song."/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Attach to a hero. Limit 1 per hero.Action: Discard 1 card from your hand to heal 1 damage from attached hero. Any player may trigger this effect."/>
+  </card>
+  <card id="89a9b6e4-30ab-4113-b6e3-f58a819e6c69" name="Eagle Emissary">
+    <property name="Card Number" value="113"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Creature. Eagle."/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Cannot have restricted attachments.Forced: After Eagle Emissary quests successfully, pay 1 Ï resource or discard it from play."/>
+  </card>
+  <card id="c915a31d-d90d-4973-850b-b431224d1ef4" name="Bilbo's Plan">
+    <property name="Card Number" value="114"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Response: After you attack and destroy an enemy, shuffle the encounter discard pile into the encounter deck and discard cards from the top until an enemy is discarded. Add that enemy to the staging area to discard a non-unique location with $ equal to or less that that enemy`s $."/>
+  </card>
+  <card id="ad26f445-5cba-461c-8226-26a75cdf1891" name="Spare Pipe">
+    <property name="Card Number" value="115"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Item. Pipe."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a character.Attached character gets +1 hit point.Response: After you play Spare Pipe, search the top 5 cards of your deck for an event and add it to your hand. Shuffle your deck."/>
+  </card>
+  <card id="9f33a3f2-dc73-4c15-be88-24040bab91e7" name="Smoke and Think">
+    <property name="Card Number" value="116"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Action: Reduce the cost of the next card you play by 1 for each Pipe you control."/>
+  </card>
+  <card id="0ce032eb-b94b-4b3e-b395-470e00ade31b" name="Wilyador">
+    <property name="Card Number" value="117"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Creature. Eagle."/>
+    <property name="Keywords" value="Ranged. Sentinel."/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Ranged. Sentinel.Cannot have restricted attachments.Forced: At the end of the round, discard Wilyador unless the players as a group spend 1 resource."/>
+  </card>
+  <card id="cb3c0b3a-1c07-4da9-a65a-2e108d39736d" name="Ulwarth" size="EncounterCard">
+    <property name="Card Number" value="118"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling. Warden."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Immune to player card effects.Only the engaged player can declare attackers or defenders against Ulwarth.Allies cannot be declared as attackers or defenders against Ulwarth."/>
+  </card>
+  <card id="77833ba7-253c-4d4b-9c45-1764ce014dce" name="Lorgan" size="EncounterCard">
+    <property name="Card Number" value="119"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling. Warden."/>
+    <property name="Engagement Cost" value="29"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Immune to player card effects.Only the engaged player can declare attackers or defenders against Lorgan.Forced: After Lorgan attacks, raise each player`s threat by 1 (2 instead if this attack destroys a character."/>
+  </card>
+  <card id="79a9dd7a-48c9-4f29-9090-5edde6b5f038" name="Borlach" size="EncounterCard">
+    <property name="Card Number" value="120"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling. Warden."/>
+    <property name="Engagement Cost" value="33"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="9"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Immune to player card effects.Only the engaged player can declare attackers or defenders against Borlach.Forced: After Borlach attacks and destroys a character, any excess damage must be assigned among characters you control."/>
+  </card>
+  <card id="e839fa89-15b4-451f-9fac-6a8f38e31d65" name="The Barracks" size="EncounterCard">
+    <property name="Card Number" value="121"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Camp."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After The Barracks becomes the active location, add the enemy under it to the staging area. That enemy cannot take damage this round.Forced: When The Baracks is explored, the first player gains control of the objective ally it was guarding."/>
+  </card>
+  <card id="e33fbbde-d10b-4392-bc2e-bd4a39b5188e" name="Slave Quarters" size="EncounterCard">
+    <property name="Card Number" value="122"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Camp."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After Slave Quarters becomes the active location, the enemy under it engages the first player and makes an immediate attack.Forced: When Slave Quarters is explored, the first player gains control of the objective ally it was guarding."/>
+  </card>
+  <card id="8a703700-ca1b-46fa-b5fc-67544c5ad254" name="The Storehouse" size="EncounterCard">
+    <property name="Card Number" value="123"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Camp."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After The Storehouse becomes the active location, add the enemy under it to the staging area. That enemy gets +3 Û and -30 engagement cost until the end of the round.Forced: When The Storehouse is explored, the first player gains control of the objective ally it was guarding."/>
+  </card>
+  <card id="23befee6-1e3f-4955-826d-62562a5433ed" name="Edrahil">
+    <property name="Card Number" value="124"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective Ally"/>
+    <property name="Traits" value="Captive. Silvan."/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Immune to player card effects.Response: After Edrahil quests successfully, choose a player to draw 1 card.If Edrahil leaves play, the players lose the game."/>
+  </card>
+  <card id="1d7a27ca-e24b-4449-8f2c-3bb44b088330" name="Arador">
+    <property name="Card Number" value="125"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective Ally"/>
+    <property name="Traits" value="Captive. Gondor."/>
+    <property name="Willpower" value="0"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Immune to player card effects.Response: After Arador is declared as a defender, ready him. (Limit once per round.)If Arador leaves play, the players lose the game."/>
+  </card>
+  <card id="9b2c868d-9d09-4d1c-9383-e81b77fe4979" name="Farin">
+    <property name="Card Number" value="126"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective Ally"/>
+    <property name="Traits" value="Captive. Dwarf."/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Immune to player card effects.Response: After Farin is declared as an attacker against an enemy, deal 1 damage to an enemy engaged with a player.If Farin leaves play, the players lose the game."/>
+  </card>
+  <card id="99b98ca0-1320-4630-8791-984a578685d2" name="Easterling Guard" size="EncounterCard">
+    <property name="Card Number" value="127"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Archery 2."/>
+    <property name="Engagement Cost" value="32"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Archery 2.When Revealed: Assign X damage among characters in play. X is the current archery total."/>
+  </card>
+  <card id="90bdfcd8-0505-4f40-bf51-092f21525ef7" name="Nurn Slaver" size="EncounterCard">
+    <property name="Card Number" value="128"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Engagement Cost" value="23"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="While the number of Camp locations in the staging area is less than the number of players, Nurn Slavers gains surge."/>
+  </card>
+  <card id="7b261ec7-bc90-4bd3-884d-d14a44e88942" name="Working Fields" size="EncounterCard">
+    <property name="Card Number" value="129"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Working Fields is in the staging area, characters cannot be healed.Travel: Each player deals 1 damage to a character he controls."/>
+  </card>
+  <card id="7edae662-fc3f-40b3-868b-e5a43dbd0670" name="Watch Tower" size="EncounterCard">
+    <property name="Card Number" value="130"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Threat" value="X"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Watch Tower is in the staging area, it gains archery X.X is 1 more than the number of Captive objective allies the players control.Travel: Reveal the top card of the encounter deck."/>
+  </card>
+  <card id="1b5b129a-0c2c-4750-b1d6-dd3ea82acb84" name="Overseer's Whip" size="EncounterCard">
+    <property name="Card Number" value="131"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Surge.While attached to an enemy, counts as a Weapon attachment with the text: `Forced: When attached enemy attacks, deal 1 damage to an exhausted character you control.When Revealed: Attach to the Easterling enemy with the lowest engagement cost."/>
+  </card>
+  <card id="2d14c8ba-a35a-491b-867b-d43b5547f235" name="Cruelty of Mordor" size="EncounterCard">
+    <property name="Card Number" value="132"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player deals 1 damage to a character he controls. Then, each player must choose: either deal 1 damage to each damaged character you control, or raise your threat by 1 for each damaged character you control."/>
+  </card>
+  <card id="a9e14405-1ac0-4db8-8357-1ac2e9d59624" name="Broken Captives" size="EncounterCard">
+    <property name="Card Number" value="133"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Exhaust each damaged character. If no characters are exhausted by this effect, Broken Captives gains surge and Doomed 1."/>
+  </card>
+  <card id="1200dd24-3d0a-485d-baa3-6eac91f87779" name="Messenger of the King">
+    <property name="Card Number" value="134"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Contract"/>
+    <property name="Text" value="You cannot choose more than 2 heroes during setup.Setup: Choose a non-neutral unique ally from your deck and put it into play. Add the sum of that ally`s printed Ò, Û, Ú, and hit points to your starting threat. Then, flip this card over and attach it to that ally."/>
+    <alternate name="Messenger of the King" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Type" value="Contract"/>
+      <property name="Text" value="Attached ally loses the ally card type and gains the hero card type. Attached character cannot be readied more than once per phase. Messenger of the King is immune to card effects while attached character is in play. If attached character leaves play, remove Messenger of the King from the game. "/>
+    </alternate>
+  </card>
+  <card id="6566587d-e2ac-46e6-adbd-fe667b077136" name="Slaves of the Dark Lord" size="QuestCard">
+    <property name="Card Number" value="135"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Add each Camp location to the staging area. Attach a random Captive objective-ally to each Camp location as a guarded objective. Place 1 random Warden enemy faceup (but not in play) under each Camp location. Shuffle the encounter deck and discard cards from the top until X locations are discarded, where X is 1 less than the number of players. Add each location discarded this way to the staging area."/>
+    <alternate name="Slaves of the Dark Lord" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Land of Sorrow"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="15"/>
+      <property name="Text" value="Setup: Add each Camp location to the staging area. Attach a random Captive objective-ally to each Camp location as a guarded objective. Place 1 random Warden enemy faceup (but not in play) under each Camp location. Shuffle the encounter deck and discard cards from the top until X locations are discarded, where X is 1 less than the number of players. Add each location discarded this way to the staging area.Each Camp location is immune to player card effects, and player cannot travel there while a Warden enemy is in play.Forced: At the end of the round, raise each player`s threat by 1 for each Camp location in the staging area.This stage cannot be defeated unless players control all 3 Captive objective-allies."/>
+    </alternate>
+  </card>
+  <card id="744536a0-0ff0-47e8-b938-ee0f379b1370" name="Lead the Revolt" size="QuestCard">
+    <property name="Card Number" value="136"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Land of Sorrow"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The first player returns each Warden enemy in the victory display to the staging area. Each other player discards cards from the top of the encounter deck until he discards an enemy and adds that enemy to the staging area."/>
+    <alternate name="Lead the Revolt" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Land of Sorrow"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="When Revealed: The first player returns each Warden enemy in the victory display to the staging area. Each other player discards cards from the top of the encounter deck until he discards an enemy and adds that enemy to the staging area.This stage gets +10 quest points per player.Forced: After a player commits characters to the quest, if he is not engaged with a Warden enemy he must reveal an encounter card.This stage cannot be defeated while a Warden enemy is in play. When this stage is defeated, the players win the game."/>
+    </alternate>
+  </card>
+ </cards>
+</set>
