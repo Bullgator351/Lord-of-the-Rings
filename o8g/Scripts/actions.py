@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import time
 import re
+from collections import namedtuple
 
 # for XML parsing in loadDeckFromRingsDB
 import clr
@@ -181,8 +182,8 @@ def cardHere(x, y, checkOverlap=True):
 	for c in table:
 		cx, cy = c.position
 		if checkOverlap:
-			cw = c.width()
-			ch = c.height()
+			cw = c.width
+			ch = c.height
 		if overlaps(x, y, cx, cy, cw, ch):
 			return c
 	return None
@@ -359,12 +360,10 @@ def setPlayerDone(phase=-1, step=-1):
 	if step == -1:
 		step = shared.counters['Step'].value
 	me.setGlobalVariable("done", "{}.{}.{}.{}".format(getGlobalVariable("game"), shared.counters['Round'].value, phase, step))
-	updatePhase()
 	update()
 
 def clearPlayerDone():
 	me.setGlobalVariable("done", "")
-	updatePhase()
 	update()
 
 def isPlayerDone(p, phase=-1, step=-1):
@@ -434,8 +433,10 @@ def unloadDeck(group, x = 0, y = 0):
 #Triggered event OnLoadDeck
 # It is also explicitly called from loadDeckFromRingsDB so the same setup happens whether the player
 # deck was loaded from the menu bar or from RingsDB directly
-def deckLoaded(player, groups):
+def deckLoaded(args):
 	mute()
+	player = args.player
+	groups = args.groups
 	if player != me:
 		return
 
@@ -454,7 +455,7 @@ def deckLoaded(player, groups):
 		notify("{} Takes control of the encounter deck".format(me))
 		for p in shared.piles:
 			if shared.piles[p].controller != me:
-				shared.piles[p].setController(me)
+				shared.piles[p].controller = me
 		rnd(1,2) # This causes OCTGN to sync the controller changes!
 
 	# Wizard's Quest and Woodland Realm
@@ -496,7 +497,10 @@ def deckLoaded(player, groups):
 	#	playerSetup(table, 0, 0, isPlayer, isShared)
 
 #Triggered event OnChangeCounter
-def counterChanged(player, counter, oldV):
+def counterChanged(args):
+        player = args.player
+        counter = args.counter
+        oldV = args.value
 	if counter == shared.counters['Round']:
 		fp = getFirstPlayerToken()
 		if fp is not None and fp.controller == me:
@@ -504,7 +508,11 @@ def counterChanged(player, counter, oldV):
 
 #Triggered event OnPlayerGlobalVariableChanged
 #We use this to manage turn and phase management by tracking changes to the player "done" variable
-def globalChanged(player, var, oldV, newV):
+def globalChanged(args):
+	player = args.player
+        var = args.name
+	oldV = args.oldValue
+	newV = args.value
 	debug("globalChanged(player {}, Variable {}, from {}, to {})".format(player, var, oldV, newV))
 	if var == "done":
 		updatePhase(player)
@@ -745,7 +753,7 @@ def updatePhase(who=me):
 				#The first player token needs to move on in the refresh phase
 				if getFirstPlayerID() == playerID(me):
 					advanceFirstPlayer()
-				if me.isActivePlayer: # Anyone can act in the refresh phase
+				if me.isActive: # Anyone can act in the refresh phase
 					setActivePlayer(None)
 				if turnManagement() and not isPlayerDone(me, 7, 1): # Clear my refresh highlight if I'm not ready for phase 7
 					highlightPlayer(me, None)
@@ -761,9 +769,9 @@ def updatePhase(who=me):
 				highlightPlayers()
 	if phase == 7 or phase <= 0: #Refresh or Setup
 		if ready:
-			if me.isActivePlayer:
+			if me.isActive:
 				if shared.counters['Round'].value > 0: # Skip this on the first game because we did it during player setup
-					getPlayer(getFirstPlayerID()).setActivePlayer()
+					getPlayer(getFirstPlayerID()).setActive()
 				setActivePlayer(None)
 			if isEncounterPlayer:
 				# We really want all the other players to have completed running their call to this function before we advance the round
@@ -976,7 +984,7 @@ def advanceFirstPlayer():
 	if len(getPlayers()) > 1: #Put the first player token onto the table
 		x, y = firstHero(first).position
 		c = moveFirstPlayerToken(x, y+Spacing)
-		c.setController(first)
+		c.controller = first
 
 def resetEncounterDeck(group):
 	if group == specialDeck():
@@ -1006,7 +1014,7 @@ def addEncounterSpecial(group=None, x=0, y=0):
 def addToStagingArea(card, facedown=False, who=me):
 	#Check to see if there is already an encounter card here.
 	#If so shuffle it left to make room
-	ex = StagingStart + StagingWidth - card.width()
+	ex = StagingStart + StagingWidth - card.width
 	ey = StagingY
 	move = cardHere(ex, ey)
 	while move is not None:
@@ -1033,9 +1041,9 @@ def nextEncounter(group, x, y, facedown, who=me):
 	if x == 0 and y == 0:  #Move to default position in the staging area
 		addToStagingArea(card, facedown, who)
 	else:
-		card.moveToTable(x-card.width()/2, y-card.height()/2, facedown)
+		card.moveToTable(x-card.width/2, y-card.height/2, facedown)
 		notify("{} places '{}' on the table.".format(who, card))
-	card.setController(who)
+	card.controller = who
 	setReminders(card)
 	if len(group) == 0:
 		resetEncounterDeck(group)
@@ -1186,7 +1194,6 @@ def doNextRound():
 		resourceReminders()
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
-	mute()
 
 	if not getLock():
 		whisper("Others players are setting up, please try manual setup again (Ctrl+Shift+S)")
@@ -1197,7 +1204,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 		id = myID() #This ensures we have a unique ID based on our position in the setup order
 		heroCount = countHeroes(me)
 		if shared.counters['Round'].value == 0 and id == 0 and heroCount == 0: #First time actions
-			me.setActivePlayer()
+			me.setActive()
 			setFirstPlayer(id)
 
 		#Move Heroes to the table
@@ -1273,7 +1280,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 			if len(getPlayers()) > 1 and getFirstPlayerID() == playerID(me): #Put the first player token onto the table
 				x, y = firstHero(me).position
 				c = moveFirstPlayerToken(x, y+Spacing)
-				c.setController(me)
+				c.controller = me
 
 	#If we loaded the encounter deck - add the first quest card to the table
 	if doEncounter or encounterDeck().controller == me:
@@ -1434,9 +1441,9 @@ def flipcard(card, x = 0, y = 0):
 	#Quest cards have a different back - defined by the alternate (B) property
 	if card.alternates is not None and "B" in card.alternates:
 		if card.alternate == "B":
-			card.switchTo("")
+			card.alternate = ""
 		else:
-			card.switchTo("B")
+			card.alternate = "B"
 		if card.Type != "Location": questSetup(card) #Don't do setup for double-sided locations
 		notify("{} turns '{}' face up.".format(me, card))
 	elif card.isFaceUp:
@@ -1583,7 +1590,7 @@ def addShadow(card, x=0, y=0):
 			card.orientation &= ~Rot90
 			shadx, shady = card.position
 			card.moveToTable(shadx, shady+25)
-			card.setIndex(indx)
+			card.index = indx
 		notify("{} reveals shadow card '{}'".format(me, card))
 		return
 
@@ -1596,9 +1603,9 @@ def addShadow(card, x=0, y=0):
 		return
 
 	posx, posy = card.position
-	xoff = (card.width() - card.height())/2
-	yoff = card.width() - card.height()/2
-	if table.isTwoSided() and posy + card.height()/2 < 0 :
+	xoff = (card.width - card.height)/2
+	yoff = card.width - card.height/2
+	if table.isTwoSided() and posy + card.height/2 < 0 :
 		x = posx - xoff
 		y = posy - yoff
 		skip = -8
@@ -1632,7 +1639,7 @@ def dealShadow(who, x, y):
 	sc.moveToTable(x, y, True)
 	sc.orientation = Rot90
 	sc.sendToBack()
-	sc.setController(who)
+	sc.controller = who
 
 
 def discard(card, x=0, y=0):
@@ -1661,7 +1668,7 @@ def discard(card, x=0, y=0):
 	who = pile.controller
 	notify("{} discards '{}'".format(me, card))
 	if who != me:
-		card.setController(who)
+		card.controller = who
 		remoteCall(who, "doDiscard", [me, card, pile])
 	else:
 		doDiscard(who, card, pile)
@@ -1690,7 +1697,7 @@ def discardSpecial(card, x=0, y=0):
 	who = pile.controller
 	notify("{} discards '{}'".format(me, card))
 	if who != me:
-		card.setController(who)
+		card.controller = who
 		remoteCall(who, "doDiscard", [me, card, pile])
 	else:
 		doDiscard(who, card, pile)
@@ -1719,7 +1726,7 @@ def shuffleIntoDeck(card, x=0, y=0, player=me):
 	who=pile.controller
 	notify("{} moves '{}' to '{}'".format(me, card, pile.name))
 	if who != me:
-		card.setController(who)
+		card.controller = who
 		remoteCall(who, "doMoveShuffle", [me, card, pile])
 	else:
 		doMoveShuffle(me, card, pile)
@@ -2193,7 +2200,7 @@ def adjustCardsDrawn(group=None, x=0, y=0):
 def takeControlOfTargets(group=None, x=0, y=0):
 	for c in table:
 		if c.targetedBy == me:
-			c.setController(me)
+			c.controller = me
 			c.target(False)
 
 # The Woodland Realm / The Wizard's Quest Randomization
@@ -2374,4 +2381,6 @@ def loadDeckFromRingsDB(group, x=0, y=0):
 								me.piles['Discard Pile'].create(id, qty)
 
 		# call this so that it appears that this was "loaded" from the menu bar items
-		deckLoaded(me, [ me.hand, me.piles['Discard Pile'] ])
+                Arguments = namedtuple('Arguments', 'player groups')
+                args = Arguments(me, [ me.hand, me.piles['Discard Pile'] ])
+		deckLoaded(args)
