@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Escape from Khazad-dûm" id="61d323bb-6a5a-4ead-a6fb-153048a36b14" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="96e30879-9a56-428e-853d-93503f01ddb3" name="Out of the Depths" size="QuestCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Add Dark Pit to the staging area. The opposing team searches the encounter deck for one different 0-cost enemy or location per player and adds them to the staging area. Shuffle the encounter deck."/>
+    <alternate name="Out of the Depths" type="B" size="QuestCard">
+      <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="Shuffle the encounter deck.Forced: When Dark Pit is explored, flip it over and set Durin`s Bane aside, out of play. Each player searches the top 5 cards of his deck for a card, adds it to his hand, and shuffles his deck.This stage cannot be defeated while Dark Pit is in play."/>
+    </alternate>
+  </card>
+  <card id="bde125e7-6c33-4659-8713-e3374b93f414" name="Search for an Exit" size="QuestCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It`s `when revealed` effects cannot be canceled."/>
+    <alternate name="Old One Lair" type="B" size="QuestCard">
+      <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="When Revealed: The opposing team searchs the encounter deck and discard pile for an enemy with cost 2 or less, adds it to the staging area, and places a resources on it. Shuffle the encounter deck.The enemy with a resource on it is immune to player card effects, and progress cannot be placed on this stage while that enemy is in play."/>
+    </alternate>
+  </card>
+  <card id="a9cdd0bf-1d77-415c-8820-d4974ec02ee0" name="Search for an Exit" size="QuestCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It`s `when revealed` effects cannot be canceled."/>
+    <alternate name="A Wrong Turn" type="B" size="QuestCard">
+      <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="15"/>
+      <property name="Text" value="When Revealed: Each player chooses 1 card in his hand and shuffles the rest into his deck."/>
+    </alternate>
+  </card>
+  <card id="e30cfc82-bbb0-42f9-b25c-bc2152445368" name="Search for an Exit" size="QuestCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. It`s `when revealed` effects cannot be canceled."/>
+    <alternate name="A Way Up" type="B" size="QuestCard">
+      <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="Add the active location`s $ to the staging area.During the travel phase, the players must travel, if able."/>
+    </alternate>
+  </card>
+  <card id="2d34a913-e212-42c4-859b-2db9b2056276" name="Nearing the Gate" size="QuestCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Add the set-aside Durin`s Bane to the staging area. It cannot take damage this round. If there is more than 1 player, it makes an immediate attack against the first player."/>
+    <alternate name="The Bridge of Khazad-dum" type="B" size="QuestCard">
+      <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="No more than 5 progress can be placed here each round.Forced: At the beginning of the quest phase, Durin`s Bane makes an attack against the first player. Any undefended or excess damage dealt by this attack must be placed here.If this stage has damage on it equal to or greater than its quest points, the players lose the game. If this stage is defeated the players win the game."/>
+    </alternate>
+  </card>
+  <card id="ee118b36-0113-4c74-82b3-14f235914212" name="Nearing the Gate" size="QuestCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Add the set-aside Durin`s Bane to the staging area. It cannot take damage this round. If there is more than 1 player, it makes an immediate attack against the first player."/>
+    <alternate name="Last Lord of Moria" type="B" size="QuestCard">
+      <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="15"/>
+      <property name="Text" value="Durin`s Bane engages the first player.Durin`s Bane cannot take more than X damage per round, where X is the number of progress tokens on this stage.This stage cannot be defeated while Durin`s Bane is in play. If the players defeat this stage, they win the game."/>
+    </alternate>
+  </card>
+  <card id="187017b6-8632-49ee-9275-8126d313424e" name="Nearing the Gate" size="QuestCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Add the set-aside Durin`s Bane to the staging area. It cannot take damage this round. If there is more than 1 player, it makes an immediate attack against the first player."/>
+    <alternate name="The Rear Guard" type="B" size="QuestCard">
+      <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="Each player`s threat cannot be reduced by player card effects.Durin`s Bane is considered to be engaged with each player and attacks each player in turn order during the combat phase. (Deal and resolve a shadow card for each attack.)If the players defeat this stage, they win the game."/>
+    </alternate>
+  </card>
+  <card id="c90db37c-2fdf-4f69-b4a8-869064e4650b" name="Dark Pit" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="1"/>
+    <property name="Text" value="Immune to player card effects.Travel: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less instead if there are 2 or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its `when revealed` effects cannot be canceled."/>
+  </card>
+  <card id="846794c2-be0f-4016-b9fe-fe6266d7fddd" name="Durin's Bane" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Balrog."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="8"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="15"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Text" value="Immuned to player card effects.Cannot be optionally engaged.Forced: After Durin`s Bane attacks and destroys a character you control, raise your threat by 2 and heal 2 damage from Durin`s Bane."/>
+  </card>
+  <card id="55436edb-0e1f-4b25-a59e-1b131b408db4" name="Black Bats" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 15"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="23"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="When Revealed: Eithe raise each player`s threat by 2, or reveal an additional encounter card."/>
+  </card>
+  <card id="d83e852c-60cc-41b3-8904-25815bc1d2d5" name="Nest of Vermin" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 15"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Nest of Vermin is in the staging area, each Creature enemy gets +1 $.Forced: When Nest of Vermin is explored, the opposing team searches the encounter deck and discard pile for a Creature enemy with cost 1 or less and adds it to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="72025370-07e1-4797-acb2-1d2371a7f3b0" name="Swarm of Bats" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 15"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each character gets -1 Ò until the end of the phase."/>
+  </card>
+  <card id="6458d002-326f-45a6-af65-38025d301f07" name="Cave Spider" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 16"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Forced: When Cave Spider attacks, either remove 2 progress from the main quest, or Cave Spider gets +2 Û for this attack."/>
+  </card>
+  <card id="a7dd3c14-52fa-439c-8944-42728593c20c" name="The Mountain's Roots" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 16"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="X"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="X is 1 more than the stage number of the main quest.Travel: Each player discards the top X cards of his deck."/>
+  </card>
+  <card id="c7325b46-089b-4910-99cd-159eebc01a0c" name="Watchful Eyes" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 16"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team attaches Watchful Eyes to a hero. (Counts as a Condition attachment with the text: `Limit 1 per hero. Forced: If attached hero is exhausted at the end of the combat phase, reveal 1 card from the encounter deck.`)"/>
+  </card>
+  <card id="0ade7e4d-f04b-4e65-870e-f5d85e080130" name="Cave-troll" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 17"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Cannot have non-objective player card attachments.Allies cannot be declared as attackers or defenders against Cave-troll."/>
+  </card>
+  <card id="d679e2f4-1762-4177-a0f8-bb074a58a0cc" name="Twisting Passage" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 17"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="When Revealed: Discard the top card of the encounter deck. If that card is a location, add it to the staging area."/>
+  </card>
+  <card id="ee76f0c0-da20-402c-a1e6-8abd1504b56a" name="Undisturbed Bones" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 17"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Surge.When Revealed: Attach to the main quest. (Counts as a Condition attachment with the text, `Forced: When a `when revealed` effect would be canceled, discard Undisturbed Bones instead.`)"/>
+  </card>
+  <card id="0dc0486c-a0b9-4499-8b9f-03168db9bdb0" name="Old Stone-troll" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 18"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="33"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="8"/>
+    <property name="Text" value="Cannot have non-objective player card attachments.Forced: After Old Stone-troll attachs and destroys a character you control, raise your threat by 1 for each excess point of damage dealt."/>
+  </card>
+  <card id="c3a29d33-4096-4cce-871e-6673d2e4684e" name="Frightful Den" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 18"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Frightful Den is in the staging area, each Troll enemy gets -10 engagement cost.Forced: When Frightful Den is explored, the opposing team searches the encounter deck and discard pile for a Troll enemy with cost 1 or less and adds it to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="b28b1154-c486-4fbb-99c4-8db4e04983c6" name="Deep Deep Dark" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 18"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player must choose: either raise your threat by 1 for each character you control, or discard a character you control."/>
+  </card>
+  <card id="47744d79-27d4-4ea2-aee7-30597fb0b47f" name="Rock Adder" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 19"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="18"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Players cannot declare defenders against Rock Adder."/>
+  </card>
+  <card id="fd00d162-0c0e-4ddb-b58d-653813396c52" name="Bottomless Chasm" size="EncounterCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 19"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="When faced with the option to travel, the player must choose Bottomless Chasm, if able."/>
+  </card>
+  <card id="01500c6a-9f16-4226-b194-345174a3d11b" name="Lost and Alone" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 19"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team chooses a questing charactert controlled by each player and removes them from the quest."/>
+  </card>
+  <card id="11381200-d546-4d40-a826-2c6c901e8d61" name="Hobgoblin" size="EncounterCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 20"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Forced: After Hobgobling engages a player, it cannot take damage until the end of the round."/>
+  </card>
+  <card id="38632ac4-e8c7-4d1e-819a-d16b3522915a" name="Western Hall" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 20"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="Travel: Discard the top card of the encounter deck. Raise each player`s threat by X, where X is that card`s printed $."/>
+  </card>
+  <card id="b3405b30-27e3-4ba3-9518-9dec0f2b2eda" name="New Devilry" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 20"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Until the end of the round, treat each character`s text box as if it were blank, except for Traits."/>
+  </card>
+  <card id="9ce09230-e009-465f-9125-725f31c653b9" name="Unspeakable Thing" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 21"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Forced: When Unspeakable Thing attacks you, discard the top card of your deck. Unspeakable thing gets +X Û for this attack, where X is the discarded card`s printed cost."/>
+  </card>
+  <card id="977ebe93-58f5-44f9-81d8-66037501a86e" name="Lightless Grotto" size="EncounterCard">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 21"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Lightless Grotto is in the staging area, non-unique enemies in the staging area cannot take damage.Travel: The first player chooses an enemy in the staging area and engages it."/>
+  </card>
+  <card id="b899f859-3c09-4cb3-9adf-7fb57e46e7ad" name="Many Roads" size="EncounterCard">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 21"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team searches the encounter deck and discard pile for a different 0-cost location per player and adds them to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="8a2cbffd-43f8-4a61-9ccd-cb07293eac5f" name="Shadow Dweller" size="EncounterCard">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 22"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Cannot have non-objective player card attachments or take non-combat damage.Forced: When Shadow Dweller attacks you, discard the top card of your deck and assign X damage among character you control, where X is the discarded card`s cost."/>
+  </card>
+  <card id="4174df7e-5bb2-4b0f-9e35-d025f132d4a1" name="Branching Paths" size="EncounterCard">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 22"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="0"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="Branching Paths gets +1 $ for each location in the staging area. (Limit +3 $.)"/>
+  </card>
+  <card id="d2d3aeae-58ae-497e-bc44-70863d49f25d" name="Fatigue" size="EncounterCard">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 22"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player exhausts a character he controls. Until the end of the round, characters cannot be readied by player card effects."/>
+  </card>
+  <card id="2dc57c6f-fab3-4689-9398-332a22c13fa9" name="Elder Nameless Thing" size="EncounterCard">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 23"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="9"/>
+    <property name="Text" value="Cannot be optionally engaged.While Elder Nameless Thing is in the staging area, it gains: `Forced: After players have committed characters to the quest, Elder Nameless Thing makes an attack against the first player."/>
+  </card>
+  <card id="0a42a6ff-e693-484c-860d-3bc7e2780680" name="Silent Caverns" size="EncounterCard">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 23"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Silent Caverns is in the staging area, each player`s threat cannot be reduced by more than 1 each round.Travel: Raise each player`s threat by 2."/>
+  </card>
+  <card id="cc572a1a-2700-493c-9b82-309c9c9ba61c" name="Dark Places" size="EncounterCard">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 23"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Raise each player`s threat by X, where X is the threat of the active location. If there is no active location, Dark Places gains surge."/>
+  </card>
+  <card id="e4e35740-73ca-460d-bdbb-afcbc97e90d9" name="Orc Horn Blower" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 24"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="45"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Forced: At the beginning of the combat phase, deal each engaged enemy an additional shadow card."/>
+  </card>
+  <card id="11d44754-de69-4ecf-997e-593ef87521a9" name="Goblin Dungeon" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 24"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="When Revealed: The opposing team chooses an ally, discards all tokens from it, and places it faceup as a guarded objective. When Goblin Dungeon is explored, return that ally to its owner`s control exhausted."/>
+  </card>
+  <card id="a210439e-5670-476f-b933-c862b6e88602" name="Deep Fissure" size="EncounterCard">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 24"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player deals 1 damage to a questing character he controls and removes that character from the quest."/>
+  </card>
+  <card id="32deb3d1-afe3-4fbc-bd6c-30f139003cc7" name="Black Uruks" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 25"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="While Black Uruks is attacking, it gets +1 Û for each shadow card dealt for this attack."/>
+  </card>
+  <card id="8aa74679-5918-46ca-99b1-18cdb150f17d" name="Dreadful Gap" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 25"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Dreadful Gap is in the staging area, progress cannot be placed on other locations in the staging area.Travel: The opposing team chooses a card in the encounter discard pile and shuffles it into the encounter deck."/>
+  </card>
+  <card id="3a47aa88-5089-435d-b5ab-899dab400c98" name="Orcish Howls" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 25"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Exhaust X characters, where X is the number of Uruk enemies in play. If there are no Uruk enemies in play, Orcish Howls gains surge."/>
+  </card>
+  <card id="01dfa4f4-f3de-43b7-96d2-a6919b0c3491" name="Orc Raiders" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 26"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. uruk."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: After Orc Raider engages a player, deal it a shadow card."/>
+  </card>
+  <card id="ff0bc03a-e47d-4917-bf27-a0b97bc292ca" name="The Great Bridge" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 26"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While The Great Bridge is in the staging area, no more than 1 character can be declared as an attacker against each enemy.Forced: When The Great Bridge is explored, reveal 1 encounter card per player."/>
+  </card>
+  <card id="779079f4-d3a8-4832-9bd5-12e8ca828ba7" name="Vast and Intricate" size="EncounterCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 26"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team attaches Vast and Intricate to a non-unique location in the staging area. If there are no non-unique locations in the staging area, Vast and Intricate gains surge. (Counts as a Condition attachment with the text: `Attached location gets +2 $ and is immune to player card effects.`)"/>
+  </card>
+  <card id="36b82b22-4432-488a-8a88-d6486b7c75a3" name="Chieftain of the Pit" size="EncounterCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 27"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Uruk."/>
+    <property name="Engagement Cost" value="35"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="8"/>
+    <property name="Text" value="Cannot have non-objective player card attachments or take non-combat damage.Shadow effects cannot be canceled.Forced: When Chieftain of the Pit attacks, deal it an additional shadow card."/>
+  </card>
+  <card id="8be49f80-c3ca-44f0-92d1-15ff0ac6c25b" name="Forked Passage" size="EncounterCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 27"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Forked Passage is in the staging area, raise each player`s threat by 1 additional point during the refresh phase.Travel: Raise each player`s threat by 1."/>
+  </card>
+  <card id="8ffa3a89-6e0c-43e3-9ff6-e5db6fff4032" name="Chance Encounter" size="EncounterCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 27"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The highest Û enemy in the staging area makes an attack against the first player. If no attack is made this way, Chance Encounter gains surge."/>
+  </card>
+  <card id="9b83ddc0-9e95-4cbb-9428-8a209fc80bd2" name="Nameless Thing" size="EncounterCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 28"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="33"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="1"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Forced: After Nameless Thing enters play, the first player attaches the top card of his deck to it faceup as a guarded attached. Nameless Thing gets +X $, +X Û, and +X Ú, where X is that card`s printed cost. When Nameless Thing leaves play, discard that card."/>
+  </card>
+  <card id="935b596a-4e20-434c-89f5-8b3c20fcd241" name="Mithril Lode" size="EncounterCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 28"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Mitril Lode is the active location, it gains: `Response: When Mithril Lode is explored, each player adds 1 resource to the resource pool of a hero he controls."/>
+  </card>
+  <card id="b4cd6eea-17ec-4051-89b3-c4b735d8452f" name="A Foe Beyond" size="EncounterCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm 28"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team chooses an attachment controlled by a player and discards it. If no attachment is discarded this way, A Foe Beyond gains surge."/>
+  </card>
+ </cards>
+</set>

@@ -242,7 +242,7 @@
     <property name="Victory Points" value="5"/>
     <property name="Text" value="Quest Action: Exhaust Aragorn and Palantír of Orthanc to discard the top card of the encounter deck. If Aragorn’s Ò is greater than the discarded card’s $, you may add Palantír of Orthanc to the victory display and remove it from the campaign pool to choose a player. That player reveals 1 fewer encounter card this phase (to a minimum of 0)."/>
   </card>
-  <card id="c7ada690-5aa3-4855-b2c1-35e30336edac" name="Poisoned Counsels">
+  <card id="c7ada690-5aa3-4855-b2c1-35e30336edac" name="Poisoned Counsels" size="EncounterCard">
     <property name="Card Number" value="21"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Helm's Deep"/>
@@ -445,7 +445,7 @@
     <property name="Quest Points" value="4"/>
     <property name="Text" value="Forced: When Deeping Wall is explored, raise each player’s threat by 4."/>
   </card>
-  <card id="990e60bb-a627-4758-8230-81b40a57a382" name="Deeping Culvert">
+  <card id="990e60bb-a627-4758-8230-81b40a57a382" name="Deeping Culvert" size="EncounterCard">
     <property name="Card Number" value="39"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Helm's Deep"/>
@@ -759,7 +759,7 @@
     <property name="Text" value="When Revealed: Each player must choose: either return an enemy engaged with him to the staging area, or reveal an encounter card."/>
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. If this attack destroys a character, return attacking enemy to the staging area."/>
   </card>
-  <card id="ae2c5145-f34a-4367-bd41-1e5e7749fb68" name="Saruman's Voice" size="EncounterCard">
+  <card id="ae2c5145-f34a-4367-bd41-1e5e7749fb68" name="Saruman's Voice">
     <property name="Card Number" value="68"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Road to Isengard"/>

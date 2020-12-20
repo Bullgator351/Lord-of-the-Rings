@@ -776,7 +776,6 @@
     <property name="Card Number" value="74"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Contract"/>
-    <property name="Sphere" value="Neutral"/>
     <property name="Text" value="You cannot play non-unique allies or put non-unique allies into play. Forced: When you control exactly 9 unique characters, flip this card over."/>
     <alternate name="Fellowship" type="B">
       <property name="Encounter Set" value=""/>

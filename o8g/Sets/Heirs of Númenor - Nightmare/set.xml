@@ -177,7 +177,7 @@
     <property name="Text" value="While Dense Thickets is in the staging area, each Forest location in play gets +1 $."/>
     <property name="Shadow" value="Shadow: Excess damage dealt by this attack(damage that is dealt beyond the remaining hit points of the character damaged by this attack) must be assigned to a Ranger objective in play."/>
   </card>
-  <card id="73611bf0-cc37-418a-88bc-ed01624ab33d" name="Cormallen Fields">
+  <card id="73611bf0-cc37-418a-88bc-ed01624ab33d" name="Cormallen Fields" size="EncounterCard">
     <property name="Card Number" value="7"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Into Ithilien - Nightmare"/>

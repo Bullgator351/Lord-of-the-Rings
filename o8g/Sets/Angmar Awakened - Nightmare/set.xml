@@ -355,7 +355,7 @@
     <property name="Health" value="2"/>
     <property name="Shadow" value="Shadow: Put Undead Thrall into play engaged with the defending player and deal it a shadow card."/>
   </card>
-  <card id="37cd1ae2-e0fc-428b-9918-a4466f9a9d4c" name="Forgotten CourtYard" size="EncounterCard">
+  <card id="37cd1ae2-e0fc-428b-9918-a4466f9a9d4c" name="Forgotten CourtYard">
     <property name="Card Number" value="4"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Treachery of Rhudaur - Nightmare"/>

@@ -110,7 +110,7 @@
       <property name="Text" value="You are playing Nightmare Mode.&#10;&#10;While there is at least 1 card stacked underneath The Lonely Mountain, the players cannot advance to stage 3.&#10;Smaug the Magnificent cannot take damage unless A Bare Patch is attached to him."/>
     </alternate>
   </card>
-  <card id="424d4f29-d7c6-465f-9742-adb51177affc" name="Erebor Bats" size="EncounterCard">
+  <card id="424d4f29-d7c6-465f-9742-adb51177affc" name="Erebor Bats">
     <property name="Card Number" value="2"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>

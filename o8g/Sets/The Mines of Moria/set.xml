@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Mines of Moria" id="71544ab2-aa75-447d-b632-d9c353bd5b47" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="92058ab4-7e65-4c78-9124-7338bca432fd" name="To the West-door" size="QuestCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Each player adds 1 resource to each of his heroes` resource pools. Add The Watcher to the staging area."/>
+    <alternate name="To the West-door" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Mines of Moria"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="5"/>
+      <property name="Text" value="While this stage has at least 5 progress on it, The Watcher is considered to be engaged with each player and attacks each player in turn order during the combat phase. (Deal and resolve a shadow card for each attack.)Forced: When The Watcher is defeated, flip it over and add Chamber of Mazarbul to the staging area.This stage cannot be defeated while The Watcher is in play."/>
+    </alternate>
+  </card>
+  <card id="ed68974c-45ea-4378-9fe3-818cae03f9ea" name="Journey in the Black Pit" size="QuestCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its `when revealed` effects cannot be canceled."/>
+    <alternate name="A Presence in the Dark" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Mines of Moria"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="Forced: At the beginning of the staging step, the opposing team looks at the top 2 cards of the encounter deck, puts 1 on the bottom, and puts the other back on top."/>
+    </alternate>
+  </card>
+  <card id="35caf8b5-dc14-4b56-827c-d2d85a1d13df" name="Journey in the Black Pit" size="QuestCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its `when revealed` effects cannot be canceled."/>
+    <alternate name="The Long Dark of Moria" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Mines of Moria"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="When Revealed: The opposing team searches the encounter deck and discard pile for one different 0 cost location per player and adds them to the staging area. Shuffle the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="1920b1cc-8392-4fb6-9c9c-22b8bfd8d539" name="Journey in the Black Pit" size="QuestCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (2 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its `when revealed` effects cannot be canceled."/>
+    <alternate name="Narrow Paths" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Mines of Moria"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="When Revealed: The opposing team chooses an attachment controlled by each player and places them faceup under this stage as guarded objectives with blank text boxes. Players cannot play or put into play any attachment that shares a title with an attachment guarded by this stage. When this stage is defeated, return each guarded attachment to its owner`s hand."/>
+    </alternate>
+  </card>
+  <card id="4b339e45-503d-4eb9-b7a5-fb7dbe887c03" name="Search for the Chamber" size="QuestCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (cost 3 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its `when revealed` effects cannot be canceled."/>
+    <alternate name="Drums in the Deep" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Mines of Moria"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="When Revealed: The opposing team searches the encounter deck and discard pile for an enemy and adds it to the staging area.This stage cannot be defeated while an enemy is in play. When this stage is defeated, the players win the game."/>
+    </alternate>
+  </card>
+  <card id="287fb255-d104-450c-8159-4fa36e37ca93" name="Search for the Chamber" size="QuestCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (cost 3 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its `when revealed` effects cannot be canceled."/>
+    <alternate name="The Fate of Balin" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Mines of Moria"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="20"/>
+      <property name="Text" value="Forced: At the beginning of the staging step, the first player must choose: either reveal an additional encounter card this phase, or no more than 5 progress can be placed here this phase.This stage cannot be defeated while Chamber of Mazarbul is in play. When this stage is defeated, the players win the game."/>
+    </alternate>
+  </card>
+  <card id="aee4d9fb-2ef9-43b0-8459-1a390421052b" name="Search for the Chamber" size="QuestCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost 2 or less (cost 3 or less instead if there are two or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its `when revealed` effects cannot be canceled."/>
+    <alternate name="Continuing Eastward" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Mines of Moria"/>
+      <property name="Type" value="Quest"/>
+      <property name="Quest Points" value="15"/>
+      <property name="Text" value="Each location in the staging area gets +1 $ and +3 quest points.Forced: When the active location is explored, reveal the top card of the encounter deck.This stage cannot be defeated while Chamber of Mazarbul is in play. When this stage is defeated, the players win the game."/>
+    </alternate>
+  </card>
+  <card id="ecb91fb3-6ae6-4a96-9bb7-71abeb0a7ec5" name="The Watcher" size="EncounterCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Immune to player card effects.Cannot be optionally engaged.The Watcher gets +2 $ and +4 hit points per player."/>
+    <alternate name="Chamber of Mazarbul" type="B">
+      <property name="Encounter Set" value="The Mines of Moria"/>
+      <property name="Unique" value="‰"/>
+      <property name="Type" value="Location"/>
+      <property name="Traits" value="Underground."/>
+      <property name="Threat" value="X"/>
+      <property name="Quest Points" value="5"/>
+      <property name="Victory Points" value="5"/>
+      <property name="Text" value="X is 1 more than the stage number of the main quest.Immune to player card effects.The players cannot travel here unless they are at stage 3B.Travel: Each player discards 1 random card from his hand."/>
+    </alternate>
+  </card>
+  <card id="88e75969-9e5d-4b83-a535-d58409a473b2" name="Savage Werewolf" size="EncounterCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 01"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Werewolf."/>
+    <property name="Engagement Cost" value="32"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Forced: After Savage Werewolf is dealt a shadow card with no shadow effect, it makes an additional attack after this one. (Do not deal it a shadow card.)"/>
+  </card>
+  <card id="df7789f2-e7fd-45bd-a64f-fbd98a9ee146" name="Many-pillared Hall" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Mines of Moria 01"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="Many-pillared Hall gets +1 $ for each copy of Many-pillared Hall in the staging area."/>
+  </card>
+  <card id="f1b632df-ecaa-410a-b2c2-e037adc0ef2c" name="Shadow of Fear" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 01"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team attached Shadow of Fear to a hero. (Counts as a Condition attachment with the text: `Treat attached hero`s text box as if it were blank, except for Traits.`)"/>
+  </card>
+  <card id="bdfa990f-381b-4df3-bce6-71c46380223f" name="Deep-dweller" size="EncounterCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 02"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="23"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="When Revealed: Return each engaged Spider enemy to the staging area."/>
+  </card>
+  <card id="e99d2892-b6c4-422f-b630-4bf156a3f776" name="Darkened Stairway" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 02"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Darkened Stairway is in the staging area, it gains: `Forced: After a `when revealed` effect is canceled, reveal the top card of the encounter deck.`Travel: Discard the top card of the encounter deck. If that card is a treachery, resolve its `when revealed` effect."/>
+  </card>
+  <card id="9fdacc4b-5de7-4b03-af30-cee4d09769d7" name="We Cannot Get Out" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 02"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Until the end of the phase, add X $ to the staging area, where X is the number of characters controlled by the player with the most characters."/>
+  </card>
+  <card id="3ad34bfd-3f2b-4b23-b09d-232f4640ddeb" name="Spider Broodling" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Mines of Moria 03"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="18"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Forced: After Spider Broodling engages you, remove 2 progress from the main quest."/>
+  </card>
+  <card id="ff23f4ed-4fc9-4835-91f1-16e8ab0870f0" name="Spider Burrow" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 03"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Spider Burrow is in the staging area, each Spider enemy gets +1 Ú.Forced: When Spider Burrow is explored, the opposing team searches the encounter deck and discard pile for a Spider enemy with cost 1 or less and adds it to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="aaa16a82-e6b6-4563-a523-b8d61e40e273" name="Grabbed by Spiders" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 03"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Remove X characters from the quest, where X is the number of Spider enemies in play. If there are no Spider enemies in play, Grabbed by Spiders gains surge."/>
+  </card>
+  <card id="43777005-d391-48bc-b84d-d40932ffc66b" name="Moria Bats" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 04"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="13"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+  </card>
+  <card id="8ad1ecf9-3c76-46d6-b65f-9dad403c0960" name="Ancient Guardroom" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 04"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="Ancient Guardroom gets +1 $ for each resource on it.Forced: After an event is played, place 1 resource here.Travel: Assign X damage among characters in play, where X is Ancient Guardroom`s $."/>
+  </card>
+  <card id="0b0ab8a2-f531-4a68-96f8-408cc0b87924" name="Denizen of the Deep" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 04"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team attaches Denizen of the Deep to a non-unique enemy and returns it to the staging area. If there are no non-unique enemies in play, Denizens of the Deep gains surge. (Counts as Condition attachment with the text: `Attached enemy gets +1 $, +1 Û, +1 Ú and is immune to player card effects.)"/>
+  </card>
+  <card id="bb5afc96-9b41-4a8d-933d-1906e550243b" name="Werewolf" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 05"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature. Werewolf."/>
+    <property name="Engagement Cost" value="40"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Werewolf gets -10 engagement cost while there is an active location."/>
+  </card>
+  <card id="948774da-a350-40cc-bb09-aca2c3ad8dcd" name="Fouled Well" size="EncounterCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 05"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Fouled Well is in the staging area, characters cannot be readied by player card effects.Travel: Each player exhausts a character."/>
+  </card>
+  <card id="23008103-17e0-4108-ac5c-966f4ddd3469" name="Cave In" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 05"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Return the active location to the staging area. Each player assigns X damage among characters he controls, where X is the $ of that location. If no location is returned to the staging area this way, Cave In gains surge."/>
+  </card>
+  <card id="ff5c0c83-0791-48ad-b4c4-e3437470263c" name="Hive Guardian" size="EncounterCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 06"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="6"/>
+    <property name="Text" value="Forced: After Hive Guardian attacks and destroys an ally, return Hive Guardian to the staging area."/>
+  </card>
+  <card id="dab3229d-aadc-4c6d-a8a6-32a65d4e743b" name="Abandoned Mines" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Mines of Moria 06"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="While Abandoned Mines is in the staging area, progress cannot be placed here."/>
+  </card>
+  <card id="e723be8b-ba65-4aaa-ba56-825ee9311a0e" name="Sudden Pitfall" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 06"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team chooses and discards an ally. If no ally was discarded this way, Sudden Pitfall gains surge."/>
+  </card>
+  <card id="5d8db3c0-31da-4981-af11-1da3c6585bd8" name="Web-spinner" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 07"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Spider."/>
+    <property name="Engagement Cost" value="24"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="When Revealed: Either no more than 4 progress can be placed on the current quest this phase, or Web-spinner gains surge."/>
+  </card>
+  <card id="03b041ad-049a-44bb-9079-12b666e1afbc" name="Cobwebbed Cavern" size="EncounterCard">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 07"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="Travel: Remove 2 progress from the main quest."/>
+  </card>
+  <card id="fb897d38-fce6-4061-aaa5-9311eaadd8e5" name="Foul Air" size="EncounterCard">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 07"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The first player must choose: either deal 1 damage to each character committed to the quest, or raise each player`s threat by 1 and end the quest phase without resolving the quest."/>
+  </card>
+  <card id="f1a07644-9fe2-4764-9999-091fb8fc05b7" name="Brood Mother" size="EncounterCard">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 08"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="8"/>
+    <property name="Text" value="Cannot have non-objective player card attachments or take non-combat damage.While Brood Mother is in the staging area, no more than 5 progress can be placed on the main quest each round."/>
+  </card>
+  <card id="67221212-2af6-4729-a8d7-3ea575befcbb" name="Lightless Passage" size="EncounterCard">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 08"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Lightless Passage is in the staging area, no more than 1 progress can be placed on each location in the staging area each round.Travel: Each player discards 1 random card from his hand."/>
+  </card>
+  <card id="6bd6a282-9f43-4b12-a4bb-501f554daf2b" name="Dark and Dreadful" size="EncounterCard">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Mines of Moria 09"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player discards 1 random card from his hand. Until the end of the phase, add X $ to the staging area, where X is the total cost of the discarded cards."/>
+  </card>
+  <card id="0c7a9790-0c68-47c0-bcf8-ed4e04b14a25" name="Great Cave-troll" size="EncounterCard">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 09"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="36"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="9"/>
+    <property name="Text" value="Cannot have non-objective player card attachments.While Great Cave-troll is in the staging area, it gains: `Forced: At the end of the encounter phase, raise each player`s threat by 2.`"/>
+  </card>
+  <card id="736cf1d8-54bd-4bb1-8901-8b6f348a0355" name="Zigil Mineshaft" size="EncounterCard">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 09"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="5"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="Quest Action: Raise each player`s threat by 1 to reduce the total $ of Zigil Mineshaft by 1 until the end of the phase. The first player may trigger this effect."/>
+  </card>
+  <card id="986225d5-6fbb-4860-9fce-af74dd4eb551" name="Lurking Malice" size="EncounterCard">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 08"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Discard each resource from each hero`s resource pool. Add 1 to the total $ in the staging area for each resource discarded this way. If no resources were discarded this way, Lurking Malice gains surge."/>
+  </card>
+  <card id="569c0cc8-58e0-46ef-97b3-6d3aef65ed8b" name="Goblin Follower" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 10"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Goblin Follower cannot be optionally engaged.While Goblin Follower is in the staging area, it gains: `Forced: After an enemy engages a player, Goblin Follower engages that player."/>
+  </card>
+  <card id="c07b0737-1a39-45b9-a08a-879e741e2526" name="Stairs of Náin" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 10"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="While Stairs of Náin is in the staging area, the first treachery revealed each round gains surge and its `when revealed` effects cannot be canceled.Forced: When Stairs of Náin is explored, raise each player`s threat by 4."/>
+  </card>
+  <card id="027c61dd-3d54-4e11-af5f-19d4a63dd38e" name="Hidden Threat" size="EncounterCard">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 10"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a card with cost X or less, where X is the stage number of the main quest, and places that card facedown under the main quest. After the next time the players quest successfully, reveal that card."/>
+  </card>
+  <card id="0e6b6b6b-a58b-4e9d-8e9b-9e2ddb4592d9" name="Goblin Warlord" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 11"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="33"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="5"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="7"/>
+    <property name="Text" value="Cannot have non-objective player card attachments or take non-combat damageForced: After Goblin Warlord enters play, the opposing team searches the encounter deck and discard pile for a 0-cost Goblin enemy and adds it to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="95f27b98-6375-48ff-bf2b-3f625b3d1b0d" name="Dwarven Forge" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 11"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="While Dwarven Forge is the active location, it gains: `Response: After Dwarven Forge is explored, each player draws 1 card.`"/>
+  </card>
+  <card id="c67cae2c-941e-40ad-8c14-3cfc50267359" name="Signs of Conflict" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 11"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each enemy and location in the staging area gets +1 $ until the end of the phase."/>
+  </card>
+  <card id="d3eee887-e9fd-40f9-bd09-47a7b0732ee2" name="Goblin Archer" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 12"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="44"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="While Goblin Archer is in the staging area, it gains: `Forced: At the end of the encounter phase, assign X damage among characters in play, where X is the number of enemies in play.`"/>
+  </card>
+  <card id="32ac489f-7e40-47a0-acba-f199f3f5d8f7" name="Narrow Fissure" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 12"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Narrow Fissure is in the staging area, characters cannot be healed by player card effects.Travel: Each player deals 1 damage to a hero he controls."/>
+  </card>
+  <card id="b58d7e13-ee6b-4986-91f8-f4583490d364" name="Crumbling Ruin" size="EncounterCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 12"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player assigns X damage among characters he controls, where X is the number of characters he controls."/>
+  </card>
+  <card id="262f58ac-0e34-4d1c-b61b-1cae8358b2c7" name="Goblin Sneak" size="EncounterCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 13"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="22"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="When Revealed: The opposing team searches the top 5 cards of the encounter deck for a Goblin enemy with cost 1 or less and adds it to the staging area."/>
+  </card>
+  <card id="1e6bff06-79b2-4571-b584-c5b837176ded" name="Plundered Armoury" size="EncounterCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Mines of Moria 13"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="When Revealed: Discard the top card of the encounter deck. If that card is an enemy, add it to the staging area."/>
+  </card>
+  <card id="86180e01-76fb-4103-977c-0d55bbfc2250" name="They Are Coming!" size="EncounterCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 13"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The opposing team searches the encounter deck and discard pile for a different 0-cost enemy per player and adds them to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="2122c049-2c7d-470a-970c-f5a2a26ac66f" name="Swarming Goblins" size="EncounterCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Mines of Moria 14"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Orc. Goblin."/>
+    <property name="Engagement Cost" value="12"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="When Revealed: Return each copy of Swarming Goblins in the encounter discard pile to the staging area."/>
+  </card>
+  <card id="533a076a-be76-4528-9684-483d765bb2a3" name="Goblin Tunnels" size="EncounterCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 14"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Underground."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="While Goblin Tunnels is in the staging area, each Goblin enemy gets +1 Û.Forced: When Goblin Tunnels is explored, the opposing team searches the encounter deck and discard pile for a Goblin enemy with cost 1 or less and adds it to the staging area. Shuffle the encounter deck."/>
+  </card>
+  <card id="a643c446-15e1-4dc0-95f7-9146a59991b3" name="Massing in the Deep" size="EncounterCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Mines of Moria 14"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each engaged enemy makes an attack. If no attacks were made this way, Massing in the Deep gains surge."/>
+  </card>
+ </cards>
+</set>

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Fortress of Nurn" id="931675f0-f727-4024-b2ab-0683c7661946" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="950e710c-4b2f-4e65-9e5d-8f0f7390812c" name="Aragorn">
+    <property name="Card Number" value="137"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Hero"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Dúnedain. Ranger. Scout."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Cost" value="12"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Sentinel.Action: Exhaust Aragorn to choose a location in the staging area. Until the end of the phase, that location gets -X $, where X is Aragorn`s Ò. If this effect reduces the location`s $ to 0, place 1 progress on it. (Limit once per round.)"/>
+  </card>
+  <card id="c06f0513-459b-48ae-9e40-9a1a56e845ef" name="Shining Shield">
+    <property name="Card Number" value="138"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Traits" value="Armor. Item."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Attach to a Noble hero. Limit 1 per hero.Restricted.Attached hero gets +1 Ê (+2 Ê instead if your threat is 40 or higher)."/>
+  </card>
+  <card id="34e2863f-f5e4-47eb-b601-b727778563ea" name="Knowledge of the Enemy">
+    <property name="Card Number" value="139"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Leadership"/>
+    <property name="Cost" value="0"/>
+    <property name="Text" value="Planning Action: Choose a hero you control. Add 1 resource to its resource pool for each enemy engaged with you. You can only play 1 Knowledge of the Enemy each round."/>
+  </card>
+  <card id="8cd14645-20ad-4316-94cd-2381e828c68d" name="Haleth">
+    <property name="Card Number" value="140"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Traits" value="Woodman. Scout."/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Response: After Haleth quests successfully, search the top 5 cards of your deck for an attachment and add it to your hand. Shuffle your deck."/>
+  </card>
+  <card id="93199aaf-21a2-4935-9395-4dd76f541c3d" name="Woodman Lore">
+    <property name="Card Number" value="141"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Lore"/>
+    <property name="Cost" value="1"/>
+    <property name="Text" value="Action: Ready up to X Woodman characters you control, where X is the number of locations with player card attachments."/>
+  </card>
+  <card id="38420e0c-f73c-4df4-8161-c189fecb9114" name="Westfold Lancer">
+    <property name="Card Number" value="142"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Rohan. Warrior."/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Response: After Westfold Lancer quests successfully, discard it to choose a non-unique enemy in the staging area. Deal 2 damage to the chosen enemy."/>
+  </card>
+  <card id="a0f91e12-2137-4edf-bc85-37bd21c43097" name="Tireless Thoroughbred">
+    <property name="Card Number" value="143"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Tactics"/>
+    <property name="Traits" value="Mount."/>
+    <property name="Keywords" value="Restricted."/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="Attach to a Warrior character.Restricted.Attached character gains ranged and sentinel."/>
+  </card>
+  <card id="1fb6e46c-cd32-4435-a750-b1198ef5d9de" name="Misty Mountain Journeyman">
+    <property name="Card Number" value="144"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Ally"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Traits" value="Dúnedain. Scout."/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="2"/>
+    <property name="Attack" value="0"/>
+    <property name="Defense" value="0"/>
+    <property name="Health" value="1"/>
+    <property name="Text" value="You cannot play Misty Mountain Journeyman from your hand unless you are engaged with an enemy."/>
+  </card>
+  <card id="bedda85f-f07f-469a-b6f7-d59910210a86" name="A Desperate Path">
+    <property name="Card Number" value="145"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Sphere" value="Spirit"/>
+    <property name="Cost" value="2"/>
+    <property name="Text" value="At the end of the staging step, discard cards from the top of the encounter deck until you discard a treachery. Resolve its `when revealed` effects to ready each of your questing characters. Each of your questing characters gets +1 Ò until the end of the phase."/>
+  </card>
+  <card id="d03cfbbc-4bc5-4d9b-bcd4-6c64c8ca7abc" name="Thorongil">
+    <property name="Card Number" value="146"/>
+    <property name="Quantity" value="3"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Attachment"/>
+    <property name="Sphere" value="Neutral"/>
+    <property name="Traits" value="Title."/>
+    <property name="Cost" value="3"/>
+    <property name="Text" value="Attach to a non-☺, non-Í hero you control.Response: After you attach Thorongil to a hero, search your collection for a different non-☺, non-Í version of that hero and attach it to Thorongil. While Thorongil is in play, attached hero gains the game text and resource icon of the attached hero card. If Thorongil leaves play, remove the hero card attached to it from the game."/>
+  </card>
+  <card id="69897fb3-9152-4886-bb7d-e947fd0aa4f5" name="Bond of Friendship">
+    <property name="Card Number" value="147"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Contract"/>
+    <property name="Text" value="Your deck must be exactly 50 players cards and include exactly 10 cards from each of these four spheres: Ì, Î, Ê, and Ï. You cannot include more than 2 copies of any card by title in your deck.When choosing your starting heroes, you may choose 4 heroes instead of 3. Each of your heroes must belong to a different sphere."/>
+  </card>
+  <card id="015c235b-877b-4433-b979-99c4097ef784" name="Thane Ulchor" size="EncounterCard">
+    <property name="Card Number" value="148"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Engagement Cost" value="0"/>
+    <property name="Threat" value="X"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="12"/>
+    <property name="Victory Points" value="6"/>
+    <property name="Text" value="Immune to player card effects.X is 1 more than the number of Castle side quests in the victory display.Forced: After Thane Ulchor attacks, reveal the top card of the encounter deck."/>
+  </card>
+  <card id="2629ae83-bfb8-4be1-84a5-fa9e8b1fc20b" name="Soldier of Nurn" size="EncounterCard">
+    <property name="Card Number" value="149"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Mordor."/>
+    <property name="Engagement Cost" value="28"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Forced: After Soldier of Nurn attacks, place 1 card from your hand facedown under a Castle side quest."/>
+  </card>
+  <card id="2c32f4b8-83c7-4ac6-9401-3378a4ca530b" name="Easterling Mercenary" size="EncounterCard">
+    <property name="Card Number" value="150"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Easterling."/>
+    <property name="Engagement Cost" value="32"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="When Revealed: Either reveal an additional encounter card, or no progress can be placed on the current quest this phase."/>
+  </card>
+  <card id="43867521-f76f-48be-9911-a90ac0f539f6" name="Mordor Olog-hai" size="EncounterCard">
+    <property name="Card Number" value="151"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Troll."/>
+    <property name="Engagement Cost" value="34"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="6"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="9"/>
+    <property name="Text" value="Cannot have attachments.Forced: After Mordor Olog-hai attacks and destroys a character you control, exhaust a character you control."/>
+  </card>
+  <card id="67455bf8-25ea-453e-9066-58e66fdf0528" name="Guard Dogs" size="EncounterCard">
+    <property name="Card Number" value="152"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Engagement Cost" value="12"/>
+    <property name="Threat" value="1"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Surge.Forced: After Guard Dogs engages you, deal 1 damage to a character you control."/>
+  </card>
+  <card id="b645ea89-caa8-44ee-b290-fcd93204e838" name="Fortress Walls" size="EncounterCard">
+    <property name="Card Number" value="153"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="6"/>
+    <property name="Text" value="While Fortress Walls is in the staging area, the cost to play each ally is increased by 1.Travel: Each player places 1 card from his hand under a Castle side quest."/>
+  </card>
+  <card id="ab92ac2e-30e8-4eb2-9818-7d7efd3658aa" name="Guard Tower" size="EncounterCard">
+    <property name="Card Number" value="154"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While Guard Tower is in the staging area, players cannot draw cards or gain resources from player card effects.Travel: Each player exhausts a character he controls."/>
+  </card>
+  <card id="cb2e53d5-5a62-4a70-88b0-3ee464b397c2" name="Plaza of Nurn" size="EncounterCard">
+    <property name="Card Number" value="155"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="City."/>
+    <property name="Threat" value="X"/>
+    <property name="Quest Points" value="5"/>
+    <property name="Text" value="X is 1 more than the number of Castle side quests in the victory display.Travel: Each player assigns X damage characters he controls."/>
+  </card>
+  <card id="30a1913f-03e2-46fb-be6d-3b86064d1afd" name="Determined Defense" size="EncounterCard">
+    <property name="Card Number" value="156"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Until the end of the phase, add 2 $ to the staging area. Add 2 additional $ for each Castle side quest in the victory display."/>
+  </card>
+  <card id="aefb838f-b748-4249-8f24-8dce9e838880" name="The Dark Lord's Reach" size="EncounterCard">
+    <property name="Card Number" value="157"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Deal 1 damage to each exhausted character. Discard an attachment from each character damaged by this effect."/>
+  </card>
+  <card id="254444df-3e65-4531-b6db-2fdacd0788b4" name="The Dungeons of Dol Rhugar" size="QuestCard">
+    <property name="Card Number" value="158"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Surge.No more than 4 progress can be placed on the current quest each round.Response: When this stage is defeated, the first player chooses a Castle side quest. Each player looks at his facedown cards under that quest and adds 1 to his hand."/>
+  </card>
+  <card id="b56f7d39-ca8d-4979-baa6-8a2f875d6463" name="Assault on Dol Rhugar" size="QuestCard">
+    <property name="Card Number" value="159"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Player decks cannot exceed 50 cards. Create the Power of Mordor deck (see insert) and set it next to the quest deck. Each player puts 1 copy of Ulchor`s Guard into play engaged with him. Add Thane Ulchor and all 4 copies of the Storm the Castle side quest to the staging area. Place the top card of the Power of Mordor deck faceup under each side quest in play. Each player places 8 cards from top of his deck under the quest deck and each side quest in play."/>
+    <alternate name="Assault on Dol Rhugar" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Fortress of Nurn"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="3"/>
+      <property name="Text" value="Thane Ulchor cannot leave the staging area.While there are at least 3 progress tokens on this stage, it cannot be chosen as the current quest stage during the quest phase.This stage cannot be defeated unless it is the end of the round and there are 3 Castle side quests in the victory display."/>
+    </alternate>
+  </card>
+  <card id="ba090102-5f80-4dbc-aefd-2f965685e954" name="The Final Confrontation" size="QuestCard">
+    <property name="Card Number" value="160"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Reveal the top card of The Power of Mordor deck. Shuffle the encounter discard pile into the encounter deck. Thane Ulchor makes an immediate attack against each player in turn order. "/>
+    <alternate name="The Final Confrontation" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Fortress of Nurn"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="12"/>
+      <property name="Text" value="Encounter card effects cannot be canceled.The number of damage tokens on Than Ulchor cannot exceed the number of progress tokens here.When Thane Ulchor is defeated, the players win the game."/>
+    </alternate>
+  </card>
+  <card id="dc074506-e478-4b63-88e4-9d6e4f8eb6d4" name="Storm the Castle" size="QuestCard">
+    <property name="Card Number" value="161"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Traits" value="Castle."/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="The faceup encounter card underneath this quest is not in play.Forced: When this quest becomes the current quest, reveal the faceup encounter card under it. Then, flip this card ovewr and make it the current quest until the end of the phase."/>
+    <alternate name="Castle Garrison" type="B">
+      <property name="Encounter Set" value="The Fortress of Nurn"/>
+      <property name="Type" value="Side Quest"/>
+      <property name="Quest Points" value="6"/>
+      <property name="Text" value="When Revealed: Discard cards from the top of the encounter deck until X enemies are discarded, where X is the number of players. Add each enemy discarded this way to the staging area. When this stage is defeated, shuffle each player card underneath it into its owner's deck. Then, each player draws 1 card."/>
+    </alternate>
+  </card>
+  <card id="6860f9ad-0f09-450a-adf9-6ebe9b872a49" name="Storm the Castle" size="QuestCard">
+    <property name="Card Number" value="162"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Traits" value="Castle."/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="The faceup encounter card underneath this quest is not in play.Forced: When this quest becomes the current quest, reveal the faceup encounter card under it. Then, flip this card ovewr and make it the current quest until the end of the phase."/>
+    <alternate name="Lethal Counterattack" type="B">
+      <property name="Encounter Set" value="The Fortress of Nurn"/>
+      <property name="Type" value="Side Quest"/>
+      <property name="Quest Points" value="10"/>
+      <property name="Text" value="When Revealed: Deal 1 damage to each character in play. When this stage is defeated, shuffle each player card underneath it into its owner's deck. Then, each player draws 1 card. "/>
+    </alternate>
+  </card>
+  <card id="107805c4-6abf-4eb1-87fd-0ad7ffcfbf42" name="Storm the Castle" size="QuestCard">
+    <property name="Card Number" value="163"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Traits" value="Castle."/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="The faceup encounter card underneath this quest is not in play.Forced: When this quest becomes the current quest, reveal the faceup encounter card under it. Then, flip this card ovewr and make it the current quest until the end of the phase."/>
+    <alternate name="No Quarter" type="B">
+      <property name="Encounter Set" value="The Fortress of Nurn"/>
+      <property name="Type" value="Side Quest"/>
+      <property name="Quest Points" value="12"/>
+      <property name="Text" value="When Revealed: Each player randomly discards 4 of his cards from under this quest. Then, each player discards each card he controls, or holds in his hand, that share a title with one of the cards he just discarded. When this stage is defeated, shuffle each player card underneath it into its owner's deck. Then, each player draws 1 card. "/>
+    </alternate>
+  </card>
+  <card id="63f46289-b5ef-44d1-b6cb-ce382031a768" name="Storm the Castle" size="QuestCard">
+    <property name="Card Number" value="164"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Fortress of Nurn"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Traits" value="Castle."/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="The faceup encounter card underneath this quest is not in play.Forced: When this quest becomes the current quest, reveal the faceup encounter card under it. Then, flip this card ovewr and make it the current quest until the end of the phase."/>
+    <alternate name="Stronghold of Mordor" type="B">
+      <property name="Encounter Set" value="The Fortress of Nurn"/>
+      <property name="Type" value="Side Quest"/>
+      <property name="Quest Points" value="8"/>
+      <property name="Text" value="When Revealed: Discard cards from the top of the encounter deck until X locations are discarded, where X is the number of players. Added each location discarded this way to the staging area. When this stage is defeated, shuffle each player card underneath it into its owner's deck. Then, each player draws 1 card. "/>
+    </alternate>
+  </card>
+ </cards>
+</set>

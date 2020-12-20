@@ -460,10 +460,10 @@ def deckLoaded(player, groups):
 	# Wizard's Quest and Woodland Realm
 	for p in groups:
 		for card in p:
-			# Look for the Rhosgobel or Spider Den card, which will determine that the Wizard's Quest or Woodland Realm was loaded.
-			if card.model == '1a3c69f9-c973-4e4e-aa00-435c1f615393' or card.model == '35fb5564-b4a1-4730-9e4d-65bd2e6d43c4':
-				notify("Setting up The Wizard's Quest / The Woodland Realm.")
-				setupWizardsQuest(groups)
+			# Look for the Rhosgobel, Spider Den, The Watcher, or Dark Pit which will determine that a customizable quest was loaded.
+			if card.model == '1a3c69f9-c973-4e4e-aa00-435c1f615393' or card.model == '35fb5564-b4a1-4730-9e4d-65bd2e6d43c4' or card.model == 'ecb91fb3-6ae6-4a96-9bb7-71abeb0a7ec5' or card.model == 'c90db37c-2fdf-4f69-b4a8-869064e4650b':
+				notify("Setting up customizable quest.")
+				setupCustomizableQuest(groups)
 				update()
 				playerSetup(table, 0, 0, isPlayer, isShared)
 				return
@@ -1209,10 +1209,6 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 			if card.Type == "Contract":
 				card.moveToTable(heroX(id, heroCount), HeroY)
 				heroCount += 1
-				
-			if card.Type == "Ally":
-				card.delete()
-				continue
 			
 			if card.Type == "Hero":
 					
@@ -2007,7 +2003,7 @@ def setupTotDMap(group):
 
 
 # Wizard's Quest and Woodland Realm
-def setupWizardsQuest(groups):
+def setupCustomizableQuest(groups):
 	offset = [0]*28 # Define Offsets for each of the 28 encounter sets
 	StartX = StagingStart - 64 * 3
 	StartY = StagingY - 20
