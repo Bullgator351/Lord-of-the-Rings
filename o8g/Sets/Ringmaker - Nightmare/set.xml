@@ -30,7 +30,7 @@
     <property name="Text" value="Forced: After Boar Clan Ambusher attacks and destroys a character, discard a random card from your hand."/>
     <property name="Shadow" value="If this attack destroys a character, discard a random card from your hand."/>
   </card>
-  <card id="354f9e8d-aa47-4493-a697-b59f0bd178ea" name="Boar Clan Skirmisher">
+  <card id="354f9e8d-aa47-4493-a697-b59f0bd178ea" name="Boar Clan Skirmisher" size="EncounterCard">
     <property name="Card Number" value="3"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Dunland Trap - Nightmare"/>
