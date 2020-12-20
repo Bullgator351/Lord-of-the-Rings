@@ -1736,13 +1736,22 @@ def doMoveShuffle(player, card, pile):
 	shuffle(pile)
 
 def playCard(card, x=0, y=0):
-	if x == 0 and y == 0 and not eliminated(me):
+	mute()
+	if card.Type == "Ally" and x == 0 and y == 0 and not eliminated(me):
 		x, y = firstHero(me).position
 		x += Spacing
 		y += Spacing
+
+	blocked = cardHere(x, y, True)
+	while blocked is not None:
+		x += Spacing
+		blocked = cardHere(x, y, True)
+
+	notify("{} plays {}".format(me, card))		
 	card.moveToTable(x, y)
 	card.select()
-
+	if card.Type == "Attachment": card.sendToBack()
+		
 def swapCard(card):
 	draw(me.deck)
 	card.moveTo(me.deck)
