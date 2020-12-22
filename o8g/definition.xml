@@ -5,7 +5,7 @@
 	id="a21af4e8-be4b-4cda-a6b6-534f9717391f"
 	octgnVersion="3.1.162.361"
 	version="2.6.2.43"
-	scriptVersion ="3.1.0.2"
+	scriptVersion ="3.1.0.1"
 	markersize="16"
 	tags="LotR LCG cooperative"
 	description="The Lord of the Rings: The Card Game is a cooperative card game that puts 1-4 players in control of the most powerful characters and artifacts of Middle-earth.&#10;&#10;Players will select heroes, gather allies, acquire artifacts, and coordinate their efforts to face Middle-earth’s most dangerous fiends. By cooperating to overcome the obstacles drawn from the encounter deck, you will complete the quest before you and claim victory!"
@@ -19,9 +19,9 @@
 		<script src="scripts/saveload.py" />
 	</scripts>
 	<events>
-		<event name="OnGameStarted" action="startOfGame"/>
-		<event name="OnDeckLoaded" action="deckLoaded"/>
-		<event name="OnCounterChanged" action="counterChanged"/>
+		<event name="OnGameStart" action="startOfGame"/>
+		<event name="OnLoadDeck" action="deckLoaded"/>
+		<event name="OnChangeCounter" action="counterChanged"/>
 		<event name="OnPlayerGlobalVariableChanged" action="globalChanged"/>
 	</events>
 	<fonts>
@@ -41,6 +41,7 @@
 		<globalvariable name="game" value=""/>
 		<globalvariable name="playersSetup" value=""/>
 		<globalvariable name="currentPlayers" value="" />
+		<globalvariable name="done" value="" />
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />

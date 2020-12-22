@@ -164,11 +164,9 @@ def saveTable(group, x=0, y=0):
 		else:
 			filename = "Decks\Lord of the Rings - The Card Game".join(dir.rsplit('OCTGN',1))
 		
-                # Not everyone is running the latest version of OCTGN, so fall back to the old code if the
-                # new dialog is not available
-		filename = saveFileDlg('Save table state', filename, 'Json files (*.json) | *.json')
+		filename = askString('Please input the path to save the game state', filename)
 		
-		if not filename:
+		if filename == None:
 			return
 		
 		with open(filename, 'w+') as f:
@@ -190,17 +188,15 @@ def loadTable(group, x=0, y=0):
 		return
 	
 	try:
-		directory = wd('table-state.json')
-		if 'GameDatabase' in directory:
-			filename = directory.replace('GameDatabase','Decks').replace('a21af4e8-be4b-4cda-a6b6-534f9717391f','Lord of the Rings - The Card Game')
+		dir = wd('table-state.json')
+		if 'GameDatabase' in dir:
+			filename = dir.replace('GameDatabase','Decks').replace('a21af4e8-be4b-4cda-a6b6-534f9717391f','Lord of the Rings - The Card Game')
 		else:
-			filename = "Decks\Lord of the Rings - The Card Game".join(directory.rsplit('OCTGN',1))
+			filename = "Decks\Lord of the Rings - The Card Game".join(dir.rsplit('OCTGN',1))
 
-                # Not everyone is running the latest version of OCTGN, so fall back to the old code if the
-                # new dialog is not available
-		filename = openFileDlg('Load table state', filename, 'Json files (*.json) | *.json')
+		filename = askString('Please provide the file path to load the table states', filename)
 		
-		if not filename:
+		if filename == None:
 			return
 		
 		with open(filename, 'r') as f:
