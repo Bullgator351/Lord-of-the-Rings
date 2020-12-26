@@ -4,7 +4,7 @@
 	name="Lord of the Rings - The Card Game"
 	id="a21af4e8-be4b-4cda-a6b6-534f9717391f"
 	octgnVersion="3.1.162.361"
-	version="2.6.2.43"
+	version="2.6.2.62"
 	scriptVersion ="3.1.0.1"
 	markersize="16"
 	tags="LotR LCG cooperative"
@@ -21,6 +21,8 @@
 	<events>
 		<event name="OnGameStart" action="startOfGame"/>
 		<event name="OnLoadDeck" action="deckLoaded"/>
+		<event name="OnCardClick" action="cardClicked"/>
+		<event name="OnCardDoubleClick" action="defaultAction"/>
 		<event name="OnChangeCounter" action="counterChanged"/>
 		<event name="OnPlayerGlobalVariableChanged" action="globalChanged"/>
 	</events>
@@ -155,7 +157,6 @@
 		<cardaction menu="Lock/Unlock" default="False" shortcut="ctrl+K" execute="lockCard" />
 		<cardaction menu="Rotate Left" default="False" shortcut="F8" execute="rotateLeft" />
 		<cardaction menu="Rotate Right" default="False" shortcut="F9" execute="rotateRight" />
-		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<cardaction menu="Change Type to Hero" showIf="isAlly" default="False" execute="changeCardType" />
 		<cardaction menu="Change Type to Ally" showIf="isHero" default="False" execute="changeCardType" />
 		<groupactions menu="Random">

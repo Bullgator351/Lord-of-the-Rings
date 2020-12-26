@@ -1344,31 +1344,81 @@ def changeCardType(card, x=0, y=0):
 		return
 	notify("{} changed type of {} to {}.".format(me, card.Name, card.Type))
 
-def defaultAction(card, x = 0, y = 0):
+def defaultAction(card, mouseButton, keysDown):
 	mute()
+	if 'Q' in keysDown: 
+		addResource(card)
+		addResource(card)
+	if 'W' in keysDown: 
+		addProgress(card)
+		addProgress(card)
+	if 'E' in keysDown: 
+		addDamage(card)
+		addDamage(card)
+	if 'R' in keysDown: 
+		addWillpower(card)
+		addWillpower(card)
+	if 'T' in keysDown: 
+		addAttack(card)
+		addAttack(card)
+	if 'Y' in keysDown: 
+		addDefense(card)
+		addDefense(card)
+	if 'U' in keysDown: 
+		addThreat(card) 
+		addThreat(card)
+	if 'I' in keysDown: 
+		addTime(card)
+		addTime(card)
+	if 'A' in keysDown: 
+		subResource(card)
+		subResource(card)
+	if 'S' in keysDown: 
+		subProgress(card)
+		subProgress(card)
+	if 'D' in keysDown: 
+		subDamage(card)
+		subDamage(card)
+	if 'F' in keysDown: 
+		subWillpower(card)
+		subWillpower(card)
+	if 'G' in keysDown: 
+		subAttack(card)
+		subAttack(card)
+	if 'H' in keysDown: 
+		subDefense(card)
+		subDefense(card)
+	if 'J' in keysDown: 
+		subThreat(card)
+		subThreat(card)
+	if 'K' in keysDown: 
+		subTime(card) 
+		subTime(card)
+	if len(keysDown)>0:	return
+	
 	# Default for Done button is playerDone
 	if card.Type == "Internal": #No action - unless it is the done button
 		if card.model == "4a4206d6-2ede-4d4a-bb11-c97cceaa7665":
-			playerDone(table, x, y)
+			playerDone(table)
 	elif not card.isFaceUp: #Face down card - flip
-		flipcard(card, x, y)
+		flipcard(card)
 	elif card.orientation & Rot90 == Rot90: #Rotated card - refresh
-		kneel(card, x, y)
+		kneel(card)
 	elif card.Type == "Quest":
 		if len(card.properties['Quest Points']) == 0:
 			flipcard(card)
 		elif card.markers[Progress] >= num(card.properties['Quest Points']):
 			discard(card)
 		else:
-			addProgress(card, x, y)
+			addProgress(card)
 	elif card.Type == "Nightmare" or card.type == "Campaign":
 		flipcard(card)
 	elif card.Type == "Location" or card.Type == "Side Quest": #Add a progress token
-		addProgress(card, x, y)
+		addProgress(card)
 	elif card.Type == "Enemy": #Add damage
-		addDamage(card, x, y)
+		addDamage(card)
 	else:
-		kneel(card, x, y)
+		kneel(card)
 
 def kneel(card, x = 0, y = 0):
     mute()
@@ -1555,6 +1605,25 @@ def subToken(card, tokenType):
     mute()
     card.markers[tokenType] -= 1
     notify("{} removes a {} from '{}'".format(me, tokenType[0], card))
+	
+def cardClicked(card, mouseButton, keysDown):
+	if 'Q' in keysDown: addResource(card)
+	if 'W' in keysDown: addProgress(card)
+	if 'E' in keysDown: addDamage(card)
+	if 'R' in keysDown: addWillpower(card)
+	if 'T' in keysDown: addAttack(card)
+	if 'Y' in keysDown: addDefense(card)
+	if 'U' in keysDown: addThreat(card)
+	if 'I' in keysDown: addTime(card)
+	if 'A' in keysDown: subResource(card)
+	if 'S' in keysDown: subProgress(card)
+	if 'D' in keysDown: subDamage(card)
+	if 'F' in keysDown: subWillpower(card)
+	if 'G' in keysDown: subAttack(card)
+	if 'H' in keysDown: subDefense(card)
+	if 'J' in keysDown: subThreat(card)
+	if 'K' in keysDown: subTime(card)
+	
 
 def lockCard(card, x=0, y=0):
 	mute()
