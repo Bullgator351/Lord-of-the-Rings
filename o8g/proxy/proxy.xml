@@ -89,10 +89,10 @@
 		<text color="#FFFFFF" size="37" font="fonts/VafthrudnirLOTR.ttf" />
 		<wordwrap height="40" width="80" align="center" />
 	</block>
-	<block type="text" id="treasure_victory">
-		<location x="302" y="480" />
-		<text color="#FFFFFF" size="24" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="30" width="60" align="center" />
+    <block type="text" id="treasure_victory">
+		<location x="225" y="472" />
+		<text color="#000000" size="12" font="fonts/timesb.ttf" />
+		<wordwrap height="16" width="82" align="left" shrinktofit="True" />
 	</block>
 	<block type="text" id="attachment_cost">
 		<location x="8" y="35" />
