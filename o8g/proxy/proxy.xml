@@ -334,6 +334,9 @@
 	<block type="overlay" id="tactics_attachment" src="proxy/tactics_attachment.png">
 		<location x="0" y="0" />
 	</block>
+	<block type="overlay" id="boon_event" src="proxy/boon_event.png">
+		<location x="0" y="0" />
+	</block>
 	<block type="overlay" id="boon_attachment" src="proxy/boon_attachment.png">
 		<location x="0" y="0" />
 	</block>
@@ -491,6 +494,9 @@
 			<case value="Spirit">
 				<link block="spirit_event" />
 			</case>
+			<case value="Boon">
+				<link block="boon_event" />
+			</case>
 		  </switch>
 		</conditional>
 		<link block="dummy" />
@@ -560,9 +566,84 @@
 	  </link>
     </textblocks>
   </template>
+  <template src="proxy/enemy_nightmare.png" default="False">
+    <matches>
+      <match name="Type" value="Enemy" />
+      <match name="Sphere" value="Nightmare" />
+    </matches>
+    <textblocks>	  
+	  <link block="engagement">
+	   <property name="Engagement Cost" />
+	  </link>
+	  <link block="character_willpower">
+	   <property name="Threat" />
+	  </link>
+	  <link block="character_attack">
+	   <property name="Attack" />
+	  </link>
+	  <link block="character_defense">
+	   <property name="Defense" />
+	  </link>
+	  <link block="character_hitpoints">
+	   <property name="Health" />
+	  </link>
+	  <link block="character_name" separator="">
+	   <property name="Unique" />
+	   <property name="Name" />
+	  </link>
+	  <link block="traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="description" separator="&#10;">
+		<property name="Keywords" />
+		<property name="Text" />
+		<property name="Shadow" format="                               ~~~~~~~~~~&#10;{}"/>
+	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
   <template src="proxy/enemy.jpg" default="False">
     <matches>
       <match name="Type" value="Enemy" />
+    </matches>
+    <textblocks>	  
+	  <link block="engagement">
+	   <property name="Engagement Cost" />
+	  </link>
+	  <link block="character_willpower">
+	   <property name="Threat" />
+	  </link>
+	  <link block="character_attack">
+	   <property name="Attack" />
+	  </link>
+	  <link block="character_defense">
+	   <property name="Defense" />
+	  </link>
+	  <link block="character_hitpoints">
+	   <property name="Health" />
+	  </link>
+	  <link block="character_name" separator="">
+	   <property name="Unique" />
+	   <property name="Name" />
+	  </link>
+	  <link block="traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="description" separator="&#10;">
+		<property name="Keywords" />
+		<property name="Text" />
+		<property name="Shadow" format="                               ~~~~~~~~~~&#10;{}"/>
+	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/ship_enemy.png" default="False">
+    <matches>
+      <match name="Type" value="Ship Enemy" />
     </matches>
     <textblocks>	  
 	  <link block="engagement">
@@ -679,6 +760,72 @@
 	  </link>
     </textblocks>
   </template>
+  <template src="proxy/ship_objective.png" default="False">
+    <matches>
+      <match name="Type" value="Ship Objective" />
+    </matches>
+    <textblocks>
+	  <link block="objective_name" separator="">
+	   <property name="Unique" />
+	   <property name="Name" />
+	  </link>
+	  <link block="set">
+	   <property name="Encounter Set" />
+	  </link>
+	  <link block="encounter_traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="objective_description" separator="&#10;">
+		<property name="Keywords" />
+		<property name="Text" />
+		<property name="Shadow" format="                               ~~~~~~~~~~&#10;{}"/>
+	  </link>
+	  <link block="objective_victory">
+	   <property name="Victory Points" />
+	  </link>
+	  <link block="character_willpower">
+	   <property name="Willpower" />
+	  </link>
+	  <link block="character_attack">
+	   <property name="Attack" />
+	  </link>
+	  <link block="character_defense">
+	   <property name="Defense" />
+	  </link>
+	  <link block="character_hitpoints">
+	   <property name="Health" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/location_nightmare.png" default="False">
+    <matches>
+      <match name="Type" value="Location" />
+      <match name="Sphere" value="Nightmare" />
+    </matches>
+    <textblocks>
+	  <link block="location_name" separator="">
+	   <property name="Unique" />
+	   <property name="Name" />
+	  </link>
+	  <link block="encounter_traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="encounter_description" separator="&#10;">
+		<property name="Keywords" />
+		<property name="Text" />
+		<property name="Shadow" format="                               ~~~~~~~~~~&#10;{}"/>
+	  </link>
+	  <link block="location_threat">
+	   <property name="Threat" />
+	  </link>
+	  <link block="location_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
   <template src="proxy/location.jpg" default="False">
     <matches>
       <match name="Type" value="Location" />
@@ -701,6 +848,29 @@
 	  </link>
 	  <link block="location_points">
 	   <property name="Quest Points" />
+	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/treachery_nightmare.png" default="False">
+    <matches>
+      <match name="Type" value="Treachery" />
+      <match name="Sphere" value="Nightmare" />
+    </matches>
+    <textblocks>
+	  <link block="treachery_name" separator="">
+	   <property name="Unique" />
+	   <property name="Name" />
+	  </link>
+	  <link block="encounter_traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="encounter_description" separator="&#10;">
+		<property name="Keywords" />
+		<property name="Text" />
+		<property name="Shadow" format="                               ~~~~~~~~~~&#10;{}"/>
 	  </link>
 	  <link block="victory">
 	   <property name="Victory Points" />
@@ -759,6 +929,55 @@
 	   <property name="Cost" />
 	  </link>
 	  <link block="treasure_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/quest_nightmareA.png" default="False">
+    <matches>
+      <match name="Type" value="Quest" />
+      <match name="Sphere" value="Nightmare" />
+	  <match name="Engagement Cost" value="A" />
+    </matches>
+    <textblocks>
+	  <link block="quest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_stage">
+	   <property name="Cost" format="{}A"/>
+	  </link>
+	  <link block="encounter">
+	   <property name="Encounter Set" />
+	  </link>
+	  <link block="quest_description">
+	   <property name="Text" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/quest_nightmareB.png" default="False">
+    <matches>
+      <match name="Type" value="Quest" />
+      <match name="Sphere" value="Nightmare" />
+	  <match name="Engagement Cost" value="B" />
+    </matches>
+    <textblocks>
+	  <link block="quest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_stage">
+	   <property name="Cost" format="{}B"/>
+	  </link>
+	  <link block="encounter">
+	   <property name="Encounter Set" />
+	  </link>
+	  <link block="quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="quest_victory">
 	   <property name="Victory Points" />
 	  </link>
     </textblocks>
