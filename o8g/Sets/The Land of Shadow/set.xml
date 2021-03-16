@@ -157,7 +157,7 @@
     <property name="Cost" value="1"/>
     <property name="Text" value="Action: Ready the Ring-bearer to choose an enemy engaged with you. If the Ring-bearer's Ò is greater than that enemy's $, lower that enemy's Û and Ú by the difference until the end of the phase."/>
   </card>
-  <card id="c759124f-3bf2-4820-a1af-285c740c4a5b" name="Brace of Conies">
+  <card id="c759124f-3bf2-4820-a1af-285c740c4a5b" name="Brace of Coneys">
     <property name="Card Number" value="14"/>
     <property name="Quantity" value="4"/>
     <property name="Type" value="Event"/>
@@ -166,7 +166,7 @@
     <property name="Keywords" value="Play only if you control the Ring-bearer."/>
     <property name="Cost" value="0"/>
     <property name="Victory Points" value="1"/>
-    <property name="Text" value="Planning Action: Add Brace of Conies to the victory display to (choose 2): heal up to 2 damage from a hero, add 2 resources to a hero’s pool, choose a player to draw 2 cards, or reduce a player's threat by 2."/>
+    <property name="Text" value="Planning Action: Add Brace of Coneys to the victory display to (choose 2): heal up to 2 damage from a hero, add 2 resources to a hero’s pool, choose a player to draw 2 cards, or reduce a player's threat by 2."/>
   </card>
   <card id="8b9b03e6-0036-473a-bdb7-d2d8e74edc69" name="The Searching Eye" size="EncounterCard">
     <property name="Card Number" value="15"/>

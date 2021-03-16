@@ -520,6 +520,31 @@
 	  </link>
     </textblocks>
   </template>
+  <template src="proxy/attachment_fellowship.png" default="False">
+    <matches>
+      <match name="Type" value="Attachment" />
+      <match name="Sphere" value="Fellowship" />
+    </matches>
+    <textblocks>
+	  <link block="attachment_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="attachment_name" separator="">
+	   <property name="Unique" />
+	   <property name="Name" />
+	  </link>
+	  <link block="encounter_traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="encounter_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />
+	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
   <template src="proxy/attachment.jpg" default="False">
     <matches>
       <match name="Type" value="Attachment" />
@@ -1055,27 +1080,199 @@
 	  </link>
     </textblocks>
   </template>
-  <template src="proxy/encounter_side_quest.png" default="False">
+  <template src="proxy/player_side_quest_lore.png" default="False">
     <matches>
-      <match name="Type" value="Side Quest" />
+      <match name="Type" value="Player Side Quest" />
+      <match name="Sphere" value="Lore" />
     </matches>
     <textblocks>
-      <link block="encounter_side_quest_name">
+      <link block="sidequest_name">
 	   <property name="Name" />
 	  </link>
-	  <link block="encounter_side_quest_description" separator="&#10;">
+	  <link block="quest_description" separator="&#10;">
 	   <property name="Keywords" />
 	   <property name="Text" />	   
 	  </link>
-	  <link block="encounter_side_quest_points">
+	  <link block="sidequest_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="quest_points">
 	   <property name="Quest Points" />
 	  </link>
-	  <link block="encounter_side_quest_victory">
+	  <link block="quest_victory">
 	   <property name="Victory Points" />
 	  </link>
     </textblocks>
   </template>
-  <template src="proxy/sidequest.jpg" default="False">
+  <template src="proxy/player_side_quest_lore.png" default="False">
+    <matches>
+      <match name="Type" value="Side Quest" />
+      <match name="Sphere" value="Lore" />
+    </matches>
+    <textblocks>
+      <link block="sidequest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="sidequest_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="quest_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/player_side_quest_leadership.png" default="False">
+    <matches>
+      <match name="Type" value="Player Side Quest" />
+      <match name="Sphere" value="Leadership" />
+    </matches>
+    <textblocks>
+      <link block="sidequest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="sidequest_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="quest_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/player_side_quest_leadership.png" default="False">
+    <matches>
+      <match name="Type" value="Side Quest" />
+      <match name="Sphere" value="Leadership" />
+    </matches>
+    <textblocks>
+      <link block="sidequest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="sidequest_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="quest_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/player_side_quest_spirit.png" default="False">
+    <matches>
+      <match name="Type" value="Player Side Quest" />
+      <match name="Sphere" value="Spirit" />
+    </matches>
+    <textblocks>
+      <link block="sidequest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="sidequest_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="quest_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/player_side_quest_spirit.png" default="False">
+    <matches>
+      <match name="Type" value="Side Quest" />
+      <match name="Sphere" value="Spirit" />
+    </matches>
+    <textblocks>
+      <link block="sidequest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="sidequest_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="quest_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/player_side_quest_tactics.png" default="False">
+    <matches>
+      <match name="Type" value="Player Side Quest" />
+      <match name="Sphere" value="Tactics" />
+    </matches>
+    <textblocks>
+      <link block="sidequest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="sidequest_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="quest_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/player_side_quest_tactics.png" default="False">
+    <matches>
+      <match name="Type" value="Side Quest" />
+      <match name="Sphere" value="Tactics" />
+    </matches>
+    <textblocks>
+      <link block="sidequest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="sidequest_cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="quest_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/player_side_quest_neutral.png" default="False">
     <matches>
       <match name="Type" value="Player Side Quest" />
     </matches>
@@ -1094,6 +1291,26 @@
 	   <property name="Quest Points" />
 	  </link>
 	  <link block="quest_victory">
+	   <property name="Victory Points" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/encounter_side_quest.png" default="False">
+    <matches>
+      <match name="Type" value="Side Quest" />
+    </matches>
+    <textblocks>
+      <link block="encounter_side_quest_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="encounter_side_quest_description" separator="&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="encounter_side_quest_points">
+	   <property name="Quest Points" />
+	  </link>
+	  <link block="encounter_side_quest_victory">
 	   <property name="Victory Points" />
 	  </link>
     </textblocks>
