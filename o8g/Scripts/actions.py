@@ -2429,5 +2429,4 @@ def loadDeckFromRingsDB(group, x=0, y=0):
 		
 	except Exception as e:
 		whisper(str(e))
-		notify("""Unexpected error in loadDeckFromRingsDB. Please ping @JoJoTheDogFacedBoy in
-#tech-support on Discord with the deck URL that caused the issue"""
+		notify("""Unexpected error in loadDeckFromRingsDB. Please ping @JoJoTheDogFacedBoy in #tech-support on Discord with the deck URL that caused the issue""")
