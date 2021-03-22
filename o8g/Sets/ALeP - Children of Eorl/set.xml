@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="ALeP - Children of Eorl" id="8a3273ca-1ccd-4e07-913b-766fcc49fe6f" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" version="1.0.0">
+ <cards>
+  <card id="983b8cbc-9076-4e78-a9c3-e9b80fe91448" name="Dunland Chieftain" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dunlending Warriors"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dunland."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="4"/>
+    <property name="Health" value="6"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Text" value="Forced: After Dunland Chieftain engages a player, that player discards 1 random card from their hand. Then, that player discards each other copy of that card that is in their hand or under their control."/>
+  </card>
+  <card id="e9636ed5-dec9-42b5-864e-21f5c07bb975" name="Wild Ravager" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Dunlending Warriors"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dunland."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: At the beginning of the encounter phase, choose a random player. Wild Ravager engages that player."/>
+    <property name="Shadow" value="Shadow: Attacking enemy cannot take damage until the end of the round."/>
+  </card>
+  <card id="9cba1e58-ddd3-4839-9669-e8a27e56d8db" name="Dunlending Berserker" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Dunlending Warriors"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dunland."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Text" value="Forced: After Dunlending Berserker engages you, deal 1 damage to a hero you control and 1 damage to a non-unique enemy engaged with you."/>
+  </card>
+  <card id="f63a916e-19eb-4bec-8da4-388c75b331c8" name="Hillman Scout" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Dunlending Warriors"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dunland."/>
+    <property name="Keywords" value="Archery 2."/>
+    <property name="Engagement Cost" value="21"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="2"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Text" value="Forced: After Hillman Scout engages you, exhaust the ready ally you control with the highest printed cost."/>
+    <property name="Shadow" value="Shadow: Exhaust a character you control with 3 or more [attack]."/>
+  </card>
+  <card id="1769384c-47f0-49ed-81ef-2d34fbdeca61" name="Surprise Attack" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Dunlending Warriors"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="When Revealed: The next enemy engaged this round cannot take damage until the end of the round and returns to the staging area after it attacks this round."/>
+  </card>
+  <card id="1e3c2326-a08f-4fea-ac66-9c4af1c11cd3" name="A History of Strife" size="QuestCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dunlending Warriors"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Quest Points" value="4"/>
+    <property name="Victory Points" value="10"/>
+    <property name="Text" value="Each Dunland enemy gains “Forced: After this enemy engages you, discard a resource from a hero you control.”"/>
+  </card>
+  <card id="29e93b1e-ebc7-4a57-8a23-eb7ecaf915f5" name="Recreant Rider" size="EncounterCard">
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Faithless Rohirrim"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Rohan. Traitor."/>
+    <property name="Engagement Cost" value="31"/>
+    <property name="Threat" value="3"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: When Recreant Rider enters the staging area, it makes an immediate attack against the first player."/>
+    <property name="Shadow" value="Shadow: Return attacking enemy to the staging area after this attack."/>
+  </card>
+  <card id="0fa296fc-3e23-4b9f-8dce-fb1244f63aeb" name="Deadly Defector" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Faithless Rohirrim"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Rohan. Traitor."/>
+    <property name="Engagement Cost" value="38"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: At the end of the combat phase, if Deadly Defector is in the staging area, it makes an immediate attack against the last player."/>
+    <property name="Shadow" value="Shadow: If the attacking enemy is in the staging area, it makes an additional attack after this one."/>
+  </card>
+  <card id="88fa54fc-d94b-429b-8021-6ece29a5cea8" name="Erelas Beacon" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Objective"/>
+    <property name="Text" value="Forced: At the end of the combat phase, deal 1 damage to Erelas Beacon for each enemy in the staging area.&#10;&#10;Erelas Beacon has X hit points, where X is equal to 2, plus 3[pp]. If Erelas Beacon has no hit points remaining, the players lose the game."/>
+  </card>
+  <card id="aec6142a-e870-4dee-b112-902b2d59e9be" name="Host of Rohan" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Objective Ally"/>
+    <property name="Traits" value="Rohan."/>
+    <property name="Keywords" value="Sentinel."/>
+    <property name="Willpower" value="3"/>
+    <property name="Attack" value="4"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Text" value="Action: The players as a group may spend 2 resources to ready Host of Rohan. (Limit once per phase.)"/>
+  </card>
+  <card id="f0cf6716-96a4-4d2a-bc3e-80d0cf5add77" name="Enraged Dunlending" size="EncounterCard">
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Dunland."/>
+    <property name="Engagement Cost" value="30"/>
+    <property name="Threat" value="2"/>
+    <property name="Attack" value="3"/>
+    <property name="Defense" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Text" value="Forced: After Enraged Dunlending engages a player, deal 1 damage to Erelas Beacon."/>
+    <property name="Shadow" value="Shadow: Any damage dealt to the defending character by this attack is instead dealt to Erelas Beacon."/>
+  </card>
+  <card id="14dc5586-0684-4646-8538-f9768c3e5c7d" name="Bald Hill" size="EncounterCard">
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Hills."/>
+    <property name="Threat" value="2"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="While the players control the beacon, Bald Hill gets +3 [threat].&#10;&#10;Travel: If the players control the beacon, deal 2 damage to Erelas Beacon."/>
+  </card>
+  <card id="41ce70c2-f0be-423f-829d-2f5c4842f3ac" name="Wooden Barricade" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Gate."/>
+    <property name="Threat" value="1"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="While Wooden Barricade is in the staging area, it gains: “Forced: At the end of the combat phase, deal 1 damage to Erelas Beacon and place 1 progress on Wooden Barricade.”"/>
+    <property name="Shadow" value="Shadow: Either discard 2 attachments you control or deal 1 damage to Erelas Beacon."/>
+  </card>
+  <card id="ef5fe059-002a-4485-a17c-d73123a601cb" name="Rocky Slope" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Hills."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="3"/>
+    <property name="Text" value="After an encounter card effect is canceled, deal 1 damage to Erelas Beacon.&#10;&#10;Travel: The first player must discard all event cards from their hand."/>
+    <property name="Shadow" value="Shadow: Either discard all resources from heroes you control or deal 1 damage to Erelas Beacon."/>
+  </card>
+  <card id="0664def5-37d1-42f0-a2a6-f3d72b35de87" name="Surrounding Grassland" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Plains."/>
+    <property name="Keywords" value="Archery 1."/>
+    <property name="Threat" value="3"/>
+    <property name="Quest Points" value="2"/>
+    <property name="Text" value="Forced: After Surrounding Grassland leaves play as an explored location, if there are no copies of Surrounding Grassland in the staging area, add Surrounding Grassland to the staging area."/>
+  </card>
+  <card id="3de7be98-9bc8-4bec-b6c2-298fb7b44427" name="Narrow Stair" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Location"/>
+    <property name="Traits" value="Stair."/>
+    <property name="Threat" value="4"/>
+    <property name="Quest Points" value="4"/>
+    <property name="Text" value="Each player cannot declare more than 1 attacker during the combat phase.&#10;&#10;While Narrow Stair is the active location, each player cannot declare a defender for more than 1 attack during the combat phase."/>
+    <property name="Shadow" value="Shadow: Either attacking enemy gets +3 [attack] or deal 1 damage to Erelas Beacon."/>
+  </card>
+  <card id="b07567e2-1ada-4b51-b767-e5ce882a0741" name="From All Sides" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: Each player chooses: deal 1 damage to 4 different characters you contol or deal 1 damage to Erelas Beacon."/>
+    <property name="Shadow" value="Shadow: After this attack, either discard the defending character or deal 1 damage to Erelas Beacon."/>
+  </card>
+  <card id="27afff09-d1f0-488d-b5ce-b8a70cbd98da" name="Another Wave" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Surge. Doomed 1."/>
+    <property name="Text" value="When Revealed: If the players control the beacon, either deal 2 damage to Erelas Beacon or reveal an encounter card."/>
+    <property name="Shadow" value="Shadow: Either the attacking enemy makes an additional attack or deal 1 damage to Erelas Beacon."/>
+  </card>
+  <card id="62113d7c-c919-4767-bf9a-8766d23f3da4" name="Assault Upon Erelas" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="When Revealed: The first player chooses an enemy engaged with a player and returns it to the staging area. If no enemy was moved by this effect, either deal 1 damage to Erelas Beacon or Assault Upon Erelas gains surge."/>
+    <property name="Shadow" value="Shadow: Either raise your threat by 4 or deal 1 damage to Erelas Beacon."/>
+  </card>
+  <card id="53dcedb3-3640-4655-a150-9d0dd534a126" name="Reclaim the Beacon" size="QuestCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Side Quest"/>
+    <property name="Quest Points" value="-"/>
+    <property name="Text" value="The Dunlendings control the beacon. Enemies in the staging area cannot be optionally engaged or take damage.&#10;&#10;Cannot have more than X progress, where X is equal to 2, plus 1[pp]. If Reclaim the Beacon has X progress on it, flip it over (keeping all progress)."/>
+    <alternate name="Defend the Beacon" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Battle for the Beacon"/>
+      <property name="Type" value="Side Quest"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="The players control the beacon. Shadow cards are immune to player card effects.&#10;&#10;Cannot have more than X progress, where X is equal to 2, plus 1[pp].&#10;&#10;Response: Remove any amount of progress from Defend the Beacon to cancel an equal amount of damage just dealt to Erelas Beacon. Then, if Defend the Beacon has 0 progress, flip it over."/>
+    </alternate>
+  </card>
+  <card id="5866cf9b-6f5d-4929-bb90-a8875e92277b" name="Battle for the Hill" size="QuestCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="1"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="Setup: Set Host of Rohan aside, out of play. Add Erelas Beacon and 1 copy of Enraged Dunlending per player to the staging area. Add the double-sided side quest to the staging area, Reclaim the Beacon side faceup. Search the encounter deck for 1 copy of Surrounding Grassland and make it the active location. Shuffle the encounter deck."/>
+    <alternate name="Battle for the Hill" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Battle for the Beacon"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="1"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="12"/>
+      <property name="Text" value="Forced: After placing any amount of progress on this stage, each player must choose: exhaust a character you control or deal 1 damage to Erelas Beacon.&#10;&#10;This stage cannot be completed while the Dunlendings control the beacon."/>
+    </alternate>
+  </card>
+  <card id="72a2a2e9-dfff-4358-847b-a4fcd72f29be" name="Hold the Hilltop" size="QuestCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="2"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Set the number of progress on “Defend the Beacon” to X, where X is equal to 2, plus 1[pp]. Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the top of the encounter deck until an enemy is discarded and adds that enemy to the staging area."/>
+    <alternate name="Hold the Hilltop" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Battle for the Beacon"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="2"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="Time 3.&#10;&#10;Forced: At the end of the round, deal 1 damage to Erelas Beacon (2 damage instead if there are 3 or more players in the game). Then, if there are no time counters on this stage, immediately advance to stage 3.&#10;&#10;Forced: After Defend the Beacon is chosen as the current quest, reveal an encounter card.&#10;&#10;If the Dunlendings control the beacon, the players lose the game."/>
+    </alternate>
+  </card>
+  <card id="ec28d3c0-20da-4533-baba-a6551367480e" name="The Final Push" size="QuestCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Battle for the Beacon"/>
+    <property name="Type" value="Quest"/>
+    <property name="Cost" value="3"/>
+    <property name="Engagement Cost" value="A"/>
+    <property name="Text" value="When Revealed: Remove all progress from Defend the Beacon and flip it over. Put Host of Rohan into play under the first player’s control. Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the encounter deck until an enemy is discarded and adds that enemy to the staging area."/>
+    <alternate name="The Final Push" type="B" size="QuestCard">
+      <property name="Encounter Set" value="The Battle for the Beacon"/>
+      <property name="Type" value="Quest"/>
+      <property name="Cost" value="3"/>
+      <property name="Engagement Cost" value="B"/>
+      <property name="Quest Points" value="-"/>
+      <property name="Text" value="Add +2 [threat] to the staging area for each damage on Erelas Beacon.&#10;&#10;Forced: At the beginning of the combat phase, each engaged enemy makes an immediate attack.&#10;&#10;Forced: After a character leaves play, deal 1 damage to Erelas Beacon.&#10;&#10;At the end of the round, if the Dunlendings control the beacon, the players lose the game, and if the players control the beacon, they win the game."/>
+    </alternate>
+  </card>
+  <card id="b5c1b317-0db5-4ae2-81be-5639c332305d" name="The Battle for the Beacon 1">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Rules"/>
+    <property name="Text" value="The brigand fell into the dirt, his face stained with a look of pain and disappointment.&#10;&#10;“He wasn’t cursing us,” said the hero. “Galmod, he was taunting us. He was telling us where they plan to strike next.”&#10;&#10;“Not strike,” said another. “Struck.”&#10;&#10;There need be no more words. Morwen stood, her face mottled with ash and blood and soil. She looked to the hilltop in the distance and saw the dark shapes of men working furtively, half-masked by the haze of night. “Erelas,” she said. “The beacon. They’ve captured the beacon.”&#10;&#10;&#10;&#10;Difficulty level = 7&#10;&#10;Racing toward the hill of Erelas, the heroes felt a surge of fear. The beacon atop the hill had been guarded by only a token force, hardly enough to handle a surprise attack like this. What had long stood as a signal of peace and safety was now crawling with Dunlendings.&#10;&#10;Soon the heroes had left behind the encampment and began the arduous climb up the hill. Here and there the hill was girdled by a narrow stair carved in stone, but"/>
+    <alternate name="The Battle for the Beacon 1" type="B">
+      <property name="Type" value="Rules"/>
+    </alternate>
+  </card>
+  <card id="e9860b32-8bff-4217-be96-debedce09aae" name="The Battle for the Beacon 2">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Rules"/>
+    <property name="Text" value="elsewhere the pathway had fallen into disrepair, and the masonry gave way to bare slate and slick moss. The heroes and their companions climbed chiefly in silence.&#10;&#10;“What could they want with the beacon?” mumbled Galmod, his back hunched as he climbed a rocky slope toward the beacon.&#10;&#10;“Nothing good,” said one of the heroes. “It is used as a signal between Minas Tirith and Anórien. While it is captured, any call for aid or warning of attack would be long-delayed.”&#10;&#10;By the time they arrived at the edge of the beacon’s platform, the heroes could overhear their enemies conversing brokenly in the language of the Rohirrim.&#10;&#10;One of the heroes raised her head to peer into the darkness over a crumbling balustrade. A crew of scowling Dunlendings were addressing a Rohirrim rider wearing a helm with a white plume. The Rohirrim kept one hand on the pommel of his blade. “You are late,” he said.&#10;&#10;“Trouble in the camp below,” said one of the Dunlendings.&#10;&#10;“You straw-heads put up a fight,” said another."/>
+    <alternate name="The Battle for the Beacon 2" type="B">
+      <property name="Type" value="Rules"/>
+    </alternate>
+  </card>
+  <card id="26358dc8-d50d-4809-ba45-f4ef921147f8" name="The Battle for the Beacon 3">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Rules"/>
+    <property name="Text" value="“And you dealt with them?” said the Rohirrim.&#10;&#10;“Dead.”&#10;&#10;“Have you brought the payment?” The Rohirrim extended his hand, and one of the Dunlendings begrudgingly clapped a purse of coins into it. “Then the beacon is yours.” He tossed the pouch into the air and caught it in one hand.&#10;&#10;Signalling a cadre of his fellow warriors, the rider strolled past the Dunlendings. “Make it look convincing,” he said.&#10;&#10;“Treachery among the ranks,” whispered the hero.&#10;&#10;“They shall pay with their lives for turning against kith and king,” said Galmod. “May the blood of Eorl rebel against their very veins. Let us take the hill and light this valley with the death-pyres of traitors.”&#10;&#10;“Calm, Galmod.” One of the heroes notched an arrow. “It is more important to hold the beacon than to seek revenge.”&#10;&#10;“Then prepare yourselves,” said Galmod, drawing his sword. “For true queen and honored kin. For the sons and daughters of Rohan!”"/>
+    <alternate name="The Battle for the Beacon 3" type="B">
+      <property name="Type" value="Rules"/>
+    </alternate>
+  </card>
+  <card id="cf4d1463-8c63-4650-b3ba-e1f717180628" name="The Battle for the Beacon 4">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Rules"/>
+    <property name="Text" value="“The Battle for the Beacon” is played with an encounter deck built with all the cards from the following encounter sets: The Battle for the Beacon, Dunlending Warriors, and Faithless Rohirrim. These sets are indicated by the following icons:&#10;&#10;&#10;&#10;&#10;&#10;&#10;After hours of bloody fighting, the sun rose above the bald hill of Erelas. There, joined at last by Galmod’s scouts, the heroes took stock of the battlefield.&#10;&#10;“There were traitor Rohirrim among this group,” said one of the heroes.&#10;&#10;“But how could they betray their kingdom?” said another. “And to what end?”&#10;&#10;“There is a conspiracy afoot,” said Queen Morwen. “Though how vast the net and how many of us shall be ensnared, I cannot guess.”"/>
+    <alternate name="The Battle for the Beacon 4" type="B">
+      <property name="Type" value="Rules"/>
+    </alternate>
+  </card>
+  <card id="9e9d5155-c037-41c2-ba44-be6ef46624ba" name="The Battle for the Beacon 5">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Rules"/>
+    <property name="Text" value="Galmod nudged the body of one of the slain enemies with the tip of his boot. “This one wears an odd sigil. A white horse on a field of red.” His hands grasped the enemy’s cape and tore it from the traitor’s shoulders. He began to fold it. “This is not over,” he said.&#10;&#10;“Rogues,” said Morwen. “We must return to Edoras at once.”&#10;&#10;At this, one of Galmod’s riders spoke up. “This brings the reason for our delay, my queen. On our scouting, we intercepted a messenger from Aldburg. He brought word that an orc-host has crossed the Anduin and begun raiding in the Eastfold.”&#10;&#10;“Just as Thorongil warned,” sneered Galmod. “Perhaps the ranger bore some wisdom after all.”&#10;&#10;“Then we must make haste to Aldburg,” said Morwen. “For our wick is now burning from both ends. If we cannot beat back these raiders, I fear we will crumble from within.”"/>
+    <alternate name="The Battle for the Beacon 5" type="B">
+      <property name="Type" value="Rules"/>
+    </alternate>
+  </card>
+ </cards>
+</set>
