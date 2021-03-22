@@ -14,12 +14,12 @@
     <block type="text" id="victory">
 		<location x="273" y="475" />
 		<text color="#000000" size="12" font="fonts/timesb.ttf" />
-		<wordwrap height="16" width="82" align="left" shrinktofit="True" />
+		<wordwrap height="16" width="82" shrinktofit="True" />
 	</block>
     <block type="text" id="objective_victory">
 		<location x="260" y="465" />
 		<text color="#000000" size="12" font="fonts/timesb.ttf" />
-		<wordwrap height="16" width="82" align="left" shrinktofit="True" />
+		<wordwrap height="16" width="82" shrinktofit="True" />
 	</block>
     <block type="text" id="hero_cost">
 		<location x="48" y="36" />
@@ -92,7 +92,7 @@
     <block type="text" id="treasure_victory">
 		<location x="225" y="472" />
 		<text color="#000000" size="12" font="fonts/timesb.ttf" />
-		<wordwrap height="16" width="82" align="left" shrinktofit="True" />
+		<wordwrap height="16" width="82" shrinktofit="True" />
 	</block>
 	<block type="text" id="attachment_cost">
 		<location x="8" y="35" />
@@ -192,12 +192,12 @@
     <block type="text" id="quest_victory">
 		<location x="415" y="337" />
 		<text color="#000000" size="12" font="fonts/timesb.ttf" />
-		<wordwrap height="16" width="82" align="left" shrinktofit="True" />
+		<wordwrap height="16" width="82" shrinktofit="True" />
 	</block>
     <block type="text" id="encounter_side_quest_victory">
 		<location x="415" y="332" />
 		<text color="#000000" size="12" font="fonts/timesb.ttf" />
-		<wordwrap height="16" width="82" align="left" shrinktofit="True" />
+		<wordwrap height="16" width="82" shrinktofit="True" />
 	</block>
 	<block type="text" id="objective_name">
 		<location x="40" y="32" />
