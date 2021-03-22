@@ -49,7 +49,6 @@
     <property name="Quantity" value="3"/>
     <property name="Type" value="Side Quest"/>
     <property name="Sphere" value="Tactics"/>
-    <property name="Cost" value="1"/>
     <property name="Quest Points" value="6"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Limit 1 copy of Keep Watch in the victory display.&#10;While this side quest is in the victory display, each non-unique enemy engaged with a player gets -1 Û. "/>

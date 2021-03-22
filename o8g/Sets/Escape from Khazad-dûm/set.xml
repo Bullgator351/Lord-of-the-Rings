@@ -130,19 +130,21 @@
     <property name="Threat" value="1"/>
     <property name="Quest Points" value="1"/>
     <property name="Text" value="Immune to player card effects.Travel: The opposing team searches the top 5 cards of the encounter deck for a card with cost 1 or less (cost 2 or less instead if there are 2 or more players), sets it aside, and shuffles the encounter deck. Reveal the set aside card. Its `when revealed` effects cannot be canceled."/>
-    <alternate name="Durin's Bane" type="B">
-      <property name="Encounter Set" value="Escape from Khazad-dûm"/>
-      <property name="Unique" value="‰"/>
-      <property name="Type" value="Enemy"/>
-      <property name="Traits" value="Balrog."/>
-      <property name="Engagement Cost" value="50"/>
-      <property name="Threat" value="4"/>
-      <property name="Attack" value="8"/>
-      <property name="Defense" value="3"/>
-      <property name="Health" value="15"/>
-      <property name="Victory Points" value="5"/>
-      <property name="Text" value="Immuned to player card effects.Cannot be optionally engaged.Forced: After Durin`s Bane attacks and destroys a character you control, raise your threat by 2 and heal 2 damage from Durin`s Bane."/>
-    </alternate>
+  </card>
+  <card id="846794c2-be0f-4016-b9fe-fe6266d7fddd" name="Durin's Bane" size="EncounterCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Escape from Khazad-dûm"/>
+    <property name="Unique" value="‰"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Traits" value="Balrog."/>
+    <property name="Engagement Cost" value="50"/>
+    <property name="Threat" value="4"/>
+    <property name="Attack" value="8"/>
+    <property name="Defense" value="3"/>
+    <property name="Health" value="15"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Text" value="Immuned to player card effects.Cannot be optionally engaged.Forced: After Durin`s Bane attacks and destroys a character you control, raise your threat by 2 and heal 2 damage from Durin`s Bane."/>
   </card>
   <card id="55436edb-0e1f-4b25-a59e-1b131b408db4" name="Black Bats" size="EncounterCard">
     <property name="Card Number" value="12"/>
