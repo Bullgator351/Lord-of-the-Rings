@@ -1343,57 +1343,35 @@ def changeCardType(card, x=0, y=0):
 	else:
 		return
 	notify("{} changed type of {} to {}.".format(me, card.Name, card.Type))
-
+	
+def handleKeysDown(card, keysDown):
+	for k in keysDown:
+		notify(k)
+	if 'D1' in keysDown: addResource(card)
+	if 'D2' in keysDown: addProgress(card)
+	if 'D3' in keysDown: addDamage(card)
+	if 'D4' in keysDown: addWillpower(card)
+	if 'D5' in keysDown: addAttack(card)
+	if 'D6' in keysDown: addDefense(card)
+	if 'D7' in keysDown: addThreat(card)
+	if 'D8' in keysDown: addTime(card)
+	if 'Q' in keysDown: subResource(card)
+	if 'W' in keysDown: subProgress(card)
+	if 'E' in keysDown: subDamage(card)
+	if 'R' in keysDown: subWillpower(card)
+	if 'T' in keysDown: subAttack(card)
+	if 'Y' in keysDown: subDefense(card)
+	if 'U' in keysDown: subThreat(card)
+	if 'I' in keysDown: subTime(card)
+	
+def cardClicked(card, mouseButton, keysDown):
+	handleKeysDown(card, keysDown)
+	
 def defaultAction(card, mouseButton, keysDown):
 	mute()
-	if 'Q' in keysDown: 
-		addResource(card)
-		addResource(card)
-	if 'W' in keysDown: 
-		addProgress(card)
-		addProgress(card)
-	if 'E' in keysDown: 
-		addDamage(card)
-		addDamage(card)
-	if 'R' in keysDown: 
-		addWillpower(card)
-		addWillpower(card)
-	if 'T' in keysDown: 
-		addAttack(card)
-		addAttack(card)
-	if 'Y' in keysDown: 
-		addDefense(card)
-		addDefense(card)
-	if 'U' in keysDown: 
-		addThreat(card) 
-		addThreat(card)
-	if 'I' in keysDown: 
-		addTime(card)
-		addTime(card)
-	if 'A' in keysDown: 
-		subResource(card)
-		subResource(card)
-	if 'S' in keysDown: 
-		subProgress(card)
-		subProgress(card)
-	if 'D' in keysDown: 
-		subDamage(card)
-		subDamage(card)
-	if 'F' in keysDown: 
-		subWillpower(card)
-		subWillpower(card)
-	if 'G' in keysDown: 
-		subAttack(card)
-		subAttack(card)
-	if 'H' in keysDown: 
-		subDefense(card)
-		subDefense(card)
-	if 'J' in keysDown: 
-		subThreat(card)
-		subThreat(card)
-	if 'K' in keysDown: 
-		subTime(card) 
-		subTime(card)
+
+	handleKeysDown(card, keysDown)
+	handleKeysDown(card, keysDown)
 	if len(keysDown)>0:	return
 	
 	# Default for Done button is playerDone
@@ -1606,24 +1584,7 @@ def subToken(card, tokenType):
     card.markers[tokenType] -= 1
     notify("{} removes a {} from '{}'".format(me, tokenType[0], card))
 	
-def cardClicked(card, mouseButton, keysDown):
-	if 'Q' in keysDown: addResource(card)
-	if 'W' in keysDown: addProgress(card)
-	if 'E' in keysDown: addDamage(card)
-	if 'R' in keysDown: addWillpower(card)
-	if 'T' in keysDown: addAttack(card)
-	if 'Y' in keysDown: addDefense(card)
-	if 'U' in keysDown: addThreat(card)
-	if 'I' in keysDown: addTime(card)
-	if 'A' in keysDown: subResource(card)
-	if 'S' in keysDown: subProgress(card)
-	if 'D' in keysDown: subDamage(card)
-	if 'F' in keysDown: subWillpower(card)
-	if 'G' in keysDown: subAttack(card)
-	if 'H' in keysDown: subDefense(card)
-	if 'J' in keysDown: subThreat(card)
-	if 'K' in keysDown: subTime(card)
-	
+
 
 def lockCard(card, x=0, y=0):
 	mute()

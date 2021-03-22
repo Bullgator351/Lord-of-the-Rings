@@ -1,18 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Side Quest" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="b56f7d39-ca8d-4979-baa6-8a2f875d6463">Assault on Dol Rhugar</card>
     <card qty="1" id="ba090102-5f80-4dbc-aefd-2f965685e954">The Final Confrontation</card>
   </section>
-  <section name="Second Quest Deck" shared="True" />
   <section name="Encounter" shared="True">
-    <card qty="1" id="015c235b-877b-4433-b979-99c4097ef784">Thane Ulchor</card>
     <card qty="3" id="2629ae83-bfb8-4be1-84a5-fa9e8b1fc20b">Soldier of Nurn</card>
     <card qty="2" id="2c32f4b8-83c7-4ac6-9401-3378a4ca530b">Easterling Mercenary</card>
     <card qty="2" id="43867521-f76f-48be-9911-a90ac0f539f6">Mordor Olog-hai</card>
@@ -37,16 +29,24 @@
     <card qty="1" id="47ecf6a6-84e9-4aa7-ba23-9afe914027cd">The Tower of Barad-dûr</card>
     <card qty="1" id="2fe95d8c-0f30-4c20-b926-d92e4feea8e2">Khamûl the Easterling</card>
   </section>
-  <section name="Second Special" shared="True" />
   <section name="Setup" shared="True">
     <card qty="4" id="74ceb68a-a1c9-41bc-aeb8-41738b34a3bb">Ulchor's Guard</card>
   </section>
   <section name="Staging Setup" shared="True">
+    <card qty="1" id="015c235b-877b-4433-b979-99c4097ef784">Thane Ulchor</card>
     <card qty="1" id="dc074506-e478-4b63-88e4-9d6e4f8eb6d4">Storm the Castle</card>
     <card qty="1" id="6860f9ad-0f09-450a-adf9-6ebe9b872a49">Storm the Castle</card>
     <card qty="1" id="107805c4-6abf-4eb1-87fd-0ad7ffcfbf42">Storm the Castle</card>
     <card qty="1" id="63f46289-b5ef-44d1-b6cb-ce382031a768">Storm the Castle</card>
   </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
   <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
