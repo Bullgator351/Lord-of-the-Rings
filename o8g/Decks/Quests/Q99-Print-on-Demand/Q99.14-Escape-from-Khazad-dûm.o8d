@@ -63,7 +63,6 @@
     <card qty="1" id="ee118b36-0113-4c74-82b3-14f235914212">Nearing the Gate</card>
     <card qty="1" id="187017b6-8632-49ee-9275-8126d313424e">Nearing the Gate</card>
     <card qty="1" id="c90db37c-2fdf-4f69-b4a8-869064e4650b">Dark Pit</card>
-    <card qty="1" id="846794c2-be0f-4016-b9fe-fe6266d7fddd">Durin's Bane</card>
   </section>
   <section name="Staging Setup" shared="True" />
   <section name="Active Setup" shared="True" />
