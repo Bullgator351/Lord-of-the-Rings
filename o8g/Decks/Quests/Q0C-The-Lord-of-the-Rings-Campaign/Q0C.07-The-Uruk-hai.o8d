@@ -21,8 +21,7 @@
     <card qty="3" id="c6adadf8-569a-4943-817b-44bf1418e07e">Snaga</card>
     <card qty="2" id="c5d9d3c6-9321-4909-918d-2b81d7aa296d">Saruman's Orders</card>
   </section>
-  <section name="Setup" shared="True">
-    <card qty="1" id="8bfc0f18-87f6-410b-b3b1-8486ca3627c7">Eastemnet</card>
+  <section name="Staging Setup" shared="True">
     <card qty="1" id="1371a0af-e085-42e4-8cd7-a2007da158e1">To Isengard!</card>
     <card qty="1" id="c0fd82d5-1d87-4120-9b4b-37f81c1b2c9c">Uglúk</card>
     <card qty="1" id="f5178135-1485-43c5-9660-99232a4cdca8">Aragorn</card>
@@ -33,6 +32,11 @@
   <section name="Event" shared="False" />
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="8bfc0f18-87f6-410b-b3b1-8486ca3627c7">Eastemnet</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

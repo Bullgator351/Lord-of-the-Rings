@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="d34c9025-6380-4294-be3f-01c992922830">Fog on the Barrow-downs</card>
     <card qty="1" id="550e9f11-14bb-4fac-806a-3f43035b30c9">The House of Tom Bombadil</card>
@@ -25,8 +25,6 @@
     <card qty="1" id="c616d30d-9242-401b-b386-4fe0660dc97b">Hollow Circle</card>
     <card qty="1" id="fa85988c-4530-414e-95a6-066002e0ef7a">Standing Stones</card>
     <card qty="5" id="da95d039-0f3f-452b-9ff5-60c03432facc">Great Barrow</card>
-    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
-    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -34,6 +32,13 @@
   <section name="Event" shared="False" />
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
+    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

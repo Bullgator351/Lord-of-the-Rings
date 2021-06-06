@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
-<section name="Hero" shared="False">
-<card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
-</section>
 <section name="Quest" shared="True">
 <card qty="1" id="f9824e39-fda8-4e4b-bc74-83b4bd40c72d">Pursued by the Enemy - 1A</card>
 <card qty="1" id="6b2673af-c764-4599-a265-6e43d3b75310">Race To Rivendell - 2A</card>
@@ -30,12 +27,25 @@
 <card qty="1" id="50c19cd1-3094-4bf7-b2dc-e21b145827b7">Panicked</card>
 <card qty="1" id="40c95b3d-6216-4def-bb93-f44871f3ec70">Weight of the Ring</card>
 </section>
-<section name="Setup" shared="True">
-<card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
-<card qty="1" id="71a2ca21-ff50-4a8a-b30b-7c8eaf6bf6b6">An Evil Wound</card>
-<card qty="1" id="3cd4bb66-1621-4534-aa25-421d0d8b7189">Ford of Bruinen</card>
-<card qty="1" id="c5657436-d6c8-400d-ba1f-a723799ac685">The Witch-king</card>
-<card qty="1" id="bc43ae57-6010-4924-919c-b37d1e33b958">The Last Bridge</card>
-<card qty="4" id="5c31f690-9802-4638-8316-5380ef32575b">Fell Rider</card>
-</section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="49e734b0-3b71-45e4-8f31-ad1e09f1d9e4">Ford of Bruinen</card>
+    <card qty="1" id="c5657436-d6c8-400d-ba1f-a723799ac685">The Witch-king</card>
+  </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
+    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
+    <card qty="1" id="71a2ca21-ff50-4a8a-b30b-7c8eaf6bf6b6">An Evil Wound</card>
+    <card qty="1" id="bc43ae57-6010-4924-919c-b37d1e33b958">The Last Bridge</card>
+    <card qty="4" id="5e6ece32-827a-4af7-af6b-0d21a0477c99">Fell Rider</card>
+  </section>
+  <section name="Active Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
 </deck>

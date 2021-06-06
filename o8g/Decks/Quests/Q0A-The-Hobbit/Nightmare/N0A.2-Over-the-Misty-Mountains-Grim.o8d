@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
-  <section name="Hero" shared="False">
-    <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9017">Bilbo Baggins</card>
-  </section>
+  <section name="Hero" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="d70f1956-fa20-4237-8a75-ab7678ed9840">Over the Misty Mountains Grim</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9005">A Short Rest - 1A</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9080">The Mountain Pass - 2A</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9028">Down, Down to Goblin Town - 3A</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9005">A Short Rest</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9080">The Mountain Pass</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9028">Down, Down to Goblin Town</card>
   </section>
   <section name="Encounter" shared="True">
     <card qty="4" id="51223bd0-ffd1-11df-a976-1801204c9035">Galloping Boulders</card>
@@ -36,11 +34,18 @@
     <card qty="3" id="f7a42b56-2a8e-4c6f-b60c-5031ad2a99db">Dark Passages</card>
     <card qty="2" id="7d3ef70c-4107-4747-9913-048224ba6e76">Swish, smack! Whip crack!</card>
   </section>
-  <section name="Setup" shared="True">
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9017">Bilbo Baggins</card>
     <card qty="1" id="51223bd0-ffd1-11df-a976-1801204c9076">Stone-Giant</card>
   </section>
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Setup" shared="True" />
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

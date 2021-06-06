@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="5ab2daa0-b88d-47f2-8896-75bb6e76c350">The Road to Isengard</card>
     <card qty="1" id="cb2d88e5-d469-43c6-9d69-e0cf36e2862e">The Road to Isengard</card>
@@ -33,8 +33,6 @@
     <card qty="1" id="9eb0298a-cb92-426d-87c6-37749aaae44b">Orthanc</card>
     <card qty="1" id="e22fc95d-9729-40ea-b81c-1432a4a57e41">Saruman</card>
     <card qty="1" id="7275de5f-3f2f-47e0-a90a-58fc45c3bdcf">Saruman's Staff</card>
-    <card qty="4" id="bb38c7cf-8c76-4b87-b218-5516bc366470">Ent of Fangorn</card>
-    <card qty="1" id="f5178135-1485-43c5-9660-99232a4cdca8">Aragorn</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -45,7 +43,10 @@
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="4" id="bb38c7cf-8c76-4b87-b218-5516bc366470">Ent of Fangorn</card>
+    <card qty="1" id="f5178135-1485-43c5-9660-99232a4cdca8">Aragorn</card>
+  </section>
   <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

@@ -27,9 +27,11 @@
   <section name="Setup" shared="True">
     <card qty="1" id="c6204e5d-7020-4360-b2ad-7db4edcc7303">The Defense of Helm's Deep</card>
     <card qty="1" id="76506b8b-4bd1-478f-bc04-512f2b1fc13f">Deeping Wall</card>
+  </section>
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="f5178135-1485-43c5-9660-99232a4cdca8">Aragorn</card>
     <card qty="4" id="509f3e41-385c-4b84-ad28-7cc2eed8028c">Soldier of Isengard</card>
     <card qty="4" id="c7ada690-5aa3-4855-b2c1-35e30336edac">Poisoned Counsels</card>
-    <card qty="1" id="f5178135-1485-43c5-9660-99232a4cdca8">Aragorn</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />

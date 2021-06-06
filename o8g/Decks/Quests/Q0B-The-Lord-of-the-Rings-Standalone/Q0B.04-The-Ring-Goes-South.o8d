@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False">
-    <card qty="1" id="f9196cda-8f50-4cc5-9aad-1c56cb677bca">Frodo Baggins</card>
-  </section>
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
@@ -29,10 +26,23 @@
   </section>
   <section name="Special" shared="True" />
   <section name="Setup" shared="True">
-    <card qty="1" id="7068731b-3837-40f3-9e98-6c996af4dddc">Lust for the Ring</card>
-    <card qty="1" id="ebd1944a-928c-40ff-88de-dfebdfcf633c">Redhorn Pass</card>
     <card qty="1" id="5963e5c4-0f2e-43c4-afa2-a9b2cfde73d1">Doors of Durin</card>
     <card qty="1" id="8f38ca4f-5893-4bd4-854d-6788a3ada41f">Watcher in the Water</card>
+  </section>
+  <section name="Attachment" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="f9196cda-8f50-4cc5-9aad-1c56cb677bca">Frodo Baggins</card>
+    <card qty="1" id="ba2e4a33-edc6-4638-a3f5-b818b080aea8">The One Ring</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="ebd1944a-928c-40ff-88de-dfebdfcf633c">Redhorn Pass</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

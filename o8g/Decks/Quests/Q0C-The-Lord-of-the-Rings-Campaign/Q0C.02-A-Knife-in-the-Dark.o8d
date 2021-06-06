@@ -21,20 +21,26 @@
     <card qty="3" id="4b36df3f-d75b-4b3a-9324-9ab31c10d7b9">Pale Blade</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
     <card qty="1" id="c5657436-d6c8-400d-ba1f-a723799ac685">The Witch-king</card>
     <card qty="1" id="90d620e5-d7be-42e6-9756-b92761ecd8c9">Midgewater</card>
-    <card qty="1" id="ad09f848-9430-41c8-8723-671f08b79078">Weathertop</card>
-    <card qty="1" id="984d2a01-f12a-4e8b-800c-6a04b1904049">The Prancing Pony</card>
-    <card qty="1" id="6a3e1c91-accd-476b-9ecc-ace35274a052">Bill Ferny</card>
+    <card qty="1" id="e8046e94-bc12-4055-b5f1-2cd34640b85e">Weathertop</card>
     <card qty="4" id="2d819f76-77dd-47a2-9a3f-ac8b8018f0df">Ringwraith</card>
   </section>
-  <section name="Hero" shared="False">
-    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
-  </section>
+  <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="6a3e1c91-accd-476b-9ecc-ace35274a052">Bill Ferny</card>
+    <card qty="1" id="984d2a01-f12a-4e8b-800c-6a04b1904049">The Prancing Pony</card>
+    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
+    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

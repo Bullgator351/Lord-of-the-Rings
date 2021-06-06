@@ -27,20 +27,26 @@
     <card qty="1" id="1c5f4854-c10c-430b-9c40-2d84c5997b8f">The Ring Draws Them</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
     <card qty="1" id="53ac8ba6-0487-4b1f-91e9-cf7ca9e7c1d0">Bucklebury Ferry</card>
-    <card qty="1" id="57107fd1-0092-41d3-ae9d-8ff6c06933eb">Black Rider</card>
-    <card qty="1" id="0d30fbf1-6e8f-480f-9f2f-3196777f6e11">Bag End</card>
-    <card qty="1" id="d95a6076-3ead-4ff6-a1ba-ca320d2bd4e1">Gandalf's Delay</card>
   </section>
-  <section name="Hero" shared="False">
-    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
-  </section>
+  <section name="Hero" shared="False" />
+  <section name="Attachment" shared="False" />
   <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False">
-    <card qty="1" id="d0ed393c-162a-4715-bed4-e338c24e9e36">Mr Underhill</card>
-  </section>
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="d95a6076-3ead-4ff6-a1ba-ca320d2bd4e1">Gandalf's Delay</card>
+    <card qty="1" id="57107fd1-0092-41d3-ae9d-8ff6c06933eb">Black Rider</card>
+    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
+    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
+    <card qty="1" id="d0ed393c-162a-4715-bed4-e338c24e9e36">Mr. Underhill</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="0d30fbf1-6e8f-480f-9f2f-3196777f6e11">Bag End</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False">
-    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
-  </section>
   <section name="Quest" shared="True">
     <card qty="1" id="4422e6ce-b272-4a2d-bd05-bf3f41063ea6">A Shadow of the Past</card>
     <card qty="1" id="6b34adb4-b510-4db9-aaba-9a1876626dce">Three is Company</card>
@@ -29,16 +26,23 @@
     <card qty="2" id="784aedb3-8bc3-437c-ba35-2a94949c498d">Sniffing and Hissing</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
     <card qty="1" id="53ac8ba6-0487-4b1f-91e9-cf7ca9e7c1d0">Bucklebury Ferry</card>
-    <card qty="1" id="57107fd1-0092-41d3-ae9d-8ff6c06933eb">Black Rider</card>
-    <card qty="1" id="0d30fbf1-6e8f-480f-9f2f-3196777f6e11">Bag End</card>
   </section>
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="57107fd1-0092-41d3-ae9d-8ff6c06933eb">Black Rider</card>
+    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
+    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="0d30fbf1-6e8f-480f-9f2f-3196777f6e11">Bag End</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="12dd413b-fe0f-40ca-b871-480ca88ade09">A Knife in the Dark</card>
     <card qty="1" id="2efa631a-eb16-4078-84a5-18c7033b86f3">A Knife in the Dark</card>
@@ -26,22 +26,26 @@
     <card qty="2" id="7d5b9903-3521-4ecc-9225-e6216147e020">Blade Tip</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
     <card qty="1" id="c5657436-d6c8-400d-ba1f-a723799ac685">The Witch-king</card>
     <card qty="1" id="90d620e5-d7be-42e6-9756-b92761ecd8c9">Midgewater</card>
     <card qty="1" id="e8046e94-bc12-4055-b5f1-2cd34640b85e">Weathertop</card>
-    <card qty="1" id="984d2a01-f12a-4e8b-800c-6a04b1904049">The Prancing Pony</card>
-    <card qty="1" id="6a3e1c91-accd-476b-9ecc-ace35274a052">Bill Ferny</card>
     <card qty="4" id="2d819f76-77dd-47a2-9a3f-ac8b8018f0df">Ringwraith</card>
   </section>
-  <section name="Hero" shared="False">
-    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
-  </section>
+  <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="6a3e1c91-accd-476b-9ecc-ace35274a052">Bill Ferny</card>
+    <card qty="1" id="984d2a01-f12a-4e8b-800c-6a04b1904049">The Prancing Pony</card>
+    <card qty="1" id="3217a119-6b86-47dd-b451-c5e45be3f874">Frodo Baggins</card>
+    <card qty="1" id="c9575426-59ea-4863-bf6a-407e9eae3f33">The One Ring</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

@@ -24,6 +24,8 @@
     <card qty="1" id="9eb0298a-cb92-426d-87c6-37749aaae44b">Orthanc</card>
     <card qty="1" id="e22fc95d-9729-40ea-b81c-1432a4a57e41">Saruman</card>
     <card qty="1" id="7275de5f-3f2f-47e0-a90a-58fc45c3bdcf">Saruman's Staff</card>
+  </section>
+  <section name="Staging Setup" shared="True">
     <card qty="4" id="bb38c7cf-8c76-4b87-b218-5516bc366470">Ent of Fangorn</card>
     <card qty="1" id="f5178135-1485-43c5-9660-99232a4cdca8">Aragorn</card>
   </section>
