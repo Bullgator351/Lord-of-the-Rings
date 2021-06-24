@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="918c4387-bf40-48f1-bf65-5ad5acb91784">Scattered Among the Hills</card>
     <card qty="1" id="95d26956-eda3-43b2-b68b-6f8010d076bd">Cornered Animals</card>
@@ -33,9 +29,21 @@
   <section name="Setup" shared="True">
     <card qty="1" id="e347f103-7444-4681-ae57-49c7b84dd3c0">Orc Ambush</card>
     <card qty="1" id="ea225b12-75e1-4253-9458-c71c1c304a8f">Amon Forn</card>
-    <card qty="1" id="27da4ea2-7892-409e-b6e0-38ad215d5d0c">Exposed Ridge</card>
+  </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
     <card qty="1" id="18484359-d4b5-4ed6-b7be-e013fae4df43">Hunting the Orcs</card>
     <card qty="1" id="836a759d-d768-4119-929f-cfe874ba944a">Weathered Hilltop</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="27da4ea2-7892-409e-b6e0-38ad215d5d0c">Exposed Ridge</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

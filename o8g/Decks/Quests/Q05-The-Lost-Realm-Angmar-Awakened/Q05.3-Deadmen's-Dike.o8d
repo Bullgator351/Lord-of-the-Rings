@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="6e449166-50ab-4ec5-875f-3cc8adcbb64e">The Shades of Angmar</card>
     <card qty="1" id="89f263b0-c4a5-43ea-b59d-6207f9f65954">A Fell Wraith</card>
@@ -27,11 +23,22 @@
     <card qty="3" id="a6ea339d-aec3-4ec7-9374-c1442385c260">Heavy Curse</card>
     <card qty="1" id="c3e07d8f-3af3-4f21-8951-d3300ca376fa">The Power of Angmar</card>
   </section>
-  <section name="Special" shared="True" />
   <section name="Setup" shared="True">
-    <card qty="1" id="f7f5ca4e-42db-48f9-b4a5-efe419f53fa3">Iârion</card>
     <card qty="1" id="530e7365-0a5a-46e5-9720-5377dfa1a01b">Thaurdir</card>
-    <card qty="1" id="5a90429e-d5cf-442f-b8d8-af144b3ea861">Fornost Square</card>
   </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="5a90429e-d5cf-442f-b8d8-af144b3ea861">Fornost Square</card>
+    <card qty="1" id="f7f5ca4e-42db-48f9-b4a5-efe419f53fa3">Iârion</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

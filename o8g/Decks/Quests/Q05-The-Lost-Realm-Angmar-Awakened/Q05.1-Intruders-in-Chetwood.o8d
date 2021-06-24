@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="be3ca12f-2550-48b4-9384-e71a1b401d4e">Stop the War Party</card>
   </section>
@@ -26,10 +22,20 @@
     <card qty="2" id="7d2b321b-d4e6-4dd4-a124-028c772592ee">Weight of Responsibility</card>
     <card qty="1" id="efcd8672-26f1-4c32-b6ef-5a06f80e406a">Lost in the Wilderness</card>
   </section>
+  <section name="Setup" shared="True" />
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
-  <section name="Setup" shared="True">
-    <card qty="1" id="f7f5ca4e-42db-48f9-b4a5-efe419f53fa3">Iârion</card>
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
     <card qty="1" id="e542f4f9-420f-40eb-8c95-d648f2589511">Orc War Party</card>
+    <card qty="1" id="f7f5ca4e-42db-48f9-b4a5-efe419f53fa3">Iârion</card>
   </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

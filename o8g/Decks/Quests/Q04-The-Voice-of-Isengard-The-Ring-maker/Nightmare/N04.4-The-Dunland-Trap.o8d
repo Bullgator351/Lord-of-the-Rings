@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="b42cd34e-7eb6-4163-8ef6-4a2f66f45439">The Dunland Trap</card>
     <card qty="1" id="174507ac-5617-4e3c-998b-75eeceb9db33">The Road to Tharbad</card>
@@ -30,7 +30,6 @@
   <section name="Setup" shared="True">
     <card qty="1" id="6b1a56ae-f173-4842-984c-d07b0545ad23">Chief Turch</card>
     <card qty="1" id="c34384a8-44de-4c55-8d49-ec68a69fc3f0">Munuv Dûv Ravine</card>
-    <card qty="1" id="bc4f2e17-197c-4131-ad81-b892fe66ad88">Old South Road</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -42,6 +41,8 @@
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
   <section name="Staging Setup" shared="True" />
-  <section name="Active Setup" shared="True" />
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="bc4f2e17-197c-4131-ad81-b892fe66ad88">Old South Road</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

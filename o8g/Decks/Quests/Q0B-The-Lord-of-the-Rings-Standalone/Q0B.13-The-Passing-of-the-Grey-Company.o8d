@@ -20,10 +20,8 @@
     <card qty="2" id="06ff6757-f80c-499b-8450-1e85e793d02c">No Turning Back</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="2e778689-9e3f-4da8-a473-781c777f6473">Aragorn</card>
     <card qty="1" id="4d904ec3-1c74-4091-861d-c543412b5443">The Stone of Erech</card>
     <card qty="1" id="a25b4139-f1d0-4466-83f2-f06fa3e0c30b">Army of the Dead</card>
-    <card qty="4" id="926d92fd-b7b8-4f13-8018-3f632c84a3d7">Overcome by Fear</card>
     <card qty="1" id="c7ef7b6e-4346-4b4c-a9fa-2b42e3c2ab5c">The Passing of the Grey Company</card>
   </section>
   <section name="Hero" shared="False" />
@@ -35,5 +33,10 @@
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="2e778689-9e3f-4da8-a473-781c777f6473">Aragorn</card>
+    <card qty="4" id="926d92fd-b7b8-4f13-8018-3f632c84a3d7">Overcome by Fear</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

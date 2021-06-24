@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="9d460d1a-45d9-4828-a40e-2dbddc51c086">Deadman's Dike</card>
     <card qty="1" id="6e449166-50ab-4ec5-875f-3cc8adcbb64e">The Shades of Angmar</card>
@@ -29,8 +29,11 @@
     <card qty="1" id="66fc0634-c88c-4af2-a009-8ade84806f98">Gather Your Courage</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="f7f5ca4e-42db-48f9-b4a5-efe419f53fa3">Iârion</card>
     <card qty="1" id="530e7365-0a5a-46e5-9720-5377dfa1a01b">Thaurdir</card>
+  </section>
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="5a90429e-d5cf-442f-b8d8-af144b3ea861">Fornost Square</card>
+    <card qty="1" id="f7f5ca4e-42db-48f9-b4a5-efe419f53fa3">Iârion</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -41,8 +44,6 @@
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True">
-    <card qty="1" id="5a90429e-d5cf-442f-b8d8-af144b3ea861">Fornost Square</card>
-  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

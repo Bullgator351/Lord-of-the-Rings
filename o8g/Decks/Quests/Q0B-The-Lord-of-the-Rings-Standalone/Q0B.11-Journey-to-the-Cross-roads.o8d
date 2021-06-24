@@ -22,10 +22,6 @@
     <card qty="3" id="c04f4018-e001-4a31-a003-9914e3f585ee">Haradrim Archer</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="2522fc59-6617-4c74-9723-4a120431aa3f">The Black Gate</card>
-    <card qty="1" id="22f6fc49-6a00-4104-a9fa-4823435175a1">The Cross-roads</card>
-    <card qty="1" id="32267333-091c-4bbf-bb29-5f21c8b79188">The One Ring</card>
-    <card qty="1" id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f">Frodo Baggins</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -33,5 +29,14 @@
   <section name="Event" shared="False" />
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="2522fc59-6617-4c74-9723-4a120431aa3f">The Black Gate</card>
+    <card qty="1" id="22f6fc49-6a00-4104-a9fa-4823435175a1">The Cross-roads</card>
+    <card qty="1" id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f">Frodo Baggins</card>
+    <card qty="1" id="32267333-091c-4bbf-bb29-5f21c8b79188">The One Ring</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

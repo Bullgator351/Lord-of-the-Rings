@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
-  <section name="Hero" shared="False">
-    <card qty="1" id="f1cc6057-ced3-4105-9172-869d26a54af5">Aragorn</card>
-  </section>
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
+  <section name="Hero" shared="False" />
   <section name="Quest" shared="True">
     <card qty="1" id="9ffc1d82-10b3-4703-91e5-865407f0cc1e">The Black Gate Opens</card>
     <card qty="1" id="0f31d397-55d8-4988-b6bb-3d4101977515">Embassy from The Dark Tower</card>
@@ -32,6 +30,7 @@
     <card qty="1" id="5c1973bf-c331-4b8f-8872-4ead564476d3">Gwaihir</card>
   </section>
   <section name="Staging Setup" shared="True">
+    <card qty="1" id="f1cc6057-ced3-4105-9172-869d26a54af5">Aragorn</card>
     <card qty="1" id="c6b0a8d2-32fe-4750-9270-7270cd5f062b">The Black Gate</card>
     <card qty="1" id="a3a28453-4292-49b3-9b78-fc958310a800">The Mouth of Sauron</card>
   </section>

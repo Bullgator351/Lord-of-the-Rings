@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="486a95af-e3af-4513-ae9a-d705d8557db6">Peril in Pelargir</card>
     <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9021">The Leaping Fish</card>
@@ -7,7 +7,6 @@
     <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9025">Escape to the Quays</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="4" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9020">Harbor Thug</card>
     <card qty="2" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9069">Pelargir Docks</card>
     <card qty="3" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9011">City Street</card>
     <card qty="2" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9051">Local Trouble</card>
@@ -26,14 +25,22 @@
     <card qty="2" id="377d8e17-1c0d-4871-86a5-a69b9dee40d2">The Thieves' Ploy</card>
     <card qty="2" id="647578d4-8c8d-44d7-8ef5-9c5d962369f0">They're Getting Away!</card>
   </section>
-  <section name="Setup" shared="True">
-    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9082">The Leaping Fish</card>
+  <section name="Staging Setup" shared="True">
     <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9001">Alcaron's Scroll</card>
+    <card qty="4" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9020">Harbor Thug</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9082">The Leaping Fish</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

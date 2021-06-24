@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9021">The Leaping Fish</card>
     <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9023">Fighting in the Streets</card>
@@ -20,7 +20,13 @@
     <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9085">Umbar Assassin</card>
     <card qty="3" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9088">Zealous Traitor</card>
   </section>
-  <section name="Setup" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9001">Alcaron's Scroll</card>
+    <card qty="4" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9020">Harbor Thug</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9082">The Leaping Fish</card>
+  </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
@@ -30,12 +36,6 @@
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True">
-    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9001">Alcaron's Scroll</card>
-    <card qty="4" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9020">Harbor Thug</card>
-  </section>
-  <section name="Active Setup" shared="True">
-    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9082">The Leaping Fish</card>
-  </section>
+  <section name="Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

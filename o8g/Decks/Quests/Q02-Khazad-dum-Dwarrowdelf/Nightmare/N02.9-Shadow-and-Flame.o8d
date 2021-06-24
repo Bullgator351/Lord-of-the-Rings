@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="a4e67c29-716e-4221-b300-e7c03f339a96">Shadow and Flame</card>
     <card qty="1" id="51223bd0-ffd1-11df-a976-0801213c9017">Nearing the Gate</card>
@@ -30,18 +30,25 @@
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="51223bd0-ffd1-11df-a976-0801213c9002">Dark Pit</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-0801213c9003">Durin's Bane</card>
   </section>
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
   <section name="Special" shared="True">
     <card qty="2" id="b94e993e-27a6-4ef4-b6f6-a7719928aceb">Terrible Strength</card>
     <card qty="2" id="41cf7fb0-1194-4654-b23a-0b49259faf63">The Dark Fire</card>
     <card qty="2" id="3b1df5e8-ce5e-4c66-a12b-25a322cfb0ba">Blazing Grip</card>
     <card qty="2" id="f376de21-bb3f-49dc-94e5-ce57216963e7">Morgoth's Bidding</card>
-    <card qty="2" id="4858bd5a-6d80-4351-849b-532fc2bc4ffe">Flame of Udûn</card>
+    <card qty="2" id="4858bd5a-6d80-4351-849b-532fc2bc4ffe">Flame of Udún</card>
   </section>
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="51223bd0-ffd1-11df-a976-0801213c9003">Durin's Bane</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

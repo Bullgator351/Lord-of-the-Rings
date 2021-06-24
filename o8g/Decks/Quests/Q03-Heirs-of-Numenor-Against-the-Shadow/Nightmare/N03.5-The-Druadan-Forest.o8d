@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="2387ac72-763b-47e0-b9f3-29a08dbeb200">The Drúadan Forest</card>
     <card qty="1" id="71079813-3afe-41b7-8746-92dcc1f91084">The Pursuit</card>
@@ -27,13 +27,20 @@
     <card qty="3" id="27f961dd-c360-418e-9aac-6756d3a46dde">Poison-darts</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="41c3779a-a28a-44db-8b9b-bc5e81d1111a">Garden of Poisons</card>
     <card qty="1" id="c2a753b8-dfb3-4bdf-a0b4-523323c52f43">Drû-buri-Drû</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="41c3779a-a28a-44db-8b9b-bc5e81d1111a">Garden of Poisons</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

@@ -2,8 +2,8 @@
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="804e57bd-26e8-495b-9676-2e39f009baba">The Seventh Level</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-0801207c9070">Search for the Chamber - 1A</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-0801207c9077">The Fate of Balin - 2A</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-0801207c9070">Search for the Chamber</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-0801207c9077">The Fate of Balin</card>
   </section>
   <section name="Encounter" shared="True">
     <card qty="2" id="51223bd0-ffd1-11df-a976-0801207c9018">Cave-troll</card>
@@ -28,12 +28,19 @@
   <section name="Setup" shared="True">
     <card qty="1" id="6d1eb802-0cb1-427a-9aa3-4e0c3b403681">Overseer Marûl</card>
     <card qty="1" id="78393d15-048e-40ff-95b8-4dec18a77a8b">Chamber of Records</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-0801207c9011">Book of Mazarbul</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="51223bd0-ffd1-11df-a976-0801207c9011">Book of Mazarbul</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

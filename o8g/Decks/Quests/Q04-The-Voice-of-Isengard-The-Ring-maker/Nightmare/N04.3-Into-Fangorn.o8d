@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="d495b495-db4b-496a-9294-c956afd1db9f">Into Fangorn</card>
     <card qty="1" id="99bdb330-27f2-4534-a355-0bb9f1682a8d">Into the Woods</card>
@@ -24,10 +24,7 @@
     <card qty="2" id="edc600d3-b128-45a9-9f15-9a651901a90a">Stifling Woods</card>
     <card qty="2" id="a753e0fd-510a-40e2-8a87-ed306f156358">Fangorn's Anger</card>
   </section>
-  <section name="Setup" shared="True">
-    <card qty="1" id="16b71211-85c1-4ad4-8879-831bc7b50ac4">Mugash</card>
-    <card qty="1" id="20c5f7b7-cfc4-44e1-aaf5-0010ceb9a1b9">Edge of Fangorn</card>
-  </section>
+  <section name="Setup" shared="True" />
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
@@ -36,5 +33,11 @@
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="20c5f7b7-cfc4-44e1-aaf5-0010ceb9a1b9">Edge of Fangorn</card>
+    <card qty="1" id="16b71211-85c1-4ad4-8879-831bc7b50ac4">Mugash</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

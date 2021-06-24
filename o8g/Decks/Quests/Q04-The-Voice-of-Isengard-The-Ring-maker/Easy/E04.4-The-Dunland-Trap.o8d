@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
-    <card qty="1" id="174507ac-5617-4e3c-998b-75eeceb9db33">The Road to Tharbad - 1A</card>
-    <card qty="1" id="2087cb2d-ce6f-4d3a-befc-01859ec82e6c">A Well Laid Trap - 2A</card>
-    <card qty="1" id="c5215a42-f064-46cc-a9a2-75ef4d57fcd2">No Way Out - 3A</card>
+    <card qty="1" id="174507ac-5617-4e3c-998b-75eeceb9db33">The Road to Tharbad</card>
+    <card qty="1" id="2087cb2d-ce6f-4d3a-befc-01859ec82e6c">A Well Laid Trap</card>
+    <card qty="1" id="c5215a42-f064-46cc-a9a2-75ef4d57fcd2">No Way Out</card>
   </section>
   <section name="Encounter" shared="True">
     <card qty="2" id="0a0e6044-c5ab-43ed-832a-71516c7d035a">Boar Clan Stalker</card>
@@ -24,12 +24,19 @@
   <section name="Setup" shared="True">
     <card qty="1" id="6b1a56ae-f173-4842-984c-d07b0545ad23">Chief Turch</card>
     <card qty="1" id="c34384a8-44de-4c55-8d49-ec68a69fc3f0">Munuv Dûv Ravine</card>
-    <card qty="1" id="bc4f2e17-197c-4131-ad81-b892fe66ad88">Old South Road</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="bc4f2e17-197c-4131-ad81-b892fe66ad88">Old South Road</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

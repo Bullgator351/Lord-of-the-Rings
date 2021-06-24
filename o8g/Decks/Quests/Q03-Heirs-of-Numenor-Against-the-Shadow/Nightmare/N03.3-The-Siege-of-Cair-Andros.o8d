@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="846e56e8-ac94-41e0-b29a-aacf7ca8d39e">The Siege of Cair Andros</card>
     <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9035">The Defense</card>
@@ -30,15 +30,21 @@
     <card qty="2" id="f16bf495-bb88-4c5e-9a3f-5ba2d8bb916a">Anduin Wharf</card>
     <card qty="3" id="49d6a591-67b0-4d65-a384-ae0662b09814">Ruin and Wroth</card>
   </section>
-  <section name="Setup" shared="True">
-    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9079">The Approach</card>
-    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9081">The Citadel</card>
-    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9080">The Banks</card>
-  </section>
+  <section name="Setup" shared="True" />
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9080">The Banks</card>
+    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9079">The Approach</card>
+    <card qty="1" id="4823aae3-46ef-4a75-89f9-cbd3aa1b9081">The Citadel</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

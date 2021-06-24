@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
-    <card qty="1" id="30a319ff-6092-4d5f-9b94-2a9b4f44f9c1">The Rearguard - 1A</card>
-    <card qty="1" id="49aa4e88-3774-43f7-ab8d-05268ed3fb7e">The Betrayal - 2A</card>
-    <card qty="1" id="8b4dd0c5-3847-46f6-a69b-a4c7ee2b21c8">The Morgul Rider - 3A</card>
+    <card qty="1" id="30a319ff-6092-4d5f-9b94-2a9b4f44f9c1">The Rearguard</card>
+    <card qty="1" id="49aa4e88-3774-43f7-ab8d-05268ed3fb7e">The Betrayal</card>
+    <card qty="1" id="8b4dd0c5-3847-46f6-a69b-a4c7ee2b21c8">The Morgul Rider</card>
   </section>
   <section name="Encounter" shared="True">
     <card qty="4" id="aca1ee7f-ad29-4218-8dd5-f7f7a8e617fe">Morgul Bodyguard</card>
@@ -24,14 +24,21 @@
     <card qty="1" id="499195c5-389f-4a56-b67e-b6e5b8f2fb91">Lord Alcaron</card>
     <card qty="1" id="3ef4f724-8f91-42d3-9ba2-5d731283c069">Nazgûl of Minas Morgul</card>
     <card qty="1" id="95f2f7ac-5d85-43e5-930d-d866b00bef26">The White Bridge</card>
-    <card qty="1" id="a6dd52d0-375a-41ea-ae77-b0fd9bcb6629">To the Tower</card>
-    <card qty="1" id="a305f78f-0d26-4a56-9d5b-7fb0210e6bd4">Murzag</card>
-    <card qty="1" id="e176b4d7-2fae-4025-8a71-5c3bc843e2e1">Morgul Vale</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="a6dd52d0-375a-41ea-ae77-b0fd9bcb6629">To the Tower</card>
+    <card qty="1" id="a305f78f-0d26-4a56-9d5b-7fb0210e6bd4">Murzag</card>
+    <card qty="1" id="e176b4d7-2fae-4025-8a71-5c3bc843e2e1">Morgul Vale</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

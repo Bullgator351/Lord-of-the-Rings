@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="4e309ae8-11c9-4326-a5ad-60e4d16e60c4">Across the Ettenmoors</card>
     <card qty="1" id="b9acdd61-8007-41be-b986-e9809a587a70">Into the Ettenmoors</card>
@@ -29,7 +29,6 @@
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="788819a1-c0b5-4dd0-b778-f3011ca05175">Across the Ettenmoors</card>
-    <card qty="1" id="34a59958-0d34-49a9-8beb-b6f8ba8dcd4c">Amarthiúl</card>
     <card qty="1" id="dd28d391-8eca-4a12-9455-3d705adb46a5">Isolated</card>
     <card qty="1" id="397ef92c-981b-4495-a2a0-681ea886d30c">Lie Low</card>
     <card qty="1" id="b793d1f1-012e-4e13-aad0-d91833f6f8c6">Forage for Food</card>
@@ -41,7 +40,6 @@
     <card qty="1" id="1339dfb5-49c1-46ce-a4c9-970d0e118cfa">Abandoned Camp</card>
     <card qty="1" id="976d7409-0e67-43f1-b1bd-56cdeac073ef">Patch of Woods</card>
   </section>
-  <section name="Staging Setup" shared="True" />
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
@@ -51,6 +49,9 @@
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="34a59958-0d34-49a9-8beb-b6f8ba8dcd4c">Amarthiúl</card>
+  </section>
   <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

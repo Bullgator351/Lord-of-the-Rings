@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="b1662195-6d46-474c-9ee9-ccbf14c7b70e">The Clutches of Carn Dûm</card>
     <card qty="1" id="b659e2a1-55b1-4562-ab2c-0e36772d8183">Midwinter's Crux</card>
@@ -26,9 +26,6 @@
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="9ca8dc18-a6f5-478b-8870-e151d853a28d">The Battle of Carn Dûm</card>
-    <card qty="1" id="c73317e6-133e-4e35-af48-ad3ffc9f252d">Thaurdir</card>
-    <card qty="1" id="f49b1e33-6190-4e21-8779-ecfb3a39bb75">Accursed Battlefield</card>
-    <card qty="4" id="9e0bb4e8-9b4f-4780-9b83-ea6bc86745ae">Carn Dûm Garrison</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -36,6 +33,15 @@
   <section name="Event" shared="False" />
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="c73317e6-133e-4e35-af48-ad3ffc9f252d">Thaurdir</card>
+    <card qty="4" id="9e0bb4e8-9b4f-4780-9b83-ea6bc86745ae">Carn Dûm Garrison</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="f49b1e33-6190-4e21-8779-ecfb3a39bb75">Accursed Battlefield</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

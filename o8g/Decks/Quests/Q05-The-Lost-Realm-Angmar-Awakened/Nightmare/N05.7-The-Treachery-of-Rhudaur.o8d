@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="f6b545d9-8d93-4b10-866a-bfa15351ac69">The Treachery of Rhudaur</card>
     <card qty="1" id="a7231cbd-0620-4b15-9c2c-68d4e7c79a8f">Secrets of Rhudaur</card>
@@ -28,7 +28,6 @@
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="d0ab3d77-e84b-41b8-bb9b-f9be302ef1ef">The Treachery of Rhudaur</card>
-    <card qty="1" id="5df1bf1c-8dc0-4534-9380-6af6812dc6f8">Amarthiúl</card>
     <card qty="1" id="d658967b-662e-4dfb-afb6-4b3444074b79">Thaurdir</card>
   </section>
   <section name="Staging Setup" shared="True">
@@ -36,9 +35,15 @@
     <card qty="1" id="bf925a7c-b427-4fb6-ba6b-dbc86304a69f">Sift Through the Debris</card>
     <card qty="1" id="768bab66-1707-41a4-adf3-3baad2e7daad">Decipher Ancient Texts</card>
     <card qty="1" id="ff4c59d7-6ad7-4fa7-80da-97fd5f8f3169">Ancient Causeway</card>
+    <card qty="1" id="5df1bf1c-8dc0-4534-9380-6af6812dc6f8">Amarthiúl</card>
   </section>
   <section name="Active Setup" shared="True">
     <card qty="1" id="125e7884-7f75-42cd-80ba-065cf88eef9a">The Great Hall</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="3" id="6e38a878-8211-4bbc-ba7c-ed460874fd67">Life Drain</card>
+    <card qty="3" id="0377297f-ce7d-47ce-9166-29f5872d5c97">Secret Antechamber</card>
+    <card qty="3" id="c167ea82-42c5-4f08-a1ce-cfffdbf24af4">Apostate of Angmar</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -47,11 +52,6 @@
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
-  <section name="Special" shared="True">
-    <card qty="3" id="6e38a878-8211-4bbc-ba7c-ed460874fd67">Life Drain</card>
-    <card qty="3" id="0377297f-ce7d-47ce-9166-29f5872d5c97">Secret Antechamber</card>
-    <card qty="3" id="c167ea82-42c5-4f08-a1ce-cfffdbf24af4">Apostate of Angmar</card>
-  </section>
   <section name="Second Special" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

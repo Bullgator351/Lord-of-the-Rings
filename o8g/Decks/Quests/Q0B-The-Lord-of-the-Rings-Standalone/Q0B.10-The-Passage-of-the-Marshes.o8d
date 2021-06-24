@@ -22,10 +22,7 @@
     <card qty="2" id="42e22482-0281-4811-aa65-2b342319ee07">We Hates Them</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="32267333-091c-4bbf-bb29-5f21c8b79188">The One Ring</card>
-    <card qty="1" id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f">Frodo Baggins</card>
     <card qty="1" id="ba62a8f1-1857-4449-8f49-7b584b9aaa7d">The Passage of the Marshes</card>
-    <card qty="1" id="32993141-956c-4426-98d9-8705de6fee00">Gollum</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -33,6 +30,14 @@
   <section name="Event" shared="False" />
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="32993141-956c-4426-98d9-8705de6fee00">Gollum</card>
+    <card qty="1" id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f">Frodo Baggins</card>
+    <card qty="1" id="32267333-091c-4bbf-bb29-5f21c8b79188">The One Ring</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

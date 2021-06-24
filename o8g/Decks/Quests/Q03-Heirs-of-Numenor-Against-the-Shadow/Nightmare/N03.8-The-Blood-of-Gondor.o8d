@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="118672b6-c6e2-43ec-ae3d-8657d8b659d5">The Blood of Gondor</card>
     <card qty="1" id="23768a0d-bf6c-4405-9b09-ea8fdbfded31">The Ambush</card>
@@ -25,16 +25,22 @@
     <card qty="3" id="3459889b-48a2-4401-b511-6e11dabec437">Surrounded by Shadow</card>
     <card qty="2" id="812dce54-8a84-4a44-94ee-5b2cd2bf1997">Sudden Onslaught</card>
   </section>
-  <section name="Setup" shared="True">
+  <section name="Setup" shared="True" />
+  <section name="Hero" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
     <card qty="1" id="9b2302dc-3084-447f-8104-a4569fd26e38">The Cross-roads</card>
     <card qty="1" id="13c23487-ad49-437b-be41-1c09dd5c30e4">Black Númenorean</card>
     <card qty="1" id="ab2ac791-b266-43b2-b6ee-0d412a1100bc">Faramir</card>
     <card qty="1" id="fa4aaa97-c06d-42d5-b796-2f6200d9a404">Lord Alcaron</card>
   </section>
-  <section name="Hero" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Attachment" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Special" shared="True" />
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="a27a3045-58aa-4cbe-ab36-90bc6e7a5cdb">The Tower of Cirith Ungol</card>
     <card qty="1" id="22e79f71-9496-4f1a-bf7e-36834378d68c">Pass the Two Watchers</card>
@@ -23,13 +23,13 @@
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="a246d29f-f370-4308-828d-c1ff09029b4a">Shagrat</card>
-    <card qty="1" id="ad4739ac-fd18-4add-9b83-860c1fcc2b54">Last of the Company</card>
-    <card qty="1" id="06b1e27e-6493-4f05-9203-1835058073df">The One Ring</card>
   </section>
   <section name="Staging Setup" shared="True">
     <card qty="1" id="78f780fd-fcc0-495e-b132-772ce71dbfa9">The Two Watchers</card>
     <card qty="1" id="490a363e-2f00-4c66-9c6f-5bdfb83f6b08">Topmost Chamber</card>
     <card qty="1" id="b937644c-ccbb-4a39-ae3c-24857d1d4d57">Frodo Baggins</card>
+    <card qty="1" id="ad4739ac-fd18-4add-9b83-860c1fcc2b54">Last of the Company</card>
+    <card qty="1" id="06b1e27e-6493-4f05-9203-1835058073df">The One Ring</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />

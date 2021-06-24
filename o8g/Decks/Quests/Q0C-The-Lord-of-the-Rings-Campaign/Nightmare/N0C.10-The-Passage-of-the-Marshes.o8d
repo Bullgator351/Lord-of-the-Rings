@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="9f4fa8d5-eaa4-4089-82aa-1ea4563a237b">The Passage of the Marshes</card>
     <card qty="1" id="61963ddc-1260-471f-afdf-96581602a444">The Passage of the Marshes</card>
@@ -28,10 +28,7 @@
   </section>
   <section name="Setup" shared="True">
     <card qty="4" id="8b9b03e6-0036-473a-bdb7-d2d8e74edc69">The Searching Eye</card>
-    <card qty="1" id="32267333-091c-4bbf-bb29-5f21c8b79188">The One Ring</card>
-    <card qty="1" id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f">Frodo Baggins</card>
     <card qty="1" id="ba62a8f1-1857-4449-8f49-7b584b9aaa7d">The Passage of the Marshes</card>
-    <card qty="1" id="32993141-956c-4426-98d9-8705de6fee00">Gollum</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -42,7 +39,11 @@
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="32993141-956c-4426-98d9-8705de6fee00">Gollum</card>
+    <card qty="1" id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f">Frodo Baggins</card>
+    <card qty="1" id="32267333-091c-4bbf-bb29-5f21c8b79188">The One Ring</card>
+  </section>
   <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

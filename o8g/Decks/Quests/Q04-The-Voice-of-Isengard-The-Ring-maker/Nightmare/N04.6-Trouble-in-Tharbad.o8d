@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="9fb6747a-1dd1-4a38-8c55-9459fda296c1">Trouble in Tharbad</card>
     <card qty="1" id="022c654e-9d4d-40ff-9d67-8e465fda0e78">Double Dealings</card>
@@ -29,9 +29,6 @@
   <section name="Setup" shared="True">
     <card qty="1" id="8f6254c0-a723-4e66-bdc7-4c92eed415f8">Bellach</card>
     <card qty="1" id="8b203ead-9fb6-4734-9109-3633fc24d1a9">The Crossing at Tharbad</card>
-    <card qty="4" id="8cc366fb-68f0-4401-9df9-20f9258a728c">Spy from Mordor</card>
-    <card qty="1" id="1d1adc93-c364-41d0-b987-6038d9df0c07">The Empty Mug</card>
-    <card qty="1" id="79f789a1-8a89-468b-8fb1-7a0292cc963f">Nalir</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -42,7 +39,12 @@
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True" />
-  <section name="Active Setup" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="4" id="8cc366fb-68f0-4401-9df9-20f9258a728c">Spy from Mordor</card>
+    <card qty="1" id="79f789a1-8a89-468b-8fb1-7a0292cc963f">Nalir</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="1d1adc93-c364-41d0-b987-6038d9df0c07">The Empty Mug</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="ed458b9f-c913-4cb6-9f47-7760bba94c5b">The Antlered Crown</card>
     <card qty="1" id="4bc78852-59b2-4126-86e1-96a1ee918a05">Battle for Dunland</card>
@@ -33,9 +33,6 @@
   <section name="Setup" shared="True">
     <card qty="1" id="eaaececf-9322-43b5-a190-bdfadd7a695e">Raven Chief</card>
     <card qty="1" id="1208f735-6984-4c4d-ab8c-429664e4e060">Raven Chief's Camp</card>
-    <card qty="1" id="a56cab99-d482-4aa3-b5e4-b1e5b857515f">Chief Turch</card>
-    <card qty="1" id="13b4d81e-1bd7-4a56-a418-b60e58767c12">Dunland Battlefield</card>
-    <card qty="1" id="5842e027-3789-4253-a382-27527ec4fe8a">Raven War-camp</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -45,7 +42,12 @@
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True" />
-  <section name="Active Setup" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="a56cab99-d482-4aa3-b5e4-b1e5b857515f">Chief Turch</card>
+    <card qty="1" id="5842e027-3789-4253-a382-27527ec4fe8a">Raven War-camp</card>
+  </section>
+  <section name="Active Setup" shared="True">
+    <card qty="1" id="13b4d81e-1bd7-4a56-a418-b60e58767c12">Dunland Battlefield</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

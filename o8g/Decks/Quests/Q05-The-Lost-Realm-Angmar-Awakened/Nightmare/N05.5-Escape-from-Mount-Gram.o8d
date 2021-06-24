@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="688f685a-c89d-46d5-92b6-d827e3ee83d9">Escape from Mount Gram</card>
     <card qty="1" id="d1a3a535-7679-4757-871c-80c50c003cff">Unexpected Rescue</card>
@@ -29,10 +29,11 @@
     <card qty="3" id="bcd69c86-8dd5-4c60-8f0f-5d19985ce913">Orc of Thaurdir</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="17b3b108-af37-4894-9d09-4b34f995c0a3">Escape from Mount Gram</card>
-    <card qty="1" id="e2a2f3af-8cfe-4038-845c-443246682a81">Escape from Mount Gram</card>
     <card qty="1" id="cf24afc6-3fa7-4b43-8ff6-75b78aab16e0">Jailor Gornakh</card>
     <card qty="1" id="d760ba6c-e377-4d22-ac46-04bfb2b3c65f">Southern Gate</card>
+  </section>
+  <section name="Staging Setup" shared="True">
+    <card qty="4" id="0cb30c28-b71c-4337-a4d1-6d5bc491bf81">Prison Cell</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -42,8 +43,6 @@
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True">
-    <card qty="4" id="0cb30c28-b71c-4337-a4d1-6d5bc491bf81">Prison Cell</card>
-  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

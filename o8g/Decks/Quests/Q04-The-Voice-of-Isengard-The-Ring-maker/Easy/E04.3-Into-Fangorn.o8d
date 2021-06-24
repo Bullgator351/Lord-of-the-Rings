@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
-  <section name="Hero" shared="False" />
   <section name="Quest" shared="True">
-    <card qty="1" id="99bdb330-27f2-4534-a355-0bb9f1682a8d">Into Fangorn</card>
-    <card qty="1" id="c7e3bde9-8348-41d6-8272-aa733f60a108">Escape From Fangorn</card>
+    <card qty="1" id="99bdb330-27f2-4534-a355-0bb9f1682a8d">Into the Woods</card>
+    <card qty="1" id="c7e3bde9-8348-41d6-8272-aa733f60a108">Escape from Fangorn</card>
     <card qty="1" id="d8c6d8df-9856-4fad-ba85-a96d17b67cfd">The Angry Forest</card>
   </section>
   <section name="Encounter" shared="True">
@@ -19,13 +18,20 @@
     <card qty="2" id="7fc629f3-3115-47df-b997-4a5026d97d2b">Off Track</card>
     <card qty="1" id="3a8869dc-077e-4b8c-b3d5-474e4f9c14ba">In Need of Rest</card>
   </section>
-  <section name="Setup" shared="True">
-    <card qty="1" id="16b71211-85c1-4ad4-8879-831bc7b50ac4">Mugash</card>
-    <card qty="1" id="20c5f7b7-cfc4-44e1-aaf5-0010ceb9a1b9">Edge of Fangorn</card>
-  </section>
+  <section name="Setup" shared="True" />
+  <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="20c5f7b7-cfc4-44e1-aaf5-0010ceb9a1b9">Edge of Fangorn</card>
+    <card qty="1" id="16b71211-85c1-4ad4-8879-831bc7b50ac4">Mugash</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

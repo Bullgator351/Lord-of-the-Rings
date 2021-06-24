@@ -2,8 +2,8 @@
 <deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="b7bd7ec2-fd79-4f9c-aba8-5bbb50cc0071">The Dead Marshes</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-0801205c9011">Into the Marshes - 1A</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-0801205c9017">The Capture - 2A</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-0801205c9011">Into the Marshes</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-0801205c9017">The Capture</card>
   </section>
   <section name="Encounter" shared="True">
     <card qty="2" id="51223bd0-ffd1-11df-a976-0801205c9001">A Wisp of Pale Sheen</card>
@@ -24,14 +24,20 @@
     <card qty="2" id="b7bd7ec2-fd79-4f9c-aba8-5bbb50cc0079">Swarming Mosquitoes</card>
     <card qty="1" id="b7bd7ec2-fd79-4f9c-aba8-5bbb50cc0080">Devilry of the Dark Land</card>
   </section>
-  <section name="Setup" shared="True">
-    <card qty="1" id="b7bd7ec2-fd79-4f9c-aba8-5bbb50cc0072">The Mere of Dead Faces</card>
-    <card qty="1" id="51223bd0-ffd1-11df-a976-0801205c9009">Gollum</card>
-  </section>
+  <section name="Setup" shared="True" />
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
   <section name="Attachment" shared="False" />
   <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="b7bd7ec2-fd79-4f9c-aba8-5bbb50cc0072">The Mere of Dead Faces</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-0801205c9009">Gollum</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

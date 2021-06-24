@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="8231bc2d-f52d-429c-b969-a77a7e5aca52">Intruders in Chetwood</card>
     <card qty="1" id="be3ca12f-2550-48b4-9384-e71a1b401d4e">Stop the War Party</card>
@@ -28,7 +28,9 @@
     <card qty="1" id="bfd46195-4981-47f4-95c1-84f9ec2cadc2">Shadow the War Party</card>
     <card qty="1" id="0569374c-0f0d-461e-8047-cf467393c38f">Protect the Bree-landers</card>
   </section>
-  <section name="Setup" shared="True">
+  <section name="Setup" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="e542f4f9-420f-40eb-8c95-d648f2589511">Orc War Party</card>
     <card qty="1" id="f7f5ca4e-42db-48f9-b4a5-efe419f53fa3">Iârion</card>
   </section>
   <section name="Hero" shared="False" />
@@ -40,8 +42,6 @@
   <section name="Second Quest Deck" shared="True" />
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True">
-    <card qty="1" id="e542f4f9-420f-40eb-8c95-d648f2589511">Orc War Party</card>
-  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

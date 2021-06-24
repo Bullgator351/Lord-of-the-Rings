@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="797f8633-3df6-4e0e-b42e-c088f34e488f">Journey to the Cross-roads</card>
     <card qty="1" id="2b93afb6-38fd-4ded-bf92-ed86bc03635d">Journey to the Cross-roads</card>
@@ -28,10 +28,6 @@
   <section name="Setup" shared="True">
     <card qty="4" id="7fe4a83b-8654-4599-ab5d-6c06e56a7cdc">Southron Warror</card>
     <card qty="4" id="c759124f-3bf2-4820-a1af-285c740c4a5b">Brace of Conies</card>
-    <card qty="1" id="2522fc59-6617-4c74-9723-4a120431aa3f">The Black Gate</card>
-    <card qty="1" id="22f6fc49-6a00-4104-a9fa-4823435175a1">The Cross-roads</card>
-    <card qty="1" id="32267333-091c-4bbf-bb29-5f21c8b79188">The One Ring</card>
-    <card qty="1" id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f">Frodo Baggins</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -41,7 +37,12 @@
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
   <section name="Second Special" shared="True" />
-  <section name="Staging Setup" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="2522fc59-6617-4c74-9723-4a120431aa3f">The Black Gate</card>
+    <card qty="1" id="22f6fc49-6a00-4104-a9fa-4823435175a1">The Cross-roads</card>
+    <card qty="1" id="fe58a6d3-7028-41c1-ab00-5e33e7d77b5f">Frodo Baggins</card>
+    <card qty="1" id="32267333-091c-4bbf-bb29-5f21c8b79188">The One Ring</card>
+  </section>
   <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
