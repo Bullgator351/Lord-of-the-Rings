@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="31bd075d-e116-4a0f-81dd-942b52a6267c">The Grotto</card>
     <card qty="1" id="e48c7313-d1cb-4291-9dc1-9fff6fb23e83">Sahír's Betrayal</card>
@@ -26,10 +26,8 @@
     <card qty="1" id="cb3ca114-400e-4abf-87e6-124b75e92cb4">Water-Logged Halls</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="011a4573-f21a-4897-9b23-8b64391f5136">Shrine to Morgoth</card>
-    <card qty="1" id="97bf780d-cd76-492f-a970-37f78273c5bb">Captain Sahír</card>
-    <card qty="1" id="f0d30258-7122-4004-a689-9ff50a00b3af">Na'asiyah</card>
     <card qty="1" id="d41a03fa-e124-4e40-99b2-2ea4f71930f1">The Drowned Ruins</card>
+    <card qty="1" id="011a4573-f21a-4897-9b23-8b64391f5136">Shrine to Morgoth</card>
   </section>
   <section name="Hero" shared="False" />
   <section name="Ally" shared="False" />
@@ -39,5 +37,10 @@
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
   <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="97bf780d-cd76-492f-a970-37f78273c5bb">Captain Sahír</card>
+    <card qty="1" id="f0d30258-7122-4004-a689-9ff50a00b3af">Na'asiyah</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Quest" shared="True">
     <card qty="1" id="c79ff551-f816-4106-9c55-e22d175e544c">The Coast of Umbar</card>
     <card qty="1" id="19675b16-16ee-4477-a753-bd1cf7b51b7a">Fate of The Dream-chaser</card>
@@ -38,8 +38,6 @@
     <card qty="2" id="7f0e7969-bca4-48a3-99b5-ba055bd376af">Umbar Patrol</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="c45dc401-bb07-42ec-ba4c-ee9105a3f349">Stormcaller</card>
-    <card qty="2" id="797a1805-f347-4eb3-9f77-5c9e6b6a850f">Southern Belfalas</card>
     <card qty="1" id="c354e410-e15a-4999-bb14-696b5e89cee9">Captain Sahír</card>
     <card qty="1" id="f811f153-81f4-4688-8b4d-400215e6748a">The Shattered Monument</card>
     <card qty="1" id="07a8f60f-926c-4342-bf04-e3af9a24df10">Dream-chaser</card>
@@ -55,5 +53,10 @@
   <section name="Side Quest" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="c45dc401-bb07-42ec-ba4c-ee9105a3f349">Stormcaller</card>
+    <card qty="2" id="797a1805-f347-4eb3-9f77-5c9e6b6a850f">Southern Belfalas</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

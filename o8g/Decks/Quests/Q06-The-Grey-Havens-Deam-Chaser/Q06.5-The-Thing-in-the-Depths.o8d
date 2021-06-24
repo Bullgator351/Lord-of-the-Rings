@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f">
   <section name="Special" shared="True">
     <card qty="2" id="07067901-5306-47f0-8863-3c9cb194e1c6">Eye of the Beast</card>
     <card qty="2" id="9c3c6e43-7548-4eaf-8225-2f51ecafbc4a">Thrashing Arm</card>
@@ -27,8 +27,6 @@
     <card qty="2" id="c057b0ef-eb85-4afc-9ca8-60a0cca92bcc">Battle-Hardened</card>
   </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="5585680f-0609-4cc4-96b5-37e53992af56">Helm of the Stormcaller</card>
-    <card qty="1" id="d03bdefa-cc39-43b6-9af9-feeb33858958">Umbar Raider</card>
     <card qty="1" id="b53fd0fc-5734-4bdc-b26f-c2133da31c3d">The Thing in the Depths</card>
     <card qty="1" id="97bf780d-cd76-492f-a970-37f78273c5bb">Captain Sahír</card>
     <card qty="1" id="f0d30258-7122-4004-a689-9ff50a00b3af">Na'asiyah</card>
@@ -42,5 +40,10 @@
   <section name="Sideboard" shared="False" />
   <section name="Second Quest Deck" shared="True" />
   <section name="Second Special" shared="True" />
+  <section name="Staging Setup" shared="True">
+    <card qty="1" id="5585680f-0609-4cc4-96b5-37e53992af56">Helm of the Stormcaller</card>
+    <card qty="1" id="d03bdefa-cc39-43b6-9af9-feeb33858958">Umbar Raider</card>
+  </section>
+  <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
