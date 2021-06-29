@@ -7,7 +7,6 @@
     <property name="Encounter Set" value="A Shadow of the Past - Nightmare"/>
     <property name="Type" value="Nightmare"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="ttsl"/>
     <alternate name="A Shadow of the Past" type="B">
       <property name="Encounter Set" value="A Shadow of the Past - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -108,7 +107,6 @@
     <property name="Encounter Set" value="A Knife in the Dark - Nightmare"/>
     <property name="Type" value="Nightmare"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="ttttsstttt"/>
     <alternate name="A Knife in the Dark" type="B">
       <property name="Encounter Set" value="A Knife in the Dark - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -211,7 +209,6 @@
     <property name="Encounter Set" value="Flight to the Ford - Nightmare"/>
     <property name="Type" value="Nightmare"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="ttttstttt"/>
     <alternate name="Flight to the Ford" type="B">
       <property name="Encounter Set" value="Flight to the Ford - Nightmare"/>
       <property name="Type" value="Nightmare"/>

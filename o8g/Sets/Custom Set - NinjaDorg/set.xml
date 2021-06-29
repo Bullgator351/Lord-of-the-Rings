@@ -9,7 +9,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Put to one side Nazgul of Dol Guldur and 2 Dungeons Jailors from the Dol Guldur set and remove the Dol Guldur Objective cards from play. Unless stated otherwise, proceed to the next Stage in numerical order."/>
-    <property name="Setup" value="ttt"/>
     <alternate name="Dark Road" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Branching Paths"/>
       <property name="Type" value="Quest"/>
@@ -123,7 +122,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Take out the Nazgul of Dol Guldur, Ungoliant's Spawn and Objective cards and set them to one side out of play."/>
-    <property name="Setup" value="ttttt"/>
     <alternate name="Ancient Path" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Forgotten Ruins"/>
       <property name="Type" value="Quest"/>
@@ -225,7 +223,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="SOLO PLAY: You may only choose ONE HERO (and thus one sphere deck) to perform this quest. Also, take out the Legolas Hero card (from the Tactics Sphere) and set it to one side out of play."/>
-    <property name="Setup" value="t"/>
     <alternate name="Forgotten Path" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Lost Road"/>
       <property name="Type" value="Quest"/>
@@ -275,7 +272,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Take out 1 Hill Troll and the Chieftain Ufthak card and set them both to one side out of play."/>
-    <property name="Setup" value="tt"/>
     <alternate name="Orc War Party" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
@@ -292,7 +288,6 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="tt"/>
     <alternate name="Dark Woods" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Old Forest"/>
       <property name="Type" value="Quest"/>
@@ -326,7 +321,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Take out th Nazgul of Dol Guldur, Ungoliant's Spawn and the Objective cards and set them to one side out of play. Then choose a hero and five that hero Gandalf's Map."/>
-    <property name="Setup" value="ttttt"/>
     <alternate name="Foul Tower" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Ungoliant's Lair"/>
       <property name="Type" value="Quest"/>

@@ -282,7 +282,6 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="ttttt-"/>
     <alternate name="Solving the Trouble" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quarrel in the Misty Mountains"/>
       <property name="Type" value="Quest"/>
@@ -474,7 +473,6 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="tss"/>
     <alternate name="Travel to the Library" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Quest for Obscure Knowledge"/>
       <property name="Type" value="Quest"/>

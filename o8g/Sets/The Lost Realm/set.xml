@@ -174,7 +174,6 @@
     <property name="Defense" value="2"/>
     <property name="Health" value="3"/>
     <property name="Text" value="When Revealed: The first player chooses a player to take control of Ranger of the North. Then, either deal 2 damage to an enemy or place 2 progress tokens on a location."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="f7f5ca4e-42db-48f9-b4a5-efe419f53fa3" name="Iârion" size="EncounterCard">
     <property name="Card Number" value="16"/>
@@ -738,7 +737,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Put Iârion into play. Add 1 Orc War Party to the staging area. Each player adds 1 different location to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="ts"/>
     <alternate name="Stop the War Party" type="B" size="QuestCard">
       <property name="Encounter Set" value="Intruders in Chetwood"/>
       <property name="Type" value="Quest"/>
@@ -756,7 +754,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Orc Ambush and Amon Ford aside, out of play. Create the Orc deck (see insert) and set it next to the quest deck. Make Exposed Ridge the active location. Add Hunting the Orcs and 1 Weathered Hilltop to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="ttlss"/>
     <alternate name="Scattered Among the Hills" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Weather Hills"/>
       <property name="Type" value="Quest"/>
@@ -805,7 +802,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Put Iârion into play. Set Thaurdir aside, out of play. Add 1 copy of Fornost Square to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="tts"/>
     <alternate name="The Shades of Angmar" type="B" size="QuestCard">
       <property name="Encounter Set" value="Deadmen's Dike"/>
       <property name="Type" value="Quest"/>

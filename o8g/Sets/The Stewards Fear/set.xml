@@ -121,7 +121,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Create the underworld deck. Remove Roots of Mindolluin from the encounter deck and set it aside, out of play. Shuffle all Villain cards and randomly set one aside, out of play, without looking at it. Remove the others from the game. Repeat this with all Plot cards."/>
-    <property name="Setup" value="tttttttl"/>
     <alternate name="Conspiracy" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Steward's Fear"/>
       <property name="Type" value="Quest"/>

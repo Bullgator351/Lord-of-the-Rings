@@ -9,7 +9,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Remove all location, treachery and objective cards that do not pertain to the Through the Folds encounter set. Remove from the encounter deck all the Captain and Route cards, and set aside, out of play. Add Edoras Hills to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="sttttt"/>
     <alternate name="To Edoras" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Through the Folds"/>
       <property name="Type" value="Quest"/>
@@ -68,7 +67,6 @@
     <property name="Health" value="7"/>
     <property name="Victory Points" value="2"/>
     <property name="Text" value="X is the number of attachments in play.&#10;&#10;Forced: At the beginning of the encounter phase, Bounty Hunter engages the player with least attachments under his control."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="7cfdd568-9db4-4f4b-bfde-9c4344213d21" name="Junkorlg" size="EncounterCard">
     <property name="Card Number" value="5"/>
@@ -85,7 +83,6 @@
     <property name="Health" value="7"/>
     <property name="Victory Points" value="3"/>
     <property name="Text" value="X is the number of allies in play.&#10;&#10;Forced: After Junkorlg attacks, the defending player chooses and faces down an ally he controls, that ally becomes out of his control."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="b94b6b2b-41d5-4e4e-b464-8291dbc4041e" name="Ghulat" size="EncounterCard">
     <property name="Card Number" value="6"/>
@@ -101,7 +98,6 @@
     <property name="Defense" value="X"/>
     <property name="Health" value="9"/>
     <property name="Text" value="X is the specified alert value.&#10;&#10;Response: Damage tokens on Ghulat count as a victory points when the players win the game."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="96b903cc-99f4-4a9e-9b2f-6c8419758ca0" name="Forest Assailant" size="EncounterCard">
     <property name="Card Number" value="7"/>
@@ -169,7 +165,6 @@
     <property name="Threat" value="X"/>
     <property name="Quest Points" value="-"/>
     <property name="Text" value="X is the number of attachments in play.&#10;&#10;Forced: No more than 5 progress tokens can be placed on the current quest card each round. After players advance to stage 2, remove Edoras Hills from the game."/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="57b31054-219f-42fd-9e42-67835ab28725" name="The White Mountains" size="EncounterCard">
     <property name="Card Number" value="12"/>
@@ -181,7 +176,6 @@
     <property name="Threat" value="X"/>
     <property name="Quest Points" value="-"/>
     <property name="Text" value="X is the number of allies in play.&#10;&#10;Forced: No more than 5 progress tokens can be placed on the current quest card each round. After players advance to stage 3, remove The White Mountains from the game."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="22f1a7c0-55a8-44b8-9d68-055fa12529d5" name="Mindolluin" size="EncounterCard">
     <property name="Card Number" value="13"/>
@@ -193,7 +187,6 @@
     <property name="Threat" value="X"/>
     <property name="Quest Points" value="-"/>
     <property name="Text" value="X is the specified alert value.&#10;&#10;Forced: After travelling to a Mountain location, each player may choose and ready a character he controls."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="dd64ebe2-4eef-4860-869b-f47f57d45e50" name="Sinister Caves" size="EncounterCard">
     <property name="Card Number" value="14"/>

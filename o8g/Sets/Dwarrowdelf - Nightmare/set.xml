@@ -8,7 +8,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="stttttttt"/>
     <alternate name="The Redhorn Gate" type="B">
       <property name="Encounter Set" value="The Redhorn Gate - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -102,7 +101,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="t"/>
     <alternate name="Road to Rivendell" type="B">
       <property name="Encounter Set" value="Road to Rivendell - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -221,7 +219,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin. &#10;"/>
-    <property name="Setup" value="tt"/>
     <alternate name="The Watcher in the Water" type="B">
       <property name="Encounter Set" value="The Watcher in the Water - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -314,7 +311,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin.  &#10;"/>
-    <property name="Setup" value="t"/>
     <alternate name="The Long Dark" type="B">
       <property name="Encounter Set" value="The Long Dark - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -410,7 +406,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin.  &#10;"/>
-    <property name="Setup" value="t"/>
     <alternate name="Foundations of Stone" type="B">
       <property name="Encounter Set" value="Foundations of Stone - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -506,7 +501,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin.  &#10;"/>
-    <property name="Setup" value="ts"/>
     <alternate name="Shadow and Flame" type="B">
       <property name="Encounter Set" value="Shadow and Flame - Nightmare"/>
       <property name="Type" value="Nightmare"/>

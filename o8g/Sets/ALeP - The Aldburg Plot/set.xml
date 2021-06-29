@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" gameId="a21af4e8-be4b-4cda-a6b6-534f9717391f" gameVersion="2.3.6.0" id="d211fdfd-93e1-4b04-82df-6fcf8eb0ed59" name="ALeP - The Aldburg Plot" version="1.0">
+  <cards>
+    <card id="fc0ed013-95d9-46e3-bd98-6d6b41a8c559" name="The Aldburg Plot">
+      <property name="Card Number" value="0" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Rules" />
+      <alternate name="The Aldburg Plot" type="B">
+        <property name="Type" value="Rules" />
+        <property name="Text" value="We would like to thank the hard-working people at FFG for creating the card game we all love. We hope we have done proper justice to its legacy with this fan expansion. In particular, we would like to thank Nate French, Lukas Litzsinger, MJ Newman, and Caleb Grace for their role in leading the game design over the last 10 years. And finally, we would like to thank you, the player, for taking interest in our project and making this community one of the best communities in Arda.&#10;—The ALeP Team" />
+      </alternate>
+    </card>
+    <card id="b2b0edb1-5ea7-4a4e-9495-6a084fee744f" name="The Aldburg Plot Rules">
+      <property name="Card Number" value="0" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Rules" />
+      <property name="Victory Points" value="Page 1/6" />
+      <property name="Text" value="Welcome to The Aldburg Plot, an unofficial fan Adventure Pack, developed by A Long-extended Party (ALeP).&#10;This expansion sees the heroes investigating a disturbing conspiracy within the walls of the Rohirric city of Aldburg.&#10;Component Overview&#10;The Aldburg Plot Adventure Pack includes 70 cards, consisting of:&#10; • 3 Rules Cards • 35 Encounter Cards&#10; • 2 Hero Cards • 3 Quest Cards&#10; • 27 Player Cards&#10;Web Resources&#10;You can check for any updates from A Long-extended Party at www.alongextendedparty.com.&#10;You can build decks and track your plays of these scenarios and others online through RingsDB at www.ringsdb.com.&#10;For general rules and definitions of common game terms, visit the Quest Companion at bit.ly/2MKkak9." />
+      <alternate name="The Aldburg Plot Rules" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Rules" />
+      </alternate>
+    </card>
+    <card id="c9a7a090-f0eb-474e-bcc1-95f7a7c5ea21" name="The Aldburg Plot 1">
+      <property name="Card Number" value="0" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Rules" />
+      <property name="Victory Points" value="Page 2/6" />
+      <property name="Text" value="Expansion Symbol&#10;The cards in the Oaths of the Rohirrim cycle can be identified by this symbol before each card’s collector number.&#10;The Aldburg Plot&#10;Difficulty level = 5&#10;In the darkness:&#10;“Do what you are bidden, Ossian.”&#10;The soldier grimaced. “My lord, he is one of us. I fought at his side at Amon Hen. He saved my life.”&#10;“Remember what we are fighting for, my boy. Go now. For the Gift.”&#10;He steeled himself. “For the Gift.”&#10;Late that night, the heroes were roused from an unsteady sleep by Ealdwulf himself. The crags of his face were licked by shadow. All else was darkness. “It is not yet dawn,” he said. “I have ill news.”&#10;“What tidings, master Ealdwulf?” said one of the heroes.&#10;“A rider of Rohan has turned himself in,” said the old lord." />
+      <alternate name="The Aldburg Plot 1" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Rules" />
+      </alternate>
+    </card>
+    <card id="079d2660-fc59-4545-8372-98d6cb8a0b88" name="The Aldburg Plot 2">
+      <property name="Card Number" value="0" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Rules" />
+      <property name="Victory Points" value="Page 3/6" />
+      <property name="Text" value="“For the slaughter at Erelas. For treason.” The word hit like a hammer. “He has told the guards that the rest of his comrades will move to depose Lord Éomund before dawn. That even our trusted spy master has turned against us in service of a devilish conspiracy.”&#10;“We must go to the guards,” said a hero, lacing her hauberk. “Perhaps we can wring some details from this prisoner.”&#10;“I feel the noose ever-tightening,” said Ealdwulf. “The traitors are within the walls now. Better not to tip our hand that we have become aware of their duplicity. My friends, root out this treason, or the Eastmark shall surely crumble from within – and with it, the soul of Rohan.”&#10;With that, the heroes outfitted themselves and made their way to the quiet streets of Aldburg. “Shall we go to the barracks, then?” said one.&#10;As they passed by a seamy tavern called The Horse’s Tail, they caught a whisper of hushed conversation. “Assassin?” said one of the patrons. “In Aldburg?”&#10;“Tavern or barracks,” said a hero. “Shall we toss a coin?”" />
+      <alternate name="The Aldburg Plot 2" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Rules" />
+      </alternate>
+    </card>
+    <card id="0030124a-1765-4c48-be68-1791cde9c1b3" name="The Aldburg Plot 3">
+      <property name="Card Number" value="0" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Rules" />
+      <property name="Victory Points" value="Page 4/6" />
+      <property name="Text" value="“The Aldburg Plot” is played with an encounter deck built with all the cards from the following encounter sets: The Aldburg Plot, Faithless Rohirrim, and Rohan Encampment. (Faithless Rohirrim and Rohan Encampment can be found in the Children of Eorl deluxe expansion.) These sets are indicated by the following icons:&#10;Racing into the halls of Lord Éomund, the heroes were greeted by the young Marshal. He wore a scowl on his face, his blade unsheathed across his lap. Beside him sat the wizened Ealdwulf, his eyes bleary and sleepless. At the heroes’ entrance, the old man leapt to his feet.&#10;“What news?” said Ealdwulf. “Come, what news?”&#10;“Yes,” said Éomund. “Tell us which captain’s head shall be cloven, and let us be done with it.”&#10;“Patience, my lord.” Ealdwulf knelt at his lord’s feet. “Surely they have found something. Friends, tell us what you have learned.”" />
+      <alternate name="The Aldburg Plot 3" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Rules" />
+      </alternate>
+    </card>
+    <card id="4906a312-294b-47db-835d-45339e1a5f83" name="The Aldburg Plot 4">
+      <property name="Card Number" value="0" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Rules" />
+      <property name="Victory Points" value="Page 5/6" />
+      <property name="Text" value="If the heroes control the Raven Signet Ring objective:&#10;“I have seen this ring before,” said Éomund. “On the knuckle of a Dunlending warchief. How came it into the spy master’s possession?”&#10;“Perhaps a token from the warchief to one of his traitorous collaborators,” said Ealdwulf.&#10;If the heroes control the Silver Dagger objective:&#10;“I recognize this blade,” said Ealdwulf.&#10;“As do I,” said one of the heroes. “At Erelas, Gálmód wielded it against a captive Dunlending. I thought perhaps it was a fit of rage, but is it possible he meant only to silence a man who could have betrayed his secret?”&#10;If the heroes control the Rohirric Coins objective:&#10;“What’s the meaning of these coins?” said one of the heroes. “A stranger dropped them for us in the tavern.”&#10;“Perhaps he mistook you for one of the Whisperer’s agents,” said Éomund. “Your appearance is strange enough.”&#10;If the heroes control the Prison Key objective:&#10;“You retrieved this from the spy master, then?” said Éomund. “So we can be certain he was behind the prisoner’s murder. Does this conspiracy extend further?”&#10;If the heroes control the Ruby Cloak-pin objective:&#10;“We found this among the ashes in the western quarter,” said one of the heroes. “We know it well. This belonged to Gálmód. But of him we have found no trace.”" />
+      <alternate name="The Aldburg Plot 4" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Rules" />
+      </alternate>
+    </card>
+    <card id="231c963a-bfdd-44a9-b680-fb8c21e3fd4c" name="The Aldburg Plot 5">
+      <property name="Card Number" value="0" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Rules" />
+      <property name="Victory Points" value="Page 6/6" />
+      <property name="Text" value="If the heroes control the Letter from Dunland objective:&#10;Ealdwulf read the missive aloud: “Straw-hair Gálmód, we have made war against the Erelas hill of flame. Our pact remains unfulfilled. Return the land of green hills to my people, as you have oathsworn. Grimrede.”&#10;If the heroes control the Traitor’s Confession objective:&#10;“The killer Ossian was one of Gálmód’s most trusted lieutenants,” said Ealdwulf. “Doubtless he hoped to eliminate the prisoner before he spoke the truth of what happened at Erelas.”&#10;If the heroes control the Red Fletched Arrow objective:&#10;“The armorer claims he was instructed to create this for Gálmód,” said one of the heroes. “What could this be for?”&#10;“It was meant for his assassin’s bow,” said Éomund. “And my heart.”&#10;Conclusion:&#10;With your evidence laid before the Marshal, the young lord Éomund summons his guards. “Bring me Gálmód in chains. He will not live to see morning.”&#10;The story continues in “Fire on the Eastemnet,” the second Adventure Pack in the “Oaths of the Rohirrim” cycle." />
+      <alternate name="The Aldburg Plot 5" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Rules" />
+      </alternate>
+    </card>
+    <card id="151ba48a-1efd-451e-bba0-b49fa0566596" name="Fatty Bolger">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Hero" />
+      <property name="Sphere" value="Lore" />
+      <property name="Traits" value="Hobbit." />
+      <property name="Cost" value="7" />
+      <property name="Willpower" value="1" />
+      <property name="Attack" value="1" />
+      <property name="Defense" value="2" />
+      <property name="Health" value="3" />
+      <property name="Text" value="Setup: Reduce your threat by 2.&#10;Response: Raise your threat by 4 and exhaust Fatty Bolger to cancel a non-unique enemy card just revealed from the encounter deck and add it to the victory display. (Limit once per game for the group.)" />
+    </card>
+    <card id="eccb04b5-1b98-4e06-ad6d-0d86108d4621" name="Widfast">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Hero" />
+      <property name="Sphere" value="Spirit" />
+      <property name="Traits" value="Woodman. Scout." />
+      <property name="Cost" value="10" />
+      <property name="Willpower" value="2" />
+      <property name="Attack" value="1" />
+      <property name="Defense" value="2" />
+      <property name="Health" value="3" />
+      <property name="Text" value="Setup: Search your collection for a Creature ally and add it to your hand. For the first round, reduce its cost by 2.&#10;Travel Action: If there is 1 active location, spend 1 resource from Widfast’s pool to travel to another location, resolving its Travel effect. (There are now 2 active locations.)" />
+    </card>
+    <card id="db0fd355-24e0-4f1d-93ce-de6bd8938448" name="Lily Cotton">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="3" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Ally" />
+      <property name="Sphere" value="Leadership" />
+      <property name="Traits" value="Hobbit." />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Attack" value="1" />
+      <property name="Defense" value="1" />
+      <property name="Health" value="2" />
+      <property name="Text" value="Action: Exhaust Lily Cotton to ready a different Hobbit ally and add Lily Cotton’s Ò, Û, and Ú to that ally’s Ò, Û, and Ú respectively until the end of the phase. At the end of the phase, if that ally is still in play, return it to your hand. (Limit once per phase.)" />
+    </card>
+    <card id="6eb614d5-d479-4def-be0e-1453d14b44ef" name="A Lesson in Caution">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Sphere" value="Leadership" />
+      <property name="Cost" value="1" />
+      <property name="Text" value="Secrecy 1.&#10;Action: Draw 1 card. Then, either reduce your threat by 2, or the next card you play this phase gains secrecy 1." />
+    </card>
+    <card id="6019b1c3-4bb9-4cd2-93bf-456d2931440e" name="There and Back Again">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Sphere" value="Leadership" />
+      <property name="Cost" value="1" />
+      <property name="Text" value="Secrecy 1.&#10;Response: After a Hobbit ally leaves play, search your hand and discard pile for a copy of that ally and put it into play, under any player’s control." />
+    </card>
+    <card id="c0c452e9-e40f-49be-b2e2-698627fb25d5" name="Buckland Shirriff">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Ally" />
+      <property name="Sphere" value="Lore" />
+      <property name="Traits" value="Hobbit. Shirriff." />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Attack" value="2" />
+      <property name="Defense" value="0" />
+      <property name="Health" value="2" />
+      <property name="Text" value="Devoted. Ranged.&#10;Response: After an enemy that shares a Trait with an enemy in the victory display is added to the staging area, spend 1 Î resource to put Buckland Shirriff into play from your hand, under your control." />
+    </card>
+    <card id="8b2450a0-3335-495b-a39d-bca63bf349d4" name="Weep No More!">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Sphere" value="Lore" />
+      <property name="Cost" value="1" />
+      <property name="Text" value="Limit 3 copies of Weep No More! in the victory display.&#10;Response: After a “when revealed” effect or a shadow effect on a treachery card resolves, add Weep No More! to the victory display to add that treachery card to the victory display." />
+    </card>
+    <card id="693c038d-9562-46d8-90d1-4ae7813cb901" name="Fear! Fire! Foes!">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Sphere" value="Lore" />
+      <property name="Cost" value="2" />
+      <property name="Text" value="Secrecy 1. Play only if you do not control a Warrior hero.&#10;Action: Choose a non-unique enemy and an attribute ($, Û, or Ú). Until the end of the phase, reduce the chosen attribute of that enemy to 0." />
+    </card>
+    <card id="65882649-7a05-4dbb-8309-567d9eb13ee6" name="Horn-call of Buckland">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="3" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Attachment" />
+      <property name="Sphere" value="Lore" />
+      <property name="Traits" value="Skill." />
+      <property name="Cost" value="1" />
+      <property name="Text" value="Attach to a Î or Hobbit hero.&#10;Response: After you engage an enemy that shares a Trait with an enemy in the victory display, exhaust Horn-call of Buckland to ready attached hero. Then, that enemy gets −1 Û and −1 Ú until the end of the round." />
+    </card>
+    <card id="de1e0ba4-43a5-4cf4-a66e-0feb58b5d662" name="Young Tom">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="3" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Ally" />
+      <property name="Sphere" value="Spirit" />
+      <property name="Traits" value="Hobbit." />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Attack" value="1" />
+      <property name="Defense" value="0" />
+      <property name="Health" value="1" />
+      <property name="Text" value="During the round that Young Tom enters play, enemies get +5 engagement cost." />
+    </card>
+    <card id="a18ef169-31f3-4809-a0c7-3f12654b17ce" name="Gavin">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="3" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Ally" />
+      <property name="Sphere" value="Spirit" />
+      <property name="Traits" value="Creature. Scout." />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Attack" value="1" />
+      <property name="Defense" value="0" />
+      <property name="Health" value="1" />
+      <property name="Text" value="Cannot have attachments.&#10;Response: After resolving the staging of an encounter card without surge, exhaust Gavin to give that card surge and add 1 resource to the pool of a Scout hero you control. If the next encounter card revealed is not a location, discard it without resolving its effects." />
+    </card>
+    <card id="4afcbb19-84ee-433b-ba23-314c4e854ca0" name="Red Harvest" size="QuestCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Side Quest" />
+      <property name="Quest Points" value="4" />
+      <property name="Victory Points" value="VICTORY 10" />
+      <property name="Text" value="Forced: After an enemy engages a player, that player deals 2 damage to a character they control.&#10;Forced: After this stage is defeated, shuffle the encounter discard pile into the encounter deck. Each player discards cards from the encounter deck until an enemy is discarded and adds that enemy to the staging area. Add The Armoury to the staging area." />
+    </card>
+    <card id="a6ead42b-887a-43c4-a092-422d6e4e8418" name="The Prisoner in White" size="QuestCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Side Quest" />
+      <property name="Quest Points" value="4" />
+      <property name="Victory Points" value="VICTORY 10" />
+      <property name="Text" value="The players cannot travel to locations or make locations active with player card effects.&#10;Forced: After this stage is defeated, add Ossian to the staging area." />
+    </card>
+    <card id="02e5a1c9-4209-4bbf-96b8-5d5ee7ed6698" name="The Man with the Twisted Lip" size="QuestCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Side Quest" />
+      <property name="Quest Points" value="8" />
+      <property name="Victory Points" value="VICTORY 10" />
+      <property name="Text" value="Forced: At the end of the round, raise each player’s threat by 1.&#10;Forced: After this stage is defeated, add The Spy Master to the staging area." />
+    </card>
+    <card id="f363261b-dfe3-4d84-9260-ca23eb84b56c" name="A Fire Rises" size="QuestCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Side Quest" />
+      <property name="Quest Points" value="4" />
+      <property name="Victory Points" value="VICTORY 10" />
+      <property name="Text" value="Increase the cost to play each event by 1.&#10;Forced: After this stage is defeated, reveal Spreading Inferno." />
+    </card>
+    <card id="3038b932-33c7-4c0b-8de4-69461d728de4" name="A Case of Identity" size="QuestCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Side Quest" />
+      <property name="Quest Points" value="6" />
+      <property name="Victory Points" value="VICTORY 10" />
+      <property name="Text" value="Forced: At the end of the staging step, discard cards from the top of the encounter deck until an enemy is discarded. Reveal that enemy.&#10;Forced: After this stage is defeated, add Great Mead Hall to the staging area." />
+    </card>
+    <card id="198364e8-45bc-45c3-9d5d-5cf2a2c0ce38" name="Whisperer in the Darkness" size="QuestCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Side Quest" />
+      <property name="Quest Points" value="6" />
+      <property name="Victory Points" value="VICTORY 10" />
+      <property name="Text" value="Forced: After a location is explored, raise each player’s threat by 1.&#10;Forced: After this stage is defeated, add The Whisperer to the staging area." />
+    </card>
+    <card id="22fffee3-e5d9-4159-82d6-c946d875b6e7" name="Spreading Inferno" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Objective" />
+      <property name="Traits" value="Inferno. Suspicious." />
+      <property name="Text" value="Guarded (location).&#10;Forced: At the beginning of the travel phase, discard the attached location, raise each player’s threat by 1, and discard the lowest printed cost ally controlled by each player. Reveal Spreading Inferno.&#10;Forced: When the attached location is explored, flip this card over and reveal it." />
+      <alternate name="Ruby Cloak-pin" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Objective" />
+        <property name="Traits" value="Clue." />
+        <property name="Text" value="If unattached, attach to the hero with the fewest Clue objectives attached.&#10;Forced: After attached hero readies, discard the top 4 cards of your deck." />
+      </alternate>
+    </card>
+    <card id="eb65adff-1355-4525-bdc9-2ae6e96bbb36" name="The Whisperer" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Gondor. Traitor. Suspicious." />
+      <property name="Engagement Cost" value="45" />
+      <property name="Threat" value="3" />
+      <property name="Attack" value="5" />
+      <property name="Defense" value="3" />
+      <property name="Health" value="5" />
+      <property name="Text" value="Forced: At the end of the round, return The Whisperer to the staging area, if able. The Whisperer makes an immediate attack against the first player. Damage that would be dealt by this attack is instead assigned as an increase to the first player’s threat.&#10;Forced: When The Whisperer is defeated, flip this card over and reveal it." />
+      <alternate name="Silver Dagger" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Objective" />
+        <property name="Traits" value="Clue." />
+        <property name="Text" value="When Revealed: Add A Case of Identity and Red Harvest to the staging area.&#10;If unattached, attach to the hero with the fewest Clue objectives attached.&#10;Forced: After attached hero readies, deal 1 damage to it." />
+      </alternate>
+    </card>
+    <card id="17fe0f1e-fcca-401f-88b7-6edae12be418" name="The Spy Master" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Rohan. Spy. Suspicious." />
+      <property name="Engagement Cost" value="0" />
+      <property name="Threat" value="2" />
+      <property name="Attack" value="4" />
+      <property name="Defense" value="4" />
+      <property name="Health" value="6" />
+      <property name="Text" value="Forced: When The Spy Master is dealt a shadow card with no shadow effect, deal 1 damage to the defending character and deal The Spy Master another shadow card (limit twice per attack).&#10;Forced: When The Spy Master is defeated, flip this card over and reveal it." />
+      <alternate name="Prison Key" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Objective" />
+        <property name="Traits" value="Clue." />
+        <property name="Text" value="When Revealed: Add A Fire Rises and The Prisoner in White to the staging area.&#10;If unattached, attach to the hero with the fewest Clue objectives attached.&#10;Forced: After attached hero readies, discard a non-Clue attachment from it." />
+      </alternate>
+    </card>
+    <card id="b7a162d6-96af-4188-95b9-c018ae9b0365" name="Ossian" size="EncounterCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Rohan. Assassin. Suspicious." />
+      <property name="Engagement Cost" value="50" />
+      <property name="Threat" value="3" />
+      <property name="Attack" value="6" />
+      <property name="Defense" value="5" />
+      <property name="Health" value="7" />
+      <property name="Text" value="Immune to player card effects. Ossian cannot take more than X damage each round, where X is the number of Clue objectives controlled by the players.&#10;Forced: When Ossian is defeated, flip this card over and reveal it." />
+      <alternate name="Traitor’s Confession" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Objective" />
+        <property name="Traits" value="Clue." />
+        <property name="Text" value="If unattached, attach to the hero with the fewest Clue objectives attached.&#10;Forced: After attached hero readies, discard a card at random from your hand." />
+      </alternate>
+    </card>
+    <card id="22cf4d32-7934-45e4-9f0a-1846d4714d07" name="Garrison Barracks" size="EncounterCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Aldburg. Suspicious." />
+      <property name="Threat" value="X" />
+      <property name="Quest Points" value="4" />
+      <property name="Text" value="Immune to player card effects. X is twice the number of Clue objectives controlled by the players.&#10;Travel: Shuffle all set aside Dunland enemies into the encounter deck.&#10;Forced: When Garrison Barracks is explored, flip this card over and reveal it." />
+      <alternate name="Raven Signet Ring" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Objective" />
+        <property name="Traits" value="Clue." />
+        <property name="Text" value="When Revealed: Add The Man with the Twisted Lip to the staging area.&#10;If unattached, attach to the hero with the fewest Clue objectives attached.&#10;Forced: After attached hero readies, discard all resources in its resource pool." />
+      </alternate>
+    </card>
+    <card id="a2278bfd-906a-46a0-bdd2-21b70a376e9e" name="The Horse’s Tail" size="EncounterCard">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Aldburg. Suspicious." />
+      <property name="Threat" value="X" />
+      <property name="Quest Points" value="6" />
+      <property name="Text" value="Immune to player card effects. X is twice the number of Clue objectives controlled by the players.&#10;Travel: Shuffle all set aside Garrison enemies into the encounter deck.&#10;Forced: When The Horse’s Tail is explored, flip this card over and reveal it." />
+      <alternate name="Rohirric Coins" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Objective" />
+        <property name="Traits" value="Clue." />
+        <property name="Text" value="When Revealed: Add Whisperer in the Darkness to the staging area.&#10;If unattached, attach to the hero with the fewest Clue objectives attached.&#10;Forced: After attached hero readies, exhaust another character you control." />
+      </alternate>
+    </card>
+    <card id="06c1fa99-16b4-4eff-8eed-2d3aee161ca9" name="The Armoury" size="EncounterCard">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Aldburg. Suspicious." />
+      <property name="Threat" value="2" />
+      <property name="Quest Points" value="4" />
+      <property name="Text" value="Immune to player card effects.&#10;Travel: Each player must exhaust the ready character they control with the highest Ú.&#10;Forced: When The Armoury is explored, flip this card over and reveal it." />
+      <alternate name="Red Fletched Arrow" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Objective" />
+        <property name="Traits" value="Clue." />
+        <property name="Text" value="If unattached, attach to the hero with the fewest Clue objectives attached.&#10;Forced: After attached hero readies, raise your threat by 1." />
+      </alternate>
+    </card>
+    <card id="fe25197e-cd1a-4088-998b-5b371cd70f94" name="Great Mead Hall" size="EncounterCard">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Unique" value="‰" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Aldburg. Suspicious." />
+      <property name="Threat" value="3" />
+      <property name="Quest Points" value="5" />
+      <property name="Text" value="Immune to player card effects.&#10;Travel: The players must raise their threat by X where X is the number of enemies in the staging area.&#10;Forced: When Great Mead Hall is explored, flip this card over and reveal it." />
+      <alternate name="Letter from Dunland" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Objective" />
+        <property name="Traits" value="Clue." />
+        <property name="Text" value="If unattached, attach to the hero with the fewest Clue objectives attached.&#10;Forced: After attached hero readies, discard 2 progress from each location and quest card." />
+      </alternate>
+    </card>
+    <card id="e810251f-5aba-4134-8264-acf9ed401324" name="Town Guard" size="EncounterCard">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Garrison." />
+      <property name="Engagement Cost" value="45" />
+      <property name="Threat" value="3" />
+      <property name="Attack" value="4" />
+      <property name="Defense" value="4" />
+      <property name="Health" value="2" />
+      <property name="Text" value="If the players control 2 or more Clue objectives, Town Guard gets +2 $.&#10;Forced: After Town Guard attacks and destroys a character you control, discard 1 resource from each hero you control with a Clue objective." />
+    </card>
+    <card id="feafb001-aca7-489b-b2e4-1b998988cf97" name="Dunlending Agents" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Dunland." />
+      <property name="Engagement Cost" value="35" />
+      <property name="Threat" value="1" />
+      <property name="Attack" value="4" />
+      <property name="Defense" value="2" />
+      <property name="Health" value="4" />
+      <property name="Text" value="If the players control 2 or more Clue objectives, Dunlending Agents gets +2 Û.&#10;Forced: After Dunlending Agents attacks and destroys a character you control, deal 1 damage to each hero you control with a Clue objective." />
+    </card>
+    <card id="9656fa81-aa25-4579-bb6a-d11dd0cb17b9" name="Aldburg Malcontent" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Rohan. Traitor." />
+      <property name="Engagement Cost" value="25" />
+      <property name="Threat" value="1" />
+      <property name="Attack" value="3" />
+      <property name="Defense" value="2" />
+      <property name="Health" value="3" />
+      <property name="Text" value="When Revealed: If the players control 3 or more Clue objectives, Aldburg Malcontent gains surge." />
+      <property name="Shadow" value="Shadow: If the players control 2 or more Clue objectives, return attacking enemy to the staging area after this attack." />
+    </card>
+    <card id="6672e282-c378-411a-a101-2eb1e6757ae9" name="Misty Street" size="EncounterCard">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Aldburg." />
+      <property name="Threat" value="2" />
+      <property name="Quest Points" value="2" />
+      <property name="Text" value="When Revealed: Discard all attachments and tokens from the highest cost ally the first player controls and attach that ally facedown under Misty Street.&#10;Forced: After Misty Street leaves play, return the attached ally to its owner’s control, faceup and ready." />
+      <property name="Shadow" value="Shadow: Discard a non-Clue attachment you control." />
+    </card>
+    <card id="2d7dcb33-1536-449f-bc42-382da80bd9cb" name="Well-lit Hall" size="EncounterCard">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Aldburg." />
+      <property name="Threat" value="2" />
+      <property name="Quest Points" value="1" />
+      <property name="Text" value="While Well-lit Hall is in the staging area, no more than 3 progress can be placed on a quest card as a result of questing successfully." />
+      <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+2 Û instead if the defending character has a Clue attachment)." />
+    </card>
+    <card id="073539f7-5962-4f07-9714-eed16345af4c" name="Decrepit Hovel" size="EncounterCard">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Aldburg." />
+      <property name="Threat" value="1" />
+      <property name="Quest Points" value="3" />
+      <property name="Text" value="Ally resource costs must be paid from a single hero’s resource pool." />
+      <property name="Shadow" value="Shadow: Discard 1 resource from a hero you control." />
+    </card>
+    <card id="c6ce21fd-336e-4d29-9217-a7468071f9d7" name="Taken by the Night" size="EncounterCard">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Treachery" />
+      <property name="Text" value="When Revealed: Each player must discard the lowest printed cost ally they control. If no allies with a printed cost of 2 or higher were discarded this way, Taken by the Night gains surge." />
+      <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û (+2 Û instead if this enemy is attacking from the staging area)." />
+    </card>
+    <card id="66887a1f-8344-4ceb-be6e-d54ba522ad4e" name="False Lead" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Treachery" />
+      <property name="Text" value="Doomed 1.&#10;When Revealed: Each player removes a hero they control with an attached Clue objective from the quest, if able. Then, each player exhausts a hero they control that is not committed to the quest." />
+    </card>
+    <card id="18eaacb9-925a-49ae-9101-4c420bd5d33a" name="Sudden Ambush" size="EncounterCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Treachery" />
+      <property name="Text" value="When Revealed: The first player must choose: either raise your threat by 4, or the topmost enemy in the encounter discard pile engages you and makes an immediate attack. You must declare the ready character you control with the highest Ò as the defender for this attack, if able." />
+      <property name="Shadow" value="Shadow: Resolve this card’s “when revealed” effect." />
+    </card>
+    <card id="287655ab-df12-4fcf-b3c5-36afdd0d872e" name="Evil Under the Moon" size="QuestCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Quest" />
+      <property name="Cost" value="1" />
+      <property name="Engagement Cost" value="A" />
+      <property name="Text" value="Setup: Set each encounter side quest, each copy of Town Guard, and each copy of Dunlending Agents aside, out of play. Set each double-sided encounter card aside, out of play, Clue side facedown. Add Garrison Barracks and The Horse’s Tail to the staging area. Search the encounter deck for an enemy and add it to the staging area (2 different enemies instead if there are 3 or more players). Shuffle the encounter deck." />
+      <alternate name="Evil Under the Moon" size="QuestCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Quest" />
+        <property name="Cost" value="1" />
+        <property name="Engagement Cost" value="B" />
+        <property name="Quest Points" value="-" />
+        <property name="Text" value="Enemies cannot be optionally engaged.&#10;Forced: At the end of the round, raise each player’s threat by 1.&#10;If the players control 1 or more Clue objectives, advance to the next stage." />
+      </alternate>
+    </card>
+    <card id="196a4f05-fe32-42f9-88aa-4ae43962cf48" name="Gathering Clues" size="QuestCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Quest" />
+      <property name="Cost" value="2" />
+      <property name="Engagement Cost" value="A" />
+      <alternate name="Gathering Clues" size="QuestCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Quest" />
+        <property name="Cost" value="2" />
+        <property name="Engagement Cost" value="B" />
+        <property name="Quest Points" value="-" />
+        <property name="Text" value="Response: At the end of the round, if the players control at least 4 Clue objectives, they may advance to stage 3A." />
+      </alternate>
+    </card>
+    <card id="db51642d-f36f-4319-a9ee-d9fb5d912897" name="The Uncertain Dawn" size="QuestCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Aldburg Plot" />
+      <property name="Type" value="Quest" />
+      <property name="Cost" value="3" />
+      <property name="Engagement Cost" value="A" />
+      <property name="Text" value="When Revealed: Remove all Suspicious cards and encounter side quests from the game. Add any set aside Dunland or Garrison enemies to the staging area, if able." />
+      <alternate name="The Uncertain Dawn" size="QuestCard" type="B">
+        <property name="Encounter Set" value="The Aldburg Plot" />
+        <property name="Type" value="Quest" />
+        <property name="Cost" value="3" />
+        <property name="Engagement Cost" value="B" />
+        <property name="Quest Points" value="45" />
+        <property name="Text" value="The Uncertain Dawn gets –5 quest points for each Clue objective the players control.&#10;Forced: At the beginning of the quest phase, discard cards from the top of the encounter deck until an enemy is discarded. Reveal that enemy and add it to the staging area.&#10;This stage cannot be defeated except at the end of the round. If the players defeat this stage, they win the game." />
+      </alternate>
+    </card>
+    <card id="bdb06de0-5138-4d47-9cc5-1031f393853c" name="Back Card">
+      <property name="Card Number" value="999" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Rules" />
+      <property name="Text" value="Credits&#10;CEO: Seastan Art: banania&#10;COO: A.R. Playtesting: Shellin&#10;Game Design: Seastan Rules: McDog3&#10;Storytelling: John Leo Software: A.R.&#10;Editing: Darkling Door Printing: thaurdir&#10;Graphic Design: thaurdir Community: secondhandtook&#10;Lore: Levanthalas&#10;Scenario Design: RedSpiderr and McDog3&#10;Assistants: [DTP]Anzu, AdamKrafty, Admiral Polaris, ALeP Cron Bot, alonewolf87, Annaeru, argonui, AstroSnail (Stephen), Baloosh, Barthadra, Beleg489, Beorn, BeornBot, bgamerjoe, BobbinmcSmallburrow, Brewer Bear, Brinx, Bullroarer Took, Bundeswill, CamMitchell, carlosm88, ceciltettledeer, Celia, Comtedelafere, croatoan, Cryoshark, d20woodworking, DavidJMartin, deiseach, Dieter, doomguard, dwaynek, Edmund, EdY, Eldandil, eldub, Elessar 010 | 5280, Emilius, Emmental, estel_edain, filgonfin, Franlag, fuzzyslippers, Gorthaur, granny.sheep, Great Glorfindel, GreenWizard, Halion, Helena Real, Hrodebert, Ira, Jaywana, Jban, KYpatzer, LeeA, Lively, Lorunks, Mag, Makoshark13, Mazdaist, Mormegil, MrSpaceBear, MurstonThor, Nesnaj, Nuls, oldoly, Onidsen, Pawlo, Pining For Fimbrethil, RedSpiderr, Rimogard, RogueThirteen, Salted Pork, SamthemanGamgee, sappidus, Speder, Splice, Stavo343, tamhas, Taudir, Tegyrius, Thaimor, thanatopsis, TheChap, thorsome, tlawrence, Trialus, TritonWreck, Tuhma, VeggieGollum, Verwegner (Jan), Watch-Captain Alain, Watcher in the Water, wlk, wolframius, xaviermutant, ycarium, Zapier&#10;Special thanks to HeavyKaragh for his work on the Strange Eons plugin, RiddermarkLord for his work on the card templates, and Troy L for the ALeP logo and encounter set icon designs. We credit Marko Manev for the ALeP encounter card back art." />
+      <alternate name="Back Card" type="B">
+        <property name="Type" value="Rules" />
+        <property name="Text" value="After your adventures in the Children of Eorl deluxe expansion, your party has arrived in Aldburg with dire news for Éomund, marshal of the Eastmark. Soon, you learn of a devious plot hatching within the city. Will you infiltrate the seamy underbelly of Aldburg’s criminal underworld, or will you attempt to enlist the help of the city watch? Either choice will lead to grave consequences – but as you delve deeper into the mysteries of Aldburg, will you be able to bear the truths you uncover?" />
+      </alternate>
+    </card>
+  </cards>
+</set>

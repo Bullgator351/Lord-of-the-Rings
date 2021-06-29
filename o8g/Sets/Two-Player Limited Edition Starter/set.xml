@@ -789,7 +789,7 @@
     <property name="Quest Points" value="2"/>
     <property name="Text" value="While The Eaves of Mirkwood is the active location, encounter card effects cannot be canceled."/>
   </card>
-  <card id="650522ec-c2e3-4e42-be7a-e87cceccc545" name="Tangled Grove">
+  <card id="650522ec-c2e3-4e42-be7a-e87cceccc545" name="Tangled Grove" size="EncounterCard">
     <property name="Card Number" value="69"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Oath"/>

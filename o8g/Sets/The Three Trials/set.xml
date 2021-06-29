@@ -118,7 +118,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set aside all 3 Guardian enemies, all 3 Key objectives, all 3 Barrow locations, and Hallowed Circle."/>
-    <property name="Setup" value="tttttttttt"/>
     <alternate name="The Trials Begin" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Three Trials"/>
       <property name="Type" value="Quest"/>

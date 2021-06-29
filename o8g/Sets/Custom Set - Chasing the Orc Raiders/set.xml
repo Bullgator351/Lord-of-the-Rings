@@ -28,7 +28,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Elrond's Message, Orc Forest Camp and Ungoliant Spawn. Add Elrond's Message and Orc Forest Camp to the staging area. Place Ungoliant Spawn face up but out of play, alongside the quest deck."/>
-    <property name="Setup" value="sts"/>
     <alternate name="Robbed" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Chasing the Orc Raiders"/>
       <property name="Type" value="Quest"/>

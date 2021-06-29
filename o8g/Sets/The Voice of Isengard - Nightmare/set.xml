@@ -8,7 +8,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="The Fords of Isen" type="B">
       <property name="Encounter Set" value="The Fords of Isen - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -103,7 +102,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="To Catch an Orc" type="B">
       <property name="Encounter Set" value="To Catch an Orc - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -203,7 +201,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="Into Fangorn" type="B">
       <property name="Encounter Set" value="Into Fangorn - Nightmare"/>
       <property name="Type" value="Nightmare"/>

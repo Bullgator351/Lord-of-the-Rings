@@ -9,7 +9,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Make Tarlang's Neck the active location. Set Derufin, The Lord of the Dead, The Stone of Erech, and the 3 Night objectives aside, out of play. Shuffle the encounter deck. Place Eventide into play, next to the current quest."/>
-    <property name="Setup" value="ltttttt"/>
     <alternate name="The Disappearance" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Stone of Erech"/>
       <property name="Type" value="Quest"/>

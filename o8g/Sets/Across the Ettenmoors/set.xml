@@ -117,7 +117,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set aside each of the 3 Across the Ettenmoors side quests and each of the 4 locations with the safe keyword. Reveal 1 of those side quests at random and 1 of those safe locations at random, adding them to the staging area with the safe location guarded by the side quest. Search the encounter deck for 1 copy of Savage Trollspawn per player and add them to the staging area. Shuffle the remaining side quests and safe locations back into the encounter deck. The first player gains control of Amarthiúl."/>
-    <property name="Setup" value="tttttttttssss"/>
     <alternate name="Into the Ettenmoors" type="B" size="QuestCard">
       <property name="Encounter Set" value="Across the Ettenmoors"/>
       <property name="Type" value="Quest"/>

@@ -391,7 +391,6 @@
     <property name="Quest Points" value="4"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Travel: Exhaust Dunedain Key to travel here. Forced: When Ranger Cache leaves play as an explored location the first player searches the discard pile and encounter deck and places one Dragon Lily into the staging area."/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="23c22d22-7aa5-41dc-a47e-a99f6b28d407" name="Staddle" size="EncounterCard">
     <property name="Card Number" value="34"/>
@@ -414,7 +413,6 @@
     <property name="Defense" value="1"/>
     <property name="Health" value="4"/>
     <property name="Text" value="Celemir can not be healed except by Dragon Lily effects. When Celemir enters play place one wound on him. Forced: If Celemir has no wounds and is not enganged with Neeker Breeker Swarm the first player takes control of Celemir at the end of the phase. If Celemir leaves play, the players are defeated."/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="d745f47d-43ec-4eea-a73c-370f405471f0" name="Neeker Breeker Swarm" size="EncounterCard">
     <property name="Card Number" value="36"/>
@@ -428,7 +426,6 @@
     <property name="Defense" value="3"/>
     <property name="Health" value="4"/>
     <property name="Text" value="Neeker Breeker Swarm can not be optionally engaged. Immune to player card effects while inthe staging area. Forced: At the start of the Combat Phase Neeker Breeker Swarm attacks Celemir. Deal it a shadow card as normal. Celemir must defend against it. Ignore all effects on these cards that don’t alter card stats."/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="2878a67b-3856-4dc1-85a5-bf27f94cbf6d" name="Dunedain Key" size="EncounterCard">
     <property name="Card Number" value="37"/>
@@ -564,7 +561,6 @@
     <property name="Encounter Set" value="Custom Set - Making of a Fellowship"/>
     <property name="Type" value="Campaign"/>
     <property name="Text" value="This adventure arc follows the RPG campaign Rise of Orthanc found on the Play by Post website http://brennor.dyndns.org . &#10;&#10;Making of a Fellowship is the introductory adventure in the RPG campaign. The elves Saelirneth and Celemir are exploring the Midgewater Marshes when Celemir is bitten by a strange creature and falls ill. &#10;The young she-elf must seek out the aid of others to find a cure. She encounters the Noldor Faladril and Ranger Cadoran who have the skill and herbs to heal her mentor. &#10;However the key to open the ranger cache has gone missing. Tracking the Hobbit burglar toward Bree the trio find Riv Lightfoot captured by Chetwood Bandits. &#10;Among their ranks is a Rohirrim Outlaw, Athelstan, who has a change of heart and helps to free Riv and fights against their leader Traek. &#10;Now with the key the small fellowship races to collect the herbs Dragon Lily in time before Celemir gives in to the illness or the denizens of the Marshes."/>
-    <property name="Setup" value="----"/>
     <alternate name="Making of a Fellowship" type="B">
       <property name="Encounter Set" value="Custom Set - Making of a Fellowship"/>
       <property name="Type" value="Campaign"/>
@@ -579,7 +575,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Put Celemir into the staging area with Neeker-Breeker Swarm engaged with him. Put Ranger Cache into the staging area. Remove all Hill Trolls and Goblin Snipers from the game."/>
-    <property name="Setup" value="sss"/>
     <alternate name="Looking for a Cure" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Making of a Fellowship"/>
       <property name="Type" value="Quest"/>
@@ -619,7 +614,6 @@
     <property name="Health" value="5"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Immune to player card effects while in the staging area. Cannot be optionally engaged.&#10;&#10;Forced: When Ferny's Secret Hideout leaves play Ferny engages the first player and makes an immediate attack.&#10;&#10;Forced: When Ferny attacks search the encounter deck and discard pile for a brigand and put it into play engaged with the first player."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="788b7aa2-c434-497a-ad58-cea3b0125dff" name="Bill Ferny's Secret Hideout" size="EncounterCard">
     <property name="Card Number" value="52"/>
@@ -632,7 +626,6 @@
     <property name="Quest Points" value="X"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="X is equal to twice the number of players in the game.&#10;Players may not travel here. Players may not place progress on this location except through Objective Card effects.&#10;All brigands get +2 Û and +2 Ú while this card is in play."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="1ba0e8a8-54b7-4d19-9b24-be381b8b8e75" name="Harry Goatleaf" size="EncounterCard">
     <property name="Card Number" value="53"/>
@@ -717,7 +710,6 @@
     <property name="Quest Points" value="2"/>
     <property name="Text" value="While South Gate is in the staging area all Brigands gain +2 Û."/>
     <property name="Shadow" value="Shadow: Attacking enemy gains +2 Û. (+4 instead if this attack is undefended.)"/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="1b3bc6ff-3e28-40eb-948d-a209806f9e59" name="Stonekeg Brewery" size="EncounterCard">
     <property name="Card Number" value="59"/>
@@ -911,7 +903,6 @@
     <property name="Encounter Set" value="Custom Set - Blood in Bree-land"/>
     <property name="Type" value="Campaign"/>
     <property name="Text" value="This adventure arc follows the RPG campaign “Rise of Orthanc” found on the Play by Post website http://brennor.dyndns.org. Blood in Breeland is the second adventure in the RPG campaign. After rescuing the elf Celemir and defeating bandits in the woods the Fellowship returns to Bree only to find it on fire. Bill Ferny and his Squity-Eyed Southern ally have been stiring up trouble in Bree. After the locals turn against him four now lie dead and Bree has been set on fire by arsonists. The heros rush to control the fires while battling against Ferny’s allies in an attempt to find the man behind it all and put and end to his treachory. Will they be able to save Bree and uncover Ferny’s conspiriacy in time?"/>
-    <property name="Setup" value="-----"/>
     <alternate name="Blood in Breeland" type="B">
       <property name="Encounter Set" value="Custom Set - Blood in Bree-land"/>
       <property name="Type" value="Campaign"/>
@@ -926,7 +917,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Remove Bill Ferny and Ferny’s Secret Hideout from the deck and set them out of play to the side. Then put South Gate and 1 Burning Homes into the staging area."/>
-    <property name="Setup" value="ttss"/>
     <alternate name="Smoke Over Bree" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Blood in Bree-land"/>
       <property name="Type" value="Quest"/>
@@ -977,7 +967,6 @@
     <property name="Type" value="Objective"/>
     <property name="Victory Points" value="2"/>
     <property name="Text" value="Time 4. Forced: After the last time counter is removed from this card remove 1 resource token from this card.  Put 4 time counters on this card. &#10;&#10;Response: When a bandit captain or bandit refuge card leaves play the first player may reveal one card from the Stolen Goods deck."/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="6510047b-5f88-4a58-8921-8efd973f291e" name="Bill Ferny's Letters" size="EncounterCard">
     <property name="Card Number" value="82"/>
@@ -1084,7 +1073,6 @@
     <property name="Quest Points" value="3"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="When Revealed: Return the topmost enemy in the discard pile to the staging area.&#10;&#10;While in the Staging Area all bandits gain +1 Û.&#10;&#10;Travel: The players must each discard a card to travel here."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="90579365-8c66-41a7-86f8-c9c4172d1dbb" name="Ancient Ruins" size="EncounterCard">
     <property name="Card Number" value="92"/>
@@ -1097,7 +1085,6 @@
     <property name="Quest Points" value="5"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Time 3. Forced: After the last time counter is removed from this location remove the top card from the Stolen Goods Deck from the game. Place 3 time counters on this location.&#10;&#10;Travel: Reveal X cards, where X is the number of players, from the encounter deck to travel here."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="9c7218a4-15d1-4b16-bfde-2fa3dc0d8604" name="Hidden Camp" size="EncounterCard">
     <property name="Card Number" value="93"/>
@@ -1110,7 +1097,6 @@
     <property name="Quest Points" value="6"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Time 3. Forced: After the last time counter is removed from this location remove 1 resource token from Breaking the Bandits' Back. Place 3 time counters on this location.&#10;&#10;Travel: Each player must exhaust one character to travel to this location."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="1a0d20f8-f793-4dcb-abe9-9a479d78cfb9" name="Defensible Position" size="EncounterCard">
     <property name="Card Number" value="94"/>
@@ -1123,7 +1109,6 @@
     <property name="Quest Points" value="5"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Archery X. X is the number of players in the game.&#10;&#10;While in the staging area all bandits gain +1 Ú.&#10;&#10;Travel: Trigger the Archery keyword of this card to travel here."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="4dd500f9-a1c9-48cf-8394-d3dbaf52c634" name="The Midgewater" size="EncounterCard">
     <property name="Card Number" value="95"/>
@@ -1136,7 +1121,6 @@
     <property name="Quest Points" value="5"/>
     <property name="Victory Points" value="3"/>
     <property name="Text" value="Immune to player card effects while The White Hand Captain is in play.&#10;&#10;Time 2. Forced: After the last time counter is removed from this location remove all damage from The White Hand Captain. Place 2 time counters on this location."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="a8e27bd6-411e-46b3-954b-f43db97a640c" name="Coleman Cutleaf" size="EncounterCard">
     <property name="Card Number" value="96"/>
@@ -1152,7 +1136,6 @@
     <property name="Health" value="5"/>
     <property name="Victory Points" value="2"/>
     <property name="Text" value="Immune to player card effects while other Scarlet Broherhood cards are in play.&#10;&#10;All other Bandits gain +1 Û and + 1 Ú.&#10;&#10;All other Scarlet Brotherhood cards gain Doomed 2."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="f8b94f8c-e54a-462d-a4ed-3639297a1952" name="Grinning Azalea" size="EncounterCard">
     <property name="Card Number" value="97"/>
@@ -1168,7 +1151,6 @@
     <property name="Health" value="5"/>
     <property name="Victory Points" value="2"/>
     <property name="Text" value="Forced: When removing tokens from Breaking the Bandits' Back remove 1 additional token each time.&#10;&#10;Forced: When Azelea engages a player remove 1 resource token from Breaking the Bandits' Back."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="079a59dd-4900-45ab-af5e-21b1b10923cc" name="Rawley the Bold" size="EncounterCard">
     <property name="Card Number" value="98"/>
@@ -1184,7 +1166,6 @@
     <property name="Health" value="6"/>
     <property name="Victory Points" value="2"/>
     <property name="Text" value="Players may not draw cards from the Stolen Good Deck while Rawley is in play.&#10;&#10;Reduce the engagement cost of all other The Hounds cards by 10 while Rawley is in play."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="7431c3cc-4cd6-439c-8bad-499873c12c85" name="Dunmore Hillcrest" size="EncounterCard">
     <property name="Card Number" value="99"/>
@@ -1200,7 +1181,6 @@
     <property name="Health" value="10"/>
     <property name="Victory Points" value="2"/>
     <property name="Text" value="Immune to player card effects while other Black Banner cards are in play.&#10;&#10;Give all other Bandit cards +1 $ and +1 HP.&#10;&#10; All other Black Banner cards gain Surge."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="2eb1d192-8a88-41c4-908e-2b9647fd158f" name="The White Hand Captain" size="EncounterCard">
     <property name="Card Number" value="100"/>
@@ -1216,7 +1196,6 @@
     <property name="Health" value="10"/>
     <property name="Victory Points" value="3"/>
     <property name="Text" value="Immune to player card effects while The Midgewater is in play.&#10;&#10;Forced: If the White Hand attacks and kills a character remove all progress from The Midgewater."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="959c7b87-2402-45f7-91ec-3fa02f5a809b" name="Brigand Archer" size="EncounterCard">
     <property name="Card Number" value="101"/>
@@ -1470,7 +1449,6 @@
     <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Set aside all Bandit Captain enemies, Bandit Refuge locations, The White Hand Captain and The Midgewater. Add Breaking the Bandits' Back to the staging area. Shuffle all Stolen Item objective cards into a Stolen Goods deck and set it to the side out of play."/>
-    <property name="Setup" value="sstttttttttt"/>
     <alternate name="Lowbank Estate" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
       <property name="Type" value="Quest"/>
@@ -1548,7 +1526,6 @@
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
     <property name="Type" value="Campaign"/>
-    <property name="Setup" value="s"/>
     <alternate name="Queer Folk About" type="B">
       <property name="Encounter Set" value="Custom Set - Bandits of Breeland"/>
       <property name="Type" value="Campaign"/>

@@ -855,7 +855,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Approach, The Citadel, and The Banks to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="sss"/>
     <alternate name="The Defense" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Cair Andros"/>
       <property name="Type" value="Quest"/>

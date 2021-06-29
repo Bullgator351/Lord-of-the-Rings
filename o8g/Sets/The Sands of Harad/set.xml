@@ -226,7 +226,7 @@
     <property name="Text" value="When Revealed: Either remove all progress from the main quest, or assign X damage among characters in play. X is the number of progress tokens on the main quest."/>
     <property name="Shadow" value="Shadow: Attacking enemy makes an additional attack against you after this one."/>
   </card>
-  <card id="cd974fa4-7f3a-4b46-b2d0-b99d086fe98a" name="Seek Shade" size="EncounterCard">
+  <card id="cd974fa4-7f3a-4b46-b2d0-b99d086fe98a" name="Seek Shade" size="QuestCard">
     <property name="Card Number" value="22"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Desert Crossing"/>
@@ -714,7 +714,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add “Seize them!” to the staging area. Each player adds 1 different location to the staging area and puts 1 copy of Umbar Sentry into play engaged with him. Shuffle the encounter deck."/>
-    <property name="Setup" value="sssssssss"/>
     <alternate name="Stranded in Umbar" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Umbar"/>
       <property name="Type" value="Quest"/>
@@ -800,7 +799,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Uruk Chieftain aside, out of play. Each player adds 1 copy of Sauron’s Enforcers to the staging area. Move each hero to the staging area. Each player takes control of an objective-hero and adds 2 resources to its resource pool. Remove each remaining objective-hero from the game. For the remainder of the game, heroes in the staging area are in play but under no player’s control, immune to player card effects, and their text boxes are considered to be blank."/>
-    <property name="Setup" value="ttttsssst"/>
     <alternate name="Surprise Attack" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Long Arm of Mordor"/>
       <property name="Type" value="Quest"/>

@@ -121,7 +121,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Ghulat aside, out of play. Put Lord Alcaron into play. Make Burning Farmhouse the active location. Add the Rescued Villagers and Dead Villagers objectives to the staging area. Then, shuffle the encounter deck and reveal 1 encounter card per player and add it to the staging area."/>
-    <property name="Setup" value="ttlss"/>
     <alternate name="Savagery of the Orcs" type="B" size="QuestCard">
       <property name="Encounter Set" value="Encounter at Amon Dîn"/>
       <property name="Type" value="Quest"/>

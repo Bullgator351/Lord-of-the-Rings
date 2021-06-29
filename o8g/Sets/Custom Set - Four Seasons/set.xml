@@ -68,7 +68,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Remove Wilyador and Rhosgobel from the deck. Put the 4 Enchanted Groves and Incatasi into the staging area."/>
-    <property name="Setup" value="sssss"/>
     <alternate name="In One Day" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Four Seasons"/>
       <property name="Type" value="Quest"/>

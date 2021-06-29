@@ -117,7 +117,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set aside Lord Alcaron, Nazgûl of Minas Morgul, and The White Bridge. Add To the Tower, Murzag, and 1 copy of Morgul Vale to the staging area."/>
-    <property name="Setup" value="tttsss"/>
     <alternate name="The Rearguard" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Morgul Vale"/>
       <property name="Type" value="Quest"/>

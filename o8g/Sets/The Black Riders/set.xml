@@ -197,7 +197,6 @@
     <property name="Cost" value="0"/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Setup: Attach to the Ring-bearer.&#10;&#10;Action: Add Mr. Underhill to the Victory display to choose an enemy engaged with you.  Until the end of the round, that enemy cannot attack you."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="ef014a91-c2d9-44ca-acd0-cc1a339c051f" name="Tireless Ranger">
     <property name="Card Number" value="18"/>
@@ -209,7 +208,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a hero.&#10;&#10;Attached hero gets +1 Ú and gains the Ranger trait."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="1d1ab8a3-ad76-4992-ae5c-6a89fd0ed463" name="Skilled Healer">
     <property name="Card Number" value="19"/>
@@ -221,7 +219,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a hero.&#10;&#10;Attached hero gets +2 hit points and gains the Healer trait."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="ff574390-bd68-4277-9065-dd9dbf552d00" name="Valiant Warrior">
     <property name="Card Number" value="20"/>
@@ -233,7 +230,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a hero.&#10;&#10;Attached hero gets +1 Û and gains the Warrior trait."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="af49e5ea-c6a2-4be4-bbf3-ac53c100e887" name="Noble Hero">
     <property name="Card Number" value="21"/>
@@ -245,7 +241,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a hero.&#10;&#10;Attached hero gets +1 Ò and gains the Noble trait."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="6b34adb4-b510-4db9-aaba-9a1876626dce" name="Three is Company" size="QuestCard">
     <property name="Card Number" value="22"/>
@@ -255,7 +250,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Bucklebury Ferry aside, out of play.  Add 1 Black Rider to the staging area and make Bag End the active location.  Shuffle the encounter deck."/>
-    <property name="Setup" value="ttsl"/>
     <alternate name="Three is Company" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Shadow of the Past"/>
       <property name="Type" value="Quest"/>
@@ -306,7 +300,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set all copies of Ringwraith, The Witch-king, Midgewater, and Weathertop aside, out of play.  Add The Prancing Pony and Bill Ferny to the staging area.  Shuffle the encounter deck."/>
-    <property name="Setup" value="ttttsstttt"/>
     <alternate name="Trouble in Bree" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Knife in the Dark"/>
       <property name="Type" value="Quest"/>
@@ -357,7 +350,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Shuffle each burden card from the Flight to the Ford burden set into a Burden deck. Attach An Evil Wound to the Ring-bearer.  Set Ford of Bruinen and The Witch-King aside, out of play.  Add The Last Bridge and 1 Fell Rider per player to the staging area.  Set the Ring-bearer's life at 15. Shuffle the encounter deck."/>
-    <property name="Setup" value="ttttstttt"/>
     <alternate name="Pursued by the Enemy" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight to the Ford"/>
       <property name="Type" value="Quest"/>
@@ -391,7 +383,6 @@
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Attach Mr. Underhill to the Ring-bearer. Add Gandalf's Delay to the staging area. Shuffle Gildor Inglorion and the The Ring Draws Them into the encounter deck."/>
-    <property name="Setup" value="-----"/>
     <alternate name="A Shadow of the Past" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 1"/>
       <property name="Type" value="Campaign"/>
@@ -551,7 +542,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="-----------"/>
     <alternate name="A Knife in the Dark" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 2"/>
       <property name="Type" value="Campaign"/>
@@ -699,7 +689,6 @@
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Response: After an enemy is declared as an attacker, shuffle the top card of the burden deck into the encounter deck to cancel that attack. (Any player may trigger that ability.)"/>
-    <property name="Setup" value="----------"/>
     <alternate name="Flight to the Ford" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 3"/>
       <property name="Type" value="Campaign"/>
@@ -933,7 +922,6 @@
     <property name="Type" value="Objective"/>
     <property name="Sphere" value="Burden"/>
     <property name="Text" value="Setup: Add Gandalf's Delay to the staging area.&#10;&#10;Each player draws 1 less card in his starting hand."/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="1c5f4854-c10c-430b-9c40-2d84c5997b8f" name="The Ring Draws Them" size="EncounterCard">
     <property name="Card Number" value="79"/>

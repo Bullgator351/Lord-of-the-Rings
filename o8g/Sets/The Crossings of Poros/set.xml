@@ -105,7 +105,6 @@
     <property name="Traits" value="Encounter."/>
     <property name="Cost" value="-"/>
     <property name="Text" value="When Revealed: Ready each hero committed to the quest and remove Wind from the Sea from the game."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="112fc5f3-9d26-4711-8a97-e4a83bb23663" name="Poros Garrison">
     <property name="Card Number" value="145"/>

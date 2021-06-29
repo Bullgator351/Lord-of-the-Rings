@@ -8,7 +8,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="We Must Away, Ere Break of Day" type="B">
       <property name="Encounter Set" value="We Must Away, Ere Break of Day - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -89,7 +88,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="s"/>
     <alternate name="Over the Misty Mountains Grim" type="B">
       <property name="Encounter Set" value="Over the Misty Mountains Grim - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -177,7 +175,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="stt"/>
     <alternate name="Dungeons Deep and Caverns Dim" type="B">
       <property name="Encounter Set" value="Dungeons Deep and Caverns Dim - Nightmare"/>
       <property name="Type" value="Nightmare"/>

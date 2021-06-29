@@ -307,7 +307,6 @@
     <property name="Type" value="Quest"/>
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
-    <property name="Setup" value="ttttttttt"/>
     <alternate name="Preparing for Battle" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>

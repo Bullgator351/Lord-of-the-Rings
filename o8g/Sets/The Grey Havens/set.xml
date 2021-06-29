@@ -174,7 +174,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Corsair deck. Players prepare their fleet. Shuffle each stage 2 card in the quest deck so that their order is random, leaving stage 3 on the bottom. Search the encounter deck for 1 copy of Rolling Seas and 1 copy of Scouting Ship, and add them to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="ttttttttss"/>
     <alternate name="Departure from the Havens" type="B" size="QuestCard">
       <property name="Encounter Set" value="Voyage Across Belegaer"/>
       <property name="Type" value="Quest"/>
@@ -319,7 +318,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Uncharted deck. Set Shrine to Morgoth aside, out of play. Add 2 copies of Lost Island from the top of the Uncharted deck to the staging area (3 copies instead if there are 3 or 4 players in the game). The first player takes control of Calphon."/>
-    <property name="Setup" value="ttt"/>
     <alternate name="Explore the Island" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Fate of Númenor"/>
       <property name="Type" value="Quest"/>
@@ -474,7 +472,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Captain Sahír and Na’asiyah aside, out of play. Add The Havens Burn, Dream-chaser, and 1 copy of Sahír’s Ravager to the staging area. Shuffle the encounter deck and discard cards from the top of the encounter deck until X locations with the Aflame keyword are discarded, where X is the number of players in the game. Add each discarded Aflame location to the staging area. Then, shuffle the encounter discard pile back into the encounter deck."/>
-    <property name="Setup" value="tttsss"/>
     <alternate name="The Corsairs' Assault" type="B" size="QuestCard">
       <property name="Encounter Set" value="Raid on the Grey Havens"/>
       <property name="Type" value="Quest"/>

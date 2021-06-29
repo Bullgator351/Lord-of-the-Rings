@@ -120,7 +120,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: The first player takes control of Nalir. Set the Ancient Marsh-dweller aside, out of play. Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="tt"/>
     <alternate name="Fleeing from Tharbad" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Nîn-in-Eilph"/>
       <property name="Type" value="Quest"/>

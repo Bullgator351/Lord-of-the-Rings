@@ -117,7 +117,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player shuffles his starting hand into his deck. Each player prepares a separate captured deck (see insert) and chooses only 1 hero to be his starting hero. Each player adds 2 resources to his starting hero and sets his threat to that hero’s threat cost. Set Southern Gate, Jailor Gornákh and the Angmar Orcs encounter set aside, out of play. Shuffle the encounter deck. Each player draws a new starting hand 3 cards."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="Unexpected Rescue" type="B" size="QuestCard">
       <property name="Encounter Set" value="Escape from Mount Gram"/>
       <property name="Type" value="Quest"/>

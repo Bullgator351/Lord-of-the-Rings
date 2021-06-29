@@ -262,7 +262,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Remove and shuffle the 7 Sack cards into a Sack deck and set it aside face down. Remove the 3 Troll enemies and the Troll Cave from the encounter deck and set them aside out of play. Then, shuffle the encounter deck. Each player reveals 1 card from the top of the encounter deck and adds it to the staging area."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="An Unexpected Party" type="B" size="QuestCard">
       <property name="Encounter Set" value="We Must Away, Ere Break of Day"/>
       <property name="Type" value="Quest"/>
@@ -312,7 +311,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Shuffle the Over the Misty Mountains Grim and Western Lands encounter sets into one encounter deck and make it the active encounter deck. Then, shuffle the The Great Goblin and Misty Mountain Goblins encounter sets into a second encounter deck and set it aside, inactive."/>
-    <property name="Setup" value="s"/>
     <alternate name="A Short Rest" type="B" size="QuestCard">
       <property name="Encounter Set" value="Over the Misty Mountains Grim"/>
       <property name="Type" value="Quest"/>
@@ -363,7 +361,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Lake in the Cavern to the staging area. Create a riddle area with stage 2A and follow the setup instructions on that card."/>
-    <property name="Setup" value="stt"/>
     <alternate name="Out of the Frying Pan" type="B" size="QuestCard">
       <property name="Encounter Set" value="Dungeons Deep and Caverns Dim"/>
       <property name="Type" value="Quest"/>
@@ -600,7 +597,7 @@
     <property name="Traits" value="Sack."/>
     <property name="Text" value="When Sacked: Attach to the character (excluding Gandalf) with the most attachments without a Sack attached.&#10;&#10;Attached character cannot ready, attack, defend, commit to quests, or trigger effects. If this Sack card is removed, shuffle it into the sack deck."/>
   </card>
-  <card id="51223bd0-ffd1-11df-a976-1801204c9012" name="A Worn Sack">
+  <card id="51223bd0-ffd1-11df-a976-1801204c9012" name="A Worn Sack" size="EncounterCard">
     <property name="Card Number" value="50"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="We Must Away, Ere Break of Day"/>

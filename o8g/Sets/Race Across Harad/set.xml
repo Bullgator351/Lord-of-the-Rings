@@ -219,7 +219,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Ford of Harnen and 1 copy of Uruk Warg-rider aside, out of play. Each player takes control of a Tamed Mumak. Remove each remaining Tamed Mumak from the game. Create the Orc’s area with a second quest deck consisting of stage 1C, 2C, 3C, and 4C as well as Uruk Chieftain."/>
-    <property name="Setup" value="ttttssttsssss"/>
     <alternate name="Setting Out" type="B" size="QuestCard">
       <property name="Encounter Set" value="Race Across Harad "/>
       <property name="Type" value="Quest"/>

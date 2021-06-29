@@ -122,7 +122,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add the Crossroads and Black Númenorean to the staging area. Put the Faramir and Lord Alcaron objective allies into play. Shuffle the encounter deck and reveal 1 card from the encounter deck per player and add it to the staging area. "/>
-    <property name="Setup" value="sstt"/>
     <alternate name="The Ambush" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Blood of Gondor"/>
       <property name="Type" value="Quest"/>

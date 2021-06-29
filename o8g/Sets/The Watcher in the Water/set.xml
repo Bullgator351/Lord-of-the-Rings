@@ -116,7 +116,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Remove The Watcher and Doors of Durin from the encounter deck and set them aside, out of play."/>
-    <property name="Setup" value="tt"/>
     <alternate name="To the West-door" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Watcher in the Water"/>
       <property name="Type" value="Quest"/>

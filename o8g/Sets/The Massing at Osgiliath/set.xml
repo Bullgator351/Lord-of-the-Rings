@@ -182,7 +182,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for 12 Scout cards, and add 3 per player (one of each title), to the staging area. Remove The Witch-king from the encounter deck and set him aside, out of play. Shuffle any unused Scoutcards back into the encounter deck."/>
-    <property name="Setup" value="ttttttttttttt"/>
     <alternate name="Beyond Expectations" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Massing at Osgiliath"/>
       <property name="Type" value="Quest"/>

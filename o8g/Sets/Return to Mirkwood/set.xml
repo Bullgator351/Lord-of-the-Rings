@@ -114,7 +114,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Gollum. Choose a player to guard Gollum at the start of the game, and place Gollum in front of that player. Then shuffle the encounter deck. Reveal 1 card per player from the encounter deck, and add it to the staging area."/>
-    <property name="Setup" value="t"/>
     <alternate name="Through the Forest" type="B" size="QuestCard">
       <property name="Encounter Set" value="Return to Mirkwood"/>
       <property name="Type" value="Quest"/>

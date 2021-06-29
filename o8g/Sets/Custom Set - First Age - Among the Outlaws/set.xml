@@ -343,7 +343,6 @@
     <property name="Encounter Set" value="Custom Set - First Age"/>
     <property name="Type" value="Quest"/>
     <property name="Text" value="Setup: Set all enemy and treachery cards with the Gaurwaith trait aside, out of play. Shuffle all Dilemma cards together into a dilemma deck. Add Fellowship with the Outlaws to the staging area. Put Forweg and Androg into play, ally side faceup. Each player searches the encounter deck for a different location and adds it to the staging area."/>
-    <property name="Setup" value="stt"/>
     <alternate name="An Evil and Dangerous Way" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Quest"/>
@@ -370,7 +369,6 @@
     <property name="Encounter Set" value="Custom Set - First Age"/>
     <property name="Type" value="Campaign"/>
     <property name="Text" value="You are playing Campaign Mode.&#10;&#10;Response: Discard the top card of the dilemma deck to cancel the &quot;when revealed&quot; effects of a card that was just revealed from the encounter deck. (Limit once per game.)"/>
-    <property name="Setup" value="stt"/>
     <alternate name="Among The Outlaws" type="B">
       <property name="Encounter Set" value="Custom Set - First Age"/>
       <property name="Type" value="Campaign"/>

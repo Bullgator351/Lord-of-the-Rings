@@ -157,7 +157,7 @@
     <property name="Cost" value="1"/>
     <property name="Text" value="Action: Ready the Ring-bearer to choose an enemy engaged with you. If the Ring-bearer's Ò is greater than that enemy's $, lower that enemy's Û and Ú by the difference until the end of the phase."/>
   </card>
-  <card id="c759124f-3bf2-4820-a1af-285c740c4a5b" name="Brace of Conies">
+  <card id="c759124f-3bf2-4820-a1af-285c740c4a5b" name="Brace of Coneys">
     <property name="Card Number" value="14"/>
     <property name="Quantity" value="4"/>
     <property name="Type" value="Event"/>
@@ -166,7 +166,7 @@
     <property name="Keywords" value="Play only if you control the Ring-bearer."/>
     <property name="Cost" value="0"/>
     <property name="Victory Points" value="1"/>
-    <property name="Text" value="Planning Action: Add Brace of Conies to the victory display to (choose 2): heal up to 2 damage from a hero, add 2 resources to a hero’s pool, choose a player to draw 2 cards, or reduce a player's threat by 2."/>
+    <property name="Text" value="Planning Action: Add Brace of Coneys to the victory display to (choose 2): heal up to 2 damage from a hero, add 2 resources to a hero’s pool, choose a player to draw 2 cards, or reduce a player's threat by 2."/>
   </card>
   <card id="8b9b03e6-0036-473a-bdb7-d2d8e74edc69" name="The Searching Eye">
     <property name="Card Number" value="15"/>
@@ -715,7 +715,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Put Gollum into play engaged with the first player. Each player searches the encounter deck for 1 location, reveals it, and adds it to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="The Taming of Smeagol" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Passage of the Marshes"/>
       <property name="Type" value="Quest"/>
@@ -766,7 +765,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing campaign mode."/>
     <property name="Text" value="Setup: Each player shuffles 1 copy of The Searching Eye into his deck. Remove each burden with the following burden set icons from the encounter deck and each player's deck: HD, RtI. "/>
-    <property name="Setup" value="tttt-----"/>
     <alternate name="The Passage of the Marshes" type="B">
       <property name="Encounter Set" value="The Passage of the Marshes"/>
       <property name="Type" value="Campaign"/>
@@ -781,7 +779,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Black Gate and The Cross­roads to the staging area. Shuffle the Men of Harad encounter set and place it facedown under The Cross­roads. Each player, except the first player, searches the encounter deck for a different non-unique location adds it to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="sstt"/>
     <alternate name="Ambush the Men of Harad" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey to the Cross-roads"/>
       <property name="Type" value="Quest"/>
@@ -798,7 +795,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing campaign mode."/>
     <property name="Text" value="Setup: Each player must choose: either add 1 resource to each of his heroes' pools, or shuffle 1 copy of Brace of Coneys into his deck. Remove each burden with the following burden set icons from the encounter deck and each player's deck: HD, RtI"/>
-    <property name="Setup" value="tttt-----"/>
     <alternate name="Journey to the Cross-roads" type="B">
       <property name="Encounter Set" value="Journey to the Cross-roads"/>
       <property name="Type" value="Campaign"/>
@@ -813,7 +809,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Cleft of Cirith Ungol, Shelob and The Great Spider encounter set aside, out of play. Put Smeagol into play under the first player’s control. Make Morgul Vale the active location. Add Smeagol’s Secret Way to the staging area."/>
-    <property name="Setup" value="tttttls"/>
     <alternate name="The Stairs of Cirith Ungol" type="B" size="QuestCard">
       <property name="Encounter Set" value="Shelob's Lair"/>
       <property name="Type" value="Quest"/>
@@ -864,7 +859,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing campaign mode."/>
     <property name="Text" value="Setup: Attach A Heavy Burden to the Ring­bearer. Remove each burden with the following burden set icons from the encounter deck and each player's deck: RD, RtI. "/>
-    <property name="Setup" value="t--------"/>
     <alternate name="Shelob's Lair" type="B">
       <property name="Encounter Set" value="Shelob's Lair"/>
       <property name="Type" value="Campaign"/>

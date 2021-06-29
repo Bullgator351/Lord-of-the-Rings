@@ -119,7 +119,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Thaurdir to the staging area, Captain side face-up. Add 1 copy of Carn Dûm Garrison per player to the staging area. Search the encounter deck for 1 copy of Accursed Battlefield and make it the active location. Shuffle the encounter deck."/>
-    <property name="Setup" value="tslssss"/>
     <alternate name="The Clutches of Carn Dûm" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Carn Dûm"/>
       <property name="Type" value="Quest"/>

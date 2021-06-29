@@ -116,7 +116,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Put Arwen Undómiel into play under the control of the first player. Shuffle the encounter deck. Reveal 1 card from the encounter deck per player, and add them to the staging area."/>
-    <property name="Setup" value="t"/>
     <alternate name="Along the Misty Mountains" type="B" size="QuestCard">
       <property name="Encounter Set" value="Road to Rivendell"/>
       <property name="Type" value="Quest"/>

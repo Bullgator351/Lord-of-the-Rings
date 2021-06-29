@@ -184,7 +184,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a Warrior hero. &#10;&#10;Response: After attached hero is declared as the only attacker against a non-unique enemy, exhaust Intimidation to give that enemy –2 Ú for this attack."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="36ed632c-33be-452c-97a5-17201a5cc381" name="Hands of a Healer">
     <property name="Card Number" value="16"/>
@@ -195,7 +194,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a Healer hero.&#10;&#10;Action: Exhaust attached hero and Hands of a Healer to heal up to 3 damage from a hero."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="528de9d6-9da4-4ac4-b265-773f70d68102" name="Forewarned">
     <property name="Card Number" value="17"/>
@@ -206,7 +204,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a Ranger hero.&#10;&#10;Response: After attached hero is declared as a defender against a non-unique enemy, exhaust Forewarned to discard 1 shadow card from that enemy."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="3892b2e4-358c-42af-b5be-2f54d252ea2a" name="Leader of Men">
     <property name="Card Number" value="18"/>
@@ -217,7 +214,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a Noble hero. &#10;&#10;Response: After attached hero quests successfully, exhaust Leader of Men to add 1 resource to attached hero’s pool."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="1665d088-793c-4350-82f3-e35fd307463d" name="Beyond All Hope">
     <property name="Card Number" value="19"/>
@@ -228,7 +224,6 @@
     <property name="Keywords" value="Permanent."/>
     <property name="Cost" value="0"/>
     <property name="Text" value="Setup: Attach to a hero.&#10;&#10;Attached hero gets +1 Ò, +1 Û, +1 Ú and cannot have treachery card attachments."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="58001a33-adef-4766-872d-334b2570e167" name="Palantír of Orthanc">
     <property name="Card Number" value="20"/>
@@ -759,7 +754,7 @@
     <property name="Text" value="When Revealed: Each player must choose: either return an enemy engaged with him to the staging area, or reveal an encounter card."/>
     <property name="Shadow" value="Shadow: Attacking enemy gets +1 Û. If this attack destroys a character, return attacking enemy to the staging area."/>
   </card>
-  <card id="ae2c5145-f34a-4367-bd41-1e5e7749fb68" name="Saruman's Voice">
+  <card id="ae2c5145-f34a-4367-bd41-1e5e7749fb68" name="Saruman's Voice" size="EncounterCard">
     <property name="Card Number" value="68"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Road to Isengard"/>
@@ -776,7 +771,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Make Eastemnet the active location. Add Uglúk and To Isengard! to the staging area. Each player chooses 1 non-☺ hero he controls to be a Captive and places it faceup underneath To Isengard! Set the pursuit value to 10."/>
-    <property name="Setup" value="lsst"/>
     <alternate name="Follow the Orcs" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Uruk-hai"/>
       <property name="Type" value="Quest"/>
@@ -810,7 +804,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Text" value="Setup: Remove Gildor Inglorion and Mr. Underhill&#10;from the Campaign Pool. Remove each burden&#10;with the following burden set icons from the&#10;encounter deck: (Shadow of the Past, Flight to the Ford, The Ring Goes South)"/>
-    <property name="Setup" value="-----"/>
     <alternate name="The Uruk-hai" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 7"/>
       <property name="Type" value="Campaign"/>
@@ -825,7 +818,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set The Defense of Helm’s Deep and 1 copy of Deeping Wall aside, out of play. Each player sets 1 copy of Soldier of Isengard aside, out of play. Then, the players must choose: either each player shuffles 1 copy of Poisoned Counsels into his deck, or advance to stage 2A (bypassing stage 1B)."/>
-    <property name="Setup" value="ttttttttttt"/>
     <alternate name="The King of the Golden Hall" type="B" size="QuestCard">
       <property name="Encounter Set" value="Helm's Deep"/>
       <property name="Type" value="Quest"/>
@@ -910,7 +902,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Text" value="Setup: Each player may change hero cards without incurring the +1 threat penalty. Remove each burden with the following burden set icons from the encounter deck: (Shadow of the Past, Flight to the Ford, The Ring Goes South)"/>
-    <property name="Setup" value="------------"/>
     <alternate name="Helm's Deep" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 8"/>
       <property name="Type" value="Campaign"/>
@@ -925,7 +916,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Gates of Isengard, Orthanc, Saruman, and Saruman’s Staff aside, out of play. Add each copy of Ent of Fangorn to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="ttttsssst"/>
     <alternate name="Rouse the Ents" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Road to Isengard"/>
       <property name="Type" value="Quest"/>
@@ -976,7 +966,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Text" value="Setup: Shuffle Saruman’s Voice into the encounter deck. Remove each burden with these burden set icons from the encounter deck: (Shadow of the Past, Flight to the Ford, The Ring Goes South)"/>
-    <property name="Setup" value="----------"/>
     <alternate name="The Road to Isengard" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 9"/>
       <property name="Type" value="Campaign"/>

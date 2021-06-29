@@ -2092,7 +2092,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set aside Devouring Werewolf, Draugluin, Bridge to the Isle and Wolf-Sauron. Create a pit area with stage 2A and follow the setup instructions on that card."/>
-    <property name="Setup" value="sttts"/>
     <alternate name="Upon the Bridge" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Isle of Werewolves"/>
       <property name="Type" value="Quest"/>
@@ -2157,7 +2156,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Carcharoth to the staging area. Set Morgoth and all objectives and unique locations aside out of play. Set your threat equal to the number of heroes you control."/>
-    <property name="Setup" value="sttttttttts"/>
     <alternate name="Doors of Angband" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - The Seat of Morgoth"/>
       <property name="Type" value="Quest"/>
@@ -2238,7 +2236,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Place Carcharoth the Tormented and Gates of Menegroth aside, out of play. Shuffle all other copies of Carcharoth into a Carcharoth deck. Each player must search the encounter deck for 1 different location and add it to the staging area. Put the Beleg Strongbow objective ally into play."/>
-    <property name="Setup" value="ttst"/>
     <alternate name="Ride Forth in the Morning" type="B" size="QuestCard">
       <property name="Encounter Set" value="Custom Set - Hunting of the Wolf"/>
       <property name="Type" value="Quest"/>

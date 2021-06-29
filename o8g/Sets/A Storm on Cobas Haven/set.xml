@@ -125,7 +125,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Corsair deck. Players prepare their fleet. Set each copy of Dol Amroth Warship aside, out of play. Search the encounter deck for Raider Flagship and 1 copy of Scouting Ship, and add them to the staging area. Search the encounter deck for a Dol Amroth objective of your choice and add it to the staging area. Then, shuffle the encounter deck and resolve the Guarded keyword on that objective."/>
-    <property name="Setup" value="ttsstttttsssst"/>
     <alternate name="Outmaneuver the Enemy" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Storm on Cobas Haven"/>
       <property name="Type" value="Quest"/>

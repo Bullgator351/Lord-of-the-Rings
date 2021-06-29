@@ -117,7 +117,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Make The Great Hall the active location. Set Thaurdir aside, out of play. Add the 3 Treachery of Rhudaur side quests to the staging area, quest side faceup. Search the encounter deck for 1 copy of Ancient Causeway, and add it to the staging area (2 copies instead if there are 3 or 4 players in the game). The first player gains control of Amarthiúl."/>
-    <property name="Setup" value="ttltssss"/>
     <alternate name="Secrets of Rhudaur" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Treachery of Rhudaur"/>
       <property name="Type" value="Quest"/>

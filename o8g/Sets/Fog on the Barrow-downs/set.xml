@@ -9,7 +9,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set each copy of Great Barrow, Standing Stones, and Hollow Circle aside, out of play. Shuffle the encounter deck."/>
-    <property name="Setup" value="ttttttttt"/>
     <alternate name="The House of Tom Bombadil" type="B" size="QuestCard">
       <property name="Encounter Set" value="Fog on the Barrow-downs"/>
       <property name="Type" value="Quest"/>
@@ -240,7 +239,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Traits" value="The Lord of the Rings Part 1.2"/>
     <property name="Text" value="You are playing Campaign Mode.&#10;&#10;While any player is at stage 4B, the first player cannot lose control of the first player token."/>
-    <property name="Setup" value="----------"/>
     <alternate name="Fog on the Barrow-downs" type="B">
       <property name="Encounter Set" value="Fog on the Barrow-downs"/>
       <property name="Type" value="Campaign"/>
@@ -257,7 +255,6 @@
     <property name="Keywords" value="Setup: The first player adds this card to his hand."/>
     <property name="Victory Points" value="1"/>
     <property name="Text" value="Response: Add this card to the victory display and remove it from the campaign pool to cancel the &quot;when revealed&quot; effects of an encounter card just revealed from the encounter deck."/>
-    <property name="Setup" value="t"/>
   </card>
  </cards>
 </set>

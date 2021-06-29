@@ -114,7 +114,6 @@
     <property name="Defense" value="1"/>
     <property name="Health" value="3"/>
     <property name="Text" value="Cannot have restricted attachments. When Revealed: The first player chooses a player to take control of Eagle of the North. The chosen player may choose and discard a non-unique enemy in the staging area. "/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="0909409e-d2d3-4304-b239-76bb6da0dceb" name="Durin’s Key" size="EncounterCard">
     <property name="Card Number" value="36"/>

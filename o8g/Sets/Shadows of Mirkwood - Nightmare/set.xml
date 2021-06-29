@@ -104,7 +104,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="sttttttttt"/>
     <alternate name="Conflict at the Carrock" type="B">
       <property name="Encounter Set" value="Conflict at the Carrock - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -253,7 +252,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="sss"/>
     <alternate name="A Journey to Rhosgobel" type="B">
       <property name="Encounter Set" value="A Journey to Rhosgobel - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -345,7 +343,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="ss"/>
     <alternate name="The Hunt for Gollum" type="B">
       <property name="Encounter Set" value="The Hills of Emyn Muil - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -444,7 +441,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="ss"/>
     <alternate name="The Dead Marshes" type="B">
       <property name="Encounter Set" value="The Dead Marshes - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -559,7 +555,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="s"/>
     <alternate name="Return to Mirkwood" type="B">
       <property name="Encounter Set" value="Return to Mirkwood - Nightmare"/>
       <property name="Type" value="Nightmare"/>

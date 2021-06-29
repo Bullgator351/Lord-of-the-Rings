@@ -125,7 +125,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Gollum, and add it to the staging area. Shuffle the encounter deck, then reveal 1 card per player from the encounter deck and add it to the staging area."/>
-    <property name="Setup" value="s"/>
     <alternate name="Into the Marshes" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Dead Marshes"/>
       <property name="Type" value="Quest"/>

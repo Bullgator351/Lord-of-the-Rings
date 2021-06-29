@@ -764,7 +764,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Each player may shuffle 1 copy Bilbo's Magic Ring into his deck. Search the encounter deck for The Spider's Glade and set it aside, out of play. Then, shuffle the encounter deck and reveal 1 encounter card per player."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="Into Mirkwood" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flies and Spiders"/>
       <property name="Type" value="Quest"/>
@@ -832,7 +831,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Smaug the Golden, Smaug the Magnificent, The Lonely Mountain, and A Bare Patch. Set Smaug the Magnificent and A Bare Patch aside, out of play. Add Smaug the Golden and The Lonely Mountain to the staging area. Shuffle the five Erebor treasure cards and stack them facedown under The Lonely Mountain."/>
-    <property name="Setup" value="sstt"/>
     <alternate name="A Warm Welcome" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Lonely Mountain"/>
       <property name="Type" value="Quest"/>
@@ -900,7 +898,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Bolg and add it to the staging area. Then, shuffle the encounter deck and reveal 1 encounter card per player."/>
-    <property name="Setup" value="s"/>
     <alternate name="The Gathering of the Clouds" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of Five Armies"/>
       <property name="Type" value="Quest"/>

@@ -5,22 +5,21 @@
       <property name="Card Number" value="0" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Rules" />
-      <property name="Victory Points" value="Page" />
       <alternate name="Children of Eorl" type="B">
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
         <property name="Text" value="We would like to thank the hard-working people at FFG for creating the beloved card game. We hope we have done proper justice to its legacy with this fan expansion. In particular, we would like to thank Nate French, Lukas Litzsinger, MJ Newman, and Caleb Grace for their role in leading the game design over the last 10 years. And finally, we would like to thank you, the player, for taking interest in our project and making this community one of the best communities in Arda.&#10;—The ALeP Team" />
       </alternate>
     </card>
     <card id="c8fc048c-819a-443f-ab69-44ef26e2b0eb" name="Children of Eorl Rules 1">
       <property name="Card Number" value="0" />
       <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Ambush at Erelas" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 1/18" />
-      <property name="Text" value="Welcome to Children of Eorl, an unofficial fan expansion, developed by A Long-extended Party (ALeP).&#10;This expansion explores the vast country of Rohan. Three original scenarios take the players on a journey from Anórien, through the Eastfold, to the town of Aldburg.&#10;Children of Eorl expansion includes 196 cards, consisting of:&#10; • 9 Rules Cards • 126 Encounter Cards&#10; • 4 Hero Cards • 8 Quest Cards&#10; • 48 Player Cards • 1 Contract Card&#10;You can check for any updates from A Long-extended Party at www.alongextendedparty.com.&#10;You can build decks and track your plays of these scenarios and others online through RingsDB at&#10;www.ringsdb.com.&#10;For general rules and definitions of common game terms, visit the Quest Companion at bit.ly/2MKkak9." />
+      <property name="Text" value="Welcome to Children of Eorl, an unofficial fan expansion, developed by A Long-extended Party (ALeP).&#10;This expansion explores the vast country of Rohan. Three original scenarios take the players on a journey from Anórien, through the Eastfold, to the town of Aldburg.&#10;Children of Eorl expansion includes 196 cards, consisting of:&#10; • 9 Rules Cards • 126 Encounter Cards&#10; • 4 Hero Cards • 8 Quest Cards&#10; • 48 Player Cards • 1 Contract Card&#10;You can check for any updates from A Long-extended Party at www.alongextendedparty.com.&#10;You can build decks and track your plays of these scenarios and others online through RingsDB at&#10;www.ringsdb.com.&#10;For general rules and definitions of common game terms, visit the Quest Companion at bit.ly/2MKkak9." />
       <alternate name="Children of Eorl Rules 1" type="B">
+        <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="f6d3edc2-850c-4c82-b4dd-7fac8237cdd5" name="Children of Eorl Rules 2">
@@ -33,7 +32,6 @@
       <alternate name="Children of Eorl Rules 2" type="B">
         <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="41e4b5d9-2959-4e77-ac3d-48022d8b4ba4" name="Ambush at Erelas 1">
@@ -42,11 +40,10 @@
       <property name="Encounter Set" value="Ambush at Erelas" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 3/18" />
-      <property name="Text" value="The Vast keyword appears on some locations in this cycle, and represents the large distances the players must travel when journeying from place to place within Rohan. Each location with the Vast keyword is considered to be a “vast location”, with the following additional text:&#10;Travel: Each player must either exhaust a Mount attachment or a hero they control.&#10;and&#10;Response: After placing progress on this location from questing successfully (even if this location is explored), place an additional progress on any vast location for each Mount attachment the players control.&#10;Difficulty level = 5&#10;The funeral in Lossarnach had been a somber affair. Within the confines of a family mausoleum, surrounded by kin and the vassals of her departed father, Morwen Steelsheen had not wept. She was a queen, stoic and tall, of the blood of Númenór. She remained by the tomb seven days and seven nights, a black gown and belt of white chrysanthemum her only adornments." />
+      <property name="Text" value="The Vast keyword appears on some locations in this cycle, and represents the large distances the players must travel when journeying from place to place within Rohan. Each location with the Vast keyword is considered to be a “vast location”, with the following additional text:&#10;Travel: Each player must either exhaust a Mount attachment or a hero they control.&#10;and&#10;Response: After placing progress on this location from questing successfully (even if this location is explored), place an additional progress on any vast location for each Mount attachment the players control.&#10;Difficulty level = 5&#10;The funeral in Lossarnach had been a somber affair. Within the confines of a family mausoleum, surrounded by kin and the vassals of her departed father, Morwen Steelsheen had not wept. She was a queen, stoic and tall, of the blood of Númenor. She remained by the tomb seven days and seven nights, a black gown and belt of white chrysanthemum her only adornments." />
       <alternate name="Ambush at Erelas 1" type="B">
         <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="dad84783-62b4-4aea-841e-90dadddd34cf" name="Ambush at Erelas 2">
@@ -55,11 +52,10 @@
       <property name="Encounter Set" value="Ambush at Erelas" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 4/18" />
-      <property name="Text" value="In the absence of her husband Thengel, King of Rohan, Morwen was guarded at all times by several companions – heroes, chosen from among the mighty and the wise as her honor guard. The last was a noble of Rohan, a man called Galmod, who had been her close friend and advocate in court since her arrival many years ago.&#10;When her vigil had ended and the last of the mourners departed, only then did Morwen Steelsheen allow a pang of sadness to cross her face.Then she kissed the cold, white stone of her father’s sarcophagus, straightened herself, and emerged into the chill of an autumn morning. The honor guard followed close behind, joined by a column of Galmod’s mounted Rohirrim.&#10;It was this band which ventured from the Vale of Flowers toward the borders of Rohan, where Morwen’s king – and kingdom – awaited. “You must be pleased to return home, my lady,” said one of the heroes.&#10;“Home,” said the queen. “I dare not linger on the thought. In my years I have dwelt on the shores of Belfalas and the green valleys of Lossarnach, yet now when I think of home I think only of the tapestries hanging in Meduseld. Of warm mead and kindly kin. Of Rohan, of the tribe of horse-lords which have so well" />
+      <property name="Text" value="In the absence of her husband Thengel, King of Rohan, Morwen was guarded at all times by several companions – heroes, chosen from among the mighty and the wise as her honor guard. The last was a noble of Rohan, a man called Gálmód, who had been her close friend and advocate in court since her arrival many years ago.&#10;When her vigil had ended and the last of the mourners departed, only then did Morwen Steelsheen allow a pang of sadness to cross her face. Then she kissed the cold, white stone of her father’s sarcophagus, straightened herself, and emerged into the chill of an autumn morning. The honor guard followed close behind, joined by a column of Gálmód’s mounted Rohirrim.&#10;It was this band which ventured from the Vale of Flowers toward the borders of Rohan, where Morwen’s king – and kingdom – awaited. “You must be pleased to return home, my lady,” said one of the heroes.&#10;“Home,” said the queen. “I dare not linger on the thought. In my years I have dwelt on the shores of Belfalas and the green valleys of Lossarnach, yet now when I think of home I think only of the tapestries hanging in Meduseld. Of warm mead and kindly kin. Of Rohan, of the tribe of horse-lords which have so well" />
       <alternate name="Ambush at Erelas 2" type="B">
         <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="d8ab2b1f-2469-44a6-a032-707ed7e6a35c" name="Ambush at Erelas 3">
@@ -68,11 +64,10 @@
       <property name="Encounter Set" value="Ambush at Erelas" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 5/18" />
-      <property name="Text" value="adopted me.”&#10;“Rohan has been a good home to many,” said Galmod. “Though not to all.” A raven passed overhead, dark and silent as it disappeared into a plume of mist pouring from Mindolluin and the great White Mountains beyond.&#10;The group stayed an evening in the great city of Minas Tirith, where the aging steward feasted Morwen and her companions. In the morning they continued on, but they had not yet traveled a league before they were hailed by a lone rider on the road.&#10;“My queen,” said the rider, lowering his hood.&#10;“Thorongil,” said Morwen, embracing him. “Long has it been since you graced our halls at Edoras.”&#10;“I come with ill news,” he told her.&#10;“What have you seen, ranger?” asked Galmod. “Orcs come down from the mountains?”&#10;“Aye, orcs and strange men.”&#10;“Phaw,” said Galmod. “Foolish warnings from foolish wanderers. The queen has men enough to ward off mere ruffians.”&#10;“I thank you for the warning, master ranger.” Morwen" />
+      <property name="Text" value="adopted me.”&#10;“Rohan has been a good home to many,” said Gálmód. “Though not to all.” A raven passed overhead, dark and silent as it disappeared into a plume of mist pouring from Mindolluin and the great White Mountains beyond.&#10;The group stayed an evening in the great city of Minas Tirith, where the aging steward feasted Morwen and her companions. In the morning they continued on, but they had not yet traveled a league before they were hailed by a lone rider on the road.&#10;“My queen,” said the rider, lowering his hood.&#10;“Thorongil,” said Morwen, embracing him. “Long has it been since you graced our halls at Edoras.”&#10;“I come with ill news,” he told her.&#10;“What have you seen, ranger?” asked Gálmód. “Orcs come down from the mountains?”&#10;“Aye, orcs and strange men.”&#10;“Phaw,” said Gálmód. “Foolish warnings from foolish wanderers. The queen has men enough to ward off mere ruffians.”&#10;“I thank you for the warning, master ranger.” Morwen" />
       <alternate name="Ambush at Erelas 3" type="B">
         <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="a79779cb-9c01-4b29-8294-0ec636ee623a" name="Ambush at Erelas 4">
@@ -81,11 +76,10 @@
       <property name="Encounter Set" value="Ambush at Erelas" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 6/18" />
-      <property name="Text" value="bowed in her saddle.&#10;“I must away,” said Thorongil. “Heed my words,” he added, looking upon Galmod. The ranger spurred his horse and continued at a trot toward the white city of Minas Tirith.&#10;Days later, the party had finally rounded the bend in a long road and now journeyed with the Drúadan Forest at their left shoulder. Before them stretched the broad, grassy lands of Anórien.&#10;One of the heroes gripped the bow slung across the horn of her saddle. “Thorongil’s warning perplexes me. We should shelter in the encampment at Erelas for the night.”&#10;“My men shall scout ahead,” said Galmod. He signalled one of his captains, and the Rohirrim set off toward the bald green hill of Erelas and the encampment in its shadow. Galmod remained behind. He tugged at his hauberk and clenched the pommel of his sword. “My queen,” he said, but he soon fell silent.&#10;As the day wore into evening, one of the heroes frowned. “Your scouts have not returned, Galmod.”&#10;“Indeed,” said the noble. “Something must have delayed them in Erelas. It is not far now.”" />
+      <property name="Text" value="bowed in her saddle.&#10;“I must away,” said Thorongil. “Heed my words,” he added, looking upon Gálmód. The ranger spurred his horse and continued at a trot toward the white city of Minas Tirith.&#10;Days later, the party had finally rounded the bend in a long road and now journeyed with the Drúadan Forest at their left shoulder. Before them stretched the broad, grassy lands of Anórien.&#10;One of the heroes gripped the bow slung across the horn of her saddle. “Thorongil’s warning perplexes me. We should shelter in the encampment at Erelas for the night.”&#10;“My men shall scout ahead,” said Gálmód. He signalled one of his captains, and the Rohirrim set off toward the bald green hill of Erelas and the encampment in its shadow. Gálmód remained behind. He tugged at his hauberk and clenched the pommel of his sword. “My queen,” he said, but he soon fell silent.&#10;As the day wore into evening, one of the heroes frowned. “Your scouts have not returned, Gálmód.”&#10;“Indeed,” said the noble. “Something must have delayed them in Erelas. It is not far now.”" />
       <alternate name="Ambush at Erelas 4" type="B">
         <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="4a85582a-760d-45e0-9bb4-e3003d699e17" name="Ambush at Erelas 5">
@@ -94,11 +88,10 @@
       <property name="Encounter Set" value="Ambush at Erelas" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 7/18" />
-      <property name="Text" value="The settlement was oddly quiet. The heroes caught the flicker of a torch, a manlike shape loping into the shadow of a barn and disappearing. “Something’s not right,” said Morwen.&#10;As she spoke a dark bird swept over the crossroads, soaring high, streaking through the moonlight and descending in an arc. But it was not a bird. It was an arrow, one of many, darkening the air.&#10;“The queen!” cried Galmod. “Protect the queen!” He wheeled his horse, blade high and flashing as the flock of arrows came, followed by voices, howling in a strange tongue the words for blood and gold and fire.&#10;“Ambush at Erelas” is played with an encounter deck built with all the cards from the following encounter sets: Ambush at Erelas, Rohan Weather, and Rohan Encampment. These sets are indicated by the following icons:" />
+      <property name="Text" value="The settlement was oddly quiet. The heroes caught the flicker of a torch, a manlike shape loping into the shadow of a barn and disappearing. “Something’s not right,” said Morwen.&#10;As she spoke a dark bird swept over the crossroads, soaring high, streaking through the moonlight and descending in an arc. But it was not a bird. It was an arrow, one of many, darkening the air.&#10;“The queen!” cried Gálmód. “Protect the queen!” He wheeled his horse, blade high and flashing as the flock of arrows came, followed by voices, howling in a strange tongue the words for blood and gold and fire.&#10;“Ambush at Erelas” is played with an encounter deck built with all the cards from the following encounter sets: Ambush at Erelas, Rohan Weather, and Rohan Encampment. These sets are indicated by the following icons:" />
       <alternate name="Ambush at Erelas 5" type="B">
         <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="2e8b1510-6c25-4986-9d6a-a703a01f9855" name="Loot Piles and Looter X">
@@ -107,11 +100,10 @@
       <property name="Encounter Set" value="Ambush at Erelas" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 8/18" />
-      <property name="Text" value="“Ambush at Erelas” sees the players set upon by brigands looting their valuable supplies and resources. Some cards and abilities refer to an enemy’s or objective’s loot pile. A loot pile is a faceup pile of player cards placed next to that enemy or objective. Cards in a loot pile are considered blank, except for their cost, sphere, and card type. Note that an enemy or objective with 0 cards in its loot pile still has a loot pile.&#10;Looter is a new keyword that appears on enemies in this quest. After you engage an enemy with the Looter keyword, place a random card from your hand and the top X cards of your deck into that enemy’s loot pile. This is done every time an enemy with the Looter keyword engages a player, even if there are already cards in that enemy’s loot pile." />
+      <property name="Text" value="“Ambush at Erelas” sees the players set upon by brigands looting their valuable supplies and resources. Some cards and abilities refer to an enemy’s or objective’s loot pile. A loot pile is a faceup pile of player cards placed next to that enemy or objective. Cards in a loot pile are not in play and are under no player’s control. Cards in a loot pile are considered blank, except for their cost, sphere, and card type. Note that an enemy or objective with 0 cards in its loot pile still has a loot pile.&#10;Looter is a new keyword that appears on enemies in this quest. After you engage an enemy with the Looter keyword, place a random card from your hand and the top X cards of your deck into that enemy’s loot pile. This is done every time an enemy with the Looter keyword engages a player, even if there are already cards in that enemy’s loot pile." />
       <alternate name="Loot Piles and Looter X" type="B">
         <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="747e75fd-5729-405e-a4b7-151c01f4d69d" name="Ambush at Erelas 6">
@@ -120,11 +112,10 @@
       <property name="Encounter Set" value="Ambush at Erelas" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 9/18" />
-      <property name="Text" value="As the brigand ringleader fell to his knees, the enemy host scattered into the hills. “Scum!” cried Galmod, wild-eyed and panting.&#10;Queen Morwen knelt before the captured enemy. “What wickedness brings you to this place?” she asked.&#10;The ringleader smirked. He muttered something.&#10;“He speaks the tongue of Dunland,” said one of the heroes. “Dunlendings this far east? Surely they would have been spotted.”&#10;“He curses us!” said Galmod. “The cur besmirches the very name of Queen Morwen.”&#10;“No,” said one of the heroes. “I can almost make it out. He’s saying-”&#10;Then Galmod unsheathed his dagger and flew with a frantic brutality onto the Dunlending, plunging his blade into the prisoner’s heart.&#10;“Galmod!” The heroes dragged away the furious nobleman, his limbs flailing wildly." />
+      <property name="Text" value="As the brigand ringleader fell to his knees, the enemy host scattered into the hills. “Scum!” cried Gálmód, wild-eyed and panting.&#10;Queen Morwen knelt before the captured enemy. “What wickedness brings you to this place?” she asked.&#10;The ringleader smirked. He muttered something.&#10;“He speaks the tongue of Dunland,” said one of the heroes. “Dunlendings this far east? Surely they would have been spotted.”&#10;“He curses us!” said Gálmód. “The cur besmirches the very name of Queen Morwen.”&#10;“No,” said one of the heroes. “I can almost make it out. He’s saying-”&#10;Then Gálmód unsheathed his dagger and flew with a frantic brutality onto the Dunlending, plunging his blade into the prisoner’s heart.&#10;“Gálmód!” The heroes dragged away the furious nobleman, his limbs flailing wildly." />
       <alternate name="Ambush at Erelas 6" type="B">
         <property name="Encounter Set" value="Ambush at Erelas" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="b5c1b317-0db5-4ae2-81be-5639c332305d" name="The Battle for the Beacon 1">
@@ -133,11 +124,10 @@
       <property name="Encounter Set" value="The Battle for the Beacon" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 10/18" />
-      <property name="Text" value="The brigand fell into the dirt, his face stained with a look of pain and disappointment.&#10;“He wasn’t cursing us,” said the hero. “Galmod, he was taunting us. He was telling us where they plan to strike next.”&#10;“Not strike,” said another. “Struck.”&#10;There need be no more words. Morwen stood, her face mottled with ash and blood and soil. She looked to the hilltop in the distance and saw the dark shapes of men working furtively, half-masked by the haze of night. “Erelas,” she said. “The beacon. They’ve captured the beacon.”&#10;Difficulty level = 7&#10;Racing toward the hill of Erelas, the heroes felt a surge of fear. The beacon atop the hill had been guarded by only a token force, hardly enough to handle a surprise attack like this. What had long stood as a signal of peace and safety was now crawling with Dunlendings.&#10;Soon the heroes had left behind the encampment and began the arduous climb up the hill. Here and there the hill was girdled by a narrow stair carved in stone, but elsewhere the pathway had fallen into disrepair, and" />
+      <property name="Text" value="The brigand fell into the dirt, his face stained with a look of pain and disappointment.&#10;“He wasn’t cursing us,” said the hero. “Gálmód, he was taunting us. He was telling us where they plan to strike next.”&#10;“Not strike,” said another. “Struck.”&#10;There need be no more words. Morwen stood, her face mottled with ash and blood and soil. She looked to the hilltop in the distance and saw the dark shapes of men working furtively, half-masked by the haze of night. “Erelas,” she said. “The beacon. They’ve captured the beacon.”&#10;Difficulty level = 7&#10;Racing toward the hill of Erelas, the heroes felt a surge of fear. The beacon atop the hill had been guarded by only a token force, hardly enough to handle a surprise attack like this. What had long stood as a signal of peace and safety was now crawling with Dunlendings.&#10;Soon the heroes had left behind the encampment and began the arduous climb up the hill. Here and there the hill was girdled by a narrow stair carved in stone, but elsewhere the pathway had fallen into disrepair, and" />
       <alternate name="The Battle for the Beacon 1" type="B">
         <property name="Encounter Set" value="The Battle for the Beacon" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="e9860b32-8bff-4217-be96-debedce09aae" name="The Battle for the Beacon 2">
@@ -146,11 +136,10 @@
       <property name="Encounter Set" value="The Battle for the Beacon" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 11/18" />
-      <property name="Text" value="the masonry gave way to bare slate and slick moss. The heroes and their companions climbed chiefly in silence.&#10;“What could they want with the beacon?” mumbled Galmod, his back hunched as he climbed a rocky slope toward the beacon.&#10;“Nothing good,” said one of the heroes. “It is used as a signal between Minas Tirith and Anórien. While it is captured, any call for aid or warning of attack would be long-delayed.”&#10;By the time they arrived at the edge of the beacon’s platform, the heroes could overhear their enemies conversing brokenly in the language of the Rohirrim.&#10;One of the heroes raised her head to peer into the darkness over a crumbling balustrade. A crew of scowling Dunlendings were addressing a Rohirrim rider wearing a helm with a white plume. The Rohirrim kept one hand on the pommel of his blade. “You are late,” he said.&#10;“Trouble in the camp below,” said one of the Dunlendings.&#10;“You straw-heads put up a fight,” said another.&#10;“And you dealt with them?” said the Rohirrim.&#10;“Dead.”" />
+      <property name="Text" value="the masonry gave way to bare slate and slick moss. The heroes and their companions climbed chiefly in silence.&#10;“What could they want with the beacon?” mumbled Gálmód, his back hunched as he climbed a rocky slope toward the beacon.&#10;“Nothing good,” said one of the heroes. “It is used as a signal between Minas Tirith and Anórien. While it is captured, any call for aid or warning of attack would be long-delayed.”&#10;By the time they arrived at the edge of the beacon’s platform, the heroes could overhear their enemies conversing brokenly in the language of the Rohirrim.&#10;One of the heroes raised her head to peer into the darkness over a crumbling balustrade. A crew of scowling Dunlendings were addressing a Rohirrim rider wearing a helm with a white plume. The Rohirrim kept one hand on the pommel of his blade. “You are late,” he said.&#10;“Trouble in the camp below,” said one of the Dunlendings.&#10;“You straw-heads put up a fight,” said another.&#10;“And you dealt with them?” said the Rohirrim.&#10;“Dead.”" />
       <alternate name="The Battle for the Beacon 2" type="B">
         <property name="Encounter Set" value="The Battle for the Beacon" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="26358dc8-d50d-4809-ba45-f4ef921147f8" name="The Battle for the Beacon 3">
@@ -159,11 +148,10 @@
       <property name="Encounter Set" value="The Battle for the Beacon" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 12/18" />
-      <property name="Text" value="“Have you brought the payment?” The Rohirrim extended his hand, and one of the Dunlendings begrudgingly clapped a purse of coins into it. “Then the beacon is yours.” He tossed the pouch into the air and caught it in one hand.&#10;Signalling a cadre of his fellow warriors, the rider strolled past the Dunlendings. “Make it look convincing,” he said.&#10;“Treachery among the ranks,” whispered the hero.&#10;“They shall pay with their lives for turning against kith and king,” said Galmod. “May the blood of Eorl rebel against their very veins. Let us take the hill and light this valley with the death-pyres of traitors.”&#10;“Calm, Galmod.” One of the heroes notched an arrow. “It is more important to hold the beacon than to seek revenge.”&#10;“Then prepare yourselves,” said Galmod, drawing his sword. “For true queen and honored kin. For the sons and daughters of Rohan!”" />
+      <property name="Text" value="“Have you brought the payment?” The Rohirrim extended his hand, and one of the Dunlendings begrudgingly clapped a purse of coins into it. “Then the beacon is yours.” He tossed the pouch into the air and caught it in one hand.&#10;Signalling a cadre of his fellow warriors, the rider strolled past the Dunlendings. “Make it look convincing,” he said.&#10;“Treachery among the ranks,” whispered the hero.&#10;“They shall pay with their lives for turning against kith and king,” said Gálmód. “May the blood of Eorl rebel against their very veins. Let us take the hill and light this valley with the death-pyres of traitors.”&#10;“Calm, Gálmód.” One of the heroes notched an arrow. “It is more important to hold the beacon than to seek revenge.”&#10;“Then prepare yourselves,” said Gálmód, drawing his sword. “For true queen and honored kin. For the sons and daughters of Rohan!”" />
       <alternate name="The Battle for the Beacon 3" type="B">
         <property name="Encounter Set" value="The Battle for the Beacon" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="cf4d1463-8c63-4650-b3ba-e1f717180628" name="The Battle for the Beacon 4">
@@ -172,11 +160,10 @@
       <property name="Encounter Set" value="The Battle for the Beacon" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 13/18" />
-      <property name="Text" value="“The Battle for the Beacon” is played with an encounter deck built with all the cards from the following encounter sets: The Battle for the Beacon, Dunlending Warriors, and Faithless Rohirrim. These sets are indicated by the following icons:&#10;After hours of bloody fighting, the sun rose above the bald hill of Erelas. There, joined at last by Galmod’s scouts, the heroes took stock of the battlefield.&#10;“There were traitor Rohirrim among this group,” said one of the heroes.&#10;“But how could they betray their kingdom?” asked another. “And to what end?”&#10;“There is a conspiracy afoot,” said Queen Morwen. “Though how vast the net and how many of us shall be ensnared, I cannot guess.”" />
+      <property name="Text" value="“The Battle for the Beacon” is played with an encounter deck built with all the cards from the following encounter sets: The Battle for the Beacon, Dunlending Warriors, and Faithless Rohirrim. These sets are indicated by the following icons:&#10;After hours of bloody fighting, the sun rose above the bald hill of Erelas. There, joined at last by Gálmód’s scouts, the heroes took stock of the battlefield.&#10;“There were traitor Rohirrim among this group,” said one of the heroes.&#10;“But how could they betray their kingdom?” asked another. “And to what end?”&#10;“There is a conspiracy afoot,” said Queen Morwen. “Though how vast the net and how many of us shall be ensnared, I cannot guess.”" />
       <alternate name="The Battle for the Beacon 4" type="B">
         <property name="Encounter Set" value="The Battle for the Beacon" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="9e9d5155-c037-41c2-ba44-be6ef46624ba" name="The Battle for the Beacon 5">
@@ -185,11 +172,10 @@
       <property name="Encounter Set" value="The Battle for the Beacon" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 14/18" />
-      <property name="Text" value="Galmod nudged the body of one of the slain enemies with the tip of his boot. “This one wears an odd sigil. A white horse on a field of red.” His hands grasped the enemy’s cape and tore it from the traitor’s shoulders. He began to fold it. “This is not over,” he said.&#10;“Rogues,” said Morwen. “We must return to Edoras at once.”&#10;At this, one of Galmod’s riders spoke up. “This brings the reason for our delay, my queen. On our scouting, we intercepted a messenger from Aldburg. He brought word that an orc-host has crossed the Anduin and begun raiding in the Eastfold.”&#10;“Just as Thorongil warned,” sneered Galmod. “Perhaps the ranger bore some wisdom after all.”&#10;“Then we must make haste to Aldburg,” said Morwen. “For our wick is now burning from both ends. If we cannot beat back these raiders, I fear we will crumble from within.”" />
+      <property name="Text" value="Gálmód nudged the body of one of the slain enemies with the tip of his boot. “This one wears an odd sigil. A white horse on a field of red.” His hands grasped the enemy’s cape and tore it from the traitor’s shoulders. He began to fold it. “This is not over,” he said.&#10;“Rogues,” said Morwen. “We must return to Edoras at once.”&#10;At this, one of Gálmód’s riders spoke up. “This brings the reason for our delay, my queen. On our scouting, we intercepted a messenger from Aldburg. He brought word that an orc-host has crossed the Anduin and begun raiding in the Eastfold.”&#10;“Just as Thorongil warned,” sneered Gálmód. “Perhaps the ranger bore some wisdom after all.”&#10;“Then we must make haste to Aldburg,” said Morwen. “For our wick is now burning from both ends. If we cannot beat back these raiders, I fear we will crumble from within.”" />
       <alternate name="The Battle for the Beacon 5" type="B">
         <property name="Encounter Set" value="The Battle for the Beacon" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="fd570b51-d92d-49c9-9982-aa15e0a52222" name="The Horse Lord’s Ire 1">
@@ -198,11 +184,10 @@
       <property name="Encounter Set" value="The Horse Lord’s Ire" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 15/18" />
-      <property name="Text" value="Difficulty level = 7&#10;Riding north from Erelas, the heroes crossed the Great West Road into a grassy sea of hills and grazing pasture. The Eastfold looked just as it did in the tapestries of Edoras and the Books of Kings: pleasant, pastoral, and vast. The riders bent their heads into the wind and urged their steeds onward, for they had received word from Galmod’s scouts that an orc-host had crossed the Anduin and begun marching toward the city of Aldburg. Worse yet, they seemed to be raiding horse farms on the way, strengthening their numbers with heavy war horses and butchering those who stood in their path.&#10;“I grow concerned,” said one of the heroes. “Orcs assault the countryside just as wild-men strike at the border.”&#10;“Aye,” said another. “The realm of the horse-lords is caught between the forge and the fire.”&#10;“We shall seek aid at Aldburg,” said Queen Morwen. “Éomund is the Marshal there. He is young and brash, but valiant. He will surely supply us with aid.”&#10;“We may not have time,” called one of the heroes. “Look ahead!” He pointed toward a pillar of smoke" />
+      <property name="Text" value="Difficulty level = 7&#10;Riding north from Erelas, the heroes crossed the Great West Road into a grassy sea of hills and grazing pasture. The Eastfold looked just as it did in the tapestries of Edoras and the Books of Kings: pleasant, pastoral, and vast. The riders bent their heads into the wind and urged their steeds onward, for they had received word from Gálmód’s scouts that an orc-host had crossed the Anduin and begun marching toward the city of Aldburg. Worse yet, they seemed to be raiding horse farms on the way, strengthening their numbers with heavy war horses and butchering those who stood in their path.&#10;“I grow concerned,” said one of the heroes. “Orcs assault the countryside just as wild-men strike at the border.”&#10;“Aye,” said another. “The realm of the horse-lords is caught between the forge and the fire.”&#10;“We shall seek aid at Aldburg,” said Queen Morwen. “Éomund is the Marshal there. He is young and brash, but valiant. He will surely supply us with aid.”&#10;“We may not have time,” called one of the heroes. “Look ahead!” He pointed toward a pillar of smoke" />
       <alternate name="The Horse Lord’s Ire 1" type="B">
         <property name="Encounter Set" value="The Horse Lord’s Ire" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="090a8493-8d31-40eb-8a65-0640d1bf48e8" name="The Horse Lord’s Ire 2">
@@ -211,11 +196,10 @@
       <property name="Encounter Set" value="The Horse Lord’s Ire" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 16/18" />
-      <property name="Text" value="twisting in the distance.&#10;“That smoke may be from the kingly stables of Thengel himself,” said Galmod. “Woe to any orc who would desecrate the descendants of the Mearas with rotten whip or rusted spur.”&#10;Cresting a bald green hill, the heroes came upon a small orcish raiding party, its members tugging at the reins of two great horses. Turning to witness the clamor, one of the orcs shouted to the others – “Go get Thruk!” he bellowed. “Thruk’ll spike ‘em dead!”&#10;“We must have caught them on their way back to the main force,” said Morwen.&#10;The captured horses were gorgeous, saddled for war, bodies strong and elegant in the light of morning.&#10;“Flinthoof! Brightmane!” called Galmod. “The king’s own horses. But where is their liege, Felaróf the Mighty?”&#10;The orc hefted his mass onto the stallion called Flinthoof. Brightmane, wild-eyed and bucking, jerked away from the orc and galloped for the hills.&#10;“Let us rout them,” said one of the heroes. “For the blood of horses! For the horses of kings!” They gathered their weapons and prepared to charge. Down" />
+      <property name="Text" value="twisting in the distance.&#10;“That smoke may be from the kingly stables of Thengel himself,” said Gálmód. “Woe to any orc who would desecrate the descendants of the Mearas with rotten whip or rusted spur.”&#10;Cresting a bald green hill, the heroes came upon a small orcish raiding party, its members tugging at the reins of two great horses. Turning to witness the clamor, one of the orcs shouted to the others – “Go get Thruk!” he bellowed. “Thruk’ll spike ‘em dead!”&#10;“We must have caught them on their way back to the main force,” said Morwen.&#10;The captured horses were gorgeous, saddled for war, bodies strong and elegant in the light of morning.&#10;“Flinthoof! Brightmane!” called Gálmód. “The king’s own horses. But where is their liege, Felaróf the Mighty?”&#10;The orc hefted his mass onto the stallion called Flinthoof. Brightmane, wild-eyed and bucking, jerked away from the orc and galloped for the hills.&#10;“Let us rout them,” said one of the heroes. “For the blood of horses! For the horses of kings!” They gathered their weapons and prepared to charge. Down" />
       <alternate name="The Horse Lord’s Ire 2" type="B">
         <property name="Encounter Set" value="The Horse Lord’s Ire" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="431c22ec-2b2a-42af-ab5f-c7710ed2e627" name="The Horse Lord’s Ire 3">
@@ -224,11 +208,10 @@
       <property name="Encounter Set" value="The Horse Lord’s Ire" />
       <property name="Type" value="Rules" />
       <property name="Victory Points" value="Page 17/18" />
-      <property name="Text" value="the hills and over the orcs they rode, coursing across the sunlit fields, to battle.&#10;“The Horse Lord’s Ire” is played with an encounter deck built with all the cards from the following encounter sets: The Horse Lord’s Ire, Orc-Host, and Rohan Lands. These sets are indicated by the following icons:&#10;The heroes made their final charge against the orcs, their steeds mighty and noble and valorous, trampling their former captors. Shattered and broken, the orcish mob fled east, and soon they were driven from sight.&#10;“This is not the last we will see of that loathsome band,” said Galmod. “We should press onward.”&#10;“Not alone,” said Queen Morwen. “Not without the might of Rohan at our backs. We must ride to the city of Aldburg. There we can warn Éomund. He is Marshal of" />
+      <property name="Text" value="the hills and over the orcs they rode, coursing across the sunlit fields, to battle.&#10;“The Horse Lord’s Ire” is played with an encounter deck built with all the cards from the following encounter sets: The Horse Lord’s Ire, Orc-Host, and Rohan Lands. These sets are indicated by the following icons:&#10;The heroes made their final charge against the orcs, their steeds mighty and noble and valorous, trampling their former captors. Shattered and broken, the orcish mob fled east, and soon they were driven from sight.&#10;“This is not the last we will see of that loathsome band,” said Gálmód. “We should press onward.”&#10;“Not alone,” said Queen Morwen. “Not without the might of Rohan at our backs. We must ride to the city of Aldburg. There we can warn Éomund. He is Marshal of" />
       <alternate name="The Horse Lord’s Ire 3" type="B">
         <property name="Encounter Set" value="The Horse Lord’s Ire" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="56d94ac2-c651-4408-a398-54b9c81cee2d" name="The Horse Lord’s Ire 4">
@@ -241,7 +224,6 @@
       <alternate name="The Horse Lord’s Ire 4" type="B">
         <property name="Encounter Set" value="The Horse Lord’s Ire" />
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
       </alternate>
     </card>
     <card id="c2411ac7-6958-4fa5-9713-02db5792c387" name="Ingold">
@@ -895,7 +877,7 @@
       <property name="Encounter Set" value="The Battle for the Beacon" />
       <property name="Unique" value="‰" />
       <property name="Type" value="Objective" />
-      <property name="Text" value="Forced: At the end of the combat phase, deal 1 damage to Erelas Beacon for each enemy in the staging area.&#10;Erelas Beacon has X hit points, where X is equal to 2, plus 3(per player). If Erelas Beacon has no hit points remaining, the players lose the game." />
+      <property name="Text" value="Forced: At the end of the combat phase, deal 1 damage to Erelas Beacon for each enemy in the staging area.&#10;Erelas Beacon has X hit points, where X is equal to 2, plus 3³. If Erelas Beacon has no hit points remaining, the players lose the game." />
     </card>
     <card id="aec6142a-e870-4dee-b112-902b2d59e9be" name="Host of Rohan" size="EncounterCard">
       <property name="Card Number" value="60" />
@@ -1006,12 +988,12 @@
       <property name="Encounter Set" value="The Battle for the Beacon" />
       <property name="Type" value="Side Quest" />
       <property name="Quest Points" value="-" />
-      <property name="Text" value="The Dunlendings control the beacon. Enemies in the staging area cannot be optionally engaged or take damage.&#10;Cannot have more than X progress, where X is equal to 2, plus 1(per player). If Reclaim the Beacon has X progress on it, flip it over (keeping all progress)." />
+      <property name="Text" value="The Dunlendings control the beacon. Enemies in the staging area cannot be optionally engaged or take damage.&#10;Cannot have more than X progress, where X is equal to 2, plus 1³. If Reclaim the Beacon has X progress on it, flip it over (keeping all progress)." />
       <alternate name="Defend the Beacon" size="QuestCard" type="B">
         <property name="Encounter Set" value="The Battle for the Beacon" />
         <property name="Type" value="Side Quest" />
         <property name="Quest Points" value="-" />
-        <property name="Text" value="The players control the beacon. Shadow cards are immune to player card effects.&#10;Cannot have more than X progress, where X is equal to 2, plus 1(per player).&#10;Response: Remove any amount of progress from Defend the Beacon to cancel an equal amount of damage just dealt to Erelas Beacon. Then, if Defend the Beacon has 0 progress, flip it over." />
+        <property name="Text" value="The players control the beacon. Shadow cards are immune to player card effects.&#10;Cannot have more than X progress, where X is equal to 2, plus 1³.&#10;Response: Remove any amount of progress from Defend the Beacon to cancel an equal amount of damage just dealt to Erelas Beacon. Then, if Defend the Beacon has 0 progress, flip it over." />
       </alternate>
     </card>
     <card id="974730af-0ef0-4604-a390-65c0b73c45ee" name="Stolen Steeds" size="EncounterCard">
@@ -1139,7 +1121,7 @@
       <property name="Threat" value="3" />
       <property name="Quest Points" value="3" />
       <property name="Victory Points" value="VICTORY 2" />
-      <property name="Text" value="When faced with the option to travel, the players must travel to a non-vast location.&#10;Forced: After Horse Thieves’ Hovel leaves play as an explored location, if there are fewer than 1(per player) enemies in play, discard cards from the top of the encounter deck until an enemy is discarded. Add that enemy to the staging area." />
+      <property name="Text" value="When faced with the option to travel, the players must travel to a non-vast location.&#10;Forced: After Horse Thieves’ Hovel leaves play as an explored location, if there are fewer than 1³ enemies in play, discard cards from the top of the encounter deck until an enemy is discarded. Add that enemy to the staging area." />
     </card>
     <card id="810f765c-981b-4ac6-8de7-2b177d120477" name="Horse Lord’s Lodge" size="EncounterCard">
       <property name="Card Number" value="82" />
@@ -1151,7 +1133,7 @@
       <property name="Threat" value="3" />
       <property name="Quest Points" value="5" />
       <property name="Victory Points" value="VICTORY 2" />
-      <property name="Text" value="When faced with the option to travel, the players must travel to a non-vast location.&#10;Forced: After Horse Lord’s Lodge leaves play as an explored location, if there are fewer than 1(per player) locations in play, discard cards from the top of the encounter deck until a location is discarded. Add that location to the staging area." />
+      <property name="Text" value="When faced with the option to travel, the players must travel to a non-vast location.&#10;Forced: After Horse Lord’s Lodge leaves play as an explored location, if there are fewer than 1³ locations in play, discard cards from the top of the encounter deck until a location is discarded. Add that location to the staging area." />
     </card>
     <card id="4fbf623c-61ab-4173-861c-8fdb35bbbdfe" name="Thirst for Horse Blood" size="EncounterCard">
       <property name="Card Number" value="83" />
@@ -1194,7 +1176,7 @@
         <property name="Cost" value="1" />
         <property name="Engagement Cost" value="B" />
         <property name="Quest Points" value="-" />
-        <property name="Text" value="Forced: After an enemy is destroyed, place 1 resource token here.&#10;Encounter Action: Remove 5 progress from this stage to choose a card in a loot pile and discard it. Limit once per round per player.&#10;The players cannot advance unless there are X resource tokens on this stage, where X is equal to 1, plus 2(per player) (2 per player)." />
+        <property name="Text" value="Forced: After an enemy is destroyed, place 1 resource token here.&#10;Encounter Action: Remove 5 progress from this stage to choose a card in a loot pile and discard it. Limit once per round per player.&#10;The players cannot advance unless there are X resource tokens on this stage, where X is equal to 1, plus 2³ (2 per player)." />
       </alternate>
     </card>
     <card id="34f9c6a0-3e6c-4ff6-9794-2d47ad3c9511" name="Ambush!" size="QuestCard">
@@ -1221,7 +1203,7 @@
       <property name="Type" value="Quest" />
       <property name="Cost" value="1" />
       <property name="Engagement Cost" value="A" />
-      <property name="Text" value="Setup: Set Host of Rohan aside, out of play. Add Erelas Beacon and 1(per player) Enraged Dunlendings to the staging area. Add the double-sided side quest to the staging area, Reclaim the Beacon side faceup. Search the encounter deck for 1 copy of Surrounding Grassland and make it the active location. Shuffle the encounter deck." />
+      <property name="Text" value="Setup: Set Host of Rohan aside, out of play. Add Erelas Beacon and 1³ Enraged Dunlendings to the staging area. Add the double-sided side quest to the staging area, Reclaim the Beacon side faceup. Search the encounter deck for 1 copy of Surrounding Grassland and make it the active location. Shuffle the encounter deck." />
       <alternate name="Battle for the Hill" size="QuestCard" type="B">
         <property name="Encounter Set" value="The Battle for the Beacon" />
         <property name="Type" value="Quest" />
@@ -1238,7 +1220,7 @@
       <property name="Type" value="Quest" />
       <property name="Cost" value="2" />
       <property name="Engagement Cost" value="A" />
-      <property name="Text" value="When Revealed: Place progress on Defend the Beacon (bypassing the active location) until it has X progress on it, where X is equal to 2, plus 1(per player). Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the top of the encounter deck until an enemy is discarded and adds that enemy to the staging area." />
+      <property name="Text" value="When Revealed: Place progress on Defend the Beacon (bypassing the active location) until it has X progress on it, where X is equal to 2, plus 1³. Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the top of the encounter deck until an enemy is discarded and adds that enemy to the staging area." />
       <alternate name="Hold the Hilltop" size="QuestCard" type="B">
         <property name="Encounter Set" value="The Battle for the Beacon" />
         <property name="Type" value="Quest" />
@@ -1279,7 +1261,7 @@
         <property name="Cost" value="1" />
         <property name="Engagement Cost" value="B" />
         <property name="Quest Points" value="6" />
-        <property name="Text" value="This stage cannot be defeated unless the players control 2 Mount&#10;objectives." />
+        <property name="Text" value="This stage cannot be defeated unless the players control 2 Mount objectives." />
       </alternate>
     </card>
     <card id="8853b3c5-0a24-441c-bc3f-c5806232f740" name="The King’s Stallion" size="QuestCard">
@@ -1296,7 +1278,7 @@
         <property name="Cost" value="2" />
         <property name="Engagement Cost" value="B" />
         <property name="Quest Points" value="8" />
-        <property name="Text" value="Thruk cannot take damage unless there are at least 4 progress tokens on this stage.&#10;This stage cannot be defeated unless the players control 3 Mount&#10;objectives." />
+        <property name="Text" value="Thruk cannot take damage unless there are at least 4 progress tokens on this stage.&#10;This stage cannot be defeated unless the players control 3 Mount objectives." />
       </alternate>
     </card>
     <card id="566eb7ed-96b5-49ad-bc74-e2c6b45e176f" name="The Sweeping Tide" size="QuestCard">
@@ -1320,11 +1302,9 @@
       <property name="Card Number" value="999" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Rules" />
-      <property name="Victory Points" value="Page" />
       <property name="Text" value="CEO: Seastan Art: banania&#10;COO: Nuls Playtesting: Shellin&#10;Game Design: Seastan Rules: sappidus&#10;Storytelling: John Leo Software: A.R.&#10;Editing: McDog3 Printing: A.R.&#10;Graphic Design: thaurdir Community: secondhandtook&#10;Assistants: [DTP]Anzu, AdamKrafty, Admiral Polaris, ALeP Bot, alonewolf87, argonui, AstroSnail (Stephen), Authraw, Baloosh, Barthadra, Beleg489, Beorn, BeornBot, bgamerjoe, BlergMcFlergberg, Bobbymcbobface, Brewer Bear, Brinx, Bullroarer Took, Bundeswill, carlosm88, ceciltettledeer, Celia, Comtedelafere, Cryoshark, DavidJMartin, deiseach, dwaynek, Edmund, EdY, Eldandil, eldub, Elessar 010 (Patrick), Emmental, estel_edain, filgonfin, fuzzyslippers, granny.sheep, Great Glorfindel, Hrodebert, Ira, Jaywana, Jban, KYpatzer, LeeA, Levanthalas, Lively, Mag, Makoshark13, Mazdaist, Mormegil, MrSpaceBear, MurstonThor, narollik, oldoly, Onidsen, Pawxcio, Pining For Fimbrethil, RedSpiderr, Rimogard, RogueThirteen, Salted Pork, SamthemanGamgee, Speder, Splice, Stavo343, tamhas, Tegyrius, thanatopsis, TheChap, tlawrence, Trialus, TritonWreck, Tuhma, VeggieGollum, Verwegner (Jan), Watch-Captain Alain, Watcher in the Water, wlk, wolframius, xaviermutant&#10;Special thanks to HeavyKaragh for his work on the Strange Eons plugin, RiddermarkLord for his work on the card templates, and Troy L for the ALeP logo and encounter set icon designs. We credit Marko Manev for the ALeP encounter card back art." />
       <alternate name="Back Card" type="B">
         <property name="Type" value="Rules" />
-        <property name="Victory Points" value="Page" />
         <property name="Text" value="The countryside of Rohan buzzes with rumors of vanished horses and Dunlendings slipping across the Isen like phantoms. Though the brave and cunning heroes of this story begin their journey as a simple honor guard for the queen of Rohan, they will soon find themselves in the midst of danger, intrigue, and all-out war. Your fellowship will battle from the Beacon of Erelas and across the Eastfold in pursuit of dangerous hillmen and worse. But to what end are they striking at Rohan’s borders, and what price will you have to pay for peace?" />
       </alternate>
     </card>

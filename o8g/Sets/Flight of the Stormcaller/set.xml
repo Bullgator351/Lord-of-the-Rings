@@ -133,7 +133,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Prepare the Corsair deck. Players prepare their fleet. Prepare the Stormcaller’s area with a second quest deck consisting of only stages 2C, 3C, and 4C, as well as the Stormcaller (see insert). Search the encounter deck for 1 copy of Rolling Seas, and add it to the staging area (2 copies instead if there are 3 or more players in the game). Shuffle the encounter deck. "/>
-    <property name="Setup" value="sstttttttt"/>
     <alternate name="Swift Departure" type="B" size="QuestCard">
       <property name="Encounter Set" value="Flight of the Stormcaller"/>
       <property name="Type" value="Quest"/>

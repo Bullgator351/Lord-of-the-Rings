@@ -121,7 +121,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Daechanar and Altar of Midwinter aside, out of play. Each player reveals an encounter card from the top of the encounter deck. Each player reanimates the top card of his deck."/>
-    <property name="Setup" value="ttt"/>
     <alternate name="The Catacombs of Carn Dûm" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Dread Realm"/>
       <property name="Type" value="Quest"/>

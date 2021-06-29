@@ -659,7 +659,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Islet to the staging area and attach Grima to that location. Each player searches the encounter deck for 1 different Dunland enemy and adds it to the staging area.  Shuffle the Encounter Deck."/>
-    <property name="Setup" value="ss"/>
     <alternate name="Fight at the Fords" type="B" size="QuestCard">
       <property name="Encounter Set" value="Fords of Isen"/>
       <property name="Type" value="Quest"/>
@@ -710,7 +709,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Each player removes the top 20 cards of his deck and places them aside, as an out-of-play deck,  The first player takes Mugash plus 1 Mugash's Guard for each other player in the game and randomly shuffles one facedown into each player's out of play deck. Place any remaining copies of Mugash's Guard aide, out of play."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="Orders from Orthanc" type="B" size="QuestCard">
       <property name="Encounter Set" value="To Catch an Orc"/>
       <property name="Type" value="Quest"/>
@@ -760,7 +758,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Edge of Fangorn to the staging area an attach Mugash to that location. Shuffle the encounter deck.  Reveal X encounter cards where X equals the number of players in the game minus 1."/>
-    <property name="Setup" value="ss"/>
     <alternate name="Into the Woods" type="B" size="QuestCard">
       <property name="Encounter Set" value="Into Fangorn"/>
       <property name="Type" value="Quest"/>

@@ -184,7 +184,6 @@
     <property name="Cost" value="0"/>
     <property name="Victory Points" value="3"/>
     <property name="Text" value="Action: Add Phial of Galadriel to the victory display and remove it from the campaign pool, to give each enemy engaged with you –4 Û until the end of the round."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="37488d87-8c07-4f13-b354-66bbdc9e5263" name="Three Golden Hairs">
     <property name="Card Number" value="16"/>
@@ -197,7 +196,6 @@
     <property name="Cost" value="0"/>
     <property name="Victory Points" value="3"/>
     <property name="Text" value="Action: Add Three Golden Hairs to the victory display and remove it from the campaign pool, to lower each player’s threat by 3. Then, each player draws 3 cards. "/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="606ee31e-a9cf-4ccf-8eed-003c006e5168" name="Lórien Rope">
     <property name="Card Number" value="17"/>
@@ -210,7 +208,6 @@
     <property name="Cost" value="0"/>
     <property name="Victory Points" value="3"/>
     <property name="Text" value="Action: Add Lórien Rope to the victory display, and remove it from the campaign pool to give each location in the staging area -2 $ until the end of the phase."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="8b15901c-c6b2-421e-8c6d-3200558e3609" name="Leaf-wrapped Lembas">
     <property name="Card Number" value="18"/>
@@ -223,7 +220,6 @@
     <property name="Cost" value="0"/>
     <property name="Victory Points" value="3"/>
     <property name="Text" value="Action: Add Leaf-wrapped Lembas to the victory display and remove it from the campaign pool, to ready all heroes in play."/>
-    <property name="Setup" value="t"/>
   </card>
   <card id="fb0f51c6-c96e-44f1-9f67-1235eb2351dc" name="The Ring Goes South">
     <property name="Card Number" value="19"/>
@@ -232,7 +228,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Text" value="Setup: Each player may change hero cards he controls without incurring the +1 threat penalty. The players have earned the boon cards: Sting, Mithril Shirt, Glamdring, and Andúril. Each player chooses one and adds it to his hand. If any of those boon cards remain unchosen, shuffle them into the first player's deck."/>
-    <property name="Setup" value="tttttttt"/>
     <alternate name="The Ring Goes South" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 4"/>
       <property name="Type" value="Campaign"/>
@@ -247,7 +242,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Lust for the Ring, Redhorn Pass, Doors of Durin and Watcher in the Water aside, out of play. Shuffle the encounter deck."/>
-    <property name="Setup" value="tttt"/>
     <alternate name="The Council of Elrond" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Ring Goes South"/>
       <property name="Type" value="Quest"/>
@@ -488,7 +482,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Text" value="Setup: Shuffle the burden treachery cards Pursued by the Enemy and Shadow of Fear, into the encounter deck. Add the burden objective cards Grievous Wound and Overcome by Grief to the staging area."/>
-    <property name="Setup" value="-----"/>
     <alternate name="Journey in the Dark" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 5"/>
       <property name="Type" value="Campaign"/>
@@ -503,7 +496,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set The Balrog, The Great Bridge, and Chamber of Mazarbul aside out of play. Add Doom, Doom, Doom to the staging area and place 10 damage tokens on it. Each player adds 1 different location to the staging area."/>
-    <property name="Setup" value="ttts"/>
     <alternate name="The Long Dark of Moria" type="B" size="QuestCard">
       <property name="Encounter Set" value="Journey in the Dark"/>
       <property name="Type" value="Quest"/>
@@ -750,7 +742,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Keywords" value="You are playing Campaign Mode."/>
     <property name="Text" value="Setup: Starting with the first player, each player chooses 1 of the following boon cards: Phial of Galadriel, Three Golden Hairs, Lórien Rope, or Leaf-wrapped Lembas, and attaches it to a hero he controls. The chosen boon cards have been earned by the players. Shuffle Followed by Night and Ill Fate into the encounter deck."/>
-    <property name="Setup" value="------"/>
     <alternate name="Breaking of the Fellowship" type="B">
       <property name="Encounter Set" value="The Lord of the Rings Part 6"/>
       <property name="Type" value="Campaign"/>
@@ -765,7 +756,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Frodo's Choice, Seat of Seeing, and Parth Galen aside, out of play. Add The Argonath and Sarn Gebir to the staging area."/>
-    <property name="Setup" value="tttss"/>
     <alternate name="The Great River" type="B" size="QuestCard">
       <property name="Encounter Set" value="Breaking of the Fellowship"/>
       <property name="Type" value="Quest"/>
@@ -1099,7 +1089,6 @@
     <property name="Sphere" value="Burden"/>
     <property name="Traits" value="Despair."/>
     <property name="Text" value="Setup: Add Overcome by Grief to the staging area.&#10;Forced: After a character is destroyed, if Overcome by Grief is unattached, attach to a hero. (Counts as a Condition attachment with the text: &quot;Forced: After a character you control is destroyed, exhaust attached hero. Until the end of the round, attached hero cannot ready.&quot;)"/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="7056509d-298d-4a21-be0c-9780f30b149e" name="Grievous Wound" size="EncounterCard">
     <property name="Card Number" value="88"/>
@@ -1109,7 +1098,6 @@
     <property name="Sphere" value="Burden"/>
     <property name="Traits" value="Wound."/>
     <property name="Text" value="Setup: Add Grievous Wound to the staging area.&#10;Forced: After a hero takes damage, if Grievous Wound is unattached, attach to that hero. (Counts as a Condition attachment with the text: &quot;Forced: After attached hero exhausts, deal 1 damage to it.&quot;)"/>
-    <property name="Setup" value="s"/>
   </card>
   <card id="9317bbd9-12e5-47e1-a038-360df6c837b1" name="Followed by Night" size="EncounterCard">
     <property name="Card Number" value="89"/>
@@ -1137,7 +1125,6 @@
     <property name="Type" value="Objective"/>
     <property name="Traits" value="Artifact. Item. Ring."/>
     <property name="Text" value="Setup: The first player claims The One Ring and attaches it to the Ring-bearer. &#10;Attached hero does not count against the hero limit. The first player gains control of attached hero. &#10;&#10;If The One Ring leaves play, the players lose the game."/>
-    <property name="Setup" value="t"/>
   </card>
  </cards>
 </set>

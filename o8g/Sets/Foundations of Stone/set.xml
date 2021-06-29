@@ -120,7 +120,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Place the Foundations of Stone encounter set aside, out of play. The first player attaches Cave Torch to a hero of his choice."/>
-    <property name="Setup" value="t"/>
     <alternate name="The Dripping Walls" type="B" size="QuestCard">
       <property name="Encounter Set" value="Foundations of Stone"/>
       <property name="Type" value="Quest"/>

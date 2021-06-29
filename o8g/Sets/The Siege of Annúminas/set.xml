@@ -7,7 +7,6 @@
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Campaign"/>
     <property name="Text" value="Setup: Arrange the quest cards into three separate quest decks: 1A-3A, 1C-3C, and 1E-3E. Remove the 1C-3C deck and the 1E-3E deck from the game. Search the encounter deck for Annúminas, add it to the staging area, and set its city strength to 20. Flip this card over and place it next to the quest deck."/>
-    <property name="Setup" value="sttttttttttt"/>
     <alternate name="Standard Game Mode" type="B">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Campaign"/>
@@ -20,7 +19,6 @@
     <property name="Encounter Set" value="The Siege of Annúminas"/>
     <property name="Type" value="Campaign"/>
     <property name="Text" value="Setup: Arrange the quest cards into three separate quest decks: 1A-3A, 1C-3C, and 1E-3E. Create three separate staging areas, one for each quest deck. Give each stage its own encounter deck. Divide the players into 3 teams, one team for each stage. The team at stage 1A searches the encounter deck for Annúminas, adds it to their staging area and sets its city strength to 50. Each other team removes their copy of Annúminas from the game. Flip over all 3 Setup cards and place 1 next to each quest deck."/>
-    <property name="Setup" value="sssttttttttttttttttttttttttttttttttt"/>
     <alternate name="Epic Multiplayer Mode" type="B">
       <property name="Encounter Set" value="The Siege of Annúminas"/>
       <property name="Type" value="Campaign"/>

@@ -128,7 +128,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add Bellach, The Orcs’ Search, and The Secret Chamber to the staging area. Attach Celebrimbor's Mould to The Secret Chamber. Each player adds a different Ost-in-Edhil location to the staging area. Shuffle the encounter deck."/>
-    <property name="Setup" value="ssst"/>
     <alternate name="The Ruins of Ost-in-Edhil" type="B" size="QuestCard">
       <property name="Encounter Set" value="Celembrimbor's Secret"/>
       <property name="Type" value="Quest"/>

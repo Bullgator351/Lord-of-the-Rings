@@ -122,7 +122,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: The first player takes control of Chief Turch. Set Raven Chief and Raven Chief’s Camp aside, out of play. Reveal 1 copy of Dunland Battlefield and make it the active location. Reveal 1 copy of Raven War-camp and add it to the staging area. Create the Raven deck (see insert) and set it next to the quest deck. Each player chooses 1 different enemy from the Raven deck and adds it to the staging area. Shuffle the encounter deck and Raven deck."/>
-    <property name="Setup" value="tttls"/>
     <alternate name="Battle for Dunland" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Antlered Crown"/>
       <property name="Type" value="Quest"/>

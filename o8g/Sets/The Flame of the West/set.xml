@@ -711,7 +711,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set The Stone of Erech and Army of the Dead aside, out of play. Each player attaches a copy of Overcome by Fear to his threat dial. Remove each unattached copy of Overcome by Fear from the game. "/>
-    <property name="Setup" value="tttttttt"/>
     <alternate name="The Forbidden Door" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Passing of the Grey Company"/>
       <property name="Type" value="Quest"/>
@@ -729,7 +728,6 @@
     <property name="Cost" value="2"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="When Revealed: Each player searches the encounter deck for a different location and adds it to the staging area. Shuffle the encounter deck. "/>
-    <property name="Setup" value="--------"/>
     <alternate name="The Paths of the Dead" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Passing of the Grey Company"/>
       <property name="Type" value="Quest"/>
@@ -806,7 +804,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Add The Corsair Fleet (Corsair side faceup) and Great Corsair Ship to the staging area. Each player searches the encounter deck for a Ship location and adds it to the staging area. Shuffle the encounter deck.  "/>
-    <property name="Setup" value="ssst"/>
     <alternate name="Attack on Pelargir" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Siege of Gondor"/>
       <property name="Type" value="Quest"/>
@@ -823,7 +820,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Traits" value="The Lord of the Rings Part 14"/>
     <property name="Text" value="Setup: The first player may raise each player's threat by 1 to search his deck for Anduril and add it to his hand. Remove each burden with the following burden set icons from the encounter deck:"/>
-    <property name="Setup" value="----"/>
     <alternate name="The Siege of Gondor" type="B">
       <property name="Encounter Set" value="The Siege of Gondor"/>
       <property name="Type" value="Campaign"/>
@@ -855,7 +851,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Minas Tirith, Grond, The Witch-king, and each copy of Wraith on Wings aside, out of play. Search the encounter deck for a copy of Pelennor Field and make it the active location. Shuffle the encounter deck. The players may attach Esquire of Rohan and Esquire of Gondor to different heroes. "/>
-    <property name="Setup" value="ttttttttlttt"/>
     <alternate name="The Garrison of Gondor" type="B" size="QuestCard">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Quest"/>
@@ -940,7 +935,6 @@
     <property name="Type" value="Campaign"/>
     <property name="Traits" value="The Lord of the Rings Part 15"/>
     <property name="Text" value="Setup: Set each Harad enemy recorded in the campaign log aside, out of play. The first player attaches Andúril and Banner of Elendil to Aragorn and sets him aside, out of play. Add The Corsair Fleet to the staging area (Gondor side faceup) and place X resources on it, where X is the number recorded in the campaign log. Remove each burden with the following burden set icons from the encounter deck, then flip this card over:"/>
-    <property name="Setup" value="-----------ttttttttttttttttts"/>
     <alternate name="The Battle of the Pelennor Fields" type="B">
       <property name="Encounter Set" value="The Battle of the Pelennor Fields"/>
       <property name="Type" value="Campaign"/>

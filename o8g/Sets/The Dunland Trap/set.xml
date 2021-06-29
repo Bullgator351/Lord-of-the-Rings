@@ -114,7 +114,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Chief Turch and Munuv Dûv Ravine aside, out of play. Make Old South Road the active location. Each player searches the encounter deck for a Boar Clan enemy and puts it into play engaged with him. Shuffle the encounter deck."/>
-    <property name="Setup" value="ttl"/>
     <alternate name="The Road to Tharbad " type="B" size="QuestCard">
       <property name="Encounter Set" value="The Dunland Trap"/>
       <property name="Type" value="Quest"/>

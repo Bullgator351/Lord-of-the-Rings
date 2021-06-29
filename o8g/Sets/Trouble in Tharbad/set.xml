@@ -123,7 +123,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Set Bellach and The Crossing of Tharbad aside, out of play. Search the encounter deck for 1 copy of Spy From Mordor per player, and add them to the staging area. Make The Empty Mug the active location. The first player takes control of Nalir, as an ally. Shuffle the encounter deck."/>
-    <property name="Setup" value="ttttttlt"/>
     <alternate name="Double Dealings" type="B" size="QuestCard">
       <property name="Encounter Set" value="Trouble in Tharbad"/>
       <property name="Type" value="Quest"/>

@@ -113,7 +113,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="tt"/>
     <alternate name="The Seventh Level" type="B">
       <property name="Encounter Set" value="The Seventh Level - Nightmare"/>
       <property name="Type" value="Nightmare"/>

@@ -123,7 +123,6 @@
     <property name="Cost" value="1"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="Setup: Search the encounter deck for Rhosgobel and Wilyador, and add them to the staging area with 2 damage tokens on Wilyador. Then, shuffle the encounter deck."/>
-    <property name="Setup" value="ss"/>
     <alternate name="The Wounded Eagle" type="B" size="QuestCard">
       <property name="Encounter Set" value="A Journey to Rhosgobel"/>
       <property name="Type" value="Quest"/>

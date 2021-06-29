@@ -8,7 +8,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="-----"/>
     <alternate name="Flies and Spiders" type="B">
       <property name="Encounter Set" value="Flies and Spiders - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -102,7 +101,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="sstt"/>
     <alternate name="The Lonely Mountain" type="B">
       <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
       <property name="Type" value="Nightmare"/>
@@ -110,7 +108,7 @@
       <property name="Text" value="You are playing Nightmare Mode.&#10;&#10;While there is at least 1 card stacked underneath The Lonely Mountain, the players cannot advance to stage 3.&#10;Smaug the Magnificent cannot take damage unless A Bare Patch is attached to him."/>
     </alternate>
   </card>
-  <card id="424d4f29-d7c6-465f-9742-adb51177affc" name="Erebor Bats">
+  <card id="424d4f29-d7c6-465f-9742-adb51177affc" name="Erebor Bats" size="EncounterCard">
     <property name="Card Number" value="2"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Lonely Mountain - Nightmare"/>
@@ -177,7 +175,6 @@
     <property name="Type" value="Nightmare"/>
     <property name="Engagement Cost" value="A"/>
     <property name="Text" value="The Quest Deck has been modified for Nightmare Mode. Flip this card over and keep it next to the quest deck. Its effect remains active throughout the game, which is now ready to begin."/>
-    <property name="Setup" value="s"/>
     <alternate name="The Battle of Five Armies" type="B">
       <property name="Encounter Set" value="The Battle of Five Armies - Nightmare"/>
       <property name="Type" value="Nightmare"/>
