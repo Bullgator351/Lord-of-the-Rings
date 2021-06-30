@@ -32,6 +32,7 @@
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
   <section name="Setup" shared="True">
+    <card id="c8fc048c-819a-443f-ab69-44ef26e2b0eb" qty="1">Children of Eorl Rules 1</card>
     <card id="f6d3edc2-850c-4c82-b4dd-7fac8237cdd5" qty="1">Children of Eorl Rules 2</card>
     <card id="41e4b5d9-2959-4e77-ac3d-48022d8b4ba4" qty="1">Ambush at Erelas 1</card>
     <card id="dad84783-62b4-4aea-841e-90dadddd34cf" qty="1">Ambush at Erelas 2</card>
