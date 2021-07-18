@@ -27,7 +27,7 @@
 <card qty="1" id="40c95b3d-6216-4def-bb93-f44871f3ec70">Weight of the Ring</card>
 </section>
   <section name="Setup" shared="True">
-    <card qty="1" id="49e734b0-3b71-45e4-8f31-ad1e09f1d9e4">Ford of Bruinen</card>
+    <card qty="1" id="3cd4bb66-1621-4534-aa25-421d0d8b7189">Ford of Bruinen</card>
     <card qty="1" id="c5657436-d6c8-400d-ba1f-a723799ac685">The Witch-king</card>
   </section>
   <section name="Hero" shared="False" />
