@@ -44,9 +44,9 @@
     <card qty="1" id="32db1af6-e214-4958-9ca4-bdf3a73758b5">Nárelenya</card>
     <card qty="1" id="c9139d8c-0d9d-4d34-bfb5-8d40ca455bfc">Silver Wing</card>
     <card qty="1" id="07a8f60f-926c-4342-bf04-e3af9a24df10">Dream-chaser</card>
-    <card qty="1" id="ce1cf93c-68d9-4613-af3a-a08671152358">Heading</card>
   </section>
   <section name="Staging Setup" shared="True">
+    <card qty="1" id="ce1cf93c-68d9-4613-af3a-a08671152358">Heading</card>
     <card qty="1" id="ec2f100d-22c8-4cc6-82d9-fb4f07446b0f">Rolling Seas</card>
     <card qty="1" id="16361c0e-f422-44d4-8f25-bc32b7a9aadd">Scouting Ship</card>
   </section>
