@@ -27,6 +27,7 @@
     <card qty="2" id="251c0ba0-a466-401e-b762-b2fef09ea96a">Goblin Trail</card>
     <card qty="2" id="64813258-1533-420c-9fce-4d4c1f13c99d">Driven by Shadow</card>
     <card qty="2" id="4af27413-5674-4352-b54a-7f12c4fa0afc">Surprising Speed</card>
+    <card qty="1" id="460b83ed-986a-496b-9b38-627c77a836e9">Caught in a Web</card>
   </section>
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
