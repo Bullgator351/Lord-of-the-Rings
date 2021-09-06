@@ -259,7 +259,7 @@
   <card id="daa67624-18ba-43a3-92c6-6e5586166bb0" name="Ruined Supplies" size="EncounterCard">
     <property name="Card Number" value="25"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Lost in the Wilderness"/>
+    <property name="Encounter Set" value="Lost in Wilderland"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Doomed 1. When Revealed: Each player must choose: either raise your threat by 1 for each ally you control, or deal 1 damage to each ally you control."/>
     <property name="Shadow" value="Shadow: Raise your threat by 1 for each enemy engaged with you."/>
@@ -267,14 +267,14 @@
   <card id="b81e837e-f4e8-43e9-892a-8bfaecbd1416" name="Lost in the Wild" size="EncounterCard">
     <property name="Card Number" value="26"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Lost in the Wilderness"/>
+    <property name="Encounter Set" value="Lost in Wilderland"/>
     <property name="Type" value="Treachery"/>
-    <property name="Text" value="When Revealed: The player with the most cards in his hand without a copy of Lost in the Wilderness adds Lost in the Wild to his hand. (While in a player’s hand, Lost in the Wild gains: “Cannot be discarded by player card effect. Forced: After you play a card, discard each card in your hand.”)"/>
+    <property name="Text" value="When Revealed: The player with the most cards in his hand without a copy of Lost in the Wild adds Lost in the Wild to his hand. (While in a player’s hand, Lost in the Wild gains: “Cannot be discarded by player card effect. Forced: After you play a card, discard each card in your hand.”)"/>
   </card>
   <card id="0f2929de-bef9-40b8-b0ed-de69e136188f" name="Weighed Down" size="EncounterCard">
     <property name="Card Number" value="27"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Lost in the Wilderness"/>
+    <property name="Encounter Set" value="Lost in Wilderland"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="When Revealed: Attach to the hero with the most attachments without Weighed Down attached. Then, exhaust attached hero. (Counts as a Condition attachment with the text: “Forced: After attached hero readies, choose and discard an attachment from it. You cannot choose Weighed Down unless attached hero has no other non-objective attachments.”)"/>
   </card>
