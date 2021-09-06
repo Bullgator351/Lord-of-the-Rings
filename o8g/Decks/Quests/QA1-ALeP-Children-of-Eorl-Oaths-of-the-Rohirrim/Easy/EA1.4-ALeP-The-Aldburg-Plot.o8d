@@ -13,10 +13,10 @@
   </section>
   <section name="Second Quest Deck" shared="True" />
   <section name="Encounter" shared="True">
-    <card id="5bea4f50-d569-4da3-94e5-ad0d2574b3fb" qty="2">Old Farmhouse</card>
-    <card id="9108bfe5-30b1-42e5-8866-1df5936f8d4a" qty="1">Abandoned Mill</card>
     <card id="0fa296fc-3e23-4b9f-8dce-fb1244f63aeb" qty="1">Deadly Defector</card>
     <card id="9656fa81-aa25-4579-bb6a-d11dd0cb17b9" qty="1">Aldburg Malcontent</card>
+    <card id="5bea4f50-d569-4da3-94e5-ad0d2574b3fb" qty="2">Old Farmhouse</card>
+    <card id="9108bfe5-30b1-42e5-8866-1df5936f8d4a" qty="1">Abandoned Mill</card>
     <card id="6672e282-c378-411a-a101-2eb1e6757ae9" qty="2">Misty Street</card>
     <card id="2d7dcb33-1536-449f-bc42-382da80bd9cb" qty="2">Well-lit Hall</card>
     <card id="073539f7-5962-4f07-9714-eed16345af4c" qty="3">Decrepit Hovel</card>
@@ -39,21 +39,21 @@
     <card id="f363261b-dfe3-4d84-9260-ca23eb84b56c" qty="1">A Fire Rises</card>
     <card id="3038b932-33c7-4c0b-8de4-69461d728de4" qty="1">A Case of Identity</card>
     <card id="198364e8-45bc-45c3-9d5d-5cf2a2c0ce38" qty="1">Whisperer in the Darkness</card>
-    <card id="22fffee3-e5d9-4159-82d6-c946d875b6e7" qty="1">Spreading Inferno</card>
     <card id="eb65adff-1355-4525-bdc9-2ae6e96bbb36" qty="1">The Whisperer</card>
     <card id="17fe0f1e-fcca-401f-88b7-6edae12be418" qty="1">The Spy Master</card>
     <card id="b7a162d6-96af-4188-95b9-c018ae9b0365" qty="1">Ossian</card>
-    <card id="22cf4d32-7934-45e4-9f0a-1846d4714d07" qty="1">Garrison Barracks</card>
-    <card id="a2278bfd-906a-46a0-bdd2-21b70a376e9e" qty="1">The Horse’s Tail</card>
-    <card id="06c1fa99-16b4-4eff-8eed-2d3aee161ca9" qty="1">The Armoury</card>
-    <card id="fe25197e-cd1a-4088-998b-5b371cd70f94" qty="1">Great Mead Hall</card>
     <card id="e810251f-5aba-4134-8264-acf9ed401324" qty="2">Town Guard</card>
     <card id="feafb001-aca7-489b-b2e4-1b998988cf97" qty="2">Dunlending Agents</card>
+    <card id="06c1fa99-16b4-4eff-8eed-2d3aee161ca9" qty="1">The Armoury</card>
+    <card id="fe25197e-cd1a-4088-998b-5b371cd70f94" qty="1">Great Mead Hall</card>
+    <card id="22fffee3-e5d9-4159-82d6-c946d875b6e7" qty="1">Spreading Inferno</card>
   </section>
   <section name="Staging Setup" shared="True">
     <card id="29e93b1e-ebc7-4a57-8a23-eb7ecaf915f5" qty="1">Recreant Rider</card>
     <card id="0fa296fc-3e23-4b9f-8dce-fb1244f63aeb" qty="1">Deadly Defector</card>
     <card id="9656fa81-aa25-4579-bb6a-d11dd0cb17b9" qty="1">Aldburg Malcontent</card>
+    <card id="22cf4d32-7934-45e4-9f0a-1846d4714d07" qty="1">Garrison Barracks</card>
+    <card id="a2278bfd-906a-46a0-bdd2-21b70a376e9e" qty="1">The Horse’s Tail</card>
   </section>
   <section name="Active Setup" shared="True" />
   <notes><![CDATA[]]></notes>
