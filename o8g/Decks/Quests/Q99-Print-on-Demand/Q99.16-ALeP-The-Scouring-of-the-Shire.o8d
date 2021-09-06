@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+  <section name="Hero" shared="False">
+    <card id="788cdbe8-2142-4216-a8e4-d4172d0aafe2" qty="1">Frodo Baggins</card>
+  </section>
+  <section name="Ally" shared="False" />
+  <section name="Attachment" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Side Quest" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Quest" shared="True">
+    <card id="1082cffb-80b2-465c-aa6a-db97892cefd6" qty="1">Many Partings</card>
+    <card id="14526e30-93de-43a6-8d4e-549c5e36a559" qty="1">Escorted “Prisoners”</card>
+    <card id="26688789-8f0f-4d50-9317-2d3f290dadd8" qty="1">Raise the Shire</card>
+    <card id="a7385c0f-d040-4e15-8b39-dbf1195ba256" qty="1">The Battle of Bywater</card>
+    <card id="5bd94596-d7ab-4c51-95c2-a7f35241fba5" qty="1">The Very Last Stroke</card>
+  </section>
+  <section name="Second Quest Deck" shared="True" />
+  <section name="Encounter" shared="True">
+    <card id="1038d1c2-f840-4f03-910e-8ae5fa1702be" qty="6">Feather-capped Shirriff</card>
+    <card id="06e2aa7c-8c51-401a-b32a-c49905dae803" qty="4">Thieving Ruffian</card>
+    <card id="bcc1307b-0d31-46aa-9a82-fc24212c9261" qty="3">Highway Robber</card>
+    <card id="4098a223-70ff-42a9-bdee-0e40309c2449" qty="3">Gang of Ruffians</card>
+    <card id="886866bb-62b8-439e-a553-956c3ed44ad2" qty="2">The Lockholes</card>
+    <card id="1e9a51ae-ea87-467f-a2da-f4534de12fce" qty="3">East Road</card>
+    <card id="fc2c52f8-38fa-43c3-baf4-1b648a11067d" qty="2">Shirriff House</card>
+    <card id="0181a050-b9e1-4606-b249-e5d5df00efa5" qty="3">Hobbiton Road</card>
+    <card id="448bffce-a1d8-454c-8a56-e5c0ce243df0" qty="2">Brick Building</card>
+    <card id="9ddf2571-bc5d-447b-a576-75ad90caf31e" qty="2">Wooden Shed</card>
+    <card id="58e05f2f-a0ce-46a9-a959-21d4daa5cb26" qty="2">Once Beloved Place</card>
+    <card id="bcd65fe2-d5a0-4802-9127-9e14cb26e249" qty="3">Against the Rules</card>
+    <card id="8e14024f-85af-4c07-af88-7b7cd0489f2f" qty="2">Take Him, Lads!</card>
+    <card id="551cafa3-d52a-4710-bc5f-b722b7ef7165" qty="3">Sharkey’s Men</card>
+  </section>
+  <section name="Special" shared="True">
+    <card id="46790c5b-3084-4cd2-9f91-58b0958820ac" qty="1">Hidden Blade</card>
+    <card id="91ca4326-7e70-4b9d-8b64-ff9dbeea428f" qty="1">One Ill Turn</card>
+    <card id="28bc3fcb-51df-4112-992e-cdfdc414ef74" qty="1">Voice of Saruman</card>
+    <card id="63a273e8-c158-4e52-821d-d9ad6453415d" qty="1">Curse Upon the Shire</card>
+    <card id="4a2ed8ba-e842-4114-b759-25a3936cc16a" qty="1">To the Road Again, Worm!</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Setup" shared="True">
+    <card id="b0d6c658-9687-45db-a7aa-daa84045af1e" qty="1">The Scouring of the Shire Rules 1</card>
+    <card id="81c459d2-c910-4910-8e88-ef82e396fd28" qty="1">The Scouring of the Shire Rules 2</card>
+    <card id="b868a16c-b732-437d-8b7c-ced670a5c7e7" qty="1">Gríma’s Choice</card>
+    <card id="cbb34cfa-d4ef-4a3b-8f8e-b8eeb956e043" qty="1">Rouse the Cottons</card>
+    <card id="a7748571-4b35-43b4-a113-2928d0134106" qty="1">Awake! Fire, Foes! Awake!</card>
+    <card id="e041ca9b-92de-4a42-805a-2bca98a70595" qty="1">Set up Barriers</card>
+    <card id="fb8c81b3-a877-40f4-bab2-4fb6eb32a935" qty="1">Muster the Tooks</card>
+    <card id="f7eab629-9635-4678-b100-a71bfe09ce58" qty="1">Ambush Sharkey’s Men</card>
+    <card id="784f7276-d8fb-4646-a09c-49b5152c1b6a" qty="1">Find the Gaffer</card>
+    <card id="9e1974e2-7d7d-4d33-aa30-4544f8e95201" qty="1">Watch the East Road</card>
+    <card id="ae5664f2-0b5d-4c06-adeb-1abaecf656f8" qty="1">Saruman</card>
+    <card id="5b43020b-eb9b-4e60-8ad4-f738e4096aa7" qty="1">Brandywine Gate</card>
+    <card id="78f85ede-3286-47fb-9c37-4e1b551d1607" qty="1">Three-Farthing Stone</card>
+  </section>
+  <section name="Staging Setup" shared="True" />
+  <section name="Active Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

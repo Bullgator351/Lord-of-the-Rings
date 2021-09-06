@@ -30,6 +30,7 @@
   <section name="Setup" shared="True">
     <card qty="1" id="788819a1-c0b5-4dd0-b778-f3011ca05175">Across the Ettenmoors</card>
     <card qty="1" id="dd28d391-8eca-4a12-9455-3d705adb46a5">Isolated</card>
+    <card qty="1" id="00a0a007-10dd-4a05-bedf-3a4e8ff972dc">Rescue from the Trolls</card>
     <card qty="1" id="397ef92c-981b-4495-a2a0-681ea886d30c">Lie Low</card>
     <card qty="1" id="b793d1f1-012e-4e13-aad0-d91833f6f8c6">Forage for Food</card>
     <card qty="1" id="c898c9f0-d4a7-4821-b075-1e412cde86a7">Scavenge for Supplies</card>

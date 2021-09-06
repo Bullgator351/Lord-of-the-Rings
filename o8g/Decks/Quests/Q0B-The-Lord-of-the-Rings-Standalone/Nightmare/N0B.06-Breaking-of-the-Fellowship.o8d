@@ -39,10 +39,6 @@
   <section name="Staging Setup" shared="True">
     <card qty="1" id="13a4b435-fa14-42b8-975e-804d3b8b929d">The Argonath</card>
     <card qty="1" id="d8cfafbd-7976-4a87-bdb3-a12c87503cd3">Sarn Gebir</card>
-    <card qty="1" id="37488d87-8c07-4f13-b354-66bbdc9e5263">Three Golden Hairs</card>
-    <card qty="1" id="14cbe0e1-0916-427f-8f19-abef59232dd2">Phial of Galadriel</card>
-    <card qty="1" id="8b15901c-c6b2-421e-8c6d-3200558e3609">Leaf-wrapped Lembas</card>
-    <card qty="1" id="606ee31e-a9cf-4ccf-8eed-003c006e5168">Lórien Rope</card>
     <card qty="1" id="f9196cda-8f50-4cc5-9aad-1c56cb677bca">Frodo Baggins</card>
     <card qty="1" id="ba2e4a33-edc6-4638-a3f5-b818b080aea8">The One Ring</card>
   </section>
