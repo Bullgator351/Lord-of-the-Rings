@@ -26,6 +26,7 @@
     <card qty="1" id="926a17c6-ea0b-43ba-925a-71ba5ef1ed77">Rocky Outcrop</card>
     <card qty="2" id="1f4cdef5-6847-4dd5-96b0-8ce03d21bd8d">Weary Lands</card>
     <card qty="2" id="37153373-7a82-484e-9aca-7ed47a6a7703">Painful Fatigue</card>
+    <card qty="1" id="c1ee0cb7-a209-44d6-8f35-8494a9e6cf1d">An Arduous Journey</card>
   </section>
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True" />
