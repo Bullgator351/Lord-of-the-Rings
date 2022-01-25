@@ -14,8 +14,8 @@
     <card qty="2" id="8d3c19e0-28f2-4a3d-91b2-8e9911ac4c91">Umbar Pirate Crew</card>
     <card qty="3" id="2c3f8a11-c7a5-4709-ab8d-7435763f558b">Haradrim Pirate</card>
     <card qty="2" id="a7ac2b78-52a7-4bd9-b37f-3d424876c7d8">Fell Folk of Umbar</card>
-    <card qty="2" id="1600dd03-7b19-4dd2-924c-30c30b09cb9d">Black Sails</card>
-    <card qty="3" id="a7a8a783-8a22-49fd-a1b7-42e92a44f78c">Raiding the Coasts</card>
+    <card qty="3" id="1600dd03-7b19-4dd2-924c-30c30b09cb9d">Black Sails</card>
+    <card qty="2" id="a7a8a783-8a22-49fd-a1b7-42e92a44f78c">Raiding the Coasts</card>
     <card qty="2" id="1db13c26-879b-49cd-9f94-8ba1a0c4f5a4">Driven to the Brink</card>
   </section>
   <section name="Setup" shared="True">
